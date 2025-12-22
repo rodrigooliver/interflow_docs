@@ -48,6 +48,13 @@ function getSidebar(lang: string = '') {
         items: [
           { text: lang === 'en' ? 'Customer Management' : lang === 'es' ? 'Gestión de Clientes' : 'Gerenciamento de Clientes', link: `${prefix}/guide/crm/customers` }
         ]
+      },
+      {
+        text: lang === 'en' ? '🔌 Integrations' : lang === 'es' ? '🔌 Integraciones' : '🔌 Integrações',
+        collapsed: false,
+        items: [
+          { text: 'OpenAI', link: `${prefix}/guide/integrations/openai` }
+        ]
       }
     ],
     [`${prefix}/api/`]: [

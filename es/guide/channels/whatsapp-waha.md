@@ -1,4 +1,4 @@
-# WhatsApp WAHA/Evolution
+# WhatsApp WAHA
 
 Conecte seu WhatsApp via QR Code para atendimento simplificado.
 
@@ -8,7 +8,7 @@ Esta documentação está em fase de atualização contínua.
 
 ## Visão Geral
 
-A integração via WAHA ou Evolution API permite usar seu número de WhatsApp comum na plataforma Interflow. É uma solução prática para pequenas e médias empresas.
+A integração via WAHA permite usar seu número de WhatsApp comum na plataforma Interflow. É uma solução prática para pequenas e médias empresas.
 
 ## Requisitos
 
@@ -40,7 +40,7 @@ Esta integração não é oficial da Meta e pode estar sujeita a bloqueios. Use 
 
 1. Na Interflow, vá em **Configurações** → **Canais**
 2. Clique em **"Adicionar canal"**
-3. Selecione **WhatsApp (WAHA)** ou **WhatsApp (Evolution)**
+3. Selecione **WhatsApp (WAHA)**
 
 ### Passo 2: Escanear QR Code
 
@@ -106,16 +106,6 @@ Se o canal desconectar:
 ::: tip DICA
 Se houver desconexões frequentes, verifique a conexão de internet do celular e considere migrar para WhatsApp Business API.
 :::
-
-## Diferenças entre WAHA e Evolution
-
-| Recurso | WAHA | Evolution |
-|---------|------|-----------|
-| Auto-hospedagem | ✅ Sim | ✅ Sim |
-| Grupos | ✅ | ✅ |
-| Status/Stories | ✅ | ✅ |
-| Múltiplas sessões | ✅ | ✅ |
-| Interface | API REST | API REST + UI |
 
 ## Solução de Problemas
 

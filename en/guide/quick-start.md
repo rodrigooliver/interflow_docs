@@ -8,7 +8,7 @@ Este guia vai te ajudar a configurar a Interflow em poucos minutos.
 
 ## Passo 1: Criar sua Conta
 
-Acesse [app.interflow.chat](https://app.interflow.chat) e clique em **"Criar conta"**.
+Acesse [app.interflow.chat/signup](https://app.interflow.chat/signup) e clique em **"Criar conta"**.
 
 <!-- Placeholder para screenshot -->
 <div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
@@ -61,7 +61,7 @@ Agora vamos conectar seu primeiro canal de atendimento.
 [Ver guia completo →](/guide/channels/whatsapp-business)
 :::
 
-::: details WhatsApp (WAHA/Evolution)
+::: details WhatsApp (WAHA)
 **Requisitos:**
 - Número de WhatsApp comum
 - Sessão mantida ativa

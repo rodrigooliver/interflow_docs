@@ -15,9 +15,6 @@ hero:
     - theme: alt
       text: API Reference
       link: /api/
-    - theme: alt
-      text: GitHub
-      link: https://github.com/rodrigooliver/interflow
 
 features:
   - icon: 💬
@@ -77,7 +74,7 @@ Siga estes passos para começar a usar a Interflow:
 
 <div class="tip custom-block" style="padding-top: 8px">
 
-1. **Crie sua conta** - Acesse [app.interflow.chat](https://app.interflow.chat) e registre-se
+1. **Crie sua conta** - Acesse [app.interflow.chat/signup](https://app.interflow.chat/signup) e registre-se
 2. **Configure sua organização** - Adicione informações da sua empresa
 3. **Conecte um canal** - Integre WhatsApp, Instagram ou outro canal
 4. **Convide sua equipe** - Adicione membros e defina permissões
@@ -93,11 +90,11 @@ Siga estes passos para começar a usar a Interflow:
 
 | Canal | Status | Recursos |
 |-------|--------|----------|
-| WhatsApp Business API | ✅ Disponível | Mensagens, mídia, templates, catálogos |
-| WhatsApp (WAHA/Evolution) | ✅ Disponível | Mensagens, mídia, grupos |
-| Instagram Direct | ✅ Disponível | Mensagens, stories, mídia |
-| Facebook Messenger | ✅ Disponível | Mensagens, mídia, automação |
-| Email (IMAP/SMTP) | ✅ Disponível | Envio, recebimento, anexos |
+| [WhatsApp Business API](/guide/channels/whatsapp-business) | ✅ Disponível | Mensagens, mídia, templates, catálogos |
+| [WhatsApp (WAHA)](/guide/channels/whatsapp-waha) | ✅ Disponível | Mensagens, mídia, grupos |
+| [Instagram Direct](/guide/channels/instagram) | ✅ Disponível | Mensagens, stories, mídia |
+| [Facebook Messenger](/guide/channels/facebook) | ✅ Disponível | Mensagens, mídia, automação |
+| [Email (IMAP/SMTP)](/guide/channels/email) | ✅ Disponível | Envio, recebimento, anexos |
 | Telegram | 🔜 Em breve | - |
 | SMS | 🔜 Em breve | - |
 
@@ -114,10 +111,13 @@ Siga estes passos para começar a usar a Interflow:
 - **Gestão de equipes** - Configurando permissões
 :::
 
-<!-- Placeholder para vídeo -->
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 60px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 48px;">▶️</span>
-  <p style="color: white; margin-top: 16px; font-size: 18px;">Vídeo de Introdução (Em breve)</p>
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; margin: 20px 0;">
+  <iframe 
+    src="https://www.youtube.com/embed/2aFW05fbZho" 
+    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+    allowfullscreen>
+  </iframe>
 </div>
 
 ---
@@ -173,5 +173,4 @@ Precisa de ajuda? Temos várias formas de suporte:
 - 📧 **Email**: suporte@interflow.chat
 - 💬 **Chat**: Disponível na plataforma
 - 📖 **Documentação**: Você está aqui!
-- 🐛 **Issues**: [GitHub Issues](https://github.com/rodrigooliver/interflow/issues)
 

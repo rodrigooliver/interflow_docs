@@ -19,7 +19,7 @@ Centralize todos os seus canais de comunicação em uma única plataforma.
 | Canal | Recursos | Status |
 |-------|----------|--------|
 | **WhatsApp Business API** | Mensagens, templates, catálogo, pagamentos | ✅ Disponível |
-| **WhatsApp WAHA/Evolution** | Mensagens, grupos, mídia | ✅ Disponível |
+| **WhatsApp WAHA** | Mensagens, grupos, mídia | ✅ Disponível |
 | **Instagram Direct** | Mensagens, stories, mídia | ✅ Disponível |
 | **Facebook Messenger** | Mensagens, mídia, automação | ✅ Disponível |
 | **Email** | IMAP/SMTP, anexos, threading | ✅ Disponível |

@@ -1,126 +1,116 @@
-# Canais de Atendimento
+# Support Channels
 
-Configure e gerencie seus canais de comunicação na Interflow.
+Configure and manage your communication channels in Interflow.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
-:::
+## Overview
 
-## Visão Geral
+Interflow supports multiple communication channels, allowing you to centralize all customer support in a single platform.
 
-A Interflow suporta múltiplos canais de comunicação, permitindo que você centralize todo o atendimento em uma única plataforma.
-
-## Canais Disponíveis
+## Available Channels
 
 ### 📱 WhatsApp
 
-| Integração | Descrição | Indicado para |
+| Integration | Description | Recommended for |
 |------------|-----------|---------------|
-| [WhatsApp Business API](/guide/channels/whatsapp-business) | Integração oficial da Meta | Empresas com alto volume |
-| [WhatsApp WAHA/Evolution](/guide/channels/whatsapp-waha) | Via sessão QR Code | Pequenas empresas |
+| [WhatsApp Business API](/en/guide/channels/whatsapp-business) | Official Meta integration | High volume companies |
+| [WhatsApp WAHA](/en/guide/channels/whatsapp-waha) | Via QR Code session | Small businesses |
 
 ### 📷 Instagram
 
-| Integração | Descrição |
+| Integration | Description |
 |------------|-----------|
-| [Instagram Direct](/guide/channels/instagram) | Mensagens diretas do Instagram |
+| [Instagram Direct](/en/guide/channels/instagram) | Instagram direct messages |
 
 ### 💬 Facebook
 
-| Integração | Descrição |
+| Integration | Description |
 |------------|-----------|
-| [Facebook Messenger](/guide/channels/facebook) | Mensagens da página do Facebook |
+| [Facebook Messenger](/en/guide/channels/facebook) | Facebook page messages |
 
 ### 📧 Email
 
-| Integração | Descrição |
+| Integration | Description |
 |------------|-----------|
-| [Email IMAP/SMTP](/guide/channels/email) | Integração com servidor de email |
+| [Email IMAP/SMTP](/en/guide/channels/email) | Email server integration |
 
 ---
 
-## Comparativo de Canais
+## Channel Comparison
 
-| Recurso | WhatsApp API | WhatsApp WAHA | Instagram | Facebook | Email |
+| Feature | WhatsApp API | WhatsApp WAHA | Instagram | Facebook | Email |
 |---------|--------------|---------------|-----------|----------|-------|
-| Mensagens de texto | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Imagens | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Vídeos | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Áudios | ✅ | ✅ | ❌ | ✅ | ❌ |
-| Documentos | ✅ | ✅ | ❌ | ✅ | ✅ |
-| Localização | ✅ | ✅ | ❌ | ❌ | ❌ |
+| Text messages | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Images | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Videos | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Audio | ✅ | ✅ | ❌ | ✅ | ❌ |
+| Documents | ✅ | ✅ | ❌ | ✅ | ✅ |
+| Location | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Templates | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Catálogo | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Grupos | ❌ | ✅ | ❌ | ❌ | ❌ |
-| Stories | ❌ | ✅ | ✅ | ✅ | ❌ |
+| Groups | ❌ | ✅ | ❌ | ❌ | ❌ |
 
 ---
 
-## Adicionando um Canal
+## Adding a Channel
 
-### Passo a Passo Geral
+### General Step by Step
 
-1. Acesse **Configurações** → **Canais**
-2. Clique em **"Adicionar canal"**
-3. Selecione o tipo de canal
-4. Siga as instruções específicas
-5. Teste a conexão
+1. In the left sidebar, click on **Channels**
+2. Click on **"Add channel"**
+3. Select the desired channel type
+4. Follow the specific instructions for each type
+5. Test the connection
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Lista de canais</p>
-</div>
+![Add channel](/images/guide/channels/add_channel_en.png)
 
 ---
 
-## Status dos Canais
+## Channel Status
 
-Cada canal possui indicadores de status:
+Each channel has status indicators:
 
-| Status | Significado |
+| Status | Meaning |
 |--------|-------------|
-| 🟢 **Conectado** | Canal funcionando normalmente |
-| 🟡 **Reconectando** | Tentando restabelecer conexão |
-| 🔴 **Desconectado** | Canal offline, precisa de ação |
+| 🟢 **Connected** | Channel working normally |
+| 🟡 **Reconnecting** | Trying to reestablish connection |
+| 🔴 **Disconnected** | Channel offline, needs action |
 
 ---
 
-## Próximos Passos
+## Next Steps
 
-Escolha o canal que deseja configurar:
+Choose the channel you want to configure:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0;">
 
-<a href="/guide/channels/whatsapp-business" style="text-decoration: none;">
+<a href="/en/guide/channels/whatsapp-business" style="text-decoration: none;">
   <div style="background: #25D366; border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📱</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">WhatsApp Business</p>
   </div>
 </a>
 
-<a href="/guide/channels/whatsapp-waha" style="text-decoration: none;">
+<a href="/en/guide/channels/whatsapp-waha" style="text-decoration: none;">
   <div style="background: #128C7E; border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📲</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">WhatsApp WAHA</p>
   </div>
 </a>
 
-<a href="/guide/channels/instagram" style="text-decoration: none;">
+<a href="/en/guide/channels/instagram" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #F77737 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📷</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Instagram</p>
   </div>
 </a>
 
-<a href="/guide/channels/facebook" style="text-decoration: none;">
+<a href="/en/guide/channels/facebook" style="text-decoration: none;">
   <div style="background: #1877F2; border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">💬</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Facebook</p>
   </div>
 </a>
 
-<a href="/guide/channels/email" style="text-decoration: none;">
+<a href="/en/guide/channels/email" style="text-decoration: none;">
   <div style="background: #EA4335; border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📧</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Email</p>
@@ -128,4 +118,3 @@ Escolha o canal que deseja configurar:
 </a>
 
 </div>
-

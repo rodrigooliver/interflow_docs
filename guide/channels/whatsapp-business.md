@@ -2,10 +2,6 @@
 
 Integre o WhatsApp Business API oficial da Meta para atendimento profissional.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
-:::
-
 ## Visão Geral
 
 O WhatsApp Business API é a solução oficial da Meta para empresas que precisam de atendimento em escala. É recomendado para operações com alto volume de mensagens.
@@ -25,7 +21,6 @@ Antes de começar, você precisa:
 | **Oficial** | Integração aprovada pela Meta |
 | **Estável** | Alta disponibilidade |
 | **Templates** | Mensagens ativas para clientes que não iniciaram conversa |
-| **Catálogo** | Exibição de produtos |
 | **Pagamentos** | Integração com pagamentos via WhatsApp |
 | **Multiagente** | Múltiplos atendentes simultâneos |
 
@@ -52,10 +47,11 @@ Antes de começar, você precisa:
 
 ### Passo 3: Conectar na Interflow
 
-1. Na Interflow, vá em **Configurações** → **Canais**
-2. Clique em **"Adicionar canal"** → **WhatsApp Business API**
-3. Siga o fluxo de autenticação
-4. Selecione o número que deseja conectar
+1. No menu lateral esquerdo, clique em **Canais**
+2. Clique em **"Adicionar canal"**
+3. Selecione o tipo **WhatsApp Oficial**
+4. Siga o fluxo de autenticação
+5. Selecione o número que deseja conectar
 
 <!-- Placeholder para vídeo -->
 <div style="background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
@@ -67,9 +63,17 @@ Antes de começar, você precisa:
 
 Para iniciar conversas com clientes que não te mandaram mensagem nas últimas 24h, você precisa usar templates aprovados.
 
+### Acessando Templates
+
+Os templates ficam disponíveis dentro da edição do canal. Para acessá-los:
+
+1. No menu lateral esquerdo, clique em **Canais**
+2. Clique no canal WhatsApp que deseja editar
+3. No header da página, clique em **Templates**
+
 ### Criando um Template
 
-1. Vá em **Configurações** → **Templates**
+1. Na aba **Templates** do canal
 2. Clique em **"Novo template"**
 3. Preencha os campos:
    - Nome do template
@@ -149,7 +153,6 @@ Motivos comuns:
 
 ## Próximos Passos
 
-- [Templates de Mensagem](/guide/chat/templates)
 - [Automação com Fluxos](/guide/flows/builder)
 - [Métricas de Atendimento](/guide/reports/support)
 

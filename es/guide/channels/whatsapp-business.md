@@ -1,41 +1,36 @@
 # WhatsApp Business API
 
-Integre o WhatsApp Business API oficial da Meta para atendimento profissional.
+Integra la API oficial de WhatsApp Business de Meta para atención profesional.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
-:::
+## Visión General
 
-## Visão Geral
-
-O WhatsApp Business API é a solução oficial da Meta para empresas que precisam de atendimento em escala. É recomendado para operações com alto volume de mensagens.
+WhatsApp Business API es la solución oficial de Meta para empresas que necesitan atención a escala. Es recomendado para operaciones con alto volumen de mensajes.
 
 ## Requisitos
 
-Antes de começar, você precisa:
+Antes de comenzar, necesitas:
 
-- [x] **Conta Meta Business verificada**
-- [x] **Número de telefone dedicado** (não pode estar em uso no WhatsApp comum)
-- [x] **Documento da empresa** (CNPJ ou equivalente)
+- [x] **Cuenta Meta Business verificada**
+- [x] **Número de teléfono dedicado** (no puede estar en uso en WhatsApp común)
+- [x] **Documento de la empresa** (Registro empresarial o equivalente)
 
-## Vantagens
+## Ventajas
 
-| Recurso | Descrição |
+| Recurso | Descripción |
 |---------|-----------|
-| **Oficial** | Integração aprovada pela Meta |
-| **Estável** | Alta disponibilidade |
-| **Templates** | Mensagens ativas para clientes que não iniciaram conversa |
-| **Catálogo** | Exibição de produtos |
-| **Pagamentos** | Integração com pagamentos via WhatsApp |
-| **Multiagente** | Múltiplos atendentes simultâneos |
+| **Oficial** | Integración aprobada por Meta |
+| **Estable** | Alta disponibilidad |
+| **Templates** | Mensajes activos para clientes que no iniciaron conversación |
+| **Pagos** | Integración con pagos vía WhatsApp |
+| **Multiagente** | Múltiples agentes simultáneos |
 
-## Configuração
+## Configuración
 
-### Passo 1: Criar Conta no Meta Business Suite
+### Paso 1: Crear Cuenta en Meta Business Suite
 
-1. Acesse [business.facebook.com](https://business.facebook.com)
-2. Crie uma conta Meta Business
-3. Complete a verificação do negócio
+1. Accede a [business.facebook.com](https://business.facebook.com)
+2. Crea una cuenta Meta Business
+3. Completa la verificación del negocio
 
 <!-- Placeholder para screenshot -->
 <div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
@@ -43,113 +38,120 @@ Antes de começar, você precisa:
   <p style="color: #666; margin-top: 8px;">Screenshot: Meta Business Suite</p>
 </div>
 
-### Passo 2: Configurar WhatsApp Business
+### Paso 2: Configurar WhatsApp Business
 
-1. No Meta Business Suite, vá em **Contas** → **Contas do WhatsApp**
-2. Adicione uma nova conta do WhatsApp Business
-3. Registre seu número de telefone
-4. Complete a verificação
+1. En Meta Business Suite, ve a **Cuentas** → **Cuentas de WhatsApp**
+2. Agrega una nueva cuenta de WhatsApp Business
+3. Registra tu número de teléfono
+4. Completa la verificación
 
-### Passo 3: Conectar na Interflow
+### Paso 3: Conectar en Interflow
 
-1. Na Interflow, vá em **Configurações** → **Canais**
-2. Clique em **"Adicionar canal"** → **WhatsApp Business API**
-3. Siga o fluxo de autenticação
-4. Selecione o número que deseja conectar
+1. En el menú lateral izquierdo, haz clic en **Canales**
+2. Haz clic en **"Agregar canal"**
+3. Selecciona el tipo **WhatsApp Oficial**
+4. Sigue el flujo de autenticación
+5. Selecciona el número que deseas conectar
 
-<!-- Placeholder para vídeo -->
+<!-- Placeholder para video -->
 <div style="background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
   <span style="color: white; font-size: 48px;">▶️</span>
-  <p style="color: white; margin-top: 8px; font-size: 18px;">Vídeo: Configurando WhatsApp Business API (em breve)</p>
+  <p style="color: white; margin-top: 8px; font-size: 18px;">Video: Configurando WhatsApp Business API (próximamente)</p>
 </div>
 
-## Templates de Mensagem
+## Templates de Mensaje
 
-Para iniciar conversas com clientes que não te mandaram mensagem nas últimas 24h, você precisa usar templates aprovados.
+Para iniciar conversaciones con clientes que no te han enviado mensaje en las últimas 24h, necesitas usar templates aprobados.
 
-### Criando um Template
+### Accediendo a Templates
 
-1. Vá em **Configurações** → **Templates**
-2. Clique em **"Novo template"**
-3. Preencha os campos:
-   - Nome do template
-   - Categoria (Marketing, Utilitário, Autenticação)
+Los templates están disponibles dentro de la edición del canal. Para accederlos:
+
+1. En el menú lateral izquierdo, haz clic en **Canales**
+2. Haz clic en el canal WhatsApp que deseas editar
+3. En el header de la página, haz clic en **Templates**
+
+### Creando un Template
+
+1. En la pestaña **Templates** del canal
+2. Haz clic en **"Nuevo template"**
+3. Completa los campos:
+   - Nombre del template
+   - Categoría (Marketing, Utilitario, Autenticación)
    - Idioma
-   - Conteúdo da mensagem
-4. Submeta para aprovação
+   - Contenido del mensaje
+4. Envía para aprobación
 
-### Exemplo de Template
+### Ejemplo de Template
 
 ```
-Olá {{1}},
+Hola {{1}},
 
-Seu pedido #{{2}} foi confirmado e será enviado em breve.
+Tu pedido #{{2}} ha sido confirmado y será enviado pronto.
 
-Acompanhe em: {{3}}
+Síguelo en: {{3}}
 
-Obrigado por comprar conosco!
+¡Gracias por comprar con nosotros!
 ```
 
-**Variáveis:**
-- `{{1}}` = Nome do cliente
-- `{{2}}` = Número do pedido
-- `{{3}}` = Link de rastreamento
+**Variables:**
+- `{{1}}` = Nombre del cliente
+- `{{2}}` = Número del pedido
+- `{{3}}` = Link de seguimiento
 
-### Status de Aprovação
+### Estado de Aprobación
 
-| Status | Significado |
+| Estado | Significado |
 |--------|-------------|
-| 🟡 **Pendente** | Em análise pela Meta |
-| 🟢 **Aprovado** | Pronto para uso |
-| 🔴 **Rejeitado** | Precisa de ajustes |
+| 🟡 **Pendiente** | En análisis por Meta |
+| 🟢 **Aprobado** | Listo para usar |
+| 🔴 **Rechazado** | Necesita ajustes |
 
-::: tip DICA
-Templates são aprovados mais rapidamente quando seguem as políticas da Meta. Evite linguagem promocional excessiva.
+::: tip CONSEJO
+Los templates son aprobados más rápidamente cuando siguen las políticas de Meta. Evita lenguaje promocional excesivo.
 :::
 
-## Janela de 24 Horas
+## Ventana de 24 Horas
 
-O WhatsApp Business API possui uma regra de janela de atendimento:
+WhatsApp Business API tiene una regla de ventana de atención:
 
-- **Dentro de 24h**: Você pode enviar qualquer mensagem
-- **Fora de 24h**: Apenas templates aprovados
+- **Dentro de 24h**: Puedes enviar cualquier mensaje
+- **Fuera de 24h**: Solo templates aprobados
 
 ```
-Cliente envia mensagem → Janela de 24h aberta → Conversação livre
+Cliente envía mensaje → Ventana de 24h abierta → Conversación libre
                                           ↓
-                              24h passam sem resposta
+                              24h pasan sin respuesta
                                           ↓
-                              Janela fecha → Apenas templates
+                              Ventana cierra → Solo templates
 ```
 
-## Custos
+## Costos
 
-O WhatsApp Business API possui custos por conversa. Verifique a tabela de preços atualizada em [developers.facebook.com/docs/whatsapp/pricing](https://developers.facebook.com/docs/whatsapp/pricing).
+WhatsApp Business API tiene costos por conversación. Consulta la tabla de precios actualizada en [developers.facebook.com/docs/whatsapp/pricing](https://developers.facebook.com/docs/whatsapp/pricing).
 
-## Solução de Problemas
+## Solución de Problemas
 
-### Número não conecta
+### Número no conecta
 
-1. Verifique se o número não está em outro WhatsApp
-2. Confirme que a verificação do negócio está completa
-3. Aguarde até 24h após a solicitação
+1. Verifica si el número no está en otro WhatsApp
+2. Confirma que la verificación del negocio está completa
+3. Espera hasta 24h después de la solicitud
 
-### Templates rejeitados
+### Templates rechazados
 
-Motivos comuns:
-- Conteúdo promocional em excesso
-- Falta de clareza no propósito
-- Uso de linguagem proibida
+Motivos comunes:
+- Contenido promocional en exceso
+- Falta de claridad en el propósito
+- Uso de lenguaje prohibido
 
-### Mensagens não entregam
+### Mensajes no se entregan
 
-- Verifique se o número do destinatário está correto
-- Confirme que o cliente tem WhatsApp ativo
-- Cheque se você está respeitando a janela de 24h
+- Verifica si el número del destinatario es correcto
+- Confirma que el cliente tiene WhatsApp activo
+- Revisa si estás respetando la ventana de 24h
 
-## Próximos Passos
+## Próximos Pasos
 
-- [Templates de Mensagem](/guide/chat/templates)
-- [Automação com Fluxos](/guide/flows/builder)
-- [Métricas de Atendimento](/guide/reports/support)
-
+- [Automatización con Flujos](/es/guide/flows/builder)
+- [Métricas de Atención](/es/guide/reports/support)

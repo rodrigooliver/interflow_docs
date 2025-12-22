@@ -97,5 +97,4 @@ Tem sugestões de funcionalidades? Entre em contato:
 
 - 📧 **Email**: feedback@interflow.chat
 - 💬 **Chat**: Através da plataforma
-- 🐛 **Issues**: [GitHub Issues](https://github.com/rodrigooliver/interflow/issues)
 

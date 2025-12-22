@@ -2,10 +2,6 @@
 
 Configure e gerencie seus canais de comunicação na Interflow.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
-:::
-
 ## Visão Geral
 
 A Interflow suporta múltiplos canais de comunicação, permitindo que você centralize todo o atendimento em uma única plataforma.
@@ -17,7 +13,7 @@ A Interflow suporta múltiplos canais de comunicação, permitindo que você cen
 | Integração | Descrição | Indicado para |
 |------------|-----------|---------------|
 | [WhatsApp Business API](/guide/channels/whatsapp-business) | Integração oficial da Meta | Empresas com alto volume |
-| [WhatsApp WAHA/Evolution](/guide/channels/whatsapp-waha) | Via sessão QR Code | Pequenas empresas |
+| [WhatsApp WAHA](/guide/channels/whatsapp-waha) | Via sessão QR Code | Pequenas empresas |
 
 ### 📷 Instagram
 
@@ -50,9 +46,7 @@ A Interflow suporta múltiplos canais de comunicação, permitindo que você cen
 | Documentos | ✅ | ✅ | ❌ | ✅ | ✅ |
 | Localização | ✅ | ✅ | ❌ | ❌ | ❌ |
 | Templates | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Catálogo | ✅ | ❌ | ❌ | ❌ | ❌ |
 | Grupos | ❌ | ✅ | ❌ | ❌ | ❌ |
-| Stories | ❌ | ✅ | ✅ | ✅ | ❌ |
 
 ---
 
@@ -60,17 +54,13 @@ A Interflow suporta múltiplos canais de comunicação, permitindo que você cen
 
 ### Passo a Passo Geral
 
-1. Acesse **Configurações** → **Canais**
+1. No menu lateral esquerdo, clique em **Canais**
 2. Clique em **"Adicionar canal"**
-3. Selecione o tipo de canal
-4. Siga as instruções específicas
+3. Selecione o tipo de canal desejado
+4. Siga as instruções específicas de cada tipo
 5. Teste a conexão
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Lista de canais</p>
-</div>
+![Adicionar canal](/images/guide/channels/add_channel_pt.png)
 
 ---
 

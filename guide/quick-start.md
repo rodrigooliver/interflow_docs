@@ -8,7 +8,7 @@ Este guia vai te ajudar a configurar a Interflow em poucos minutos.
 
 ## Passo 1: Criar sua Conta
 
-Acesse [app.interflow.chat](https://app.interflow.chat) e clique em **"Criar conta"**.
+Acesse [app.interflow.chat/signup](https://app.interflow.chat/signup) para iniciar o cadastro.
 
 <!-- Placeholder para screenshot -->
 <div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
@@ -19,29 +19,13 @@ Acesse [app.interflow.chat](https://app.interflow.chat) e clique em **"Criar con
 Preencha os seguintes dados:
 - **Nome completo**
 - **Email** (será usado para login)
+- **Telefone** (número válido para verificação)
 - **Senha** (mínimo 8 caracteres)
+- **Nome da organização** (nome que aparecerá na plataforma)
 
 Após confirmar seu email, você terá acesso ao painel.
 
-## Passo 2: Configurar sua Organização
-
-Na primeira vez que acessar, você será guiado para criar sua organização.
-
-### Informações necessárias:
-
-| Campo | Descrição | Exemplo |
-|-------|-----------|---------|
-| Nome da empresa | Nome que aparecerá na plataforma | "Minha Empresa LTDA" |
-| Slug | Identificador único (URL) | "minha-empresa" |
-| Fuso horário | Para agendamentos e relatórios | "America/Sao_Paulo" |
-
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Configuração da organização</p>
-</div>
-
-## Passo 3: Conectar um Canal
+## Passo 2: Conectar um Canal
 
 Agora vamos conectar seu primeiro canal de atendimento.
 
@@ -61,7 +45,7 @@ Agora vamos conectar seu primeiro canal de atendimento.
 [Ver guia completo →](/guide/channels/whatsapp-business)
 :::
 
-::: details WhatsApp (WAHA/Evolution)
+::: details WhatsApp (WAHA)
 **Requisitos:**
 - Número de WhatsApp comum
 - Sessão mantida ativa
@@ -95,6 +79,32 @@ Agora vamos conectar seu primeiro canal de atendimento.
 - Credenciais de acesso
 
 [Ver guia completo →](/guide/channels/email)
+:::
+
+## Passo 3: Configurar Agente IA (Opcional)
+
+Configure um agente de inteligência artificial para automatizar e auxiliar no atendimento.
+
+1. Vá em **Agente IA** no menu lateral
+2. Escolha uma das opções de configuração:
+
+### Opções de criação:
+
+| Método | Descrição |
+|--------|-----------|
+| **Prompt Manual** | Escreva diretamente as instruções e comportamento do agente |
+| **Assistente Guiado** | Responda perguntas e deixe a IA criar o prompt automaticamente |
+
+<!-- Placeholder para screenshot -->
+<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
+  <span style="font-size: 48px;">📸</span>
+  <p style="color: #666; margin-top: 8px;">Screenshot: Configuração do Agente IA</p>
+</div>
+
+::: info TOKENS INCLUSOS
+De acordo com seu plano, você tem acesso a **tokens a partir de 2 milhões por mês**. Se esse limite não for suficiente para sua operação, você pode conectar sua própria conta OpenAI.
+
+[Saiba como integrar sua conta OpenAI →](/guide/integrations/openai)
 :::
 
 ## Passo 4: Convidar sua Equipe
@@ -167,8 +177,8 @@ Automatize o atendimento com um fluxo simples:
 Antes de começar a atender, verifique:
 
 - [x] Conta criada e email confirmado
-- [x] Organização configurada
 - [x] Pelo menos um canal conectado
+- [x] Agente IA configurado (opcional)
 - [x] Equipe convidada (se aplicável)
 - [x] Respostas rápidas configuradas
 - [x] Fluxo de boas-vindas criado
