@@ -11,9 +11,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Introduction' : lang === 'es' ? 'Introducción' : 'Introdução', link: `${prefix}/guide/introduction` },
-          { text: lang === 'en' ? 'Quick Start' : lang === 'es' ? 'Inicio Rápido' : 'Início Rápido', link: `${prefix}/guide/quick-start` },
-          { text: lang === 'en' ? 'Creating Your Account' : lang === 'es' ? 'Creando tu Cuenta' : 'Criando sua Conta', link: `${prefix}/guide/creating-account` },
-          { text: lang === 'en' ? 'Initial Setup' : lang === 'es' ? 'Configuración Inicial' : 'Configuração Inicial', link: `${prefix}/guide/initial-setup` }
+          { text: lang === 'en' ? 'Quick Start' : lang === 'es' ? 'Inicio Rápido' : 'Início Rápido', link: `${prefix}/guide/quick-start` }
         ]
       },
       {

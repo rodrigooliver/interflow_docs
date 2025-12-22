@@ -2,9 +2,6 @@
 
 Bem-vindo à documentação oficial da **Interflow** – sua plataforma completa de atendimento multicanal e CRM.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua. Novas seções são adicionadas regularmente.
-:::
 
 ## O que é a Interflow?
 
@@ -17,10 +14,7 @@ A Interflow é uma plataforma SaaS que centraliza todos os seus canais de comuni
 - **Controlar finanças** da sua operação
 - **Analisar métricas** com dashboards em tempo real
 
-<!-- Placeholder para screenshot -->
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 100px 20px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 24px;">📸 Screenshot da interface principal (em breve)</span>
-</div>
+![Interface principal da Interflow](/images/guide/dashboard/dashboard_pt.png)
 
 ## Para quem é a Interflow?
 
@@ -69,10 +63,7 @@ Construa automações visuais sem precisar programar. Nosso editor drag-and-drop
 - Integração com APIs externas
 - Ações de CRM
 
-<!-- Placeholder para screenshot do construtor de fluxos -->
-<div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 12px; padding: 80px 20px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 24px;">📸 Construtor de Fluxos (em breve)</span>
-</div>
+![Construtor de Fluxos](/images/guide/flows/flow_pt.png)
 
 ### 👥 CRM Integrado
 
@@ -157,14 +148,6 @@ Para operações que precisam de vendas diretas, nosso PDV integrado oferece:
 - Conexão com internet estável
 - Conta na plataforma Interflow
 
-### Para desenvolvedores (self-hosted)
-
-| Requisito | Versão mínima |
-|-----------|---------------|
-| Node.js | 18+ |
-| PostgreSQL | 15+ |
-| NPM ou Yarn | Última versão |
-
 ## Próximos Passos
 
 Agora que você conhece a Interflow, siga para o próximo passo:
@@ -178,10 +161,10 @@ Agora que você conhece a Interflow, siga para o próximo passo:
   </div>
 </a>
 
-<a href="/guide/creating-account" style="text-decoration: none;">
+<a href="/guide/channels/" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">📝</span>
-    <p style="color: white; margin-top: 8px; font-weight: bold;">Criar Conta</p>
+    <span style="color: white; font-size: 32px;">📱</span>
+    <p style="color: white; margin-top: 8px; font-weight: bold;">Conectar Canais</p>
   </div>
 </a>
 

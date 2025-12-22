@@ -1,213 +1,213 @@
-# Início Rápido
+# Inicio Rápido
 
-Este guia vai te ajudar a configurar a Interflow em poucos minutos.
+Esta guía te ayudará a configurar Interflow en pocos minutos.
 
-::: tip TEMPO ESTIMADO
-⏱️ **5-10 minutos** para configuração básica
+::: tip TIEMPO ESTIMADO
+⏱️ **5-10 minutos** para configuración básica
 :::
 
-## Passo 1: Criar sua Conta
+## Paso 1: Crear tu Cuenta
 
-Acesse [app.interflow.chat/signup](https://app.interflow.chat/signup) e clique em **"Criar conta"**.
+Accede a [app.interflow.chat/signup](https://app.interflow.chat/signup) para iniciar el registro.
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Tela de cadastro</p>
-</div>
+![Pantalla de registro](/images/guide/dashboard/signup_es.png)
 
-Preencha os seguintes dados:
-- **Nome completo**
-- **Email** (será usado para login)
-- **Senha** (mínimo 8 caracteres)
+Completa los siguientes datos:
+- **Nombre completo**
+- **Nombre de la organización** (nombre que aparecerá en la plataforma)
+- **Email** (se usará para iniciar sesión)
+- **WhatsApp** (número válido para verificación)
+- **Contraseña** (mínimo 8 caracteres)
 
-Após confirmar seu email, você terá acesso ao painel.
+Después de confirmar tu email, tendrás acceso al panel.
 
-## Passo 2: Configurar sua Organização
+## Paso 2: Conectar un Canal
 
-Na primeira vez que acessar, você será guiado para criar sua organização.
+Ahora vamos a conectar tu primer canal de atención.
 
-### Informações necessárias:
-
-| Campo | Descrição | Exemplo |
-|-------|-----------|---------|
-| Nome da empresa | Nome que aparecerá na plataforma | "Minha Empresa LTDA" |
-| Slug | Identificador único (URL) | "minha-empresa" |
-| Fuso horário | Para agendamentos e relatórios | "America/Sao_Paulo" |
-
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Configuração da organização</p>
-</div>
-
-## Passo 3: Conectar um Canal
-
-Agora vamos conectar seu primeiro canal de atendimento.
-
-### Opções disponíveis:
+### Opciones disponibles:
 
 ::: details WhatsApp Business API (Recomendado)
 **Requisitos:**
-- Conta Meta Business verificada
-- Número de telefone dedicado
+- Cuenta Meta Business verificada
+- Número de teléfono dedicado
 
-**Vantagens:**
-- Oficial e estável
-- Mensagens em massa (templates)
-- Catálogo de produtos
-- Pagamentos
+**Ventajas:**
+- Oficial y estable
+- Mensajes masivos (templates)
+- Catálogo de productos
+- Pagos
 
-[Ver guia completo →](/guide/channels/whatsapp-business)
+[Ver guía completa →](/es/guide/channels/whatsapp-business)
 :::
 
 ::: details WhatsApp (WAHA)
 **Requisitos:**
-- Número de WhatsApp comum
-- Sessão mantida ativa
+- Número de WhatsApp común
+- Sesión mantenida activa
 
-**Vantagens:**
-- Configuração rápida
-- Sem custos de API
-- Funciona com número pessoal
+**Ventajas:**
+- Configuración rápida
+- Sin costos de API
+- Funciona con número personal
 
-[Ver guia completo →](/guide/channels/whatsapp-waha)
+[Ver guía completa →](/es/guide/channels/whatsapp-waha)
 :::
 
 ::: details Instagram
 **Requisitos:**
-- Conta Business ou Creator
-- Página do Facebook vinculada
+- Cuenta Business o Creator
+- Página de Facebook vinculada
 
-[Ver guia completo →](/guide/channels/instagram)
+[Ver guía completa →](/es/guide/channels/instagram)
 :::
 
 ::: details Facebook Messenger
 **Requisitos:**
-- Página do Facebook
+- Página de Facebook
 
-[Ver guia completo →](/guide/channels/facebook)
+[Ver guía completa →](/es/guide/channels/facebook)
 :::
 
 ::: details Email
 **Requisitos:**
 - Servidor IMAP/SMTP
-- Credenciais de acesso
+- Credenciales de acceso
 
-[Ver guia completo →](/guide/channels/email)
+[Ver guía completa →](/es/guide/channels/email)
 :::
 
-## Passo 4: Convidar sua Equipe
+## Paso 3: Configurar Agente IA (Opcional)
 
-Adicione membros da sua equipe para começar a atender.
+Configura un agente de inteligencia artificial para automatizar y asistir en la atención.
 
-1. Vá em **Configurações** → **Equipe**
-2. Clique em **"Convidar membro"**
-3. Informe o email e selecione o perfil de acesso
+1. Ve a **Agente IA** en el menú lateral
+2. Elige una de las opciones de configuración:
 
-### Perfis disponíveis:
+### Opciones de creación:
 
-| Perfil | Permissões |
-|--------|------------|
-| **Administrador** | Acesso total à organização |
-| **Gerente** | Gerencia equipes e visualiza relatórios |
-| **Atendente** | Atende conversas e acessa CRM |
-| **Personalizado** | Permissões configuráveis |
+| Método | Descripción |
+|--------|-------------|
+| **Prompt Manual** | Escribe directamente las instrucciones y comportamiento del agente |
+| **Asistente Guiado** | Responde preguntas y deja que la IA cree el prompt automáticamente |
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Convite de equipe</p>
-</div>
+![Configuración del Agente IA](/images/guide/agentIA/agent_ia_es.png)
 
-## Passo 5: Personalizar Atendimento
+::: info TOKENS INCLUIDOS
+Según tu plan, tienes acceso a **tokens a partir de 2 millones por mes**. Si este límite no es suficiente para tu operación, puedes conectar tu propia cuenta de OpenAI.
 
-### Respostas Rápidas
+[Aprende cómo integrar tu cuenta OpenAI →](/es/guide/integrations/openai)
+:::
 
-Configure mensagens prontas para agilizar o atendimento:
+## Paso 4: Invitar a tu Equipo
 
-1. Vá em **Configurações** → **Respostas Rápidas**
-2. Clique em **"Nova resposta"**
-3. Defina um atalho (ex: `/ola`) e a mensagem
+Agrega miembros de tu equipo para comenzar a atender.
 
-**Exemplo:**
+1. Ve a **Usuarios** en el menú lateral izquierdo
+2. Haz clic en **"Invitar Equipo"**
+3. Ingresa el email y selecciona el perfil de acceso
+
+### Perfiles disponibles:
+
+| Perfil | Permisos |
+|--------|----------|
+| **Administrador** | Acceso total a la organización |
+| **Gerente** | Gestiona equipos y visualiza reportes |
+| **Agente** | Atiende conversaciones y accede al CRM |
+| **Personalizado** | Permisos configurables |
+
+![Invitación de equipo](/images/guide/users/users_es.png)
+
+## Paso 5: Personalizar Atención
+
+### Atajos (Respuestas Rápidas)
+
+Configura mensajes listos para agilizar la atención:
+
+1. Ve a **Atajos** en el menú lateral izquierdo
+2. Haz clic en **"Nuevo atajo"**
+3. Define el **Atajo** (ej: `hola`) y el **Contenido** del mensaje
+
+::: tip VARIABLES DISPONIBLES
+Usa variables para personalizar tus mensajes automáticamente:
+
+**Sistema:**
+- <code v-pre>{{greeting}}</code> - Saludo basado en la hora (Buenos días, Buenas tardes, Buenas noches)
+
+**Cliente:**
+- <code v-pre>{{customer.name}}</code> - Nombre completo del cliente
+- <code v-pre>{{customer.firstName}}</code> - Primer nombre del cliente
+:::
+
+**Ejemplo:**
+```txt
+Atajo: hola
+Contenido: {{greeting}}, {{customer.firstName}}! 👋 
+¿Cómo puedo ayudarte hoy?
 ```
-Atalho: /ola
-Mensagem: Olá! 👋 Bem-vindo ao atendimento da {empresa}. 
-Como posso ajudá-lo hoje?
-```
 
-### Templates de Mensagem (WhatsApp Business API)
+::: info ADJUNTOS
+También puedes agregar archivos multimedia a los atajos: **imágenes**, **videos**, **audios** y **PDFs**.
+:::
 
-Para mensagens ativas (iniciar conversa), você precisa de templates aprovados:
+## Paso 6: Crear tu Primer Flujo
 
-1. Vá em **Configurações** → **Templates**
-2. Crie um template seguindo as diretrizes da Meta
-3. Aguarde aprovação (geralmente 24-48h)
+Automatiza la atención con un flujo simple:
 
-## Passo 6: Criar seu Primeiro Fluxo
+1. Ve a **Flujos** → **"Nuevo flujo"**
+2. Arrastra un nodo de **"Enviar texto"** al canvas
+3. Configura el mensaje de bienvenida
+4. Usa la opción **"Transformar en lista"** dentro del nodo para crear un menú de opciones
+5. Conecta los caminos a las acciones deseadas
+6. **Guarda y activa** el flujo
 
-Automatize o atendimento com um fluxo simples:
+![Constructor de Flujos](/images/guide/flows/flow_es.png)
 
-1. Vá em **Fluxos** → **"Novo fluxo"**
-2. Arraste um nó de **"Mensagem"** para o canvas
-3. Configure a mensagem de boas-vindas
-4. Adicione opções com **"Menu"**
-5. Conecte os caminhos às ações desejadas
-6. **Salve e ative** o fluxo
+## Verificación Final
 
-<!-- Placeholder para vídeo -->
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 48px;">▶️</span>
-  <p style="color: white; margin-top: 8px; font-size: 18px;">Vídeo: Criando seu primeiro fluxo (em breve)</p>
-</div>
+Antes de comenzar a atender, verifica:
 
-## Verificação Final
+- [x] Cuenta creada y email confirmado
+- [x] Al menos un canal conectado
+- [x] Agente IA configurado (opcional)
+- [x] Equipo invitado (si aplica)
+- [x] Respuestas rápidas configuradas
+- [x] Flujo de bienvenida creado
 
-Antes de começar a atender, verifique:
-
-- [x] Conta criada e email confirmado
-- [x] Organização configurada
-- [x] Pelo menos um canal conectado
-- [x] Equipe convidada (se aplicável)
-- [x] Respostas rápidas configuradas
-- [x] Fluxo de boas-vindas criado
-
-## Próximos Passos
+## Próximos Pasos
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin: 20px 0;">
 
-<a href="/guide/chat/interface" style="text-decoration: none;">
-  <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
+<a href="/es/guide/channels/" style="text-decoration: none;">
+  <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
+    <span style="font-size: 24px;">📱</span>
+    <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Canales de Atención</h4>
+    <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Conecta WhatsApp, Instagram y más</p>
+  </div>
+</a>
+
+<a href="/es/guide/chat/interface" style="text-decoration: none;">
+  <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
     <span style="font-size: 24px;">💬</span>
-    <h4 style="margin: 8px 0 4px 0;">Interface de Chat</h4>
-    <p style="color: #666; font-size: 14px; margin: 0;">Aprenda a usar a interface de atendimento</p>
+    <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Interfaz de Chat</h4>
+    <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Aprende a usar la interfaz de atención</p>
   </div>
 </a>
 
-<a href="/guide/flows/builder" style="text-decoration: none;">
-  <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
+<a href="/es/guide/flows/builder" style="text-decoration: none;">
+  <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
     <span style="font-size: 24px;">🤖</span>
-    <h4 style="margin: 8px 0 4px 0;">Construtor de Fluxos</h4>
-    <p style="color: #666; font-size: 14px; margin: 0;">Domine a automação de atendimento</p>
-  </div>
-</a>
-
-<a href="/guide/crm/customers" style="text-decoration: none;">
-  <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">👥</span>
-    <h4 style="margin: 8px 0 4px 0;">CRM e Clientes</h4>
-    <p style="color: #666; font-size: 14px; margin: 0;">Gerencie seus contatos</p>
+    <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Constructor de Flujos</h4>
+    <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Domina la automatización de atención</p>
   </div>
 </a>
 
 </div>
 
-## Precisa de Ajuda?
+## ¿Necesitas Ayuda?
 
-Se tiver dúvidas durante a configuração:
+Si tienes dudas durante la configuración:
 
 - 📧 **Email**: suporte@interflow.chat
-- 💬 **Chat**: Disponível na plataforma
-- 📖 **FAQ**: [Perguntas frequentes](/faq)
-
+- 💬 **Chat**: Disponible en la plataforma
+- 📖 **FAQ**: [Preguntas frecuentes](/es/faq)

@@ -10,18 +10,14 @@ Este guia vai te ajudar a configurar a Interflow em poucos minutos.
 
 Acesse [app.interflow.chat/signup](https://app.interflow.chat/signup) para iniciar o cadastro.
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Tela de cadastro</p>
-</div>
+![Tela de cadastro](/images/guide/dashboard/signup_pt.png)
 
 Preencha os seguintes dados:
 - **Nome completo**
-- **Email** (será usado para login)
-- **Telefone** (número válido para verificação)
-- **Senha** (mínimo 8 caracteres)
 - **Nome da organização** (nome que aparecerá na plataforma)
+- **Email** (será usado para login)
+- **WhatsApp** (número válido para verificação)
+- **Senha** (mínimo 8 caracteres)
 
 Após confirmar seu email, você terá acesso ao painel.
 
@@ -95,11 +91,7 @@ Configure um agente de inteligência artificial para automatizar e auxiliar no a
 | **Prompt Manual** | Escreva diretamente as instruções e comportamento do agente |
 | **Assistente Guiado** | Responda perguntas e deixe a IA criar o prompt automaticamente |
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Configuração do Agente IA</p>
-</div>
+![Configuração do Agente IA](/images/guide/agentIA/agent_ia_pt.png)
 
 ::: info TOKENS INCLUSOS
 De acordo com seu plano, você tem acesso a **tokens a partir de 2 milhões por mês**. Se esse limite não for suficiente para sua operação, você pode conectar sua própria conta OpenAI.
@@ -111,8 +103,8 @@ De acordo com seu plano, você tem acesso a **tokens a partir de 2 milhões por 
 
 Adicione membros da sua equipe para começar a atender.
 
-1. Vá em **Configurações** → **Equipe**
-2. Clique em **"Convidar membro"**
+1. Vá em **Usuários** no menu lateral esquerdo
+2. Clique em **"Convidar Equipe"**
 3. Informe o email e selecione o perfil de acesso
 
 ### Perfis disponíveis:
@@ -124,53 +116,52 @@ Adicione membros da sua equipe para começar a atender.
 | **Atendente** | Atende conversas e acessa CRM |
 | **Personalizado** | Permissões configuráveis |
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Convite de equipe</p>
-</div>
+![Convite de equipe](/images/guide/users/users_pt.png)
 
 ## Passo 5: Personalizar Atendimento
 
-### Respostas Rápidas
+### Atalhos (Respostas Rápidas)
 
 Configure mensagens prontas para agilizar o atendimento:
 
-1. Vá em **Configurações** → **Respostas Rápidas**
-2. Clique em **"Nova resposta"**
-3. Defina um atalho (ex: `/ola`) e a mensagem
+1. Vá em **Atalhos** no menu lateral esquerdo
+2. Clique em **"Novo atalho"**
+3. Defina o **Atalho** (ex: `ola`) e o **Conteúdo** da mensagem
+
+::: tip VARIÁVEIS DISPONÍVEIS
+Use variáveis para personalizar suas mensagens automaticamente:
+
+**Sistema:**
+- <code v-pre>{{greeting}}</code> - Saudação baseada no horário (Bom dia, Boa tarde, Boa noite)
+
+**Cliente:**
+- <code v-pre>{{customer.name}}</code> - Nome completo do cliente
+- <code v-pre>{{customer.firstName}}</code> - Primeiro nome do cliente
+:::
 
 **Exemplo:**
-```
-Atalho: /ola
-Mensagem: Olá! 👋 Bem-vindo ao atendimento da {empresa}. 
+```txt
+Atalho: ola
+Conteúdo: {{greeting}}, {{customer.firstName}}! 👋 
 Como posso ajudá-lo hoje?
 ```
 
-### Templates de Mensagem (WhatsApp Business API)
-
-Para mensagens ativas (iniciar conversa), você precisa de templates aprovados:
-
-1. Vá em **Configurações** → **Templates**
-2. Crie um template seguindo as diretrizes da Meta
-3. Aguarde aprovação (geralmente 24-48h)
+::: info ANEXOS
+Você também pode adicionar arquivos de mídia aos atalhos: **imagens**, **vídeos**, **áudios** e **PDFs**.
+:::
 
 ## Passo 6: Criar seu Primeiro Fluxo
 
 Automatize o atendimento com um fluxo simples:
 
 1. Vá em **Fluxos** → **"Novo fluxo"**
-2. Arraste um nó de **"Mensagem"** para o canvas
+2. Arraste um nó de **"Enviar texto"** para o canvas
 3. Configure a mensagem de boas-vindas
-4. Adicione opções com **"Menu"**
+4. Use a opção **"Transformar em lista"** dentro do nó para criar um menu de opções
 5. Conecte os caminhos às ações desejadas
 6. **Salve e ative** o fluxo
 
-<!-- Placeholder para vídeo -->
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 48px;">▶️</span>
-  <p style="color: white; margin-top: 8px; font-size: 18px;">Vídeo: Criando seu primeiro fluxo (em breve)</p>
-</div>
+![Construtor de Fluxos](/images/guide/flows/flow_pt.png)
 
 ## Verificação Final
 
@@ -187,27 +178,27 @@ Antes de começar a atender, verifique:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin: 20px 0;">
 
+<a href="/guide/channels/" style="text-decoration: none;">
+  <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
+    <span style="font-size: 24px;">📱</span>
+    <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Canais de Atendimento</h4>
+    <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Conecte WhatsApp, Instagram e mais</p>
+  </div>
+</a>
+
 <a href="/guide/chat/interface" style="text-decoration: none;">
-  <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
+  <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
     <span style="font-size: 24px;">💬</span>
-    <h4 style="margin: 8px 0 4px 0;">Interface de Chat</h4>
-    <p style="color: #666; font-size: 14px; margin: 0;">Aprenda a usar a interface de atendimento</p>
+    <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Interface de Chat</h4>
+    <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Aprenda a usar a interface de atendimento</p>
   </div>
 </a>
 
 <a href="/guide/flows/builder" style="text-decoration: none;">
-  <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
+  <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
     <span style="font-size: 24px;">🤖</span>
-    <h4 style="margin: 8px 0 4px 0;">Construtor de Fluxos</h4>
-    <p style="color: #666; font-size: 14px; margin: 0;">Domine a automação de atendimento</p>
-  </div>
-</a>
-
-<a href="/guide/crm/customers" style="text-decoration: none;">
-  <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">👥</span>
-    <h4 style="margin: 8px 0 4px 0;">CRM e Clientes</h4>
-    <p style="color: #666; font-size: 14px; margin: 0;">Gerencie seus contatos</p>
+    <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Construtor de Fluxos</h4>
+    <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Domine a automação de atendimento</p>
   </div>
 </a>
 
