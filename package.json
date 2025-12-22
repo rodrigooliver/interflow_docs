@@ -1,0 +1,17 @@
+{
+  "name": "interflow-docs",
+  "version": "1.0.0",
+  "description": "Documentação oficial da Interflow",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.5.0",
+    "vue": "^3.5.13"
+  }
+}
+

@@ -1,0 +1,264 @@
+/* Cores customizadas */
+:root {
+  --vp-c-brand-1: #6366f1;
+  --vp-c-brand-2: #818cf8;
+  --vp-c-brand-3: #a855f7;
+  --vp-c-brand-soft: rgba(99, 102, 241, 0.14);
+  
+  /* Gradientes */
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #6366f1 30%, #a855f7);
+  --vp-home-hero-image-background-image: linear-gradient(-45deg, #6366f1 50%, #a855f7 50%);
+  --vp-home-hero-image-filter: blur(44px);
+}
+
+.dark {
+  --vp-c-brand-1: #818cf8;
+  --vp-c-brand-2: #a5b4fc;
+  --vp-c-brand-3: #c4b5fd;
+  --vp-c-brand-soft: rgba(129, 140, 248, 0.14);
+}
+
+/* Home hero adjustments */
+.VPHero .image-bg {
+  opacity: 0.8;
+}
+
+/* Feature cards */
+.VPFeature {
+  border-radius: 12px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.VPFeature:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar active state */
+.VPSidebarItem.is-active > .item > .link > .text {
+  color: var(--vp-c-brand-1);
+}
+
+/* Custom containers */
+.custom-block.tip {
+  border-color: var(--vp-c-brand-1);
+}
+
+.custom-block.warning {
+  border-color: #f59e0b;
+}
+
+.custom-block.danger {
+  border-color: #ef4444;
+}
+
+.custom-block.info {
+  border-color: #3b82f6;
+}
+
+/* Code blocks */
+.vp-code-group .tabs label {
+  font-size: 14px;
+}
+
+div[class*='language-'] {
+  border-radius: 8px;
+}
+
+/* Tables */
+table {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background: var(--vp-c-bg-soft);
+}
+
+/* Navigation */
+.VPNavBar {
+  backdrop-filter: blur(12px);
+}
+
+/* Footer */
+.VPFooter {
+  border-top: 1px solid var(--vp-c-divider);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--vp-c-bg-soft);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--vp-c-brand-soft);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--vp-c-brand-1);
+}
+
+/* Placeholder boxes for screenshots and videos */
+.placeholder-box {
+  background: linear-gradient(135deg, #f5f5f5 0%, #e0e0e0 100%);
+  border: 2px dashed #ccc;
+  border-radius: 12px;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.dark .placeholder-box {
+  background: linear-gradient(135deg, #2d2d2d 0%, #3d3d3d 100%);
+  border-color: #555;
+}
+
+/* Video placeholder */
+.video-placeholder {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+  padding: 60px 20px;
+  text-align: center;
+  margin: 20px 0;
+  color: white;
+}
+
+/* Cards grid */
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 16px;
+  margin: 20px 0;
+}
+
+.card {
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 20px;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+/* Badge */
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  font-size: 12px;
+  font-weight: 600;
+  border-radius: 4px;
+  margin-left: 8px;
+}
+
+.badge-new {
+  background: #10b981;
+  color: white;
+}
+
+.badge-beta {
+  background: #f59e0b;
+  color: white;
+}
+
+.badge-deprecated {
+  background: #ef4444;
+  color: white;
+}
+
+/* Status indicators */
+.status {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 14px;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+
+.status-active {
+  background: #10b981;
+}
+
+.status-pending {
+  background: #f59e0b;
+}
+
+.status-error {
+  background: #ef4444;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .VPHero .image {
+    max-width: 200px;
+  }
+  
+  .cards-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Print styles */
+@media print {
+  .VPNav,
+  .VPSidebar,
+  .VPFooter,
+  .edit-link,
+  .prev-next {
+    display: none !important;
+  }
+  
+  .VPContent {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+}
+
+/* Animation for update banner */
+@keyframes pulse {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.7;
+  }
+}
+
+.update-banner {
+  animation: pulse 2s infinite;
+}
+
+/* Channel icons colors */
+.channel-whatsapp {
+  color: #25D366;
+}
+
+.channel-instagram {
+  background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #F77737 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.channel-facebook {
+  color: #1877F2;
+}
+
+.channel-email {
+  color: #EA4335;
+}
+
