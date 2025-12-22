@@ -262,6 +262,9 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
   
+  // Ignora links para páginas que ainda não existem
+  ignoreDeadLinks: true,
+  
   markdown: {
     lineNumbers: true,
     image: {
