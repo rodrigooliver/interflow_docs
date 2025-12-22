@@ -37,7 +37,38 @@ function getSidebar(lang: string = '') {
         text: lang === 'en' ? '🤖 Automation & Flows' : lang === 'es' ? '🤖 Automatización y Flujos' : '🤖 Automação e Fluxos',
         collapsed: false,
         items: [
-          { text: lang === 'en' ? 'Flow Builder' : lang === 'es' ? 'Constructor de Flujos' : 'Construtor de Fluxos', link: `${prefix}/guide/flows/builder` }
+          { text: lang === 'en' ? 'Flow Builder' : lang === 'es' ? 'Constructor de Flujos' : 'Construtor de Fluxos', link: `${prefix}/guide/flows/builder` },
+          { 
+            text: lang === 'en' ? 'Node Types' : lang === 'es' ? 'Tipos de Nodos' : 'Tipos de Nós',
+            collapsed: true,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/flows/nodes/` },
+              { text: 'Start', link: `${prefix}/guide/flows/nodes/start` },
+              { text: lang === 'en' ? 'Text Message' : lang === 'es' ? 'Mensaje de Texto' : 'Mensagem de Texto', link: `${prefix}/guide/flows/nodes/text` },
+              { text: lang === 'en' ? 'Send Audio' : lang === 'es' ? 'Enviar Audio' : 'Enviar Áudio', link: `${prefix}/guide/flows/nodes/audio` },
+              { text: lang === 'en' ? 'Send Image' : lang === 'es' ? 'Enviar Imagen' : 'Enviar Imagem', link: `${prefix}/guide/flows/nodes/image` },
+              { text: lang === 'en' ? 'Send Video' : lang === 'es' ? 'Enviar Video' : 'Enviar Vídeo', link: `${prefix}/guide/flows/nodes/video` },
+              { text: lang === 'en' ? 'Send Document' : lang === 'es' ? 'Enviar Documento' : 'Enviar Documento', link: `${prefix}/guide/flows/nodes/document` },
+              { text: lang === 'en' ? 'Send Email' : lang === 'es' ? 'Enviar Email' : 'Enviar Email', link: `${prefix}/guide/flows/nodes/email` },
+              { text: 'Input', link: `${prefix}/guide/flows/nodes/input` },
+              { text: 'Delay', link: `${prefix}/guide/flows/nodes/delay` },
+              { text: lang === 'en' ? 'Variable' : lang === 'es' ? 'Variable' : 'Variável', link: `${prefix}/guide/flows/nodes/variable` },
+              { text: lang === 'en' ? 'Condition' : lang === 'es' ? 'Condición' : 'Condição', link: `${prefix}/guide/flows/nodes/condition` },
+              { text: lang === 'en' ? 'Random' : lang === 'es' ? 'Aleatorio' : 'Aleatório', link: `${prefix}/guide/flows/nodes/random` },
+              { text: lang === 'en' ? 'Update Customer' : lang === 'es' ? 'Actualizar Cliente' : 'Atualizar Cliente', link: `${prefix}/guide/flows/nodes/update-customer` },
+              { text: 'Jump To', link: `${prefix}/guide/flows/nodes/jump-to` },
+              { text: lang === 'en' ? 'System Message' : lang === 'es' ? 'Mensaje de Sistema' : 'Mensagem de Sistema', link: `${prefix}/guide/flows/nodes/system-message` },
+              { text: lang === 'en' ? 'Private Note' : lang === 'es' ? 'Nota Privada' : 'Nota Privada', link: `${prefix}/guide/flows/nodes/private-note` },
+              { text: lang === 'en' ? 'Close Attendance' : lang === 'es' ? 'Cerrar Atención' : 'Encerrar Atendimento', link: `${prefix}/guide/flows/nodes/close-attendance` },
+              { text: lang === 'en' ? 'AI Agent' : lang === 'es' ? 'Agente IA' : 'Agente IA', link: `${prefix}/guide/flows/nodes/agenteia` },
+              { text: 'OpenAI', link: `${prefix}/guide/flows/nodes/openai` },
+              { text: 'ElevenLabs TTS', link: `${prefix}/guide/flows/nodes/elevenlabs` },
+              { text: 'Minimax TTS', link: `${prefix}/guide/flows/nodes/minimax` },
+              { text: lang === 'en' ? 'HTTP Request' : lang === 'es' ? 'Solicitud HTTP' : 'Requisição HTTP', link: `${prefix}/guide/flows/nodes/request` },
+              { text: lang === 'en' ? 'Group' : lang === 'es' ? 'Grupo' : 'Grupo', link: `${prefix}/guide/flows/nodes/group` },
+              { text: 'POS', link: `${prefix}/guide/flows/nodes/pos` }
+            ]
+          }
         ]
       },
       {
