@@ -139,7 +139,7 @@ Se houver desconexões frequentes, verifique a conexão de internet do celular e
 
 ## Próximos Passos
 
-- [Interface de Chat](/guia/chat/interface)
-- [Automação com Fluxos](/guia/fluxos/construtor)
-- [Respostas Rápidas](/guia/chat/respostas-rapidas)
+- [Interface de Chat](/guide/chat/interface)
+- [Automação com Fluxos](/guide/flows/builder)
+- [Respostas Rápidas](/guide/chat/quick-replies)
 

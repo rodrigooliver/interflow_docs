@@ -38,7 +38,7 @@ Centralize todos os seus canais de comunicação em uma única plataforma.
   <span style="color: white; font-size: 24px;">📸 Interface de atendimento multicanal (em breve)</span>
 </div>
 
-[Saiba mais sobre canais →](/guia/canais/)
+[Saiba mais sobre canais →](/guide/channels/)
 
 ---
 
@@ -77,7 +77,7 @@ Editor visual drag-and-drop para criar automações complexas sem programar.
   <p style="color: white; margin-top: 8px; font-size: 18px;">Vídeo: Construtor de Fluxos (em breve)</p>
 </div>
 
-[Saiba mais sobre fluxos →](/guia/fluxos/construtor)
+[Saiba mais sobre fluxos →](/guide/flows/builder)
 
 ---
 
@@ -118,7 +118,7 @@ Gerencie seus clientes com recursos avançados de CRM.
   <p style="color: #666; margin-top: 8px;">Screenshot: Funil de vendas Kanban</p>
 </div>
 
-[Saiba mais sobre CRM →](/guia/crm/clientes)
+[Saiba mais sobre CRM →](/guide/crm/customers)
 
 ---
 
@@ -147,7 +147,7 @@ Sistema completo para gestão de agendamentos e calendários.
   <p style="color: #666; margin-top: 8px;">Screenshot: Calendário de agendamentos</p>
 </div>
 
-[Saiba mais sobre agendamentos →](/guia/agendamentos/calendario)
+[Saiba mais sobre agendamentos →](/guide/scheduling/calendar)
 
 ---
 
@@ -178,7 +178,7 @@ Controle completo das finanças da sua operação.
 - **Suprimentos** - Adições ao caixa
 - **Conferência** - Verifique diferenças
 
-[Saiba mais sobre financeiro →](/guia/financeiro/)
+[Saiba mais sobre financeiro →](/guide/financial/)
 
 ---
 
@@ -195,7 +195,7 @@ Módulo de vendas integrado ao atendimento.
 - **Recibos** - Emissão automática
 - **Comissões** - Controle comissões de vendedores
 
-[Saiba mais sobre PDV →](/guia/pdv/configuracao)
+[Saiba mais sobre PDV →](/guide/pos/setup)
 
 ---
 
@@ -222,7 +222,7 @@ Acompanhe métricas e tome decisões baseadas em dados.
   <p style="color: #666; margin-top: 8px;">Screenshot: Dashboard de relatórios</p>
 </div>
 
-[Saiba mais sobre relatórios →](/guia/relatorios/dashboard)
+[Saiba mais sobre relatórios →](/guide/reports/dashboard)
 
 ---
 

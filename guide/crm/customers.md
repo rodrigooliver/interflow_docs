@@ -180,7 +180,7 @@ Quando um cliente inicia uma conversa:
 
 ## Próximos Passos
 
-- [Campos Personalizados](/guia/crm/campos-personalizados)
-- [Tags e Segmentação](/guia/crm/tags)
-- [Funis de Venda](/guia/crm/funis)
+- [Campos Personalizados](/guide/crm/custom-fields)
+- [Tags e Segmentação](/guide/crm/tags)
+- [Funis de Venda](/guide/crm/funnels)
 

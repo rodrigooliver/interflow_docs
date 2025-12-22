@@ -167,7 +167,7 @@ Emails do mesmo assunto são agrupados automaticamente em uma conversa, facilita
 
 ## Próximos Passos
 
-- [Interface de Chat](/guia/chat/interface)
-- [Templates de Email](/guia/chat/templates)
-- [Configurar Outros Canais](/guia/canais/)
+- [Interface de Chat](/guide/chat/interface)
+- [Templates de Email](/guide/chat/templates)
+- [Configurar Outros Canais](/guide/channels/)
 

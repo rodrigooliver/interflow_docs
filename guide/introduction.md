@@ -171,14 +171,14 @@ Agora que você conhece a Interflow, siga para o próximo passo:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0;">
 
-<a href="/guia/inicio-rapido" style="text-decoration: none;">
+<a href="/guide/quick-start" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">🚀</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Início Rápido</p>
   </div>
 </a>
 
-<a href="/guia/criando-conta" style="text-decoration: none;">
+<a href="/guide/creating-account" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📝</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Criar Conta</p>

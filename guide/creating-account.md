@@ -155,21 +155,21 @@ Agora que sua conta está criada:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0;">
 
-<a href="/guia/configuracao-inicial" style="text-decoration: none;">
+<a href="/guide/initial-setup" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">⚙️</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Configuração Inicial</p>
   </div>
 </a>
 
-<a href="/guia/canais/" style="text-decoration: none;">
+<a href="/guide/channels/" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📱</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Conectar Canais</p>
   </div>
 </a>
 
-<a href="/guia/equipes/gerenciamento" style="text-decoration: none;">
+<a href="/guide/teams/management" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">👥</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Convidar Equipe</p>

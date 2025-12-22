@@ -16,26 +16,26 @@ A Interflow suporta múltiplos canais de comunicação, permitindo que você cen
 
 | Integração | Descrição | Indicado para |
 |------------|-----------|---------------|
-| [WhatsApp Business API](/guia/canais/whatsapp-business) | Integração oficial da Meta | Empresas com alto volume |
-| [WhatsApp WAHA/Evolution](/guia/canais/whatsapp-api) | Via sessão QR Code | Pequenas empresas |
+| [WhatsApp Business API](/guide/channels/whatsapp-business) | Integração oficial da Meta | Empresas com alto volume |
+| [WhatsApp WAHA/Evolution](/guide/channels/whatsapp-waha) | Via sessão QR Code | Pequenas empresas |
 
 ### 📷 Instagram
 
 | Integração | Descrição |
 |------------|-----------|
-| [Instagram Direct](/guia/canais/instagram) | Mensagens diretas do Instagram |
+| [Instagram Direct](/guide/channels/instagram) | Mensagens diretas do Instagram |
 
 ### 💬 Facebook
 
 | Integração | Descrição |
 |------------|-----------|
-| [Facebook Messenger](/guia/canais/facebook) | Mensagens da página do Facebook |
+| [Facebook Messenger](/guide/channels/facebook) | Mensagens da página do Facebook |
 
 ### 📧 Email
 
 | Integração | Descrição |
 |------------|-----------|
-| [Email IMAP/SMTP](/guia/canais/email) | Integração com servidor de email |
+| [Email IMAP/SMTP](/guide/channels/email) | Integração com servidor de email |
 
 ---
 
@@ -92,35 +92,35 @@ Escolha o canal que deseja configurar:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0;">
 
-<a href="/guia/canais/whatsapp-business" style="text-decoration: none;">
+<a href="/guide/channels/whatsapp-business" style="text-decoration: none;">
   <div style="background: #25D366; border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📱</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">WhatsApp Business</p>
   </div>
 </a>
 
-<a href="/guia/canais/whatsapp-api" style="text-decoration: none;">
+<a href="/guide/channels/whatsapp-waha" style="text-decoration: none;">
   <div style="background: #128C7E; border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📲</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">WhatsApp WAHA</p>
   </div>
 </a>
 
-<a href="/guia/canais/instagram" style="text-decoration: none;">
+<a href="/guide/channels/instagram" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #F77737 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📷</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Instagram</p>
   </div>
 </a>
 
-<a href="/guia/canais/facebook" style="text-decoration: none;">
+<a href="/guide/channels/facebook" style="text-decoration: none;">
   <div style="background: #1877F2; border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">💬</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Facebook</p>
   </div>
 </a>
 
-<a href="/guia/canais/email" style="text-decoration: none;">
+<a href="/guide/channels/email" style="text-decoration: none;">
   <div style="background: #EA4335; border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📧</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Email</p>

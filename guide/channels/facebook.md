@@ -134,7 +134,7 @@ O Messenger possui uma janela de 24 horas para mensagens:
 
 ## Próximos Passos
 
-- [Interface de Chat](/guia/chat/interface)
-- [Automação com Fluxos](/guia/fluxos/construtor)
-- [Configurar Outros Canais](/guia/canais/)
+- [Interface de Chat](/guide/chat/interface)
+- [Automação com Fluxos](/guide/flows/builder)
+- [Configurar Outros Canais](/guide/channels/)
 

@@ -209,7 +209,7 @@ Configurações de notificação:
 
 ## Próximos Passos
 
-- [Gerenciando Conversas](/guia/chat/gerenciando-conversas)
-- [Respostas Rápidas](/guia/chat/respostas-rapidas)
-- [Templates de Mensagem](/guia/chat/templates)
+- [Gerenciando Conversas](/guide/chat/managing-conversations)
+- [Respostas Rápidas](/guide/chat/quick-replies)
+- [Templates de Mensagem](/guide/chat/templates)
 

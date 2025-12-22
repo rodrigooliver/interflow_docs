@@ -181,21 +181,21 @@ Com a configuração básica pronta:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0;">
 
-<a href="/guia/canais/" style="text-decoration: none;">
+<a href="/guide/channels/" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">📱</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Conectar Canais</p>
   </div>
 </a>
 
-<a href="/guia/chat/interface" style="text-decoration: none;">
+<a href="/guide/chat/interface" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">💬</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Interface de Chat</p>
   </div>
 </a>
 
-<a href="/guia/fluxos/construtor" style="text-decoration: none;">
+<a href="/guide/flows/builder" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">🤖</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Criar Fluxos</p>

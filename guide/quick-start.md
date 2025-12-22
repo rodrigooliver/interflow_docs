@@ -58,7 +58,7 @@ Agora vamos conectar seu primeiro canal de atendimento.
 - Catálogo de produtos
 - Pagamentos
 
-[Ver guia completo →](/guia/canais/whatsapp-business)
+[Ver guia completo →](/guide/channels/whatsapp-business)
 :::
 
 ::: details WhatsApp (WAHA/Evolution)
@@ -71,7 +71,7 @@ Agora vamos conectar seu primeiro canal de atendimento.
 - Sem custos de API
 - Funciona com número pessoal
 
-[Ver guia completo →](/guia/canais/whatsapp-api)
+[Ver guia completo →](/guide/channels/whatsapp-waha)
 :::
 
 ::: details Instagram
@@ -79,14 +79,14 @@ Agora vamos conectar seu primeiro canal de atendimento.
 - Conta Business ou Creator
 - Página do Facebook vinculada
 
-[Ver guia completo →](/guia/canais/instagram)
+[Ver guia completo →](/guide/channels/instagram)
 :::
 
 ::: details Facebook Messenger
 **Requisitos:**
 - Página do Facebook
 
-[Ver guia completo →](/guia/canais/facebook)
+[Ver guia completo →](/guide/channels/facebook)
 :::
 
 ::: details Email
@@ -94,7 +94,7 @@ Agora vamos conectar seu primeiro canal de atendimento.
 - Servidor IMAP/SMTP
 - Credenciais de acesso
 
-[Ver guia completo →](/guia/canais/email)
+[Ver guia completo →](/guide/channels/email)
 :::
 
 ## Passo 4: Convidar sua Equipe
@@ -177,7 +177,7 @@ Antes de começar a atender, verifique:
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin: 20px 0;">
 
-<a href="/guia/chat/interface" style="text-decoration: none;">
+<a href="/guide/chat/interface" style="text-decoration: none;">
   <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
     <span style="font-size: 24px;">💬</span>
     <h4 style="margin: 8px 0 4px 0;">Interface de Chat</h4>
@@ -185,7 +185,7 @@ Antes de começar a atender, verifique:
   </div>
 </a>
 
-<a href="/guia/fluxos/construtor" style="text-decoration: none;">
+<a href="/guide/flows/builder" style="text-decoration: none;">
   <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
     <span style="font-size: 24px;">🤖</span>
     <h4 style="margin: 8px 0 4px 0;">Construtor de Fluxos</h4>
@@ -193,7 +193,7 @@ Antes de começar a atender, verifique:
   </div>
 </a>
 
-<a href="/guia/crm/clientes" style="text-decoration: none;">
+<a href="/guide/crm/customers" style="text-decoration: none;">
   <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
     <span style="font-size: 24px;">👥</span>
     <h4 style="margin: 8px 0 4px 0;">CRM e Clientes</h4>

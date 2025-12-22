@@ -254,8 +254,8 @@ A Interflow oferece templates prontos:
 
 ## Próximos Passos
 
-- [Tipos de Nós em Detalhes](/guia/fluxos/tipos-nos)
-- [Variáveis e Personalização](/guia/fluxos/variaveis)
-- [Condições e Lógica](/guia/fluxos/condicoes)
-- [Integrações Externas](/guia/fluxos/integracoes)
+- [Tipos de Nós em Detalhes](/guide/flows/node-types)
+- [Variáveis e Personalização](/guide/flows/variables)
+- [Condições e Lógica](/guide/flows/conditions)
+- [Integrações Externas](/guide/flows/integrations)
 

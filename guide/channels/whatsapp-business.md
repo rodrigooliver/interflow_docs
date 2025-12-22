@@ -149,7 +149,7 @@ Motivos comuns:
 
 ## Próximos Passos
 
-- [Templates de Mensagem](/guia/chat/templates)
-- [Automação com Fluxos](/guia/fluxos/construtor)
-- [Métricas de Atendimento](/guia/relatorios/atendimento)
+- [Templates de Mensagem](/guide/chat/templates)
+- [Automação com Fluxos](/guide/flows/builder)
+- [Métricas de Atendimento](/guide/reports/support)
 
