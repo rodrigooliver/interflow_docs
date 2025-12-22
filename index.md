@@ -11,7 +11,7 @@ hero:
   actions:
     - theme: brand
       text: Começar Agora
-      link: /guia/introducao
+      link: /guide/introduction
     - theme: alt
       text: API Reference
       link: /api/
@@ -85,7 +85,7 @@ Siga estes passos para começar a usar a Interflow:
 
 </div>
 
-➡️ [Ver guia completo de introdução](/guia/introducao)
+➡️ [Ver guia completo de introdução](/guide/introduction)
 
 ---
 
