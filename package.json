@@ -5,8 +5,9 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "vitepress dev",
-    "build": "vitepress build",
+    "sync": "node scripts/sync-i18n.js",
+    "dev": "npm run sync && vitepress dev",
+    "build": "npm run sync && vitepress build",
     "preview": "vitepress preview"
   },
   "devDependencies": {
@@ -14,4 +15,3 @@
     "vue": "^3.5.13"
   }
 }
-
