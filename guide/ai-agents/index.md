@@ -10,26 +10,35 @@ Os Agentes IA da Interflow são assistentes virtuais inteligentes que podem aten
 Ao criar um Agente IA, o sistema **gera automaticamente um fluxo** vinculado a ele. O agente sempre opera dentro deste fluxo, permitindo combinar a inteligência da IA com outros nós de automação.
 :::
 
-### Modelos Disponíveis
+## Modelos Disponíveis
 
-Atualmente utilizamos os modelos da **OpenAI**. Abaixo os principais:
+Atualmente utilizamos os modelos da **OpenAI**. Os modelos são divididos em duas categorias:
 
-#### Com Raciocínio
-| Modelo | Descrição |
-|--------|-----------|
-| GPT-5.2 | Modelo principal para coding e agentes |
-| GPT-5 mini | Versão rápida e econômica |
-| GPT-5 nano | Mais econômico da família |
+### Com Raciocínio
 
-#### Sem Raciocínio
-| Modelo | Descrição |
-|--------|-----------|
-| GPT-4.1 | Modelo inteligente e versátil |
-| GPT-4.1 mini | Baixo custo com bom desempenho |
-| GPT-4.1 nano | Mais econômico, ideal para tarefas leves |
+Modelos que possuem capacidade de raciocínio avançado, ideais para tarefas complexas.
+
+| Modelo | Descrição | Custo |
+|--------|-----------|-------|
+| GPT-5.2 | Modelo mais recente e inteligente | 💲💲💲 |
+| GPT-5.1 | Modelo avançado com raciocínio | 💲💲💲 |
+| GPT-5 | Modelo com raciocínio | 💲💲💲 |
+| GPT-5 Mini | Versão econômica com raciocínio | 💲 |
+| GPT-5 Nano | Super econômico com raciocínio | 💲 |
+| GPT-5 Chat | Especializado em conversação | 💲💲💲 |
+
+### Sem Raciocínio
+
+Modelos mais simples e rápidos, ideais para tarefas diretas.
+
+| Modelo | Descrição | Custo |
+|--------|-----------|-------|
+| GPT-4.1 | Modelo inteligente e versátil | 💲💲💲 |
+| GPT-4.1 Mini | Baixo custo com bom desempenho | 💲 |
+| GPT-4.1 Nano | Mais econômico, ideal para tarefas leves | 💲 |
 
 ::: tip 💡 Dica
-Para a maioria dos casos de atendimento, o **GPT-5 nano** ou **GPT-5 mini** oferecem excelente custo-benefício. Veja mais detalhes em [Integração OpenAI](/guide/integrations/openai).
+Para a maioria dos casos de atendimento, o **GPT-5 Nano** ou **GPT-5 Mini** oferecem excelente custo-benefício. Veja mais detalhes em [Integração OpenAI](/guide/integrations/openai).
 :::
 
 ::: info 🚀 Em Breve
@@ -45,19 +54,32 @@ Novos modelos serão adicionados em breve, incluindo **Claude** (Anthropic), **G
 
 ## Criando um Agente IA
 
-### Passo 1: Informações Básicas
+Ao criar um novo agente, você terá duas opções:
 
-1. Clique em **"Novo Agente"**
-2. Preencha:
-   - **Nome**: Identificação do agente (ex: "Assistente de Vendas")
-   - **Descrição**: Explicação do propósito
-   - **Modelo**: Selecione o modelo de IA (GPT-4, GPT-3.5, Claude, etc.)
+### Opção 1: Gerar com IA
+Use nossa ferramenta de geração assistida por IA para criar o contexto do agente automaticamente. Basta descrever o que você deseja e a IA criará o prompt completo.
 
-### Passo 2: Configurar Prompt
+### Opção 2: Criar Manualmente
+Crie o agente do zero, configurando cada detalhe manualmente.
 
-O prompt define a "personalidade" e comportamento do agente:
+## Abas do Editor
 
-```
+O editor de Agentes IA possui **5 abas principais**:
+
+### 1. Contexto
+Esta é a aba principal onde você define o prompt/instruções do agente.
+
+**Recursos disponíveis:**
+- **Editor de Texto**: Escreva as instruções, personalidade e regras do agente
+- **Gerar com IA**: Cria o contexto automaticamente baseado em uma descrição
+- **Melhorar**: Melhora o texto existente usando IA
+- **Questões**: Visualiza perguntas que o agente não soube responder (apenas em edição)
+- **Contextos Extras**: Adicione informações complementares (ex: listas de produtos)
+- **Uso de Tokens**: Acompanhe o consumo de tokens em tempo real (para Interflow)
+
+**Exemplo de Prompt:**
+
+```text
 Você é a Interflow, assistente virtual de atendimento da Empresa XYZ.
 
 **Personalidade:**
@@ -76,73 +98,84 @@ Você é a Interflow, assistente virtual de atendimento da Empresa XYZ.
 - Políticas: [políticas de troca, garantia, etc.]
 ```
 
-### Passo 3: Configurar Ferramentas
-
-As ferramentas são ações que a IA pode executar. Veja a seção [Ferramentas da IA](#ferramentas-da-ia) para detalhes.
-
-### Passo 4: Salvar e Testar
-
-1. Clique em **"Salvar"**
-2. Acesse a aba **"Testes"** para validar o comportamento
-3. Converse com o agente e veja como ele responde
-4. Ajuste o prompt conforme necessário
-
-## Aba de Testes
+### 2. Testar
 
 A aba de testes permite conversar diretamente com o Agente IA antes de colocá-lo em produção.
 
-### Como Usar
-
-1. Após salvar o agente, clique na aba **"Testes"**
+**Como Usar:**
+1. Após adicionar o contexto, clique na aba **"Testar"**
 2. Digite mensagens como se fosse um cliente
 3. Observe as respostas do agente
 4. Verifique se o comportamento está adequado
 
-### O que Testar
-
+**O que Testar:**
 - ✅ Tom de voz e personalidade
 - ✅ Respostas a perguntas frequentes
-- ✅ Uso correto das ferramentas
 - ✅ Limites do que a IA pode/não pode fazer
 - ✅ Cenários de transferência para humano
 
-## Ferramentas da IA
+### 3. Arquivos
 
-As ferramentas permitem que a IA execute ações além de responder mensagens.
+Adicione mídia que o agente pode enviar durante a conversa.
 
-### Ferramentas Disponíveis
+**Tipos de arquivo suportados:**
+- 🖼️ **Imagens**: JPG, PNG, GIF, WebP
+- 🎵 **Áudios**: MP3, WAV, OGG
+- 🎬 **Vídeos**: MP4, WebM
+- 📄 **Documentos**: PDF, DOCX, XLSX
 
-| Ferramenta | Descrição |
-|------------|-----------|
-| **Transferir para equipe** | Encaminha o chat para uma equipe humana |
-| **Listar horários** | Mostra horários disponíveis na agenda |
-| **Criar agendamento** | Agenda um compromisso |
-| **Reagendar** | Altera data/hora de agendamento |
-| **Cancelar agendamento** | Cancela um agendamento existente |
-| **Atualizar cliente** | Modifica campos do cadastro |
-| **Alterar data de retorno** | Reprograma follow-up automático |
-| **Encerrar atendimento** | Finaliza a conversa |
+**Uso:**
+O agente pode referenciar e enviar esses arquivos durante a conversa quando apropriado.
 
-### Configurando Ferramentas
+### 4. Ferramentas
 
-1. No agente, acesse a aba **"Ferramentas"**
-2. Clique no **+** para adicionar uma ferramenta
-3. Configure os parâmetros específicos
-4. Salve
+Configure as ações que o agente pode executar. Existem dois tipos:
 
-### Transferência com Resumo Automático
+#### Ações Prontas (Sistema)
+Ações pré-configuradas da Interflow:
 
-Ao transferir uma conversa para equipe humana, a IA pode gerar automaticamente um resumo:
+| Ação | Descrição |
+|------|-----------|
+| **Alterar Nome do Cliente** | Atualiza o nome do cliente no cadastro |
+| **Atualizar Dados do Cliente** | Modifica campos personalizados do cliente |
+| **Transferir para Equipe** | Encaminha o chat para uma equipe humana |
+| **Agendar** | Cria um novo agendamento na agenda |
+| **Confirmar Agendamento** | Confirma um agendamento existente |
+| **Alterar Funil** | Move o cliente entre etapas do funil |
+| **Quando Não Souber Responder** | Define comportamento para perguntas desconhecidas |
+| **Alterar Data de Retorno** | Reprograma follow-up automático |
 
-1. Edite a ação **"Transferir para equipe"**
-2. Marque: ✅ **"Gerar resumo da atendimento ao transferir"**
-3. Salve
+#### Ações Personalizadas
+Crie ferramentas customizadas para integrações específicas. Cada ferramenta pode ter:
+- **Nome e Descrição**: Identificação da ferramenta
+- **Parâmetros**: Variáveis que a IA deve coletar
+- **Ações**: O que fazer quando a ferramenta for acionada
 
-**O resumo inclui:**
-- Motivo do contato
-- Principais dúvidas do cliente
-- Passos já realizados
-- Dados importantes coletados
+::: tip 📖 Saiba Mais
+Veja a documentação completa em [Ferramentas da IA](/guide/ai-agents/tools).
+:::
+
+### 5. Avançado
+
+Configurações detalhadas do agente:
+
+#### Informações Básicas
+- **Título**: Nome identificador do agente
+- **Prompt Padrão**: Disponibilizar para todas as organizações (apenas superadmins)
+
+#### Configurações de IA
+- **Integração**: Escolha entre Interflow (tokens do plano) ou OpenAI customizada
+- **Modelo**: Selecione o modelo de IA a ser utilizado
+- **Temperatura** (modelos sem raciocínio): Controla a criatividade das respostas (0.0 a 2.0)
+- **Nível de Raciocínio** (modelos com raciocínio): Baixo, Médio ou Alto
+- **Máximo de Tokens** (modelos sem raciocínio): Limite de tokens na resposta
+- **Verbosidade** (modelos GPT-5): Controla o tamanho das respostas
+- **Fuso Horário**: Define o timezone para datas e horários
+
+#### Configurações de Fluxo
+- **Visualizar Fluxo**: Acesse o fluxo vinculado ao agente
+- **Resetar Fluxo**: Recria o fluxo com a configuração padrão
+- **Gatilhos**: Configure quando o agente deve ser acionado
 
 ## Follow-up Inteligente
 
@@ -158,19 +191,24 @@ Quando o cliente menciona uma data futura ou indica que não é o momento:
 
 ### Configurando
 
-1. Acesse **Prompts** no menu lateral
-2. Selecione o prompt vinculado ao fluxo
-3. Clique em **Editar → Ferramentas**
-4. Adicione a ação **"Alterar Data de Retorno"**
-5. Configure o fluxo e nó de destino
-6. Salve
+1. Acesse as **Ferramentas** do agente
+2. Adicione a ação **"Alterar Data de Retorno"**
+3. Selecione o **Fluxo** e o **Nó** de destino
+4. Salve
 
-### Benefícios
+## Transferência com Resumo Automático
 
-- ✅ Atendimento mais inteligente e humanizado
-- ✅ Melhora a experiência do cliente
-- ✅ Reduz contatos desnecessários
-- ✅ Libera agenda dos atendentes
+Ao transferir uma conversa para equipe humana, a IA pode gerar automaticamente um resumo:
+
+1. Edite a ação **"Transferir para Equipe"**
+2. Marque: ✅ **"Gerar resumo do atendimento ao transferir"**
+3. Salve
+
+**O resumo inclui:**
+- Motivo do contato
+- Principais dúvidas do cliente
+- Passos já realizados
+- Dados importantes coletados
 
 ## Assinatura em Mensagens
 
@@ -185,7 +223,7 @@ A assinatura é configurada no **fluxo vinculado ao agente**, especificamente no
 3. No campo de mensagem, adicione a assinatura desejada após a variável da resposta
 
 **Exemplo:**
-```
+```text
 {{ai_response}}
 
 ---
@@ -196,30 +234,13 @@ A assinatura é configurada no **fluxo vinculado ao agente**, especificamente no
 Veja a documentação completa do nó em [Mensagem de Texto](/guide/flows/nodes/text).
 :::
 
-## Limites e Controles
-
-### Desativar Resumo Automático
-
-Se quiser economizar tokens de IA:
-
-1. Acesse **Configurações** → **Geral**
-2. Localize a seção **"IA e Automação"**
-3. Ative as opções desejadas:
-   - ✅ **Desativar Resumo por IA em Resolução**
-   - ✅ **Desativar Resumo por IA em Transferência**
-4. Salve
-
-::: tip 💡 Benefício
-Economize tokens de API mantendo o campo de resumo disponível para preenchimento manual.
-:::
-
 ## Integração com Agendamentos
 
 A IA pode gerenciar agendamentos de forma conversacional:
 
 ### Exemplo de Conversa
 
-```
+```text
 👤 Cliente: Quero marcar uma consulta
 🤖 IA: Claro! Para qual dia você prefere? Temos horários disponíveis de segunda a sexta.
 
@@ -244,6 +265,18 @@ A IA automaticamente:
 - ✅ **Explica ao cliente** o motivo da indisponibilidade
 - ✅ **Sugere automaticamente** datas alternativas
 
+## Contextos Extras
+
+Adicione informações complementares ao contexto do agente, como listas de produtos, FAQs, ou qualquer conteúdo que o agente possa precisar consultar.
+
+### Tipos Disponíveis
+- **Lista WhatsApp**: Formata o conteúdo para exibição em listas do WhatsApp
+
+### Como Adicionar
+1. Na aba **Contexto**, clique em **"+ Adicionar"** em Contextos Extras
+2. Preencha título, descrição e conteúdo
+3. Salve
+
 ## Boas Práticas
 
 ### ✅ Faça
@@ -253,6 +286,7 @@ A IA automaticamente:
 - Limite o escopo de atuação (o que a IA pode e não pode fazer)
 - Teste exaustivamente antes de colocar em produção
 - Monitore as conversas e ajuste o prompt
+- Use a aba "Questões" para identificar gaps no contexto
 
 ### ❌ Evite
 
@@ -270,11 +304,12 @@ Acompanhe o desempenho dos seus Agentes IA:
 - **Tempo médio de resposta**: Velocidade da IA
 - **Transferências**: Quantas vezes transferiu para humano
 - **Satisfação**: Avaliação dos clientes
+- **Uso de tokens**: Consumo de API
 
 ## Próximos Passos
 
+- [Ferramentas da IA](/guide/ai-agents/tools) - Configure ações do agente
 - [Melhorador de Texto](/guide/chat/text-enhancer) - Comandos de IA para atendentes
 - [Fluxos de Atendimento](/guide/flows/builder) - Integre IA nos fluxos
 - [Agenda](/guide/schedule/) - Configure agendamentos via IA
 - [Configurações](/guide/settings/) - Controles de IA
-
