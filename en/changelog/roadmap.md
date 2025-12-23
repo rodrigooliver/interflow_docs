@@ -6,34 +6,35 @@ Features planned for the coming months.
 This roadmap is updated regularly and may change according to product priorities.
 :::
 
-## Q1 2025 (January - March)
+## Q4 2025 (October - December)
+
+### 🚧 In Development
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| Limit CRM view for agents | 🚧 In development | Agents can only view chats they are responsible for, ensuring data privacy and security |
+| Conditional quick actions | 🚧 In development | Quick actions linked to flows that execute automatic sequences based on lead criteria |
+| Automatic old file deletion routine | 🚧 In development | Automatic cleanup of old files to free up storage space |
+| Low AI token balance notification | 🚧 In development | Automatic alerts for administrators when token balance is running low |
+| Fix deployment screen texts | 🚧 In development | Translation of deployment status and fix for 'Requested by' field |
 
 ### 🔜 Planned
 
 | Feature | Status | Description |
 |---------|--------|-------------|
-| Telegram Integration | 🔜 Planned | Full Telegram support as a service channel |
-| Official Node.js SDK | 🔜 Planned | Official library for Node.js integration |
-| Enhanced Mobile App | 🚧 In development | Significant improvements to the mobile app |
+| In-conversation text search | 🔜 Planned | Search field within each conversation to quickly locate specific excerpts |
+| Bulk messaging via official API | 🔜 Planned | Mass message sending using the connected official API |
+| Restrict filter editing for Limited Agents | 🔜 Planned | Limited Agents can only use standard filters defined by administration |
 
-## Q2 2025 (April - June)
+## Q1 2026 (January - March)
 
 ### 🔜 Planned
 
 | Feature | Status | Description |
 |---------|--------|-------------|
-| ERP Integrations | 🔜 Planned | Connectors for major market ERPs |
-| Ticket Module | 🔜 Planned | Ticket system for technical support |
-| Advanced Reports v2 | 🔜 Planned | New version of the reports module |
-
-## Q3 2025 (July - September)
-
-### 🔜 Under Analysis
-
-| Feature | Status | Description |
-|---------|--------|-------------|
-| Slack Integration | 📝 Under analysis | Slack channel for internal support |
-| API v2 | 📝 Under analysis | New API version with improvements |
+| Mute notifications per project member | 🔜 Planned | Allow specific members to not receive task notifications in projects |
+| Agent-linked customer menu | 🔜 Planned | Exclusive menu where each agent views only their own customer portfolio |
+| Automatic switch to customer's OpenAI account | 🔜 Planned | When plan tokens run out, system automatically uses customer's registered OpenAI account |
 
 ---
 
@@ -54,4 +55,3 @@ Have feature suggestions? Contact us:
 
 - 📧 **Email**: feedback@interflow.chat
 - 💬 **Chat**: Through the platform
-
