@@ -25,8 +25,8 @@ Este é o projeto de documentação pública da Interflow, uma plataforma de ate
 
 ```bash
 # Clone o repositório
-git clone https://github.com/rodrigooliver/interflow-docs.git
-cd interflow-docs
+git clone https://github.com/rodrigooliver/interflow_docs.git
+cd interflow_docs
 
 # Instale as dependências
 npm install

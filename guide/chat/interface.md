@@ -2,10 +2,6 @@
 
 Conheça a interface de atendimento da Interflow e aprenda a usar todos os recursos.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
-:::
-
 ## Visão Geral
 
 A interface de chat da Interflow foi projetada para maximizar a produtividade da sua equipe de atendimento, centralizando todas as conversas em uma única tela.
@@ -35,6 +31,41 @@ A tela de chat é dividida em três áreas principais:
 - **Em espera** - Aguardando resposta do cliente
 - **Finalizadas** - Conversas encerradas
 
+### Filtros Personalizados
+
+Crie filtros customizados para organizar suas conversas:
+
+1. Clique em ⚙️ na barra de filtros
+2. Clique em **"Novo Filtro"** ou duplique um existente
+3. Configure os critérios:
+   - **Equipes**: Selecione uma ou múltiplas equipes
+   - **Tags**: Filtrar por tags específicas
+   - **Canal**: WhatsApp, Instagram, etc.
+   - **Status**: Em andamento, pendente, etc.
+4. Personalize nome, ícone e **cor** (paleta expandida disponível!)
+5. Salve
+
+::: tip 💡 Dica
+Você pode filtrar por **múltiplas equipes** simultaneamente! Útil para supervisores que gerenciam várias equipes.
+:::
+
+### Busca de Conversas
+
+Busque conversas pelo **número de telefone** do cliente:
+
+- ✅ `5511999999999` (completo com DDI)
+- ✅ `11999999999` (com DDD)
+- ✅ `999999999` (apenas número)
+- ✅ `+55 11 99999-9999` (formatado)
+
+### Navegação por Páginas
+
+Navegue diretamente para uma página específica:
+
+1. Na parte inferior da lista, clique no campo de número
+2. Digite o número da página desejada
+3. Pressione Enter
+
 ### Status das Conversas
 
 | Ícone | Status |
@@ -43,6 +74,15 @@ A tela de chat é dividida em três áreas principais:
 | 🟡 | Em espera - aguardando cliente |
 | 🔵 | Em atendimento |
 | ⚪ | Finalizada |
+
+### Indicador de Múltiplos Atendimentos
+
+Quando um cliente tem várias conversas ativas simultaneamente:
+
+- 🔴 Badge aparece ao lado do nome do cliente
+- Mostra o número de chats em paralelo
+- Clique para ver a lista de conversas ativas
+- Navegue rapidamente entre os chats
 
 ### Ordenação
 
@@ -54,12 +94,34 @@ A tela de chat é dividida em três áreas principais:
 
 ### Componentes
 
-- **Header** - Nome do cliente, canal, status
+- **Header** - Nome do cliente, canal, status, botão WhatsApp Rápido
+- **Mensagens Fixadas** - Mensagens importantes no topo
 - **Histórico** - Todas as mensagens trocadas
 - **Campo de texto** - Para digitar mensagens
 - **Anexos** - Enviar arquivos
 - **Emojis** - Seletor de emojis
 - **Respostas rápidas** - Atalhos de mensagem
+- **Comandos IA** - Atalhos para IA (Ctrl+J)
+
+### Mensagens Fixadas
+
+Destaque informações importantes fixando mensagens no topo do chat:
+
+**Como fixar:**
+1. Passe o mouse sobre a mensagem
+2. Clique nos três pontos (⋮)
+3. Selecione **"Fixar mensagem"**
+
+**Recursos:**
+- 📌 Mensagens aparecem no topo do chat
+- 🔢 Contador de mensagens fixadas
+- 🟡 Fundo amarelo para notas privadas fixadas
+- ➜ Botão "Ir para mensagem" (navega ao original)
+- 🔄 Atualizações em tempo real
+
+**Como desafixar:**
+- Clique no **X** na lista de fixados, ou
+- Menu da mensagem → **"Desafixar mensagem"**
 
 ### Indicadores de Mensagem
 
@@ -91,6 +153,20 @@ A tela de chat é dividida em três áreas principais:
 - Campos personalizados
 - Histórico de conversas
 - Notas internas
+- **Indicador de campos** - Mostra quais campos estão preenchidos
+
+### Indicador de Campos de Cadastro
+
+Visual que mostra o status de preenchimento dos campos:
+
+- ✅ Ícone verde = Campo preenchido
+- ⚠️ Ícone amarelo = Campo faltante
+- 🔴 Ícone vermelho = Obrigatório e faltante
+
+**Benefícios:**
+- Veja rapidamente quais dados faltam
+- Preencha durante a conversa
+- Clique para ir diretamente ao campo
 
 ### Ações Disponíveis
 
@@ -109,6 +185,25 @@ Para atender uma conversa não atribuída:
 2. Clique em **"Assumir"**
 3. A conversa será atribuída a você
 
+**Se houver fluxo ativo**, você pode escolher:
+- 🟡 **Pausar Fluxo e Atender** - Pausa o fluxo, você assume
+- 🔵 **Continuar Fluxo e Atender** - Mantém fluxo ativo (mensagens duplicadas!)
+- ⚪ **Cancelar** - Não atende
+
+::: tip 💡 Configuração
+Em **Configurações > Atendimento**, você pode definir para sempre pausar automaticamente.
+:::
+
+### Atribuição por Administrador
+
+Admins podem gerenciar atribuições sem entrar em cada conversa:
+
+1. Na lista de conversas, clique no menu (⋮)
+2. Selecione **"Transferir Agente/Equipe"**
+3. Escolha:
+   - **Sem agente**: Conversa fica pendente na fila
+   - **Agente específico**: Atribuído diretamente
+
 ### Transferir Conversa
 
 Para passar uma conversa para outro atendente:
@@ -117,13 +212,23 @@ Para passar uma conversa para outro atendente:
 3. Adicione uma nota (opcional)
 4. Confirme
 
+### Arquivar Conversa
+
+Você pode arquivar conversas que estão em **"Em andamento"**:
+
+- Arquive conversas ativas para organizar sua lista
+- Quando cliente enviar nova mensagem, a conversa é **desarquivada automaticamente**
+- Nenhuma mensagem importante é perdida
+
 ### Finalizar Atendimento
 
 Ao concluir um atendimento:
 1. Clique em **"Finalizar"**
 2. Selecione o motivo de encerramento
-3. Adicione observações (opcional)
-4. Confirme
+3. **Sugestão de campos**: Sistema sugere campos não preenchidos
+4. Preencha os campos sugeridos (opcional ou obrigatório)
+5. Adicione observações (opcional)
+6. Confirme
 
 ### Marcar como Espera
 
@@ -189,6 +294,21 @@ Adicione anotações visíveis apenas para a equipe:
 
 As notas aparecem no histórico com destaque visual.
 
+### Excluindo Notas Privadas
+
+Você pode excluir notas enviadas por engano:
+
+1. Passe o mouse sobre a nota
+2. Clique no menu (⋮)
+3. Selecione **"Excluir mensagem"**
+4. Confirme
+
+**Regras:**
+- ✅ Apenas o autor pode excluir
+- ✅ Admins podem excluir qualquer nota
+- ❌ Mensagens do cliente não podem ser excluídas
+- 🕐 Log preservado para auditoria
+
 ## Atalhos de Teclado
 
 | Atalho | Ação |
@@ -198,6 +318,25 @@ As notas aparecem no histórico com destaque visual.
 | `Esc` | Fechar conversa |
 | `/` | Abrir respostas rápidas |
 | `Ctrl+K` | Buscar conversa |
+| `Ctrl+J` | Abrir comandos de IA |
+
+## Melhorador de Texto (Ctrl+J)
+
+Aprimore suas mensagens com IA diretamente do campo de texto:
+
+1. Pressione `Ctrl+J` ou digite `/`
+2. Selecione a ação desejada (melhorar, formalizar, traduzir, etc.)
+3. A IA processa e insere o resultado
+
+**Ações disponíveis:**
+- **Melhorar** - Melhora clareza e gramática
+- **Formalizar** - Torna o texto mais profissional
+- **Simplificar** - Simplifica textos complexos
+- **Traduzir** - Traduz para outro idioma
+
+::: tip 💡 Comandos Personalizados
+Crie seus próprios comandos de IA! Veja a documentação completa em [Melhorador de Texto](/guide/chat/text-enhancer).
+:::
 
 ## Notificações
 
@@ -207,9 +346,24 @@ Configurações de notificação:
 - **Desktop** - Notificações do navegador
 - **Mobile** - Push notifications (app)
 
+## Botão WhatsApp Rápido
+
+Abra o WhatsApp do cliente diretamente do chat com ações automáticas:
+
+1. No header do chat, clique no botão verde do WhatsApp
+2. Nova aba abre com mensagem pré-configurada
+3. Ações automáticas são executadas (campo, funil, tag)
+
+::: warning ⚠️ Importante
+O botão só aparece em chats de canais WhatsApp (WAHA, W-API, WhatsApp Oficial).
+:::
+
+Configure em **Configurações > Atendimento > Botão de WhatsApp Rápido**.
+
 ## Próximos Passos
 
-- [Gerenciando Conversas](/guide/chat/managing-conversations)
-- [Respostas Rápidas](/guide/chat/quick-replies)
-- [Templates de Mensagem](/guide/chat/templates)
+- [Melhorador de Texto](/guide/chat/text-enhancer) - Comandos de IA personalizados
+- [Agentes IA](/guide/ai-agents/) - IA autônoma para atendimento
+- [Agenda](/guide/schedule/) - Agendamentos integrados
+- [Configurações](/guide/settings/) - Personalizar interface
 

@@ -2,10 +2,6 @@
 
 Conecte seu WhatsApp via QR Code para atendimento simplificado.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
-:::
-
 ## Visão Geral
 
 A integração via WAHA permite usar seu número de WhatsApp comum na plataforma Interflow. É uma solução prática para pequenas e médias empresas.
@@ -23,6 +19,7 @@ A integração via WAHA permite usar seu número de WhatsApp comum na plataforma
 | **Sem custos Meta** | Não há cobrança por conversa |
 | **Grupos** | Suporte a grupos do WhatsApp |
 | **Mídia completa** | Imagens, vídeos, áudios, documentos |
+| **Sincronização** | Recupere mensagens históricas |
 
 ## Limitações
 
@@ -75,6 +72,54 @@ Para evitar desconexões:
 - ✅ Não desconecte manualmente o aparelho
 - ✅ Evite usar o mesmo número em outros serviços
 - ❌ Não faça logout do WhatsApp no celular
+
+## Sincronização de Mensagens
+
+Recupere mensagens históricas do WhatsApp que não entraram automaticamente.
+
+### Como usar
+
+1. Abra um chat WAHA
+2. Clique no menu (⋮) → **"Sincronizar Mensagens"**
+3. Configure o período:
+   - **Data Inicial** e **Data Final**
+   - Limite máximo: 3 dias por sincronização
+4. Clique em **"Sincronizar"**
+
+### O que acontece
+
+- ✅ Busca mensagens do período selecionado
+- ✅ Sincroniza com timestamp original
+- ⏭️ Ignora mensagens já existentes
+- ✅ Atualiza status correto (enviado, entregue, lido)
+
+::: tip 💡 Quando usar
+Útil quando você reconectou o canal e quer recuperar conversas que aconteceram enquanto estava desconectado.
+:::
+
+## Grupos de WhatsApp
+
+Receba e responda mensagens de grupos do WhatsApp.
+
+### Como funciona
+
+- 💬 Grupos aparecem na lista de conversas
+- 👤 Identifica quem enviou no grupo
+- ↩️ Responda diretamente ao grupo
+- 📊 Histórico completo preservado
+
+### Permissões
+
+| Configuração | Descrição |
+|--------------|-----------|
+| **Habilitar grupos** | Admin pode ativar/desativar por canal |
+| **Restringir agentes** | Agentes podem ser bloqueados de grupos |
+
+### Limitações
+
+- Apenas mensagens recebidas após conexão
+- Não é possível criar grupos pela plataforma
+- Admin precisa adicionar o número ao grupo
 
 ## Boas Práticas
 
@@ -129,7 +174,8 @@ Se houver desconexões frequentes, verifique a conexão de internet do celular e
 
 ## Próximos Passos
 
-- [Interface de Chat](/guide/chat/interface)
-- [Automação com Fluxos](/guide/flows/builder)
-- [Respostas Rápidas](/guide/chat/quick-replies)
+- [Interface de Chat](/guide/chat/interface) - Use o Botão WhatsApp Rápido
+- [Automação com Fluxos](/guide/flows/builder) - Automatize atendimentos
+- [Agentes IA](/guide/ai-agents/) - IA para responder grupos
+- [WhatsApp Business](/guide/channels/whatsapp-business) - Migrar para API oficial
 

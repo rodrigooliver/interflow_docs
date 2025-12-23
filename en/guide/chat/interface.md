@@ -1,215 +1,282 @@
-# Interface de Chat
+# Chat Interface
 
-Conheça a interface de atendimento da Interflow e aprenda a usar todos os recursos.
+Learn about the Interflow service interface and how to use all features.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
+## Overview
+
+The Interflow chat interface is designed to maximize your service team's productivity, centralizing all conversations in a single screen.
+
+## Interface Layout
+
+The chat screen is divided into three main areas:
+
+| Area | Location | Function |
+|------|----------|----------|
+| **Conversation List** | Left | All active conversations |
+| **Message Area** | Center | Message history and sending |
+| **Customer Panel** | Right | Customer information and actions |
+
+## Conversation List
+
+### Available Filters
+
+- **All** - All conversations
+- **Mine** - Assigned to you
+- **Unassigned** - Waiting for agent
+- **On hold** - Waiting for customer response
+- **Closed** - Finished conversations
+
+### Custom Filters
+
+Create custom filters to organize your conversations:
+
+1. Click ⚙️ in the filter bar
+2. Click **"New Filter"** or duplicate an existing one
+3. Configure criteria:
+   - **Teams**: Select one or multiple teams
+   - **Tags**: Filter by specific tags
+   - **Channel**: WhatsApp, Instagram, etc.
+   - **Status**: In progress, pending, etc.
+4. Customize name, icon and **color** (expanded palette available!)
+5. Save
+
+::: tip 💡 Tip
+You can filter by **multiple teams** simultaneously! Useful for supervisors managing several teams.
 :::
 
-## Visão Geral
+### Conversation Search
 
-A interface de chat da Interflow foi projetada para maximizar a produtividade da sua equipe de atendimento, centralizando todas as conversas em uma única tela.
+Search conversations by customer's **phone number**:
 
-<!-- Placeholder para screenshot -->
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 80px 20px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 24px;">📸 Interface de Chat (em breve)</span>
-</div>
+- ✅ `5511999999999` (complete with country code)
+- ✅ `11999999999` (with area code)
+- ✅ `999999999` (number only)
+- ✅ `+55 11 99999-9999` (formatted)
 
-## Layout da Interface
+### Page Navigation
 
-A tela de chat é dividida em três áreas principais:
+Navigate directly to a specific page:
 
-| Área | Localização | Função |
-|------|-------------|--------|
-| **Lista de Conversas** | Esquerda | Todas as conversas ativas |
-| **Área de Mensagens** | Centro | Histórico e envio de mensagens |
-| **Painel do Cliente** | Direita | Informações e ações do cliente |
+1. At the bottom of the list, click on the page number field
+2. Type the desired page number
+3. Press Enter
 
-## Lista de Conversas
+### Conversation Status
 
-### Filtros Disponíveis
+| Icon | Status |
+|------|--------|
+| 🟢 | Active - waiting for service |
+| 🟡 | On hold - waiting for customer |
+| 🔵 | In service |
+| ⚪ | Finished |
 
-- **Todas** - Todas as conversas
-- **Minhas** - Atribuídas a você
-- **Não atribuídas** - Aguardando atendente
-- **Em espera** - Aguardando resposta do cliente
-- **Finalizadas** - Conversas encerradas
+### Multiple Chats Indicator
 
-### Status das Conversas
+When a customer has multiple active conversations:
 
-| Ícone | Status |
-|-------|--------|
-| 🟢 | Ativa - aguardando atendimento |
-| 🟡 | Em espera - aguardando cliente |
-| 🔵 | Em atendimento |
-| ⚪ | Finalizada |
+- 🔴 Badge appears next to customer name
+- Shows number of parallel chats
+- Click to see list of active conversations
+- Quick navigation between chats
 
-### Ordenação
+### Sorting
 
-- Por data da última mensagem
-- Por tempo de espera
-- Por prioridade
+- By last message date
+- By wait time
+- By priority
 
-## Área de Mensagens
+## Message Area
 
-### Componentes
+### Components
 
-- **Header** - Nome do cliente, canal, status
-- **Histórico** - Todas as mensagens trocadas
-- **Campo de texto** - Para digitar mensagens
-- **Anexos** - Enviar arquivos
-- **Emojis** - Seletor de emojis
-- **Respostas rápidas** - Atalhos de mensagem
+- **Header** - Customer name, channel, status, Quick WhatsApp button
+- **Pinned Messages** - Important messages at the top
+- **History** - All exchanged messages
+- **Text field** - For typing messages
+- **Attachments** - Send files
+- **Emojis** - Emoji selector
+- **Quick replies** - Message shortcuts
+- **AI Commands** - AI shortcuts (Ctrl+J)
 
-### Indicadores de Mensagem
+### Pinned Messages
 
-| Indicador | Significado |
-|-----------|-------------|
-| ✓ | Enviada |
-| ✓✓ | Entregue |
-| ✓✓ (azul) | Lida |
-| ⏳ | Enviando |
-| ❌ | Erro no envio |
+Highlight important information by pinning messages at the top of the chat:
 
-### Tipos de Mensagem
+**How to pin:**
+1. Hover over the message
+2. Click on three dots (⋮)
+3. Select **"Pin message"**
 
-- **Texto** - Mensagens de texto simples
-- **Imagem** - Fotos e imagens
-- **Vídeo** - Arquivos de vídeo
-- **Áudio** - Mensagens de voz
-- **Documento** - PDFs, planilhas, etc.
-- **Localização** - Coordenadas do mapa
-- **Contato** - Compartilhamento de contato
+**Features:**
+- 📌 Messages appear at the top of the chat
+- 🔢 Pinned message counter
+- 🟡 Yellow background for pinned private notes
+- ➜ "Go to message" button (navigates to original)
+- 🔄 Real-time updates
 
-## Painel do Cliente
+**How to unpin:**
+- Click **X** in the pinned list, or
+- Message menu → **"Unpin message"**
 
-### Informações Exibidas
+### Message Indicators
 
-- Nome e foto
-- Canais de contato
+| Indicator | Meaning |
+|-----------|---------|
+| ✓ | Sent |
+| ✓✓ | Delivered |
+| ✓✓ (blue) | Read |
+| ⏳ | Sending |
+| ❌ | Send error |
+
+## Customer Panel
+
+### Displayed Information
+
+- Name and photo
+- Contact channels
 - Tags
-- Campos personalizados
-- Histórico de conversas
-- Notas internas
+- Custom fields
+- Conversation history
+- Internal notes
+- **Field indicator** - Shows which fields are filled
 
-### Ações Disponíveis
+### Registration Field Indicator
 
-- **Editar cliente** - Atualizar dados
-- **Adicionar tag** - Aplicar tags
-- **Nova nota** - Adicionar anotação
-- **Ver histórico** - Conversas anteriores
-- **Criar tarefa** - Agendar follow-up
+Visual showing field fill status:
 
-## Ações de Atendimento
+- ✅ Green icon = Filled field
+- ⚠️ Yellow icon = Missing field
+- 🔴 Red icon = Required and missing
 
-### Assumir Conversa
+### Available Actions
 
-Para atender uma conversa não atribuída:
-1. Clique na conversa
-2. Clique em **"Assumir"**
-3. A conversa será atribuída a você
+- **Edit customer** - Update data
+- **Add tag** - Apply tags
+- **New note** - Add annotation
+- **View history** - Previous conversations
+- **Create task** - Schedule follow-up
 
-### Transferir Conversa
+## Service Actions
 
-Para passar uma conversa para outro atendente:
-1. Clique no ícone de transferência
-2. Selecione o destino (atendente ou equipe)
-3. Adicione uma nota (opcional)
-4. Confirme
+### Take Conversation
 
-### Finalizar Atendimento
+To serve an unassigned conversation:
+1. Click on the conversation
+2. Click **"Take"**
+3. Conversation will be assigned to you
 
-Ao concluir um atendimento:
-1. Clique em **"Finalizar"**
-2. Selecione o motivo de encerramento
-3. Adicione observações (opcional)
-4. Confirme
+**If there's an active flow**, you can choose:
+- 🟡 **Pause Flow and Attend** - Pauses flow, you take over
+- 🔵 **Continue Flow and Attend** - Keeps flow active (duplicate messages!)
+- ⚪ **Cancel** - Don't attend
 
-### Marcar como Espera
+### Assignment by Administrator
 
-Se aguardando resposta do cliente:
-1. Clique em **"Aguardar"**
-2. Defina o tempo de espera
-3. A conversa será movida para a fila de espera
+Admins can manage assignments without entering each conversation:
 
-## Respostas Rápidas
+1. In conversation list, click menu (⋮)
+2. Select **"Transfer Agent/Team"**
+3. Choose:
+   - **No agent**: Conversation stays pending in queue
+   - **Specific agent**: Directly assigned
 
-### Usando Atalhos
+### Transfer Conversation
 
-Digite `/` seguido do atalho para inserir uma resposta rápida:
+To pass a conversation to another agent:
+1. Click transfer icon
+2. Select destination (agent or team)
+3. Add a note (optional)
+4. Confirm
 
-```
-/ola → "Olá! Como posso ajudá-lo hoje?"
-/preco → "Nosso produto custa R$ 99,00..."
-/horario → "Funcionamos de segunda a sexta, das 9h às 18h"
-```
+### Archive Conversation
 
-### Criando Respostas Rápidas
+You can archive conversations that are **"In progress"**:
 
-1. Vá em **Configurações** → **Respostas Rápidas**
-2. Clique em **"Nova resposta"**
-3. Defina:
-   - Atalho (ex: `/ola`)
-   - Título descritivo
-   - Conteúdo da mensagem
-4. Salve
+- Archive active conversations to organize your list
+- When customer sends new message, conversation is **automatically unarchived**
+- No important message is lost
 
-## Anexos e Mídia
+### Close Service
 
-### Enviando Arquivos
+When completing a service:
+1. Click **"Close"**
+2. Select closure reason
+3. **Field suggestion**: System suggests unfilled fields
+4. Fill suggested fields (optional or required)
+5. Add notes (optional)
+6. Confirm
 
-1. Clique no ícone de anexo 📎
-2. Selecione o arquivo
-3. Adicione uma legenda (opcional)
-4. Envie
+## Internal Notes
 
-### Limites de Arquivo
+Add annotations visible only to the team:
 
-| Tipo | Tamanho Máximo |
-|------|----------------|
-| Imagem | 16 MB |
-| Vídeo | 16 MB |
-| Áudio | 16 MB |
-| Documento | 100 MB |
+1. In customer panel, click **"Note"**
+2. Type annotation
+3. Save
 
-### Visualização
+Notes appear in history with visual highlight.
 
-- Imagens são exibidas inline
-- Vídeos podem ser reproduzidos
-- Áudios têm player integrado
-- Documentos podem ser baixados
+### Deleting Private Notes
 
-## Notas Internas
+You can delete notes sent by mistake:
 
-Adicione anotações visíveis apenas para a equipe:
+1. Hover over the note
+2. Click menu (⋮)
+3. Select **"Delete message"**
+4. Confirm
 
-1. No painel do cliente, clique em **"Nota"**
-2. Digite a anotação
-3. Salve
+**Rules:**
+- ✅ Only author can delete
+- ✅ Admins can delete any note
+- ❌ Customer messages cannot be deleted
+- 🕐 Log preserved for audit
 
-As notas aparecem no histórico com destaque visual.
+## Keyboard Shortcuts
 
-## Atalhos de Teclado
+| Shortcut | Action |
+|----------|--------|
+| `Enter` | Send message |
+| `Shift+Enter` | New line |
+| `Esc` | Close conversation |
+| `/` | Open quick replies |
+| `Ctrl+K` | Search conversation |
+| `Ctrl+J` | Open AI commands |
 
-| Atalho | Ação |
-|--------|------|
-| `Enter` | Enviar mensagem |
-| `Shift+Enter` | Nova linha |
-| `Esc` | Fechar conversa |
-| `/` | Abrir respostas rápidas |
-| `Ctrl+K` | Buscar conversa |
+## Text Enhancer (Ctrl+J)
 
-## Notificações
+Improve your messages with AI directly from text field:
 
-Configurações de notificação:
+1. Press `Ctrl+J` or type `/`
+2. Select desired action (improve, formalize, translate, etc.)
+3. AI processes and inserts result
 
-- **Som** - Alerta sonoro para novas mensagens
-- **Desktop** - Notificações do navegador
-- **Mobile** - Push notifications (app)
+**Available actions:**
+- **Improve** - Improves clarity and grammar
+- **Formalize** - Makes text more professional
+- **Simplify** - Simplifies complex texts
+- **Translate** - Translates to another language
 
-## Próximos Passos
+::: tip 💡 Custom Commands
+Create your own AI commands! See full documentation at [Text Enhancer](/en/guide/chat/text-enhancer).
+:::
 
-- [Gerenciando Conversas](/guide/chat/managing-conversations)
-- [Respostas Rápidas](/guide/chat/quick-replies)
-- [Templates de Mensagem](/guide/chat/templates)
+## Quick WhatsApp Button
 
+Open customer's WhatsApp directly from chat with automatic actions:
+
+1. In chat header, click green WhatsApp button
+2. New tab opens with pre-configured message
+3. Automatic actions are executed (field, funnel, tag)
+
+::: warning ⚠️ Important
+Button only appears in WhatsApp channel chats (WAHA, W-API, Official WhatsApp).
+:::
+
+Configure in **Settings > Service > Quick WhatsApp Button**.
+
+## Next Steps
+
+- [Text Enhancer](/en/guide/chat/text-enhancer) - Custom AI commands
+- [AI Agents](/en/guide/ai-agents/) - Autonomous AI for service
+- [Schedule](/en/guide/schedule/) - Integrated appointments
+- [Settings](/en/guide/settings/) - Customize interface

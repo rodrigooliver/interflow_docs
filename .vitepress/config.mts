@@ -30,7 +30,8 @@ function getSidebar(lang: string = '') {
         text: lang === 'en' ? '💬 Chat & Support' : lang === 'es' ? '💬 Chat y Atención' : '💬 Chat e Atendimento',
         collapsed: false,
         items: [
-          { text: lang === 'en' ? 'Chat Interface' : lang === 'es' ? 'Interfaz de Chat' : 'Interface de Chat', link: `${prefix}/guide/chat/interface` }
+          { text: lang === 'en' ? 'Chat Interface' : lang === 'es' ? 'Interfaz de Chat' : 'Interface de Chat', link: `${prefix}/guide/chat/interface` },
+          { text: lang === 'en' ? 'Text Enhancer' : lang === 'es' ? 'Mejorador de Texto' : 'Melhorador de Texto', link: `${prefix}/guide/chat/text-enhancer` }
         ]
       },
       {
@@ -72,10 +73,38 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
+        text: lang === 'en' ? '🤖 AI Agents' : lang === 'es' ? '🤖 Agentes IA' : '🤖 Agentes IA',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/ai-agents/` }
+        ]
+      },
+      {
+        text: lang === 'en' ? '📅 Schedule' : lang === 'es' ? '📅 Agenda' : '📅 Agenda',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/schedule/` }
+        ]
+      },
+      {
         text: lang === 'en' ? '👥 CRM & Customers' : lang === 'es' ? '👥 CRM y Clientes' : '👥 CRM e Clientes',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Customer Management' : lang === 'es' ? 'Gestión de Clientes' : 'Gerenciamento de Clientes', link: `${prefix}/guide/crm/customers` }
+        ]
+      },
+      {
+        text: lang === 'en' ? '📊 Reports' : lang === 'es' ? '📊 Informes' : '📊 Relatórios',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/reports/` }
+        ]
+      },
+      {
+        text: lang === 'en' ? '⚙️ Settings' : lang === 'es' ? '⚙️ Configuraciones' : '⚙️ Configurações',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/settings/` }
         ]
       },
       {
@@ -112,6 +141,71 @@ function getSidebar(lang: string = '') {
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/features/` }
         ]
       }
+    ],
+    [`${prefix}/changelog/`]: [
+      {
+        text: lang === 'en' ? '📋 Changelog' : lang === 'es' ? '📋 Changelog' : '📋 Changelog',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/changelog/` },
+          { text: 'Roadmap', link: `${prefix}/changelog/roadmap` }
+        ]
+      },
+      {
+        text: '2025',
+        collapsed: false,
+        items: [
+          {
+            text: lang === 'en' ? 'December' : lang === 'es' ? 'Diciembre' : 'Dezembro',
+            collapsed: false,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2025/12/` },
+              { text: 'v2025.12.9', link: `${prefix}/changelog/2025/12/2025.12.9` },
+              { text: 'v2025.12.8', link: `${prefix}/changelog/2025/12/2025.12.8` },
+              { text: 'v2025.12.7', link: `${prefix}/changelog/2025/12/2025.12.7` },
+              { text: 'v2025.12.6', link: `${prefix}/changelog/2025/12/2025.12.6` },
+              { text: 'v2025.12.5', link: `${prefix}/changelog/2025/12/2025.12.5` },
+              { text: 'v2025.12.4', link: `${prefix}/changelog/2025/12/2025.12.4` },
+              { text: 'v2025.12.3', link: `${prefix}/changelog/2025/12/2025.12.3` },
+              { text: 'v2025.12.2', link: `${prefix}/changelog/2025/12/2025.12.2` },
+              { text: 'v2025.12.1', link: `${prefix}/changelog/2025/12/2025.12.1` }
+            ]
+          },
+          {
+            text: lang === 'en' ? 'November' : lang === 'es' ? 'Noviembre' : 'Novembro',
+            collapsed: true,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2025/11/` },
+              { text: 'v2025.11.14', link: `${prefix}/changelog/2025/11/2025.11.14` },
+              { text: 'v2025.11.13', link: `${prefix}/changelog/2025/11/2025.11.13` },
+              { text: 'v2025.11.12', link: `${prefix}/changelog/2025/11/2025.11.12` },
+              { text: 'v2025.11.11', link: `${prefix}/changelog/2025/11/2025.11.11` },
+              { text: 'v2025.11.10', link: `${prefix}/changelog/2025/11/2025.11.10` },
+              { text: 'v2025.11.9', link: `${prefix}/changelog/2025/11/2025.11.9` },
+              { text: 'v2025.11.8', link: `${prefix}/changelog/2025/11/2025.11.8` },
+              { text: 'v2025.11.7', link: `${prefix}/changelog/2025/11/2025.11.7` },
+              { text: 'v2025.11.6', link: `${prefix}/changelog/2025/11/2025.11.6` },
+              { text: 'v2025.11.5', link: `${prefix}/changelog/2025/11/2025.11.5` },
+              { text: 'v2025.11.4', link: `${prefix}/changelog/2025/11/2025.11.4` },
+              { text: 'v2025.11.3', link: `${prefix}/changelog/2025/11/2025.11.3` },
+              { text: 'v2025.11.2', link: `${prefix}/changelog/2025/11/2025.11.2` },
+              { text: 'v2025.11.1', link: `${prefix}/changelog/2025/11/2025.11.1` }
+            ]
+          },
+          {
+            text: lang === 'en' ? 'October' : lang === 'es' ? 'Octubre' : 'Outubro',
+            collapsed: true,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2025/10/` },
+              { text: 'v2025.10.5', link: `${prefix}/changelog/2025/10/2025.10.5` },
+              { text: 'v2025.10.4', link: `${prefix}/changelog/2025/10/2025.10.4` },
+              { text: 'v2025.10.3', link: `${prefix}/changelog/2025/10/2025.10.3` },
+              { text: 'v2025.10.2', link: `${prefix}/changelog/2025/10/2025.10.2` },
+              { text: 'v2025.10.1', link: `${prefix}/changelog/2025/10/2025.10.1` }
+            ]
+          }
+        ]
+      }
     ]
   }
 }
@@ -140,7 +234,7 @@ export default defineConfig({
           { text: 'Guia', link: '/guide/introduction' },
           { text: 'API', link: '/api/' },
           { text: 'Recursos', link: '/features/' },
-          { text: 'Changelog', link: '/changelog' }
+          { text: 'Changelog', link: '/changelog/' }
         ],
         sidebar: getSidebar(),
         footer: {
@@ -167,7 +261,7 @@ export default defineConfig({
         lightModeSwitchTitle: 'Mudar para tema claro',
         darkModeSwitchTitle: 'Mudar para tema escuro',
         editLink: {
-          pattern: 'https://github.com/rodrigooliver/interflow-docs/edit/main/:path',
+          pattern: 'https://github.com/rodrigooliver/interflow_docs/edit/main/:path',
           text: 'Editar esta página'
         }
       }
@@ -184,7 +278,7 @@ export default defineConfig({
           { text: 'Guide', link: '/en/guide/introduction' },
           { text: 'API', link: '/en/api/' },
           { text: 'Features', link: '/en/features/' },
-          { text: 'Changelog', link: '/en/changelog' }
+          { text: 'Changelog', link: '/en/changelog/' }
         ],
         sidebar: getSidebar('en'),
         footer: {
@@ -199,7 +293,7 @@ export default defineConfig({
           label: 'On this page'
         },
         editLink: {
-          pattern: 'https://github.com/rodrigooliver/interflow-docs/edit/main/:path',
+          pattern: 'https://github.com/rodrigooliver/interflow_docs/edit/main/:path',
           text: 'Edit this page'
         }
       }
@@ -216,7 +310,7 @@ export default defineConfig({
           { text: 'Guía', link: '/es/guide/introduction' },
           { text: 'API', link: '/es/api/' },
           { text: 'Recursos', link: '/es/features/' },
-          { text: 'Changelog', link: '/es/changelog' }
+          { text: 'Changelog', link: '/es/changelog/' }
         ],
         sidebar: getSidebar('es'),
         footer: {
@@ -231,7 +325,7 @@ export default defineConfig({
           label: 'En esta página'
         },
         editLink: {
-          pattern: 'https://github.com/rodrigooliver/interflow-docs/edit/main/:path',
+          pattern: 'https://github.com/rodrigooliver/interflow_docs/edit/main/:path',
           text: 'Editar esta página'
         }
       }

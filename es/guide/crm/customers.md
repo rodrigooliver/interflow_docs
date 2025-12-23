@@ -1,186 +1,244 @@
-# Gerenciamento de Clientes
+# Gestión de Clientes
 
-Gerencie todos os seus clientes de forma centralizada no CRM da Interflow.
+Gestiona todos tus clientes de forma centralizada en el CRM de Interflow.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
+## Visión General
+
+El CRM de Interflow permite gestionar todos tus contactos en un único lugar, con historial completo de interacciones, campos personalizados y segmentación por tags.
+
+## Accediendo a Clientes
+
+1. En el menú principal, haz clic en **Clientes**
+2. Verás la lista de todos los clientes registrados
+3. Usa filtros para encontrar clientes específicos
+
+## Registro de Cliente
+
+### Campos Estándar
+
+| Campo | Descripción | Obligatorio |
+|-------|-------------|-------------|
+| **Nombre** | Nombre completo del cliente | Sí |
+| **Email** | Email de contacto | No |
+| **Teléfono** | Número principal | No |
+| **WhatsApp** | Número de WhatsApp | No |
+
+### Creando un Cliente Manualmente
+
+1. Haz clic en **"Nuevo cliente"**
+2. Llena los campos
+3. Agrega tags (opcional)
+4. Haz clic en **"Guardar"**
+
+### Creación Automática
+
+Los clientes son creados automáticamente cuando:
+- Inician una conversación en cualquier canal
+- Son importados vía planilla
+- Son creados vía API
+
+### Bloqueo de Clientes Duplicados
+
+El sistema detecta automáticamente y bloquea la creación de clientes duplicados.
+
+**Cómo funciona:**
+
+1. Al intentar crear un cliente con datos existentes
+2. El sistema verifica registros existentes
+3. Si encuentra duplicado, muestra alerta
+4. Opción de ver el cliente existente
+5. O combinar datos en el existente
+
+**Criterios de detección:**
+
+| Campo | Detección |
+|-------|-----------|
+| Teléfono | ✅ Exacto (ignora formato) |
+| Email | ✅ Exacto (ignora mayúsculas) |
+| WhatsApp | ✅ Exacto (normalizado) |
+
+**Opciones cuando encuentra duplicado:**
+
+- 🚫 Nueva creación es bloqueada
+- 🔗 Link al registro existente mostrado
+- 🔄 Opción de combinar datos
+- ✏️ Opción de actualizar existente
+
+::: tip 💡 Configuración
+La combinación automática puede ser desactivada en **Configuraciones → Clientes → "Permitir duplicados"**.
 :::
 
-## Visão Geral
+## Perfil del Cliente
 
-O CRM da Interflow permite gerenciar todos os seus contatos em um único lugar, com histórico completo de interações, campos personalizados e segmentação por tags.
+Al hacer clic en un cliente, accedes a su perfil completo:
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Lista de clientes</p>
-</div>
+### Información
 
-## Acessando Clientes
-
-1. No menu principal, clique em **Clientes**
-2. Você verá a lista de todos os clientes cadastrados
-3. Use filtros para encontrar clientes específicos
-
-## Cadastro de Cliente
-
-### Campos Padrão
-
-| Campo | Descrição | Obrigatório |
-|-------|-----------|-------------|
-| **Nome** | Nome completo do cliente | Sim |
-| **Email** | Email de contato | Não |
-| **Telefone** | Número principal | Não |
-| **WhatsApp** | Número do WhatsApp | Não |
-
-### Criando um Cliente Manualmente
-
-1. Clique em **"Novo cliente"**
-2. Preencha os campos
-3. Adicione tags (opcional)
-4. Clique em **"Salvar"**
-
-### Criação Automática
-
-Clientes são criados automaticamente quando:
-- Iniciam uma conversa em qualquer canal
-- São importados via planilha
-- São criados via API
-
-## Perfil do Cliente
-
-Ao clicar em um cliente, você acessa seu perfil completo:
-
-### Informações
-
-- Dados de contato
+- Datos de contacto
 - Campos personalizados
 - Tags
-- Data de cadastro
-- Última interação
+- Fecha de registro
+- Última interacción
 
-### Histórico
+### Historial
 
-- Todas as conversas
-- Agendamentos
-- Compras/transações
+- Todas las conversaciones
+- Citas
+- Compras/transacciones
 - Notas internas
 
-### Ações
+### Acciones
 
-- Iniciar nova conversa
-- Agendar tarefa
-- Adicionar nota
-- Editar cadastro
+- Iniciar nueva conversación
+- Agendar tarea
+- Agregar nota
+- Editar registro
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Perfil do cliente</p>
-</div>
+## Búsqueda y Filtros
 
-## Pesquisa e Filtros
+### Búsqueda Rápida
 
-### Busca Rápida
-
-Digite no campo de busca para encontrar clientes por:
-- Nome
+Escribe en el campo de búsqueda para encontrar clientes por:
+- Nombre
 - Email
-- Telefone
+- Teléfono
 - Tags
 
-### Filtros Avançados
+### Filtros Avanzados
 
-| Filtro | Descrição |
-|--------|-----------|
-| **Tags** | Filtrar por tags específicas |
-| **Canal** | Por canal de origem |
-| **Data** | Por período de cadastro |
+| Filtro | Descripción |
+|--------|-------------|
+| **Tags** | Filtrar por tags específicos |
+| **Canal** | Por canal de origen |
+| **Fecha** | Por período de registro |
 | **Campos** | Por valores de campos personalizados |
-| **Status** | Ativos, inativos, etc. |
+| **Estado** | Activos, inactivos, etc. |
 
-### Salvando Filtros
+### Guardando Filtros
 
-1. Configure os filtros desejados
-2. Clique em **"Salvar filtro"**
-3. Dê um nome ao filtro
-4. Acesse rapidamente pelo seletor
+1. Configura los filtros deseados
+2. Haz clic en **"Guardar filtro"**
+3. Da un nombre al filtro
+4. Accede rápidamente por el selector
 
-## Importação de Clientes
+### Visibilidad Restringida para Agentes
 
-### Via Planilha (CSV/Excel)
+Agentes ven solo clientes de equipos a los que están asignados.
 
-1. Vá em **Clientes** → **Importar**
-2. Baixe o modelo de planilha
-3. Preencha com seus dados
-4. Faça upload do arquivo
-5. Mapeie os campos
-6. Confirme a importação
+**Áreas afectadas:**
+- 📋 Lista de clientes
+- 🔍 Búsqueda de clientes
+- 📊 Informes (datos filtrados)
+- 📤 Exportaciones (respeta visibilidad)
 
-**Colunas do modelo:**
-
-```csv
-nome,email,telefone,whatsapp,tag1,tag2,campo_personalizado
-João Silva,joao@email.com,11999999999,11999999999,cliente,vip,Empresa XYZ
-```
-
-### Via API
-
-Veja a [documentação da API](/api/clientes/criar) para importação programática.
-
-## Exportação de Clientes
-
-1. Aplique os filtros desejados
-2. Clique em **"Exportar"**
-3. Selecione o formato (CSV, Excel)
-4. Baixe o arquivo
-
-## Mesclagem de Clientes
-
-Quando identificar duplicatas:
-
-1. Selecione os clientes duplicados
-2. Clique em **"Mesclar"**
-3. Escolha qual registro manter como principal
-4. Confirme a mesclagem
-
-::: tip DICA
-A mesclagem mantém todo o histórico de ambos os registros.
+::: warning ⚠️ Seguridad
+Administradores continúan viendo todos los clientes. Esta configuración protege datos sensibles entre equipos.
 :::
 
-## Notas e Tarefas
+## Importación de Clientes
 
-### Adicionando Notas
+### Vía Planilla (CSV/Excel)
 
-1. No perfil do cliente, vá em **Notas**
-2. Clique em **"Nova nota"**
-3. Digite o conteúdo
-4. Salve
+1. Ve a **Clientes** → **Importar**
+2. Descarga el modelo de planilla
+3. Llena con tus datos
+4. Haz upload del archivo
+5. Mapea los campos
+6. Confirma la importación
 
-As notas são visíveis apenas para sua equipe.
+## Exportación de Clientes
 
-### Criando Tarefas
+1. Aplica los filtros deseados
+2. Haz clic en **"Exportar"**
+3. Selecciona el formato (CSV, Excel, JSON)
+4. Descarga el archivo
 
-1. No perfil do cliente, clique em **"Nova tarefa"**
-2. Defina:
+::: warning ⚠️ Datos Sensibles
+Si la opción "Ocultar Datos de Contacto de los Agentes" está activa, agentes no verán email, teléfono y WhatsApp en las exportaciones.
+:::
+
+## Informes Avanzados de Clientes
+
+Genera informes con agrupaciones y subdivisiones personalizadas:
+
+1. En **Clientes** → haz clic en **"Informes Avanzados"** 📊
+2. Haz clic en **"Nueva Configuración"**
+3. Sigue el asistente de 5 pasos:
+   - **Paso 1**: Upload del JSON (exportar de la lista de clientes)
+   - **Paso 2**: Configura agrupaciones (ej: por Origen, Estado)
+   - **Paso 3**: Configura columna de total
+   - **Paso 4**: Configura subdivisiones (ej: motivos de no compra)
+   - **Paso 5**: Revisa y guarda
+
+**Recursos:**
+- Normalización inteligente (unifica variaciones)
+- Preview en tiempo real
+- Exportación a CSV
+- Modelos guardados reutilizables
+
+Ve más en [Informes](/es/guide/reports/).
+
+## Combinación de Clientes
+
+Cuando identificas duplicados:
+
+1. Selecciona los clientes duplicados
+2. Haz clic en **"Combinar"**
+3. Elige qué registro mantener como principal
+4. Confirma la combinación
+
+::: tip CONSEJO
+La combinación mantiene el historial completo de ambos registros.
+:::
+
+## Campos Personalizados
+
+### Cascada de Alteración en Campos Select
+
+Al renombrar una opción de campo personalizado del tipo select, todos los registros son actualizados automáticamente.
+
+**Cómo funciona:**
+
+1. Accede a un cliente → **Campos Personalizados**
+2. Haz clic en ✏️ al lado del campo
+3. Haz clic en ✏️ al lado de la opción que quieres renombrar
+4. Escribe el nuevo valor
+5. Haz clic en **"Actualizar"**
+
+**Qué se actualiza:**
+- ✅ Definición del campo
+- ✅ Todos los clientes que usan esa opción
+- ✅ Muestra cuántos registros fueron afectados
+
+**Protecciones:**
+- 🔒 Detecta ediciones concurrentes
+- 🚫 Bloquea duplicados
+- ⚠️ Avisa sobre conflictos
+
+## Notas y Tareas
+
+### Agregando Notas
+
+1. En el perfil del cliente, ve a **Notas**
+2. Haz clic en **"Nueva nota"**
+3. Escribe el contenido
+4. Guarda
+
+Las notas son visibles solo para tu equipo.
+
+### Creando Tareas
+
+1. En el perfil del cliente, haz clic en **"Nueva tarea"**
+2. Define:
    - Título
-   - Descrição
-   - Data de vencimento
-   - Responsável
-   - Prioridade
-3. Salve
+   - Descripción
+   - Fecha de vencimiento
+   - Responsable
+   - Prioridad
+3. Guarda
 
-## Integração com Atendimento
+## Próximos Pasos
 
-Quando um cliente inicia uma conversa:
-
-- O perfil é exibido automaticamente na tela de chat
-- Você pode acessar histórico e notas
-- Campos podem ser atualizados durante o atendimento
-
-## Próximos Passos
-
-- [Campos Personalizados](/guide/crm/custom-fields)
-- [Tags e Segmentação](/guide/crm/tags)
-- [Funis de Venda](/guide/crm/funnels)
-
+- [Informes](/es/guide/reports/) - Informes avanzados de clientes
+- [Configuraciones](/es/guide/settings/) - Permisos y visibilidad
+- [Chat](/es/guide/chat/interface) - Atención integrada

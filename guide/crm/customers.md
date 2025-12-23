@@ -2,10 +2,6 @@
 
 Gerencie todos os seus clientes de forma centralizada no CRM da Interflow.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
-:::
-
 ## Visão Geral
 
 O CRM da Interflow permite gerenciar todos os seus contatos em um único lugar, com histórico completo de interações, campos personalizados e segmentação por tags.
@@ -46,6 +42,37 @@ Clientes são criados automaticamente quando:
 - Iniciam uma conversa em qualquer canal
 - São importados via planilha
 - São criados via API
+
+### Bloqueio de Clientes Duplicados
+
+O sistema detecta e bloqueia automaticamente a criação de clientes duplicados.
+
+**Como funciona:**
+
+1. Ao tentar criar um cliente com dados existentes
+2. Sistema verifica registros existentes
+3. Se encontrar duplicado, mostra alerta
+4. Opção de ver o cliente existente
+5. Ou mesclar dados no existente
+
+**Critérios de detecção:**
+
+| Campo | Detecção |
+|-------|----------|
+| Telefone | ✅ Exato (ignora formatação) |
+| Email | ✅ Exato (ignora maiúsculas) |
+| WhatsApp | ✅ Exato (normalizado) |
+
+**Opções quando encontra duplicado:**
+
+- 🚫 Nova criação é bloqueada
+- 🔗 Link para registro existente é exibido
+- 🔄 Opção de mesclar dados
+- ✏️ Opção de atualizar existente
+
+::: tip 💡 Configuração
+A mesclagem automática pode ser desativada em **Configurações → Clientes → "Permitir duplicados"**.
+:::
 
 ## Perfil do Cliente
 
@@ -106,6 +133,20 @@ Digite no campo de busca para encontrar clientes por:
 3. Dê um nome ao filtro
 4. Acesse rapidamente pelo seletor
 
+### Visibilidade Restrita para Agentes
+
+Agentes veem apenas clientes das equipes às quais estão atribuídos.
+
+**Áreas afetadas:**
+- 📋 Lista de clientes
+- 🔍 Busca de clientes
+- 📊 Relatórios (dados filtrados)
+- 📤 Exportações (respeita visibilidade)
+
+::: warning ⚠️ Segurança
+Administradores continuam vendo todos os clientes. Essa configuração protege dados sensíveis entre equipes.
+:::
+
 ## Importação de Clientes
 
 ### Via Planilha (CSV/Excel)
@@ -132,8 +173,33 @@ Veja a [documentação da API](/api/clientes/criar) para importação programát
 
 1. Aplique os filtros desejados
 2. Clique em **"Exportar"**
-3. Selecione o formato (CSV, Excel)
+3. Selecione o formato (CSV, Excel, JSON)
 4. Baixe o arquivo
+
+::: warning ⚠️ Dados Sensíveis
+Se a opção "Ocultar Dados de Contato dos Agentes" estiver ativa, agentes não verão email, telefone e WhatsApp nas exportações.
+:::
+
+## Relatórios Avançados de Clientes
+
+Gere relatórios com agrupamentos e subdivisões personalizadas:
+
+1. Em **Clientes** → clique em **"Relatórios Avançados"** 📊
+2. Clique em **"Nova Configuração"**
+3. Siga o assistente de 5 etapas:
+   - **Etapa 1**: Upload do JSON (exportar da lista de clientes)
+   - **Etapa 2**: Configure agrupamentos (ex: por Origem, Status)
+   - **Etapa 3**: Configure coluna de total
+   - **Etapa 4**: Configure subdivisões (ex: motivos de não compra)
+   - **Etapa 5**: Revise e salve
+
+**Recursos:**
+- Normalização inteligente (unifica variações)
+- Preview em tempo real
+- Exportação a CSV
+- Modelos salvos reutilizáveis
+
+Veja mais em [Relatórios](/guide/reports/).
 
 ## Mesclagem de Clientes
 
@@ -147,6 +213,30 @@ Quando identificar duplicatas:
 ::: tip DICA
 A mesclagem mantém todo o histórico de ambos os registros.
 :::
+
+## Campos Personalizados
+
+### Cascata de Alteração em Campos Select
+
+Ao renomear uma opção de campo personalizado do tipo select, todos os registros são atualizados automaticamente.
+
+**Como funciona:**
+
+1. Acesse um cliente → **Campos Personalizados**
+2. Clique ✏️ ao lado do campo
+3. Clique ✏️ ao lado da opção que deseja renomear
+4. Digite o novo valor
+5. Clique em **"Atualizar"**
+
+**O que é atualizado:**
+- ✅ Definição do campo
+- ✅ Todos os clientes que usam essa opção
+- ✅ Exibe quantos registros foram afetados
+
+**Proteções:**
+- 🔒 Detecta edições concorrentes
+- 🚫 Bloqueia duplicados
+- ⚠️ Avisa sobre conflitos
 
 ## Notas e Tarefas
 
@@ -180,7 +270,7 @@ Quando um cliente inicia uma conversa:
 
 ## Próximos Passos
 
-- [Campos Personalizados](/guide/crm/custom-fields)
-- [Tags e Segmentação](/guide/crm/tags)
-- [Funis de Venda](/guide/crm/funnels)
+- [Relatórios](/guide/reports/) - Relatórios avançados de clientes
+- [Configurações](/guide/settings/) - Permissões e visibilidade
+- [Chat](/guide/chat/interface) - Atendimento integrado
 

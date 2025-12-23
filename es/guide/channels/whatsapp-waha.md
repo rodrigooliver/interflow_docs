@@ -1,135 +1,168 @@
 # WhatsApp WAHA
 
-Conecte seu WhatsApp via QR Code para atendimento simplificado.
+Conecta tu WhatsApp vía QR Code para atención simplificada.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
-:::
+## Visión General
 
-## Visão Geral
-
-A integração via WAHA permite usar seu número de WhatsApp comum na plataforma Interflow. É uma solução prática para pequenas e médias empresas.
+La integración vía WAHA permite usar tu número de WhatsApp común en la plataforma Interflow. Es una solución práctica para pequeñas y medianas empresas.
 
 ## Requisitos
 
-- [x] Número de WhatsApp ativo
-- [x] Celular com WhatsApp instalado (para escaneamento inicial)
+- [x] Número de WhatsApp activo
+- [x] Celular con WhatsApp instalado (para escaneo inicial)
 
-## Vantagens
+## Ventajas
 
-| Recurso | Descrição |
-|---------|-----------|
-| **Simples** | Conecte via QR Code em minutos |
-| **Sem custos Meta** | Não há cobrança por conversa |
-| **Grupos** | Suporte a grupos do WhatsApp |
-| **Mídia completa** | Imagens, vídeos, áudios, documentos |
+| Recurso | Descripción |
+|---------|-------------|
+| **Simple** | Conecta vía QR Code en minutos |
+| **Sin costos Meta** | No hay cobro por conversación |
+| **Grupos** | Soporte a grupos de WhatsApp |
+| **Media completa** | Imágenes, videos, audios, documentos |
+| **Sincronización** | Recupera mensajes históricos |
 
-## Limitações
+## Limitaciones
 
-::: warning ATENÇÃO
-Esta integração não é oficial da Meta e pode estar sujeita a bloqueios. Use com moderação e siga boas práticas.
+::: warning ATENCIÓN
+Esta integración no es oficial de Meta y puede estar sujeta a bloqueos. Usa con moderación y sigue buenas prácticas.
 :::
 
-- Não suporta templates aprovados
-- Risco de bloqueio se usado para spam
-- Necessita manter sessão ativa
+- No soporta templates aprobados
+- Riesgo de bloqueo si usado para spam
+- Necesita mantener sesión activa
 
-## Configuração
+## Configuración
 
-### Passo 1: Adicionar Canal
+### Paso 1: Agregar Canal
 
-1. Na Interflow, vá em **Configurações** → **Canais**
-2. Clique em **"Adicionar canal"**
-3. Selecione **WhatsApp (WAHA)**
+1. En Interflow, ve a **Configuraciones** → **Canales**
+2. Haz clic en **"Agregar canal"**
+3. Selecciona **WhatsApp (WAHA)**
 
-### Passo 2: Escanear QR Code
+### Paso 2: Escanear QR Code
 
-Um QR Code será exibido. Escaneie com seu WhatsApp:
+Un QR Code será exhibido. Escanea con tu WhatsApp:
 
-1. Abra o WhatsApp no celular
-2. Vá em **Configurações** → **Aparelhos conectados**
-3. Clique em **"Conectar um aparelho"**
-4. Escaneie o QR Code
+1. Abre WhatsApp en el celular
+2. Ve a **Configuraciones** → **Dispositivos conectados**
+3. Haz clic en **"Conectar un dispositivo"**
+4. Escanea el QR Code
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: QR Code para conexão</p>
-</div>
+### Paso 3: Confirmar Conexión
 
-### Passo 3: Confirmar Conexão
+Después de escanear, el estado cambiará a **Conectado**. Ya puedes recibir y enviar mensajes por Interflow.
 
-Após escanear, o status mudará para **Conectado**. Você já pode receber e enviar mensagens pela Interflow.
+## Manteniendo la Sesión Activa
 
-<!-- Placeholder para vídeo -->
-<div style="background: linear-gradient(135deg, #128C7E 0%, #075E54 100%); border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 48px;">▶️</span>
-  <p style="color: white; margin-top: 8px; font-size: 18px;">Vídeo: Conectando via QR Code (em breve)</p>
-</div>
+Para evitar desconexiones:
 
-## Mantendo a Sessão Ativa
+- ✅ Mantén el celular conectado a internet
+- ✅ No desconectes manualmente el dispositivo
+- ✅ Evita usar el mismo número en otros servicios
+- ❌ No hagas logout del WhatsApp en el celular
 
-Para evitar desconexões:
+## Sincronización de Mensajes
 
-- ✅ Mantenha o celular conectado à internet
-- ✅ Não desconecte manualmente o aparelho
-- ✅ Evite usar o mesmo número em outros serviços
-- ❌ Não faça logout do WhatsApp no celular
+Recupera mensajes históricos del WhatsApp que no entraron automáticamente.
 
-## Boas Práticas
+### Cómo usar
 
-Para evitar bloqueios do WhatsApp:
+1. Abre un chat WAHA
+2. Haz clic en el menú (⋮) → **"Sincronizar Mensajes"**
+3. Configura el período:
+   - **Fecha Inicial** y **Fecha Final**
+   - Límite máximo: 3 días por sincronización
+4. Haz clic en **"Sincronizar"**
 
-### ✅ Faça
+### Qué sucede
 
-- Envie mensagens apenas para quem autorizou
-- Responda rapidamente aos clientes
-- Use linguagem profissional
-- Tenha um horário de atendimento
+- ✅ Busca mensajes del período seleccionado
+- ✅ Sincroniza con timestamp original
+- ⏭️ Ignora mensajes ya existentes
+- ✅ Actualiza estado correcto (enviado, entregado, leído)
 
-### ❌ Evite
-
-- Enviar mensagens em massa não solicitadas
-- Usar linguagem promocional agressiva
-- Enviar muitas mensagens em sequência
-- Iniciar conversas com desconhecidos
-
-## Reconexão
-
-Se o canal desconectar:
-
-1. Verifique o status em **Canais**
-2. Clique no canal desconectado
-3. Escaneie o novo QR Code
-4. Aguarde a reconexão
-
-::: tip DICA
-Se houver desconexões frequentes, verifique a conexão de internet do celular e considere migrar para WhatsApp Business API.
+::: tip 💡 Cuándo usar
+Útil cuando reconectaste el canal y quieres recuperar conversaciones que ocurrieron mientras estaba desconectado.
 :::
 
-## Solução de Problemas
+## Grupos de WhatsApp
 
-### QR Code não aparece
+Recibe y responde mensajes de grupos de WhatsApp.
 
-- Limpe o cache do navegador
-- Tente em uma janela anônima
-- Verifique se há bloqueios de firewall
+### Cómo funciona
 
-### Desconexão frequente
+- 💬 Grupos aparecen en la lista de conversaciones
+- 👤 Identifica quién envió en el grupo
+- ↩️ Responde directamente al grupo
+- 📊 Historial completo preservado
 
-- Verifique a internet do celular
-- Atualize o WhatsApp para a versão mais recente
-- Evite múltiplas sessões conectadas
+### Permisos
 
-### Mensagens não chegam
+| Configuración | Descripción |
+|---------------|-------------|
+| **Habilitar grupos** | Admin puede activar/desactivar por canal |
+| **Restringir agentes** | Agentes pueden ser bloqueados de grupos |
 
-- Confirme que o número está correto
-- Verifique se o canal está conectado
-- Cheque se há webhooks configurados
+### Limitaciones
 
-## Próximos Passos
+- Solo mensajes recibidos después de la conexión
+- No es posible crear grupos por la plataforma
+- Admin necesita agregar el número al grupo
 
-- [Interface de Chat](/guide/chat/interface)
-- [Automação com Fluxos](/guide/flows/builder)
-- [Respostas Rápidas](/guide/chat/quick-replies)
+## Buenas Prácticas
 
+Para evitar bloqueos del WhatsApp:
+
+### ✅ Haz
+
+- Envía mensajes solo a quienes autorizaron
+- Responde rápidamente a los clientes
+- Usa lenguaje profesional
+- Ten un horario de atención
+
+### ❌ Evita
+
+- Enviar mensajes en masa no solicitados
+- Usar lenguaje promocional agresivo
+- Enviar muchos mensajes en secuencia
+- Iniciar conversaciones con desconocidos
+
+## Reconexión
+
+Si el canal se desconecta:
+
+1. Verifica el estado en **Canales**
+2. Haz clic en el canal desconectado
+3. Escanea el nuevo QR Code
+4. Espera la reconexión
+
+::: tip CONSEJO
+Si hay desconexiones frecuentes, verifica la conexión de internet del celular y considera migrar para WhatsApp Business API.
+:::
+
+## Solución de Problemas
+
+### QR Code no aparece
+
+- Limpia el cache del navegador
+- Intenta en una ventana incógnita
+- Verifica si hay bloqueos de firewall
+
+### Desconexión frecuente
+
+- Verifica internet del celular
+- Actualiza WhatsApp a la versión más reciente
+- Evita múltiples sesiones conectadas
+
+### Mensajes no llegan
+
+- Confirma que el número está correcto
+- Verifica que el canal está conectado
+- Revisa si hay webhooks configurados
+
+## Próximos Pasos
+
+- [Interfaz de Chat](/es/guide/chat/interface) - Usa el Botón WhatsApp Rápido
+- [Automatización con Flujos](/es/guide/flows/builder) - Automatiza atenciones
+- [Agentes IA](/es/guide/ai-agents/) - IA para responder grupos
+- [WhatsApp Business](/es/guide/channels/whatsapp-business) - Migrar para API oficial
