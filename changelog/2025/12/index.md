@@ -6,6 +6,7 @@ Atualizações do mês de dezembro de 2025.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2025.12.10](/changelog/2025/12/2025.12.10) | 26/12 | **Sistema de Créditos de IA em USD**, Correção: exibição do solicitante |
 | [2025.12.9](/changelog/2025/12/2025.12.9) | 17/12 | Botão WhatsApp Rápido, Sincronização WAHA |
 | [2025.12.8](/changelog/2025/12/2025.12.8) | 17/12 | Atribuição de atendentes pelo admin, Filtros restritos |
 | [2025.12.7](/changelog/2025/12/2025.12.7) | 16/12 | Correção: IA respeita folgas na agenda |
@@ -20,7 +21,8 @@ Atualizações do mês de dezembro de 2025.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (11)
+### ✨ Novas Funcionalidades (12)
+- **Sistema de Créditos de IA em USD** - Controle preciso de custos por modelo
 - Botão de WhatsApp Rápido com ações automáticas
 - Sincronização manual de mensagens WAHA
 - Atribuição e remoção de atendentes pelo admin
@@ -37,11 +39,12 @@ Atualizações do mês de dezembro de 2025.
 - Filtros bloqueados para usuários limitados
 - Menu financeiro restrito para admins
 
-### 🐛 Correções (1)
+### 🐛 Correções (2)
+- Exibição do solicitante nas implantações (Ver Todas)
 - Atendente IA respeita folgas configuradas na agenda
 
 ---
 
 ::: info 📝 Total
-**9 releases** com **14 melhorias** neste mês!
+**10 releases** com **16 melhorias** neste mês!
 :::

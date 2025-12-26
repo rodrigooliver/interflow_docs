@@ -244,3 +244,4 @@ Os agendamentos são coloridos automaticamente conforme seu status, facilitando 
 - [Fluxos de Atendimento](/guide/flows/builder) - Automatize o processo de agendamento
 - [Relatórios](/guide/reports/) - Métricas de agendamentos
 
+

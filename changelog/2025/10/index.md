@@ -36,3 +36,4 @@ Atualizações do mês de outubro de 2025.
 **5 releases** com **10 melhorias** neste mês!
 :::
 
+

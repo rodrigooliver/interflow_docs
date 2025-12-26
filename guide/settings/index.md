@@ -259,3 +259,4 @@ Esta é uma configuração por usuário. Cada membro da equipe pode configurar a
 - [Agentes IA](/guide/ai-agents/) - Configurar IA
 - [Canais](/guide/channels/) - Configurar canais de atendimento
 
+

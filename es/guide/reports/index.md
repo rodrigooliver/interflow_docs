@@ -183,3 +183,4 @@ Agentes con restricción de visibilidad ven solo datos filtrados de sus equipos.
 - [CRM y Clientes](/es/guide/crm/customers) - Informes de clientes
 - [Configuraciones](/es/guide/settings/) - Permisos de informes
 
+

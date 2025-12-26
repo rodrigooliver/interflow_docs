@@ -204,3 +204,4 @@ Esta es una configuración por usuario. Cada miembro del equipo puede configurar
 - [Canales](/es/guide/channels/) - Configura canales de atención
 - [Informes](/es/guide/reports/) - Ver métricas
 
+

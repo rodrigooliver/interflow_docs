@@ -45,3 +45,4 @@ We use the **YYYY.MM.N** format to identify versions:
 - [Roadmap](/en/changelog/roadmap) - Planned features
 - [December 2025](/en/changelog/2025/12/) - Recent updates
 
+

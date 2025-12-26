@@ -6,6 +6,7 @@ Updates for December 2025.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2025.12.10](/en/changelog/2025/12/2025.12.10) | 12/26 | **AI Credits System in USD**, Fix: requester display |
 | [2025.12.9](/en/changelog/2025/12/2025.12.9) | 12/17 | Quick WhatsApp Button, WAHA Sync |
 | [2025.12.8](/en/changelog/2025/12/2025.12.8) | 12/17 | Agent assignment by admin, Restricted filters |
 | [2025.12.7](/en/changelog/2025/12/2025.12.7) | 12/16 | Fix: AI respects schedule time-offs |
@@ -20,7 +21,8 @@ Updates for December 2025.
 
 ## Month Summary
 
-### ✨ New Features (11)
+### ✨ New Features (12)
+- **AI Credits System in USD** - Precise cost control per model
 - Quick WhatsApp Button with automatic actions
 - Manual WAHA message sync
 - Agent assignment by admin
@@ -37,12 +39,14 @@ Updates for December 2025.
 - Filters blocked for limited users
 - Financial menu restricted to admins
 
-### 🐛 Fixes (1)
+### 🐛 Fixes (2)
+- Requester display in deployments (View All)
 - AI Agent respects configured time-offs
 
 ---
 
 ::: info 📝 Total
-**9 releases** with **14 improvements** this month!
+**10 releases** with **16 improvements** this month!
 :::
+
 

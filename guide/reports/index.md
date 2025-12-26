@@ -244,3 +244,4 @@ Agentes com restrição de visibilidade veem apenas dados filtrados das suas equ
 - [CRM e Clientes](/guide/crm/customers) - Relatórios de clientes
 - [Configurações](/guide/settings/) - Permissões de relatórios
 
+
