@@ -1,0 +1,14 @@
+# Robots.txt para Interflow Docs
+# https://docs.interflow.chat
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://docs.interflow.chat/sitemap.xml
+
+# Bloqueia acesso a arquivos de assets desnecessários para indexação
+Disallow: /assets/*.js
+Disallow: /assets/*.css
+Disallow: /hashmap.json
+

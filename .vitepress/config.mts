@@ -1,5 +1,8 @@
 import { defineConfig } from 'vitepress'
 
+// URL base do site (usado para sitemap e meta tags)
+const SITE_URL = 'https://docs.interflow.chat'
+
 // Sidebar compartilhada (mesma estrutura para todos os idiomas)
 function getSidebar(lang: string = '') {
   const prefix = lang ? `/${lang}` : ''
@@ -216,12 +219,64 @@ export default defineConfig({
   title: "Interflow Docs",
   description: "Documentação oficial da plataforma Interflow - Atendimento multicanal e CRM",
   
+  // Configuração do Sitemap
+  sitemap: {
+    hostname: SITE_URL,
+    transformItems: (items) => {
+      // Adiciona prioridade baseada no tipo de página
+      return items.map(item => {
+        // Páginas principais têm maior prioridade
+        if (item.url === '' || item.url === 'en/' || item.url === 'es/') {
+          item.priority = 1.0
+        } else if (item.url.includes('/guide/')) {
+          item.priority = 0.8
+        } else if (item.url.includes('/api/')) {
+          item.priority = 0.7
+        } else if (item.url.includes('/changelog/')) {
+          item.priority = 0.5
+        } else {
+          item.priority = 0.6
+        }
+        return item
+      })
+    }
+  },
+  
   head: [
+    // Favicon
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],
+    
+    // Meta tags básicas
     ['meta', { name: 'theme-color', content: '#6366f1' }],
+    ['meta', { name: 'author', content: 'Interflow' }],
+    ['meta', { name: 'keywords', content: 'interflow, atendimento, multicanal, crm, whatsapp, instagram, facebook, automação, chatbot, documentação' }],
+    
+    // Open Graph
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: 'Interflow Docs' }],
-    ['meta', { property: 'og:image', content: '/og-image.png' }],
+    ['meta', { property: 'og:title', content: 'Interflow Docs - Documentação Oficial' }],
+    ['meta', { property: 'og:description', content: 'Documentação oficial da plataforma Interflow - Atendimento multicanal e CRM' }],
+    ['meta', { property: 'og:image', content: `${SITE_URL}/og-image.svg` }],
+    ['meta', { property: 'og:image:width', content: '1200' }],
+    ['meta', { property: 'og:image:height', content: '630' }],
+    ['meta', { property: 'og:url', content: SITE_URL }],
+    ['meta', { property: 'og:locale', content: 'pt_BR' }],
+    ['meta', { property: 'og:locale:alternate', content: 'en_US' }],
+    ['meta', { property: 'og:locale:alternate', content: 'es_ES' }],
+    
+    // Twitter Card
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:site', content: '@interflow_chat' }],
+    ['meta', { name: 'twitter:title', content: 'Interflow Docs - Documentação Oficial' }],
+    ['meta', { name: 'twitter:description', content: 'Documentação oficial da plataforma Interflow - Atendimento multicanal e CRM' }],
+    ['meta', { name: 'twitter:image', content: `${SITE_URL}/og-image.svg` }],
+    
+    // Canonical e alternates para idiomas
+    ['link', { rel: 'canonical', href: SITE_URL }],
+    
+    // Verificação de propriedade (adicione seus códigos aqui quando necessário)
+    // ['meta', { name: 'google-site-verification', content: 'SEU_CODIGO_GOOGLE' }],
+    // ['meta', { name: 'msvalidate.01', content: 'SEU_CODIGO_BING' }],
   ],
 
   locales: {
