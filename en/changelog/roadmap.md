@@ -8,6 +8,13 @@ This roadmap is updated regularly and may change according to product priorities
 
 ## Q4 2025 (October - December)
 
+### ✅ Completed
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| In-conversation text search | ✅ Completed | Search field within each conversation to quickly locate specific excerpts |
+| Fix deployment screen texts | ✅ Completed | Translation of deployment status and fix for 'Requested by' field |
+
 ### 🚧 In Development
 
 | Feature | Status | Description |
@@ -16,13 +23,11 @@ This roadmap is updated regularly and may change according to product priorities
 | Conditional quick actions | 🚧 In development | Quick actions linked to flows that execute automatic sequences based on lead criteria |
 | Automatic old file deletion routine | 🚧 In development | Automatic cleanup of old files to free up storage space |
 | Low AI token balance notification | 🚧 In development | Automatic alerts for administrators when token balance is running low |
-| Fix deployment screen texts | 🚧 In development | Translation of deployment status and fix for 'Requested by' field |
 
 ### 🔜 Planned
 
 | Feature | Status | Description |
 |---------|--------|-------------|
-| In-conversation text search | 🔜 Planned | Search field within each conversation to quickly locate specific excerpts |
 | Bulk messaging via official API | 🔜 Planned | Mass message sending using the connected official API |
 | Restrict filter editing for Limited Agents | 🔜 Planned | Limited Agents can only use standard filters defined by administration |
 

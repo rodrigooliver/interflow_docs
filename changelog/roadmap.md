@@ -8,6 +8,13 @@ Este roadmap é atualizado regularmente e pode sofrer alterações conforme as p
 
 ## Q4 2025 (Outubro - Dezembro)
 
+### ✅ Concluído
+
+| Recurso | Status | Descrição |
+|---------|--------|-----------|
+| Busca de textos em conversa | ✅ Concluído | Campo de pesquisa dentro de cada conversa para localizar trechos específicos rapidamente |
+| Correção de textos na tela de implantações | ✅ Concluído | Tradução dos status de deployment para português e correção do campo 'Solicitado por' |
+
 ### 🚧 Em Desenvolvimento
 
 | Recurso | Status | Descrição |
@@ -16,13 +23,11 @@ Este roadmap é atualizado regularmente e pode sofrer alterações conforme as p
 | Ações rápidas condicionais | 🚧 Em desenvolvimento | Ações rápidas vinculadas a fluxos que executam sequências automáticas baseadas em critérios do lead |
 | Rotina de exclusão de arquivos antigos | 🚧 Em desenvolvimento | Limpeza automática de arquivos antigos para liberar espaço de armazenamento |
 | Notificação de baixo saldo de tokens IA | 🚧 Em desenvolvimento | Alertas automáticos para administradores quando o saldo de tokens estiver próximo do fim |
-| Correção de textos na tela de implantações | 🚧 Em desenvolvimento | Tradução dos status de deployment para português e correção do campo 'Solicitado por' |
 
 ### 🔜 Planejado
 
 | Recurso | Status | Descrição |
 |---------|--------|-----------|
-| Busca de textos em conversa | 🔜 Planejado | Campo de pesquisa dentro de cada conversa para localizar trechos específicos rapidamente |
 | Disparo em massa via API oficial | 🔜 Planejado | Envio de mensagens em massa usando a API oficial conectada |
 | Restringir edição de filtros para Atendentes Limitados | 🔜 Planejado | Atendentes Limitados utilizam apenas filtros padrões definidos pela administração |
 
