@@ -46,3 +46,5 @@ Usamos el formato **YYYY.MM.N** para identificar las versiones:
 - [Diciembre 2025](/es/changelog/2025/12/) - Actualizaciones recientes
 
 
+
+

@@ -184,3 +184,5 @@ Agentes con restricción de visibilidad ven solo datos filtrados de sus equipos.
 - [Configuraciones](/es/guide/settings/) - Permisos de informes
 
 
+
+

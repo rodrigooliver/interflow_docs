@@ -12,3 +12,5 @@ Disallow: /assets/*.js
 Disallow: /assets/*.css
 Disallow: /hashmap.json
 
+
+

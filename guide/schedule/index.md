@@ -245,3 +245,5 @@ Os agendamentos são coloridos automaticamente conforme seu status, facilitando 
 - [Relatórios](/guide/reports/) - Métricas de agendamentos
 
 
+
+

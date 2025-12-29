@@ -245,3 +245,5 @@ Agentes com restrição de visibilidade veem apenas dados filtrados das suas equ
 - [Configurações](/guide/settings/) - Permissões de relatórios
 
 
+
+

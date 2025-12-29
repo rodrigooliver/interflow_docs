@@ -164,6 +164,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2025/12/` },
+              { text: 'v2025.12.11', link: `${prefix}/changelog/2025/12/2025.12.11` },
               { text: 'v2025.12.10', link: `${prefix}/changelog/2025/12/2025.12.10` },
               { text: 'v2025.12.9', link: `${prefix}/changelog/2025/12/2025.12.9` },
               { text: 'v2025.12.8', link: `${prefix}/changelog/2025/12/2025.12.8` },

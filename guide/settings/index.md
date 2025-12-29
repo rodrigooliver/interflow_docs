@@ -260,3 +260,5 @@ Esta é uma configuração por usuário. Cada membro da equipe pode configurar a
 - [Canais](/guide/channels/) - Configurar canais de atendimento
 
 
+
+
