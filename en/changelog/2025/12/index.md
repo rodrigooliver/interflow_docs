@@ -6,7 +6,7 @@ Updates for December 2025.
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| [2025.12.11](/en/changelog/2025/12/2025.12.11) | 12/29 | **Message search within conversations** |
+| [2025.12.11](/en/changelog/2025/12/2025.12.11) | 12/29 | **Light Mode on app**, Message search within conversations |
 | [2025.12.10](/en/changelog/2025/12/2025.12.10) | 12/26 | **AI Credits System in USD**, Fix: requester display |
 | [2025.12.9](/en/changelog/2025/12/2025.12.9) | 12/17 | Quick WhatsApp Button, WAHA Sync |
 | [2025.12.8](/en/changelog/2025/12/2025.12.8) | 12/17 | Agent assignment by admin, Restricted filters |
@@ -22,7 +22,8 @@ Updates for December 2025.
 
 ## Month Summary
 
-### ✨ New Features (13)
+### ✨ New Features (14)
+- **Light Mode on Android and iOS app** - Now you can choose between light or dark mode
 - **Message search within conversations** - Search messages in each individual conversation
 - **AI Credits System in USD** - Precise cost control per model
 - Quick WhatsApp Button with automatic actions
@@ -48,7 +49,7 @@ Updates for December 2025.
 ---
 
 ::: info 📝 Total
-**11 releases** with **17 improvements** this month!
+**11 releases** with **18 improvements** this month!
 :::
 
 

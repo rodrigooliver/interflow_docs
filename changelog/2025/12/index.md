@@ -6,7 +6,7 @@ Atualizações do mês de dezembro de 2025.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
-| [2025.12.11](/changelog/2025/12/2025.12.11) | 29/12 | **Busca de mensagens dentro da conversa** |
+| [2025.12.11](/changelog/2025/12/2025.12.11) | 29/12 | **Light Mode no app**, Busca de mensagens dentro da conversa |
 | [2025.12.10](/changelog/2025/12/2025.12.10) | 26/12 | **Sistema de Créditos de IA em USD**, Correção: exibição do solicitante |
 | [2025.12.9](/changelog/2025/12/2025.12.9) | 17/12 | Botão WhatsApp Rápido, Sincronização WAHA |
 | [2025.12.8](/changelog/2025/12/2025.12.8) | 17/12 | Atribuição de atendentes pelo admin, Filtros restritos |
@@ -22,7 +22,8 @@ Atualizações do mês de dezembro de 2025.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (13)
+### ✨ Novas Funcionalidades (14)
+- **Light Mode no app Android e iOS** - Agora você pode escolher entre modo claro ou escuro
 - **Busca de mensagens dentro da conversa** - Pesquise mensagens em cada conversa individual
 - **Sistema de Créditos de IA em USD** - Controle preciso de custos por modelo
 - Botão de WhatsApp Rápido com ações automáticas
@@ -48,5 +49,5 @@ Atualizações do mês de dezembro de 2025.
 ---
 
 ::: info 📝 Total
-**11 releases** com **17 melhorias** neste mês!
+**11 releases** com **18 melhorias** neste mês!
 :::
