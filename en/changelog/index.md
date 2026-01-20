@@ -8,8 +8,11 @@ Interflow is constantly evolving. Follow here all updates, improvements and fixe
 
 ## Browse by Year
 
-### [📅 2025](/en/changelog/2025/)
+### [📅 2026](/en/changelog/2026/)
 Current year updates.
+
+### [📅 2025](/en/changelog/2025/)
+2025 updates.
 
 ---
 
@@ -43,7 +46,7 @@ We use the **YYYY.MM.N** format to identify versions:
 ## Quick Links
 
 - [Roadmap](/en/changelog/roadmap) - Planned features
-- [December 2025](/en/changelog/2025/12/) - Recent updates
+- [January 2026](/en/changelog/2026/01/) - Recent updates
 
 
 

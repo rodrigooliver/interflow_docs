@@ -8,8 +8,11 @@ Interflow está en constante evolución. Acompaña aquí todas las actualizacion
 
 ## Navegación por Año
 
-### [📅 2025](/es/changelog/2025/)
+### [📅 2026](/es/changelog/2026/)
 Actualizaciones del año actual.
+
+### [📅 2025](/es/changelog/2025/)
+Actualizaciones de 2025.
 
 ---
 
@@ -43,7 +46,7 @@ Usamos el formato **YYYY.MM.N** para identificar las versiones:
 ## Enlaces Rápidos
 
 - [Roadmap](/es/changelog/roadmap) - Funcionalidades planificadas
-- [Diciembre 2025](/es/changelog/2025/12/) - Actualizaciones recientes
+- [Enero 2026](/es/changelog/2026/01/) - Actualizaciones recientes
 
 
 

@@ -156,8 +156,22 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: '2025',
+        text: '2026',
         collapsed: false,
+        items: [
+          {
+            text: lang === 'en' ? 'January' : lang === 'es' ? 'Enero' : 'Janeiro',
+            collapsed: false,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/01/` },
+              { text: 'v2026.1.1', link: `${prefix}/changelog/2026/01/2026.1.1` }
+            ]
+          }
+        ]
+      },
+      {
+        text: '2025',
+        collapsed: true,
         items: [
           {
             text: lang === 'en' ? 'December' : lang === 'es' ? 'Diciembre' : 'Dezembro',
