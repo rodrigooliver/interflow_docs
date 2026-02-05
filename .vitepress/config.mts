@@ -60,6 +60,7 @@ function getSidebar(lang: string = '') {
               { text: lang === 'en' ? 'Condition' : lang === 'es' ? 'Condición' : 'Condição', link: `${prefix}/guide/flows/nodes/condition` },
               { text: lang === 'en' ? 'Random' : lang === 'es' ? 'Aleatorio' : 'Aleatório', link: `${prefix}/guide/flows/nodes/random` },
               { text: lang === 'en' ? 'Update Customer' : lang === 'es' ? 'Actualizar Cliente' : 'Atualizar Cliente', link: `${prefix}/guide/flows/nodes/update-customer` },
+              { text: lang === 'en' ? 'Create Task' : lang === 'es' ? 'Crear Tarea' : 'Criar Tarefa', link: `${prefix}/guide/flows/nodes/create-task` },
               { text: 'Jump To', link: `${prefix}/guide/flows/nodes/jump-to` },
               { text: lang === 'en' ? 'System Message' : lang === 'es' ? 'Mensaje de Sistema' : 'Mensagem de Sistema', link: `${prefix}/guide/flows/nodes/system-message` },
               { text: lang === 'en' ? 'Private Note' : lang === 'es' ? 'Nota Privada' : 'Nota Privada', link: `${prefix}/guide/flows/nodes/private-note` },
@@ -164,6 +165,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/02/` },
+              { text: 'v2026.2.2', link: `${prefix}/changelog/2026/02/2026.2.2` },
               { text: 'v2026.2.1', link: `${prefix}/changelog/2026/02/2026.2.1` }
             ]
           },

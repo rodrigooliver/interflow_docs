@@ -1,100 +1,107 @@
-# Tipos de Nós do Construtor de Fluxos
+# Flow Builder Node Types
 
-Esta seção detalha todos os tipos de nós disponíveis no Construtor de Fluxos da Interflow, suas funcionalidades e como configurá-los.
+This section details all node types available in the Interflow Flow Builder, their features and how to configure them.
 
-## Nó Inicial
+## Initial Node
 
-- [Start (Início)](/guide/flows/nodes/start) - Ponto de entrada do fluxo
+- [Start](/en/guide/flows/nodes/start) - Flow entry point
 
-## Nós de Envio
+## Sending Nodes
 
-Nós para enviar mensagens e conteúdo ao cliente:
+Nodes for sending messages and content to customers:
 
-- [Mensagem de Texto](/guide/flows/nodes/text) - Envia texto, listas e links
-- [Enviar Áudio](/guide/flows/nodes/audio) - Envia arquivos de áudio
-- [Enviar Imagem](/guide/flows/nodes/image) - Envia imagens com legenda
-- [Enviar Vídeo](/guide/flows/nodes/video) - Envia vídeos
-- [Enviar Documento](/guide/flows/nodes/document) - Envia PDFs e documentos
-- [Enviar Email](/guide/flows/nodes/email) - Envia emails via SMTP
+- [Text Message](/en/guide/flows/nodes/text) - Sends text, lists and links
+- [Send Audio](/en/guide/flows/nodes/audio) - Sends audio files
+- [Send Image](/en/guide/flows/nodes/image) - Sends images with caption
+- [Send Video](/en/guide/flows/nodes/video) - Sends videos
+- [Send Document](/en/guide/flows/nodes/document) - Sends PDFs and documents
+- [Send Email](/en/guide/flows/nodes/email) - Sends emails via SMTP
 
-## Nós de Recebimento
+## Receiving Nodes
 
-Nós para capturar respostas do cliente:
+Nodes for capturing customer responses:
 
-- [Aguardar Resposta (Input)](/guide/flows/nodes/input) - Captura texto ou opções
+- [Wait for Response (Input)](/en/guide/flows/nodes/input) - Captures text or options
 
-## Nós de Controle de Fluxo
+## Flow Control Nodes
 
-Nós para controlar a lógica e direcionamento:
+Nodes for controlling logic and routing:
 
-- [Delay](/guide/flows/nodes/delay) - Pausa a execução
-- [Condição](/guide/flows/nodes/condition) - Cria ramificações condicionais
-- [Aleatório (Random)](/guide/flows/nodes/random) - Distribui aleatoriamente
-- [Pular Para (Jump To)](/guide/flows/nodes/jump-to) - Redireciona para outro nó
+- [Delay](/en/guide/flows/nodes/delay) - Pauses execution
+- [Condition](/en/guide/flows/nodes/condition) - Creates conditional branches
+- [Random](/en/guide/flows/nodes/random) - Distributes randomly
+- [Jump To](/en/guide/flows/nodes/jump-to) - Redirects to another node
 
-## Nós de Dados
+## Data Nodes
 
-Nós para manipular variáveis e dados:
+Nodes for manipulating variables and data:
 
-- [Definir Variável](/guide/flows/nodes/variable) - Define ou calcula valores
-- [Atualizar Cliente](/guide/flows/nodes/update-customer) - Atualiza dados do cliente
-- [Requisição HTTP](/guide/flows/nodes/request) - Chama APIs externas
+- [Set Variable](/en/guide/flows/nodes/variable) - Defines or calculates values
+- [Update Customer](/en/guide/flows/nodes/update-customer) - Updates customer data
+- [HTTP Request](/en/guide/flows/nodes/request) - Calls external APIs
 
-## Nós de IA
+## Action Nodes
 
-Nós para integração com inteligência artificial:
+Nodes for executing automated actions:
 
-- [Agente IA](/guide/flows/nodes/agenteia) - Executa agente pré-configurado
-- [OpenAI](/guide/flows/nodes/openai) - Integração direta com GPT
-- [ElevenLabs TTS](/guide/flows/nodes/elevenlabs) - Síntese de voz ElevenLabs
-- [Minimax TTS](/guide/flows/nodes/minimax) - Síntese de voz Minimax
+- [Create Task](/en/guide/flows/nodes/create-task) - Creates tasks automatically
 
-## Nós de Sistema
+## AI Nodes
 
-Nós para ações internas e organização:
+Nodes for artificial intelligence integration:
 
-- [Mensagem de Sistema](/guide/flows/nodes/system-message) - Mensagem interna
-- [Nota Privada](/guide/flows/nodes/private-note) - Adiciona nota ao atendimento
-- [Encerrar Atendimento](/guide/flows/nodes/close-attendance) - Fecha o atendimento
-- [Grupo](/guide/flows/nodes/group) - Agrupa nós visualmente
+- [AI Agent](/en/guide/flows/nodes/agenteia) - Executes pre-configured agent
+- [OpenAI](/en/guide/flows/nodes/openai) - Direct GPT integration
+- [ElevenLabs TTS](/en/guide/flows/nodes/elevenlabs) - ElevenLabs voice synthesis
+- [Minimax TTS](/en/guide/flows/nodes/minimax) - Minimax voice synthesis
 
-## Nós de Vendas
+## System Nodes
 
-Nós específicos para o módulo de vendas:
+Nodes for internal actions and organization:
 
-- [POS (Ponto de Venda)](/guide/flows/nodes/pos) - Integração com sistema de vendas
+- [System Message](/en/guide/flows/nodes/system-message) - Internal message
+- [Private Note](/en/guide/flows/nodes/private-note) - Adds note to service
+- [Close Attendance](/en/guide/flows/nodes/close-attendance) - Closes the service
+- [Group](/en/guide/flows/nodes/group) - Groups nodes visually
 
-## Visão Geral dos Nós
+## Sales Nodes
 
-| Nó | Categoria | Descrição |
-|----|-----------|-----------|
-| Start | Inicial | Ponto de entrada do fluxo |
-| Texto | Envio | Envia mensagem de texto |
-| Áudio | Envio | Envia arquivo de áudio |
-| Imagem | Envio | Envia imagem |
-| Vídeo | Envio | Envia vídeo |
-| Documento | Envio | Envia documento |
-| Email | Envio | Envia email |
-| Input | Recebimento | Aguarda resposta |
-| Delay | Controle | Pausa execução |
-| Condição | Controle | Ramificação lógica |
-| Random | Controle | Distribuição aleatória |
-| Jump To | Controle | Redirecionamento |
-| Variável | Dados | Define valores |
-| Atualizar Cliente | Dados | Atualiza cadastro |
-| Requisição HTTP | Dados | Chama APIs |
-| Agente IA | IA | Executa agente |
-| OpenAI | IA | Integração GPT |
-| ElevenLabs | IA | Síntese de voz |
-| Minimax | IA | Síntese de voz |
-| Mensagem Sistema | Sistema | Mensagem interna |
-| Nota Privada | Sistema | Nota no atendimento |
-| Encerrar | Sistema | Fecha atendimento |
-| Grupo | Sistema | Organização visual |
-| POS | Vendas | Sistema de vendas |
+Nodes specific to the sales module:
 
-## Próximos Passos
+- [POS (Point of Sale)](/en/guide/flows/nodes/pos) - Sales system integration
 
-- [Construtor de Fluxos](/guide/flows/builder)
-- [Gatilhos de Fluxo](/guide/flows/triggers)
-- [Variáveis](/guide/flows/variables)
+## Node Overview
+
+| Node | Category | Description |
+|------|----------|-------------|
+| Start | Initial | Flow entry point |
+| Text | Sending | Sends text message |
+| Audio | Sending | Sends audio file |
+| Image | Sending | Sends image |
+| Video | Sending | Sends video |
+| Document | Sending | Sends document |
+| Email | Sending | Sends email |
+| Input | Receiving | Waits for response |
+| Delay | Control | Pauses execution |
+| Condition | Control | Logical branching |
+| Random | Control | Random distribution |
+| Jump To | Control | Redirection |
+| Variable | Data | Defines values |
+| Update Customer | Data | Updates record |
+| HTTP Request | Data | Calls APIs |
+| Create Task | Actions | Creates tasks |
+| AI Agent | AI | Executes agent |
+| OpenAI | AI | GPT integration |
+| ElevenLabs | AI | Voice synthesis |
+| Minimax | AI | Voice synthesis |
+| System Message | System | Internal message |
+| Private Note | System | Service note |
+| Close | System | Closes service |
+| Group | System | Visual organization |
+| POS | Sales | Sales system |
+
+## Next Steps
+
+- [Flow Builder](/en/guide/flows/builder)
+- [Flow Triggers](/en/guide/flows/triggers)
+- [Variables](/en/guide/flows/variables)

@@ -40,6 +40,12 @@ Nós para manipular variáveis e dados:
 - [Atualizar Cliente](/guide/flows/nodes/update-customer) - Atualiza dados do cliente
 - [Requisição HTTP](/guide/flows/nodes/request) - Chama APIs externas
 
+## Nós de Ações
+
+Nós para executar ações automatizadas:
+
+- [Criar Tarefa](/guide/flows/nodes/create-task) - Cria tarefas automaticamente
+
 ## Nós de IA
 
 Nós para integração com inteligência artificial:
@@ -83,6 +89,7 @@ Nós específicos para o módulo de vendas:
 | Variável | Dados | Define valores |
 | Atualizar Cliente | Dados | Atualiza cadastro |
 | Requisição HTTP | Dados | Chama APIs |
+| Criar Tarefa | Ações | Cria tarefas |
 | Agente IA | IA | Executa agente |
 | OpenAI | IA | Integração GPT |
 | ElevenLabs | IA | Síntese de voz |
