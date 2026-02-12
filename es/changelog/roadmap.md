@@ -6,40 +6,29 @@ Funcionalidades planificadas para los próximos meses.
 Este roadmap se actualiza regularmente y puede sufrir cambios según las prioridades del producto.
 :::
 
-## Q4 2025 (Octubre - Diciembre)
-
-### ✅ Completado
-
-| Recurso | Estado | Descripción |
-|---------|--------|-------------|
-| Búsqueda de textos en conversación | ✅ Completado | Campo de búsqueda dentro de cada conversación para localizar fragmentos específicos rápidamente |
-| Corrección de textos en pantalla de implementaciones | ✅ Completado | Traducción de estados de deployment y corrección del campo 'Solicitado por' |
+## Q1 2026 (Febrero - Marzo)
 
 ### 🚧 En Desarrollo
 
-| Recurso | Estado | Descripción |
-|---------|--------|-------------|
-| Limitar visualización del CRM para agentes | 🚧 En desarrollo | Los agentes solo visualizan los chats de los que son responsables, garantizando privacidad y seguridad de datos |
-| Acciones rápidas condicionales | 🚧 En desarrollo | Acciones rápidas vinculadas a flujos que ejecutan secuencias automáticas basadas en criterios del lead |
-| Rutina de eliminación de archivos antiguos | 🚧 En desarrollo | Limpieza automática de archivos antiguos para liberar espacio de almacenamiento |
-| Notificación de saldo bajo de tokens IA | 🚧 En desarrollo | Alertas automáticas para administradores cuando el saldo de tokens esté próximo a agotarse |
+| Recurso | Estado | Previsión | Descripción |
+|---------|--------|-----------|-------------|
+| Registro de base de datos personalizada para consulta de la IA | 🚧 En desarrollo | Feb 2026 | Espacio en el Agente IA para registrar base de datos propia (imágenes, PDFs, textos). La IA consulta esta información antes de búsquedas externas, reduciendo consumo de tokens y optimizando costes. |
+| Integración de Interflow con AWS S3 para almacenamiento ampliado | 🚧 En desarrollo | Feb 2026 | Integración con la cuenta AWS S3 del cliente para ampliar almacenamiento y permitir envío/recepción de archivos más grandes en las conversaciones, con archivos guardados en buckets configurados. |
 
 ### 🔜 Planificado
 
-| Recurso | Estado | Descripción |
-|---------|--------|-------------|
-| Envío masivo vía API oficial | 🔜 Planificado | Envío de mensajes en masa usando la API oficial conectada |
-| Restringir edición de filtros para Agentes Limitados | 🔜 Planificado | Los Agentes Limitados utilizan solo filtros estándar definidos por la administración |
-
-## Q1 2026 (Enero - Marzo)
-
-### 🔜 Planificado
-
-| Recurso | Estado | Descripción |
-|---------|--------|-------------|
-| Silenciar notificaciones por miembro en proyectos | 🔜 Planificado | Permitir que miembros específicos no reciban notificaciones de tareas en proyectos |
-| Menú de clientes vinculados al agente | 🔜 Planificado | Menú exclusivo donde cada agente visualiza solo su propia cartera de clientes |
-| Cambio automático a cuenta OpenAI del cliente | 🔜 Planificado | Al agotar tokens del plan, el sistema usa automáticamente la cuenta OpenAI registrada del cliente |
+| Recurso | Estado | Previsión | Descripción |
+|---------|--------|-----------|-------------|
+| Módulo de UTM con integración de eventos del embudo a la API de Conversión de Facebook | 🔜 Planificado | Feb 2026 | Gestión de UTMs vinculada a campañas, Pixel y API de conversión de Facebook; las etapas del embudo disparan eventos automáticamente a la API de conversión. |
+| Aplicación automática de tasa sobre forma de pago en el módulo financiero | 🔜 Planificado | Feb 2026 | Al elegir forma de pago con tasa, la tasa se aplica automáticamente sobre el valor de la operación de entrada o salida en caja. |
+| Evitar generación de enlace para vídeos dentro del límite de WhatsApp | 🔜 Planificado | Feb 2026 | Vídeos dentro del tamaño aceptado por WhatsApp se envían directamente en la conversación, sin enlace, para mejor experiencia en la app. |
+| Mostrar vídeos y audios enviados desde el móvil en la plataforma Interflow | 🔜 Planificado | Feb 2026 | Garantizar que vídeos y audios enviados desde el móvil se muestren y reproduzcan correctamente en el panel de Interflow. |
+| Generar modelo de documento en PDF con datos del cliente | 🔜 Planificado | Feb 2026 | Generar PDF automáticamente con datos registrados del cliente (propuestas, contratos, comprobantes) a partir de plantilla predefinida. |
+| Restringir gestión de colaboradores a administradores en las conversaciones | 🔜 Planificado | Feb 2026 | Solo administradores pueden añadir o quitar colaboradores en las conversaciones; agentes limitados no tienen este permiso. |
+| Funcionalidades avanzadas en conversaciones de grupo en el chat | 🔜 Planificado | Feb 2026 | Recursos para grupos: responder en privado desde el chat, administradores eliminar mensajes, visualización de foto del grupo, entre otros. |
+| Automatización para rechazar llamadas de voz y vídeo vía API WhatsApp WA HA | 🔜 Planificado | Mar 2026 | Rechazar automáticamente llamadas de voz y vídeo recibidas por WhatsApp (API WA HA), con opción de activar/desactivar por cuenta. |
+| Integración Financiera ASAAS con Split de Pago Configurable | 🔜 Planificado | Mar 2026 | Integración del módulo financiero con ASAAS y configuración de split de pago (porcentajes o valores fijos por beneficiario). |
+| Creación de chat interno para comunicación entre colaboradores | 🔜 Planificado | Mar 2026 | Chat interno en Interflow para conversaciones entre colaboradores (individual y en grupo), en tiempo real, sin mezclar con atención al cliente. |
 
 ---
 
@@ -48,9 +37,9 @@ Este roadmap se actualiza regularmente y puede sufrir cambios según las priorid
 | Estado | Significado |
 |--------|-------------|
 | ✅ Completado | Ya disponible en la plataforma |
-| 🚧 En desarrollo | Activamente siendo desarrollado |
+| 🚧 En desarrollo | Activamente en desarrollo |
 | 🔜 Planificado | Confirmado para desarrollo |
-| 📝 En análisis | Siendo evaluado para inclusión |
+| 📝 En análisis | En evaluación para inclusión |
 
 ---
 
