@@ -6,6 +6,7 @@ Updates for February 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.2.5](/en/changelog/2026/02/2026.2.5) | 02/12 | **Fallback Integration** – Keep using AI even without credits |
 | [2026.2.4](/en/changelog/2026/02/2026.2.4) | 02/11 | **Message Reactions** – React with emojis like WhatsApp |
 | [2026.2.3](/en/changelog/2026/02/2026.2.3) | 02/09 | **Who can see each quick filter** – visibility by profile, team or user |
 | [2026.2.2](/en/changelog/2026/02/2026.2.2) | 02/05 | **Create Task Node**, **Project Notification Control** |
@@ -15,7 +16,8 @@ Updates for February 2026.
 
 ## Month Summary
 
-### ✨ New Features (5)
+### ✨ New Features (6)
+- **Fallback Integration** – Configure a backup OpenAI integration to keep using AI when Interflow credits run out
 - **Message Reactions** – React with emojis directly in chat, synced with WhatsApp
 - **Who can see each quick filter** – Set who sees each conversation filter: everyone, teams, profiles, or specific users
 - **Create Task Node** - Automate task creation directly in service flows
@@ -25,5 +27,5 @@ Updates for February 2026.
 ---
 
 ::: info 📝 Total
-**4 releases** with **5 features** this month!
+**5 releases** with **6 features** this month!
 :::
