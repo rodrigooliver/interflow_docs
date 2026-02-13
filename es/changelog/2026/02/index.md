@@ -6,6 +6,7 @@ Actualizaciones del mes de febrero de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.2.6](/es/changelog/2026/02/2026.2.6) | 13/02 | **API de Conversiones de Facebook** – Rastreo automático server-side de conversiones |
 | [2026.2.5](/es/changelog/2026/02/2026.2.5) | 12/02 | **Integración de Respaldo** – Siga usando IA incluso sin créditos |
 | [2026.2.4](/es/changelog/2026/02/2026.2.4) | 11/02 | **Reacciones en Mensajes** – Reacciona con emojis como en WhatsApp |
 | [2026.2.3](/es/changelog/2026/02/2026.2.3) | 09/02 | **Quién puede ver cada filtro rápido** – visibilidad por perfil, equipo o usuario |
@@ -16,7 +17,8 @@ Actualizaciones del mes de febrero de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (6)
+### ✨ Nuevas Funcionalidades (7)
+- **API de Conversiones de Facebook** – Rastreo automático server-side de conversiones con identificación inteligente de origen vía WhatsApp
 - **Integración de Respaldo** – Configure una integración OpenAI de respaldo para seguir usando IA cuando los créditos Interflow se agoten
 - **Reacciones en Mensajes** – Reacciona con emojis directamente en el chat, sincronizado con WhatsApp
 - **Quién puede ver cada filtro rápido** – Defina quién ve cada filtro de conversaciones: todos, equipos, perfiles o usuarios específicos
@@ -27,5 +29,5 @@ Actualizaciones del mes de febrero de 2026.
 ---
 
 ::: info 📝 Total
-**5 releases** con **6 funcionalidades** este mes!
+**6 releases** con **7 funcionalidades** este mes!
 :::
