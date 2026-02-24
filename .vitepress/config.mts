@@ -99,6 +99,16 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
+        text: lang === 'en' ? '📄 Document Templates' : lang === 'es' ? '📄 Plantillas de Documentos' : '📄 Modelos de Documentos',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/documents/` },
+          { text: lang === 'en' ? 'Creating Templates' : lang === 'es' ? 'Crear Plantillas' : 'Criar Modelos', link: `${prefix}/guide/documents/templates` },
+          { text: lang === 'en' ? 'Variables & Helpers' : lang === 'es' ? 'Variables y Helpers' : 'Variáveis e Helpers', link: `${prefix}/guide/documents/variables` },
+          { text: lang === 'en' ? 'Conditionals' : lang === 'es' ? 'Condicionales' : 'Condicionais', link: `${prefix}/guide/documents/conditionals` }
+        ]
+      },
+      {
         text: lang === 'en' ? '📊 Reports' : lang === 'es' ? '📊 Informes' : '📊 Relatórios',
         collapsed: false,
         items: [
