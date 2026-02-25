@@ -19,9 +19,11 @@ Interflow features a powerful document generation system that allows you to crea
 Complete data transformation system:
 
 - **Text**: `uppercase`, `lowercase`, `capitalize`, `titleCase`
-- **Numbers in Words**: Support for PT, EN, ES
-- **Currencies**: BRL, USD, EUR, ARS, PYG and more
-- **Dates**: Formatted in words in multiple languages
+- **Numbers in Words**: `formatInWordsPT`, `formatInWordsEN`, `formatInWordsES`, `formatInWordsBRL`, etc.
+- **Currency (symbol)**: `formatCurrencyBRL`, `formatCurrencyUSD`, `formatCurrencyEUR`, etc.
+- **Currency (in words)**: `formatInWordsBRL`, `formatInWordsUSD`, etc.
+- **Dates**: `formatDatePT`, `formatDateShortPT`, `formatDateTimePT`, `formatDay`, `formatMonthPT`, `formatYear`
+- **Time**: `formatTime`, `formatTimeWithSeconds` (with GMT support)
 - **Conditionals**: Display content based on conditions
 
 ### 🎨 Advanced Settings

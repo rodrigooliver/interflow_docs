@@ -19,9 +19,11 @@ O Interflow possui um poderoso sistema de geração de documentos que permite cr
 Sistema completo de transformação de dados:
 
 - **Texto**: `uppercase`, `lowercase`, `capitalize`, `titleCase`
-- **Números por Extenso**: Suporte a PT, EN, ES
-- **Moedas**: BRL, USD, EUR, ARS, PYG e mais
-- **Datas**: Formatação por extenso em múltiplos idiomas
+- **Números por Extenso**: `formatInWordsPT`, `formatInWordsEN`, `formatInWordsES`, `formatInWordsBRL`, etc.
+- **Moedas (símbolo)**: `formatCurrencyBRL`, `formatCurrencyUSD`, `formatCurrencyEUR`, etc.
+- **Moedas (por extenso)**: `formatInWordsBRL`, `formatInWordsUSD`, etc.
+- **Datas**: `formatDatePT`, `formatDateShortPT`, `formatDateTimePT`, `formatDay`, `formatMonthPT`, `formatYear`
+- **Hora**: `formatTime`, `formatTimeWithSeconds` (com suporte a GMT)
 - **Condicionais**: Exibir conteúdo baseado em condições
 
 ### 🎨 Configurações Avançadas

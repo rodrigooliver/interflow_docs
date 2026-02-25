@@ -231,14 +231,14 @@ Compares if a value is less than another:
 
 {{#ifEquals custom.payment_status "paid"}}
   <p style="color: green; font-weight: bold;">✓ PAID</p>
-  <p>Payment Date: {{dateShortEN custom.payment_date}}</p>
+  <p>Payment Date: {{formatDateShortEN custom.payment_date}}</p>
 {{else}}
   {{#ifEquals custom.payment_status "pending"}}
     <p style="color: orange; font-weight: bold;">⏳ PENDING</p>
-    <p>Due Date: {{dateShortEN custom.due_date}}</p>
+    <p>Due Date: {{formatDateShortEN custom.due_date}}</p>
   {{else}}
     <p style="color: red; font-weight: bold;">✗ OVERDUE</p>
-    <p>Was due on: {{dateShortEN custom.due_date}}</p>
+    <p>Was due on: {{formatDateShortEN custom.due_date}}</p>
   {{/ifEquals}}
 {{/ifEquals}}
 ```

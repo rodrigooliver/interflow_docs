@@ -126,7 +126,7 @@ Los helpers son funciones que transforman datos. Use la sintaxis: <code v-pre>{{
 <div v-pre>
 
 ```handlebars
-{{inWordsPT custom.quantidade}}
+{{formatInWordsPT custom.quantidade}}
 ```
 
 </div>
@@ -137,7 +137,7 @@ Los helpers son funciones que transforman datos. Use la sintaxis: <code v-pre>{{
 <div v-pre>
 
 ```handlebars
-{{inWordsEN custom.quantity}}
+{{formatInWordsEN custom.quantity}}
 ```
 
 </div>
@@ -148,7 +148,7 @@ Los helpers son funciones que transforman datos. Use la sintaxis: <code v-pre>{{
 <div v-pre>
 
 ```handlebars
-{{inWordsES custom.cantidad}}
+{{formatInWordsES custom.cantidad}}
 ```
 
 </div>
@@ -165,7 +165,7 @@ Los helpers de moneda convierten el número y agregan el nombre de la moneda en 
 <div v-pre>
 
 ```handlebars
-{{inWordsBRL custom.valor}}
+{{formatInWordsBRL custom.valor}}
 ```
 
 </div>
@@ -176,7 +176,7 @@ Los helpers de moneda convierten el número y agregan el nombre de la moneda en 
 <div v-pre>
 
 ```handlebars
-{{inWordsUSD custom.value}}
+{{formatInWordsUSD custom.value}}
 ```
 
 </div>
@@ -187,7 +187,7 @@ Los helpers de moneda convierten el número y agregan el nombre de la moneda en 
 <div v-pre>
 
 ```handlebars
-{{inWordsEUR custom.value}}
+{{formatInWordsEUR custom.value}}
 ```
 
 </div>
@@ -198,18 +198,18 @@ Los helpers de moneda convierten el número y agregan el nombre de la moneda en 
 <div v-pre>
 
 ```handlebars
-{{inWordsPesos custom.valor}}
+{{formatInWordsARS custom.valor}}
 ```
 
 </div>
 
-**Ejemplo:** `1350.50` → "mil trescientos cincuenta pesos con cincuenta centavos"
+**Ejemplo:** `1350.50` → "mil trescientos cincuenta pesos argentinos"
 
 #### Guaraní Paraguayo (PYG)
 <div v-pre>
 
 ```handlebars
-{{inWordsGuaranies custom.monto}}
+{{formatInWordsPYG custom.monto}}
 ```
 
 </div>
@@ -220,96 +220,100 @@ Los helpers de moneda convierten el número y agregan el nombre de la moneda en 
 Los helpers monetarios incluyen el número Y el nombre de la moneda. No agregue "reais", "dólares", etc. manualmente, ya que quedará duplicado.
 :::
 
-### 📅 Fechas en Letras
+### 💵 Formato de Moneda (Símbolo)
 
-#### Portugués (PT-BR)
+Formatea el valor numérico con símbolo de moneda. Use el helper del país:
 
-**Formato completo:**
 <div v-pre>
 
 ```handlebars
-{{datePT date.current_date}}
+{{formatCurrencyBRL custom.valor}}     // R$ 1.350,50
+{{formatCurrencyUSD custom.valor}}     // $1,350.50
+{{formatCurrencyEUR custom.valor}}     // 1.350,50 €
+{{formatCurrencyARS custom.valor}}     // $ 1.350,50
 ```
 
 </div>
 
-**Resultado:** "24 de fevereiro de 2026"
+`formatCurrency` (sin sufijo) retorna solo el número formateado (1.350,50), sin símbolo.
 
-**Formato corto:**
+### 📅 Fechas
+
+#### Formato completo (PT, EN, ES)
 <div v-pre>
 
 ```handlebars
-{{dateShortPT date.current_date}}
+{{formatDatePT date.current_date}}     // 24 de fevereiro de 2026
+{{formatDateEN date.current_date}}     // February 24, 2026
+{{formatDateES date.current_date}}     // 24 de febrero de 2026
 ```
 
 </div>
 
-**Resultado:** "24/02/2026"
-
-#### Inglés (EN-US)
-
-**Formato completo:**
+#### Formato corto
 <div v-pre>
 
 ```handlebars
-{{dateEN date.current_date}}
+{{formatDateShortPT date.current_date}}  // 24/02/2026
+{{formatDateShortEN date.current_date}}  // 02/24/2026
+{{formatDateShortES date.current_date}}  // 24/02/2026
 ```
 
 </div>
 
-**Resultado:** "February 24, 2026"
-
-**Formato corto:**
+#### Día, mes y año (separados, acepta GMT)
 <div v-pre>
 
 ```handlebars
-{{dateShortEN date.current_date}}
+{{formatDay date.current_date}}        // 24
+{{formatMonthPT date.current_date}}    // fevereiro
+{{formatMonthEN date.current_date}}    // February
+{{formatMonthES date.current_date}}    // febrero
+{{formatYear date.current_date}}       // 2026
 ```
 
 </div>
 
-**Resultado:** "02/24/2026"
-
-#### Español (ES)
-
-**Formato completo:**
+#### Fecha y hora (acepta GMT, use `"now"` para ahora)
 <div v-pre>
 
 ```handlebars
-{{dateES date.current_date}}
+{{formatDateTimePT date.current_date}}           // 24/02/2026 às 14:30
+{{formatDateTimePT "now" -3}}                    // Fecha/hora actual en GMT-3
+{{formatDateTimeEN custom.fecha_hora}}           // Feb 24, 2026 at 14:30
+{{formatDateTimeES custom.fecha_hora -4}}        // Con offset GMT-4
 ```
 
 </div>
 
-**Resultado:** "24 de febrero de 2026"
-
-**Formato corto:**
+#### Solo hora (acepta GMT)
 <div v-pre>
 
 ```handlebars
-{{dateShortES date.current_date}}
+{{formatTime custom.horario}}          // 14:30
+{{formatTimeWithSeconds custom.horario}}  // 14:30:00
+{{formatTime "now" -3}}                // Hora actual en GMT-3
 ```
 
 </div>
-
-**Resultado:** "24/02/2026"
 
 #### Usando con campos personalizados
 
 <div v-pre>
 
 ```handlebars
-Fecha de Vencimiento: {{dateES custom.fecha_vencimiento}}
+Fecha de Vencimiento: {{formatDateES custom.fecha_vencimiento}}
 ```
 
 </div>
 
-::: tip 💡 Fecha de Hoy
-Use `"today"` para mostrar la fecha actual:
+::: tip 💡 Fecha y hora actuales
+Use `"today"` para la fecha actual y `"now"` para fecha/hora actual:
 <div v-pre>
 
 ```handlebars
-{{dateES "today"}}
+{{formatDateES "today"}}
+{{formatDateTimeES "now" -3}}
 ```
 
 </div>
@@ -323,18 +327,18 @@ Puede combinar múltiples helpers usando paréntesis:
 <div v-pre>
 
 ```handlebars
-{{uppercase (inWordsPesos custom.valor)}}
+{{uppercase (formatInWordsARS custom.valor)}}
 ```
 
 </div>
 
-**Resultado:** "MIL TRESCIENTOS CINCUENTA PESOS CON CINCUENTA CENTAVOS"
+**Resultado:** "MIL TRESCIENTOS CINCUENTA PESOS ARGENTINOS"
 
 ### Fecha en Mayúsculas
 <div v-pre>
 
 ```handlebars
-{{uppercase (dateES date.current_date)}}
+{{uppercase (formatDateES date.current_date)}}
 ```
 
 </div>
@@ -345,7 +349,7 @@ Puede combinar múltiples helpers usando paréntesis:
 <div v-pre>
 
 ```handlebars
-{{titleCase (inWordsUSD custom.value)}}
+{{titleCase (formatInWordsUSD custom.value)}}
 ```
 
 </div>
@@ -365,9 +369,9 @@ Puede combinar múltiples helpers usando paréntesis:
 <p><strong>Dirección:</strong> {{customer.address.street}}, {{customer.address.number}} - {{customer.address.city}}/{{customer.address.state}}</p>
 
 <h2>VALOR DEL CONTRATO</h2>
-<p>El valor total de este contrato es de <strong>$ {{custom.valor}}</strong> ({{inWordsPesos custom.valor}}).</p>
+<p>El valor total de este contrato es de <strong>{{formatCurrencyARS custom.valor}}</strong> ({{formatInWordsARS custom.valor}}).</p>
 
-<p>Firmado el {{dateES "today"}}.</p>
+<p>Firmado el {{formatDateES "today"}}.</p>
 ```
 
 </div>
@@ -379,7 +383,7 @@ Puede combinar múltiples helpers usando paréntesis:
 <h2>Información del Cliente</h2>
 <p><strong>Nombre:</strong> {{titleCase customer.name}}</p>
 <p><strong>Email:</strong> {{lowercase customer.email}}</p>
-<p><strong>Fecha de Registro:</strong> {{dateES date.current_date}}</p>
+<p><strong>Fecha de Registro:</strong> {{formatDateES date.current_date}}</p>
 ```
 
 </div>
@@ -393,11 +397,11 @@ Puede combinar múltiples helpers usando paréntesis:
 <table>
   <tr>
     <td>Valor Principal:</td>
-    <td>{{inWordsPesos custom.valor_principal}}</td>
+    <td>{{formatInWordsARS custom.valor_principal}}</td>
   </tr>
   <tr>
     <td>Fecha de Emisión:</td>
-    <td>{{dateShortES "today"}}</td>
+    <td>{{formatDateShortES "today"}}</td>
   </tr>
 </table>
 ```

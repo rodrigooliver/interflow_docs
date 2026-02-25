@@ -231,14 +231,14 @@ Compara si un valor es menor que otro:
 
 {{#ifEquals custom.estado_pago "pagado"}}
   <p style="color: green; font-weight: bold;">✓ PAGADO</p>
-  <p>Fecha de Pago: {{dateShortES custom.fecha_pago}}</p>
+  <p>Fecha de Pago: {{formatDateShortES custom.fecha_pago}}</p>
 {{else}}
   {{#ifEquals custom.estado_pago "pendiente"}}
     <p style="color: orange; font-weight: bold;">⏳ PENDIENTE</p>
-    <p>Vencimiento: {{dateShortES custom.fecha_vencimiento}}</p>
+    <p>Vencimiento: {{formatDateShortES custom.fecha_vencimiento}}</p>
   {{else}}
     <p style="color: red; font-weight: bold;">✗ ATRASADO</p>
-    <p>Venció el: {{dateShortES custom.fecha_vencimiento}}</p>
+    <p>Venció el: {{formatDateShortES custom.fecha_vencimiento}}</p>
   {{/ifEquals}}
 {{/ifEquals}}
 ```
