@@ -155,6 +155,35 @@ Los helpers son funciones que transforman datos. Use la sintaxis: <code v-pre>{{
 
 **Ejemplo:** `250` → "doscientos cincuenta"
 
+### 🔢 Operaciones Matemáticas
+
+Aplique operaciones matemáticas a variables numéricas. Acepta variables o números literales en cualquier argumento.
+
+<div v-pre>
+
+```handlebars
+{{divide valor divisor}}              // valor ÷ divisor
+{{multiply valor factor}}             // valor × factor
+{{add valor sumando}}                 // valor + sumando
+{{subtract valor sustraendo}}         // valor − sustraendo
+{{sum v1 v2 v3}}                      // suma varios valores
+```
+
+</div>
+
+**Ejemplos:**
+<div v-pre>
+
+```handlebars
+{{divide custom.valorTotal 4}}                    // Divide por 4 (ej: 1000 → 250)
+{{divide custom.valorTotal custom.numCuotas}}    // Divide variable por otra variable
+{{multiply custom.cantidad 2}}                   // Multiplica por 2
+{{formatCurrencyBRL (divide custom.valorTotal 4)}}  // Valor ÷ 4 formateado en R$
+{{sum custom.item1 custom.item2 custom.item3}}   // Suma varias variables
+```
+
+</div>
+
 ### 💰 Monedas (Número + Nombre de la Moneda)
 
 ::: tip 💡 Consejo
@@ -356,6 +385,17 @@ Puede combinar múltiples helpers usando paréntesis:
 
 **Resultado:** "One Thousand Three Hundred Fifty Dollars And Fifty Cents"
 
+### Operación Matemática + Formato
+<div v-pre>
+
+```handlebars
+{{formatCurrencyARS (divide custom.valorTotal 4)}}
+```
+
+</div>
+
+**Resultado:** valor total ÷ 4 formateado en $ (ej: $ 250,00)
+
 ## 💡 Ejemplos Prácticos
 
 ### Contrato de Prestación de Servicios
@@ -398,6 +438,10 @@ Puede combinar múltiples helpers usando paréntesis:
   <tr>
     <td>Valor Principal:</td>
     <td>{{formatInWordsARS custom.valor_principal}}</td>
+  </tr>
+  <tr>
+    <td>Valor de la Cuota (÷ {{custom.num_cuotas}}):</td>
+    <td>{{formatCurrencyARS (divide custom.valor_principal custom.num_cuotas)}}</td>
   </tr>
   <tr>
     <td>Fecha de Emisión:</td>

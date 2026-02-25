@@ -155,6 +155,35 @@ Helpers are functions that transform data. Use the syntax: <code v-pre>{{helper 
 
 **Example:** `250` → "doscientos cincuenta"
 
+### 🔢 Mathematical Operations
+
+Apply mathematical operations to numeric variables. Accepts variables or literal numbers in any argument.
+
+<div v-pre>
+
+```handlebars
+{{divide value divisor}}              // value ÷ divisor
+{{multiply value factor}}              // value × factor
+{{add value addend}}                   // value + addend
+{{subtract value subtrahend}}          // value − subtrahend
+{{sum v1 v2 v3}}                      // sum multiple values
+```
+
+</div>
+
+**Examples:**
+<div v-pre>
+
+```handlebars
+{{divide custom.totalValue 4}}                    // Divide by 4 (e.g. 1000 → 250)
+{{divide custom.totalValue custom.numInstallments}}  // Divide variable by another variable
+{{multiply custom.quantity 2}}                    // Multiply by 2
+{{formatCurrencyBRL (divide custom.totalValue 4)}}   // Value ÷ 4 formatted in R$
+{{sum custom.item1 custom.item2 custom.item3}}    // Sum multiple variables
+```
+
+</div>
+
 ### 💰 Currencies (Number + Currency Name)
 
 ::: tip 💡 Tip
@@ -356,6 +385,17 @@ You can combine multiple helpers using parentheses:
 
 **Result:** "One Thousand Three Hundred Fifty Dollars And Fifty Cents"
 
+### Math Operation + Formatting
+<div v-pre>
+
+```handlebars
+{{formatCurrencyUSD (divide custom.totalValue 4)}}
+```
+
+</div>
+
+**Result:** total value ÷ 4 formatted in $ (e.g. $250.00)
+
 ## 💡 Practical Examples
 
 ### Service Agreement
@@ -398,6 +438,10 @@ You can combine multiple helpers using parentheses:
   <tr>
     <td>Principal Amount:</td>
     <td>{{formatInWordsUSD custom.principal_amount}}</td>
+  </tr>
+  <tr>
+    <td>Installment Value (÷ {{custom.num_installments}}):</td>
+    <td>{{formatCurrencyUSD (divide custom.principal_amount custom.num_installments)}}</td>
   </tr>
   <tr>
     <td>Issue Date:</td>

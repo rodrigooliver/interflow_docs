@@ -6,6 +6,7 @@ Actualizaciones del mes de febrero de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.2.7](/es/changelog/2026/02/2026.2.7) | 25/02 | **Modelos de Documentos**, **Colaboradores** – PDF/DOCX con variables; solo admins/dueños gestionan colaboradores |
 | [2026.2.6](/es/changelog/2026/02/2026.2.6) | 13/02 | **API de Conversiones de Facebook** – Rastreo automático server-side de conversiones |
 | [2026.2.5](/es/changelog/2026/02/2026.2.5) | 12/02 | **Integración de Respaldo** – Siga usando IA incluso sin créditos |
 | [2026.2.4](/es/changelog/2026/02/2026.2.4) | 11/02 | **Reacciones en Mensajes** – Reacciona con emojis como en WhatsApp |
@@ -17,7 +18,9 @@ Actualizaciones del mes de febrero de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (7)
+### ✨ Nuevas Funcionalidades (9)
+- **Modelos de Documentos** – Sistema completo de generación de documentos (editor visual, variables, helpers, condicionales, operaciones matemáticas, PDF/DOCX)
+- **Colaboradores** – Solo admins y dueños pueden agregar/quitar; agentes limitados solo visualizan
 - **API de Conversiones de Facebook** – Rastreo automático server-side de conversiones con identificación inteligente de origen vía WhatsApp
 - **Integración de Respaldo** – Configure una integración OpenAI de respaldo para seguir usando IA cuando los créditos Interflow se agoten
 - **Reacciones en Mensajes** – Reacciona con emojis directamente en el chat, sincronizado con WhatsApp
@@ -29,5 +32,5 @@ Actualizaciones del mes de febrero de 2026.
 ---
 
 ::: info 📝 Total
-**6 releases** con **7 funcionalidades** este mes!
+**7 releases** con **9 funcionalidades** este mes!
 :::
