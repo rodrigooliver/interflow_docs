@@ -128,6 +128,13 @@ function getSidebar(lang: string = '') {
         items: [
           { text: 'OpenAI', link: `${prefix}/guide/integrations/openai` }
         ]
+      },
+      {
+        text: lang === 'en' ? '💰 Billing' : lang === 'es' ? '💰 Facturación' : '💰 Cobrança',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/billing/` }
+        ]
       }
     ],
     [`${prefix}/api/`]: [
@@ -170,6 +177,14 @@ function getSidebar(lang: string = '') {
         text: '2026',
         collapsed: false,
         items: [
+          {
+            text: lang === 'en' ? 'March' : lang === 'es' ? 'Marzo' : 'Março',
+            collapsed: false,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/03/` },
+              { text: 'v2026.3.1', link: `${prefix}/changelog/2026/03/2026.3.1` }
+            ]
+          },
           {
             text: lang === 'en' ? 'February' : lang === 'es' ? 'Febrero' : 'Fevereiro',
             collapsed: false,
