@@ -248,6 +248,30 @@ The secret key ensures only legitimate Asaas events are processed. Without it, a
 | **Per installment** | Each installment generates an individual charge in Asaas (bank slip, PIX, etc.) |
 | **Payment link** | A single installment payment link is generated for the entire contract |
 
+#### Mode: Per installment
+
+Recommended when you already have the client's data (CPF and email required by Asaas).
+
+1. With the contract active, each installment shows a **"Generate charge"** button
+2. The system creates the charge in Asaas linked to the registered client
+3. The invoice link appears on the installment card
+4. When the client pays → Asaas sends `PAYMENT_RECEIVED` → splits processed automatically
+
+#### Mode: Payment link
+
+Recommended when **the client fills in their own details** at the time of payment. No CPF or email needs to be registered in advance.
+
+1. With the contract active, click **"Generate payment link"**
+2. The system creates a link in Asaas with the total value and the configured maximum number of installments
+3. The link is displayed on the contract — you send it to the client
+4. The client accesses the link, fills in their details and chooses the payment method
+5. For each installment the client creates → Asaas sends `PAYMENT_CREATED` → the system automatically creates the installments in the database with real data
+6. When the client pays → Asaas sends `PAYMENT_RECEIVED` → splits processed normally
+
+::: tip Key difference
+In **per installment** mode, you control each charge individually and need the client's data upfront. In **payment link** mode, the client handles their own registration and chooses the installment plan — ideal for online sales or when data isn't available yet.
+:::
+
 ### Webhooks
 
 Asaas sends events to Interflow whenever a payment is processed. The system:

@@ -248,6 +248,30 @@ La clave secreta garantiza que solo se procesen eventos legítimos de Asaas. Sin
 | **Por cuota** | Cada cuota genera un cobro individual en Asaas (boleto, PIX, etc.) |
 | **Link de pago** | Se genera un único link de pago en cuotas para todo el contrato |
 
+#### Modo: Por cuota
+
+Recomendado cuando ya tienes los datos del cliente (CPF y email obligatorios para Asaas).
+
+1. Con el contrato activo, cada cuota muestra el botón **"Generar cobro"**
+2. El sistema crea el cobro en Asaas vinculado al cliente registrado
+3. El link de la factura aparece en la tarjeta de la cuota
+4. Cuando el cliente paga → Asaas envía `PAYMENT_RECEIVED` → splits procesados automáticamente
+
+#### Modo: Link de pago
+
+Recomendado cuando **el cliente completa sus propios datos** al momento del pago. No es necesario tener CPF o email registrados previamente.
+
+1. Con el contrato activo, haz clic en **"Generar link de pago"**
+2. El sistema crea un link en Asaas con el valor total y el número máximo de cuotas configurado
+3. El link se muestra en el contrato — tú se lo envías al cliente
+4. El cliente accede al link, completa sus datos y elige la forma de pago
+5. Por cada cuota que el cliente genera → Asaas envía `PAYMENT_CREATED` → el sistema crea las cuotas en la base de datos automáticamente con los datos reales
+6. Cuando el cliente paga → Asaas envía `PAYMENT_RECEIVED` → splits procesados normalmente
+
+::: tip Diferencia principal
+En el modo **por cuota**, controlas cada cobro individualmente y necesitas los datos del cliente de antemano. En el modo **link de pago**, el cliente gestiona su propio registro y elige el plan de cuotas — ideal para ventas en línea o cuando los datos aún no están disponibles.
+:::
+
 ### Webhooks
 
 Asaas envía eventos a Interflow cada vez que se procesa un pago. El sistema:

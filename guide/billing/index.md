@@ -248,6 +248,30 @@ A chave secreta garante que apenas eventos legítimos do Asaas sejam processados
 | **Por parcela** | Cada parcela gera uma cobrança individual no Asaas (boleto, PIX, etc.) |
 | **Link de pagamento** | Um único link de pagamento parcelado é gerado para o contrato inteiro |
 
+#### Modo: Por parcela
+
+Indicado quando você já tem os dados do cliente (CPF e e-mail obrigatórios para o Asaas).
+
+1. Com o contrato ativo, cada parcela exibe o botão **"Gerar cobrança"**
+2. O sistema cria a cobrança no Asaas vinculada ao cliente cadastrado
+3. O link da fatura aparece no card da parcela
+4. Quando o cliente paga → Asaas envia `PAYMENT_RECEIVED` → splits processados automaticamente
+
+#### Modo: Link de pagamento
+
+Indicado quando **o cliente preenche os próprios dados** no momento do pagamento. Não é necessário ter CPF ou e-mail previamente cadastrado.
+
+1. Com o contrato ativo, clique em **"Gerar link de pagamento"**
+2. O sistema cria um link no Asaas com o valor total e o número máximo de parcelas configurado
+3. O link é exibido no contrato — você o envia ao cliente
+4. O cliente acessa o link, preenche seus dados e escolhe a forma de pagamento
+5. Para cada parcela criada pelo cliente → Asaas envia `PAYMENT_CREATED` → o sistema cria as parcelas no banco automaticamente com os dados reais
+6. Quando o cliente paga → Asaas envia `PAYMENT_RECEIVED` → splits processados normalmente
+
+::: tip Diferença principal
+No modo **por parcela**, você controla cada cobrança individualmente e precisa dos dados do cliente. No modo **link de pagamento**, o cliente cuida do próprio cadastro e escolhe o parcelamento — ideal para vendas online ou quando os dados ainda não estão disponíveis.
+:::
+
 ### Webhooks
 
 O Asaas envia eventos para o Interflow sempre que um pagamento é processado. O sistema:
