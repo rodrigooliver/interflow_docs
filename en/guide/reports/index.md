@@ -82,6 +82,21 @@ Report generator with custom groupings and subdivisions.
 | **CSV export** | Download for Excel/Sheets |
 | **Saved templates** | Reuse configurations |
 
+## Message Volume Reports
+
+Track team productivity with message volume data by agent and by team.
+
+| Report | Description |
+|--------|-------------|
+| [**Volume by Agent**](/en/guide/reports/volume-reports) | How many messages each agent sent in the period |
+| [**Volume by Team**](/en/guide/reports/volume-reports) | How many messages each team sent in the period |
+
+Both reports offer flexible period selection, bar or line chart, filter by agent/team, and professional printing.
+
+::: info Permissions
+Access exclusive to **Owners**, **Administrators**, and **Managers**.
+:::
+
 ## Team Reports
 
 Analyze individual and collective team performance.

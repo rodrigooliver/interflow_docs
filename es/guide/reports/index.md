@@ -82,6 +82,21 @@ Generador de informes con agrupaciones y subdivisiones personalizadas.
 | **Exportación CSV** | Descarga para Excel/Sheets |
 | **Modelos guardados** | Reutiliza configuraciones |
 
+## Reportes de Volumen de Mensajes
+
+Haz seguimiento a la productividad del equipo con datos de volumen de mensajes por agente y por equipo.
+
+| Reporte | Descripción |
+|---------|-------------|
+| [**Volumen por Agente**](/es/guide/reports/volume-reports) | Cuántos mensajes envió cada agente en el período |
+| [**Volumen por Equipo**](/es/guide/reports/volume-reports) | Cuántos mensajes envió cada equipo en el período |
+
+Ambos reportes ofrecen selección de período flexible, gráfico de barras o líneas, filtro por agente/equipo e impresión profesional.
+
+::: info Permisos
+Acceso exclusivo para **Dueños**, **Administradores** y **Gerentes**.
+:::
+
 ## Informes de Equipo
 
 Analiza el rendimiento individual y colectivo del equipo.

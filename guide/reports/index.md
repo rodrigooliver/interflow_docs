@@ -99,6 +99,21 @@ Gerador de relatórios com agrupamentos e subdivisões personalizadas.
 └──────────────┴───────┴───────────┴──────────┴───────────┘
 ```
 
+## Relatórios de Volume de Mensagens
+
+Acompanhe a produtividade da equipe com dados de volume de mensagens por atendente e por equipe.
+
+| Relatório | Descrição |
+|-----------|-----------|
+| [**Volume por Atendente**](/guide/reports/volume-reports) | Quantas mensagens cada atendente enviou no período |
+| [**Volume por Equipe**](/guide/reports/volume-reports) | Quantas mensagens cada equipe enviou no período |
+
+Ambos os relatórios oferecem seleção de período flexível, gráfico de barras ou linhas, filtro por atendente/equipe e impressão profissional.
+
+::: info Permissões
+Acesso exclusivo para **Donos**, **Administradores** e **Gerentes**.
+:::
+
 ## Relatórios de Equipe
 
 Analise o desempenho individual e coletivo da equipe.
