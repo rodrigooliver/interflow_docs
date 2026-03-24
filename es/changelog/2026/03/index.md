@@ -6,6 +6,7 @@ Actualizaciones del mes de marzo de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.3.5](/es/changelog/2026/03/2026.3.5) | 24/03 | **Bloquear Medios en Grupos** – Configura para no almacenar fotos, videos, audios y documentos en grupos WhatsApp y ahorrar espacio |
 | [2026.3.4](/es/changelog/2026/03/2026.3.4) | 23/03 | **Reportes de Volumen** – Seguimiento de mensajes por agente y por equipo, con gráfico, filtros de período e impresión |
 | [2026.3.3](/es/changelog/2026/03/2026.3.3) | 20/03 | **Selección de Equipo** – Elige el equipo al iniciar conversación individual, en campañas o vía API |
 | [2026.3.2](/es/changelog/2026/03/2026.3.2) | 16/03 | **Grupos WhatsApp (WAHA)** – Añadir participante como cliente, eliminar mensajes, foto del grupo, lista de participantes |
@@ -15,7 +16,8 @@ Actualizaciones del mes de marzo de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (4)
+### ✨ Nuevas Funcionalidades (5)
+- **Bloquear Medios en Grupos** – Opción para no almacenar fotos, videos, audios y documentos en grupos de WhatsApp, ahorrando espacio del plan y reduciendo el riesgo de costos extras
 - **Reportes de Volumen de Mensajes** – Nuevo módulo con vista por agente y por equipo: gráfico de barras/líneas, filtros de período flexibles (día/semana/mes/año/específico), tarjetas de resumen clicables e impresión con encabezado automático. Acceso restringido a dueños, admins y gerentes
 - **Selección de Equipo al Iniciar Conversación** – Elige el equipo responsable en el momento de crear la atención, ya sea individualmente, en campañas o vía API. El sistema sigue un orden automático de fallback cuando no se selecciona ningún equipo
 - **Grupos WhatsApp (WAHA)** – Experiencia completa en grupos externos: añadir como cliente (menú del mensaje y lista de participantes), eliminar mensajes (incluidos de otros), foto del grupo y modal de participantes
@@ -24,5 +26,5 @@ Actualizaciones del mes de marzo de 2026.
 ---
 
 ::: info 📝 Total
-**4 releases** con **4 funcionalidades** este mes!
+**5 releases** con **5 funcionalidades** este mes!
 :::
