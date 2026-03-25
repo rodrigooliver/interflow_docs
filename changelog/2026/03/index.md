@@ -6,6 +6,7 @@ Atualizações do mês de março de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.3.6](/changelog/2026/03/2026.3.6) | 24/03 | **Base de Conhecimento para Agente IA** – Cadastre documentos internos que a IA consulta automaticamente durante os atendimentos, reduzindo tokens e melhorando a precisão |
 | [2026.3.5](/changelog/2026/03/2026.3.5) | 24/03 | **Bloquear Mídias em Grupos** – Configure para não armazenar fotos, vídeos, áudios e documentos em grupos WhatsApp e economize espaço |
 | [2026.3.4](/changelog/2026/03/2026.3.4) | 23/03 | **Relatórios de Volume** – Acompanhe mensagens por atendente e por equipe, com gráfico, filtros de período e impressão |
 | [2026.3.3](/changelog/2026/03/2026.3.3) | 20/03 | **Seleção de Equipe** – Escolha a equipe ao iniciar conversa individual, em campanhas ou via API |
@@ -16,7 +17,8 @@ Atualizações do mês de março de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (5)
+### ✨ Novas Funcionalidades (6)
+- **Base de Conhecimento para Agente IA** – Espaço dedicado para cadastrar documentos internos (políticas, horários, FAQs, etc.) que a IA consulta automaticamente durante os atendimentos via RAG híbrido (embeddings vetoriais + busca por palavras-chave). Cada documento vira uma ferramenta automática, sem configuração adicional
 - **Bloquear Mídias em Grupos** – Opção para não armazenar fotos, vídeos, áudios e documentos em grupos WhatsApp, economizando espaço do plano e reduzindo risco de custos extras
 - **Relatórios de Volume de Mensagens** – Novo módulo com visão por atendente e por equipe: gráfico de barras/linhas, filtros de período flexíveis (dia/semana/mês/ano/específico), cards de resumo clicáveis e impressão com cabeçalho automático. Acesso restrito a donos, admins e gerentes
 - **Seleção de Equipe ao Iniciar Conversa** – Escolha a equipe responsável no momento da criação do atendimento, seja individualmente, em campanhas ou via API. O sistema segue uma ordem automática de fallback quando nenhuma equipe é selecionada
@@ -26,5 +28,5 @@ Atualizações do mês de março de 2026.
 ---
 
 ::: info 📝 Total
-**5 releases** com **5 funcionalidades** neste mês!
+**6 releases** com **6 funcionalidades** neste mês!
 :::

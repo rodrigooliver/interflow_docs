@@ -6,6 +6,7 @@ Updates for March 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.3.6](/en/changelog/2026/03/2026.3.6) | 03/24 | **Knowledge Base for AI Agent** – Register internal documents the AI automatically consults during service interactions, reducing tokens and improving accuracy |
 | [2026.3.5](/en/changelog/2026/03/2026.3.5) | 03/24 | **Block Media in Groups** – Configure to not store photos, videos, audio and documents in WhatsApp groups and save space |
 | [2026.3.4](/en/changelog/2026/03/2026.3.4) | 03/23 | **Volume Reports** – Track messages by agent and by team, with chart, period filters and printing |
 | [2026.3.3](/en/changelog/2026/03/2026.3.3) | 03/20 | **Team Selection** – Choose the team when starting individual conversations, campaigns or via API |
@@ -16,7 +17,8 @@ Updates for March 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (5)
+### ✨ New Features (6)
+- **Knowledge Base for AI Agent** – Dedicated space to register internal documents (policies, hours, FAQs, etc.) the AI automatically consults during service interactions via hybrid RAG (vector embeddings + keyword search). Each document becomes an automatic tool with no additional configuration
 - **Block Media in Groups** – Option to not store photos, videos, audio and documents in WhatsApp groups, saving plan space and reducing risk of extra costs
 - **Message Volume Reports** – New module with view by agent and by team: bar/line chart, flexible period filters (day/week/month/year/specific), clickable summary cards, and printing with automatic header. Access restricted to owners, admins, and managers
 - **Team Selection When Starting a Conversation** – Choose the responsible team at the moment the service is created, whether individually, in campaigns or via API. The system follows an automatic fallback order when no team is selected
@@ -26,5 +28,5 @@ Updates for March 2026.
 ---
 
 ::: info 📝 Total
-**5 releases** with **5 features** this month!
+**6 releases** with **6 features** this month!
 :::
