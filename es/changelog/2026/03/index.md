@@ -6,6 +6,7 @@ Actualizaciones del mes de marzo de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.3.7](/es/changelog/2026/03/2026.3.7) | 25/03 | **Reenviar mensajes y mensaje inicial tipado** – Reenvío desde el chat a nueva atención; API acepta texto o medio por URL; atención automática al crear con mensaje inicial; toast para abrir la nueva conversación |
 | [2026.3.6](/es/changelog/2026/03/2026.3.6) | 24/03 | **Base de Conocimiento para Agente IA** – Registra documentos internos que la IA consulta automáticamente durante las atenciones, reduciendo tokens y mejorando la precisión |
 | [2026.3.5](/es/changelog/2026/03/2026.3.5) | 24/03 | **Bloquear Medios en Grupos** – Configura para no almacenar fotos, videos, audios y documentos en grupos WhatsApp y ahorrar espacio |
 | [2026.3.4](/es/changelog/2026/03/2026.3.4) | 23/03 | **Reportes de Volumen** – Seguimiento de mensajes por agente y por equipo, con gráfico, filtros de período e impresión |
@@ -17,7 +18,8 @@ Actualizaciones del mes de marzo de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (6)
+### ✨ Nuevas Funcionalidades (7)
+- **Reenviar mensajes y mensaje inicial tipado** – Reenvía mensajes del chat a un nuevo contacto/canal; `POST /chat/create` acepta `initialMessage` como cadena u objeto (texto, imagen, vídeo, audio, documento con URL HTTPS); al crear con mensaje inicial, el sistema puede atender automáticamente o añadirte como colaborador; en el reenvío, toast con **Ir a la conversación** en lugar de redirigir al instante
 - **Base de Conocimiento para Agente IA** – Espacio dedicado para registrar documentos internos (políticas, horarios, FAQs, etc.) que la IA consulta automáticamente durante las atenciones via RAG híbrido (embeddings vectoriales + búsqueda por palabras clave). Cada documento se convierte en una herramienta automática sin configuración adicional
 - **Bloquear Medios en Grupos** – Opción para no almacenar fotos, videos, audios y documentos en grupos de WhatsApp, ahorrando espacio del plan y reduciendo el riesgo de costos extras
 - **Reportes de Volumen de Mensajes** – Nuevo módulo con vista por agente y por equipo: gráfico de barras/líneas, filtros de período flexibles (día/semana/mes/año/específico), tarjetas de resumen clicables e impresión con encabezado automático. Acceso restringido a dueños, admins y gerentes
@@ -28,5 +30,5 @@ Actualizaciones del mes de marzo de 2026.
 ---
 
 ::: info 📝 Total
-**6 releases** con **6 funcionalidades** este mes!
+**7 releases** con **7 funcionalidades** este mes!
 :::

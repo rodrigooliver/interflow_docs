@@ -6,6 +6,7 @@ Atualizações do mês de março de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.3.7](/changelog/2026/03/2026.3.7) | 25/03 | **Encaminhar mensagens e mensagem inicial tipada** – Encaminhe no chat para novo atendimento; API aceita texto ou mídia por URL; atendimento automático ao criar com mensagem inicial; toast para abrir a nova conversa |
 | [2026.3.6](/changelog/2026/03/2026.3.6) | 24/03 | **Base de Conhecimento para Agente IA** – Cadastre documentos internos que a IA consulta automaticamente durante os atendimentos, reduzindo tokens e melhorando a precisão |
 | [2026.3.5](/changelog/2026/03/2026.3.5) | 24/03 | **Bloquear Mídias em Grupos** – Configure para não armazenar fotos, vídeos, áudios e documentos em grupos WhatsApp e economize espaço |
 | [2026.3.4](/changelog/2026/03/2026.3.4) | 23/03 | **Relatórios de Volume** – Acompanhe mensagens por atendente e por equipe, com gráfico, filtros de período e impressão |
@@ -17,7 +18,8 @@ Atualizações do mês de março de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (6)
+### ✨ Novas Funcionalidades (7)
+- **Encaminhar mensagens e mensagem inicial tipada** – Encaminhe mensagens do chat para um novo contato/canal; `POST /chat/create` aceita `initialMessage` como string ou objeto (texto, imagem, vídeo, áudio, documento com URL HTTPS); ao criar com mensagem inicial, o sistema pode atender automaticamente ou adicionar você como colaborador; no encaminhamento, toast com **Ir para conversa** em vez de redirecionar na hora
 - **Base de Conhecimento para Agente IA** – Espaço dedicado para cadastrar documentos internos (políticas, horários, FAQs, etc.) que a IA consulta automaticamente durante os atendimentos via RAG híbrido (embeddings vetoriais + busca por palavras-chave). Cada documento vira uma ferramenta automática, sem configuração adicional
 - **Bloquear Mídias em Grupos** – Opção para não armazenar fotos, vídeos, áudios e documentos em grupos WhatsApp, economizando espaço do plano e reduzindo risco de custos extras
 - **Relatórios de Volume de Mensagens** – Novo módulo com visão por atendente e por equipe: gráfico de barras/linhas, filtros de período flexíveis (dia/semana/mês/ano/específico), cards de resumo clicáveis e impressão com cabeçalho automático. Acesso restrito a donos, admins e gerentes
@@ -28,5 +30,5 @@ Atualizações do mês de março de 2026.
 ---
 
 ::: info 📝 Total
-**6 releases** com **6 funcionalidades** neste mês!
+**7 releases** com **7 funcionalidades** neste mês!
 :::
