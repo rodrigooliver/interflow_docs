@@ -6,6 +6,7 @@ Updates for March 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.3.9](/en/changelog/2026/03/2026.3.9) | 03/31 | **Internal Direct Chat and improved Internal Groups** – Agent-to-agent DM via floating widget; auto-pin persisted in database; configurable delete permission; notifications with sender name |
 | [2026.3.8](/en/changelog/2026/03/2026.3.8) | 03/30 | **Mark read on WhatsApp when resolving (WAHA)** and **pause flow on resolve** – Settings option; read receipt on close; automatic flow pause same as `pause-flow` |
 | [2026.3.7](/en/changelog/2026/03/2026.3.7) | 03/25 | **Forward messages and typed initial message** – Forward from chat to a new service; API accepts text or media by URL; auto-attendance when creating with initial message; toast to open the new conversation |
 | [2026.3.6](/en/changelog/2026/03/2026.3.6) | 03/24 | **Knowledge Base for AI Agent** – Register internal documents the AI automatically consults during service interactions, reducing tokens and improving accuracy |
@@ -19,7 +20,8 @@ Updates for March 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (8)
+### ✨ New Features (9)
+- **Internal Direct Chat and improved Internal Groups** – 1:1 DM between agents accessible from the + button in the Chats page header; floating widget with auto-pin for all members, database persistence and fixed order; configurable permission for members to delete groups; direct chat deletion by either participant; notifications with sender name and no self-notification
 - **Mark read on WhatsApp when resolving and pause flow on resolve** – Optional Attendance setting for WAHA read receipts when finishing or marking resolved; automatic flow session pause equivalent to `POST /pause-flow`
 - **Forward messages and typed initial message** – Forward messages from chat to a new contact/channel; `POST /chat/create` accepts `initialMessage` as a string or object (text, image, video, audio, document with HTTPS URL); when creating with an initial message, the system may auto-attend or add you as collaborator; on forward, a toast with **Go to conversation** instead of an immediate redirect
 - **Knowledge Base for AI Agent** – Dedicated space to register internal documents (policies, hours, FAQs, etc.) the AI automatically consults during service interactions via hybrid RAG (vector embeddings + keyword search). Each document becomes an automatic tool with no additional configuration
@@ -32,5 +34,5 @@ Updates for March 2026.
 ---
 
 ::: info 📝 Total
-**8 releases** with **8 features** this month!
+**9 releases** with **9 features** this month!
 :::

@@ -6,6 +6,7 @@ Atualizações do mês de março de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.3.9](/changelog/2026/03/2026.3.9) | 31/03 | **Chat Direto Interno e Grupos Internos aprimorados** – DM entre agentes via widget flutuante; auto-pin persistido no banco; exclusão com permissão configurável; notificações com nome do remetente |
 | [2026.3.8](/changelog/2026/03/2026.3.8) | 30/03 | **Marcar lida no WhatsApp ao resolver (WAHA)** e **pausar fluxo ao resolver** – Opção em Configurações; leitura no WhatsApp ao finalizar; pausa automática de fluxo como em `pause-flow` |
 | [2026.3.7](/changelog/2026/03/2026.3.7) | 25/03 | **Encaminhar mensagens e mensagem inicial tipada** – Encaminhe no chat para novo atendimento; API aceita texto ou mídia por URL; atendimento automático ao criar com mensagem inicial; toast para abrir a nova conversa |
 | [2026.3.6](/changelog/2026/03/2026.3.6) | 24/03 | **Base de Conhecimento para Agente IA** – Cadastre documentos internos que a IA consulta automaticamente durante os atendimentos, reduzindo tokens e melhorando a precisão |
@@ -19,7 +20,8 @@ Atualizações do mês de março de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (8)
+### ✨ Novas Funcionalidades (9)
+- **Chat Direto Interno e Grupos Internos aprimorados** – DM 1:1 entre agentes acessível pelo botão + no cabeçalho da página de Chats; widget flutuante com auto-pin para todos os membros, persistência no banco de dados e ordem fixa; permissão configurável para membros excluírem grupos; exclusão de chats diretos por qualquer participante; notificações com nome do remetente e sem auto-notificação
 - **Marcar lida no WhatsApp ao resolver e pausar fluxo ao resolver** – Configuração opcional em Atendimento para enviar leitura no WhatsApp (WAHA) ao finalizar ou marcar como resolvido; pausa automática de sessão de fluxo equivalente a `POST /pause-flow`
 - **Encaminhar mensagens e mensagem inicial tipada** – Encaminhe mensagens do chat para um novo contato/canal; `POST /chat/create` aceita `initialMessage` como string ou objeto (texto, imagem, vídeo, áudio, documento com URL HTTPS); ao criar com mensagem inicial, o sistema pode atender automaticamente ou adicionar você como colaborador; no encaminhamento, toast com **Ir para conversa** em vez de redirecionar na hora
 - **Base de Conhecimento para Agente IA** – Espaço dedicado para cadastrar documentos internos (políticas, horários, FAQs, etc.) que a IA consulta automaticamente durante os atendimentos via RAG híbrido (embeddings vetoriais + busca por palavras-chave). Cada documento vira uma ferramenta automática, sem configuração adicional
@@ -32,5 +34,5 @@ Atualizações do mês de março de 2026.
 ---
 
 ::: info 📝 Total
-**8 releases** com **8 funcionalidades** neste mês!
+**9 releases** com **9 funcionalidades** neste mês!
 :::
