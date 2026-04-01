@@ -1,0 +1,22 @@
+# April 2026
+
+Updates for April 2026.
+
+## Versions
+
+| Version | Date | Highlights |
+|---------|------|------------|
+| [2026.4.1](/en/changelog/2026/04/2026.4.1) | 04/01 | **AI Agent tools for customer data** (email, document, country, person type); system actions modal grouped by section; system context includes email, document and country |
+
+---
+
+## Monthly Summary
+
+### ✨ New Features (1)
+- **AI Agent tools for customer profile data** — system actions to change email, document (tax ID with parameters and digit-only storage), country and person type; **Add action** modal organized by section (Customer, Service, Scheduling, Flow, Agent); customer context JSON for the model includes email, document and country
+
+---
+
+::: info 📝 Total
+**1 release** with **1 main delivery** this month!
+:::

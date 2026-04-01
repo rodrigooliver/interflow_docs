@@ -179,6 +179,14 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           {
+            text: lang === 'en' ? 'April' : lang === 'es' ? 'Abril' : 'Abril',
+            collapsed: false,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/04/` },
+              { text: 'v2026.4.1', link: `${prefix}/changelog/2026/04/2026.4.1` }
+            ]
+          },
+          {
             text: lang === 'en' ? 'March' : lang === 'es' ? 'Marzo' : 'Março',
             collapsed: false,
             items: [
