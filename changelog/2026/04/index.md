@@ -6,6 +6,7 @@ Atualizações do mês de abril de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.4.7](/changelog/2026/04/2026.4.7) | 20/04 | **Notificações de agendamento para profissionais** — templates com destinatário (cliente / profissional / ambos); criação automática e sincronização de contato WhatsApp/e-mail do profissional a cada envio |
 | [2026.4.6](/changelog/2026/04/2026.4.6) | 20/04 | **Campo multiselect** (lista de múltipla escolha) em campos customizados; **select com busca** em todos os selects de campos customizados; multiselect no nó de fluxo e na ferramenta do Agente IA |
 | [2026.4.5](/changelog/2026/04/2026.4.5) | 17/04 | **Anexar arquivos em notas de clientes** — imagens, PDFs, vídeos e documentos vinculados a cada nota, com galeria de arquivos e exclusão automática |
 | [2026.4.4](/changelog/2026/04/2026.4.4) | 17/04 | **Nó "Chamar outro fluxo"** no construtor de chatbots — fluxos modulares com mapeamento de variáveis e escolha do nó de entrada |
@@ -20,7 +21,7 @@ Atualizações do mês de abril de 2026.
 ### 🐛 Correções (1)
 - **Disparo em massa — canal desconectado** — confirmação do status de conexão do canal no envio e consulta da fila alinhada ao cadastro
 
-### ✨ Novas Funcionalidades (10)
+### ✨ Novas Funcionalidades (11)
 - **Ferramentas do Agente IA para dados cadastrais** (v2026.4.1) — ações de sistema para alterar e-mail, documento (CPF/CNPJ com parâmetros e armazenamento sem pontuação), país e tipo de pessoa; modal **Adicionar ação** organizado em seções (Cliente, Atendimento, Agendamento, Fluxo, Agente); inclusão de e-mail, documento e país no JSON de contexto do cliente para o modelo
 - **Atalhos na fila da campanha de disparo em massa** (v2026.4.2) — ícones distintos, nova aba com Cmd/Ctrl, atualização em tempo real da fila
 - **Fluxo automático em disparos em massa** (v2026.4.3) — ao criar campanha de texto ou mídia, configura fluxo que aguarda a resposta do cliente para ser ativado automaticamente
@@ -32,8 +33,10 @@ Atualizações do mês de abril de 2026.
 - **Suporte a multiselect na ferramenta do Agente IA** (v2026.4.6) — modelo de IA consegue ler e atualizar campos multiselect; opções válidas são passadas como enum no schema da ferramenta
 - **Anexar arquivos em notas de clientes** (v2026.4.5) — upload de qualquer tipo de arquivo (imagens, PDFs, vídeos, documentos) diretamente nas notas do cadastro; galeria por nota com visualização, inserção no texto e exclusão individual; remoção automática dos arquivos ao excluir a nota
 
+- **Notificações de agendamento para profissionais** (v2026.4.7) — templates com campo destinatário (cliente / profissional / ambos); customer de notificação vinculado ao membro criado automaticamente; WhatsApp e e-mail sincronizados a cada execução do cron caso o profissional troque de contato
+
 ---
 
 ::: info 📝 Total
-**6 releases** neste mês!
+**7 releases** neste mês!
 :::

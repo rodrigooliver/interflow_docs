@@ -6,6 +6,7 @@ Updates for April 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.4.7](/en/changelog/2026/04/2026.4.7) | 04/20 | **Schedule notifications for providers** — templates with recipient setting (client / provider / both); automatic creation and WhatsApp/email contact sync on every send |
 | [2026.4.6](/en/changelog/2026/04/2026.4.6) | 04/20 | **Multiselect custom field** (multiple-choice list); **searchable dropdown** for all custom field selects; multiselect in the Update Customer node and AI Agent tool |
 | [2026.4.5](/en/changelog/2026/04/2026.4.5) | 04/17 | **Attach files to customer notes** — images, PDFs, videos and documents linked to each note, with file gallery and automatic deletion |
 | [2026.4.4](/en/changelog/2026/04/2026.4.4) | 04/17 | **"Call Another Flow" node** in the chatbot builder — modular flows with variable mapping and entry node selection |
@@ -20,7 +21,7 @@ Updates for April 2026.
 ### 🐛 Bug Fixes (1)
 - **Bulk send — disconnected channel** — channel connection status is re-checked on send and the queue query matches settings
 
-### ✨ New Features (10)
+### ✨ New Features (11)
 - **AI Agent tools for customer profile data** (v2026.4.1) — system actions to change email, document (tax ID with parameters and digit-only storage), country and person type; **Add action** modal organized by section (Customer, Service, Scheduling, Flow, Agent); customer context JSON for the model includes email, document and country
 - **Bulk campaign queue shortcuts** (v2026.4.2) — distinct icons, Cmd/Ctrl to open in a new tab, realtime queue updates
 - **Automatic flow on bulk message campaigns** (v2026.4.3) — when creating a text or media campaign, configure a flow that waits for the customer's reply to activate automatically
@@ -32,8 +33,10 @@ Updates for April 2026.
 - **Multiselect support in the AI Agent tool** (v2026.4.6) — the AI model can read and update multiselect fields; valid options are passed as an enum in the tool schema
 - **Attach files to customer notes** (v2026.4.5) — upload any file type (images, PDFs, videos, documents) directly to customer notes; per-note file gallery with preview, text insertion and individual deletion; files are automatically removed when the note is deleted
 
+- **Schedule notifications for providers** (v2026.4.7) — templates with recipient field (client / provider / both); notification customer auto-linked to the member on first run; WhatsApp and email synced on every cron execution if the provider changes their contact
+
 ---
 
 ::: info 📝 Total
-**6 releases** this month!
+**7 releases** this month!
 :::
