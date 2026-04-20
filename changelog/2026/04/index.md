@@ -6,6 +6,7 @@ Atualizações do mês de abril de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.4.8](/changelog/2026/04/2026.4.8) | 20/04 | **Divisão de receita em parcelas já pagas** — 3 modos de aplicação retroativa; carregar splits de modelo; formulário em modal dedicado |
 | [2026.4.7](/changelog/2026/04/2026.4.7) | 20/04 | **Notificações de agendamento para profissionais** — templates com destinatário (cliente / profissional / ambos); criação automática e sincronização de contato WhatsApp/e-mail do profissional a cada envio |
 | [2026.4.6](/changelog/2026/04/2026.4.6) | 20/04 | **Campo multiselect** (lista de múltipla escolha) em campos customizados; **select com busca** em todos os selects de campos customizados; multiselect no nó de fluxo e na ferramenta do Agente IA |
 | [2026.4.5](/changelog/2026/04/2026.4.5) | 17/04 | **Anexar arquivos em notas de clientes** — imagens, PDFs, vídeos e documentos vinculados a cada nota, com galeria de arquivos e exclusão automática |
@@ -18,10 +19,11 @@ Atualizações do mês de abril de 2026.
 
 ## Resumo do Mês
 
-### 🐛 Correções (1)
+### 🐛 Correções (2)
 - **Disparo em massa — canal desconectado** — confirmação do status de conexão do canal no envio e consulta da fila alinhada ao cadastro
+- **Campo `installment_id` ao lançar despesa** (v2026.4.8) — corrigido erro de tipo TypeScript ao criar despesa em um contrato
 
-### ✨ Novas Funcionalidades (11)
+### ✨ Novas Funcionalidades (13)
 - **Ferramentas do Agente IA para dados cadastrais** (v2026.4.1) — ações de sistema para alterar e-mail, documento (CPF/CNPJ com parâmetros e armazenamento sem pontuação), país e tipo de pessoa; modal **Adicionar ação** organizado em seções (Cliente, Atendimento, Agendamento, Fluxo, Agente); inclusão de e-mail, documento e país no JSON de contexto do cliente para o modelo
 - **Atalhos na fila da campanha de disparo em massa** (v2026.4.2) — ícones distintos, nova aba com Cmd/Ctrl, atualização em tempo real da fila
 - **Fluxo automático em disparos em massa** (v2026.4.3) — ao criar campanha de texto ou mídia, configura fluxo que aguarda a resposta do cliente para ser ativado automaticamente
@@ -34,9 +36,11 @@ Atualizações do mês de abril de 2026.
 - **Anexar arquivos em notas de clientes** (v2026.4.5) — upload de qualquer tipo de arquivo (imagens, PDFs, vídeos, documentos) diretamente nas notas do cadastro; galeria por nota com visualização, inserção no texto e exclusão individual; remoção automática dos arquivos ao excluir a nota
 
 - **Notificações de agendamento para profissionais** (v2026.4.7) — templates com campo destinatário (cliente / profissional / ambos); customer de notificação vinculado ao membro criado automaticamente; WhatsApp e e-mail sincronizados a cada execução do cron caso o profissional troque de contato
+- **Divisão de receita em parcelas já pagas** (v2026.4.8) — configurar ou corrigir splits mesmo após pagamentos baixados; 3 modos de aplicação retroativa (todos os pagos, pagos sem split, somente em aberto); carregar splits de modelo; modal de edição dedicado
+
 
 ---
 
 ::: info 📝 Total
-**7 releases** neste mês!
+**8 releases** neste mês!
 :::
