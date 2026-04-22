@@ -6,6 +6,7 @@ Atualizações do mês de abril de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.4.9](/changelog/2026/04/2026.4.9) | 22/04 | **Correção** seleção múltipla de mensagens no chat — clique no checkbox alinhado ao clique no corpo da mensagem (criar tarefa) |
 | [2026.4.8](/changelog/2026/04/2026.4.8) | 20/04 | **Divisão de receita em parcelas já pagas** — 3 modos de aplicação retroativa; carregar splits de modelo; formulário em modal dedicado |
 | [2026.4.7](/changelog/2026/04/2026.4.7) | 20/04 | **Notificações de agendamento para profissionais** — templates com destinatário (cliente / profissional / ambos); criação automática e sincronização de contato WhatsApp/e-mail do profissional a cada envio |
 | [2026.4.6](/changelog/2026/04/2026.4.6) | 20/04 | **Campo multiselect** (lista de múltipla escolha) em campos customizados; **select com busca** em todos os selects de campos customizados; multiselect no nó de fluxo e na ferramenta do Agente IA |
@@ -19,9 +20,10 @@ Atualizações do mês de abril de 2026.
 
 ## Resumo do Mês
 
-### 🐛 Correções (2)
+### 🐛 Correções (3)
 - **Disparo em massa — canal desconectado** — confirmação do status de conexão do canal no envio e consulta da fila alinhada ao cadastro
 - **Campo `installment_id` ao lançar despesa** (v2026.4.8) — corrigido erro de tipo TypeScript ao criar despesa em um contrato
+- **Seleção múltipla de mensagens no chat** (v2026.4.9) — clique no checkbox não reverte mais a seleção nem encerra o modo inesperadamente; mesmo comportamento do clique no corpo da mensagem
 
 ### ✨ Novas Funcionalidades (13)
 - **Ferramentas do Agente IA para dados cadastrais** (v2026.4.1) — ações de sistema para alterar e-mail, documento (CPF/CNPJ com parâmetros e armazenamento sem pontuação), país e tipo de pessoa; modal **Adicionar ação** organizado em seções (Cliente, Atendimento, Agendamento, Fluxo, Agente); inclusão de e-mail, documento e país no JSON de contexto do cliente para o modelo
@@ -42,5 +44,5 @@ Atualizações do mês de abril de 2026.
 ---
 
 ::: info 📝 Total
-**8 releases** neste mês!
+**9 releases** neste mês!
 :::

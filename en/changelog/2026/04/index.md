@@ -6,6 +6,7 @@ Updates for April 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.4.9](/en/changelog/2026/04/2026.4.9) | 04/22 | **Fix** multi-select of chat messages — checkbox click matches message body (create task) |
 | [2026.4.8](/en/changelog/2026/04/2026.4.8) | 04/20 | **Revenue split on already-paid installments** — 3 retroactive application modes; load splits from template; dedicated edit modal |
 | [2026.4.7](/en/changelog/2026/04/2026.4.7) | 04/20 | **Schedule notifications for providers** — templates with recipient setting (client / provider / both); automatic creation and WhatsApp/email contact sync on every send |
 | [2026.4.6](/en/changelog/2026/04/2026.4.6) | 04/20 | **Multiselect custom field** (multiple-choice list); **searchable dropdown** for all custom field selects; multiselect in the Update Customer node and AI Agent tool |
@@ -19,9 +20,10 @@ Updates for April 2026.
 
 ## Monthly Summary
 
-### 🐛 Bug Fixes (2)
+### 🐛 Bug Fixes (3)
 - **Bulk send — disconnected channel** — channel connection status is re-checked on send and the queue query matches settings
 - **Missing `installment_id` when adding an expense** (v2026.4.8) — fixed TypeScript type error when creating an expense on a contract
+- **Multi-select of chat messages** (v2026.4.9) — clicking the checkbox no longer flips the selection back or exits selection mode unexpectedly; same behavior as clicking the message
 
 ### ✨ New Features (13)
 - **AI Agent tools for customer profile data** (v2026.4.1) — system actions to change email, document (tax ID with parameters and digit-only storage), country and person type; **Add action** modal organized by section (Customer, Service, Scheduling, Flow, Agent); customer context JSON for the model includes email, document and country
@@ -41,5 +43,5 @@ Updates for April 2026.
 ---
 
 ::: info 📝 Total
-**8 releases** this month!
+**9 releases** this month!
 :::

@@ -6,6 +6,7 @@ Actualizaciones del mes de abril de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.4.9](/es/changelog/2026/04/2026.4.9) | 22/04 | **Corrección** selección múltiple de mensajes en el chat — clic en la casilla alineado con el cuerpo del mensaje (crear tarea) |
 | [2026.4.8](/es/changelog/2026/04/2026.4.8) | 20/04 | **División de ingresos en cuotas ya pagadas** — 3 modos de aplicación retroactiva; cargar splits desde plantilla; modal de edición dedicado |
 | [2026.4.7](/es/changelog/2026/04/2026.4.7) | 20/04 | **Notificaciones de citas para profesionales** — plantillas con destinatario (cliente / profesional / ambos); creación automática y sincronización de contacto WhatsApp/correo del profesional en cada envío |
 | [2026.4.6](/es/changelog/2026/04/2026.4.6) | 20/04 | **Campo multiselect** (lista de selección múltiple) en campos personalizados; **desplegable con búsqueda** en todos los selects de campos personalizados; multiselect en el nodo de flujo y en la herramienta del Agente IA |
@@ -19,9 +20,10 @@ Actualizaciones del mes de abril de 2026.
 
 ## Resumen del Mes
 
-### 🐛 Correcciones (2)
+### 🐛 Correcciones (3)
 - **Envío masivo — canal desconectado** — comprobación del estado de conexión al enviar y consulta de la cola alineada a la configuración
 - **Campo `installment_id` ausente al registrar un gasto** (v2026.4.8) — corregido error de tipo TypeScript al crear un gasto en un contrato
+- **Selección múltiple de mensajes en el chat** (v2026.4.9) — el clic en la casilla ya no revierte la selección ni sale del modo inesperadamente; mismo comportamiento que el cuerpo del mensaje
 
 ### ✨ Nuevas Funcionalidades (13)
 - **Herramientas del Agente IA para datos del cliente** (v2026.4.1) — acciones de sistema para email, documento (ID fiscal con parámetros y almacenamiento solo dígitos), país y tipo de persona; modal **Añadir acción** agrupado por sección (Cliente, Atención, Agendamiento, Flujo, Agente); JSON de contexto del cliente con email, documento y país
@@ -41,5 +43,5 @@ Actualizaciones del mes de abril de 2026.
 ---
 
 ::: info 📝 Total
-**8 lanzamientos** en este mes!
+**9 lanzamientos** en este mes!
 :::
