@@ -6,6 +6,7 @@ Updates for April 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.4.10](/en/changelog/2026/04/2026.4.10) | 04/29 | **Webhook Trigger node** — receive external webhooks, HMAC/Bearer/Header/Query/Public auth, multi-key customer binding (OR), chat binding, event-based routing, real-time "listen" mode |
 | [2026.4.9](/en/changelog/2026/04/2026.4.9) | 04/22 | **Fix** multi-select of chat messages — checkbox click matches message body (create task) |
 | [2026.4.8](/en/changelog/2026/04/2026.4.8) | 04/20 | **Revenue split on already-paid installments** — 3 retroactive application modes; load splits from template; dedicated edit modal |
 | [2026.4.7](/en/changelog/2026/04/2026.4.7) | 04/20 | **Schedule notifications for providers** — templates with recipient setting (client / provider / both); automatic creation and WhatsApp/email contact sync on every send |
@@ -25,7 +26,8 @@ Updates for April 2026.
 - **Missing `installment_id` when adding an expense** (v2026.4.8) — fixed TypeScript type error when creating an expense on a contract
 - **Multi-select of chat messages** (v2026.4.9) — clicking the checkbox no longer flips the selection back or exits selection mode unexpectedly; same behavior as clicking the message
 
-### ✨ New Features (13)
+### ✨ New Features (20)
+- **Webhook Trigger node** (v2026.4.10) — receive external events and start flows automatically; Bearer, Header, Query param, HMAC (SHA-1/256/512, Kiwify-compatible) or Public auth; encrypted token at rest; multi-field customer lookup (OR) with smart upsert; chat binding with automatic customer_contacts creation; event-based routing with independent output edges + else fallback; real-time "listen" mode for variable mapping; logs with path copy and IP/origin allowlist
 - **AI Agent tools for customer profile data** (v2026.4.1) — system actions to change email, document (tax ID with parameters and digit-only storage), country and person type; **Add action** modal organized by section (Customer, Service, Scheduling, Flow, Agent); customer context JSON for the model includes email, document and country
 - **Bulk campaign queue shortcuts** (v2026.4.2) — distinct icons, Cmd/Ctrl to open in a new tab, realtime queue updates
 - **Automatic flow on bulk message campaigns** (v2026.4.3) — when creating a text or media campaign, configure a flow that waits for the customer's reply to activate automatically
@@ -43,5 +45,5 @@ Updates for April 2026.
 ---
 
 ::: info 📝 Total
-**9 releases** this month!
+**10 releases** this month!
 :::

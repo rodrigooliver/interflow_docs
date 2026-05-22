@@ -39,6 +39,7 @@ Nós para manipular variáveis e dados:
 - [Definir Variável](/guide/flows/nodes/variable) - Define ou calcula valores
 - [Atualizar Cliente](/guide/flows/nodes/update-customer) - Atualiza dados do cliente
 - [Requisição HTTP](/guide/flows/nodes/request) - Chama APIs externas
+- [Webhook Trigger](/guide/flows/nodes/webhook-trigger) - Recebe eventos externos e inicia o fluxo
 
 ## Nós de Ações
 
@@ -88,6 +89,7 @@ Nós específicos para o módulo de vendas:
 | Jump To | Controle | Redirecionamento |
 | Variável | Dados | Define valores |
 | Atualizar Cliente | Dados | Atualiza cadastro |
+| Webhook Trigger | Dados | Recebe eventos externos |
 | Requisição HTTP | Dados | Chama APIs |
 | Criar Tarefa | Ações | Cria tarefas |
 | Agente IA | IA | Executa agente |

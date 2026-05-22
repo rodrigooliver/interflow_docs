@@ -70,6 +70,7 @@ function getSidebar(lang: string = '') {
               { text: 'ElevenLabs TTS', link: `${prefix}/guide/flows/nodes/elevenlabs` },
               { text: 'Minimax TTS', link: `${prefix}/guide/flows/nodes/minimax` },
               { text: lang === 'en' ? 'HTTP Request' : lang === 'es' ? 'Solicitud HTTP' : 'Requisição HTTP', link: `${prefix}/guide/flows/nodes/request` },
+              { text: lang === 'en' ? 'Webhook Trigger' : lang === 'es' ? 'Webhook Trigger' : 'Webhook Trigger', link: `${prefix}/guide/flows/nodes/webhook-trigger` },
               { text: lang === 'en' ? 'Group' : lang === 'es' ? 'Grupo' : 'Grupo', link: `${prefix}/guide/flows/nodes/group` },
               { text: 'POS', link: `${prefix}/guide/flows/nodes/pos` }
             ]
@@ -179,10 +180,19 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           {
+            text: lang === 'en' ? 'May' : lang === 'es' ? 'Mayo' : 'Maio',
+            collapsed: false,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/05/` },
+              { text: 'v2026.5.1', link: `${prefix}/changelog/2026/05/2026.5.1` }
+            ]
+          },
+          {
             text: lang === 'en' ? 'April' : lang === 'es' ? 'Abril' : 'Abril',
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/04/` },
+              { text: 'v2026.4.10', link: `${prefix}/changelog/2026/04/2026.4.10` },
               { text: 'v2026.4.9', link: `${prefix}/changelog/2026/04/2026.4.9` },
               { text: 'v2026.4.8', link: `${prefix}/changelog/2026/04/2026.4.8` },
               { text: 'v2026.4.7', link: `${prefix}/changelog/2026/04/2026.4.7` },

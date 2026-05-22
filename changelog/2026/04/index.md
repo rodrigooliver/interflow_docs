@@ -6,6 +6,7 @@ Atualizações do mês de abril de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.4.10](/changelog/2026/04/2026.4.10) | 29/04 | **Nó Webhook Trigger** — receber webhooks externos, autenticação HMAC/Bearer/Header/Query/Público, vínculo com cliente (multi-key OR) e chat, roteamento por evento, modo "ouvir" em tempo real |
 | [2026.4.9](/changelog/2026/04/2026.4.9) | 22/04 | **Correção** seleção múltipla de mensagens no chat — clique no checkbox alinhado ao clique no corpo da mensagem (criar tarefa) |
 | [2026.4.8](/changelog/2026/04/2026.4.8) | 20/04 | **Divisão de receita em parcelas já pagas** — 3 modos de aplicação retroativa; carregar splits de modelo; formulário em modal dedicado |
 | [2026.4.7](/changelog/2026/04/2026.4.7) | 20/04 | **Notificações de agendamento para profissionais** — templates com destinatário (cliente / profissional / ambos); criação automática e sincronização de contato WhatsApp/e-mail do profissional a cada envio |
@@ -25,7 +26,8 @@ Atualizações do mês de abril de 2026.
 - **Campo `installment_id` ao lançar despesa** (v2026.4.8) — corrigido erro de tipo TypeScript ao criar despesa em um contrato
 - **Seleção múltipla de mensagens no chat** (v2026.4.9) — clique no checkbox não reverte mais a seleção nem encerra o modo inesperadamente; mesmo comportamento do clique no corpo da mensagem
 
-### ✨ Novas Funcionalidades (13)
+### ✨ Novas Funcionalidades (20)
+- **Nó Webhook Trigger** (v2026.4.10) — receber eventos externos e iniciar fluxos automaticamente; autenticação Bearer, Header, Query param, HMAC (SHA-1/256/512, compatível com Kiwify) ou Público; token criptografado no banco; vínculo com cliente por múltiplos campos (OR) com upsert inteligente; vínculo com chat e criação automática de customer_contacts; roteamento por tipo de evento com edges independentes + fallback else; modo "ouvir" em tempo real para mapear variáveis; logs com cópia de caminho e allowlist de IP/origem
 - **Ferramentas do Agente IA para dados cadastrais** (v2026.4.1) — ações de sistema para alterar e-mail, documento (CPF/CNPJ com parâmetros e armazenamento sem pontuação), país e tipo de pessoa; modal **Adicionar ação** organizado em seções (Cliente, Atendimento, Agendamento, Fluxo, Agente); inclusão de e-mail, documento e país no JSON de contexto do cliente para o modelo
 - **Atalhos na fila da campanha de disparo em massa** (v2026.4.2) — ícones distintos, nova aba com Cmd/Ctrl, atualização em tempo real da fila
 - **Fluxo automático em disparos em massa** (v2026.4.3) — ao criar campanha de texto ou mídia, configura fluxo que aguarda a resposta do cliente para ser ativado automaticamente
@@ -44,5 +46,5 @@ Atualizações do mês de abril de 2026.
 ---
 
 ::: info 📝 Total
-**9 releases** neste mês!
+**10 releases** neste mês!
 :::
