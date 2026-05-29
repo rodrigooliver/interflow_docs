@@ -6,6 +6,7 @@ Updates for May 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.5.6](/en/changelog/2026/05/2026.5.6) | 05/29 | **Bulk deletion with option to delete chats** — admin/owner can delete linked chats when bulk-deleting customers; 10 or 50 customers per page selector |
 | [2026.5.5](/en/changelog/2026/05/2026.5.5) | 05/26 | **Auxiliary WAHA Channel for WhatsApp Official** — phone echoes, sending outside the 24h window, groups and profile picture via linked WAHA channel |
 | [2026.5.4](/en/changelog/2026/05/2026.5.4) | 05/22 | **Bulk Actions in the Chat List** — mark as read or resolved in bulk using advanced filters |
 | [2026.5.3](/en/changelog/2026/05/2026.5.3) | 05/22 | **CRM Stage Transfer Between Funnels** — move an entire stage with all customers to another funnel |
@@ -16,7 +17,8 @@ Updates for May 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (5)
+### ✨ New Features (7)
+- **Bulk deletion with option to delete linked chats** (v2026.5.6) — when bulk-deleting customers, admins/owners can check an option to delete all linked chats, messages and files; files removed via asynchronous queue; 10 or 50 customers per page selector in the customer list
 - **Auxiliary WAHA Channel for WhatsApp Official** (v2026.5.5) — WAHA channel linked to the Official to capture phone echoes, send outside the 24h window, support groups and fetch profile pictures; configured directly in the official channel settings; zero message duplication
 - **Bulk Actions in the Chat List** (v2026.5.4) — mark as read or resolved on multiple chats at once; manual selection or all filtered; resolved for `pending` only; server-side batch processing
 - **CRM Stage Transfer Between Funnels** (v2026.5.3) — transfer an entire stage with all customers to another funnel; available in the column menu and Manage Stages; history and automations preserved
@@ -26,5 +28,5 @@ Updates for May 2026.
 ---
 
 ::: info 📝 Total
-**5 releases** this month!
+**6 releases** this month!
 :::
