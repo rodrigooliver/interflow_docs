@@ -96,18 +96,97 @@ Receive and respond to messages from WhatsApp groups.
 - ↩️ Respond directly to group
 - 📊 Complete history preserved
 
+### Advanced Group Features
+
+#### Add Participant as Customer
+
+1. Open the group chat
+2. Find a message from a participant (left side)
+3. Click the **menu (⋯)** on the message
+4. Select **"Add as customer"**
+5. Complete registration and start a private conversation
+
+#### Delete Messages from Others
+
+Group administrators can delete inappropriate messages from other participants:
+
+1. Click the menu (⋯) on the message
+2. Select **"Delete message"**
+
+#### Group Photo
+
+The group photo is automatically displayed in the chat header.
+
+#### Participant List
+
+1. In the group chat header, click **"Participants"**
+2. View all members
+3. Use **"Add as customer"** for those with available numbers
+
+::: info ℹ️ Privacy (Meta)
+Some participants appear only with an identifier (@lid due to Meta policies). In those cases, use the message menu when the participant sends something in the group.
+:::
+
+### Block Media in Groups
+
+Prevent receiving media (images, videos, etc.) in groups:
+
+1. Go to **Settings** → **Channels** → your WAHA channel
+2. Enable **"Block media in groups"**
+
+### Close Group Conversation
+
+You can close/resolve group conversations the same way as individual chats.
+
 ### Permissions
 
 | Setting | Description |
 |---------|-------------|
 | **Enable groups** | Admin can enable/disable per channel |
-| **Restrict agents** | Agents can be blocked from groups |
+| **Block media** | Prevents receiving files in groups |
 
 ### Limitations
 
 - Only messages received after connection
 - Cannot create groups through platform
 - Admin needs to add number to group
+
+---
+
+## Auxiliary Channel for WhatsApp Official
+
+If you use WhatsApp Official (Meta API), configure a WAHA auxiliary channel to overcome its natural limitations.
+
+### What it's for
+
+| Official Limitation | Solution via Auxiliary Channel |
+|---------------------|--------------------------------|
+| Doesn't record messages sent from phone | Captures echoes (`fromMe=true`) and records in history |
+| 24h window expires and blocks free messages | "Send via Auxiliary Channel" button appears in chat footer |
+| Doesn't support groups | Auxiliary channel can receive/reply to groups |
+| Doesn't expose contact profile photos | WAHA fetches the photo automatically |
+
+### How to configure
+
+1. Go to **WhatsApp Official** channel settings
+2. Scroll to **WAHA Auxiliary Channel** section
+3. Click **"Add WAHA auxiliary channel"**
+4. Scan the QR code with the phone's WhatsApp — **must be the same number as the official channel, in Coexistence Mode**
+5. Adjust settings:
+   - **Listen to customer messages** — disabled by default (avoids duplication with official)
+   - **Listen to my messages** — enabled by default to capture echoes
+   - **Enable groups** and **Block media in groups**
+
+### Sending outside the 24h window
+
+1. When the window expires, the chat footer shows **"Use Template"** and **"Send via Auxiliary Channel"**
+2. Click **"Send via Auxiliary Channel"**
+3. The full message input appears (text, files, audio, emoji)
+4. The message is sent via WAHA and recorded normally in the chat history
+
+::: tip 💡 Note
+The auxiliary channel **doesn't appear in the general channel listing** — it's only visible inside the official channel settings.
+:::
 
 ## Best Practices
 

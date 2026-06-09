@@ -178,6 +178,64 @@ Generate reports with custom groupings and subdivisions:
 
 See more in [Reports](/en/guide/reports/).
 
+## Bulk Customer Deletion
+
+Administrators and owners can delete multiple customers simultaneously, with the option to also delete all linked chats.
+
+### How to use
+
+1. Go to **Customers** and select the desired customers using the checkboxes
+2. Click **"Delete selected"**
+3. In the confirmation modal, check **"Also delete all linked chats"** (visible only to admin and owner)
+4. Confirm the deletion
+
+::: warning ⚠️ Irreversible
+Messages, files, and flow sessions of all chats for the selected customers will be permanently deleted. POS orders are kept.
+:::
+
+### Items per Page
+
+Choose how many customers to display per page in the listing:
+
+- At the bottom of the list, select **10 per page** (default) or **50 per page**
+- The list automatically reloads when you change the value
+
+---
+
+## CRM Access Control
+
+Granular control over who can see and access each customer in the CRM.
+
+### Team Visibility (Agents)
+
+Agents see only customers from teams they are assigned to:
+
+- 📋 Customer list
+- 🔍 Customer search
+- 📊 Reports (filtered data)
+- 📤 Exports (respects visibility)
+
+::: info ℹ️ Administrators
+Administrators continue to see all customers. This setting protects sensitive data between teams.
+:::
+
+### Permission-based Query
+
+The multi-level security ensures that:
+- Agents only query customers they have access permission to
+- Reports are automatically filtered according to user profile
+- Exports respect the same visibility rules as the interface
+
+### Sensitive Data (Privacy)
+
+Protect customer contact information for agents:
+
+1. Go to **Settings → Customers**
+2. Enable **"Hide customer contact data from agents"**
+3. Agents won't see phone, email, and WhatsApp in lists and exports
+
+---
+
 ## Customer Merge
 
 When identifying duplicates:

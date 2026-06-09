@@ -178,6 +178,51 @@ Genera informes con agrupaciones y subdivisiones personalizadas:
 
 Ve más en [Informes](/es/guide/reports/).
 
+## Eliminación Masiva de Clientes
+
+Los administradores y propietarios pueden eliminar varios clientes simultáneamente, con la opción de borrar también todos los chats vinculados.
+
+### Cómo usar
+
+1. Ve a **Clientes** y selecciona los clientes deseados usando las casillas de verificación
+2. Haz clic en **"Eliminar seleccionados"**
+3. En el modal de confirmación, marca **"También eliminar todos los chats vinculados"** (visible solo para admin y owner)
+4. Confirma la eliminación
+
+::: warning ⚠️ Irreversible
+Los mensajes, archivos y sesiones de flujo de todos los chats de los clientes seleccionados se eliminarán permanentemente. Los pedidos POS se mantienen.
+:::
+
+### Elementos por Página
+
+Elige cuántos clientes mostrar por página en el listado:
+
+- En la parte inferior de la lista, selecciona **10 por página** (predeterminado) o **50 por página**
+
+---
+
+## Control de Acceso al CRM
+
+Control granular sobre quién puede ver y acceder a cada cliente en el CRM.
+
+### Visibilidad por Equipo (Agentes)
+
+Los agentes ven solo los clientes de los equipos a los que están asignados.
+
+::: info ℹ️ Administradores
+Los administradores continúan viendo todos los clientes. Esta configuración protege datos sensibles entre equipos.
+:::
+
+### Datos Sensibles (Privacidad)
+
+Protege la información de contacto de los clientes para los agentes:
+
+1. Ve a **Configuración → Clientes**
+2. Activa **"Ocultar datos de contacto a los agentes"**
+3. Los agentes no verán teléfono, email y WhatsApp en listas y exportaciones
+
+---
+
 ## Combinación de Clientes
 
 Cuando identificas duplicados:

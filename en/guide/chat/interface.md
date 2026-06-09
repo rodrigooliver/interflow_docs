@@ -158,6 +158,31 @@ Visual showing field fill status:
 
 ## Service Actions
 
+### Bulk Actions
+
+Execute actions on multiple chats at once directly from the attendance list:
+
+1. Apply desired filters (status, tag, channel, agent, team, unread, etc.)
+2. Click the **bulk selection** icon (☑) at the top of the list
+3. Select chats individually **or** use **"Select all filtered"** to include all pages
+4. In the bottom bar, choose:
+   - **Mark as read** — clears unread messages in eligible chats
+   - **Mark as resolved** — closes only chats with **pending** status; in-progress chats are ignored
+5. Confirm the action when prompted (above 10 chats)
+
+::: tip 💡 Common use
+Ideal for clearing queues after bulk campaigns or volume spikes, marking hundreds of conversations in a few clicks.
+:::
+
+### Create Task from Messages
+
+Select specific messages from a conversation to create a task directly:
+
+1. In a conversation's message area, select one or more messages
+2. In the bottom bar, click **"Create Task"**
+3. Fill in the task details (title, assignee, deadline)
+4. Selected messages are linked to the task as context
+
 ### Take Conversation
 
 To serve an unassigned conversation:
@@ -273,6 +298,44 @@ Button only appears in WhatsApp channel chats (WAHA, W-API, Official WhatsApp).
 :::
 
 Configure in **Settings > Service > Quick WhatsApp Button**.
+
+## Internal Chat (Communication Between Agents)
+
+Communicate directly with other team members without creating groups, directly in the Chats page header.
+
+### Direct Chat (DM)
+
+1. On the **Chats** page, click the **+** button in the header
+2. Select **"Internal Direct Chat"**
+3. Choose the agent you want to chat with
+4. The conversation opens in the **floating widget**
+
+::: info ℹ️ Behavior
+If a conversation with the selected user already exists, the system opens the existing one instead of creating a new one. Internal chats automatically appear in the floating widget for both participants.
+:::
+
+### Floating Widget
+
+Internal chats are pinned in the floating widget:
+
+- **Persistence** — widget state is saved and synchronized across devices
+- **Auto-pin** — when added to an internal chat, it appears automatically in the widget
+- **Custom scroll** — displays all pinned chats without item limits
+- **Fixed order** — chats always appear in the same order
+
+### Internal Groups
+
+When creating an Internal Group, configure permissions:
+
+- **Allow members to delete the group** — when enabled, any member can delete; otherwise, only group admins can
+
+### Internal Chat Notifications
+
+- Title with sender name: `Name · Internal Chat` (DM) or `Name · Group Name` (group)
+- Individual unread count per user
+- Sender doesn't receive notification for their own message
+
+---
 
 ## Next Steps
 

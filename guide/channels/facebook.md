@@ -2,13 +2,9 @@
 
 Conecte o Facebook Messenger para atender clientes através da sua Página.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
-:::
-
 ## Visão Geral
 
-Integre o Messenger da sua Página do Facebook para receber e responder mensagens na plataforma Interflow.
+Integre o Messenger da sua Página do Facebook para receber e responder mensagens na plataforma Interflow. Toda a gestão acontece centralizada no mesmo painel que os outros canais.
 
 ## Requisitos
 

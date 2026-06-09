@@ -64,7 +64,7 @@ Crie o agente do zero, configurando cada detalhe manualmente.
 
 ## Abas do Editor
 
-O editor de Agentes IA possui **5 abas principais**:
+O editor de Agentes IA possui **6 abas principais**:
 
 ### 1. Contexto
 Esta é a aba principal onde você define o prompt/instruções do agente.
@@ -155,7 +155,46 @@ Crie ferramentas customizadas para integrações específicas. Cada ferramenta p
 Veja a documentação completa em [Ferramentas da IA](/guide/ai-agents/tools).
 :::
 
-### 5. Avançado
+### 5. Base de Conhecimento
+
+Cadastre documentos internos da sua empresa para que a IA consulte durante os atendimentos, oferecendo respostas precisas sem depender de raciocínio genérico.
+
+**Como funciona:**
+
+Cada documento cadastrado vira automaticamente uma **ferramenta** disponível para a IA. A busca é adaptativa:
+
+- **Documentos curtos** (até 3 blocos) → conteúdo completo retornado diretamente
+- **Documentos longos** (mais de 3 blocos) → busca semântica RAG retorna apenas os trechos mais relevantes para a pergunta do cliente
+
+A busca usa tecnologia **híbrida** combinando embeddings vetoriais com busca por palavras-chave, com suporte a Português, Inglês e Espanhol.
+
+**Como adicionar um documento:**
+
+1. Na aba **Base de Conhecimento**, clique em **"Adicionar documento"**
+2. Preencha:
+   - **Título** – Nome do documento (ex: `Horário de Atendimento`)
+   - **Descrição** – Resumo do conteúdo; quanto mais específico, melhor a IA sabe quando chamar (ex: `Contém horários de funcionamento, feriados e telefone para agendamento`)
+   - **Idioma** – Idioma principal do conteúdo
+   - **Conteúdo** – Texto completo, com suporte a Markdown
+3. Clique em **"Salvar"**
+
+::: tip 💡 Dica
+A **descrição** é o campo mais importante. Use palavras que o cliente usaria ao perguntar: em vez de "Informações gerais", escreva "Contém endereço, horários, planos aceitos e valores de consulta".
+:::
+
+::: info 📂 Organização por assunto
+Prefira **um documento por assunto** (ex: Horários, Endereço, Política de Cancelamento) em vez de um único documento com tudo. Documentos focados geram respostas mais precisas.
+:::
+
+**Benefícios:**
+- ✅ Respostas mais rápidas e precisas com dados internos da empresa
+- ✅ Redução no consumo de tokens
+- ✅ Configuração zero — documentos viram ferramentas automaticamente
+- ✅ Editor Markdown para formatação de conteúdo
+
+---
+
+### 6. Avançado
 
 Configurações detalhadas do agente:
 
@@ -176,6 +215,69 @@ Configurações detalhadas do agente:
 - **Visualizar Fluxo**: Acesse o fluxo vinculado ao agente
 - **Resetar Fluxo**: Recria o fluxo com a configuração padrão
 - **Gatilhos**: Configure quando o agente deve ser acionado
+
+## Integração de Fallback
+
+Configure um agente IA secundário que assume automaticamente quando o agente principal não consegue responder ou atinge um limite.
+
+### Para que serve?
+
+- Garantir atendimento 24/7 mesmo quando o agente primário está limitado
+- Redirecionar automaticamente para um agente especializado em determinados tópicos
+- Evitar que clientes fiquem sem resposta em casos de erro ou timeout
+
+### Como configurar
+
+1. Na aba **Avançado** do agente, localize a seção **"Integração de Fallback"**
+2. Selecione o **Agente IA** de fallback
+3. Configure os **alertas** desejados (notificação ao acionar o fallback)
+4. Defina os **casos de uso** para acionamento automático
+5. Salve
+
+::: tip 💡 Caso de uso comum
+Configure o agente principal para atendimento geral e um agente especializado (ex: suporte técnico) como fallback para perguntas técnicas específicas.
+:::
+
+---
+
+## Créditos de IA
+
+O uso dos Agentes IA é medido em **créditos baseados em USD**, proporcionando transparência no controle de custos.
+
+### Tipos de Créditos
+
+| Tipo | Descrição |
+|------|-----------|
+| **Créditos do Plano** | Depositados na renovação mensal. Zerados ao renovar. |
+| **Créditos Comprados** | Adquiridos separadamente. Não expiram. |
+| **Créditos Bônus** | Promocionais ou de indicação. Não expiram. |
+
+### Tabela de Custos por Modelo
+
+| Modelo | Input (1M tokens) | Output (1M tokens) |
+|--------|-------------------|--------------------|
+| **GPT-5.2** | $1.75 | $14.00 |
+| **GPT-5.1** | $1.25 | $10.00 |
+| **GPT-5** | $1.25 | $10.00 |
+| **GPT-5 Mini** | $0.25 | $2.00 |
+| **GPT-5 Nano** | $0.05 | $0.40 |
+| **GPT-4.1** | $2.00 | $8.00 |
+| **GPT-4.1 Mini** | $0.40 | $1.60 |
+| **GPT-4.1 Nano** | $0.10 | $0.40 |
+
+::: tip 💡 Economia
+Tokens em cache custam até **10x menos**. Modelos Mini e Nano são significativamente mais baratos para casos de uso de alto volume.
+:::
+
+### Extrato de Créditos
+
+Acesse o histórico detalhado em **Configurações → Uso → Créditos de IA**:
+- Saldo disponível total
+- Detalhamento por fonte (Plano, Comprado, Bônus)
+- Histórico completo de transações
+- Filtros por tipo de transação e uso
+
+---
 
 ## Follow-up Inteligente
 

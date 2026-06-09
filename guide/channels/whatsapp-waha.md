@@ -108,18 +108,97 @@ Receba e responda mensagens de grupos do WhatsApp.
 - ↩️ Responda diretamente ao grupo
 - 📊 Histórico completo preservado
 
+### Funcionalidades Avançadas de Grupos
+
+#### Adicionar Participante como Cliente
+
+1. Abra o chat do grupo
+2. Localize uma mensagem de um participante (lado esquerdo)
+3. Clique no **menu (⋯)** da mensagem
+4. Selecione **"Adicionar como cliente"**
+5. Conclua o cadastro e inicie conversa privada
+
+#### Excluir Mensagens de Outros
+
+Administradores do grupo podem excluir mensagens inadequadas de outros participantes:
+
+1. Clique no menu (⋯) da mensagem
+2. Selecione **"Excluir mensagem"**
+
+#### Foto do Grupo
+
+A foto do grupo é exibida automaticamente no cabeçalho do chat.
+
+#### Lista de Participantes
+
+1. No cabeçalho do chat do grupo, clique em **"Participantes"**
+2. Visualize todos os membros
+3. Use **"Adicionar como cliente"** para quem tiver número disponível
+
+::: info ℹ️ Privacidade (Meta)
+Alguns participantes aparecem apenas com identificador (@lid por políticas do Meta). Nesses casos, use o menu da mensagem quando o participante enviar algo no grupo.
+:::
+
+### Bloquear Mídia em Grupos
+
+Impeça o recebimento de mídia (imagens, vídeos, etc.) em grupos:
+
+1. Acesse **Configurações** → **Canais** → seu canal WAHA
+2. Ative **"Bloquear mídia em grupos"**
+
+### Encerrar Conversa de Grupo
+
+É possível encerrar/resolver conversas de grupos WhatsApp da mesma forma que chats individuais.
+
 ### Permissões
 
 | Configuração | Descrição |
 |--------------|-----------|
 | **Habilitar grupos** | Admin pode ativar/desativar por canal |
-| **Restringir agentes** | Agentes podem ser bloqueados de grupos |
+| **Bloquear mídia** | Impede recebimento de arquivos em grupos |
 
 ### Limitações
 
 - Apenas mensagens recebidas após conexão
 - Não é possível criar grupos pela plataforma
 - Admin precisa adicionar o número ao grupo
+
+---
+
+## Canal Auxiliar para WhatsApp Official
+
+Se você usa o WhatsApp Oficial (API Meta), configure um canal WAHA auxiliar para suprir suas limitações naturais.
+
+### Para que serve?
+
+| Limitação do Official | Solução via Canal Auxiliar |
+|-----------------------|-----------------------------|
+| Não registra mensagens enviadas pelo celular | Captura echoes (`fromMe=true`) e registra no histórico |
+| Janela de 24h expira e não permite mensagens livres | Botão "Enviar via Canal Auxiliar" aparece no rodapé |
+| Não suporta grupos | Canal auxiliar pode receber/responder grupos |
+| Não expõe foto de perfil de contatos | WAHA busca a foto automaticamente |
+
+### Como configurar
+
+1. Acesse as configurações do canal **WhatsApp Official**
+2. Role até a seção **Canal Auxiliar WAHA**
+3. Clique em **"Adicionar canal auxiliar WAHA"**
+4. Escaneie o QR code com o WhatsApp do celular — **deve ser o mesmo número do canal oficial, em Modo Coexistência**
+5. Ajuste as configurações:
+   - **Ouvir mensagens do cliente** — desativado por padrão (evita duplicação com o oficial)
+   - **Ouvir minhas mensagens** — ativado por padrão para capturar echoes
+   - **Habilitar grupos** e **Bloquear mídia em grupos**
+
+### Envio fora da janela de 24h
+
+1. Quando a janela expira, o rodapé da conversa exibe **"Usar Template"** e **"Enviar via Canal Auxiliar"**
+2. Clique em **"Enviar via Canal Auxiliar"**
+3. O input completo de mensagens aparece (texto, arquivos, áudio, emoji)
+4. A mensagem é enviada pelo WAHA e registrada no histórico normalmente
+
+::: tip 💡 Recomendação
+O canal auxiliar **não aparece na listagem geral** de canais — fica visível apenas dentro das configurações do canal official.
+:::
 
 ## Boas Práticas
 

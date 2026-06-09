@@ -201,6 +201,64 @@ Gere relatórios com agrupamentos e subdivisões personalizadas:
 
 Veja mais em [Relatórios](/guide/reports/).
 
+## Exclusão em Massa de Clientes
+
+Administradores e proprietários podem excluir vários clientes simultaneamente, com a opção de apagar também todos os chats vinculados.
+
+### Como usar
+
+1. Acesse **Clientes** e selecione os clientes desejados usando as caixas de seleção
+2. Clique em **"Excluir selecionados"**
+3. No modal de confirmação, marque **"Também apagar todos os chats vinculados"** (visível somente para admin e owner)
+4. Confirme a exclusão
+
+::: warning ⚠️ Irreversível
+Mensagens, arquivos e sessões de fluxo de todos os chats dos clientes selecionados serão excluídos permanentemente. Pedidos POS são mantidos.
+:::
+
+### Itens por Página
+
+Escolha quantos clientes exibir por página na listagem:
+
+- Na parte inferior da lista, selecione **10 por página** (padrão) ou **50 por página**
+- A lista recarrega automaticamente ao mudar o valor
+
+---
+
+## Controle de Acesso ao CRM
+
+Controle granular sobre quem pode ver e acessar cada cliente no CRM.
+
+### Visibilidade por Equipe (Agentes)
+
+Agentes veem apenas clientes das equipes às quais estão atribuídos:
+
+- 📋 Lista de clientes
+- 🔍 Busca de clientes
+- 📊 Relatórios (dados filtrados)
+- 📤 Exportações (respeita visibilidade)
+
+::: info ℹ️ Administradores
+Administradores continuam vendo todos os clientes. Essa configuração protege dados sensíveis entre equipes.
+:::
+
+### Consulta por Permissão
+
+A segurança multinível garante que:
+- Agentes só consultam clientes com os quais têm permissão de acesso
+- Relatórios são filtrados automaticamente conforme o perfil do usuário
+- Exportações respeitam as mesmas regras de visibilidade da interface
+
+### Dados Sensíveis (LGPD)
+
+Proteja informações de contato dos clientes para agentes:
+
+1. Acesse **Configurações → Clientes**
+2. Ative **"Ocultar dados de contato dos agentes"**
+3. Agentes não verão telefone, email e WhatsApp nas listas e exportações
+
+---
+
 ## Mesclagem de Clientes
 
 Quando identificar duplicatas:

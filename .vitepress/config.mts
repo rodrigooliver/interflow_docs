@@ -14,7 +14,8 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Introduction' : lang === 'es' ? 'Introducción' : 'Introdução', link: `${prefix}/guide/introduction` },
-          { text: lang === 'en' ? 'Quick Start' : lang === 'es' ? 'Inicio Rápido' : 'Início Rápido', link: `${prefix}/guide/quick-start` }
+          { text: lang === 'en' ? 'Quick Start' : lang === 'es' ? 'Inicio Rápido' : 'Início Rápido', link: `${prefix}/guide/quick-start` },
+          { text: lang === 'en' ? 'Dashboard' : lang === 'es' ? 'Dashboard' : 'Dashboard', link: `${prefix}/guide/dashboard` }
         ]
       },
       {
@@ -34,7 +35,8 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Chat Interface' : lang === 'es' ? 'Interfaz de Chat' : 'Interface de Chat', link: `${prefix}/guide/chat/interface` },
-          { text: lang === 'en' ? 'Text Enhancer' : lang === 'es' ? 'Mejorador de Texto' : 'Melhorador de Texto', link: `${prefix}/guide/chat/text-enhancer` }
+          { text: lang === 'en' ? 'Text Enhancer' : lang === 'es' ? 'Mejorador de Texto' : 'Melhorador de Texto', link: `${prefix}/guide/chat/text-enhancer` },
+          { text: lang === 'en' ? 'My Tasks' : lang === 'es' ? 'Mis Tareas' : 'Minhas Tarefas', link: `${prefix}/guide/tasks` }
         ]
       },
       {
@@ -71,6 +73,7 @@ function getSidebar(lang: string = '') {
               { text: 'Minimax TTS', link: `${prefix}/guide/flows/nodes/minimax` },
               { text: lang === 'en' ? 'HTTP Request' : lang === 'es' ? 'Solicitud HTTP' : 'Requisição HTTP', link: `${prefix}/guide/flows/nodes/request` },
               { text: lang === 'en' ? 'Webhook Trigger' : lang === 'es' ? 'Webhook Trigger' : 'Webhook Trigger', link: `${prefix}/guide/flows/nodes/webhook-trigger` },
+              { text: lang === 'en' ? 'Call Another Flow' : lang === 'es' ? 'Llamar otro Flujo' : 'Chamar outro Fluxo', link: `${prefix}/guide/flows/nodes/call-flow` },
               { text: lang === 'en' ? 'Group' : lang === 'es' ? 'Grupo' : 'Grupo', link: `${prefix}/guide/flows/nodes/group` },
               { text: 'POS', link: `${prefix}/guide/flows/nodes/pos` }
             ]

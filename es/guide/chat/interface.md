@@ -158,6 +158,27 @@ Visual que muestra el estado de llenado de los campos:
 
 ## Acciones de Atención
 
+### Acciones en Masa
+
+Ejecuta acciones en varios chats a la vez directamente desde la lista de atenciones:
+
+1. Aplica los filtros deseados (estado, etiqueta, canal, agente, equipo, no leídos, etc.)
+2. Haz clic en el ícono de **selección en masa** (☑) en la parte superior de la lista
+3. Selecciona chats individualmente **o** usa **"Seleccionar todos los filtrados"**
+4. En la barra inferior, elige:
+   - **Marcar como leído** — borra mensajes no leídos en chats elegibles
+   - **Marcar como resuelto** — cierra solo chats con estado **pendiente**; los chats en progreso se ignoran
+5. Confirma la acción cuando se solicite (más de 10 chats)
+
+### Crear Tarea desde Mensajes
+
+Selecciona mensajes específicos de una conversación para crear una tarea directamente:
+
+1. En el área de mensajes, selecciona uno o más mensajes
+2. En la barra inferior, haz clic en **"Crear Tarea"**
+3. Completa los detalles (título, responsable, plazo)
+4. Los mensajes seleccionados quedan vinculados a la tarea como contexto
+
 ### Asumir Conversación
 
 Para atender una conversación no asignada:
@@ -273,6 +294,43 @@ El botón solo aparece en chats de canales WhatsApp (WAHA, W-API, WhatsApp Ofici
 :::
 
 Configura en **Configuraciones > Atención > Botón de WhatsApp Rápido**.
+
+## Chat Interno (Comunicación entre Agentes)
+
+Comunícate directamente con otros miembros del equipo sin crear grupos, directamente en el encabezado de la página de Chats.
+
+### Chat Directo (DM)
+
+1. En la página **Chats**, haz clic en el botón **+** en el encabezado
+2. Selecciona **"Chat Directo Interno"**
+3. Elige el agente con quien deseas conversar
+4. La conversación se abre en el **widget flotante**
+
+::: info ℹ️ Comportamiento
+Si ya existe una conversación con el usuario seleccionado, el sistema abre la existente en lugar de crear una nueva. Los chats internos aparecen automáticamente en el widget flotante para ambos participantes.
+:::
+
+### Widget Flotante
+
+Los chats internos se fijan en el widget flotante:
+
+- **Persistencia** — el estado del widget se guarda y sincroniza entre dispositivos
+- **Auto-pin** — al ser agregado a un chat interno, aparece automáticamente en el widget
+- **Orden fijo** — los chats siempre aparecen en el mismo orden
+
+### Grupos Internos
+
+Al crear un Grupo Interno, configura los permisos:
+
+- **Permitir que miembros eliminen el grupo** — cuando está activo, cualquier miembro puede eliminar; de lo contrario, solo los administradores del grupo
+
+### Notificaciones de Chat Interno
+
+- Título con nombre del remitente: `Nombre · Chat Interno` (DM) o `Nombre · Nombre del Grupo` (grupo)
+- Conteo de no leídos individual por usuario
+- El remitente no recibe notificación de su propio mensaje
+
+---
 
 ## Próximos Pasos
 
