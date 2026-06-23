@@ -6,6 +6,7 @@ Updates for June 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.6.5](/en/changelog/2026/06/2026.6.5) | 06/23 | **Lead Timeline** — unified customer journey, automatic external contact logging via personal WhatsApp, mandatory blocking feedback and manager view |
 | [2026.6.4](/en/changelog/2026/06/2026.6.4) | 06/23 | **Improved Internal Chats** — last message preview, unified unread badge, single Realtime data source, shortcut to conversations, mobile and message type fixes |
 | [2026.6.3](/en/changelog/2026/06/2026.6.3) | 06/09 | **"My Tasks" page** — all your tasks in one place, regardless of project; grouping and sorting in the list view; quick edit of status, priority and due date directly in the list |
 | [2026.6.2](/en/changelog/2026/06/2026.6.2) | 06/09 | **Automatic customer deletion by usage limit** — configurable in Limits, with "Run now" button and real-time progress; customers with POS orders can now be deleted |
@@ -15,7 +16,11 @@ Updates for June 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (9)
+### ✨ New Features (13)
+- **Lead Timeline (Customer Journey)** (v2026.6.5) — Timeline tab in customer panel with CRM, conversations, notes, tasks, appointments and external contacts
+- **Automatic external contact logging** (v2026.6.5) — Quick WhatsApp Button logs contact outside Interflow before opening the app
+- **Mandatory feedback after external contact** (v2026.6.5) — blocking modal requires conversation documentation before resuming the chat
+- **External feedback setting** (v2026.6.5) — "Require feedback after contact" toggle in WhatsApp button settings
 - **Last message preview in Internal Chats** (v2026.6.4) — listing shows content, media or sender of the last message
 - **Unified unread badge** (v2026.6.4) — counter synced in real time on mobile navbar, conversations header and compact menu
 - **Shortcut to Conversations** (v2026.6.4) — button in Internal Chats listing to go to `/app/chats`
@@ -26,7 +31,8 @@ Updates for June 2026.
 - **Automatic customer deletion by usage limit** (v2026.6.2) — configurable deletion in Settings > Limits (trigger %, target %, order by last contact or registration, linked conversations, run time), processed by the existing deletion queue
 - **"Run now" button for automatic cleanups** (v2026.6.2) — triggers Customers or Storage cleanup immediately, with an "In progress..." state that blocks duplicate triggers
 
-### 🔄 Changes (4)
+### 🔄 Changes (5)
+- **Enriched timeline events** (v2026.6.5) — CRM stage changes, conversation closure and chat assignment logged automatically
 - **Single data source for Internal Chats** (v2026.6.4) — global list with Realtime, no duplicate fetch/subscription on the page
 - **Keyboard in the message field** (v2026.6.4) — Enter sends; Cmd/Ctrl+Enter inserts line break
 - **Visual improvements in the task list** (v2026.6.3) — "Due date" header without wrapping, status and dates no longer wrap, overdue date in red only, grouping/sorting controls in their own bar
@@ -41,5 +47,5 @@ Updates for June 2026.
 ---
 
 ::: info 📝 Total
-**4 releases** this month!
+**5 releases** this month!
 :::

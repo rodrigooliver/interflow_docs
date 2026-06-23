@@ -6,6 +6,7 @@ Actualizaciones del mes de junio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.6.5](/es/changelog/2026/06/2026.6.5) | 23/06 | **Timeline de Leads** — jornada unificada del cliente, registro automático de contacto externo vía WhatsApp personal, feedback obligatorio bloqueante y vista para gestores |
 | [2026.6.4](/es/changelog/2026/06/2026.6.4) | 23/06 | **Chats Internos mejorados** — vista previa del último mensaje, badge de no leídos unificado, fuente única de datos con Realtime, acceso a atenciones, correcciones mobile y tipo de mensaje |
 | [2026.6.3](/es/changelog/2026/06/2026.6.3) | 09/06 | **Página "Mis Tareas"** — todas tus tareas en un solo lugar, independientemente del proyecto; agrupación y ordenación en la vista de lista; edición rápida de estado, prioridad y vencimiento directamente en la lista |
 | [2026.6.2](/es/changelog/2026/06/2026.6.2) | 09/06 | **Eliminación automática de clientes por límite de uso** — configurable en Límites, con botón "Ejecutar ahora" y progreso en tiempo real; los clientes con pedidos POS ahora pueden ser eliminados |
@@ -15,7 +16,11 @@ Actualizaciones del mes de junio de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (9)
+### ✨ Nuevas Funcionalidades (13)
+- **Timeline de Leads (Jornada del Cliente)** (v2026.6.5) — pestaña Timeline en el panel del cliente con CRM, atenciones, notas, tareas, citas y contactos externos
+- **Registro automático de contacto externo** (v2026.6.5) — botón WhatsApp Rápido registra contacto fuera de Interflow antes de abrir la app
+- **Feedback obligatorio después del contacto externo** (v2026.6.5) — modal bloqueante exige documentación de la conversación antes de retomar el chat
+- **Configuración de feedback externo** (v2026.6.5) — interruptor "Exigir feedback después del contacto" en configuración del botón WhatsApp
 - **Vista previa del último mensaje en Chats Internos** (v2026.6.4) — el listado muestra contenido, medios o remitente del último mensaje
 - **Badge de no leídos unificado** (v2026.6.4) — contador sincronizado en tiempo real en navbar mobile, encabezado de atenciones y menú compacto
 - **Acceso directo a Atenciones** (v2026.6.4) — botón en el listado de Chats Internos para ir a `/app/chats`
@@ -26,7 +31,8 @@ Actualizaciones del mes de junio de 2026.
 - **Eliminación automática de clientes por límite de uso** (v2026.6.2) — eliminación configurable en Configuración > Límites (disparador %, meta %, orden por último contacto o registro, conversaciones vinculadas, hora de ejecución), procesada por la cola de eliminación existente
 - **Botón "Ejecutar ahora" en las limpiezas automáticas** (v2026.6.2) — dispara la limpieza de Clientes o Almacenamiento inmediatamente, con estado "En curso..." que bloquea disparos duplicados
 
-### 🔄 Cambios (4)
+### 🔄 Cambios (5)
+- **Eventos enriquecidos en la timeline** (v2026.6.5) — cambios de etapa CRM, cierre y asignación de chats registrados automáticamente
 - **Fuente única de datos para Chats Internos** (v2026.6.4) — lista global con Realtime, sin fetch/suscripción duplicados en la página
 - **Teclado en el campo de mensaje** (v2026.6.4) — Enter envía; Cmd/Ctrl+Enter inserta salto de línea
 - **Mejoras visuales en la lista de tareas** (v2026.6.3) — encabezado "Vencimiento" sin salto de línea, estado y fechas sin saltos, fecha vencida solo en rojo, controles de agrupación/ordenación en barra propia
@@ -41,5 +47,5 @@ Actualizaciones del mes de junio de 2026.
 ---
 
 ::: info 📝 Total
-**4 lanzamientos** en este mes!
+**5 lanzamientos** en este mes!
 :::
