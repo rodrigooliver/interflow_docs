@@ -6,6 +6,7 @@ Atualizações do mês de junho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.6.6](/changelog/2026/06/2026.6.6) | 24/06 | **Filtro "Incluir colaborando"** — expande a lista de conversas com colaborações ativas sem restringir outros filtros; disponível no painel de filtros e em filtros rápidos |
 | [2026.6.5](/changelog/2026/06/2026.6.5) | 23/06 | **Timeline de Leads** — jornada unificada do cliente, registro automático de contato externo via WhatsApp pessoal, feedback obrigatório bloqueante e visão para gestores |
 | [2026.6.4](/changelog/2026/06/2026.6.4) | 23/06 | **Chats Internos aprimorados** — preview da última mensagem, badge de não lidos unificado, fonte única de dados com Realtime, atalho para atendimentos, correções mobile e tipo de mensagem |
 | [2026.6.3](/changelog/2026/06/2026.6.3) | 09/06 | **Página "Minhas Tarefas"** — todas as suas tarefas em um só lugar, independente de projeto; agrupamento e ordenação na view lista; edição rápida de status, prioridade e vencimento direto na lista |
@@ -16,7 +17,8 @@ Atualizações do mês de junho de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (13)
+### ✨ Novas Funcionalidades (14)
+- **Filtro "Incluir colaborando"** (v2026.6.6) — expande a lista de conversas com atendimentos em colaboração, combinável com status, equipe, tags e filtros rápidos personalizados
 - **Timeline de Leads (Jornada do Cliente)** (v2026.6.5) — aba Timeline no painel do cliente com CRM, atendimentos, notas, tarefas, agendamentos e contatos externos
 - **Registro automático de contato externo** (v2026.6.5) — botão WhatsApp Rápido registra contato fora do Interflow antes de abrir o app
 - **Feedback obrigatório após contato externo** (v2026.6.5) — modal bloqueante exige documentação da conversa antes de retomar o chat
@@ -38,7 +40,8 @@ Atualizações do mês de junho de 2026.
 - **Melhorias visuais na lista de tarefas** (v2026.6.3) — cabeçalho "Vencimento" sem quebra de linha, status e datas sem quebra, data vencida apenas em vermelho, controles de agrupamento/ordenação em barra própria
 - **Clientes com pedidos (POS) agora podem ser excluídos** (v2026.6.2) — pedidos preservados no histórico de vendas, apenas desvinculados do cliente
 
-### 🐛 Correções (4)
+### 🐛 Correções (5)
+- **Consulta de conversas com filtro aditivo** (v2026.6.6) — corrigido erro ao carregar lista com "Incluir colaborando" ativo
 - **Mensagens internas salvas como email** (v2026.6.4) — tipos corretos (`text`, `image`, etc.) para chats sem canal vinculado
 - **Input oculto no mobile em chat interno** (v2026.6.4) — barra de navegação inferior oculta ao abrir conversa
 - **Quebra de linha com Cmd/Ctrl+Enter** (v2026.6.4) — inserção correta em textarea controlado
@@ -47,5 +50,5 @@ Atualizações do mês de junho de 2026.
 ---
 
 ::: info 📝 Total
-**5 releases** neste mês!
+**6 releases** neste mês!
 :::

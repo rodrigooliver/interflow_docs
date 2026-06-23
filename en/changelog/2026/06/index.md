@@ -6,6 +6,7 @@ Updates for June 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.6.6](/en/changelog/2026/06/2026.6.6) | 06/24 | **"Include collaborating" filter** — expands the conversation list with active collaborations without restricting other filters; available in filter panel and quick filters |
 | [2026.6.5](/en/changelog/2026/06/2026.6.5) | 06/23 | **Lead Timeline** — unified customer journey, automatic external contact logging via personal WhatsApp, mandatory blocking feedback and manager view |
 | [2026.6.4](/en/changelog/2026/06/2026.6.4) | 06/23 | **Improved Internal Chats** — last message preview, unified unread badge, single Realtime data source, shortcut to conversations, mobile and message type fixes |
 | [2026.6.3](/en/changelog/2026/06/2026.6.3) | 06/09 | **"My Tasks" page** — all your tasks in one place, regardless of project; grouping and sorting in the list view; quick edit of status, priority and due date directly in the list |
@@ -16,7 +17,8 @@ Updates for June 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (13)
+### ✨ New Features (14)
+- **"Include collaborating" filter** (v2026.6.6) — expands the conversation list with collaborating conversations, combinable with status, team, tags and custom quick filters
 - **Lead Timeline (Customer Journey)** (v2026.6.5) — Timeline tab in customer panel with CRM, conversations, notes, tasks, appointments and external contacts
 - **Automatic external contact logging** (v2026.6.5) — Quick WhatsApp Button logs contact outside Interflow before opening the app
 - **Mandatory feedback after external contact** (v2026.6.5) — blocking modal requires conversation documentation before resuming the chat
@@ -38,7 +40,8 @@ Updates for June 2026.
 - **Visual improvements in the task list** (v2026.6.3) — "Due date" header without wrapping, status and dates no longer wrap, overdue date in red only, grouping/sorting controls in their own bar
 - **Customers with POS orders can now be deleted** (v2026.6.2) — orders preserved in the sales history, only unlinked from the customer
 
-### 🐛 Bug Fixes (4)
+### 🐛 Bug Fixes (5)
+- **Conversation query with additive filter** (v2026.6.6) — fixed error loading list with "Include collaborating" enabled
 - **Internal messages saved as email** (v2026.6.4) — correct types (`text`, `image`, etc.) for chats without a linked channel
 - **Message input hidden on mobile in internal chat** (v2026.6.4) — bottom navigation bar hidden when opening a conversation
 - **Line break with Cmd/Ctrl+Enter** (v2026.6.4) — correct insertion in controlled textarea
@@ -47,5 +50,5 @@ Updates for June 2026.
 ---
 
 ::: info 📝 Total
-**5 releases** this month!
+**6 releases** this month!
 :::

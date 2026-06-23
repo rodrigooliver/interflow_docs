@@ -6,6 +6,7 @@ Actualizaciones del mes de junio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.6.6](/es/changelog/2026/06/2026.6.6) | 24/06 | **Filtro "Incluir colaborando"** — amplía la lista de conversaciones con colaboraciones activas sin restringir otros filtros; disponible en panel de filtros y filtros rápidos |
 | [2026.6.5](/es/changelog/2026/06/2026.6.5) | 23/06 | **Timeline de Leads** — jornada unificada del cliente, registro automático de contacto externo vía WhatsApp personal, feedback obligatorio bloqueante y vista para gestores |
 | [2026.6.4](/es/changelog/2026/06/2026.6.4) | 23/06 | **Chats Internos mejorados** — vista previa del último mensaje, badge de no leídos unificado, fuente única de datos con Realtime, acceso a atenciones, correcciones mobile y tipo de mensaje |
 | [2026.6.3](/es/changelog/2026/06/2026.6.3) | 09/06 | **Página "Mis Tareas"** — todas tus tareas en un solo lugar, independientemente del proyecto; agrupación y ordenación en la vista de lista; edición rápida de estado, prioridad y vencimiento directamente en la lista |
@@ -16,7 +17,8 @@ Actualizaciones del mes de junio de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (13)
+### ✨ Nuevas Funcionalidades (14)
+- **Filtro "Incluir colaborando"** (v2026.6.6) — amplía la lista de conversaciones con atenciones en colaboración, combinable con estado, equipo, etiquetas y filtros rápidos personalizados
 - **Timeline de Leads (Jornada del Cliente)** (v2026.6.5) — pestaña Timeline en el panel del cliente con CRM, atenciones, notas, tareas, citas y contactos externos
 - **Registro automático de contacto externo** (v2026.6.5) — botón WhatsApp Rápido registra contacto fuera de Interflow antes de abrir la app
 - **Feedback obligatorio después del contacto externo** (v2026.6.5) — modal bloqueante exige documentación de la conversación antes de retomar el chat
@@ -38,7 +40,8 @@ Actualizaciones del mes de junio de 2026.
 - **Mejoras visuales en la lista de tareas** (v2026.6.3) — encabezado "Vencimiento" sin salto de línea, estado y fechas sin saltos, fecha vencida solo en rojo, controles de agrupación/ordenación en barra propia
 - **Los clientes con pedidos (POS) ahora pueden ser eliminados** (v2026.6.2) — pedidos preservados en el historial de ventas, solo desvinculados del cliente
 
-### 🐛 Correcciones (4)
+### 🐛 Correcciones (5)
+- **Consulta de conversaciones con filtro aditivo** (v2026.6.6) — corregido error al cargar lista con "Incluir colaborando" activo
 - **Mensajes internos guardados como email** (v2026.6.4) — tipos correctos (`text`, `image`, etc.) para chats sin canal vinculado
 - **Input oculto en mobile en chat interno** (v2026.6.4) — barra de navegación inferior oculta al abrir conversación
 - **Salto de línea con Cmd/Ctrl+Enter** (v2026.6.4) — inserción correcta en textarea controlado
@@ -47,5 +50,5 @@ Actualizaciones del mes de junio de 2026.
 ---
 
 ::: info 📝 Total
-**5 lanzamientos** en este mes!
+**6 lanzamientos** en este mes!
 :::
