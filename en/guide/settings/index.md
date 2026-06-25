@@ -163,6 +163,10 @@ Financial menu is hidden for non-administrative profiles.
 
 ## Team Settings
 
+Manage teams, members, and **automatic round-robin distribution** under **Settings → Teams**.
+
+Full guide: [Teams — Round-robin](/en/guide/teams/#automatic-round-robin-distribution)
+
 ### Agent Assignment by Administrator
 
 Admins and owners can manage agent assignment in conversations without entering each one.
@@ -200,6 +204,7 @@ This is a per-user setting. Each team member can configure their own.
 
 ## Next Steps
 
+- [Teams](/en/guide/teams/) - Round-robin and member management
 - [AI Agents](/en/guide/ai-agents/) - Configure AI
 - [Channels](/en/guide/channels/) - Configure service channels
 - [Reports](/en/guide/reports/) - View metrics

@@ -163,6 +163,10 @@ El menú financiero está oculto para perfiles no administrativos.
 
 ## Configuraciones de Equipos
 
+Gestiona equipos, miembros y la **distribución automática por rodizio** en **Configuraciones → Equipos**.
+
+Guía completa: [Equipos — Rodizio automático](/es/guide/teams/#distribucion-automatica-por-rodizio)
+
 ### Asignación de Agentes por Administrador
 
 Admins y owners pueden gestionar la asignación de agentes en conversaciones sin entrar en cada una.
@@ -200,6 +204,7 @@ Esta es una configuración por usuario. Cada miembro del equipo puede configurar
 
 ## Próximos Pasos
 
+- [Equipos](/es/guide/teams/) - Rodizio automático y gestión de miembros
 - [Agentes IA](/es/guide/ai-agents/) - Configura IA
 - [Canales](/es/guide/channels/) - Configura canales de atención
 - [Informes](/es/guide/reports/) - Ver métricas

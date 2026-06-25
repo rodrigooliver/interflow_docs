@@ -6,6 +6,9 @@ Atualizações do mês de junho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.6.9](/changelog/2026/06/2026.6.9) | 25/06 | **Rodízio automático em equipes** — distribuição por ordem, reserva bloqueada no pending, situação do rodízio, badge na lista e mensagens de sistema |
+| [2026.6.8](/changelog/2026/06/2026.6.8) | 24/06 | **Notificações por evento de agendamento** — envio automático ao cadastrar, confirmar, cancelar, iniciar e concluir; resumo de status e preset "Operacional hoje" na listagem |
+| [2026.6.7](/changelog/2026/06/2026.6.7) | 24/06 | **Pausar IA em respostas externas** — configuração por canal (WAHA, Oficial, Instagram, Facebook) para controlar pausa automática da IA ao responder fora do Interflow |
 | [2026.6.6](/changelog/2026/06/2026.6.6) | 24/06 | **Filtro "Incluir colaborando"** — expande a lista de conversas com colaborações ativas sem restringir outros filtros; disponível no painel de filtros e em filtros rápidos |
 | [2026.6.5](/changelog/2026/06/2026.6.5) | 23/06 | **Timeline de Leads** — jornada unificada do cliente, registro automático de contato externo via WhatsApp pessoal, feedback obrigatório bloqueante e visão para gestores |
 | [2026.6.4](/changelog/2026/06/2026.6.4) | 23/06 | **Chats Internos aprimorados** — preview da última mensagem, badge de não lidos unificado, fonte única de dados com Realtime, atalho para atendimentos, correções mobile e tipo de mensagem |
@@ -17,7 +20,16 @@ Atualizações do mês de junho de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (14)
+### ✨ Novas Funcionalidades (23)
+- **Distribuição automática por rodízio** (v2026.6.9) — configuração por equipe com gatilhos, fallback, horários, pausa e plantão por membro
+- **Reserva bloqueada no modo pending** (v2026.6.9) — prazos em expediente/folga; só o agente reservado pode atender até expirar
+- **Situação do rodízio na equipe** (v2026.6.9) — painel com próximo, último e ordem da fila; ação "Definir como próximo"
+- **Marcador de reserva na lista de chats** (v2026.6.9) — badge "Reservado para você" ou "Reservado · {nome}" em conversas pending
+- **Mensagens de sistema do rodízio** (v2026.6.9) — tipos `auto_assigned` e `user_start_auto` no histórico do chat
+- **Notificações por evento de agendamento** (v2026.6.8) — templates para cadastro, confirmação, cancelamento, início, conclusão, reagendamento, no-show e follow-up pós-atendimento via WhatsApp, e-mail ou fluxo
+- **Resumo de status na listagem de agendamentos** (v2026.6.8) — chips clicáveis (A iniciar, Em andamento, Concluídos, Cancelados/ausentes) com contadores
+- **Preset "Operacional hoje"** (v2026.6.8) — filtro rápido do dia com agrupamento por fase operacional
+- **Pausar IA em respostas externas** (v2026.6.7) — toggle por canal para controlar pausa automática do fluxo/IA quando o atendente responde pelo app nativo (WAHA, WhatsApp Oficial, Instagram, Facebook); padrão ligado
 - **Filtro "Incluir colaborando"** (v2026.6.6) — expande a lista de conversas com atendimentos em colaboração, combinável com status, equipe, tags e filtros rápidos personalizados
 - **Timeline de Leads (Jornada do Cliente)** (v2026.6.5) — aba Timeline no painel do cliente com CRM, atendimentos, notas, tarefas, agendamentos e contatos externos
 - **Registro automático de contato externo** (v2026.6.5) — botão WhatsApp Rápido registra contato fora do Interflow antes de abrir o app
@@ -33,14 +45,18 @@ Atualizações do mês de junho de 2026.
 - **Exclusão automática de clientes por limite de uso** (v2026.6.2) — exclusão configurável em Configurações > Limites (gatilho %, meta %, ordem por último contato ou cadastro, conversas vinculadas, hora de execução), processada pela fila de exclusão existente
 - **Botão "Executar agora" nas limpezas automáticas** (v2026.6.2) — dispara a limpeza de Clientes ou Armazenamento imediatamente, com estado "Em andamento..." que bloqueia disparos duplicados
 
-### 🔄 Alterações (5)
+### 🔄 Alterações (7)
+- **Nó de fluxo Rodízio** (v2026.6.9) — aciona distribuição automática da equipe atual ou selecionada
+- **Formulário de templates de notificação** (v2026.6.8) — todos os gatilhos de notificação reativados na interface (antes só "Antes do agendamento" estava disponível)
 - **Eventos enriquecidos na timeline** (v2026.6.5) — mudanças de estágio CRM, encerramento e atribuição de chats registrados automaticamente
 - **Fonte única de dados para Chats Internos** (v2026.6.4) — lista global com Realtime, sem fetch/subscription duplicados na página
 - **Teclado no campo de mensagem** (v2026.6.4) — Enter envia; Cmd/Ctrl+Enter quebra linha
 - **Melhorias visuais na lista de tarefas** (v2026.6.3) — cabeçalho "Vencimento" sem quebra de linha, status e datas sem quebra, data vencida apenas em vermelho, controles de agrupamento/ordenação em barra própria
 - **Clientes com pedidos (POS) agora podem ser excluídos** (v2026.6.2) — pedidos preservados no histórico de vendas, apenas desvinculados do cliente
 
-### 🐛 Correções (5)
+### 🐛 Correções (7)
+- **Lembretes before_appointment com status confirmado** (v2026.6.8) — lembretes passam a ser enviados também para agendamentos confirmados
+- **Cancelamento de lembretes pendentes** (v2026.6.8) — lembretes futuros cancelados automaticamente ao cancelar o agendamento
 - **Consulta de conversas com filtro aditivo** (v2026.6.6) — corrigido erro ao carregar lista com "Incluir colaborando" ativo
 - **Mensagens internas salvas como email** (v2026.6.4) — tipos corretos (`text`, `image`, etc.) para chats sem canal vinculado
 - **Input oculto no mobile em chat interno** (v2026.6.4) — barra de navegação inferior oculta ao abrir conversa
@@ -50,5 +66,5 @@ Atualizações do mês de junho de 2026.
 ---
 
 ::: info 📝 Total
-**6 releases** neste mês!
+**9 releases** neste mês!
 :::

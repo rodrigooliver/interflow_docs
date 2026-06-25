@@ -124,7 +124,8 @@ function getSidebar(lang: string = '') {
         text: lang === 'en' ? '⚙️ Settings' : lang === 'es' ? '⚙️ Configuraciones' : '⚙️ Configurações',
         collapsed: false,
         items: [
-          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/settings/` }
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/settings/` },
+          { text: lang === 'en' ? 'Teams' : lang === 'es' ? 'Equipos' : 'Equipes', link: `${prefix}/guide/teams/` }
         ]
       },
       {
@@ -187,6 +188,9 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/06/` },
+              { text: 'v2026.6.9', link: `${prefix}/changelog/2026/06/2026.6.9` },
+              { text: 'v2026.6.8', link: `${prefix}/changelog/2026/06/2026.6.8` },
+              { text: 'v2026.6.7', link: `${prefix}/changelog/2026/06/2026.6.7` },
               { text: 'v2026.6.6', link: `${prefix}/changelog/2026/06/2026.6.6` },
               { text: 'v2026.6.5', link: `${prefix}/changelog/2026/06/2026.6.5` },
               { text: 'v2026.6.4', link: `${prefix}/changelog/2026/06/2026.6.4` },

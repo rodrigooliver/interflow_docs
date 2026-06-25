@@ -211,6 +211,10 @@ Usuários com perfil limitado têm acesso restrito aos filtros do sistema.
 
 ## Configurações de Equipes
 
+Gerencie equipes, membros e a **distribuição automática por rodízio** em **Configurações → Equipes**.
+
+Consulte o guia completo: [Equipes — Rodízio automático](/guide/teams/#distribuicao-automatica-por-rodizio)
+
 ### Atribuição de Agentes por Administrador
 
 Administradores e owners podem gerenciar a atribuição de agentes em conversas sem precisar entrar em cada conversa.
@@ -255,7 +259,7 @@ Esta é uma configuração por usuário. Cada membro da equipe pode configurar a
 
 ## Próximos Passos
 
-- [Equipes e Usuários](/guide/teams/) - Gerenciar equipes
+- [Equipes](/guide/teams/) - Rodízio automático e gestão de membros
 - [Agentes IA](/guide/ai-agents/) - Configurar IA
 - [Canais](/guide/channels/) - Configurar canais de atendimento
 
