@@ -6,6 +6,7 @@ Updates for June 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.6.10](/en/changelog/2026/06/2026.6.10) | 06/26 | **Silent flows by appointment status** — internal automations per stage, dedicated tab in schedule management, status changes centralized through the API |
 | [2026.6.9](/en/changelog/2026/06/2026.6.9) | 06/25 | **Team round-robin** — order-based distribution, locked pending reservation, round-robin status panel, list badge and system messages |
 | [2026.6.8](/en/changelog/2026/06/2026.6.8) | 06/24 | **Appointment event notifications** — automatic sending on create, confirm, cancel, start and complete; status summary and "Operational today" preset on the list |
 | [2026.6.7](/en/changelog/2026/06/2026.6.7) | 06/24 | **Pause AI on external replies** — per-channel setting (WAHA, Official, Instagram, Facebook) to control automatic AI pause when replying outside Interflow |
@@ -20,7 +21,8 @@ Updates for June 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (23)
+### ✨ New Features (24)
+- **Silent flows by appointment status** (v2026.6.10) — internal background automations on confirm, start, complete, cancel or no-show; dedicated tab in schedule management
 - **Automatic round-robin distribution** (v2026.6.9) — per-team config with triggers, fallback, schedules, break and on-call per member
 - **Locked reservation in pending mode** (v2026.6.9) — working/off hours minutes; only reserved agent can attend until expiry
 - **Round-robin status on team card** (v2026.6.9) — next, last and queue order panel; "Set as next" action
@@ -45,7 +47,9 @@ Updates for June 2026.
 - **Automatic customer deletion by usage limit** (v2026.6.2) — configurable deletion in Settings > Limits (trigger %, target %, order by last contact or registration, linked conversations, run time), processed by the existing deletion queue
 - **"Run now" button for automatic cleanups** (v2026.6.2) — triggers Customers or Storage cleanup immediately, with an "In progress..." state that blocks duplicate triggers
 
-### 🔄 Changes (7)
+### 🔄 Changes (9)
+- **Status changes centralized through the API** (v2026.6.10) — list, arrival queue, slots and medical cancellations trigger notifications and silent flows consistently
+- **Dedicated check-in route** (v2026.6.10) — `PATCH .../checkin` endpoint for arrival queue
 - **Round-robin flow node** (v2026.6.9) — triggers automatic distribution for current or selected team
 - **Notification template form** (v2026.6.8) — all notification triggers re-enabled in the UI (previously only "Before appointment" was available)
 - **Enriched timeline events** (v2026.6.5) — CRM stage changes, conversation closure and chat assignment logged automatically
@@ -66,5 +70,5 @@ Updates for June 2026.
 ---
 
 ::: info 📝 Total
-**9 releases** this month!
+**10 releases** this month!
 :::

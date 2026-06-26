@@ -238,11 +238,23 @@ Os agendamentos são coloridos automaticamente conforme seu status, facilitando 
 - ✅ Proteção contra gestos acidentais
 - ✅ Notificações de lembretes
 
+## Automações por status
+
+Além dos lembretes e templates de notificação (comunicação com o cliente), cada agenda pode ter **fluxos silenciosos** — automações internas que rodam em background quando o status muda.
+
+| Recurso | Comunicação com o cliente | Onde configurar |
+|---------|---------------------------|-----------------|
+| Templates de notificação | Sim | Aba **Notificações** |
+| Fluxos silenciosos | Não | Aba **Fluxos silenciosos** |
+
+> Guia completo: [Fluxos silenciosos por status](/guide/schedule/silent-flows)
+
 ## Próximos Passos
 
-- [Agentes IA](/guide/ai-agents/) - Configure IA para agendamentos
-- [Fluxos de Atendimento](/guide/flows/builder) - Automatize o processo de agendamento
-- [Relatórios](/guide/reports/) - Métricas de agendamentos
+- [Fluxos silenciosos por status](/guide/schedule/silent-flows) — automações internas em cada mudança de status
+- [Agentes IA](/guide/ai-agents/) — Configure IA para agendamentos
+- [Fluxos de Atendimento](/guide/flows/builder) — Automatize o processo de agendamento
+- [Relatórios](/guide/reports/) — Métricas de agendamentos
 
 
 

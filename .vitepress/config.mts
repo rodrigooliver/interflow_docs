@@ -92,7 +92,8 @@ function getSidebar(lang: string = '') {
         text: lang === 'en' ? '📅 Schedule' : lang === 'es' ? '📅 Agenda' : '📅 Agenda',
         collapsed: false,
         items: [
-          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/schedule/` }
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/schedule/` },
+          { text: lang === 'en' ? 'Silent flows by status' : lang === 'es' ? 'Flujos silenciosos por estado' : 'Fluxos silenciosos por status', link: `${prefix}/guide/schedule/silent-flows` }
         ]
       },
       {
@@ -188,6 +189,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/06/` },
+              { text: 'v2026.6.10', link: `${prefix}/changelog/2026/06/2026.6.10` },
               { text: 'v2026.6.9', link: `${prefix}/changelog/2026/06/2026.6.9` },
               { text: 'v2026.6.8', link: `${prefix}/changelog/2026/06/2026.6.8` },
               { text: 'v2026.6.7', link: `${prefix}/changelog/2026/06/2026.6.7` },

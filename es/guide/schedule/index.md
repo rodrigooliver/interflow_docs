@@ -155,11 +155,23 @@ La IA automáticamente:
 - ✅ Protección contra gestos accidentales
 - ✅ Notificaciones de recordatorios
 
+## Automatizaciones por estado
+
+Además de recordatorios y plantillas de notificación (comunicación con el cliente), cada agenda puede tener **flujos silenciosos** — automatizaciones internas que se ejecutan en segundo plano cuando cambia el estado.
+
+| Recurso | Comunicación con el cliente | Dónde configurar |
+|---------|----------------------------|------------------|
+| Plantillas de notificación | Sí | Pestaña **Notificaciones** |
+| Flujos silenciosos | No | Pestaña **Flujos silenciosos** |
+
+> Guía completa: [Flujos silenciosos por estado](/es/guide/schedule/silent-flows)
+
 ## Próximos Pasos
 
-- [Agentes IA](/es/guide/ai-agents/) - Configura IA para agendamientos
-- [Constructor de Flujos](/es/guide/flows/builder) - Automatiza el proceso de agendamiento
-- [Informes](/es/guide/reports/) - Métricas de citas
+- [Flujos silenciosos por estado](/es/guide/schedule/silent-flows) — automatizaciones internas en cada cambio de estado
+- [Agentes IA](/es/guide/ai-agents/) — Configura IA para agendamientos
+- [Constructor de Flujos](/es/guide/flows/builder) — Automatiza el proceso de agendamiento
+- [Informes](/es/guide/reports/) — Métricas de citas
 
 
 

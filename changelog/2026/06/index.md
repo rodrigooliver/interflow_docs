@@ -6,6 +6,7 @@ Atualizações do mês de junho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.6.10](/changelog/2026/06/2026.6.10) | 26/06 | **Fluxos silenciosos por status de agendamento** — automações internas por etapa, aba dedicada na gestão da agenda, mudanças de status centralizadas na API |
 | [2026.6.9](/changelog/2026/06/2026.6.9) | 25/06 | **Rodízio automático em equipes** — distribuição por ordem, reserva bloqueada no pending, situação do rodízio, badge na lista e mensagens de sistema |
 | [2026.6.8](/changelog/2026/06/2026.6.8) | 24/06 | **Notificações por evento de agendamento** — envio automático ao cadastrar, confirmar, cancelar, iniciar e concluir; resumo de status e preset "Operacional hoje" na listagem |
 | [2026.6.7](/changelog/2026/06/2026.6.7) | 24/06 | **Pausar IA em respostas externas** — configuração por canal (WAHA, Oficial, Instagram, Facebook) para controlar pausa automática da IA ao responder fora do Interflow |
@@ -20,7 +21,8 @@ Atualizações do mês de junho de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (23)
+### ✨ Novas Funcionalidades (24)
+- **Fluxos silenciosos por status de agendamento** (v2026.6.10) — automações internas em background ao confirmar, iniciar, concluir, cancelar ou marcar no-show; aba dedicada na gestão da agenda
 - **Distribuição automática por rodízio** (v2026.6.9) — configuração por equipe com gatilhos, fallback, horários, pausa e plantão por membro
 - **Reserva bloqueada no modo pending** (v2026.6.9) — prazos em expediente/folga; só o agente reservado pode atender até expirar
 - **Situação do rodízio na equipe** (v2026.6.9) — painel com próximo, último e ordem da fila; ação "Definir como próximo"
@@ -45,7 +47,9 @@ Atualizações do mês de junho de 2026.
 - **Exclusão automática de clientes por limite de uso** (v2026.6.2) — exclusão configurável em Configurações > Limites (gatilho %, meta %, ordem por último contato ou cadastro, conversas vinculadas, hora de execução), processada pela fila de exclusão existente
 - **Botão "Executar agora" nas limpezas automáticas** (v2026.6.2) — dispara a limpeza de Clientes ou Armazenamento imediatamente, com estado "Em andamento..." que bloqueia disparos duplicados
 
-### 🔄 Alterações (7)
+### 🔄 Alterações (9)
+- **Mudanças de status centralizadas na API** (v2026.6.10) — lista, fila por chegada, slots e cancelamentos médicos disparam notificações e fluxos silenciosos de forma consistente
+- **Rota de check-in dedicada** (v2026.6.10) — endpoint `PATCH .../checkin` na fila por ordem de chegada
 - **Nó de fluxo Rodízio** (v2026.6.9) — aciona distribuição automática da equipe atual ou selecionada
 - **Formulário de templates de notificação** (v2026.6.8) — todos os gatilhos de notificação reativados na interface (antes só "Antes do agendamento" estava disponível)
 - **Eventos enriquecidos na timeline** (v2026.6.5) — mudanças de estágio CRM, encerramento e atribuição de chats registrados automaticamente
@@ -66,5 +70,5 @@ Atualizações do mês de junho de 2026.
 ---
 
 ::: info 📝 Total
-**9 releases** neste mês!
+**10 releases** neste mês!
 :::

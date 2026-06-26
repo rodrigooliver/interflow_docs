@@ -155,11 +155,23 @@ AI automatically:
 - ✅ Protection against accidental gestures
 - ✅ Reminder notifications
 
+## Status automations
+
+Besides reminders and notification templates (customer-facing), each schedule can have **silent flows** — internal automations that run in the background when status changes.
+
+| Feature | Customer communication | Where to configure |
+|---------|------------------------|-------------------|
+| Notification templates | Yes | **Notifications** tab |
+| Silent flows | No | **Silent flows** tab |
+
+> Full guide: [Silent flows by status](/en/guide/schedule/silent-flows)
+
 ## Next Steps
 
-- [AI Agents](/en/guide/ai-agents/) - Configure AI for scheduling
-- [Flow Builder](/en/guide/flows/builder) - Automate scheduling process
-- [Reports](/en/guide/reports/) - Scheduling metrics
+- [Silent flows by status](/en/guide/schedule/silent-flows) — internal automations on each status change
+- [AI Agents](/en/guide/ai-agents/) — Configure AI for scheduling
+- [Flow Builder](/en/guide/flows/builder) — Automate scheduling process
+- [Reports](/en/guide/reports/) — Scheduling metrics
 
 
 
