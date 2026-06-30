@@ -166,8 +166,20 @@ Besides reminders and notification templates (customer-facing), each schedule ca
 
 > Full guide: [Silent flows by status](/en/guide/schedule/silent-flows)
 
+## Push reminders for the team
+
+Automatic alerts in the **app** and **web** for the provider and selected users **before** each appointment — separate from WhatsApp/email reminders sent to the customer.
+
+| Feature | Recipient | Channel | Where to configure |
+|---------|-----------|---------|-------------------|
+| Push reminders | Provider + notified users | App and web | Schedule form |
+| Templates / customer reminders | Customer | WhatsApp, email | **Notifications** tab |
+
+> Full guide: [Push reminders](/en/guide/schedule/push-reminders)
+
 ## Next Steps
 
+- [Push reminders](/en/guide/schedule/push-reminders) — internal alerts before appointments
 - [Silent flows by status](/en/guide/schedule/silent-flows) — internal automations on each status change
 - [AI Agents](/en/guide/ai-agents/) — Configure AI for scheduling
 - [Flow Builder](/en/guide/flows/builder) — Automate scheduling process

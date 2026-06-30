@@ -166,8 +166,20 @@ Además de recordatorios y plantillas de notificación (comunicación con el cli
 
 > Guía completa: [Flujos silenciosos por estado](/es/guide/schedule/silent-flows)
 
+## Recordatorios push para el equipo
+
+Alertas automáticas en la **app** y **web** para el profesional y usuarios seleccionados **antes** de cada cita — separados de los recordatorios WhatsApp/e-mail enviados al cliente.
+
+| Recurso | Destinatario | Canal | Dónde configurar |
+|---------|--------------|-------|-------------------|
+| Recordatorios push | Profesional + usuarios notificados | App y web | Formulario de la agenda |
+| Plantillas / recordatorios al cliente | Cliente | WhatsApp, e-mail | Pestaña **Notificaciones** |
+
+> Guía completa: [Recordatorios push](/es/guide/schedule/push-reminders)
+
 ## Próximos Pasos
 
+- [Recordatorios push](/es/guide/schedule/push-reminders) — alertas internas antes de la cita
 - [Flujos silenciosos por estado](/es/guide/schedule/silent-flows) — automatizaciones internas en cada cambio de estado
 - [Agentes IA](/es/guide/ai-agents/) — Configura IA para agendamientos
 - [Constructor de Flujos](/es/guide/flows/builder) — Automatiza el proceso de agendamiento

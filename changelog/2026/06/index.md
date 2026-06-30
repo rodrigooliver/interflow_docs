@@ -6,6 +6,10 @@ Atualizações do mês de junho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.6.14](/changelog/2026/06/2026.6.14) | 30/06 | **Lista de Clientes Inadimplentes — Cobranças** — nova aba dedicada com agrupamento por cliente, cards de resumo, busca, ordenação, parcelas expansíveis e registro de pagamento direto na tela |
+| [2026.6.13](/changelog/2026/06/2026.6.13) | 30/06 | **Gerenciar Tags do Cliente pelo Agente IA** — nova ação pronta que permite ao agente adicionar ou remover tags; controle por modo (Nenhuma, Todas ou Selecionadas); enum restrito na tool da OpenAI |
+| [2026.6.12](/changelog/2026/06/2026.6.12) | 30/06 | **Permissões granulares por usuário** — controle individual de acesso por módulo; hierarquia exclusiva: customizado > grupo > role; Owner sempre com acesso total; navegação direta ao único submenu disponível |
+| [2026.6.11](/changelog/2026/06/2026.6.11) | 26/06 | **Lembretes push antes do compromisso** — alertas push para equipe no app e web, configuráveis por agenda (15 min a 2 h + horários personalizados) |
 | [2026.6.10](/changelog/2026/06/2026.6.10) | 26/06 | **Fluxos silenciosos por status de agendamento** — automações internas por etapa, aba dedicada na gestão da agenda, mudanças de status centralizadas na API |
 | [2026.6.9](/changelog/2026/06/2026.6.9) | 25/06 | **Rodízio automático em equipes** — distribuição por ordem, reserva bloqueada no pending, situação do rodízio, badge na lista e mensagens de sistema |
 | [2026.6.8](/changelog/2026/06/2026.6.8) | 24/06 | **Notificações por evento de agendamento** — envio automático ao cadastrar, confirmar, cancelar, iniciar e concluir; resumo de status e preset "Operacional hoje" na listagem |
@@ -21,7 +25,13 @@ Atualizações do mês de junho de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (24)
+### ✨ Novas Funcionalidades (30)
+- **Lista de Clientes Inadimplentes — Cobranças** (v2026.6.14) — nova aba dedicada no módulo Cobranças com agrupamento por cliente, cards de total de clientes e valor em atraso, busca, ordenação por colunas, parcelas expansíveis por linha e registro de pagamento direto na tela; WhatsApp buscado de `customer_contacts`
+- **Gerenciar Tags do Cliente pelo Agente IA** (v2026.6.13) — nova ação pronta do Agente IA para adicionar ou remover tags do cliente; controle granular por modo (Nenhuma, Todas, Selecionadas) com enum restrito na tool da OpenAI
+- **Permissões granulares por usuário** (v2026.6.12) — controle individual de acesso por módulo; hierarquia exclusiva: customizado > grupo > role; Owner sempre com acesso total
+- **Controle de visibilidade de clientes e CRM por permissão** (v2026.6.12) — flag `canAccessAll` define se o usuário vê "meus clientes/funis" ou todos; sidebar e filtros adaptam-se automaticamente
+- **Navegação direta ao submenu único** (v2026.6.12) — quando só um submenu está disponível por permissão, o clique navega direto sem expandir o menu
+- **Lembretes push antes do compromisso** (v2026.6.11) — alertas push para profissional e usuários notificados no app e web; horários predefinidos (15, 30, 60, 120 min) e personalizados; mensagens no idioma do perfil
 - **Fluxos silenciosos por status de agendamento** (v2026.6.10) — automações internas em background ao confirmar, iniciar, concluir, cancelar ou marcar no-show; aba dedicada na gestão da agenda
 - **Distribuição automática por rodízio** (v2026.6.9) — configuração por equipe com gatilhos, fallback, horários, pausa e plantão por membro
 - **Reserva bloqueada no modo pending** (v2026.6.9) — prazos em expediente/folga; só o agente reservado pode atender até expirar
@@ -47,7 +57,11 @@ Atualizações do mês de junho de 2026.
 - **Exclusão automática de clientes por limite de uso** (v2026.6.2) — exclusão configurável em Configurações > Limites (gatilho %, meta %, ordem por último contato ou cadastro, conversas vinculadas, hora de execução), processada pela fila de exclusão existente
 - **Botão "Executar agora" nas limpezas automáticas** (v2026.6.2) — dispara a limpeza de Clientes ou Armazenamento imediatamente, com estado "Em andamento..." que bloqueia disparos duplicados
 
-### 🔄 Alterações (9)
+### 🔄 Alterações (13)
+- **Checks de role substituídos por permissões efetivas** (v2026.6.12) — `isOwnerOrAdmin`, `req.isAdmin` e `req.isOwner` calculados a partir das permissões efetivas no frontend e backend
+- **Proteção de rotas de backend por módulo** (v2026.6.12) — middleware verifica permissão efetiva em settings, integrações, billing, equipes, UTM e grupos de permissão
+- **Middleware de autenticação com flags de acesso** (v2026.6.12) — `req.isOwner` e `req.isAdmin` populados diretamente, sem queries extras ao banco
+- **Push de cadastro de agendamento unificado** (v2026.6.11) — notificação na criação integrada ao serviço de lembretes com mensagens traduzidas (PT, EN, ES)
 - **Mudanças de status centralizadas na API** (v2026.6.10) — lista, fila por chegada, slots e cancelamentos médicos disparam notificações e fluxos silenciosos de forma consistente
 - **Rota de check-in dedicada** (v2026.6.10) — endpoint `PATCH .../checkin` na fila por ordem de chegada
 - **Nó de fluxo Rodízio** (v2026.6.9) — aciona distribuição automática da equipe atual ou selecionada
@@ -58,7 +72,8 @@ Atualizações do mês de junho de 2026.
 - **Melhorias visuais na lista de tarefas** (v2026.6.3) — cabeçalho "Vencimento" sem quebra de linha, status e datas sem quebra, data vencida apenas em vermelho, controles de agrupamento/ordenação em barra própria
 - **Clientes com pedidos (POS) agora podem ser excluídos** (v2026.6.2) — pedidos preservados no histórico de vendas, apenas desvinculados do cliente
 
-### 🐛 Correções (7)
+### 🐛 Correções (8)
+- **Permissões customizadas de clientes ignoravam `canAccessAll: false`** (v2026.6.12) — sem a flag marcada, o usuário agora vê apenas os clientes que atende, corretamente
 - **Lembretes before_appointment com status confirmado** (v2026.6.8) — lembretes passam a ser enviados também para agendamentos confirmados
 - **Cancelamento de lembretes pendentes** (v2026.6.8) — lembretes futuros cancelados automaticamente ao cancelar o agendamento
 - **Consulta de conversas com filtro aditivo** (v2026.6.6) — corrigido erro ao carregar lista com "Incluir colaborando" ativo
@@ -70,5 +85,5 @@ Atualizações do mês de junho de 2026.
 ---
 
 ::: info 📝 Total
-**10 releases** neste mês!
+**15 releases** neste mês!
 :::

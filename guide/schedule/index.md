@@ -249,8 +249,20 @@ Além dos lembretes e templates de notificação (comunicação com o cliente), 
 
 > Guia completo: [Fluxos silenciosos por status](/guide/schedule/silent-flows)
 
+## Lembretes push para a equipe
+
+Alertas automáticos no **app** e **web** para o profissional e usuários selecionados **antes** de cada compromisso — separados dos lembretes WhatsApp/e-mail enviados ao cliente.
+
+| Recurso | Destinatário | Canal | Onde configurar |
+|---------|--------------|-------|-----------------|
+| Lembretes push | Profissional + usuários notificados | App e web | Formulário da agenda |
+| Templates / lembretes ao cliente | Cliente | WhatsApp, e-mail | Aba **Notificações** |
+
+> Guia completo: [Lembretes push](/guide/schedule/push-reminders)
+
 ## Próximos Passos
 
+- [Lembretes push](/guide/schedule/push-reminders) — alertas internos antes do compromisso
 - [Fluxos silenciosos por status](/guide/schedule/silent-flows) — automações internas em cada mudança de status
 - [Agentes IA](/guide/ai-agents/) — Configure IA para agendamentos
 - [Fluxos de Atendimento](/guide/flows/builder) — Automatize o processo de agendamento

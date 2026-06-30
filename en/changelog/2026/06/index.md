@@ -6,6 +6,10 @@ Updates for June 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.6.14](/en/changelog/2026/06/2026.6.14) | 06/30 | **Overdue Customers List — Billing** — new dedicated tab with per-customer grouping, summary cards, search, sorting, expandable installments and payment registration directly on screen |
+| [2026.6.13](/en/changelog/2026/06/2026.6.13) | 06/30 | **Manage Customer Tags via AI Agent** — new ready action to add or remove customer tags; permission control by mode (None, All or Selected); restricted enum in OpenAI tool |
+| [2026.6.12](/en/changelog/2026/06/2026.6.12) | 06/30 | **Granular per-user permissions** — individual module access control; exclusive hierarchy: custom > group > role; Owner always has full access; direct navigation to single available submenu |
+| [2026.6.11](/en/changelog/2026/06/2026.6.11) | 06/26 | **Push reminders before appointments** — push alerts for the team in app and web, configurable per schedule (15 min to 2 h + custom times) |
 | [2026.6.10](/en/changelog/2026/06/2026.6.10) | 06/26 | **Silent flows by appointment status** — internal automations per stage, dedicated tab in schedule management, status changes centralized through the API |
 | [2026.6.9](/en/changelog/2026/06/2026.6.9) | 06/25 | **Team round-robin** — order-based distribution, locked pending reservation, round-robin status panel, list badge and system messages |
 | [2026.6.8](/en/changelog/2026/06/2026.6.8) | 06/24 | **Appointment event notifications** — automatic sending on create, confirm, cancel, start and complete; status summary and "Operational today" preset on the list |
@@ -21,7 +25,13 @@ Updates for June 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (24)
+### ✨ New Features (30)
+- **Overdue Customers List — Billing** (v2026.6.14) — new dedicated tab in the Billing module with per-customer grouping, total customers and total overdue cards, search, clickable column sorting, expandable installment rows and payment registration directly on screen; WhatsApp fetched from `customer_contacts`
+- **Manage Customer Tags via AI Agent** (v2026.6.13) — new AI Agent ready action to add or remove customer tags; granular control by mode (None, All, Selected) with restricted enum in OpenAI tool
+- **Granular per-user permissions** (v2026.6.12) — individual module access control; exclusive hierarchy: custom > group > role; Owner always has full access
+- **Customer and CRM visibility control via permission** (v2026.6.12) — `canAccessAll` flag determines whether the user sees "my customers/pipelines" or all; sidebar and filters adapt automatically
+- **Direct navigation to single submenu** (v2026.6.12) — when only one submenu is available due to permissions, clicking navigates directly without expanding the menu
+- **Push reminders before appointments** (v2026.6.11) — push alerts for provider and notified users in app and web; preset times (15, 30, 60, 120 min) and custom; messages in profile language
 - **Silent flows by appointment status** (v2026.6.10) — internal background automations on confirm, start, complete, cancel or no-show; dedicated tab in schedule management
 - **Automatic round-robin distribution** (v2026.6.9) — per-team config with triggers, fallback, schedules, break and on-call per member
 - **Locked reservation in pending mode** (v2026.6.9) — working/off hours minutes; only reserved agent can attend until expiry
@@ -47,7 +57,11 @@ Updates for June 2026.
 - **Automatic customer deletion by usage limit** (v2026.6.2) — configurable deletion in Settings > Limits (trigger %, target %, order by last contact or registration, linked conversations, run time), processed by the existing deletion queue
 - **"Run now" button for automatic cleanups** (v2026.6.2) — triggers Customers or Storage cleanup immediately, with an "In progress..." state that blocks duplicate triggers
 
-### 🔄 Changes (9)
+### 🔄 Changes (13)
+- **Role checks replaced by effective permissions** (v2026.6.12) — `isOwnerOrAdmin`, `req.isAdmin` and `req.isOwner` calculated from effective permissions on both frontend and backend
+- **Backend route protection by module** (v2026.6.12) — middleware verifies effective permission for settings, integrations, billing, teams, UTM and permission groups
+- **Auth middleware with access flags** (v2026.6.12) — `req.isOwner` and `req.isAdmin` populated directly, without extra database queries
+- **Unified push on appointment creation** (v2026.6.11) — creation notification integrated into reminders service with translated messages (PT, EN, ES)
 - **Status changes centralized through the API** (v2026.6.10) — list, arrival queue, slots and medical cancellations trigger notifications and silent flows consistently
 - **Dedicated check-in route** (v2026.6.10) — `PATCH .../checkin` endpoint for arrival queue
 - **Round-robin flow node** (v2026.6.9) — triggers automatic distribution for current or selected team
@@ -58,7 +72,8 @@ Updates for June 2026.
 - **Visual improvements in the task list** (v2026.6.3) — "Due date" header without wrapping, status and dates no longer wrap, overdue date in red only, grouping/sorting controls in their own bar
 - **Customers with POS orders can now be deleted** (v2026.6.2) — orders preserved in the sales history, only unlinked from the customer
 
-### 🐛 Bug Fixes (7)
+### 🐛 Bug Fixes (8)
+- **Customer custom permissions ignored `canAccessAll: false`** (v2026.6.12) — without the flag checked, the user now correctly sees only the customers they serve
 - **Before-appointment reminders with confirmed status** (v2026.6.8) — reminders now sent for confirmed appointments as well
 - **Pending reminder cancellation** (v2026.6.8) — future reminders automatically canceled when the appointment is canceled
 - **Conversation query with additive filter** (v2026.6.6) — fixed error loading list with "Include collaborating" enabled
@@ -70,5 +85,5 @@ Updates for June 2026.
 ---
 
 ::: info 📝 Total
-**10 releases** this month!
+**15 releases** this month!
 :::

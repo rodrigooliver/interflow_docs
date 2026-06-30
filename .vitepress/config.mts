@@ -93,6 +93,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/schedule/` },
+          { text: lang === 'en' ? 'Push reminders' : lang === 'es' ? 'Recordatorios push' : 'Lembretes push', link: `${prefix}/guide/schedule/push-reminders` },
           { text: lang === 'en' ? 'Silent flows by status' : lang === 'es' ? 'Flujos silenciosos por estado' : 'Fluxos silenciosos por status', link: `${prefix}/guide/schedule/silent-flows` }
         ]
       },
@@ -189,6 +190,10 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/06/` },
+              { text: 'v2026.6.14', link: `${prefix}/changelog/2026/06/2026.6.14` },
+              { text: 'v2026.6.13', link: `${prefix}/changelog/2026/06/2026.6.13` },
+              { text: 'v2026.6.12', link: `${prefix}/changelog/2026/06/2026.6.12` },
+              { text: 'v2026.6.11', link: `${prefix}/changelog/2026/06/2026.6.11` },
               { text: 'v2026.6.10', link: `${prefix}/changelog/2026/06/2026.6.10` },
               { text: 'v2026.6.9', link: `${prefix}/changelog/2026/06/2026.6.9` },
               { text: 'v2026.6.8', link: `${prefix}/changelog/2026/06/2026.6.8` },
