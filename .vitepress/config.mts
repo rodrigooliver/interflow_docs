@@ -186,6 +186,14 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
         {
+            text: lang === 'en' ? 'July' : lang === 'es' ? 'Julio' : 'Julho',
+            collapsed: false,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/07/` },
+              { text: 'v2026.7.1', link: `${prefix}/changelog/2026/07/2026.7.1` }
+            ]
+          },
+          {
             text: lang === 'en' ? 'June' : lang === 'es' ? 'Junio' : 'Junho',
             collapsed: false,
             items: [
