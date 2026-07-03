@@ -134,7 +134,8 @@ function getSidebar(lang: string = '') {
         text: lang === 'en' ? '🔌 Integrations' : lang === 'es' ? '🔌 Integraciones' : '🔌 Integrações',
         collapsed: false,
         items: [
-          { text: 'OpenAI', link: `${prefix}/guide/integrations/openai` }
+          { text: 'OpenAI', link: `${prefix}/guide/integrations/openai` },
+          { text: 'DeepSeek', link: `${prefix}/guide/integrations/deepseek` }
         ]
       },
       {
@@ -190,6 +191,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/07/` },
+              { text: 'v2026.7.2', link: `${prefix}/changelog/2026/07/2026.7.2` },
               { text: 'v2026.7.1', link: `${prefix}/changelog/2026/07/2026.7.1` }
             ]
           },
