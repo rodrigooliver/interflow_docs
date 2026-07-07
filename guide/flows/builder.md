@@ -179,6 +179,12 @@ Cliente: "Preciso..."   → Renova o timer, aguarda mais 20s
 → Processa todas as mensagens juntas
 ```
 
+### Janela de Resposta de Follow-up
+
+Define quanto tempo (em horas) o sistema aguarda a resposta do cliente após um follow-up automático (timeout do nó "Aguardar Resposta" ou reagendamento do Agente de IA) para considerar que ele respondeu. Deixe em branco para usar o padrão global da organização (48h).
+
+👉 **[Ver guia completo: Taxa de Resposta de Follow-up](/guide/flows/follow-up-response-rate)**
+
 ### Ocultar da Lista de Início Rápido
 
 **Disponível apenas para fluxos do tipo "Geral".**

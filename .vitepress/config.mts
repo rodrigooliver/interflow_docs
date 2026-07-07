@@ -44,6 +44,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Flow Builder' : lang === 'es' ? 'Constructor de Flujos' : 'Construtor de Fluxos', link: `${prefix}/guide/flows/builder` },
+          { text: lang === 'en' ? 'Follow-up Response Rate' : lang === 'es' ? 'Tasa de Respuesta de Follow-up' : 'Taxa de Resposta de Follow-up', link: `${prefix}/guide/flows/follow-up-response-rate` },
           { 
             text: lang === 'en' ? 'Node Types' : lang === 'es' ? 'Tipos de Nodos' : 'Tipos de Nós',
             collapsed: true,
@@ -191,6 +192,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/07/` },
+              { text: 'v2026.7.3', link: `${prefix}/changelog/2026/07/2026.7.3` },
               { text: 'v2026.7.2', link: `${prefix}/changelog/2026/07/2026.7.2` },
               { text: 'v2026.7.1', link: `${prefix}/changelog/2026/07/2026.7.1` }
             ]
