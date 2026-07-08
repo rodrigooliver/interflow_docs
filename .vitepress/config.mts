@@ -35,6 +35,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Chat Interface' : lang === 'es' ? 'Interfaz de Chat' : 'Interface de Chat', link: `${prefix}/guide/chat/interface` },
+          { text: lang === 'en' ? 'Message Shortcut Sequences' : lang === 'es' ? 'Secuencias en Atajos de Mensaje' : 'Atalhos de Mensagem em Sequência', link: `${prefix}/guide/chat/message-shortcuts` },
           { text: lang === 'en' ? 'Text Enhancer' : lang === 'es' ? 'Mejorador de Texto' : 'Melhorador de Texto', link: `${prefix}/guide/chat/text-enhancer` },
           { text: lang === 'en' ? 'My Tasks' : lang === 'es' ? 'Mis Tareas' : 'Minhas Tarefas', link: `${prefix}/guide/tasks` }
         ]
@@ -192,6 +193,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/07/` },
+              { text: 'v2026.7.4', link: `${prefix}/changelog/2026/07/2026.7.4` },
               { text: 'v2026.7.3', link: `${prefix}/changelog/2026/07/2026.7.3` },
               { text: 'v2026.7.2', link: `${prefix}/changelog/2026/07/2026.7.2` },
               { text: 'v2026.7.1', link: `${prefix}/changelog/2026/07/2026.7.1` }

@@ -6,6 +6,7 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.4](/changelog/2026/07/2026.7.4) | 08/07 | **Atalhos em Sequência** — múltiplas mensagens com intervalo configurável por atalho, editor no admin e modal de revisão no chat antes do envio |
 | [2026.7.3](/changelog/2026/07/2026.7.3) | 07/07 | **Nó Ponto de Controle** — rastreamento explícito de volume e taxa de resposta no fluxo, com relatório filtrável (período, canal, agente) e indicador no funil de vendas |
 | [2026.7.2](/changelog/2026/07/2026.7.2) | 03/07 | **Suporte à DeepSeek** — novo provedor de IA (modelos V4 Flash/Pro) disponível com chave própria, no Agente de IA, Testar Prompt e Melhorar Texto, com Thinking Mode configurável |
 | [2026.7.1](/changelog/2026/07/2026.7.1) | 01/07 | **Chat de Teste de Fluxos** — painel lateral no FlowBuilder para simular conversas em tempo real, com indicador de nó ativo, override de debounce e modo split com visão do agente |
@@ -14,7 +15,9 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (6)
+### ✨ Novas Funcionalidades (8)
+- **Atalhos de Mensagem em Sequência** (v2026.7.4) — atalhos com até 10 mensagens, intervalo configurável por passo (0,5s–30s), badge na listagem e compatibilidade com atalhos antigos
+- **Composer de Sequência no Chat** (v2026.7.4) — modal de revisão ao usar atalho sequencial: editar textos, remover anexos, ajustar intervalos e enviar com um clique ou Enter
 - **Nó Ponto de Controle** (v2026.7.3) — nó não bloqueante na categoria Estatísticas para medir volume de passagem e/ou taxa de resposta, com janela configurável por nó (padrão 48h) e snapshot opcional de variáveis
 - **Relatório de Analytics de Follow-up** (v2026.7.3) — painel renovado com filtros (período, canal, agente), atualização manual, design system e relatório escopado por ponto de controle
 - **Suporte à DeepSeek** (v2026.7.2) — novo provedor de IA (DeepSeek V4 Flash/Pro) disponível com chave própria do cliente, com Thinking Mode configurável (Alto/Máximo)
@@ -22,7 +25,9 @@ Atualizações do mês de julho de 2026.
 - **Badge de Canal de Teste** (v2026.7.1) — identificação visual em âmbar no header do chat quando o atendimento é de um canal tipo `test`
 - **Indicador flutuante de nó ativo** (v2026.7.1) — badge abaixo do botão de fluxo no header do agente exibe nome do nó, estado de debounce e tooltip com horário
 
-### 🔄 Melhorias (5)
+### 🔄 Melhorias (7)
+- **Menu de atalhos no chat** (v2026.7.4) — visual alinhado ao design system, com posicionamento estável via portal
+- **Compatibilidade com atalhos existentes** (v2026.7.4) — normalização automática do formato antigo para o modelo de passos
 - **Rastreamento automático removido** (v2026.7.3) — contabilizador acoplado ao timeout de "Aguardar Resposta" e reagendamento do Agente de IA removido; métricas passam a depender apenas de Pontos de Controle explícitos
 - **Teste com rascunho não publicado** (v2026.7.3) — teste pelo Construtor de Fluxos usa nodes/edges em rascunho; via Agente de IA, mantém a versão publicada
 - **Reinício de teste mais completo** (v2026.7.3) — remove a sessão de fluxo anterior do chat ao reiniciar o teste
@@ -38,5 +43,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info 📝 Total
-**3 releases** neste mês!
+**4 releases** neste mês!
 :::

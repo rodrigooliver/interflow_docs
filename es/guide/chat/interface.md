@@ -252,6 +252,14 @@ Puedes eliminar notas enviadas por error:
 - ❌ Mensajes del cliente no pueden ser eliminados
 - 🕐 Log preservado para auditoría
 
+## Atajos de Mensaje
+
+Escribe `/` seguido del nombre del atajo para insertar una respuesta rápida. Los atajos con **varios mensajes** muestran un badge en el listado y abren un **modal de revisión** en el chat, donde puedes editar textos, ajustar intervalos y enviar toda la secuencia de una vez.
+
+> Guía completa: [Secuencias en Atajos de Mensaje](/es/guide/chat/message-shortcuts)
+
+Configura los atajos en **Organización** → **Atajos de Mensaje**.
+
 ## Atajos de Teclado
 
 | Atajo | Acción |

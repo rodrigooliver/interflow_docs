@@ -275,14 +275,18 @@ Digite `/` seguido do atalho para inserir uma resposta rápida:
 /horario → "Funcionamos de segunda a sexta, das 9h às 18h"
 ```
 
+Atalhos com **várias mensagens** exibem um badge na listagem e abrem um **modal de revisão** no chat, onde você pode editar textos, ajustar intervalos e enviar a sequência inteira de uma vez.
+
+> Guia completo: [Atalhos de Mensagem em Sequência](/guide/chat/message-shortcuts)
+
 ### Criando Respostas Rápidas
 
-1. Vá em **Configurações** → **Respostas Rápidas**
-2. Clique em **"Nova resposta"**
+1. Vá em **Organização** → **Atalhos de Mensagem**
+2. Clique em **"Novo Atalho"**
 3. Defina:
-   - Atalho (ex: `/ola`)
-   - Título descritivo
-   - Conteúdo da mensagem
+   - Nome e comando do atalho (ex: `/ola`)
+   - Conteúdo da mensagem (ou várias mensagens em sequência)
+   - Intervalo entre mensagens, se for sequência
 4. Salve
 
 ## Anexos e Mídia

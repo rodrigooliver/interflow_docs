@@ -256,6 +256,14 @@ You can delete notes sent by mistake:
 - ❌ Customer messages cannot be deleted
 - 🕐 Log preserved for audit
 
+## Message Shortcuts
+
+Type `/` followed by the shortcut name to insert a quick reply. Shortcuts with **multiple messages** show a badge in the list and open a **review modal** in chat, where you can edit texts, adjust intervals, and send the entire sequence at once.
+
+> Full guide: [Message Shortcut Sequences](/en/guide/chat/message-shortcuts)
+
+Configure shortcuts at **Organization** → **Message Shortcuts**.
+
 ## Keyboard Shortcuts
 
 | Shortcut | Action |
