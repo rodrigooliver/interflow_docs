@@ -179,11 +179,11 @@ Cliente: "Preciso..."   → Renova o timer, aguarda mais 20s
 → Processa todas as mensagens juntas
 ```
 
-### Janela de Resposta de Follow-up
+### Ponto de Controle (Estatísticas)
 
-Define quanto tempo (em horas) o sistema aguarda a resposta do cliente após um follow-up automático (timeout do nó "Aguardar Resposta" ou reagendamento do Agente de IA) para considerar que ele respondeu. Deixe em branco para usar o padrão global da organização (48h).
+Nó não bloqueante para medir volume de passagem e/ou taxa de resposta em pontos específicos do fluxo. A janela de resposta é configurada **no próprio nó** (padrão: 48h). O rastreamento automático via timeout de "Aguardar Resposta" foi removido na v2026.7.3.
 
-👉 **[Ver guia completo: Taxa de Resposta de Follow-up](/guide/flows/follow-up-response-rate)**
+👉 **[Ver guia completo: Ponto de Controle](/guide/flows/follow-up-response-rate)**
 
 ### Ocultar da Lista de Início Rápido
 

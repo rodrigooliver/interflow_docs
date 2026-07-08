@@ -1,81 +1,104 @@
-# Taxa de Resposta de Follow-up
+# Ponto de Controle
 
-Acompanhe a efetividade dos follow-ups automáticos enviados pelos seus fluxos.
+Meça volume de passagem e taxa de resposta em pontos específicos do seu fluxo.
 
 ## O que é?
 
-Quando um cliente não responde dentro do tempo esperado, a Interflow pode disparar um **follow-up** automático de duas formas:
+O **Ponto de Controle** (checkpoint) é um nó não bloqueante que você coloca explicitamente no fluxo para registrar eventos de analytics. Diferente do modelo anterior (que tentava inferir follow-ups automaticamente via timeout da sessão), o Ponto de Controle dá controle total sobre **onde** e **o que** medir.
 
-- **Timeout do nó "Aguardar Resposta"**: o nó Input tem um tempo configurado; se o cliente não responder dentro desse tempo, o fluxo segue pela saída de **timeout**, o que normalmente dispara uma mensagem de follow-up
-- **Reagendamento pelo Agente de IA**: uma ação do Agente de IA (`changeReturnDate`) reagenda o fluxo para retomar em uma data/hora futura, geralmente para tentar um novo contato
-
-A partir da v2026.7.3, todo follow-up disparado por esses dois mecanismos é registrado automaticamente, e a Interflow contabiliza se o cliente respondeu (e quanto tempo levou) dentro de uma **janela de resposta** configurável.
+O nó fica na categoria **📊 Estatísticas** do painel lateral do Construtor de Fluxos. Quando a conversa passa por ele, o fluxo **continua imediatamente** para o próximo nó — o registro acontece em segundo plano, sem travar o atendimento.
 
 ## Para que serve?
 
-- Saber se seus follow-ups estão **funcionando** (gerando resposta) ou sendo ignorados
-- Comparar a taxa de resposta **entre fluxos** e **entre nós** de um mesmo fluxo
-- Acompanhar a evolução da taxa de resposta **ao longo do tempo** (por dia/semana/mês)
-- Ter um **indicador resumido** no funil de vendas, sem precisar abrir relatórios detalhados
+- Saber **quantas conversas passam** por um ponto específico do fluxo (volume)
+- Medir se o cliente **responde** dentro de uma janela configurável após passar por aquele ponto
+- Capturar um **snapshot das variáveis** do fluxo no momento da passagem
+- Comparar desempenho **entre diferentes pontos** do mesmo fluxo
+- Ter um **indicador resumido** no funil de vendas, sem abrir relatórios detalhados
+
+## Configurando o nó
+
+1. No **Construtor de Fluxos**, abra a categoria **📊 Estatísticas**
+2. Arraste o nó **Ponto de Controle** para o canvas
+3. Conecte a entrada (esquerda) e a saída (direita) no fluxo
+4. Clique no corpo do nó para abrir as configurações:
+
+| Opção | Descrição | Padrão ao criar |
+|-------|-----------|-----------------|
+| **Contabilizar passagem (volume)** | Registra cada passagem como evento de volume (`passed`) | Ativado |
+| **Rastrear resposta do cliente** | Inicia contagem da janela de resposta; mensagens do cliente dentro do prazo marcam como respondido | Ativado |
+| **Janela de resposta** | Tempo em minutos (valor fixo) ou variável numérica do fluxo | 2880 min (48h) |
+| **Salvar variáveis do fluxo** | Grava snapshot das variáveis no momento da passagem | Desativado |
+
+::: tip 💡 Onde colocar?
+Coloque o Ponto de Controle **depois** do nó que envia a mensagem de follow-up (ou reengajamento) e **antes** do próximo ramo do fluxo. Assim você mede exatamente o impacto daquela mensagem.
+:::
+
+### Janela de resposta
+
+A janela define quanto tempo o sistema aguarda a resposta do cliente após passar pelo ponto de controle. Pode ser configurada em três níveis (em cascata):
+
+1. **No próprio nó** — valor fixo em minutos ou variável numérica do fluxo (recomendado)
+2. **No fluxo** — campo legado `followup_response_window_hours` (ainda aceito pelo backend, mas removido da interface)
+3. **Na organização** — em **Configurações → Organização**, campo **Janela de resposta de follow-up** (padrão: 48h)
+
+Se nenhum valor estiver configurado, o sistema usa **48 horas (2880 minutos)**.
 
 ## O que conta como "resposta"?
 
-Qualquer mensagem enviada pelo cliente **após o disparo do follow-up**, desde que dentro da **janela de resposta** configurada (48 horas por padrão). Se o cliente não responder dentro da janela, o follow-up é marcado como **expirado** (sem resposta).
+Qualquer mensagem enviada pelo cliente **após passar pelo Ponto de Controle**, desde que dentro da **janela de resposta** configurada. Se o cliente não responder dentro da janela, o evento é marcado como **expirado** (sem resposta).
 
 | Status | Significado |
-|--------|--------------|
-| **Enviado** | Follow-up disparado, aguardando o cliente responder dentro da janela |
-| **Respondido** | Cliente enviou uma mensagem dentro da janela de resposta |
-| **Expirado** | A janela de resposta terminou sem que o cliente respondesse |
-
-## Configurando a janela de resposta
-
-A janela de resposta pode ser definida em dois níveis:
-
-### 1. Padrão global (organização)
-
-1. Acesse **Configurações → Organização**
-2. Localize o campo **Janela de resposta de follow-up**
-3. Defina o tempo em horas (padrão: **48 horas**)
-
-Esse valor é usado para **todos os fluxos** que não têm uma janela específica configurada.
-
-### 2. Sobrescrever por fluxo
-
-1. Abra o fluxo desejado no **Construtor de Fluxos**
-2. Clique no ícone de **engrenagem** (⚙️) para abrir as configurações do fluxo
-3. Preencha o campo **Janela de resposta de follow-up** com o valor desejado (em horas)
-4. Deixe em branco para usar o padrão global da organização
-
-::: tip 💡 Quando sobrescrever?
-Fluxos com follow-ups mais urgentes (ex.: confirmação de agendamento no mesmo dia) podem usar uma janela mais curta (ex.: 6h), enquanto fluxos de reengajamento comercial podem usar janelas mais longas (ex.: 72h).
-:::
+|--------|-------------|
+| **Passagem** (`passed`) | Volume registrado sem rastrear resposta (apenas "Contabilizar passagem" ativado) |
+| **Aguardando** (`waiting`) | Ponto de controle com rastreamento de resposta ativo; aguardando mensagem do cliente |
+| **Respondido** (`responded`) | Cliente enviou uma mensagem dentro da janela de resposta |
+| **Expirado** (`expired`) | A janela de resposta terminou sem que o cliente respondesse |
 
 ## Visualizando os relatórios
 
-### Relatório detalhado por fluxo
+### Relatório do fluxo inteiro
 
 1. Abra o fluxo no **Construtor de Fluxos**
-2. Clique em **"Análise de Follow-up"** no topo do editor
+2. Clique em **Analytics de follow-up** na barra superior
 3. O painel exibe:
-   - **Taxa de resposta geral** do fluxo (respondidos ÷ enviados)
-   - **Distribuição** por status (enviado, respondido, expirado)
-   - **Taxa de resposta por nó de origem** — para identificar quais pontos do fluxo geram follow-ups mais efetivos
-   - **Evolução no tempo** — gráfico com a taxa de resposta por período
+   - **Passagens registradas** e **follow-ups enviados** (pontos com rastreamento de resposta)
+   - **Taxa de resposta** e **tempo médio de resposta**
+   - **Evolução no período** — gráfico com a taxa ao longo do tempo
+   - **Por nó** — tabela com nome do nó, enviados, respondidos, expirados e taxa
+
+### Relatório de um ponto específico
+
+1. No próprio nó **Ponto de Controle**, clique em **Ver relatório deste ponto**
+2. O painel abre já filtrado para aquele nó (a tabela "Por nó" fica oculta)
+
+### Filtros disponíveis
+
+- **Data inicial / final** — restringe o período analisado
+- **Canal de atendimento** — filtra por canal específico
+- **Agente responsável** — filtra por agente atribuído ao chat
+- **Atualizar** — botão para recarregar os dados manualmente
 
 ### Indicador no Funil de Vendas
 
-No **CRM → Funil de Vendas**, um card resumido mostra a taxa de resposta de follow-up consolidada de toda a organização, com o total de follow-ups enviados e respondidos no período.
+No **CRM → Funil de Vendas**, um card resumido mostra a taxa de resposta consolidada de toda a organização, com o total de eventos no período.
+
+## Mudança em relação ao modelo anterior
+
+Na v2026.7.3, o rastreamento automático acoplado ao **timeout de "Aguardar Resposta"** e ao **reagendamento do Agente de IA** foi **removido**. Esse mecanismo gerava registros incorretos ao confundir timeout de espera com outros processos internos do fluxo.
+
+A partir desta versão, **somente Pontos de Controle** colocados explicitamente no fluxo geram métricas. Se você já usava follow-ups automáticos e quer continuar medindo a efetividade, adicione um Ponto de Controle após cada mensagem de reengajamento.
 
 ## Limitações e observações
 
-- O follow-up precisa ser disparado pelos mecanismos suportados (timeout do nó Input ou reagendamento do Agente de IA) para ser contabilizado — mensagens enviadas manualmente pelo atendente não entram nessa métrica
-- Alterar a janela de resposta **não afeta** follow-ups já disparados anteriormente, apenas os novos
-- Follow-ups disparados durante o **teste de fluxo** (Construtor de Fluxos) também são contabilizados normalmente, permitindo validar o comportamento antes de publicar
+- O nó precisa estar **publicado** no fluxo para registrar eventos em produção
+- Alterar a janela de resposta **não afeta** eventos já registrados, apenas os novos
+- Eventos registrados durante o **teste de fluxo** também entram nas métricas
+- O registro é **best-effort**: falhas no banco de dados nunca travam o fluxo
 
 ## Próximos Passos
 
 - [Construtor de Fluxos](/guide/flows/builder)
 - [Nó: Aguardar Resposta](/guide/flows/nodes/input)
-- [Agente IA](/guide/flows/nodes/agenteia)
 - [Funil de Vendas (CRM)](/guide/crm/customers)
+- [Changelog v2026.7.3](/changelog/2026/07/2026.7.3)

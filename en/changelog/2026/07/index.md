@@ -6,7 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| [2026.7.3](/en/changelog/2026/07/2026.7.3) | 07/07 | **Follow-up Response Rate** — automatically tracks replies to follow-ups (Wait for Response timeout and AI Agent reschedule), with per-flow report and sales funnel indicator |
+| [2026.7.3](/en/changelog/2026/07/2026.7.3) | 07/07 | **Checkpoint Node** — explicit volume and response rate tracking in flows, with filterable report (period, channel, agent) and sales funnel indicator |
 | [2026.7.2](/en/changelog/2026/07/2026.7.2) | 07/03 | **DeepSeek Support** — new AI provider (V4 Flash/Pro models) available with your own key, in the AI Agent, Test Prompt, and Improve Text, with configurable Thinking Mode |
 | [2026.7.1](/en/changelog/2026/07/2026.7.1) | 07/01 | **Flow Test Chat** — side panel in FlowBuilder to simulate conversations in real time, with active node indicator, debounce override and split mode with agent view |
 
@@ -14,14 +14,16 @@ Updates for July 2026.
 
 ## Month Summary
 
-### ✨ New Features (5)
-- **Follow-up Response Rate** (v2026.7.3) — tracks replies to timeout and AI Agent reschedule follow-ups, with per-flow report, configurable response window (global and per-flow), and sales funnel indicator
+### ✨ New Features (6)
+- **Checkpoint Node** (v2026.7.3) — non-blocking node in the Statistics category to measure passage volume and/or response rate, with per-node configurable window (default 48h) and optional variable snapshot
+- **Follow-up Analytics Report** (v2026.7.3) — refreshed panel with filters (period, channel, agent), manual refresh, design system, and per-checkpoint scoped report
 - **DeepSeek Support** (v2026.7.2) — new AI provider (DeepSeek V4 Flash/Pro) available with your own key, with configurable Thinking Mode (High/Maximum)
 - **Flow Test Chat** (v2026.7.1) — complete environment in FlowBuilder for testing flows with a real customer, side panel, split view, real-time node indicator, and debounce override
 - **Test Channel Badge** (v2026.7.1) — amber visual identifier in the chat header when the conversation is on a `test` type channel
 - **Floating active node indicator** (v2026.7.1) — badge below the flow button in the agent header showing node name, debounce state, and time tooltip
 
-### 🔄 Improvements (4)
+### 🔄 Improvements (5)
+- **Automatic tracking removed** (v2026.7.3) — tracker coupled to Wait for Response timeout and AI Agent reschedule removed; metrics now depend only on explicit Checkpoints
 - **Test using unpublished draft** (v2026.7.3) — testing from the Flow Builder uses draft nodes/edges; via AI Agent, it keeps using the published version
 - **More thorough test reset** (v2026.7.3) — removes the previous flow session from the chat when restarting a test
 - **Notifications disabled during testing** (v2026.7.3) — test messages no longer notify the team

@@ -44,7 +44,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Flow Builder' : lang === 'es' ? 'Constructor de Flujos' : 'Construtor de Fluxos', link: `${prefix}/guide/flows/builder` },
-          { text: lang === 'en' ? 'Follow-up Response Rate' : lang === 'es' ? 'Tasa de Respuesta de Follow-up' : 'Taxa de Resposta de Follow-up', link: `${prefix}/guide/flows/follow-up-response-rate` },
+          { text: lang === 'en' ? 'Checkpoint Node' : lang === 'es' ? 'Punto de Control' : 'Ponto de Controle', link: `${prefix}/guide/flows/follow-up-response-rate` },
           { 
             text: lang === 'en' ? 'Node Types' : lang === 'es' ? 'Tipos de Nodos' : 'Tipos de Nós',
             collapsed: true,
