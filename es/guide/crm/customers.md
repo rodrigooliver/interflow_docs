@@ -206,6 +206,21 @@ Elige cuántos clientes mostrar por página en el listado:
 
 En **CRM → Embudo de Ventas**, siga a los clientes por etapa en un tablero kanban.
 
+### Buscar cliente por nombre
+
+Use el campo de búsqueda en la parte superior del embudo para localizar un cliente en cualquier etapa:
+
+1. Escriba el nombre en **Buscar cliente por nombre...**
+2. Revise los resultados con la **etapa** (badge) y la **posición** (`#N de T`)
+3. Haga clic en el resultado para abrir el **modal de edición** del cliente
+4. Si el card ya está cargado en la columna, también se destaca en el tablero
+
+::: tip 💡
+La búsqueda cubre todo el embudo actual (no solo los cards ya cargados) y respeta **Solo míos** y **Ocultar finalizados**.
+:::
+
+> Changelog: [v2026.7.7](/es/changelog/2026/07/2026.7.7)
+
 ### Ocultar finalizados
 
 Use la opción **Ocultar finalizados** en la parte superior del embudo para esconder clientes cuya **última conversación** está Finalizada (o marcada como resuelta).

@@ -6,6 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.7](/en/changelog/2026/07/2026.7.7) | 07/10 | **Funnel search** — search customers by name, see stage/position, and open the record |
 | [2026.7.6](/en/changelog/2026/07/2026.7.6) | 07/10 | **Hide closed in the Funnel** — checkbox to hide customers whose last conversation is closed/resolved |
 | [2026.7.5](/en/changelog/2026/07/2026.7.5) | 07/10 | **Restrict channels when starting a conversation** — control by role or user, hide auxiliary channels, and server-side validation |
 | [2026.7.4](/en/changelog/2026/07/2026.7.4) | 07/08 | **Sequence Shortcuts** — multiple messages with configurable interval per shortcut, admin step builder and review modal in chat before sending |
@@ -17,7 +18,8 @@ Updates for July 2026.
 
 ## Month Summary
 
-### ✨ New Features (10)
+### ✨ New Features (11)
+- **Customer search in the Sales Funnel** (v2026.7.7) — search by name at the top of the funnel, see stage and position, and open the edit modal
 - **Hide closed customers in the Sales Funnel** (v2026.7.6) — funnel checkbox to hide customers with a closed/resolved last conversation, keeping history intact
 - **Restrict channels when starting a conversation** (v2026.7.5) — who can see each channel when starting a conversation (everyone, by role, or users), no auxiliary channels in the list, and server-side block
 - **Message Shortcut Sequences** (v2026.7.4) — shortcuts with up to 10 messages, configurable interval per step (0.5s–30s), list badge, and compatibility with legacy shortcuts
@@ -50,5 +52,5 @@ Updates for July 2026.
 ---
 
 ::: info 📝 Total
-**6 releases** this month!
+**7 releases** this month!
 :::

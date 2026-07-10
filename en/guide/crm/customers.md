@@ -207,6 +207,21 @@ Choose how many customers to display per page in the listing:
 
 In **CRM → Sales Funnel**, track customers by stage on a kanban board.
 
+### Search customer by name
+
+Use the search field at the top of the funnel to find a customer in any stage:
+
+1. Type the name in **Search customer by name...**
+2. Review results with **stage** (badge) and **position** (`#N of T`)
+3. Click a result to open the customer **edit modal**
+4. If the card is already loaded in the column, it is also highlighted on the board
+
+::: tip 💡
+Search covers the entire current funnel (not only loaded cards) and respects **Only mine** and **Hide closed**.
+:::
+
+> Changelog: [v2026.7.7](/en/changelog/2026/07/2026.7.7)
+
 ### Hide closed
 
 Use **Hide closed** at the top of the funnel to hide customers whose **last conversation** is Closed (or marked as resolved).

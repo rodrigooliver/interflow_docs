@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.7](/es/changelog/2026/07/2026.7.7) | 10/07 | **Búsqueda en el Embudo** — buscar clientes por nombre, ver etapa/posición y abrir el registro |
 | [2026.7.6](/es/changelog/2026/07/2026.7.6) | 10/07 | **Ocultar finalizados en el Embudo** — checkbox para esconder clientes con última conversación finalizada/resuelta |
 | [2026.7.5](/es/changelog/2026/07/2026.7.5) | 10/07 | **Restricción de canales al iniciar conversación** — control por perfil o usuario, ocultación de canales auxiliares y validación en el servidor |
 | [2026.7.4](/es/changelog/2026/07/2026.7.4) | 08/07 | **Atajos en Secuencia** — múltiples mensajes con intervalo configurable por atajo, editor en el admin y modal de revisión en el chat antes del envío |
@@ -17,7 +18,8 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (10)
+### ✨ Nuevas Funcionalidades (11)
+- **Búsqueda de clientes en el Embudo de Ventas** (v2026.7.7) — buscar por nombre en la parte superior del embudo, ver etapa y posición, y abrir el modal de edición
 - **Ocultar finalizados en el Embudo de Ventas** (v2026.7.6) — checkbox en el embudo para esconder clientes con última conversación Finalizada/Resuelta, manteniendo el historial intacto
 - **Restricción de canales al iniciar conversación** (v2026.7.5) — quién puede ver cada canal al iniciar conversación (todos, por perfil o usuarios), sin canales auxiliares en la lista y con bloqueo en el servidor
 - **Secuencias en Atajos de Mensaje** (v2026.7.4) — atajos con hasta 10 mensajes, intervalo configurable por paso (0,5s–30s), badge en el listado y compatibilidad con atajos antiguos
@@ -50,5 +52,5 @@ Actualizaciones del mes de julio de 2026.
 ---
 
 ::: info 📝 Total
-**6 lanzamientos** este mes!
+**7 lanzamientos** este mes!
 :::

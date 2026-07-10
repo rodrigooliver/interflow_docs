@@ -230,6 +230,21 @@ Escolha quantos clientes exibir por página na listagem:
 
 No **CRM → Funil de Vendas**, acompanhe clientes por estágio em um quadro kanban.
 
+### Buscar cliente por nome
+
+Use o campo de busca no topo do funil para localizar um cliente em qualquer etapa:
+
+1. Digite o nome no campo **Buscar cliente por nome...**
+2. Veja os resultados com a **etapa** (badge) e a **posição** (`#N de T`)
+3. Clique no resultado para abrir o **modal de edição** do cliente
+4. Se o card já estiver carregado na coluna, ele também é destacado no quadro
+
+::: tip 💡
+A busca cobre todo o funil atual (não só os cards já carregados) e respeita **Somente meus** e **Ocultar finalizados**.
+:::
+
+> Changelog: [v2026.7.7](/changelog/2026/07/2026.7.7)
+
 ### Ocultar finalizados
 
 Use a opção **Ocultar finalizados** no topo do funil para esconder clientes cuja **última conversa** está Finalizada (ou marcada como resolvida).
