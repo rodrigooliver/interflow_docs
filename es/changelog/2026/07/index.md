@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.5](/es/changelog/2026/07/2026.7.5) | 10/07 | **Restricción de canales al iniciar conversación** — control por perfil o usuario, ocultación de canales auxiliares y validación en el servidor |
 | [2026.7.4](/es/changelog/2026/07/2026.7.4) | 08/07 | **Atajos en Secuencia** — múltiples mensajes con intervalo configurable por atajo, editor en el admin y modal de revisión en el chat antes del envío |
 | [2026.7.3](/es/changelog/2026/07/2026.7.3) | 07/07 | **Nodo Punto de Control** — seguimiento explícito de volumen y tasa de respuesta en flujos, con reporte filtrable (período, canal, agente) e indicador en el funnel de ventas |
 | [2026.7.2](/es/changelog/2026/07/2026.7.2) | 03/07 | **Soporte para DeepSeek** — nuevo proveedor de IA (modelos V4 Flash/Pro) disponible con clave propia, en el Agente de IA, Probar Prompt y Mejorar Texto, con Thinking Mode configurable |
@@ -15,7 +16,8 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (8)
+### ✨ Nuevas Funcionalidades (9)
+- **Restricción de canales al iniciar conversación** (v2026.7.5) — quién puede ver cada canal al iniciar conversación (todos, por perfil o usuarios), sin canales auxiliares en la lista y con bloqueo en el servidor
 - **Secuencias en Atajos de Mensaje** (v2026.7.4) — atajos con hasta 10 mensajes, intervalo configurable por paso (0,5s–30s), badge en el listado y compatibilidad con atajos antiguos
 - **Composer de Secuencia en el Chat** (v2026.7.4) — modal de revisión al usar atajo secuencial: editar textos, eliminar adjuntos, ajustar intervalos y enviar con un clic o Enter
 - **Nodo Punto de Control** (v2026.7.3) — nodo no bloqueante en la categoría Estadísticas para medir volumen de paso y/o tasa de respuesta, con ventana configurable por nodo (predeterminado 48h) y snapshot opcional de variables
@@ -37,11 +39,14 @@ Actualizaciones del mes de julio de 2026.
 ### 🐛 Correcciones (4)
 - **Rendimiento de la verificación de timeouts** (v2026.7.3) — procesamiento en lotes con concurrencia, eliminando retrasos de hasta 20-30 minutos
 - **Nodo destacado incorrectamente** (v2026.7.3) — corregido dato residual que mantenía más de un nodo con borde verde en el Constructor de Flujos
-- **Error de FK al eliminar chat de prueba** (v2026.7.1) — eliminación en orden correcto para evitar violación de constraint entre `chats` y `flow_sessions`
-- **Override de debounce no propagado** (v2026.7.1) — `debounceOverrideMs` ahora pasado correctamente a `createFlowEngine`
+- **Error al eliminar chat de prueba** (v2026.7.1) — la eliminación cierra la sesión del flujo antes de quitar la conversación
+- **Override de debounce no aplicado** (v2026.7.1) — el tiempo de debounce configurado en la prueba ahora se respeta en la ejecución del flujo
+
+### 🔒 Seguridad (1)
+- **Validación al crear conversación** (v2026.7.5) — permiso de canal verificado en el servidor al iniciar conversación
 
 ---
 
 ::: info 📝 Total
-**4 lanzamientos** este mes!
+**5 lanzamientos** este mes!
 :::

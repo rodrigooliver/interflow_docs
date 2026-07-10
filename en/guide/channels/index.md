@@ -76,6 +76,14 @@ Each channel has status indicators:
 
 ---
 
+## Visibility when starting a conversation
+
+Define **who can use each channel** when starting a new conversation with a customer (everyone, by role, or specific users). Auxiliary channels are not included in that list.
+
+> Full guide: [Restrict channels when starting a conversation](/en/guide/channels/start-chat-visibility)
+
+---
+
 ## Next Steps
 
 Choose the channel you want to configure:

@@ -76,6 +76,14 @@ Cada canal possui indicadores de status:
 
 ---
 
+## Visibilidade ao iniciar conversa
+
+Defina **quem pode usar cada canal** ao iniciar uma nova conversa com um cliente (todos, por perfil ou usuários específicos). Canais auxiliares não entram nessa lista.
+
+> Guia completo: [Restrição de canais ao iniciar conversa](/guide/channels/start-chat-visibility)
+
+---
+
 ## Próximos Passos
 
 Escolha o canal que deseja configurar:

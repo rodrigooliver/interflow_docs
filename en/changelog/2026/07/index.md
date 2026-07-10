@@ -6,6 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.5](/en/changelog/2026/07/2026.7.5) | 07/10 | **Restrict channels when starting a conversation** — control by role or user, hide auxiliary channels, and server-side validation |
 | [2026.7.4](/en/changelog/2026/07/2026.7.4) | 07/08 | **Sequence Shortcuts** — multiple messages with configurable interval per shortcut, admin step builder and review modal in chat before sending |
 | [2026.7.3](/en/changelog/2026/07/2026.7.3) | 07/07 | **Checkpoint Node** — explicit volume and response rate tracking in flows, with filterable report (period, channel, agent) and sales funnel indicator |
 | [2026.7.2](/en/changelog/2026/07/2026.7.2) | 07/03 | **DeepSeek Support** — new AI provider (V4 Flash/Pro models) available with your own key, in the AI Agent, Test Prompt, and Improve Text, with configurable Thinking Mode |
@@ -15,7 +16,8 @@ Updates for July 2026.
 
 ## Month Summary
 
-### ✨ New Features (8)
+### ✨ New Features (9)
+- **Restrict channels when starting a conversation** (v2026.7.5) — who can see each channel when starting a conversation (everyone, by role, or users), no auxiliary channels in the list, and server-side block
 - **Message Shortcut Sequences** (v2026.7.4) — shortcuts with up to 10 messages, configurable interval per step (0.5s–30s), list badge, and compatibility with legacy shortcuts
 - **Sequence Composer in Chat** (v2026.7.4) — review modal when using a sequence shortcut: edit texts, remove attachments, adjust intervals, and send with one click or Enter
 - **Checkpoint Node** (v2026.7.3) — non-blocking node in the Statistics category to measure passage volume and/or response rate, with per-node configurable window (default 48h) and optional variable snapshot
@@ -37,11 +39,14 @@ Updates for July 2026.
 ### 🐛 Bug Fixes (4)
 - **Timeout checker performance** (v2026.7.3) — batch processing with concurrency, eliminating delays of up to 20-30 minutes
 - **Node incorrectly highlighted** (v2026.7.3) — fixed leftover data that kept more than one node with a green border in the Flow Builder
-- **FK error when deleting test chat** (v2026.7.1) — deletion in correct order to avoid constraint violation between `chats` and `flow_sessions`
-- **Debounce override not propagated** (v2026.7.1) — `debounceOverrideMs` now correctly passed to `createFlowEngine`
+- **FK error when deleting test chat** (v2026.7.1) — deletion in correct order to avoid constraint violation between chats and flow sessions
+- **Debounce override not propagated** (v2026.7.1) — debounce override configured in the test is now respected during flow execution
+
+### 🔒 Security (1)
+- **Validation when creating a conversation** (v2026.7.5) — channel permission checked on the server when starting a conversation
 
 ---
 
 ::: info 📝 Total
-**4 releases** this month!
+**5 releases** this month!
 :::
