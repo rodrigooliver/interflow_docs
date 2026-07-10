@@ -6,6 +6,7 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.6](/changelog/2026/07/2026.7.6) | 10/07 | **Ocultar finalizados no Funil** — checkbox para esconder clientes com última conversa finalizada/resolvida |
 | [2026.7.5](/changelog/2026/07/2026.7.5) | 10/07 | **Restrição de canais ao iniciar conversa** — controle por perfil ou usuário, ocultação de canais auxiliares e validação no servidor |
 | [2026.7.4](/changelog/2026/07/2026.7.4) | 08/07 | **Atalhos em Sequência** — múltiplas mensagens com intervalo configurável por atalho, editor no admin e modal de revisão no chat antes do envio |
 | [2026.7.3](/changelog/2026/07/2026.7.3) | 07/07 | **Nó Ponto de Controle** — rastreamento explícito de volume e taxa de resposta no fluxo, com relatório filtrável (período, canal, agente) e indicador no funil de vendas |
@@ -16,7 +17,8 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (9)
+### ✨ Novas Funcionalidades (10)
+- **Ocultar finalizados no Funil de Vendas** (v2026.7.6) — checkbox no funil para esconder clientes com última conversa Finalizada/Resolvida, mantendo o histórico intacto
 - **Restrição de canais ao iniciar conversa** (v2026.7.5) — quem pode ver cada canal ao iniciar conversa (todos, por perfil ou usuários), sem canais auxiliares na lista e com bloqueio no servidor
 - **Atalhos de Mensagem em Sequência** (v2026.7.4) — atalhos com até 10 mensagens, intervalo configurável por passo (0,5s–30s), badge na listagem e compatibilidade com atalhos antigos
 - **Composer de Sequência no Chat** (v2026.7.4) — modal de revisão ao usar atalho sequencial: editar textos, remover anexos, ajustar intervalos e enviar com um clique ou Enter
@@ -48,5 +50,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info 📝 Total
-**5 releases** neste mês!
+**6 releases** neste mês!
 :::

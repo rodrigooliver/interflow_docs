@@ -201,6 +201,26 @@ Elige cuántos clientes mostrar por página en el listado:
 
 ---
 
+
+## Embudo de Ventas
+
+En **CRM → Embudo de Ventas**, siga a los clientes por etapa en un tablero kanban.
+
+### Ocultar finalizados
+
+Use la opción **Ocultar finalizados** en la parte superior del embudo para esconder clientes cuya **última conversación** está Finalizada (o marcada como resuelta).
+
+1. Abra el embudo deseado
+2. Active **Ocultar finalizados**
+3. Las columnas muestran solo clientes pendientes, en atención o sin conversación
+4. Desactívela para ver a todos de nuevo
+
+::: tip 💡
+La opción no borra datos — solo filtra la visualización. Se combina con **Solo míos**.
+:::
+
+> Changelog: [v2026.7.6](/es/changelog/2026/07/2026.7.6)
+
 ## Control de Acceso al CRM
 
 Control granular sobre quién puede ver y acceder a cada cliente en el CRM.

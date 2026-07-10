@@ -225,6 +225,26 @@ Escolha quantos clientes exibir por página na listagem:
 
 ---
 
+
+## Funil de Vendas
+
+No **CRM → Funil de Vendas**, acompanhe clientes por estágio em um quadro kanban.
+
+### Ocultar finalizados
+
+Use a opção **Ocultar finalizados** no topo do funil para esconder clientes cuja **última conversa** está Finalizada (ou marcada como resolvida).
+
+1. Abra o funil desejado
+2. Marque **Ocultar finalizados**
+3. As colunas mostram apenas clientes pendentes, em atendimento ou sem conversa
+4. Desmarque para voltar a ver todos
+
+::: tip 💡
+A opção não apaga dados — apenas filtra a visualização. Combina com **Somente meus**.
+:::
+
+> Changelog: [v2026.7.6](/changelog/2026/07/2026.7.6)
+
 ## Controle de Acesso ao CRM
 
 Controle granular sobre quem pode ver e acessar cada cliente no CRM.

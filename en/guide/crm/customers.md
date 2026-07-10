@@ -202,6 +202,26 @@ Choose how many customers to display per page in the listing:
 
 ---
 
+
+## Sales Funnel
+
+In **CRM → Sales Funnel**, track customers by stage on a kanban board.
+
+### Hide closed
+
+Use **Hide closed** at the top of the funnel to hide customers whose **last conversation** is Closed (or marked as resolved).
+
+1. Open the desired funnel
+2. Enable **Hide closed**
+3. Columns show only pending, in-progress, or no-conversation customers
+4. Turn it off to see everyone again
+
+::: tip 💡
+This option does not delete data — it only filters the view. It works with **Only mine**.
+:::
+
+> Changelog: [v2026.7.6](/en/changelog/2026/07/2026.7.6)
+
 ## CRM Access Control
 
 Granular control over who can see and access each customer in the CRM.

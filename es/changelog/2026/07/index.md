@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.6](/es/changelog/2026/07/2026.7.6) | 10/07 | **Ocultar finalizados en el Embudo** — checkbox para esconder clientes con última conversación finalizada/resuelta |
 | [2026.7.5](/es/changelog/2026/07/2026.7.5) | 10/07 | **Restricción de canales al iniciar conversación** — control por perfil o usuario, ocultación de canales auxiliares y validación en el servidor |
 | [2026.7.4](/es/changelog/2026/07/2026.7.4) | 08/07 | **Atajos en Secuencia** — múltiples mensajes con intervalo configurable por atajo, editor en el admin y modal de revisión en el chat antes del envío |
 | [2026.7.3](/es/changelog/2026/07/2026.7.3) | 07/07 | **Nodo Punto de Control** — seguimiento explícito de volumen y tasa de respuesta en flujos, con reporte filtrable (período, canal, agente) e indicador en el funnel de ventas |
@@ -16,7 +17,8 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (9)
+### ✨ Nuevas Funcionalidades (10)
+- **Ocultar finalizados en el Embudo de Ventas** (v2026.7.6) — checkbox en el embudo para esconder clientes con última conversación Finalizada/Resuelta, manteniendo el historial intacto
 - **Restricción de canales al iniciar conversación** (v2026.7.5) — quién puede ver cada canal al iniciar conversación (todos, por perfil o usuarios), sin canales auxiliares en la lista y con bloqueo en el servidor
 - **Secuencias en Atajos de Mensaje** (v2026.7.4) — atajos con hasta 10 mensajes, intervalo configurable por paso (0,5s–30s), badge en el listado y compatibilidad con atajos antiguos
 - **Composer de Secuencia en el Chat** (v2026.7.4) — modal de revisión al usar atajo secuencial: editar textos, eliminar adjuntos, ajustar intervalos y enviar con un clic o Enter
@@ -48,5 +50,5 @@ Actualizaciones del mes de julio de 2026.
 ---
 
 ::: info 📝 Total
-**5 lanzamientos** este mes!
+**6 lanzamientos** este mes!
 :::
