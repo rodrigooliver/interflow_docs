@@ -6,6 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.8](/en/changelog/2026/07/2026.7.8) | 07/14 | **Internal chats** — audio, mark read/unread, seen status in DMs, and settings permission fix |
 | [2026.7.7](/en/changelog/2026/07/2026.7.7) | 07/10 | **Funnel search** — search customers by name, see stage/position, and open the record |
 | [2026.7.6](/en/changelog/2026/07/2026.7.6) | 07/10 | **Hide closed in the Funnel** — checkbox to hide customers whose last conversation is closed/resolved |
 | [2026.7.5](/en/changelog/2026/07/2026.7.5) | 07/10 | **Restrict channels when starting a conversation** — control by role or user, hide auxiliary channels, and server-side validation |
@@ -18,7 +19,10 @@ Updates for July 2026.
 
 ## Month Summary
 
-### ✨ New Features (11)
+### ✨ New Features (14)
+- **Audio in internal chats** (v2026.7.8) — record and send audio in internal DMs and groups via the message field microphone
+- **Mark as read / unread in internal chats** (v2026.7.8) — list menu and automatic mark when opening the conversation
+- **Seen status in internal DMs** (v2026.7.8) — received messages show as read for the sender when opening a direct chat
 - **Customer search in the Sales Funnel** (v2026.7.7) — search by name at the top of the funnel, see stage and position, and open the edit modal
 - **Hide closed customers in the Sales Funnel** (v2026.7.6) — funnel checkbox to hide customers with a closed/resolved last conversation, keeping history intact
 - **Restrict channels when starting a conversation** (v2026.7.5) — who can see each channel when starting a conversation (everyone, by role, or users), no auxiliary channels in the list, and server-side block
@@ -40,7 +44,9 @@ Updates for July 2026.
 - **Notifications disabled during testing** (v2026.7.3) — test messages no longer notify the team
 - **Visual progress indicator** (v2026.7.3) — animated edge leading to the active node during testing
 
-### 🐛 Bug Fixes (4)
+### 🐛 Bug Fixes (6)
+- **Mark as unread undone while chat is open** (v2026.7.8) — auto mark-as-read only when opening the internal conversation
+- **Organization settings for agents** (v2026.7.8) — settings GET allowed without Settings module; avoids errors and repeated chat requests
 - **Timeout checker performance** (v2026.7.3) — batch processing with concurrency, eliminating delays of up to 20-30 minutes
 - **Node incorrectly highlighted** (v2026.7.3) — fixed leftover data that kept more than one node with a green border in the Flow Builder
 - **FK error when deleting test chat** (v2026.7.1) — deletion in correct order to avoid constraint violation between chats and flow sessions
@@ -52,5 +58,5 @@ Updates for July 2026.
 ---
 
 ::: info 📝 Total
-**7 releases** this month!
+**8 releases** this month!
 :::

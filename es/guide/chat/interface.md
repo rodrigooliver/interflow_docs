@@ -305,17 +305,28 @@ Configura en **Configuraciones > Atención > Botón de WhatsApp Rápido**.
 
 ## Chat Interno (Comunicación entre Agentes)
 
-Comunícate directamente con otros miembros del equipo sin crear grupos, directamente en el encabezado de la página de Chats.
+Comunícate directamente con otros miembros del equipo sin crear grupos, desde la página **Chats Internos** o el encabezado de Chats / widget flotante.
 
 ### Chat Directo (DM)
 
-1. En la página **Chats**, haz clic en el botón **+** en el encabezado
-2. Selecciona **"Chat Directo Interno"**
+1. Abre **Chats Internos** (o usa el botón **+** en el encabezado de Chats)
+2. Selecciona **"Chat Directo"**
 3. Elige el agente con quien deseas conversar
-4. La conversación se abre en el **widget flotante**
+4. La conversación se abre en el panel o en el **widget flotante**
 
 ::: info ℹ️ Comportamiento
 Si ya existe una conversación con el usuario seleccionado, el sistema abre la existente en lugar de crear una nueva. Los chats internos aparecen automáticamente en el widget flotante para ambos participantes.
+:::
+
+### Audio y lectura
+
+- **Grabar audio** — usa el ícono de micrófono en el campo de mensaje (DMs y grupos internos)
+- **Marcar como leído / no leído** — en el listado de Chats Internos, abre el menú `⋯` de la conversación
+- **Al abrir el chat** — los mensajes pendientes se marcan como leídos automáticamente
+- **Estado visto (DM)** — en chats directos, al abrir la conversación el remitente ve los mensajes como leídos (ticks azules)
+
+::: tip 💡 Consejo
+Si marcas una conversación como **no leída** con ella abierta, el estado se mantiene hasta que la cierres y vuelvas a abrir o la marques como leída de nuevo.
 :::
 
 ### Widget Flotante

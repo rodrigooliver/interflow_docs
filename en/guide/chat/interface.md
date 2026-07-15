@@ -309,17 +309,28 @@ Configure in **Settings > Service > Quick WhatsApp Button**.
 
 ## Internal Chat (Communication Between Agents)
 
-Communicate directly with other team members without creating groups, directly in the Chats page header.
+Communicate directly with other team members without creating groups, via the **Internal Chats** page or the Chats page header / floating widget.
 
 ### Direct Chat (DM)
 
-1. On the **Chats** page, click the **+** button in the header
-2. Select **"Internal Direct Chat"**
+1. Open **Internal Chats** (or use the **+** button in the Chats header)
+2. Select **"Direct Chat"**
 3. Choose the agent you want to chat with
-4. The conversation opens in the **floating widget**
+4. The conversation opens in the panel or the **floating widget**
 
 ::: info ℹ️ Behavior
 If a conversation with the selected user already exists, the system opens the existing one instead of creating a new one. Internal chats automatically appear in the floating widget for both participants.
+:::
+
+### Audio and read status
+
+- **Record audio** — use the microphone icon in the message field (internal DMs and groups)
+- **Mark as read / unread** — in the Internal Chats list, open the conversation `⋯` menu
+- **When opening the chat** — pending messages are marked as read automatically
+- **Seen status (DM)** — in direct chats, opening the conversation shows messages as read for the sender (blue ticks)
+
+::: tip 💡 Tip
+If you mark a conversation as **unread** while it is open, the status stays until you close and reopen it or mark it as read again.
 :::
 
 ### Floating Widget

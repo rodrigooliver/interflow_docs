@@ -392,17 +392,28 @@ Configure em **Configurações > Atendimento > Botão de WhatsApp Rápido**.
 
 ## Chat Interno (Comunicação entre Agentes)
 
-Comunique-se diretamente com outros membros da equipe sem criar grupos, diretamente no cabeçalho da página de Chats.
+Comunique-se diretamente com outros membros da equipe sem criar grupos, pela página **Chats Internos** ou pelo cabeçalho da página de Chats / widget flutuante.
 
 ### Chat Direto (DM)
 
-1. Na página **Chats**, clique no botão **+** no cabeçalho
-2. Selecione **"Chat Direto Interno"**
+1. Abra **Chats Internos** (ou use o botão **+** no cabeçalho de Chats)
+2. Selecione **"Chat Direto"**
 3. Escolha o agente com quem deseja conversar
-4. A conversa abre no **widget flutuante**
+4. A conversa abre no painel ou no **widget flutuante**
 
 ::: info ℹ️ Comportamento
 Se já existir uma conversa com o usuário selecionado, o sistema abre a existente em vez de criar uma nova. Os chats internos aparecem automaticamente no widget flutuante para ambos os participantes.
+:::
+
+### Áudio e leitura
+
+- **Gravar áudio** — use o ícone de microfone no campo de mensagem (DMs e grupos internos)
+- **Marcar como lida / não lida** — na listagem de Chats Internos, abra o menu `⋯` da conversa
+- **Ao abrir o chat** — mensagens pendentes são marcadas como lidas automaticamente
+- **Status visualizada (DM)** — em chats diretos, ao abrir a conversa o remetente vê as mensagens como lidas (ticks azuis)
+
+::: tip 💡 Dica
+Se marcar uma conversa como **não lida** com ela aberta, o status permanece até você fechar e reabrir ou marcar como lida de novo.
 :::
 
 ### Widget Flutuante
@@ -427,8 +438,6 @@ Ao criar um Grupo Interno, configure as permissões:
 - Remetente não recebe notificação da própria mensagem
 
 ---
-
-## Próximos Passos
 
 ## Próximos Passos
 

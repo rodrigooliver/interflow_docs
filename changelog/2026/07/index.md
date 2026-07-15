@@ -6,6 +6,7 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.8](/changelog/2026/07/2026.7.8) | 14/07 | **Chats internos** — áudio, marcar lida/não lida, status visualizada em DMs e correção de permissão de settings |
 | [2026.7.7](/changelog/2026/07/2026.7.7) | 10/07 | **Busca no Funil** — pesquisar clientes por nome, ver etapa/posição e abrir o cadastro |
 | [2026.7.6](/changelog/2026/07/2026.7.6) | 10/07 | **Ocultar finalizados no Funil** — checkbox para esconder clientes com última conversa finalizada/resolvida |
 | [2026.7.5](/changelog/2026/07/2026.7.5) | 10/07 | **Restrição de canais ao iniciar conversa** — controle por perfil ou usuário, ocultação de canais auxiliares e validação no servidor |
@@ -18,7 +19,10 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (11)
+### ✨ Novas Funcionalidades (14)
+- **Áudio nos chats internos** (v2026.7.8) — gravar e enviar áudio em DMs e grupos internos pelo microfone do campo de mensagem
+- **Marcar como lida / não lida nos chats internos** (v2026.7.8) — menu na listagem e marcação automática ao abrir a conversa
+- **Status visualizada em DMs internos** (v2026.7.8) — mensagens recebidas ficam como lidas para o remetente ao abrir o chat direto
 - **Busca de clientes no Funil de Vendas** (v2026.7.7) — pesquisar por nome no topo do funil, ver etapa e posição, e abrir o modal de edição
 - **Ocultar finalizados no Funil de Vendas** (v2026.7.6) — checkbox no funil para esconder clientes com última conversa Finalizada/Resolvida, mantendo o histórico intacto
 - **Restrição de canais ao iniciar conversa** (v2026.7.5) — quem pode ver cada canal ao iniciar conversa (todos, por perfil ou usuários), sem canais auxiliares na lista e com bloqueio no servidor
@@ -40,7 +44,9 @@ Atualizações do mês de julho de 2026.
 - **Notificações desativadas no teste** (v2026.7.3) — mensagens de teste não notificam mais o time
 - **Indicador visual de progresso** (v2026.7.3) — edge animada até o nó ativo durante o teste
 
-### 🐛 Correções (4)
+### 🐛 Correções (6)
+- **Marcar como não lida desfeita com o chat aberto** (v2026.7.8) — auto-marcar como lida só na abertura da conversa interna
+- **Settings da organização para agentes** (v2026.7.8) — GET de configurações liberado sem módulo Settings; evita erros e requisições repetidas no chat
 - **Desempenho da verificação de timeouts** (v2026.7.3) — processamento em lote com concorrência, eliminando atrasos de até 20-30 minutos
 - **Nó destacado incorretamente** (v2026.7.3) — corrigido dado residual que mantinha mais de um nó com borda verde no Construtor de Fluxos
 - **Erro ao deletar chat de teste** (v2026.7.1) — exclusão passa a encerrar a sessão do fluxo antes de remover a conversa
@@ -52,5 +58,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info 📝 Total
-**7 releases** neste mês!
+**8 releases** neste mês!
 :::

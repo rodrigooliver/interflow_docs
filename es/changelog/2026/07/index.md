@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.8](/es/changelog/2026/07/2026.7.8) | 14/07 | **Chats internos** — audio, marcar leído/no leído, estado visto en DMs y corrección de permiso de settings |
 | [2026.7.7](/es/changelog/2026/07/2026.7.7) | 10/07 | **Búsqueda en el Embudo** — buscar clientes por nombre, ver etapa/posición y abrir el registro |
 | [2026.7.6](/es/changelog/2026/07/2026.7.6) | 10/07 | **Ocultar finalizados en el Embudo** — checkbox para esconder clientes con última conversación finalizada/resuelta |
 | [2026.7.5](/es/changelog/2026/07/2026.7.5) | 10/07 | **Restricción de canales al iniciar conversación** — control por perfil o usuario, ocultación de canales auxiliares y validación en el servidor |
@@ -18,7 +19,10 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (11)
+### ✨ Nuevas Funcionalidades (14)
+- **Audio en chats internos** (v2026.7.8) — grabar y enviar audio en DMs y grupos internos con el micrófono del campo de mensaje
+- **Marcar como leído / no leído en chats internos** (v2026.7.8) — menú en el listado y marcado automático al abrir la conversación
+- **Estado visto en DMs internos** (v2026.7.8) — mensajes recibidos aparecen como leídos para el remitente al abrir el chat directo
 - **Búsqueda de clientes en el Embudo de Ventas** (v2026.7.7) — buscar por nombre en la parte superior del embudo, ver etapa y posición, y abrir el modal de edición
 - **Ocultar finalizados en el Embudo de Ventas** (v2026.7.6) — checkbox en el embudo para esconder clientes con última conversación Finalizada/Resuelta, manteniendo el historial intacto
 - **Restricción de canales al iniciar conversación** (v2026.7.5) — quién puede ver cada canal al iniciar conversación (todos, por perfil o usuarios), sin canales auxiliares en la lista y con bloqueo en el servidor
@@ -40,7 +44,9 @@ Actualizaciones del mes de julio de 2026.
 - **Notificaciones desactivadas en la prueba** (v2026.7.3) — los mensajes de prueba ya no notifican al equipo
 - **Indicador visual de progreso** (v2026.7.3) — edge animado hasta el nodo activo durante la prueba
 
-### 🐛 Correcciones (4)
+### 🐛 Correcciones (6)
+- **Marcar como no leído deshecho con el chat abierto** (v2026.7.8) — auto marcar como leído solo al abrir la conversación interna
+- **Settings de la organización para agentes** (v2026.7.8) — GET de configuraciones permitido sin módulo Settings; evita errores y solicitudes repetidas en el chat
 - **Rendimiento de la verificación de timeouts** (v2026.7.3) — procesamiento en lotes con concurrencia, eliminando retrasos de hasta 20-30 minutos
 - **Nodo destacado incorrectamente** (v2026.7.3) — corregido dato residual que mantenía más de un nodo con borde verde en el Constructor de Flujos
 - **Error al eliminar chat de prueba** (v2026.7.1) — la eliminación cierra la sesión del flujo antes de quitar la conversación
@@ -52,5 +58,5 @@ Actualizaciones del mes de julio de 2026.
 ---
 
 ::: info 📝 Total
-**7 lanzamientos** este mes!
+**8 lanzamientos** este mes!
 :::
