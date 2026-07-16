@@ -6,6 +6,8 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.10](/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** — ferramenta para APIs externas, gerar rotas com IA e testar antes de publicar |
+| [2026.7.9](/changelog/2026/07/2026.7.9) | 15/07 | **Contato, endereço e CRM** — tools de contato/endereço (com GPS), endereços no cadastro e contexto na primeira mensagem |
 | [2026.7.8](/changelog/2026/07/2026.7.8) | 14/07 | **Chats internos** — áudio, marcar lida/não lida, status visualizada em DMs e correção de permissão de settings |
 | [2026.7.7](/changelog/2026/07/2026.7.7) | 10/07 | **Busca no Funil** — pesquisar clientes por nome, ver etapa/posição e abrir o cadastro |
 | [2026.7.6](/changelog/2026/07/2026.7.6) | 10/07 | **Ocultar finalizados no Funil** — checkbox para esconder clientes com última conversa finalizada/resolvida |
@@ -19,7 +21,13 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (14)
+### ✨ Novas Funcionalidades (20)
+- **Consultar API** (v2026.7.10) — ferramenta pronta do Agente de IA para consultar/executar operações em APIs externas (chave criptografada + allowlist)
+- **Gerar rotas de API com IA** (v2026.7.10) — monta rotas a partir de descrição, docs ou curl; só as rotas necessárias
+- **Testar rotas da API** (v2026.7.10) — teste no servidor com status OK/Erro/Não testado antes de publicar
+- **Alterar Contato do Cliente** (v2026.7.9) — ferramenta pronta do Agente de IA para salvar/atualizar telefone, WhatsApp ou e-mail
+- **Alterar Endereço do Cliente** (v2026.7.9) — ferramenta pronta do Agente de IA para salvar/atualizar endereço (texto ou GPS) durante a conversa
+- **Endereços no cadastro do cliente** (v2026.7.9) — seção no CRM para listar, criar, editar e excluir endereços com coordenadas
 - **Áudio nos chats internos** (v2026.7.8) — gravar e enviar áudio em DMs e grupos internos pelo microfone do campo de mensagem
 - **Marcar como lida / não lida nos chats internos** (v2026.7.8) — menu na listagem e marcação automática ao abrir a conversa
 - **Status visualizada em DMs internos** (v2026.7.8) — mensagens recebidas ficam como lidas para o remetente ao abrir o chat direto
@@ -35,7 +43,10 @@ Atualizações do mês de julho de 2026.
 - **Badge de Canal de Teste** (v2026.7.1) — identificação visual em âmbar no header do chat quando o atendimento é de um canal tipo `test`
 - **Indicador flutuante de nó ativo** (v2026.7.1) — badge abaixo do botão de fluxo no header do agente exibe nome do nó, estado de debounce e tooltip com horário
 
-### 🔄 Melhorias (7)
+### 🔄 Melhorias (10)
+- **Modal dedicado e nome Consultar API** (v2026.7.10) — configuração em modal próprio e nome mais claro (antes “API Configurável”)
+- **Endereço no contexto do cliente** (v2026.7.9) — endereços cadastrados entram no Customer info da primeira mensagem do prompt
+- **Coordenadas GPS e geocoding reverso** (v2026.7.9) — pin de localização preenche o endereço automaticamente (Google Maps ou Nominatim)
 - **Menu de atalhos no chat** (v2026.7.4) — visual alinhado ao design system, com posicionamento estável via portal
 - **Compatibilidade com atalhos existentes** (v2026.7.4) — normalização automática do formato antigo para o modelo de passos
 - **Rastreamento automático removido** (v2026.7.3) — contabilizador acoplado ao timeout de "Aguardar Resposta" e reagendamento do Agente de IA removido; métricas passam a depender apenas de Pontos de Controle explícitos
@@ -58,5 +69,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info 📝 Total
-**8 releases** neste mês!
+**10 releases** neste mês!
 :::

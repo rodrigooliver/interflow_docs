@@ -62,6 +62,141 @@ Updates custom fields in the customer record.
 
 ---
 
+### Update Customer Contact
+
+Allows the AI to **save or update the customer’s phone, WhatsApp, or email** when they share the contact in the conversation.
+
+**When to use:**
+- Customer provides an additional phone or WhatsApp
+- Update of the email shared in chat
+- Contact collection in onboarding or confirmation flows
+
+**Configuration:**
+1. Add the **Update Customer Contact** action
+2. Select the allowed types: phone, WhatsApp, and/or email
+3. Save the prompt
+
+::: tip 💡 Email
+When the type is email, the value also updates the customer’s main email field.
+:::
+
+**Usage example:**
+```text
+👤 Customer: My WhatsApp is (11) 98888-7777
+🤖 AI: Perfect! I've saved that WhatsApp to your record.
+```
+
+::: info ⚠️ Unique
+This action can be added only once per agent.
+:::
+
+---
+
+### Update Customer Address
+
+Allows the AI to **save or update the customer address** in the record when they provide the details in the conversation (street, number, city, state, ZIP code, etc.) or send a **GPS location**.
+
+**When to use:**
+- Customer provides a delivery or billing address
+- Customer sends a location pin on WhatsApp
+- Update of an existing default address
+- Address collection in order or visit flows
+
+**What the AI can save:**
+- Street and number (or full address line)
+- Complement, city, state, and ZIP code
+- Country and optional address label
+- Latitude and longitude (GPS)
+- Delivery/access instructions (e.g. intercom, gate)
+- Address marked as default (updates the existing one or creates a new one)
+
+**GPS location:**
+- Accepts separate coordinates (`latitude` / `longitude`) or the location-message format (e.g. `-3.03, -59.98`)
+- If only GPS arrives, the system tries to complete street, city, and related fields via reverse geocoding (Google Maps with a configured key, or Nominatim)
+
+**Usage example:**
+```text
+👤 Customer: My address is 120 Flower St, apt 3, São Paulo - SP, ZIP 01310-100
+🤖 AI: Done! I've saved that address to your record. Anything else you need?
+```
+
+```text
+👤 Customer: [sends map location]
+🤖 AI: Got your location — I've updated the address on your record.
+```
+
+::: tip 💡 Automatic context
+Saved addresses are also included in the agent’s first **Customer info** context message, so the AI does not need to ask again.
+:::
+
+::: info ⚠️ Unique
+This action can be added only once per agent.
+:::
+
+---
+
+### Query API
+
+Lets the AI **query and run operations on an external API** during support (base URL, encrypted authentication, and an allowlist of routes). Each route becomes a tool whose **name is the slug id** (e.g. `get_order`).
+
+**When to use:**
+- Look up order status, charges, inventory, or customer data in external systems
+- Create/update records via REST API
+- Expose only safe endpoints (allowlist), without open web search
+
+**Setup:**
+1. Add the **Query API** action
+2. Set **Base URL** and auth type (Bearer, header, or query)
+3. Save the key (**encrypted**, same pattern as Integrations)
+4. Add routes: `id` (slug), description, method, path, and parameters — or use **Generate with AI**
+5. Optional: **test each route** on the server before publishing
+
+#### Generate routes with AI
+
+When you add a new action (still without routes), the assistant **opens automatically**. You can:
+
+- Describe in natural language what the agent should do
+- Provide a **documentation URL** (optional)
+- Paste **docs excerpts** or sample calls (`curl`)
+
+AI builds **only the routes you need**, plus the action name, description, and slug. Review, adjust, and test before going live.
+
+```text
+Example description + curl:
+
+I want to connect the Stripe API for support.
+The agent should look up a customer by email and list open invoices.
+
+curl -X GET "https://api.stripe.com/v1/customers?email=user@email.com" \
+  -H "Authorization: Bearer $STRIPE_API_KEY"
+```
+
+::: tip 💡 Assistant with web search
+**Generate with AI** uses web search **only while configuring**. In live chats the agent only calls the routes you allowed.
+:::
+
+#### Test routes
+
+On each route, use **Test route**, fill sample parameters, and run. The test runs on the **server** (the key never goes to the browser). Last-test status shows as OK, Error, or Untested.
+
+::: warning ⚠️ POST / PUT
+Create or update tests may **create real data** in the external system. Testing every route is not required.
+:::
+
+::: info ⚠️ Secrets
+The key never enters the tool schema or the model’s tool result. In the UI it appears masked (`••••`).
+:::
+
+**Example:**
+```text
+👤 Customer: What's the status of order 12345?
+🤖 AI: [calls get_order] Your order 12345 is in transit.
+```
+
+> Changelog: [v2026.7.10](/en/changelog/2026/07/2026.7.10)
+
+---
+
 ### Transfer to Team
 
 Forwards the service to a human team.

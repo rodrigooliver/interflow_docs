@@ -86,6 +86,26 @@ Ao clicar em um cliente, você acessa seu perfil completo:
 - Data de cadastro
 - Última interação
 
+### Endereços
+
+Na edição do cliente, a seção **Endereços** permite gerenciar um ou mais endereços de entrega ou cobrança.
+
+**O que você pode fazer:**
+- Listar endereços cadastrados (com indicação do padrão)
+- Criar, editar e excluir endereços
+- Informar rua, número, complemento, cidade, estado, CEP e país
+- Salvar coordenadas GPS (latitude/longitude) e abrir no Google Maps
+
+**Como cadastrar:**
+1. Abra o cliente e vá até a seção **Endereços**
+2. Clique em **Adicionar**
+3. Preencha os campos e, se quiser, as coordenadas
+4. Salve
+
+::: tip 💡 Agente de IA
+Os endereços também podem ser gravados automaticamente pela ferramenta **Alterar Endereço do Cliente** — veja [Ferramentas da IA](/guide/ai-agents/tools#alterar-endereço-do-cliente).
+:::
+
 ### Histórico
 
 - Todas as conversas

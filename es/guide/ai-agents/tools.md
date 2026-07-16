@@ -62,6 +62,141 @@ Actualiza campos personalizados del registro del cliente.
 
 ---
 
+### Cambiar Contacto del Cliente
+
+Permite que la IA **guarde o actualice teléfono, WhatsApp o e-mail** del cliente cuando informe el contacto en la conversación.
+
+**Cuándo usar:**
+- El cliente informa un teléfono o WhatsApp adicional
+- Actualización del e-mail informado en el chat
+- Recolección de contacto en flujos de registro o confirmación
+
+**Configuración:**
+1. Agregue la acción **Cambiar Contacto del Cliente**
+2. Seleccione los tipos permitidos: teléfono, WhatsApp y/o e-mail
+3. Guarde el prompt
+
+::: tip 💡 E-mail
+Cuando el tipo sea e-mail, el valor también actualiza el campo principal de e-mail del cliente.
+:::
+
+**Ejemplo de uso:**
+```text
+👤 Cliente: Mi WhatsApp es (11) 98888-7777
+🤖 IA: ¡Perfecto! Ya guardé ese WhatsApp en tu registro.
+```
+
+::: info ⚠️ Única
+Esta acción puede agregarse solo una vez por agente.
+:::
+
+---
+
+### Cambiar Dirección del Cliente
+
+Permite que la IA **guarde o actualice la dirección** del cliente en el registro cuando informe los datos en la conversación (calle, número, ciudad, estado, código postal, etc.) o envíe una **ubicación GPS**.
+
+**Cuándo usar:**
+- El cliente informa una dirección de entrega o facturación
+- El cliente envía el pin de ubicación en WhatsApp
+- Actualización de la dirección predeterminada ya registrada
+- Recolección de dirección en flujos de pedido o visita
+
+**Qué puede guardar la IA:**
+- Calle y número (o línea completa de la dirección)
+- Complemento, ciudad, estado y código postal
+- País y etiqueta opcional de la dirección
+- Latitud y longitud (GPS)
+- Instrucciones de entrega/acceso (ej.: interfono, portón)
+- Dirección marcada como predeterminada (actualiza la existente o crea una nueva)
+
+**Ubicación GPS:**
+- Acepta coordenadas separadas (`latitude` / `longitude`) o el formato del mensaje de ubicación (ej.: `-3.03, -59.98`)
+- Si solo llega el GPS, el sistema intenta completar calle, ciudad y demás campos mediante geocodificación inversa (Google Maps con clave configurada, o Nominatim)
+
+**Ejemplo de uso:**
+```text
+👤 Cliente: Mi dirección es Calle de las Flores, 120, apto 3, São Paulo - SP, CP 01310-100
+🤖 IA: ¡Listo! Ya guardé esa dirección en tu registro. ¿Necesitas algo más?
+```
+
+```text
+👤 Cliente: [envía ubicación en el mapa]
+🤖 IA: Recibí tu ubicación y ya actualicé la dirección en el registro.
+```
+
+::: tip 💡 Contexto automático
+Las direcciones ya registradas también entran en el **Customer info** del primer mensaje de contexto del agente, para que la IA no tenga que preguntar de nuevo.
+:::
+
+::: info ⚠️ Única
+Esta acción puede agregarse solo una vez por agente.
+:::
+
+---
+
+### Consultar API
+
+Permite que la IA **consulte y ejecute operaciones en una API externa** durante la atención (base URL, autenticación cifrada y lista de rutas permitidas). Cada ruta se convierte en una tool cuyo **nombre es el id en slug** (ej.: `get_order`).
+
+**Cuándo usar:**
+- Consultar estado de pedido, cobro, stock o cliente en sistemas externos
+- Crear/actualizar registros vía API REST
+- Exponer solo endpoints seguros (allowlist), sin búsqueda abierta en la web
+
+**Configuración:**
+1. Agregue la acción **Consultar API**
+2. Indique la **Base URL** y el tipo de autenticación (Bearer, header o query)
+3. Guarde la clave (queda **cifrada**, mismo patrón que Integrations)
+4. Agregue rutas: `id` (slug), descripción, method, path y parámetros — o use **Generar con IA**
+5. Opcional: **pruebe cada ruta** en el servidor antes de publicar
+
+#### Generar rutas con IA
+
+Al agregar una acción nueva (aún sin rutas), el asistente **se abre automáticamente**. Puede:
+
+- Describir en lenguaje natural lo que el agente debe hacer
+- Indicar la **URL de la documentación** (opcional)
+- Pegar **fragmentos de la documentación** o ejemplos de llamadas (`curl`)
+
+La IA arma **solo las rutas necesarias**, además del nombre, descripción y slug de la acción. Revise, ajuste y pruebe antes de poner en producción.
+
+```text
+Ejemplo de descripción + curl:
+
+Quiero integrar la API de Mercado Pago en la atención.
+El agente necesita buscar un cliente por documento y listar cobros.
+
+curl -X GET "https://api.mercadopago.com/v1/customers/search?email=user@email.com" \
+  -H "Authorization: Bearer $MP_ACCESS_TOKEN"
+```
+
+::: tip 💡 Asistente con web search
+**Generar con IA** usa búsqueda en la web **solo en la configuración**. En la atención, el agente solo llama las rutas que usted permitió.
+:::
+
+#### Probar rutas
+
+En cada ruta, use **Probar ruta**, complete parámetros de ejemplo y ejecute. La prueba corre en el **servidor** (la clave no va al navegador). El estado de la última prueba aparece como OK, Error o Sin probar.
+
+::: warning ⚠️ POST / PUT
+Las pruebas de creación o actualización pueden **generar datos reales** en el sistema externo. No es necesario probar todas las rutas.
+:::
+
+::: info ⚠️ Claves
+La clave nunca entra en el schema de la tool ni en la respuesta al modelo. En la UI aparece enmascarada (`••••`).
+:::
+
+**Ejemplo:**
+```text
+👤 Cliente: ¿Cuál es el estado del pedido 12345?
+🤖 IA: [llama get_order] Tu pedido 12345 está en tránsito.
+```
+
+> Changelog: [v2026.7.10](/es/changelog/2026/07/2026.7.10)
+
+---
+
 ### Transferir a Equipo
 
 Reenvía la atención a un equipo humano.

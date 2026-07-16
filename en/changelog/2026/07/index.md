@@ -6,6 +6,8 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.10](/en/changelog/2026/07/2026.7.10) | 07/16 | **Query API** — external API tool, generate routes with AI, and test before publishing |
+| [2026.7.9](/en/changelog/2026/07/2026.7.9) | 07/15 | **Contact, address & CRM** — contact/address tools (with GPS), addresses on the record, and first-message context |
 | [2026.7.8](/en/changelog/2026/07/2026.7.8) | 07/14 | **Internal chats** — audio, mark read/unread, seen status in DMs, and settings permission fix |
 | [2026.7.7](/en/changelog/2026/07/2026.7.7) | 07/10 | **Funnel search** — search customers by name, see stage/position, and open the record |
 | [2026.7.6](/en/changelog/2026/07/2026.7.6) | 07/10 | **Hide closed in the Funnel** — checkbox to hide customers whose last conversation is closed/resolved |
@@ -19,7 +21,13 @@ Updates for July 2026.
 
 ## Month Summary
 
-### ✨ New Features (14)
+### ✨ New Features (20)
+- **Query API** (v2026.7.10) — ready-made AI Agent tool to query/run operations on external APIs (encrypted key + allowlist)
+- **Generate API routes with AI** (v2026.7.10) — builds routes from description, docs, or curl; only the routes you need
+- **Test API routes** (v2026.7.10) — server-side test with OK/Error/Untested status before publishing
+- **Update Customer Contact** (v2026.7.9) — ready-made AI Agent tool to save/update phone, WhatsApp, or email
+- **Update Customer Address** (v2026.7.9) — ready-made AI Agent tool to save/update address (text or GPS) during the conversation
+- **Addresses on the customer record** (v2026.7.9) — CRM section to list, create, edit, and delete addresses with coordinates
 - **Audio in internal chats** (v2026.7.8) — record and send audio in internal DMs and groups via the message field microphone
 - **Mark as read / unread in internal chats** (v2026.7.8) — list menu and automatic mark when opening the conversation
 - **Seen status in internal DMs** (v2026.7.8) — received messages show as read for the sender when opening a direct chat
@@ -35,7 +43,10 @@ Updates for July 2026.
 - **Test Channel Badge** (v2026.7.1) — amber visual identifier in the chat header when the conversation is on a `test` type channel
 - **Floating active node indicator** (v2026.7.1) — badge below the flow button in the agent header showing node name, debounce state, and time tooltip
 
-### 🔄 Improvements (7)
+### 🔄 Improvements (10)
+- **Dedicated modal and Query API name** (v2026.7.10) — own configuration modal and clearer name (was “Configurable API”)
+- **Address in customer context** (v2026.7.9) — saved addresses included in Customer info on the prompt’s first message
+- **GPS coordinates and reverse geocoding** (v2026.7.9) — location pin fills the address automatically (Google Maps or Nominatim)
 - **Shortcut menu in chat** (v2026.7.4) — visuals aligned with the design system, with stable positioning via portal
 - **Compatibility with existing shortcuts** (v2026.7.4) — automatic normalization from legacy format to the step model
 - **Automatic tracking removed** (v2026.7.3) — tracker coupled to Wait for Response timeout and AI Agent reschedule removed; metrics now depend only on explicit Checkpoints
@@ -58,5 +69,5 @@ Updates for July 2026.
 ---
 
 ::: info 📝 Total
-**8 releases** this month!
+**10 releases** this month!
 :::

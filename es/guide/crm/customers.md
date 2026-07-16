@@ -80,6 +80,26 @@ Al hacer clic en un cliente, accedes a su perfil completo:
 - Fecha de registro
 - Última interacción
 
+### Direcciones
+
+En la edición del cliente, la sección **Direcciones** permite gestionar una o más direcciones de entrega o facturación.
+
+**Qué puedes hacer:**
+- Listar direcciones registradas (con indicación de la predeterminada)
+- Crear, editar y eliminar direcciones
+- Informar calle, número, complemento, ciudad, estado, código postal y país
+- Guardar coordenadas GPS (latitud/longitud) y abrir en Google Maps
+
+**Cómo registrar:**
+1. Abra el cliente y vaya a la sección **Direcciones**
+2. Haga clic en **Agregar**
+3. Complete los campos y, si quiere, las coordenadas
+4. Guarde
+
+::: tip 💡 Agente de IA
+Las direcciones también pueden grabarse automáticamente con la herramienta **Cambiar Dirección del Cliente** — vea [Herramientas de IA](/es/guide/ai-agents/tools#cambiar-dirección-del-cliente).
+:::
+
 ### Historial
 
 - Todas las conversaciones

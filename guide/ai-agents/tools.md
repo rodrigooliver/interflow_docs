@@ -62,6 +62,141 @@ Atualiza campos personalizados do cadastro do cliente.
 
 ---
 
+### Alterar Contato do Cliente
+
+Permite que a IA **salve ou atualize telefone, WhatsApp ou e-mail** do cliente quando ele informar o contato na conversa.
+
+**Quando usar:**
+- Cliente informa um telefone ou WhatsApp adicional
+- Atualização do e-mail informado no chat
+- Coleta de contato em fluxos de cadastro ou confirmação
+
+**Configuração:**
+1. Adicione a ação **Alterar Contato do Cliente**
+2. Selecione os tipos permitidos: telefone, WhatsApp e/ou e-mail
+3. Salve o prompt
+
+::: tip 💡 E-mail
+Quando o tipo for e-mail, o valor também atualiza o campo principal de e-mail do cliente.
+:::
+
+**Exemplo de uso:**
+```text
+👤 Cliente: Meu WhatsApp é (11) 98888-7777
+🤖 IA: Perfeito! Já salvei esse WhatsApp no seu cadastro.
+```
+
+::: info ⚠️ Única
+Esta ação pode ser adicionada apenas uma vez por agente.
+:::
+
+---
+
+### Alterar Endereço do Cliente
+
+Permite que a IA **salve ou atualize o endereço** do cliente no cadastro quando ele informar os dados na conversa (rua, número, cidade, estado, CEP, etc.) ou enviar uma **localização GPS**.
+
+**Quando usar:**
+- Cliente informa endereço de entrega ou cobrança
+- Cliente envia o pin de localização no WhatsApp
+- Atualização do endereço padrão já cadastrado
+- Coleta de endereço em fluxos de pedido ou visita
+
+**O que a IA pode gravar:**
+- Rua e número (ou linha completa do endereço)
+- Complemento, cidade, estado e CEP
+- País e rótulo opcional do endereço
+- Latitude e longitude (GPS)
+- Instruções de entrega/acesso (ex.: interfone, portão)
+- Endereço marcado como padrão (atualiza o existente ou cria um novo)
+
+**Localização GPS:**
+- Aceita coordenadas separadas (`latitude` / `longitude`) ou no formato da mensagem de localização (ex.: `-3.03, -59.98`)
+- Se só o GPS chegar, o sistema tenta completar rua, cidade e demais campos por geocoding reverso (Google Maps com chave configurada, ou Nominatim)
+
+**Exemplo de uso:**
+```text
+👤 Cliente: Meu endereço é Rua das Flores, 120, apto 3, São Paulo - SP, CEP 01310-100
+🤖 IA: Pronto! Já salvei esse endereço no seu cadastro. Precisa de mais alguma coisa?
+```
+
+```text
+👤 Cliente: [envia localização no mapa]
+🤖 IA: Recebi sua localização e já atualizei o endereço no cadastro.
+```
+
+::: tip 💡 Contexto automático
+Os endereços já cadastrados também entram no **Customer info** da primeira mensagem de contexto do agente, para a IA não precisar perguntar de novo.
+:::
+
+::: info ⚠️ Única
+Esta ação pode ser adicionada apenas uma vez por agente.
+:::
+
+---
+
+### Consultar API
+
+Permite que a IA **consulte e execute operações em uma API externa** durante o atendimento (base URL, autenticação criptografada e lista de rotas permitidas). Cada rota vira uma tool cujo **nome é o id em slug** (ex.: `get_order`).
+
+**Quando usar:**
+- Consultar status de pedido, cobrança, estoque ou cliente em sistemas externos
+- Criar/atualizar registros via API REST
+- Expor só endpoints seguros (allowlist), sem busca aberta na web
+
+**Configuração:**
+1. Adicione a ação **Consultar API**
+2. Informe a **Base URL** e o tipo de autenticação (Bearer, header ou query)
+3. Cadastre a chave (fica **criptografada**, no mesmo padrão das Integrations)
+4. Adicione rotas: `id` (slug), descrição, method, path e parâmetros — ou use **Gerar com IA**
+5. Opcional: **teste cada rota** no servidor antes de publicar
+
+#### Gerar rotas com IA
+
+Ao adicionar uma ação nova (ainda sem rotas), o assistente **abre automaticamente**. Você pode:
+
+- Descrever em linguagem natural o que o agente precisa fazer
+- Informar a **URL da documentação** (opcional)
+- Colar **trechos da documentação** ou exemplos de chamadas (`curl`)
+
+A IA monta **só as rotas necessárias**, além do nome, descrição e slug da ação. Revise, ajuste e teste antes de colocar em produção.
+
+```text
+Exemplo de descrição + curl:
+
+Quero integrar a API do Asaas no atendimento.
+O agente precisa buscar cliente pelo CPF e listar cobranças.
+
+curl -X GET "https://api.asaas.com/v3/customers?cpfCnpj=12345678900" \
+  -H "access_token: $ASAAS_API_KEY"
+```
+
+::: tip 💡 Assistente com web search
+O botão **Gerar com IA** usa busca na web **somente na configuração**. No atendimento, o agente só chama as rotas que você permitiu.
+:::
+
+#### Testar rotas
+
+Em cada rota, use **Testar rota**, preencha parâmetros de exemplo e execute. O teste roda no **servidor** (a chave não vai para o navegador). O status do último teste aparece como OK, Erro ou Não testado.
+
+::: warning ⚠️ POST / PUT
+Testes de criação ou atualização podem **gerar dados reais** no sistema externo. Não é necessário testar todas as rotas.
+:::
+
+::: info ⚠️ Chaves
+A chave nunca entra no schema da tool nem na resposta ao modelo. Na UI aparece mascarada (`••••`).
+:::
+
+**Exemplo:**
+```text
+👤 Cliente: Qual o status do pedido 12345?
+🤖 IA: [chama get_order] Seu pedido 12345 está em transporte.
+```
+
+> Changelog: [v2026.7.10](/changelog/2026/07/2026.7.10)
+
+---
+
 ### Transferir para Equipe
 
 Encaminha o atendimento para uma equipe humana.

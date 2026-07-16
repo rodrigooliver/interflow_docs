@@ -80,6 +80,26 @@ When clicking on a customer, you access their complete profile:
 - Registration date
 - Last interaction
 
+### Addresses
+
+In customer edit, the **Addresses** section lets you manage one or more delivery or billing addresses.
+
+**What you can do:**
+- List saved addresses (with default indication)
+- Create, edit, and delete addresses
+- Enter street, number, complement, city, state, ZIP, and country
+- Save GPS coordinates (latitude/longitude) and open in Google Maps
+
+**How to add one:**
+1. Open the customer and go to the **Addresses** section
+2. Click **Add**
+3. Fill in the fields and, optionally, the coordinates
+4. Save
+
+::: tip 💡 AI Agent
+Addresses can also be written automatically by the **Update Customer Address** tool — see [AI Tools](/en/guide/ai-agents/tools#update-customer-address).
+:::
+
 ### History
 
 - All conversations
