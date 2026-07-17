@@ -6,7 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
-| [2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — marcajes con foto/GPS, geofence, banco de horas, nómina y push al fichar |
+| [2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — fichaje, jornada, calendario, ausencias, nómina diaria y push |
 | [2026.7.10](/es/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** — herramienta para APIs externas, generar rutas con IA y probar antes de publicar |
 | [2026.7.9](/es/changelog/2026/07/2026.7.9) | 15/07 | **Contacto, dirección y CRM** — tools de contacto/dirección (con GPS), direcciones en el registro y contexto del primer mensaje |
 | [2026.7.8](/es/changelog/2026/07/2026.7.8) | 14/07 | **Chats internos** — audio, marcar leído/no leído, estado visto en DMs y corrección de permiso de settings |
@@ -22,13 +22,16 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (26)
+### ✨ Nuevas Funcionalidades (29)
 - **Módulo RRHH / Fichaje** (v2026.7.11) — entrada, pausa, retorno y salida con foto, GPS y auditoría
 - **Locales y geofence** (v2026.7.11) — lugares con radio y reglas por colaborador (incluido home office)
-- **Banco de horas y nómina gerencial** (v2026.7.11) — saldo, ajustes, vista previa de horas/HE y exportación CSV
+- **Jornada semanal por colaborador** (v2026.7.11) — días y horas variables (ej.: lun–vie 8h, sábado 4h)
+- **Calendario RRHH** (v2026.7.11) — festivos y días sin expediente (recurrencia anual opcional)
+- **Certificados y libranzas individuales** (v2026.7.11) — ausencias con adjunto reflejadas en la nómina
+- **Banco de horas y nómina gerencial** (v2026.7.11) — saldo, vista previa, **horas por día** y CSV período/diario
 - **Push al fichar** (v2026.7.11) — destinatarios configurables por colaborador (OneSignal)
 - **Mi perfil RRHH** (v2026.7.11) — vista del colaborador sin foto/IP/notificaciones
-- **Fotos y mapa en fichajes** (v2026.7.11) — evidencias para admin en el listado y el detalle
+- **Detalles del fichaje con foto bajo demanda** (v2026.7.11) — listado ligero; foto/IP/GPS en el modal Detalles
 - **Consultar API** (v2026.7.10) — herramienta lista del Agente de IA para consultar/ejecutar operaciones en APIs externas (clave cifrada + allowlist)
 - **Generar rutas de API con IA** (v2026.7.10) — arma rutas a partir de descripción, docs o curl; solo las rutas necesarias
 - **Probar rutas de la API** (v2026.7.10) — prueba en el servidor con estado OK/Error/Sin probar antes de publicar
@@ -50,10 +53,11 @@ Actualizaciones del mes de julio de 2026.
 - **Badge de Canal de Prueba** (v2026.7.1) — identificación visual en ámbar en el encabezado del chat cuando el atendimiento es de un canal tipo `test`
 - **Indicador flotante de nodo activo** (v2026.7.1) — badge debajo del botón de flujo en el encabezado del agente con nombre del nodo, estado de debounce y tooltip con horario
 
-### 🔄 Mejoras (13)
+### 🔄 Mejoras (14)
 - **Fichar sin webcam** (v2026.7.11) — envío de foto por archivo cuando no hay cámara
 - **Vista previa de cámara en espejo** (v2026.7.11) — encuadre tipo selfie; foto guardada en orientación normal
 - **Loading en pantallas de RRHH** (v2026.7.11) — evita un vacío momentáneo al cargar
+- **Estado del día en la nómina** (v2026.7.11) — badge de trabajo, festivo, certificado o libranza en horas por día
 - **Modal dedicado y nombre Consultar API** (v2026.7.10) — configuración en modal propio y nombre más claro (antes “API Configurable”)
 - **Dirección en el contexto del cliente** (v2026.7.9) — direcciones registradas entran en Customer info del primer mensaje del prompt
 - **Coordenadas GPS y geocodificación inversa** (v2026.7.9) — el pin de ubicación completa la dirección automáticamente (Google Maps o Nominatim)

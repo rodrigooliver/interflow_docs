@@ -6,7 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| [2026.7.11](/en/changelog/2026/07/2026.7.11) | 07/17 | **HR / Time clock** — punches with photo/GPS, geofence, hour bank, payroll, and push on punch |
+| [2026.7.11](/en/changelog/2026/07/2026.7.11) | 07/17 | **HR / Time clock** — punches, schedule, calendar, absences, daily payroll, and push |
 | [2026.7.10](/en/changelog/2026/07/2026.7.10) | 07/16 | **Query API** — external API tool, generate routes with AI, and test before publishing |
 | [2026.7.9](/en/changelog/2026/07/2026.7.9) | 07/15 | **Contact, address & CRM** — contact/address tools (with GPS), addresses on the record, and first-message context |
 | [2026.7.8](/en/changelog/2026/07/2026.7.8) | 07/14 | **Internal chats** — audio, mark read/unread, seen status in DMs, and settings permission fix |
@@ -22,13 +22,16 @@ Updates for July 2026.
 
 ## Month Summary
 
-### ✨ New Features (26)
+### ✨ New Features (29)
 - **HR / Time clock module** (v2026.7.11) — clock-in, break, return, and clock-out with photo, GPS, and audit trail
 - **Workplaces and geofence** (v2026.7.11) — sites with radius and per-employee rules (including home office)
-- **Hour bank and managerial payroll** (v2026.7.11) — balance, adjustments, hours/OT preview, and CSV export
+- **Weekly schedule per employee** (v2026.7.11) — variable days and hours (e.g. Mon–Fri 8h, Saturday 4h)
+- **HR calendar** (v2026.7.11) — holidays and non-working days (optional yearly recurrence)
+- **Medical certificates and individual days off** (v2026.7.11) — absences with attachment reflected in payroll
+- **Hour bank and managerial payroll** (v2026.7.11) — balance, preview, **hours per day**, and period/daily CSV
 - **Push on punch** (v2026.7.11) — configurable recipients per employee (OneSignal)
 - **My HR profile** (v2026.7.11) — employee view without photo/IP/notifications
-- **Photos and map on punches** (v2026.7.11) — admin evidence in the list and detail
+- **Punch details with on-demand photo** (v2026.7.11) — light list; photo/IP/GPS in the Details modal
 - **Query API** (v2026.7.10) — ready-made AI Agent tool to query/run operations on external APIs (encrypted key + allowlist)
 - **Generate API routes with AI** (v2026.7.10) — builds routes from description, docs, or curl; only the routes you need
 - **Test API routes** (v2026.7.10) — server-side test with OK/Error/Untested status before publishing
@@ -50,10 +53,11 @@ Updates for July 2026.
 - **Test Channel Badge** (v2026.7.1) — amber visual identifier in the chat header when the conversation is on a `test` type channel
 - **Floating active node indicator** (v2026.7.1) — badge below the flow button in the agent header showing node name, debounce state, and time tooltip
 
-### 🔄 Improvements (13)
+### 🔄 Improvements (14)
 - **Punch without a webcam** (v2026.7.11) — upload a photo file when there is no camera
 - **Mirrored camera preview** (v2026.7.11) — selfie-style framing; saved photo keeps normal orientation
 - **Loading on HR screens** (v2026.7.11) — avoids an empty flash while loading
+- **Day status on payroll** (v2026.7.11) — work, holiday, certificate, or day-off badge on hours per day
 - **Dedicated modal and Query API name** (v2026.7.10) — own configuration modal and clearer name (was “Configurable API”)
 - **Address in customer context** (v2026.7.9) — saved addresses included in Customer info on the prompt’s first message
 - **GPS coordinates and reverse geocoding** (v2026.7.9) — location pin fills the address automatically (Google Maps or Nominatim)
