@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — marcajes con foto/GPS, geofence, banco de horas, nómina y push al fichar |
 | [2026.7.10](/es/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** — herramienta para APIs externas, generar rutas con IA y probar antes de publicar |
 | [2026.7.9](/es/changelog/2026/07/2026.7.9) | 15/07 | **Contacto, dirección y CRM** — tools de contacto/dirección (con GPS), direcciones en el registro y contexto del primer mensaje |
 | [2026.7.8](/es/changelog/2026/07/2026.7.8) | 14/07 | **Chats internos** — audio, marcar leído/no leído, estado visto en DMs y corrección de permiso de settings |
@@ -21,7 +22,13 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (20)
+### ✨ Nuevas Funcionalidades (26)
+- **Módulo RRHH / Fichaje** (v2026.7.11) — entrada, pausa, retorno y salida con foto, GPS y auditoría
+- **Locales y geofence** (v2026.7.11) — lugares con radio y reglas por colaborador (incluido home office)
+- **Banco de horas y nómina gerencial** (v2026.7.11) — saldo, ajustes, vista previa de horas/HE y exportación CSV
+- **Push al fichar** (v2026.7.11) — destinatarios configurables por colaborador (OneSignal)
+- **Mi perfil RRHH** (v2026.7.11) — vista del colaborador sin foto/IP/notificaciones
+- **Fotos y mapa en fichajes** (v2026.7.11) — evidencias para admin en el listado y el detalle
 - **Consultar API** (v2026.7.10) — herramienta lista del Agente de IA para consultar/ejecutar operaciones en APIs externas (clave cifrada + allowlist)
 - **Generar rutas de API con IA** (v2026.7.10) — arma rutas a partir de descripción, docs o curl; solo las rutas necesarias
 - **Probar rutas de la API** (v2026.7.10) — prueba en el servidor con estado OK/Error/Sin probar antes de publicar
@@ -43,7 +50,10 @@ Actualizaciones del mes de julio de 2026.
 - **Badge de Canal de Prueba** (v2026.7.1) — identificación visual en ámbar en el encabezado del chat cuando el atendimiento es de un canal tipo `test`
 - **Indicador flotante de nodo activo** (v2026.7.1) — badge debajo del botón de flujo en el encabezado del agente con nombre del nodo, estado de debounce y tooltip con horario
 
-### 🔄 Mejoras (10)
+### 🔄 Mejoras (13)
+- **Fichar sin webcam** (v2026.7.11) — envío de foto por archivo cuando no hay cámara
+- **Vista previa de cámara en espejo** (v2026.7.11) — encuadre tipo selfie; foto guardada en orientación normal
+- **Loading en pantallas de RRHH** (v2026.7.11) — evita un vacío momentáneo al cargar
 - **Modal dedicado y nombre Consultar API** (v2026.7.10) — configuración en modal propio y nombre más claro (antes “API Configurable”)
 - **Dirección en el contexto del cliente** (v2026.7.9) — direcciones registradas entran en Customer info del primer mensaje del prompt
 - **Coordenadas GPS y geocodificación inversa** (v2026.7.9) — el pin de ubicación completa la dirección automáticamente (Google Maps o Nominatim)
@@ -69,5 +79,5 @@ Actualizaciones del mes de julio de 2026.
 ---
 
 ::: info 📝 Total
-**10 lanzamientos** este mes!
+**11 lanzamientos** este mes!
 :::

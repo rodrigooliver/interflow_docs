@@ -108,6 +108,13 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
+        text: lang === 'en' ? '🕐 HR / Time clock' : lang === 'es' ? '🕐 RRHH / Fichaje' : '🕐 RH / Ponto',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/hr/` }
+        ]
+      },
+      {
         text: lang === 'en' ? '📄 Document Templates' : lang === 'es' ? '📄 Plantillas de Documentos' : '📄 Modelos de Documentos',
         collapsed: false,
         items: [
@@ -194,6 +201,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/07/` },
+              { text: 'v2026.7.11', link: `${prefix}/changelog/2026/07/2026.7.11` },
               { text: 'v2026.7.10', link: `${prefix}/changelog/2026/07/2026.7.10` },
               { text: 'v2026.7.9', link: `${prefix}/changelog/2026/07/2026.7.9` },
               { text: 'v2026.7.8', link: `${prefix}/changelog/2026/07/2026.7.8` },

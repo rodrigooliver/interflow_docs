@@ -6,6 +6,7 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.11](/changelog/2026/07/2026.7.11) | 17/07 | **RH / Ponto** — cartão ponto com foto/GPS, geofence, banco de horas, folha e push ao bater ponto |
 | [2026.7.10](/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** — ferramenta para APIs externas, gerar rotas com IA e testar antes de publicar |
 | [2026.7.9](/changelog/2026/07/2026.7.9) | 15/07 | **Contato, endereço e CRM** — tools de contato/endereço (com GPS), endereços no cadastro e contexto na primeira mensagem |
 | [2026.7.8](/changelog/2026/07/2026.7.8) | 14/07 | **Chats internos** — áudio, marcar lida/não lida, status visualizada em DMs e correção de permissão de settings |
@@ -21,7 +22,13 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (20)
+### ✨ Novas Funcionalidades (26)
+- **Módulo RH / Cartão ponto** (v2026.7.11) — entrada, pausa, retorno e saída com foto, GPS e auditoria
+- **Locais e geofence** (v2026.7.11) — locais com raio e regras por colaborador (incluindo home office)
+- **Banco de horas e folha gerencial** (v2026.7.11) — saldo, ajustes, prévia de horas/HE e exportação CSV
+- **Push ao bater ponto** (v2026.7.11) — destinatários configuráveis por colaborador (OneSignal)
+- **Meu perfil RH** (v2026.7.11) — visão do colaborador sem foto/IP/notificações
+- **Fotos e mapa nas batidas** (v2026.7.11) — evidências para admin na listagem e no detalhe
 - **Consultar API** (v2026.7.10) — ferramenta pronta do Agente de IA para consultar/executar operações em APIs externas (chave criptografada + allowlist)
 - **Gerar rotas de API com IA** (v2026.7.10) — monta rotas a partir de descrição, docs ou curl; só as rotas necessárias
 - **Testar rotas da API** (v2026.7.10) — teste no servidor com status OK/Erro/Não testado antes de publicar
@@ -43,7 +50,10 @@ Atualizações do mês de julho de 2026.
 - **Badge de Canal de Teste** (v2026.7.1) — identificação visual em âmbar no header do chat quando o atendimento é de um canal tipo `test`
 - **Indicador flutuante de nó ativo** (v2026.7.1) — badge abaixo do botão de fluxo no header do agente exibe nome do nó, estado de debounce e tooltip com horário
 
-### 🔄 Melhorias (10)
+### 🔄 Melhorias (13)
+- **Bater ponto sem webcam** (v2026.7.11) — envio de foto por arquivo quando não há câmera
+- **Preview da câmera em espelho** (v2026.7.11) — enquadramento tipo selfie; foto salva na orientação normal
+- **Loading nas telas de RH** (v2026.7.11) — evita flash de tela vazia ao carregar
 - **Modal dedicado e nome Consultar API** (v2026.7.10) — configuração em modal próprio e nome mais claro (antes “API Configurável”)
 - **Endereço no contexto do cliente** (v2026.7.9) — endereços cadastrados entram no Customer info da primeira mensagem do prompt
 - **Coordenadas GPS e geocoding reverso** (v2026.7.9) — pin de localização preenche o endereço automaticamente (Google Maps ou Nominatim)
@@ -69,5 +79,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info 📝 Total
-**10 releases** neste mês!
+**11 releases** neste mês!
 :::
