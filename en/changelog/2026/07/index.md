@@ -6,6 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.12](/en/changelog/2026/07/2026.7.12) | 07/18 | **WhatsApp WAHA** — passkey verification when connecting the channel |
 | [2026.7.11](/en/changelog/2026/07/2026.7.11) | 07/17 | **HR / Time clock** — punches, schedule, calendar, absences, daily payroll, and push |
 | [2026.7.10](/en/changelog/2026/07/2026.7.10) | 07/16 | **Query API** — external API tool, generate routes with AI, and test before publishing |
 | [2026.7.9](/en/changelog/2026/07/2026.7.9) | 07/15 | **Contact, address & CRM** — contact/address tools (with GPS), addresses on the record, and first-message context |
@@ -22,7 +23,8 @@ Updates for July 2026.
 
 ## Month Summary
 
-### New Features (29)
+### New Features (30)
+- **Passkey verification for WhatsApp WAHA** (v2026.7.12) — passkey flow with browser extension and optional 4-digit confirmation
 - **HR / Time clock module** (v2026.7.11) — clock-in, break, return, and clock-out with photo, GPS, and audit trail
 - **Workplaces and geofence** (v2026.7.11) — sites with radius and per-employee rules (including home office)
 - **Weekly schedule per employee** (v2026.7.11) — variable days and hours (e.g. Mon–Fri 8h, Saturday 4h)
@@ -83,5 +85,5 @@ Updates for July 2026.
 ---
 
 ::: info Total
-**11 releases** this month!
+**12 releases** this month!
 :::

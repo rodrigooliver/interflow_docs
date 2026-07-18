@@ -39,18 +39,45 @@ This integration is not official from Meta and may be subject to blocks. Use in 
 2. Click **"Add channel"**
 3. Select **WhatsApp (WAHA)**
 
-### Step 2: Scan QR Code
+### Step 2: Scan QR Code or use phone number
 
-A QR Code will be displayed. Scan with your WhatsApp:
+On the channel screen you can connect in two ways:
+
+- **QR Code** — scan with WhatsApp on your phone
+- **Phone number** — request a pairing code and enter it in WhatsApp
+
+For QR Code:
 
 1. Open WhatsApp on your phone
 2. Go to **Settings** → **Linked devices**
 3. Click **"Link a device"**
 4. Scan the QR Code
 
+### Step 2.1: Passkey verification (when WhatsApp asks)
+
+Some WhatsApp accounts require a **passkey** when linking a new device. In that case, after the QR Code or pairing code, Interflow shows the verification step on the channel screen itself.
+
+#### Browser extension
+
+Verification uses a browser extension (required because confirmation must happen on the WhatsApp Web origin). Install it **before** connecting if the banner appears:
+
+- [Chrome / Edge / Brave](https://chromewebstore.google.com/detail/ghpdcgnjffaaekflfpcgkgpbafmjldcp)
+- [Firefox](https://addons.mozilla.org/firefox/addon/whatsapp-browser-extension/)
+
+#### How to finish
+
+1. When the screen asks for security verification, click **Confirm connection**
+2. A WhatsApp Web tab opens with a confirmation card — click and use your device authenticator (Touch ID, Windows Hello, security key, etc.)
+3. In some cases WhatsApp shows a **4-digit** code on the phone: check that it matches the screen and click **The code matches**
+4. Wait until the status changes to **Connected**
+
+::: tip Tip
+Not every account asks for a passkey. If the channel connects with only the QR Code or pairing code, no extra step is needed.
+:::
+
 ### Step 3: Confirm Connection
 
-After scanning, status will change to **Connected**. You can now receive and send messages through Interflow.
+After scanning (and completing the passkey step, if requested), status will change to **Connected**. You can now receive and send messages through Interflow.
 
 ## Keeping Session Active
 
@@ -226,6 +253,18 @@ If disconnections are frequent, check phone's internet connection and consider m
 - Clear browser cache
 - Try in incognito window
 - Check for firewall blocks
+
+### The screen asks for a passkey, but the button is disabled
+
+- Install the browser extension shown in the banner
+- Reload the channel page after installing
+- Use Chrome, Edge, Brave, or Firefox (extension detection depends on the browser)
+
+### Passkey confirmation failed
+
+- Complete the step in the WhatsApp Web tab (user interaction is required)
+- Do not close the tab before authenticating
+- If WhatsApp shows a 4-digit code, confirm it matches Interflow
 
 ### Frequent disconnection
 

@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.7.12](/en/changelog/2026/07/2026.7.12) | Jul 18 | **WhatsApp WAHA** — passkey security verification | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha) |
 | [v2026.7.11](/en/changelog/2026/07/2026.7.11) | Jul 17 | **HR / Time clock** — punch, geofence, schedule, payroll and push | [HR guide](/en/guide/hr/) |
 | [v2026.7.10](/en/changelog/2026/07/2026.7.10) | Jul 16 | **Call API** AI tool — allowlisted routes and pre-publish test | [AI tools](/en/guide/ai-agents/tools) |
 | [v2026.7.9](/en/changelog/2026/07/2026.7.9) | Jul 15 | Customer contact & address tools (GPS) and CRM addresses | [Customers](/en/guide/crm/customers) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.7.5](/en/changelog/2026/07/2026.7.5) | Jul 10 | Channel restriction when starting a chat | [Start chat visibility](/en/guide/channels/start-chat-visibility) |
 | [v2026.7.4](/en/changelog/2026/07/2026.7.4) | Jul 8 | Message shortcut sequences | [Shortcuts](/en/guide/chat/message-shortcuts) |
 | [v2026.7.3](/en/changelog/2026/07/2026.7.3) | Jul 7 | Checkpoint node and follow-up analytics | [Checkpoint](/en/guide/flows/follow-up-response-rate) |
-| [v2026.7.2](/en/changelog/2026/07/2026.7.2) | Jul 3 | **DeepSeek** AI provider | [DeepSeek](/en/guide/integrations/deepseek) |
 
 [See all July releases →](/en/changelog/2026/07/)
 

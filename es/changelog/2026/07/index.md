@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.12](/es/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificación con clave de acceso (passkey) al conectar el canal |
 | [2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — fichaje, jornada, calendario, ausencias, nómina diaria y push |
 | [2026.7.10](/es/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** — herramienta para APIs externas, generar rutas con IA y probar antes de publicar |
 | [2026.7.9](/es/changelog/2026/07/2026.7.9) | 15/07 | **Contacto, dirección y CRM** — tools de contacto/dirección (con GPS), direcciones en el registro y contexto del primer mensaje |
@@ -22,7 +23,8 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (29)
+### Nuevas Funcionalidades (30)
+- **Verificación con clave de acceso en WhatsApp WAHA** (v2026.7.12) — flujo de passkey con extensión del navegador y confirmación opcional de código de 4 dígitos
 - **Módulo RRHH / Fichaje** (v2026.7.11) — entrada, pausa, retorno y salida con foto, GPS y auditoría
 - **Locales y geofence** (v2026.7.11) — lugares con radio y reglas por colaborador (incluido home office)
 - **Jornada semanal por colaborador** (v2026.7.11) — días y horas variables (ej.: lun–vie 8h, sábado 4h)
@@ -83,5 +85,5 @@ Actualizaciones del mes de julio de 2026.
 ---
 
 ::: info Total
-**11 lanzamientos** este mes!
+**12 lanzamientos** este mes!
 :::

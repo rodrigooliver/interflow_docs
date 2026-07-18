@@ -39,18 +39,45 @@ Esta integración no es oficial de Meta y puede estar sujeta a bloqueos. Usa con
 2. Haz clic en **"Agregar canal"**
 3. Selecciona **WhatsApp (WAHA)**
 
-### Paso 2: Escanear QR Code
+### Paso 2: Escanear QR Code o usar número de teléfono
 
-Un QR Code será exhibido. Escanea con tu WhatsApp:
+En la pantalla del canal puedes conectar de dos formas:
+
+- **Código QR** — escanea con WhatsApp en el celular
+- **Número de teléfono** — solicita un código de emparejamiento e introdúcelo en WhatsApp
+
+Para el código QR:
 
 1. Abre WhatsApp en el celular
 2. Ve a **Configuraciones** → **Dispositivos conectados**
 3. Haz clic en **"Conectar un dispositivo"**
 4. Escanea el QR Code
 
+### Paso 2.1: Verificación con clave de acceso (cuando WhatsApp lo pida)
+
+Algunas cuentas de WhatsApp exigen una **clave de acceso** (passkey) al vincular un nuevo dispositivo. En ese caso, después del código QR o del código de emparejamiento, Interflow muestra el paso de verificación en la propia pantalla del canal.
+
+#### Extensión del navegador
+
+La verificación usa una extensión del navegador (necesaria porque la confirmación debe ocurrir en el origen de WhatsApp Web). Instálala **antes** de conectar si aparece el aviso:
+
+- [Chrome / Edge / Brave](https://chromewebstore.google.com/detail/ghpdcgnjffaaekflfpcgkgpbafmjldcp)
+- [Firefox](https://addons.mozilla.org/firefox/addon/whatsapp-browser-extension/)
+
+#### Cómo concluir
+
+1. Cuando la pantalla pida verificación de seguridad, haga clic en **Confirmar conexión**
+2. Se abre una pestaña de WhatsApp Web con la tarjeta de confirmación — haga clic y use el autenticador del dispositivo (Touch ID, Windows Hello, llave de seguridad, etc.)
+3. En algunos casos WhatsApp muestra un código de **4 dígitos** en el teléfono: compruebe que coincida con la pantalla y haga clic en **El código coincide**
+4. Espere a que el estado cambie a **Conectado**
+
+::: tip Consejo
+No todas las cuentas piden clave de acceso. Si el canal se conecta solo con el código QR o el de emparejamiento, no hace falta ningún paso extra.
+:::
+
 ### Paso 3: Confirmar Conexión
 
-Después de escanear, el estado cambiará a **Conectado**. Ya puedes recibir y enviar mensajes por Interflow.
+Después de escanear (y completar la clave de acceso, si se solicita), el estado cambiará a **Conectado**. Ya puedes recibir y enviar mensajes por Interflow.
 
 ## Manteniendo la Sesión Activa
 
@@ -222,6 +249,18 @@ Si hay desconexiones frecuentes, verifica la conexión de internet del celular y
 - Limpia el cache del navegador
 - Intenta en una ventana incógnita
 - Verifica si hay bloqueos de firewall
+
+### La pantalla pide clave de acceso, pero el botón queda deshabilitado
+
+- Instale la extensión del navegador indicada en el aviso
+- Recargue la página del canal después de instalar
+- Use Chrome, Edge, Brave o Firefox (la detección de la extensión depende del navegador)
+
+### Falló la confirmación de la clave de acceso
+
+- Complete el paso en la pestaña de WhatsApp Web (se requiere interacción del usuario)
+- No cierre la pestaña antes de autenticar
+- Si WhatsApp muestra un código de 4 dígitos, confirme que coincide con Interflow
 
 ### Desconexión frecuente
 
