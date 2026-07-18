@@ -7,7 +7,7 @@ Conheça a interface de atendimento da Interflow e aprenda a usar todos os recur
 A interface de chat da Interflow foi projetada para maximizar a produtividade da sua equipe de atendimento, centralizando todas as conversas em uma única tela.
 
 <!-- Placeholder para screenshot -->
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 80px 20px; text-align: center; margin: 20px 0;">
+<div style="background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%); border-radius: 12px; padding: 80px 20px; text-align: center; margin: 20px 0;">
   <span style="color: white; font-size: 24px;">📸 Interface de Chat (em breve)</span>
 </div>
 

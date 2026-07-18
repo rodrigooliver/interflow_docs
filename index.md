@@ -43,20 +43,6 @@ features:
     details: Suporte nativo para Português, Inglês e Espanhol. Interface adaptável ao idioma de sua preferência.
 ---
 
-<style>
-:root {
-  --vp-home-hero-name-color: transparent;
-  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #6366f1 30%, #a855f7);
-  --vp-home-hero-image-background-image: linear-gradient(-45deg, #6366f1 50%, #a855f7 50%);
-  --vp-home-hero-image-filter: blur(44px);
-}
-
-.VPHero .image-bg {
-  opacity: 0.8;
-}
-</style>
-
----
 
 ## ⚠️ Documentação em Atualização
 

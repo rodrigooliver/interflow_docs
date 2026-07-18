@@ -1,53 +1,48 @@
 # Changelog
 
-Historial de actualizaciones y novedades de la plataforma Interflow.
+Novedades, mejoras y correcciones de la plataforma Interflow — organizadas por versión.
 
-::: tip 📢 Sigue las Novedades
-Interflow está en constante evolución. Acompaña aquí todas las actualizaciones, mejoras y correcciones.
+Use esta página para ver las **últimas actualizaciones** e ir a la release o a la guía correspondiente.
+
+## Últimas 10 actualizaciones
+
+Las **10 releases más recientes** (la más nueva primero):
+
+| Versión | Fecha | Destacado | Más info |
+|---------|-------|-----------|----------|
+| [v2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — punto, geofence, jornada, nómina y push | [Guía RRHH](/es/guide/hr/) |
+| [v2026.7.10](/es/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** en el Agente de IA — allowlist y prueba | [Herramientas IA](/es/guide/ai-agents/tools) |
+| [v2026.7.9](/es/changelog/2026/07/2026.7.9) | 15/07 | Contacto y dirección del cliente (GPS) vía tools y CRM | [Clientes](/es/guide/crm/customers) |
+| [v2026.7.8](/es/changelog/2026/07/2026.7.8) | 14/07 | Chats internos con audio y marcar leído/no leído | [Interfaz de chat](/es/guide/chat/interface) |
+| [v2026.7.7](/es/changelog/2026/07/2026.7.7) | 10/07 | Búsqueda de clientes en el embudo de ventas | [Embudos](/es/guide/crm/funnels) |
+| [v2026.7.6](/es/changelog/2026/07/2026.7.6) | 10/07 | Ocultar finalizados en el embudo de ventas | [Embudos](/es/guide/crm/funnels) |
+| [v2026.7.5](/es/changelog/2026/07/2026.7.5) | 10/07 | Restricción de canales al iniciar conversación | [Visibilidad al iniciar](/es/guide/channels/start-chat-visibility) |
+| [v2026.7.4](/es/changelog/2026/07/2026.7.4) | 08/07 | Atajos de mensaje en secuencia | [Atajos](/es/guide/chat/message-shortcuts) |
+| [v2026.7.3](/es/changelog/2026/07/2026.7.3) | 07/07 | Nodo Punto de Control e informe de follow-up | [Punto de Control](/es/guide/flows/follow-up-response-rate) |
+| [v2026.7.2](/es/changelog/2026/07/2026.7.2) | 03/07 | Proveedor **DeepSeek** para IA | [DeepSeek](/es/guide/integrations/deepseek) |
+
+[Ver todas las releases de julio →](/es/changelog/2026/07/)
+
+## Dónde navegar
+
+| Destino | Contenido |
+|---------|-----------|
+| [Julio 2026](/es/changelog/2026/07/) | Mes actual |
+| [2026](/es/changelog/2026/) | Todos los meses del año |
+| [2025](/es/changelog/2025/) | Histórico del año anterior |
+| [Roadmap](/es/changelog/roadmap) | Lo que está planificado |
+
+::: tip ¿Busca cómo usar un recurso?
+Para **cómo usar** una función (y no el historial de la release), vaya a [Recursos](/es/features/) o [Guías](/es/guide/introduction).
 :::
 
-## Navegación por Año
+## Formato de versiones
 
-### [📅 2026](/es/changelog/2026/)
-Actualizaciones del año actual.
+Formato **YYYY.MM.N** (año.mes.número de release en el mes).
 
-### [📅 2025](/es/changelog/2025/)
-Actualizaciones de 2025.
+| Ejemplo | Significado |
+|---------|-------------|
+| `2026.7.11` | 11ª release de julio de 2026 |
+| `2026.6.9` | 9ª release de junio de 2026 |
 
----
-
-## Formato de Versiones
-
-Usamos el formato **YYYY.MM.N** para identificar las versiones:
-
-| Componente | Descripción |
-|------------|-------------|
-| YYYY | Año |
-| MM | Mes |
-| N | Número secuencial del release en el mes (empieza en 1) |
-
-**Ejemplo:** `2025.12.3` = Tercer release de Diciembre 2025
-
----
-
-## Leyenda
-
-| Ícono | Significado |
-|-------|-------------|
-| ✨ | Nueva funcionalidad |
-| 🔧 | Mejora |
-| 🐛 | Corrección de bug |
-| ⚠️ | Breaking change |
-| 🔒 | Seguridad |
-| 📦 | Dependencias |
-
----
-
-## Enlaces Rápidos
-
-- [Roadmap](/es/changelog/roadmap) - Funcionalidades planificadas
-- [Enero 2026](/es/changelog/2026/01/) - Actualizaciones recientes
-
-
-
-
+Cada página de versión incluye fecha, qué cambió y, cuando corresponde, enlace a la guía del producto.

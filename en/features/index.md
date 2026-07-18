@@ -1,42 +1,27 @@
 # Features
 
-Discover all the features available on the Interflow platform.
-
-::: warning UNDER UPDATE
-This documentation is in a continuous update phase.
-:::
+Explore Interflow capabilities. Use the **left menu** to browse by area.
 
 ## Overview
 
-Interflow offers a complete set of tools for customer service, automation, and relationship management.
+| Feature | What it does |
+|---------|--------------|
+| [Multi-Channel](/en/features/channels) | WhatsApp, Instagram, Facebook and Email in one inbox |
+| [Chat & Support](/en/features/chat) | Inbox, tags, bulk messages, shortcuts and internal chat |
+| [Automation & AI](/en/features/automation) | Visual flows, AI agents and integrations |
+| [CRM & Customers](/en/features/crm) | Profiles, custom fields and Kanban funnels |
+| [Schedule](/en/features/schedule) | Calendar, reminders, silent flows and booking |
+| [HR / Time Clock](/en/features/hr) | Punch, geofence, hour bank and payroll |
+| [Documents](/en/features/documents) | Templates with variables and conditionals |
+| [Financial](/en/features/financial) | Income, expenses, cashiers and categories |
+| [Billing](/en/features/billing) | Contracts, installments, splits and Asaas |
+| [POS](/en/features/pos) | Sales, products, orders, inventory and tables |
+| [UTM](/en/features/utm) | Campaigns, leads, forms and pixels |
+| [Medical (EMR)](/en/features/medical) | Patients, consultations, records and prescriptions |
+| [Reports](/en/features/reports) | Agent/team volume and exports |
+| [Partner Portal](/en/features/partner) | Organizations, plans, commissions and wallet |
+| [Security & API](/en/features/security) | Granular permissions and API keys |
 
-## 💬 Multi-Channel Support
-
-Centralize all your communication channels on a single platform.
-
-### Supported Channels
-
-| Channel | Features | Status |
-|---------|----------|--------|
-| **WhatsApp Business API** | Messages, templates, catalog, payments | ✅ Available |
-| **WhatsApp WAHA** | Messages, groups, media | ✅ Available |
-| **Instagram Direct** | Messages, stories, media | ✅ Available |
-| **Facebook Messenger** | Messages, media, automation | ✅ Available |
-| **Email** | IMAP/SMTP, attachments, threading | ✅ Available |
-
-## 🤖 AI Automation
-
-Automate your service with visual flows and artificial intelligence.
-
-## 👥 Integrated CRM
-
-Manage your customers with advanced CRM resources.
-
-## 📅 Scheduling
-
-Complete system for appointment and calendar management.
-
-## 💰 Financial Module
-
-Complete control of your operation's finances.
-
+::: tip Need step-by-step?
+The **Guides** cover full setup and usage. Each feature page links to the detailed docs.
+:::

@@ -28,7 +28,8 @@ function getSidebar(lang: string = '') {
           { text: 'WhatsApp WAHA', link: `${prefix}/guide/channels/whatsapp-waha` },
           { text: 'Instagram', link: `${prefix}/guide/channels/instagram` },
           { text: 'Facebook Messenger', link: `${prefix}/guide/channels/facebook` },
-          { text: 'Email', link: `${prefix}/guide/channels/email` }
+          { text: 'Email', link: `${prefix}/guide/channels/email` },
+          { text: lang === 'en' ? 'WhatsApp Templates' : lang === 'es' ? 'Plantillas WhatsApp' : 'Templates WhatsApp', link: `${prefix}/guide/channels/whatsapp-templates` }
         ]
       },
       {
@@ -36,6 +37,9 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Chat Interface' : lang === 'es' ? 'Interfaz de Chat' : 'Interface de Chat', link: `${prefix}/guide/chat/interface` },
+          { text: lang === 'en' ? 'Bulk Messages' : lang === 'es' ? 'Disparos masivos' : 'Disparos em Massa', link: `${prefix}/guide/chat/bulk-messages` },
+          { text: 'Tags', link: `${prefix}/guide/chat/tags` },
+          { text: lang === 'en' ? 'Closure Types' : lang === 'es' ? 'Tipos de cierre' : 'Tipos de Encerramento', link: `${prefix}/guide/chat/closure-types` },
           { text: lang === 'en' ? 'Message Shortcut Sequences' : lang === 'es' ? 'Secuencias en Atajos de Mensaje' : 'Atalhos de Mensagem em Sequência', link: `${prefix}/guide/chat/message-shortcuts` },
           { text: lang === 'en' ? 'Text Enhancer' : lang === 'es' ? 'Mejorador de Texto' : 'Melhorador de Texto', link: `${prefix}/guide/chat/text-enhancer` },
           { text: lang === 'en' ? 'My Tasks' : lang === 'es' ? 'Mis Tareas' : 'Minhas Tarefas', link: `${prefix}/guide/tasks` }
@@ -97,14 +101,16 @@ function getSidebar(lang: string = '') {
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/schedule/` },
           { text: lang === 'en' ? 'Push reminders' : lang === 'es' ? 'Recordatorios push' : 'Lembretes push', link: `${prefix}/guide/schedule/push-reminders` },
-          { text: lang === 'en' ? 'Silent flows by status' : lang === 'es' ? 'Flujos silenciosos por estado' : 'Fluxos silenciosos por status', link: `${prefix}/guide/schedule/silent-flows` }
+          { text: lang === 'en' ? 'Silent flows by status' : lang === 'es' ? 'Flujos silenciosos por estado' : 'Fluxos silenciosos por status', link: `${prefix}/guide/schedule/silent-flows` },
+          { text: lang === 'en' ? 'Public booking' : lang === 'es' ? 'Reserva pública' : 'Agendamento público', link: `${prefix}/guide/schedule/booking` }
         ]
       },
       {
         text: lang === 'en' ? '👥 CRM & Customers' : lang === 'es' ? '👥 CRM y Clientes' : '👥 CRM e Clientes',
         collapsed: false,
         items: [
-          { text: lang === 'en' ? 'Customer Management' : lang === 'es' ? 'Gestión de Clientes' : 'Gerenciamento de Clientes', link: `${prefix}/guide/crm/customers` }
+          { text: lang === 'en' ? 'Customer Management' : lang === 'es' ? 'Gestión de Clientes' : 'Gerenciamento de Clientes', link: `${prefix}/guide/crm/customers` },
+          { text: lang === 'en' ? 'Sales Funnels' : lang === 'es' ? 'Embudos de venta' : 'Funis de Venda', link: `${prefix}/guide/crm/funnels` }
         ]
       },
       {
@@ -145,14 +151,54 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: 'OpenAI', link: `${prefix}/guide/integrations/openai` },
-          { text: 'DeepSeek', link: `${prefix}/guide/integrations/deepseek` }
+          { text: 'DeepSeek', link: `${prefix}/guide/integrations/deepseek` },
+          { text: 'ElevenLabs', link: `${prefix}/guide/integrations/elevenlabs` },
+          { text: 'Minimax', link: `${prefix}/guide/integrations/minimax` },
+          { text: 'Firecrawl', link: `${prefix}/guide/integrations/firecrawl` },
+          { text: 'AWS S3', link: `${prefix}/guide/integrations/s3` },
+          { text: lang === 'en' ? 'API Keys' : lang === 'es' ? 'Claves de API' : 'Chaves de API', link: `${prefix}/guide/integrations/api-keys` }
         ]
       },
       {
-        text: lang === 'en' ? '💰 Billing' : lang === 'es' ? '💰 Facturación' : '💰 Cobrança',
+        text: lang === 'en' ? '💰 Customer Billing' : lang === 'es' ? '💰 Facturación' : '💰 Cobrança',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/billing/` }
+        ]
+      },
+      {
+        text: lang === 'en' ? '💵 Financial' : lang === 'es' ? '💵 Financiero' : '💵 Financeiro',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/financial/` }
+        ]
+      },
+      {
+        text: lang === 'en' ? '🛒 POS' : lang === 'es' ? '🛒 PDV' : '🛒 PDV',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/pos/` }
+        ]
+      },
+      {
+        text: lang === 'en' ? '📈 UTM Tracking' : lang === 'es' ? '📈 UTM / Tracking' : '📈 UTM / Tracking',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/utm/` }
+        ]
+      },
+      {
+        text: lang === 'en' ? '🩺 Medical (EMR)' : lang === 'es' ? '🩺 Médico (EMR)' : '🩺 Médico (EMR)',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/medical/` }
+        ]
+      },
+      {
+        text: lang === 'en' ? '🤝 Partner Portal' : lang === 'es' ? '🤝 Portal del socio' : '🤝 Portal do Parceiro',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/partner/` }
         ]
       }
     ],
@@ -180,6 +226,45 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/features/` }
+        ]
+      },
+      {
+        text: lang === 'en' ? 'Communication' : lang === 'es' ? 'Comunicación' : 'Comunicação',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Multi-Channel' : lang === 'es' ? 'Atención multicanal' : 'Atendimento Multicanal', link: `${prefix}/features/channels` },
+          { text: lang === 'en' ? 'Chat & Support' : lang === 'es' ? 'Chat y atención' : 'Chat e Atendimento', link: `${prefix}/features/chat` },
+          { text: lang === 'en' ? 'Automation & AI' : lang === 'es' ? 'Automatización e IA' : 'Automação e IA', link: `${prefix}/features/automation` }
+        ]
+      },
+      {
+        text: lang === 'en' ? 'CRM & Operations' : lang === 'es' ? 'CRM y operaciones' : 'CRM e Operações',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'CRM & Customers' : lang === 'es' ? 'CRM y clientes' : 'CRM e Clientes', link: `${prefix}/features/crm` },
+          { text: lang === 'en' ? 'Schedule' : lang === 'es' ? 'Agenda' : 'Agenda', link: `${prefix}/features/schedule` },
+          { text: lang === 'en' ? 'HR / Time Clock' : lang === 'es' ? 'RRHH / Fichaje' : 'RH / Ponto', link: `${prefix}/features/hr` },
+          { text: lang === 'en' ? 'Documents' : lang === 'es' ? 'Documentos' : 'Documentos', link: `${prefix}/features/documents` }
+        ]
+      },
+      {
+        text: lang === 'en' ? 'Commerce' : lang === 'es' ? 'Comercio' : 'Comércio',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Financial' : lang === 'es' ? 'Financiero' : 'Financeiro', link: `${prefix}/features/financial` },
+          { text: lang === 'en' ? 'Customer Billing' : lang === 'es' ? 'Facturación' : 'Cobrança', link: `${prefix}/features/billing` },
+          { text: 'POS / PDV', link: `${prefix}/features/pos` },
+          { text: 'UTM', link: `${prefix}/features/utm` }
+        ]
+      },
+      {
+        text: lang === 'en' ? 'More modules' : lang === 'es' ? 'Más módulos' : 'Mais módulos',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Medical (EMR)' : lang === 'es' ? 'Médico (EMR)' : 'Médico (EMR)', link: `${prefix}/features/medical` },
+          { text: lang === 'en' ? 'Reports' : lang === 'es' ? 'Informes' : 'Relatórios', link: `${prefix}/features/reports` },
+          { text: lang === 'en' ? 'Partner Portal' : lang === 'es' ? 'Portal del socio' : 'Portal do Parceiro', link: `${prefix}/features/partner` },
+          { text: lang === 'en' ? 'Security & API' : lang === 'es' ? 'Seguridad y API' : 'Segurança e API', link: `${prefix}/features/security` }
         ]
       }
     ],

@@ -155,7 +155,7 @@ Agora que você conhece a Interflow, siga para o próximo passo:
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0;">
 
 <a href="/guide/quick-start" style="text-decoration: none;">
-  <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 20px; text-align: center;">
+  <div style="background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%); border-radius: 12px; padding: 20px; text-align: center;">
     <span style="color: white; font-size: 32px;">🚀</span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Início Rápido</p>
   </div>

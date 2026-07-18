@@ -1,50 +1,48 @@
 # Changelog
 
-Histórico de atualizações e novidades da plataforma Interflow.
+Novidades, melhorias e correções da plataforma Interflow — organizadas por versão.
 
-::: tip 📢 Acompanhe as Novidades
-A Interflow está em constante evolução. Acompanhe aqui todas as atualizações, melhorias e correções.
+Use esta página para ver as **últimas atualizações** e ir direto à release ou ao guia correspondente.
+
+## Últimas 10 atualizações
+
+As **10 releases mais recentes** (mais nova primeiro):
+
+| Versão | Data | Destaque | Saiba mais |
+|--------|------|----------|------------|
+| [v2026.7.11](/changelog/2026/07/2026.7.11) | 17/07 | **RH / Ponto** — cartão ponto, geofence, jornada, folha e push | [Guia RH](/guide/hr/) |
+| [v2026.7.10](/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** no Agente de IA — rotas com allowlist e teste | [Ferramentas da IA](/guide/ai-agents/tools) |
+| [v2026.7.9](/changelog/2026/07/2026.7.9) | 15/07 | Contato e endereço do cliente (com GPS) via tools e no CRM | [Clientes](/guide/crm/customers) |
+| [v2026.7.8](/changelog/2026/07/2026.7.8) | 14/07 | Chats internos com áudio e marcar lida/não lida | [Interface de chat](/guide/chat/interface) |
+| [v2026.7.7](/changelog/2026/07/2026.7.7) | 10/07 | Busca de clientes no funil de vendas | [Funis](/guide/crm/funnels) |
+| [v2026.7.6](/changelog/2026/07/2026.7.6) | 10/07 | Ocultar finalizados no funil de vendas | [Funis](/guide/crm/funnels) |
+| [v2026.7.5](/changelog/2026/07/2026.7.5) | 10/07 | Restrição de canais ao iniciar conversa | [Visibilidade ao iniciar](/guide/channels/start-chat-visibility) |
+| [v2026.7.4](/changelog/2026/07/2026.7.4) | 08/07 | Atalhos de mensagem em sequência | [Atalhos](/guide/chat/message-shortcuts) |
+| [v2026.7.3](/changelog/2026/07/2026.7.3) | 07/07 | Nó Ponto de Controle e relatório de follow-up | [Ponto de Controle](/guide/flows/follow-up-response-rate) |
+| [v2026.7.2](/changelog/2026/07/2026.7.2) | 03/07 | Provedor **DeepSeek** para IA | [DeepSeek](/guide/integrations/deepseek) |
+
+[Ver todas as releases de julho →](/changelog/2026/07/)
+
+## Onde navegar
+
+| Destino | Conteúdo |
+|---------|----------|
+| [Julho 2026](/changelog/2026/07/) | Mês atual |
+| [2026](/changelog/2026/) | Todos os meses do ano |
+| [2025](/changelog/2025/) | Histórico do ano anterior |
+| [Roadmap](/changelog/roadmap) | O que está planejado |
+
+::: tip Preferência por tema?
+Se você busca **como usar** um recurso (e não o histórico da release), vá em [Recursos](/features/) ou [Guias](/guide/introduction).
 :::
 
-## Navegação por Ano
+## Como ler as versões
 
-### [📅 2026](/changelog/2026/)
-Atualizações do ano corrente.
+Formato **YYYY.MM.N** (ano.mês.número da release no mês).
 
-### [📅 2025](/changelog/2025/)
-Atualizações de 2025.
+| Exemplo | Significado |
+|---------|-------------|
+| `2026.7.11` | 11ª release de julho de 2026 |
+| `2026.6.9` | 9ª release de junho de 2026 |
 
----
-
-## Formato das Versões
-
-Usamos o formato **YYYY.MM.N** para identificar as versões:
-
-| Componente | Descrição |
-|------------|-----------|
-| YYYY | Ano |
-| MM | Mês |
-| N | Número sequencial da release no mês (começa em 1) |
-
-**Exemplo:** `2025.12.3` = Terceira release de Dezembro de 2025
-
----
-
-## Legenda
-
-| Ícone | Significado |
-|-------|-------------|
-| ✨ | Nova funcionalidade |
-| 🔧 | Melhoria |
-| 🐛 | Correção de bug |
-| ⚠️ | Breaking change |
-| 🔒 | Segurança |
-| 📦 | Dependências |
-
----
-
-## Links Rápidos
-
-- [Roadmap](/changelog/roadmap) - Funcionalidades planejadas
-- [Janeiro 2026](/changelog/2026/01/) - Atualizações recentes
-
+Cada página de versão traz data de lançamento, o que mudou e, quando faz sentido, link para o guia do produto.

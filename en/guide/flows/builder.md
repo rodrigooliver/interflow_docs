@@ -11,7 +11,7 @@ Esta documentação está em fase de atualização contínua.
 O Construtor de Fluxos permite criar automações de atendimento de forma visual, sem necessidade de programação. Arraste, conecte e configure nós para definir o comportamento do seu chatbot.
 
 <!-- Placeholder para screenshot -->
-<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 12px; padding: 80px 20px; text-align: center; margin: 20px 0;">
+<div style="background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%); border-radius: 12px; padding: 80px 20px; text-align: center; margin: 20px 0;">
   <span style="color: white; font-size: 24px;">📸 Interface do Construtor de Fluxos (em breve)</span>
 </div>
 

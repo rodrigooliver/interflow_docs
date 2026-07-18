@@ -30,7 +30,7 @@ Los atajos con **solo un mensaje** siguen funcionando exactamente como antes.
 3. En la sección **Mensajes**, completa el primer paso (texto y adjuntos)
 4. Haz clic en **Agregar mensaje** para incluir más pasos
 5. En cada paso (excepto el último), define el **intervalo antes del siguiente**:
-   - Opciones: 0,5s, 1s, 2s, 3s, 5s, 10s, 15s o 30s
+ - Opciones: 0,5s, 1s, 2s, 3s, 5s, 10s, 15s o 30s
 6. Marca o desmarca **Firmar mensaje** por paso, si es necesario
 7. Reordena con los botones de mover arriba/abajo
 8. Guarda
@@ -45,9 +45,9 @@ Los atajos creados antes de esta versión se convierten automáticamente al form
 
 1. En el atendimiento, escribe `/` y elige el atajo deseado
 2. Si el atajo tiene **más de un mensaje**, se abre un **modal de revisión**:
-   - Edita el texto de cualquier paso
-   - Elimina adjuntos de pasos específicos (sin cambiar el atajo guardado)
-   - Ajusta intervalos entre mensajes
+ - Edita el texto de cualquier paso
+ - Elimina adjuntos de pasos específicos (sin cambiar el atajo guardado)
+ - Ajusta intervalos entre mensajes
 3. Haz clic en **Enviar Secuencia** o presiona **Enter**
 4. Los mensajes aparecen en el chat en secuencia, con los intervalos configurados
 
