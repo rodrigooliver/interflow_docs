@@ -6,6 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.13](/en/changelog/2026/07/2026.7.13) | 07/18 | **Research websites** — AI Agent tool with Firecrawl or plain HTML, allowlist, and optional web search |
 | [2026.7.12](/en/changelog/2026/07/2026.7.12) | 07/18 | **WhatsApp WAHA** — passkey verification when connecting the channel |
 | [2026.7.11](/en/changelog/2026/07/2026.7.11) | 07/17 | **HR / Time clock** — punches, schedule, calendar, absences, daily payroll, and push |
 | [2026.7.10](/en/changelog/2026/07/2026.7.10) | 07/16 | **Query API** — external API tool, generate routes with AI, and test before publishing |
@@ -23,7 +24,12 @@ Updates for July 2026.
 
 ## Month Summary
 
-### New Features (30)
+### New Features (35)
+- **Research information on websites** (v2026.7.13) — AI Agent tool to read web pages and use the content in replies
+- **Firecrawl integration** (v2026.7.13) — organization API key under Settings → Integrations, with validation and encryption
+- **Plain HTML engine** (v2026.7.13) — scrape without a Firecrawl key for static sites
+- **Allowlist and subpages** (v2026.7.13) — allowed sites, query params, and follow-up on subpages under the same path
+- **Free web search** (v2026.7.13) — optional Firecrawl search beyond the site list
 - **Passkey verification for WhatsApp WAHA** (v2026.7.12) — passkey flow with browser extension and optional 4-digit confirmation
 - **HR / Time clock module** (v2026.7.11) — clock-in, break, return, and clock-out with photo, GPS, and audit trail
 - **Workplaces and geofence** (v2026.7.11) — sites with radius and per-employee rules (including home office)
@@ -85,5 +91,5 @@ Updates for July 2026.
 ---
 
 ::: info Total
-**12 releases** this month!
+**13 releases** this month!
 :::

@@ -97,7 +97,7 @@ In customer edit, the **Addresses** section lets you manage one or more delivery
 4. Save
 
 ::: tip 💡 AI Agent
-Addresses can also be written automatically by the **Update Customer Address** tool — see [AI Tools](/en/guide/ai-agents/tools#update-customer-address).
+Addresses can also be written automatically by the **Update Customer Address** tool — see [AI Tools](/en/guide/ai-agents/tools/change-customer-address).
 :::
 
 ### History

@@ -103,7 +103,7 @@ Na edição do cliente, a seção **Endereços** permite gerenciar um ou mais en
 4. Salve
 
 ::: tip 💡 Agente de IA
-Os endereços também podem ser gravados automaticamente pela ferramenta **Alterar Endereço do Cliente** — veja [Ferramentas da IA](/guide/ai-agents/tools#alterar-endereço-do-cliente).
+Os endereços também podem ser gravados automaticamente pela ferramenta **Alterar Endereço do Cliente** — veja [Ferramentas da IA](/guide/ai-agents/tools/change-customer-address).
 :::
 
 ### Histórico

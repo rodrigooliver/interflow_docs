@@ -14,5 +14,5 @@ Fluxos visuais, agentes de IA e integrações para automatizar o atendimento.
 - [Construtor de fluxos](/guide/flows/builder)
 - [Tipos de nós](/guide/flows/nodes/)
 - [Agentes IA](/guide/ai-agents/)
-- [Ferramentas da IA](/guide/ai-agents/tools)
+- [Ferramentas da IA](/guide/ai-agents/tools/)
 - [Integrações](/guide/integrations/openai)

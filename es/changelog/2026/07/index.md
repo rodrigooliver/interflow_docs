@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.13](/es/changelog/2026/07/2026.7.13) | 18/07 | **Investigar sitios** — herramienta del Agente de IA con Firecrawl o HTML puro, allowlist y búsqueda web opcional |
 | [2026.7.12](/es/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificación con clave de acceso (passkey) al conectar el canal |
 | [2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — fichaje, jornada, calendario, ausencias, nómina diaria y push |
 | [2026.7.10](/es/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** — herramienta para APIs externas, generar rutas con IA y probar antes de publicar |
@@ -23,7 +24,12 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (30)
+### Nuevas Funcionalidades (35)
+- **Investigar información en sitios** (v2026.7.13) — herramienta del Agente de IA para leer páginas web y usar el contenido en la respuesta
+- **Integración Firecrawl** (v2026.7.13) — API key de la organización en Configuración → Integraciones, con validación y cifrado
+- **Motor HTML puro** (v2026.7.13) — scrape sin clave Firecrawl para sitios estáticos
+- **Allowlist y subpáginas** (v2026.7.13) — sitios permitidos, query params y follow-up en subpáginas del mismo path
+- **Búsqueda libre en la web** (v2026.7.13) — search opcional vía Firecrawl además de la lista de sitios
 - **Verificación con clave de acceso en WhatsApp WAHA** (v2026.7.12) — flujo de passkey con extensión del navegador y confirmación opcional de código de 4 dígitos
 - **Módulo RRHH / Fichaje** (v2026.7.11) — entrada, pausa, retorno y salida con foto, GPS y auditoría
 - **Locales y geofence** (v2026.7.11) — lugares con radio y reglas por colaborador (incluido home office)
@@ -85,5 +91,5 @@ Actualizaciones del mes de julio de 2026.
 ---
 
 ::: info Total
-**12 lanzamientos** este mes!
+**13 lanzamientos** este mes!
 :::

@@ -14,5 +14,5 @@ Visual flows, AI agents, and integrations to automate support.
 - [Flow builder](/en/guide/flows/builder)
 - [Node types](/en/guide/flows/nodes/)
 - [AI agents](/en/guide/ai-agents/)
-- [AI tools](/en/guide/ai-agents/tools)
+- [AI tools](/en/guide/ai-agents/tools/)
 - [Integrations](/en/guide/integrations/openai)

@@ -97,7 +97,7 @@ En la edición del cliente, la sección **Direcciones** permite gestionar una o 
 4. Guarde
 
 ::: tip 💡 Agente de IA
-Las direcciones también pueden grabarse automáticamente con la herramienta **Cambiar Dirección del Cliente** — vea [Herramientas de IA](/es/guide/ai-agents/tools#cambiar-dirección-del-cliente).
+Las direcciones también pueden grabarse automáticamente con la herramienta **Cambiar Dirección del Cliente** — vea [Herramientas de IA](/es/guide/ai-agents/tools/change-customer-address).
 :::
 
 ### Historial

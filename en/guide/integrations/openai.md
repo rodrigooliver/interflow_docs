@@ -76,20 +76,32 @@ Below are the **main models**, but you can choose any other model available on O
 
 | Model | Input | Output | Notes |
 |-------|-------|--------|-------|
-| GPT-5.2 | $1.75 / 1M tokens | $14.00 / 1M tokens | Main model for coding and agents |
-| GPT-5 mini | $0.25 / 1M tokens | $2.00 / 1M tokens | Fast and cost-effective version |
-| GPT-5 nano | $0.05 / 1M tokens | $0.40 / 1M tokens | Most economical in the family |
+| GPT-5.5 | $5.00 / 1M tokens | $30.00 / 1M tokens | Premium reasoning |
+| GPT-5.4 | $2.50 / 1M tokens | $15.00 / 1M tokens | Latest reasoning |
+| GPT-5.4 Mini | $0.75 / 1M tokens | $4.50 / 1M tokens | Economical reasoning |
+| GPT-5.4 Nano | $0.20 / 1M tokens | $1.25 / 1M tokens | Super economical reasoning |
+| GPT-5.2 | $1.75 / 1M tokens | $14.00 / 1M tokens | Advanced reasoning |
+| GPT-5.1 / GPT-5 | $1.25 / 1M tokens | $10.00 / 1M tokens | Reasoning |
+| GPT-5 Mini | $0.25 / 1M tokens | $2.00 / 1M tokens | Fast and cost-effective |
+| GPT-5 Nano | $0.05 / 1M tokens | $0.40 / 1M tokens | Most economical in the family |
+
+### Conversation models (Chat)
+
+| Model | Input | Output |
+|-------|-------|--------|
+| GPT-5.3 / 5.2 Chat Latest | $1.75 / 1M tokens | $14.00 / 1M tokens |
+| GPT-5.1 / GPT-5 Chat Latest | $1.25 / 1M tokens | $10.00 / 1M tokens |
 
 ### Models without reasoning
 
 | Model | Input | Output | Notes |
 |-------|-------|--------|-------|
 | GPT-4.1 | $2.00 / 1M tokens | $8.00 / 1M tokens | Smart and versatile model |
-| GPT-4.1 mini | $0.40 / 1M tokens | $1.60 / 1M tokens | Low cost with good performance |
-| GPT-4.1 nano | $0.10 / 1M tokens | $0.40 / 1M tokens | Most economical, ideal for light tasks |
+| GPT-4.1 Mini | $0.40 / 1M tokens | $1.60 / 1M tokens | Low cost with good performance |
+| GPT-4.1 Nano | $0.10 / 1M tokens | $0.40 / 1M tokens | Most economical, ideal for light tasks |
 
 ::: tip TIP
-For most customer service use cases, **GPT-5 nano** or **GPT-5 mini** offer excellent value with high-quality responses. Use **GPT-4.1** when you don't need advanced reasoning features.
+For most customer service use cases, **GPT-5 Nano**, **GPT-5 Mini**, or **GPT-5.4 Nano** offer excellent value. Use **GPT-4.1** when you don't need advanced reasoning. Full list in [AI Agents](/en/guide/ai-agents/).
 :::
 
 ## Need help?

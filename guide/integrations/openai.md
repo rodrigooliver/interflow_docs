@@ -76,20 +76,32 @@ Abaixo estão os **modelos principais**, mas você pode escolher qualquer outro 
 
 | Modelo | Entrada | Saída | Observação |
 |--------|---------|-------|------------|
-| GPT-5.2 | $1.75 / 1M tokens | $14.00 / 1M tokens | Modelo principal para coding e agentes |
-| GPT-5 mini | $0.25 / 1M tokens | $2.00 / 1M tokens | Versão rápida e econômica |
-| GPT-5 nano | $0.05 / 1M tokens | $0.40 / 1M tokens | Mais econômico da família |
+| GPT-5.5 | $5.00 / 1M tokens | $30.00 / 1M tokens | Raciocínio premium |
+| GPT-5.4 | $2.50 / 1M tokens | $15.00 / 1M tokens | Raciocínio mais recente |
+| GPT-5.4 Mini | $0.75 / 1M tokens | $4.50 / 1M tokens | Raciocínio econômico |
+| GPT-5.4 Nano | $0.20 / 1M tokens | $1.25 / 1M tokens | Raciocínio super econômico |
+| GPT-5.2 | $1.75 / 1M tokens | $14.00 / 1M tokens | Raciocínio avançado |
+| GPT-5.1 / GPT-5 | $1.25 / 1M tokens | $10.00 / 1M tokens | Raciocínio |
+| GPT-5 Mini | $0.25 / 1M tokens | $2.00 / 1M tokens | Versão rápida e econômica |
+| GPT-5 Nano | $0.05 / 1M tokens | $0.40 / 1M tokens | Mais econômico da família |
+
+### Modelos de conversação (Chat)
+
+| Modelo | Entrada | Saída |
+|--------|---------|-------|
+| GPT-5.3 / 5.2 Chat Latest | $1.75 / 1M tokens | $14.00 / 1M tokens |
+| GPT-5.1 / GPT-5 Chat Latest | $1.25 / 1M tokens | $10.00 / 1M tokens |
 
 ### Modelos sem raciocínio
 
 | Modelo | Entrada | Saída | Observação |
 |--------|---------|-------|------------|
 | GPT-4.1 | $2.00 / 1M tokens | $8.00 / 1M tokens | Modelo inteligente e versátil |
-| GPT-4.1 mini | $0.40 / 1M tokens | $1.60 / 1M tokens | Baixo custo com bom desempenho |
-| GPT-4.1 nano | $0.10 / 1M tokens | $0.40 / 1M tokens | Mais econômico, ideal para tarefas leves |
+| GPT-4.1 Mini | $0.40 / 1M tokens | $1.60 / 1M tokens | Baixo custo com bom desempenho |
+| GPT-4.1 Nano | $0.10 / 1M tokens | $0.40 / 1M tokens | Mais econômico, ideal para tarefas leves |
 
 ::: tip DICA
-Para a maioria dos casos de atendimento, o **GPT-5 nano** ou **GPT-5 mini** oferecem excelente custo-benefício com respostas de alta qualidade. Use **GPT-4.1** quando não precisar de recursos de raciocínio avançado.
+Para a maioria dos casos de atendimento, o **GPT-5 Nano**, **GPT-5 Mini** ou **GPT-5.4 Nano** oferecem excelente custo-benefício. Use **GPT-4.1** quando não precisar de raciocínio avançado. Lista completa no [Agente IA](/guide/ai-agents/).
 :::
 
 ## Precisa de ajuda?

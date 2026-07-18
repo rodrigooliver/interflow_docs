@@ -12,37 +12,68 @@ Ao criar um Agente IA, o sistema **gera automaticamente um fluxo** vinculado a e
 
 ## Modelos Disponíveis
 
-Atualmente utilizamos os modelos da **OpenAI**. Os modelos são divididos em duas categorias:
+No Agente de IA você escolhe a **integração** e o **modelo**:
 
-### Com Raciocínio
+| Integração | Quem paga | Modelos |
+|------------|-----------|---------|
+| **Interflow** | Créditos do plano | OpenAI (lista abaixo) |
+| **OpenAI** (chave própria) | Sua conta OpenAI | Mesma família OpenAI |
+| **DeepSeek** (chave própria) | Sua conta DeepSeek | DeepSeek V4 Flash e V4 Pro |
 
-Modelos que possuem capacidade de raciocínio avançado, ideais para tarefas complexas.
+### OpenAI — Com Raciocínio
 
-| Modelo | Descrição | Custo |
-|--------|-----------|-------|
-| GPT-5.2 | Modelo mais recente e inteligente | 💲💲💲 |
-| GPT-5.1 | Modelo avançado com raciocínio | 💲💲💲 |
-| GPT-5 | Modelo com raciocínio | 💲💲💲 |
-| GPT-5 Mini | Versão econômica com raciocínio | 💲 |
-| GPT-5 Nano | Super econômico com raciocínio | 💲 |
-| GPT-5 Chat | Especializado em conversação | 💲💲💲 |
-
-### Sem Raciocínio
-
-Modelos mais simples e rápidos, ideais para tarefas diretas.
+Modelos com raciocínio avançado (nível de esforço e verbosidade configuráveis).
 
 | Modelo | Descrição | Custo |
 |--------|-----------|-------|
-| GPT-4.1 | Modelo inteligente e versátil | 💲💲💲 |
+| GPT-5.5 | Raciocínio premium | 💲💲💲💲 |
+| GPT-5.4 | Raciocínio mais recente | 💲💲💲 |
+| GPT-5.4 Mini | Raciocínio econômico | 💲 |
+| GPT-5.4 Nano | Raciocínio super econômico | 💲 |
+| GPT-5.2 | Raciocínio avançado | 💲💲💲 |
+| GPT-5.1 | Raciocínio avançado | 💲💲💲 |
+| GPT-5 | Raciocínio | 💲💲💲 |
+| GPT-5 Mini | Raciocínio econômico | 💲 |
+| GPT-5 Nano | Raciocínio super econômico | 💲 |
+
+### OpenAI — Conversação (Chat)
+
+Especializados em conversação; os modelos `gpt-5.X-chat-latest` também suportam raciocínio (exceto o legado GPT-5 Chat Latest).
+
+| Modelo | Descrição | Custo |
+|--------|-----------|-------|
+| GPT-5.3 Chat Latest | Conversação | 💲💲💲 |
+| GPT-5.2 Chat Latest | Conversação | 💲💲💲 |
+| GPT-5.1 Chat Latest | Conversação | 💲💲💲 |
+| GPT-5 Chat Latest | Conversação (legado) | 💲💲💲 |
+
+### OpenAI — Sem Raciocínio
+
+Modelos mais simples e rápidos, com temperatura e máximo de tokens.
+
+| Modelo | Descrição | Custo |
+|--------|-----------|-------|
+| GPT-4.1 | Inteligente e versátil | 💲💲💲 |
 | GPT-4.1 Mini | Baixo custo com bom desempenho | 💲 |
-| GPT-4.1 Nano | Mais econômico, ideal para tarefas leves | 💲 |
+| GPT-4.1 Nano | Mais econômico, tarefas leves | 💲 |
+
+### DeepSeek (chave própria)
+
+Disponíveis ao cadastrar a integração DeepSeek. Não consomem créditos Interflow.
+
+| Modelo | Descrição | Custo (referência) |
+|--------|-----------|--------------------|
+| DeepSeek V4 Flash | Rápido e econômico | 💲 |
+| DeepSeek V4 Pro | Mais capaz, tarefas complexas | 💲💲 |
+
+Ambos suportam **Thinking Mode** (raciocínio em cadeia) com esforço Alto ou Máximo. Com Thinking Mode ativo, a temperatura é ignorada pela API da DeepSeek.
 
 ::: tip 💡 Dica
-Para a maioria dos casos de atendimento, o **GPT-5 Nano** ou **GPT-5 Mini** oferecem excelente custo-benefício. Veja mais detalhes em [Integração OpenAI](/guide/integrations/openai).
+Para a maioria dos atendimentos com créditos Interflow, **GPT-5 Nano** ou **GPT-5 Mini** (ou **GPT-5.4 Nano** / **Mini**) oferecem bom custo-benefício. Com chave própria, veja também [OpenAI](/guide/integrations/openai) e [DeepSeek](/guide/integrations/deepseek).
 :::
 
 ::: info 🚀 Em Breve
-Novos modelos serão adicionados em breve, incluindo **Claude** (Anthropic), **Gemini** (Google) e outros.
+Outros provedores poderão ser adicionados no futuro (ex.: Claude, Gemini).
 :::
 
 ## Acessando Agentes IA
@@ -129,30 +160,13 @@ O agente pode referenciar e enviar esses arquivos durante a conversa quando apro
 
 ### 4. Ferramentas
 
-Configure as ações que o agente pode executar. Existem dois tipos:
+Configure as ações que o agente pode executar durante a conversa. Há dois tipos:
 
-#### Ações Prontas (Sistema)
-Ações pré-configuradas da Interflow:
+- **Ações prontas** — cadastro do cliente, contato, endereço, consultar API, pesquisar em sites, transferir, agenda, funil, follow-up e outras
+- **Ações personalizadas** — ferramentas que você cria (parâmetros + o que executar ao acionar)
 
-| Ação | Descrição |
-|------|-----------|
-| **Alterar Nome do Cliente** | Atualiza o nome do cliente no cadastro |
-| **Atualizar Dados do Cliente** | Modifica campos personalizados do cliente |
-| **Transferir para Equipe** | Encaminha o chat para uma equipe humana |
-| **Agendar** | Cria um novo agendamento na agenda |
-| **Confirmar Agendamento** | Confirma um agendamento existente |
-| **Alterar Funil** | Move o cliente entre etapas do funil |
-| **Quando Não Souber Responder** | Define comportamento para perguntas desconhecidas |
-| **Alterar Data de Retorno** | Reprograma follow-up automático |
-
-#### Ações Personalizadas
-Crie ferramentas customizadas para integrações específicas. Cada ferramenta pode ter:
-- **Nome e Descrição**: Identificação da ferramenta
-- **Parâmetros**: Variáveis que a IA deve coletar
-- **Ações**: O que fazer quando a ferramenta for acionada
-
-::: tip 📖 Saiba Mais
-Veja a documentação completa em [Ferramentas da IA](/guide/ai-agents/tools).
+::: tip 📖 Ver mais
+Lista completa, descrição de cada ação e passo a passo: [Ferramentas da IA](/guide/ai-agents/tools/).
 :::
 
 ### 5. Base de Conhecimento
@@ -203,11 +217,12 @@ Configurações detalhadas do agente:
 - **Prompt Padrão**: Disponibilizar para todas as organizações (apenas superadmins)
 
 #### Configurações de IA
-- **Integração**: Escolha entre Interflow (tokens do plano) ou OpenAI customizada
-- **Modelo**: Selecione o modelo de IA a ser utilizado
-- **Temperatura** (modelos sem raciocínio): Controla a criatividade das respostas (0.0 a 2.0)
-- **Nível de Raciocínio** (modelos com raciocínio): Baixo, Médio ou Alto
-- **Máximo de Tokens** (modelos sem raciocínio): Limite de tokens na resposta
+- **Integração**: Interflow (créditos do plano), OpenAI (chave própria) ou DeepSeek (chave própria)
+- **Modelo**: Selecione o modelo conforme a integração
+- **Temperatura** (OpenAI sem raciocínio): Controla a criatividade das respostas (0.0 a 2.0)
+- **Nível de Raciocínio** (OpenAI com raciocínio): Baixo, Médio ou Alto
+- **Thinking Mode** (DeepSeek): Liga/desliga raciocínio em cadeia e esforço (Alto / Máximo)
+- **Máximo de Tokens** (OpenAI sem raciocínio): Limite de tokens na resposta
 - **Verbosidade** (modelos GPT-5): Controla o tamanho das respostas
 - **Fuso Horário**: Define o timezone para datas e horários
 
@@ -252,18 +267,23 @@ O uso dos Agentes IA é medido em **créditos baseados em USD**, proporcionando 
 | **Créditos Comprados** | Adquiridos separadamente. Não expiram. |
 | **Créditos Bônus** | Promocionais ou de indicação. Não expiram. |
 
-### Tabela de Custos por Modelo
+### Tabela de Custos por Modelo (créditos Interflow / OpenAI)
 
 | Modelo | Input (1M tokens) | Output (1M tokens) |
 |--------|-------------------|--------------------|
-| **GPT-5.2** | $1.75 | $14.00 |
-| **GPT-5.1** | $1.25 | $10.00 |
-| **GPT-5** | $1.25 | $10.00 |
+| **GPT-5.5** | $5.00 | $30.00 |
+| **GPT-5.4** | $2.50 | $15.00 |
+| **GPT-5.4 Mini** | $0.75 | $4.50 |
+| **GPT-5.4 Nano** | $0.20 | $1.25 |
+| **GPT-5.2** / **GPT-5.3 Chat Latest** | $1.75 | $14.00 |
+| **GPT-5.1** / **GPT-5** / **GPT-5 Chat Latest** | $1.25 | $10.00 |
 | **GPT-5 Mini** | $0.25 | $2.00 |
 | **GPT-5 Nano** | $0.05 | $0.40 |
 | **GPT-4.1** | $2.00 | $8.00 |
 | **GPT-4.1 Mini** | $0.40 | $1.60 |
 | **GPT-4.1 Nano** | $0.10 | $0.40 |
+
+Preços DeepSeek (cobrança na conta DeepSeek): veja [Integração DeepSeek](/guide/integrations/deepseek).
 
 ::: tip 💡 Economia
 Tokens em cache custam até **10x menos**. Modelos Mini e Nano são significativamente mais baratos para casos de uso de alto volume.
@@ -410,7 +430,7 @@ Acompanhe o desempenho dos seus Agentes IA:
 
 ## Próximos Passos
 
-- [Ferramentas da IA](/guide/ai-agents/tools) - Configure ações do agente
+- [Ferramentas da IA](/guide/ai-agents/tools/) - Configure ações do agente
 - [Melhorador de Texto](/guide/chat/text-enhancer) - Comandos de IA para atendentes
 - [Fluxos de Atendimento](/guide/flows/builder) - Integre IA nos fluxos
 - [Agenda](/guide/schedule/) - Configure agendamentos via IA

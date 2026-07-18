@@ -92,7 +92,26 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/ai-agents/` },
-          { text: lang === 'en' ? 'AI Tools' : lang === 'es' ? 'Herramientas de IA' : 'Ferramentas da IA', link: `${prefix}/guide/ai-agents/tools` }
+          {
+            text: lang === 'en' ? 'AI Tools' : lang === 'es' ? 'Herramientas de IA' : 'Ferramentas da IA',
+            collapsed: true,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/ai-agents/tools/` },
+              { text: lang === 'en' ? 'Change Customer Name' : lang === 'es' ? 'Cambiar Nombre del Cliente' : 'Alterar Nome do Cliente', link: `${prefix}/guide/ai-agents/tools/change-customer-name` },
+              { text: lang === 'en' ? 'Update Customer Data' : lang === 'es' ? 'Actualizar Datos del Cliente' : 'Atualizar Dados do Cliente', link: `${prefix}/guide/ai-agents/tools/update-customer-data` },
+              { text: lang === 'en' ? 'Update Customer Contact' : lang === 'es' ? 'Cambiar Contacto del Cliente' : 'Alterar Contato do Cliente', link: `${prefix}/guide/ai-agents/tools/change-customer-contact` },
+              { text: lang === 'en' ? 'Update Customer Address' : lang === 'es' ? 'Cambiar Dirección del Cliente' : 'Alterar Endereço do Cliente', link: `${prefix}/guide/ai-agents/tools/change-customer-address` },
+              { text: lang === 'en' ? 'Query API' : lang === 'es' ? 'Consultar API' : 'Consultar API', link: `${prefix}/guide/ai-agents/tools/query-api` },
+              { text: lang === 'en' ? 'Research Websites' : lang === 'es' ? 'Investigar Sitios' : 'Pesquisar em Sites', link: `${prefix}/guide/ai-agents/tools/research-websites` },
+              { text: lang === 'en' ? 'Transfer to Team' : lang === 'es' ? 'Transferir a Equipo' : 'Transferir para Equipe', link: `${prefix}/guide/ai-agents/tools/transfer-to-team` },
+              { text: lang === 'en' ? 'Schedule' : lang === 'es' ? 'Agendar' : 'Agendar', link: `${prefix}/guide/ai-agents/tools/schedule` },
+              { text: lang === 'en' ? 'Confirm Appointment' : lang === 'es' ? 'Confirmar Cita' : 'Confirmar Agendamento', link: `${prefix}/guide/ai-agents/tools/confirm-schedule` },
+              { text: lang === 'en' ? 'Change Funnel' : lang === 'es' ? 'Cambiar Embudo' : 'Alterar Funil', link: `${prefix}/guide/ai-agents/tools/change-funnel` },
+              { text: lang === 'en' ? 'When Unable to Answer' : lang === 'es' ? 'Cuando No Sepa Responder' : 'Quando Não Souber Responder', link: `${prefix}/guide/ai-agents/tools/unknown-response` },
+              { text: lang === 'en' ? 'Change Return Date' : lang === 'es' ? 'Cambiar Fecha de Retorno' : 'Alterar Data de Retorno', link: `${prefix}/guide/ai-agents/tools/change-return-date` },
+              { text: lang === 'en' ? 'Custom Actions' : lang === 'es' ? 'Acciones Personalizadas' : 'Ações Personalizadas', link: `${prefix}/guide/ai-agents/tools/custom-actions` },
+            ]
+          }
         ]
       },
       {
@@ -286,6 +305,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/07/` },
+              { text: 'v2026.7.13', link: `${prefix}/changelog/2026/07/2026.7.13` },
               { text: 'v2026.7.12', link: `${prefix}/changelog/2026/07/2026.7.12` },
               { text: 'v2026.7.11', link: `${prefix}/changelog/2026/07/2026.7.11` },
               { text: 'v2026.7.10', link: `${prefix}/changelog/2026/07/2026.7.10` },

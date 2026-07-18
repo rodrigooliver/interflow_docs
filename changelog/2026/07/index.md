@@ -6,6 +6,7 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.13](/changelog/2026/07/2026.7.13) | 18/07 | **Pesquisar em sites** — ferramenta do Agente de IA com Firecrawl ou HTML puro, allowlist e busca web opcional |
 | [2026.7.12](/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificação por chave de acesso (passkey) ao conectar o canal |
 | [2026.7.11](/changelog/2026/07/2026.7.11) | 17/07 | **RH / Ponto** — cartão ponto, jornada, calendário, atestados, folha diária e push |
 | [2026.7.10](/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** — ferramenta para APIs externas, gerar rotas com IA e testar antes de publicar |
@@ -23,7 +24,12 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (30)
+### Novas Funcionalidades (35)
+- **Pesquisar informações em sites** (v2026.7.13) — ferramenta do Agente de IA para ler páginas web e usar o conteúdo na resposta
+- **Integração Firecrawl** (v2026.7.13) — API key da organização em Configurações → Integrações, com validação e criptografia
+- **Motor HTML puro** (v2026.7.13) — scrape sem chave Firecrawl para sites estáticos
+- **Allowlist e subpáginas** (v2026.7.13) — sites permitidos, query params e follow-up em subpáginas do mesmo path
+- **Busca livre na web** (v2026.7.13) — search opcional via Firecrawl além da lista de sites
 - **Verificação por chave de acesso no WhatsApp WAHA** (v2026.7.12) — fluxo de passkey com extensão do navegador e confirmação de código de 4 dígitos
 - **Módulo RH / Cartão ponto** (v2026.7.11) — entrada, pausa, retorno e saída com foto, GPS e auditoria
 - **Locais e geofence** (v2026.7.11) — locais com raio e regras por colaborador (incluindo home office)
@@ -85,5 +91,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info Total
-**12 releases** neste mês!
+**13 releases** neste mês!
 :::

@@ -12,37 +12,68 @@ When you create an AI Agent, the system **automatically generates a linked flow*
 
 ## Available Models
 
-We currently use **OpenAI** models, divided into two categories:
+In the AI Agent you choose the **integration** and the **model**:
 
-### With Reasoning
+| Integration | Who pays | Models |
+|-------------|----------|--------|
+| **Interflow** | Plan credits | OpenAI (list below) |
+| **OpenAI** (your key) | Your OpenAI account | Same OpenAI family |
+| **DeepSeek** (your key) | Your DeepSeek account | DeepSeek V4 Flash and V4 Pro |
 
-Models with advanced reasoning capabilities, ideal for complex tasks.
+### OpenAI — With Reasoning
 
-| Model | Description | Cost |
-|-------|-------------|------|
-| GPT-5.2 | Latest and most intelligent model | 💲💲💲 |
-| GPT-5.1 | Advanced model with reasoning | 💲💲💲 |
-| GPT-5 | Model with reasoning | 💲💲💲 |
-| GPT-5 Mini | Economical version with reasoning | 💲 |
-| GPT-5 Nano | Super economical with reasoning | 💲 |
-| GPT-5 Chat | Specialized in conversation | 💲💲💲 |
-
-### Without Reasoning
-
-Simpler and faster models, ideal for direct tasks.
+Models with advanced reasoning (effort level and verbosity configurable).
 
 | Model | Description | Cost |
 |-------|-------------|------|
-| GPT-4.1 | Intelligent and versatile model | 💲💲💲 |
+| GPT-5.5 | Premium reasoning | 💲💲💲💲 |
+| GPT-5.4 | Latest reasoning | 💲💲💲 |
+| GPT-5.4 Mini | Economical reasoning | 💲 |
+| GPT-5.4 Nano | Super economical reasoning | 💲 |
+| GPT-5.2 | Advanced reasoning | 💲💲💲 |
+| GPT-5.1 | Advanced reasoning | 💲💲💲 |
+| GPT-5 | Reasoning | 💲💲💲 |
+| GPT-5 Mini | Economical reasoning | 💲 |
+| GPT-5 Nano | Super economical reasoning | 💲 |
+
+### OpenAI — Conversation (Chat)
+
+Specialized in conversation; `gpt-5.X-chat-latest` models also support reasoning (except the legacy GPT-5 Chat Latest).
+
+| Model | Description | Cost |
+|-------|-------------|------|
+| GPT-5.3 Chat Latest | Conversation | 💲💲💲 |
+| GPT-5.2 Chat Latest | Conversation | 💲💲💲 |
+| GPT-5.1 Chat Latest | Conversation | 💲💲💲 |
+| GPT-5 Chat Latest | Conversation (legacy) | 💲💲💲 |
+
+### OpenAI — Without Reasoning
+
+Simpler and faster models, with temperature and max tokens.
+
+| Model | Description | Cost |
+|-------|-------------|------|
+| GPT-4.1 | Intelligent and versatile | 💲💲💲 |
 | GPT-4.1 Mini | Low cost with good performance | 💲 |
-| GPT-4.1 Nano | Most economical, ideal for light tasks | 💲 |
+| GPT-4.1 Nano | Most economical, light tasks | 💲 |
+
+### DeepSeek (your own key)
+
+Available after you register the DeepSeek integration. Does not consume Interflow credits.
+
+| Model | Description | Cost (reference) |
+|-------|-------------|------------------|
+| DeepSeek V4 Flash | Fast and economical | 💲 |
+| DeepSeek V4 Pro | More capable, complex tasks | 💲💲 |
+
+Both support **Thinking Mode** (chain-of-thought) with High or Maximum effort. With Thinking Mode on, temperature is ignored by the DeepSeek API.
 
 ::: tip 💡 Tip
-For most customer service cases, **GPT-5 Nano** or **GPT-5 Mini** offer excellent cost-benefit. See more details at [OpenAI Integration](/en/guide/integrations/openai).
+For most support cases with Interflow credits, **GPT-5 Nano** or **GPT-5 Mini** (or **GPT-5.4 Nano** / **Mini**) offer a good cost-benefit. With your own key, see also [OpenAI](/en/guide/integrations/openai) and [DeepSeek](/en/guide/integrations/deepseek).
 :::
 
 ::: info 🚀 Coming Soon
-New models will be added soon, including **Claude** (Anthropic), **Gemini** (Google), and others.
+Other providers may be added in the future (e.g. Claude, Gemini).
 :::
 
 ## Accessing AI Agents
@@ -99,27 +130,13 @@ Add media the agent can send during conversations.
 
 ### 4. Tools
 
-Configure actions the agent can perform. There are two types:
+Configure the actions the agent can run during the conversation. There are two types:
 
-#### Ready Actions (System)
-Pre-configured Interflow actions:
+- **Ready-made actions** — customer profile, contact, address, query API, research websites, transfer, schedule, funnel, follow-up, and more
+- **Custom actions** — tools you create (parameters + what to run when triggered)
 
-| Action | Description |
-|--------|-------------|
-| **Change Customer Name** | Updates customer name in the record |
-| **Update Customer Data** | Modifies custom fields |
-| **Transfer to Team** | Routes chat to a human team |
-| **Schedule** | Creates a new appointment |
-| **Confirm Appointment** | Confirms an existing appointment |
-| **Change Funnel** | Moves customer between funnel stages |
-| **When Unable to Answer** | Defines behavior for unknown questions |
-| **Change Return Date** | Reschedules automatic follow-up |
-
-#### Custom Actions
-Create custom tools for specific integrations.
-
-::: tip 📖 Learn More
-See the full documentation at [AI Tools](/en/guide/ai-agents/tools).
+::: tip 📖 See more
+Full list, description of each action, and setup steps: [AI Tools](/en/guide/ai-agents/tools/).
 :::
 
 ### 5. Knowledge Base
@@ -162,11 +179,12 @@ Detailed agent settings:
 - **Default Prompt**: Make available to all organizations (superadmins only)
 
 #### AI Settings
-- **Integration**: Choose between Interflow (plan tokens) or custom OpenAI
-- **Model**: Select the AI model to use
-- **Temperature** (non-reasoning models): Controls response creativity (0.0 to 2.0)
-- **Reasoning Level** (reasoning models): Low, Medium, or High
-- **Max Tokens** (non-reasoning models): Response token limit
+- **Integration**: Interflow (plan credits), OpenAI (your key), or DeepSeek (your key)
+- **Model**: Select the model for the chosen integration
+- **Temperature** (OpenAI without reasoning): Controls response creativity (0.0 to 2.0)
+- **Reasoning Level** (OpenAI with reasoning): Low, Medium, or High
+- **Thinking Mode** (DeepSeek): Enable/disable chain-of-thought and effort (High / Maximum)
+- **Max Tokens** (OpenAI without reasoning): Response token limit
 - **Verbosity** (GPT-5 models): Controls response length
 - **Timezone**: Sets the timezone for dates and times
 
@@ -205,18 +223,23 @@ AI Agent usage is measured in **USD-based credits**, providing transparency in c
 | **Purchased Credits** | Acquired separately. Do not expire. |
 | **Bonus Credits** | Promotional or referral. Do not expire. |
 
-### Cost Table by Model
+### Cost Table by Model (Interflow credits / OpenAI)
 
 | Model | Input (1M tokens) | Output (1M tokens) |
 |-------|-------------------|--------------------|
-| **GPT-5.2** | $1.75 | $14.00 |
-| **GPT-5.1** | $1.25 | $10.00 |
-| **GPT-5** | $1.25 | $10.00 |
+| **GPT-5.5** | $5.00 | $30.00 |
+| **GPT-5.4** | $2.50 | $15.00 |
+| **GPT-5.4 Mini** | $0.75 | $4.50 |
+| **GPT-5.4 Nano** | $0.20 | $1.25 |
+| **GPT-5.2** / **GPT-5.3 Chat Latest** | $1.75 | $14.00 |
+| **GPT-5.1** / **GPT-5** / **GPT-5 Chat Latest** | $1.25 | $10.00 |
 | **GPT-5 Mini** | $0.25 | $2.00 |
 | **GPT-5 Nano** | $0.05 | $0.40 |
 | **GPT-4.1** | $2.00 | $8.00 |
 | **GPT-4.1 Mini** | $0.40 | $1.60 |
 | **GPT-4.1 Nano** | $0.10 | $0.40 |
+
+DeepSeek pricing (billed on your DeepSeek account): see [DeepSeek Integration](/en/guide/integrations/deepseek).
 
 ::: tip 💡 Savings
 Cached tokens cost up to **10x less**. Mini and Nano models are significantly cheaper for high-volume use cases.
@@ -351,7 +374,7 @@ Track your AI Agents' performance:
 
 ## Next Steps
 
-- [AI Tools](/en/guide/ai-agents/tools) - Configure agent actions
+- [AI Tools](/en/guide/ai-agents/tools/) - Configure agent actions
 - [Text Enhancer](/en/guide/chat/text-enhancer) - AI commands for agents
 - [Flows](/en/guide/flows/builder) - Integrate AI into flows
 - [Schedule](/en/guide/schedule/) - Configure AI-powered appointments

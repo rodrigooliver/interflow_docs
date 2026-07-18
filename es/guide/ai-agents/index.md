@@ -12,33 +12,68 @@ Al crear un Agente IA, el sistema **genera automáticamente un flujo** vinculado
 
 ## Modelos Disponibles
 
-Actualmente utilizamos modelos de **OpenAI**, divididos en dos categorías:
+En el Agente de IA usted elige la **integración** y el **modelo**:
 
-### Con Razonamiento
+| Integración | Quién paga | Modelos |
+|-------------|------------|---------|
+| **Interflow** | Créditos del plan | OpenAI (lista abajo) |
+| **OpenAI** (clave propia) | Su cuenta OpenAI | La misma familia OpenAI |
+| **DeepSeek** (clave propia) | Su cuenta DeepSeek | DeepSeek V4 Flash y V4 Pro |
 
-Modelos con capacidad de razonamiento avanzado, ideales para tareas complejas.
+### OpenAI — Con Razonamiento
 
-| Modelo | Descripción | Costo |
-|--------|-------------|-------|
-| GPT-5.2 | Modelo más reciente e inteligente | 💲💲💲 |
-| GPT-5.1 | Modelo avanzado con razonamiento | 💲💲💲 |
-| GPT-5 | Modelo con razonamiento | 💲💲💲 |
-| GPT-5 Mini | Versión económica con razonamiento | 💲 |
-| GPT-5 Nano | Super económico con razonamiento | 💲 |
-| GPT-5 Chat | Especializado en conversación | 💲💲💲 |
-
-### Sin Razonamiento
-
-Modelos más simples y rápidos, ideales para tareas directas.
+Modelos con razonamiento avanzado (nivel de esfuerzo y verbosidad configurables).
 
 | Modelo | Descripción | Costo |
 |--------|-------------|-------|
-| GPT-4.1 | Modelo inteligente y versátil | 💲💲💲 |
+| GPT-5.5 | Razonamiento premium | 💲💲💲💲 |
+| GPT-5.4 | Razonamiento más reciente | 💲💲💲 |
+| GPT-5.4 Mini | Razonamiento económico | 💲 |
+| GPT-5.4 Nano | Razonamiento súper económico | 💲 |
+| GPT-5.2 | Razonamiento avanzado | 💲💲💲 |
+| GPT-5.1 | Razonamiento avanzado | 💲💲💲 |
+| GPT-5 | Razonamiento | 💲💲💲 |
+| GPT-5 Mini | Razonamiento económico | 💲 |
+| GPT-5 Nano | Razonamiento súper económico | 💲 |
+
+### OpenAI — Conversación (Chat)
+
+Especializados en conversación; los modelos `gpt-5.X-chat-latest` también soportan razonamiento (excepto el legado GPT-5 Chat Latest).
+
+| Modelo | Descripción | Costo |
+|--------|-------------|-------|
+| GPT-5.3 Chat Latest | Conversación | 💲💲💲 |
+| GPT-5.2 Chat Latest | Conversación | 💲💲💲 |
+| GPT-5.1 Chat Latest | Conversación | 💲💲💲 |
+| GPT-5 Chat Latest | Conversación (legado) | 💲💲💲 |
+
+### OpenAI — Sin Razonamiento
+
+Modelos más simples y rápidos, con temperatura y máximo de tokens.
+
+| Modelo | Descripción | Costo |
+|--------|-------------|-------|
+| GPT-4.1 | Inteligente y versátil | 💲💲💲 |
 | GPT-4.1 Mini | Bajo costo con buen rendimiento | 💲 |
-| GPT-4.1 Nano | Más económico, ideal para tareas ligeras | 💲 |
+| GPT-4.1 Nano | Más económico, tareas ligeras | 💲 |
+
+### DeepSeek (clave propia)
+
+Disponibles al registrar la integración DeepSeek. No consumen créditos Interflow.
+
+| Modelo | Descripción | Costo (referencia) |
+|--------|-------------|--------------------|
+| DeepSeek V4 Flash | Rápido y económico | 💲 |
+| DeepSeek V4 Pro | Más capaz, tareas complejas | 💲💲 |
+
+Ambos soportan **Thinking Mode** (razonamiento en cadena) con esfuerzo Alto o Máximo. Con Thinking Mode activo, la temperatura es ignorada por la API de DeepSeek.
 
 ::: tip 💡 Consejo
-Para la mayoría de los casos de atención, **GPT-5 Nano** o **GPT-5 Mini** ofrecen excelente relación costo-beneficio. Ver más en [Integración OpenAI](/es/guide/integrations/openai).
+Para la mayoría de la atención con créditos Interflow, **GPT-5 Nano** o **GPT-5 Mini** (o **GPT-5.4 Nano** / **Mini**) ofrecen buena relación costo-beneficio. Con clave propia, vea también [OpenAI](/es/guide/integrations/openai) y [DeepSeek](/es/guide/integrations/deepseek).
+:::
+
+::: info 🚀 Próximamente
+Otros proveedores podrán agregarse en el futuro (p. ej. Claude, Gemini).
 :::
 
 ## Accediendo a Agentes IA
@@ -72,10 +107,14 @@ Permite conversar directamente con el Agente IA antes de ponerlo en producción.
 Agregue medios que el agente puede enviar durante la conversación.
 
 ### 4. Herramientas
-Configure las acciones que el agente puede ejecutar.
 
-::: tip 📖 Más información
-Vea la documentación completa en [Herramientas de IA](/es/guide/ai-agents/tools).
+Configure las acciones que el agente puede ejecutar durante la conversación. Hay dos tipos:
+
+- **Acciones listas** — ficha del cliente, contacto, dirección, consultar API, investigar sitios, transferir, agenda, embudo, follow-up y más
+- **Acciones personalizadas** — herramientas que usted crea (parámetros + qué ejecutar al activarlas)
+
+::: tip 📖 Ver más
+Lista completa, descripción de cada acción y paso a paso: [Herramientas de IA](/es/guide/ai-agents/tools/).
 :::
 
 ### 5. Base de Conocimiento
@@ -143,18 +182,23 @@ El uso de los Agentes IA se mide en **créditos basados en USD**, proporcionando
 | **Créditos Comprados** | Adquiridos por separado. No expiran. |
 | **Créditos Bono** | Promocionales o de referido. No expiran. |
 
-### Tabla de Costos por Modelo
+### Tabla de Costos por Modelo (créditos Interflow / OpenAI)
 
 | Modelo | Input (1M tokens) | Output (1M tokens) |
 |--------|-------------------|--------------------|
-| **GPT-5.2** | $1.75 | $14.00 |
-| **GPT-5.1** | $1.25 | $10.00 |
-| **GPT-5** | $1.25 | $10.00 |
+| **GPT-5.5** | $5.00 | $30.00 |
+| **GPT-5.4** | $2.50 | $15.00 |
+| **GPT-5.4 Mini** | $0.75 | $4.50 |
+| **GPT-5.4 Nano** | $0.20 | $1.25 |
+| **GPT-5.2** / **GPT-5.3 Chat Latest** | $1.75 | $14.00 |
+| **GPT-5.1** / **GPT-5** / **GPT-5 Chat Latest** | $1.25 | $10.00 |
 | **GPT-5 Mini** | $0.25 | $2.00 |
 | **GPT-5 Nano** | $0.05 | $0.40 |
 | **GPT-4.1** | $2.00 | $8.00 |
 | **GPT-4.1 Mini** | $0.40 | $1.60 |
 | **GPT-4.1 Nano** | $0.10 | $0.40 |
+
+Precios DeepSeek (cobro en su cuenta DeepSeek): vea [Integración DeepSeek](/es/guide/integrations/deepseek).
 
 ### Extracto de Créditos
 
@@ -192,7 +236,7 @@ Al transferir a equipo humano, la IA puede generar automáticamente un resumen:
 
 ## Próximos Pasos
 
-- [Herramientas de IA](/es/guide/ai-agents/tools) - Configure acciones del agente
+- [Herramientas de IA](/es/guide/ai-agents/tools/) - Configure acciones del agente
 - [Flujos de Atención](/es/guide/flows/builder) - Integre IA en los flujos
 - [Agenda](/es/guide/schedule/) - Configure citas vía IA
 - [Configuración](/es/guide/settings/) - Controles de IA
