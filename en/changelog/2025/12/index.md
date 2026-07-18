@@ -22,7 +22,7 @@ Updates for December 2025.
 
 ## Month Summary
 
-### ✨ New Features (14)
+### New Features (14)
 - **Light Mode on Android and iOS app** - Now you can choose between light or dark mode
 - **Message search within conversations** - Search messages in each individual conversation
 - **AI Credits System in USD** - Precise cost control per model
@@ -38,17 +38,17 @@ Updates for December 2025.
 - AI shows only future appointments
 - Android schedule improvements
 
-### 🔒 Security (2)
+### Security (2)
 - Filters blocked for limited users
 - Financial menu restricted to admins
 
-### 🐛 Fixes (2)
+### Fixes (2)
 - Requester display in deployments (View All)
 - AI Agent respects configured time-offs
 
 ---
 
-::: info 📝 Total
+::: info Total
 **11 releases** with **18 improvements** this month!
 :::
 

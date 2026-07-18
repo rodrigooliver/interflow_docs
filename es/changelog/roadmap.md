@@ -1,51 +1,49 @@
 # Roadmap
 
-Funcionalidades planificadas para los próximos meses.
+Funcionalidades planificadas y en curso para los próximos meses.
 
-::: info 📋 Planificación
-Este roadmap se actualiza regularmente y puede sufrir cambios según las prioridades del producto.
+::: info Planificación
+Este roadmap se actualiza con regularidad y puede cambiar según las prioridades del producto.
 :::
 
-## Q1 2026 (Febrero - Marzo)
+## En desarrollo
 
-### 🚧 En Desarrollo
+| Recurso | Previsión | Descripción |
+|---------|-----------|-------------|
+| Sincronizar agenda de reuniones de franquicia con enlace fijo de reserva | Jul/2026 | Integrar la agenda de reuniones de franquicias para que interesados elijan horarios disponibles. Tras la confirmación, el sistema envía automáticamente el enlace fijo de la reunión online. |
+| Alta de cliente con datos vinculados a documentos y calendarios | Jul/2026 | Al registrar un cliente (nombre, documento, contacto y dirección), los datos quedan disponibles automáticamente en plantillas de documentos e integraciones de calendario. |
 
-| Recurso | Estado | Previsión | Descripción |
-|---------|--------|-----------|-------------|
-| Registro de base de datos personalizada para consulta de la IA | 🚧 En desarrollo | Feb 2026 | Espacio en el Agente IA para registrar base de datos propia (imágenes, PDFs, textos). La IA consulta esta información antes de búsquedas externas, reduciendo consumo de tokens y optimizando costes. |
-| Integración de Interflow con AWS S3 para almacenamiento ampliado | 🚧 En desarrollo | Feb 2026 | Integración con la cuenta AWS S3 del cliente para ampliar almacenamiento y permitir envío/recepción de archivos más grandes en las conversaciones, con archivos guardados en buckets configurados. |
+## Planificado
 
-### 🔜 Planificado
+| Recurso | Previsión | Descripción |
+|---------|-----------|-------------|
+| Transcripción automática de audios en atenciones | Jul/2026 | Transcribir automáticamente audios enviados por cliente o agente, mostrar el texto en la conversación y usarlo como contexto para la IA. |
+| Registro manual de cobros o bloqueos parciales de deudas | Jul/2026 | Registrar manualmente cobros en efectivo o bloqueos parciales (p. ej. judiciales), con valor, fecha y descripción en los informes financieros. |
+| Mover citas entre diferentes agendas | Jul/2026 | Transferir una cita de una agenda a otra sin eliminar y recrear, manteniendo datos e historial. |
+| Widgets de tareas por estado y usuario (estilo Kanban) | Jul/2026 | Organizar tareas en columnas visuales (iniciar, en desarrollo, concluidas) por usuario, con arrastrar y soltar. |
+| IA identifica clientes de tráfico pago vía API Meta | Jul/2026 | Identificar automáticamente leads de anuncios Facebook/Instagram (API Meta), con tags de origen para segmentación e informes. |
+| Variable de documento del cliente en atajos de mensaje | Jul/2026 | Usar el documento del cliente como variable en atajos, rellenada automáticamente al enviar el mensaje. |
+| Ordenar documentos de la Base de Conocimiento alfabéticamente | Jul/2026 | Listar documentos del RAG híbrido en orden alfabético por título para facilitar la búsqueda. |
+| Pausa en atención humana con mensaje automático de ausencia | Jul/2026 | Permitir pausar la atención (p. ej. almuerzo) con mensaje automático al cliente y reanudar al volver. |
+| Editar el nombre de carpetas de archivos en el Agente de IA | Jul/2026 | Renombrar carpetas de archivos del agente IA de la organización, con efecto inmediato para todos los miembros. |
+| Campos personalizados como filtros en informes de atención | Jul/2026 | Usar campos personalizados como filtros y columnas exportables en informes de atención. |
+| Sugerir equipos al invitar a un nuevo usuario | Jul/2026 | Al invitar un usuario, seleccionar los equipos en el mismo paso, sin configurarlos después en otro menú. |
+| Impresión de informes filtrados por período, cliente y establecimiento | Ago/2026 | Imprimir informes (p. ej. rendición de cuentas) con filtros de período, cliente y establecimiento, listos para compartir. |
+| Recibo manual de pago en efectivo con baja de cuota | Ago/2026 | Registrar un cobro en efectivo, generar recibo y liquidar la cuota automáticamente en el financiero. |
+| Ajustes en el flujo de cobros y sucumbencia por defecto | Ago/2026 | Evitar creación automática indeseada de cobros, estandarizar el nombre y mantener la sucumbencia en cero por defecto, editable bajo demanda. |
+| Integración con Google Calendar y automatización de contratos | Ago/2026 | Crear eventos en Google Calendar al agendar en Interflow y automatizar la finalización de contratos con datos del cliente, pago y paquete. |
+| Análisis de cuellos de botella y sugerencias de mejora en la atención | Oct/2026 | Detectar lentitud y fallos en embudos y conversaciones, con informes de cuellos de botella y sugerencias prácticas de mejora. |
 
-| Recurso | Estado | Previsión | Descripción |
-|---------|--------|-----------|-------------|
-| Módulo de UTM con integración de eventos del embudo a la API de Conversión de Facebook | 🔜 Planificado | Feb 2026 | Gestión de UTMs vinculada a campañas, Pixel y API de conversión de Facebook; las etapas del embudo disparan eventos automáticamente a la API de conversión. |
-| Aplicación automática de tasa sobre forma de pago en el módulo financiero | 🔜 Planificado | Feb 2026 | Al elegir forma de pago con tasa, la tasa se aplica automáticamente sobre el valor de la operación de entrada o salida en caja. |
-| Evitar generación de enlace para vídeos dentro del límite de WhatsApp | 🔜 Planificado | Feb 2026 | Vídeos dentro del tamaño aceptado por WhatsApp se envían directamente en la conversación, sin enlace, para mejor experiencia en la app. |
-| Mostrar vídeos y audios enviados desde el móvil en la plataforma Interflow | 🔜 Planificado | Feb 2026 | Garantizar que vídeos y audios enviados desde el móvil se muestren y reproduzcan correctamente en el panel de Interflow. |
-| Generar modelo de documento en PDF con datos del cliente | 🔜 Planificado | Feb 2026 | Generar PDF automáticamente con datos registrados del cliente (propuestas, contratos, comprobantes) a partir de plantilla predefinida. |
-| Restringir gestión de colaboradores a administradores en las conversaciones | 🔜 Planificado | Feb 2026 | Solo administradores pueden añadir o quitar colaboradores en las conversaciones; agentes limitados no tienen este permiso. |
-| Funcionalidades avanzadas en conversaciones de grupo en el chat | 🔜 Planificado | Feb 2026 | Recursos para grupos: responder en privado desde el chat, administradores eliminar mensajes, visualización de foto del grupo, entre otros. |
-| Automatización para rechazar llamadas de voz y vídeo vía API WhatsApp WA HA | 🔜 Planificado | Mar 2026 | Rechazar automáticamente llamadas de voz y vídeo recibidas por WhatsApp (API WA HA), con opción de activar/desactivar por cuenta. |
-| Integración Financiera ASAAS con Split de Pago Configurable | 🔜 Planificado | Mar 2026 | Integración del módulo financiero con ASAAS y configuración de split de pago (porcentajes o valores fijos por beneficiario). |
-| Creación de chat interno para comunicación entre colaboradores | 🔜 Planificado | Mar 2026 | Chat interno en Interflow para conversaciones entre colaboradores (individual y en grupo), en tiempo real, sin mezclar con atención al cliente. |
-
----
-
-## Leyenda de Estados
+## Estados
 
 | Estado | Significado |
 |--------|-------------|
-| ✅ Completado | Ya disponible en la plataforma |
-| 🚧 En desarrollo | Activamente en desarrollo |
-| 🔜 Planificado | Confirmado para desarrollo |
-| 📝 En análisis | En evaluación para inclusión |
-
----
+| En desarrollo | En ejecución por el equipo |
+| Planificado | Aprobado para desarrollo |
 
 ## Feedback
 
-¿Tienes sugerencias de funcionalidades? Contáctanos:
+Sugerencias de funcionalidades:
 
-- 📧 **Email**: feedback@interflow.chat
-- 💬 **Chat**: A través de la plataforma
+- **Email**: feedback@interflow.chat
+- **Chat**: a través de la plataforma

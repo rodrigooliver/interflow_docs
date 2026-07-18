@@ -1,51 +1,49 @@
 # Roadmap
 
-Features planned for the coming months.
+Features planned and in progress for the coming months.
 
-::: info 📋 Planning
-This roadmap is updated regularly and may change according to product priorities.
+::: info Planning
+This roadmap is updated regularly and may change based on product priorities.
 :::
 
-## Q1 2026 (February - March)
+## In progress
 
-### 🚧 In Development
+| Feature | Target | Description |
+|---------|--------|-------------|
+| Sync franchise meeting schedule with a fixed booking link | Jul 2026 | Integrate franchise meeting availability so prospects can book presentation slots. After confirmation, the system automatically sends the fixed online meeting link. |
+| Customer registration with data linked to documents and calendars | Jul 2026 | When registering a customer (name, tax ID, contact, and address), data becomes available automatically in document templates and calendar integrations. |
 
-| Feature | Status | ETA | Description |
-|---------|--------|-----|-------------|
-| Custom database registration for AI query | 🚧 In development | Feb 2026 | Dedicated space in the AI Agent area to register a custom knowledge base (images, PDFs, text). The AI consults this information before external searches, reducing token usage and optimizing costs. |
-| Interflow integration with AWS S3 for expanded storage | 🚧 In development | Feb 2026 | Integration with the customer's AWS S3 account to expand storage and allow sending/receiving larger files in conversations, with files stored in configured buckets. |
+## Planned
 
-### 🔜 Planned
+| Feature | Target | Description |
+|---------|--------|-------------|
+| Automatic transcription of audio messages in chats | Jul 2026 | Automatically transcribe audio sent by customers or agents, show the text in the conversation, and use it as context for AI. |
+| Manual entry for cash receipts or partial debt holds | Jul 2026 | Manually register cash receipts or partial holds (e.g. legal), with amount, date, and description reflected in financial reports. |
+| Move appointments between different schedules | Jul 2026 | Move an appointment from one schedule to another without deleting and recreating it, keeping data and history. |
+| Task widgets by status and user (Kanban-style) | Jul 2026 | Organize tasks in visual columns (to start, in progress, done) per user, with drag and drop. |
+| AI identifies paid-traffic customers via Meta API | Jul 2026 | Automatically identify leads from Facebook/Instagram ads (Meta API), with origin tags for segmentation and reporting. |
+| Customer tax ID variable in message shortcuts | Jul 2026 | Use the customer tax ID as a shortcut variable, filled automatically when the message is sent. |
+| Sort Knowledge Base documents alphabetically | Jul 2026 | List hybrid RAG documents alphabetically by title to make browsing easier. |
+| Human-agent pause with automatic away message | Jul 2026 | Allow pausing human support (e.g. lunch) with an automatic away message to the customer, then resume normally. |
+| Rename file folders in the AI Agent | Jul 2026 | Rename organization AI Agent file folders, with immediate effect for all members. |
+| Custom fields as filters in attendance reports | Jul 2026 | Use custom fields as filters and exportable columns in attendance reports. |
+| Suggest teams when inviting a new user | Jul 2026 | When inviting a user, select teams in the same step instead of configuring them later in another menu. |
+| Print reports filtered by period, customer, and establishment | Aug 2026 | Print reports (e.g. account statements) filtered by period, customer, and establishment, ready to share. |
+| Manual cash payment receipt with installment settlement | Aug 2026 | Register a cash payment, generate a receipt, and settle the installment automatically in finance. |
+| Billing flow adjustments and default succumbency value | Aug 2026 | Avoid unwanted automatic billing creation, standardize charge names, and keep succumbency at zero by default unless edited. |
+| Google Calendar integration and contract automation | Aug 2026 | Create Google Calendar events when booking in Interflow and automate contract completion with customer, payment, and package data. |
+| Bottleneck analysis and improvement suggestions for support | Oct 2026 | Detect slowdowns and failures across funnels and chats, with bottleneck reports and practical improvement suggestions. |
 
-| Feature | Status | ETA | Description |
-|---------|--------|-----|-------------|
-| UTM module with funnel events integration to Facebook Conversion API | 🔜 Planned | Feb 2026 | UTM management linked to campaigns, Pixel, and Facebook Conversion API; funnel stages automatically trigger events to the conversion API. |
-| Automatic application of fee on payment method in finance module | 🔜 Planned | Feb 2026 | When selecting a payment method with a fee, the fee is automatically applied to the cash inflow or outflow amount. |
-| Avoid generating links for videos within WhatsApp limit | 🔜 Planned | Feb 2026 | Videos within WhatsApp's accepted size are sent directly in the conversation without generating a link, for a better in-app experience. |
-| Display videos and audio sent from mobile on Interflow platform | 🔜 Planned | Feb 2026 | Ensure that videos and audio sent from mobile devices are displayed and played correctly in the Interflow panel. |
-| Generate PDF document template with customer data | 🔜 Planned | Feb 2026 | Automatically generate PDF with registered customer data (proposals, contracts, receipts) from a pre-defined template. |
-| Restrict collaborator management to administrators in conversations | 🔜 Planned | Feb 2026 | Only administrators can add or remove collaborators in conversations; limited agents do not have this permission. |
-| Advanced features in group conversations in chat | 🔜 Planned | Feb 2026 | Group features: reply in private from chat, administrators delete messages, group photo display, and more. |
-| Automation to reject voice and video calls via WhatsApp WA HA API | 🔜 Planned | Mar 2026 | Automatically reject voice and video calls received via WhatsApp (WA HA API), with option to enable/disable per account. |
-| ASAAS Financial Integration with Configurable Payment Split | 🔜 Planned | Mar 2026 | Finance module integration with ASAAS and configurable payment split (percentages or fixed amounts per payee). |
-| Internal chat for communication between collaborators | 🔜 Planned | Mar 2026 | Internal chat in Interflow for conversations between collaborators (individual and group), in real time, without mixing with customer support. |
-
----
-
-## Status Legend
+## Status
 
 | Status | Meaning |
 |--------|---------|
-| ✅ Completed | Already available on the platform |
-| 🚧 In development | Actively being developed |
-| 🔜 Planned | Confirmed for development |
-| 📝 Under analysis | Being evaluated for inclusion |
-
----
+| In progress | Currently being built |
+| Planned | Approved for development |
 
 ## Feedback
 
-Have feature suggestions? Contact us:
+Feature suggestions:
 
-- 📧 **Email**: feedback@interflow.chat
-- 💬 **Chat**: Through the platform
+- **Email**: feedback@interflow.chat
+- **Chat**: through the platform

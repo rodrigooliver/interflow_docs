@@ -15,36 +15,27 @@ hero:
     - theme: alt
       text: API Reference
       link: /en/api/
-
 features:
-  - icon: 💬
-    title: Multi-Channel Support
+  - title: Multi-Channel Support
     details: WhatsApp Business, Instagram, Facebook Messenger, and Email integrated into a single platform. Centralize all your communication channels.
-  - icon: 🤖
-    title: Intelligent Automation
+  - title: Intelligent Automation
     details: Build automated service flows with our visual drag-and-drop editor. Integrate with AI for smart responses.
-  - icon: 👥
-    title: Complete CRM
+  - title: Complete CRM
     details: Manage your customers, track deals in sales funnels, use custom fields, and segment your base with tags.
-  - icon: 📅
-    title: Scheduling
+  - title: Scheduling
     details: Complete scheduling system with calendar, automatic reminders, and Google Calendar integration.
-  - icon: 💰
-    title: Financial Management
+  - title: Financial Management
     details: Control income, expenses, transactions, and generate detailed financial reports of your operation.
-  - icon: 🛒
-    title: Integrated POS
+  - title: Integrated POS
     details: Complete point of sale with product management, sales, and payment method integration.
-  - icon: 📊
-    title: Reports and Analytics
+  - title: Reports and Analytics
     details: Real-time dashboards, service metrics, team performance, and insights for decision making.
-  - icon: 🌍
-    title: Multi-language
+  - title: Multi-language
     details: Native support for Portuguese, English, and Spanish. Interface adaptable to your preferred language.
 ---
 
 
-## ⚠️ Documentation Under Update
+## Documentation Under Update
 
 ::: warning IMPORTANT NOTICE
 This documentation is in a phase of **continuous update**. New sections and content are being added regularly.
@@ -54,7 +45,7 @@ If you find any outdated information or have questions, please contact us throug
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 Follow these steps to start using Interflow:
 
@@ -72,7 +63,7 @@ Follow these steps to start using Interflow:
 
 ---
 
-## 📱 Supported Channels
+## Supported Channels
 
 | Channel | Status | Features |
 |---------|--------|----------|
@@ -86,7 +77,7 @@ Follow these steps to start using Interflow:
 
 ---
 
-## 🎬 Videos and Tutorials
+## Videos and Tutorials
 
 ::: info UNDER CONSTRUCTION
 Tutorial videos area in development. Coming soon:
@@ -108,7 +99,7 @@ Tutorial videos area in development. Coming soon:
 
 ---
 
-## 📸 Platform Screenshots
+## Platform Screenshots
 
 ::: info UNDER CONSTRUCTION
 Screenshot gallery in development. Soon you'll see:
@@ -138,7 +129,7 @@ Screenshot gallery in development. Soon you'll see:
 
 ---
 
-## 💻 Technologies
+## Technologies
 
 Interflow is built with modern and robust technologies:
 
@@ -152,7 +143,7 @@ Interflow is built with modern and robust technologies:
 
 ---
 
-## 📞 Support
+## Support
 
 Need help? We have several support options:
 

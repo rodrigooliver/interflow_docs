@@ -16,7 +16,7 @@ Updates for October 2025.
 
 ## Month Summary
 
-### ✨ New Features (9)
+### New Features (9)
 - Pinned messages in chat
 - Private note node in flow
 - Reactivate archived conversation on new message
@@ -27,12 +27,12 @@ Updates for October 2025.
 - Cascade update in select fields
 - Pause flow when attending
 
-### 🔒 Security (1)
+### Security (1)
 - Hide sensitive data from agents
 
 ---
 
-::: info 📝 Total
+::: info Total
 **5 releases** with **10 improvements** this month!
 :::
 

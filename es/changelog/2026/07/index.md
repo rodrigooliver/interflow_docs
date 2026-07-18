@@ -22,7 +22,7 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (29)
+### Nuevas Funcionalidades (29)
 - **Módulo RRHH / Fichaje** (v2026.7.11) — entrada, pausa, retorno y salida con foto, GPS y auditoría
 - **Locales y geofence** (v2026.7.11) — lugares con radio y reglas por colaborador (incluido home office)
 - **Jornada semanal por colaborador** (v2026.7.11) — días y horas variables (ej.: lun–vie 8h, sábado 4h)
@@ -53,7 +53,7 @@ Actualizaciones del mes de julio de 2026.
 - **Badge de Canal de Prueba** (v2026.7.1) — identificación visual en ámbar en el encabezado del chat cuando el atendimiento es de un canal tipo `test`
 - **Indicador flotante de nodo activo** (v2026.7.1) — badge debajo del botón de flujo en el encabezado del agente con nombre del nodo, estado de debounce y tooltip con horario
 
-### 🔄 Mejoras (14)
+### Mejoras (14)
 - **Fichar sin webcam** (v2026.7.11) — envío de foto por archivo cuando no hay cámara
 - **Vista previa de cámara en espejo** (v2026.7.11) — encuadre tipo selfie; foto guardada en orientación normal
 - **Loading en pantallas de RRHH** (v2026.7.11) — evita un vacío momentáneo al cargar
@@ -69,7 +69,7 @@ Actualizaciones del mes de julio de 2026.
 - **Notificaciones desactivadas en la prueba** (v2026.7.3) — los mensajes de prueba ya no notifican al equipo
 - **Indicador visual de progreso** (v2026.7.3) — edge animado hasta el nodo activo durante la prueba
 
-### 🐛 Correcciones (6)
+### Correcciones (6)
 - **Marcar como no leído deshecho con el chat abierto** (v2026.7.8) — auto marcar como leído solo al abrir la conversación interna
 - **Settings de la organización para agentes** (v2026.7.8) — GET de configuraciones permitido sin módulo Settings; evita errores y solicitudes repetidas en el chat
 - **Rendimiento de la verificación de timeouts** (v2026.7.3) — procesamiento en lotes con concurrencia, eliminando retrasos de hasta 20-30 minutos
@@ -77,11 +77,11 @@ Actualizaciones del mes de julio de 2026.
 - **Error al eliminar chat de prueba** (v2026.7.1) — la eliminación cierra la sesión del flujo antes de quitar la conversación
 - **Override de debounce no aplicado** (v2026.7.1) — el tiempo de debounce configurado en la prueba ahora se respeta en la ejecución del flujo
 
-### 🔒 Seguridad (1)
+### Seguridad (1)
 - **Validación al crear conversación** (v2026.7.5) — permiso de canal verificado en el servidor al iniciar conversación
 
 ---
 
-::: info 📝 Total
+::: info Total
 **11 lanzamientos** este mes!
 :::

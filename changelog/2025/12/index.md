@@ -22,7 +22,7 @@ Atualizações do mês de dezembro de 2025.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (14)
+### Novas Funcionalidades (14)
 - **Light Mode no app Android e iOS** - Agora você pode escolher entre modo claro ou escuro
 - **Busca de mensagens dentro da conversa** - Pesquise mensagens em cada conversa individual
 - **Sistema de Créditos de IA em USD** - Controle preciso de custos por modelo
@@ -38,16 +38,16 @@ Atualizações do mês de dezembro de 2025.
 - IA lista apenas agendamentos futuros
 - Melhorias na agenda do Android
 
-### 🔒 Segurança (2)
+### Segurança (2)
 - Filtros bloqueados para usuários limitados
 - Menu financeiro restrito para admins
 
-### 🐛 Correções (2)
+### Correções (2)
 - Exibição do solicitante nas implantações (Ver Todas)
 - Atendente IA respeita folgas configuradas na agenda
 
 ---
 
-::: info 📝 Total
+::: info Total
 **11 releases** com **18 melhorias** neste mês!
 :::

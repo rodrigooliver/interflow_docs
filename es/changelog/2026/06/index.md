@@ -25,7 +25,7 @@ Actualizaciones del mes de junio de 2026.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (30)
+### Nuevas Funcionalidades (30)
 - **Lista de Clientes en Mora — Cobros** (v2026.6.14) — nueva pestaña dedicada en el módulo de Cobros con agrupación por cliente, tarjetas de total de clientes y monto en mora, búsqueda, ordenación por columnas, cuotas expandibles por fila y registro de pago directamente en pantalla; WhatsApp obtenido de `customer_contacts`
 - **Gestionar Etiquetas del Cliente con el Agente IA** (v2026.6.13) — nueva acción lista del Agente IA para añadir o eliminar etiquetas; control granular por modo (Ninguna, Todas, Seleccionadas) con enum restringido en la tool de OpenAI
 - **Permisos granulares por usuario** (v2026.6.12) — control de acceso individual por módulo; jerarquía exclusiva: personalizado > grupo > rol; Owner siempre con acceso total
@@ -57,7 +57,7 @@ Actualizaciones del mes de junio de 2026.
 - **Eliminación automática de clientes por límite de uso** (v2026.6.2) — eliminación configurable en Configuración > Límites (disparador %, meta %, orden por último contacto o registro, conversaciones vinculadas, hora de ejecución), procesada por la cola de eliminación existente
 - **Botón "Ejecutar ahora" en las limpiezas automáticas** (v2026.6.2) — dispara la limpieza de Clientes o Almacenamiento inmediatamente, con estado "En curso..." que bloquea disparos duplicados
 
-### 🔄 Cambios (13)
+### Cambios (13)
 - **Verificaciones de rol sustituidas por permisos efectivos** (v2026.6.12) — `isOwnerOrAdmin`, `req.isAdmin` y `req.isOwner` calculados a partir de permisos efectivos en frontend y backend
 - **Protección de rutas de backend por módulo** (v2026.6.12) — middleware verifica permiso efectivo para configuración, integraciones, facturación, equipos, UTM y grupos de permisos
 - **Middleware de autenticación con banderas de acceso** (v2026.6.12) — `req.isOwner` y `req.isAdmin` poblados directamente, sin consultas adicionales a la base de datos
@@ -72,7 +72,7 @@ Actualizaciones del mes de junio de 2026.
 - **Mejoras visuales en la lista de tareas** (v2026.6.3) — encabezado "Vencimiento" sin salto de línea, estado y fechas sin saltos, fecha vencida solo en rojo, controles de agrupación/ordenación en barra propia
 - **Los clientes con pedidos (POS) ahora pueden ser eliminados** (v2026.6.2) — pedidos preservados en el historial de ventas, solo desvinculados del cliente
 
-### 🐛 Correcciones (8)
+### Correcciones (8)
 - **Permisos personalizados de clientes ignoraban `canAccessAll: false`** (v2026.6.12) — sin la bandera marcada, el usuario ahora ve correctamente solo los clientes que atiende
 - **Recordatorios before_appointment con estado confirmado** (v2026.6.8) — recordatorios enviados también para citas confirmadas
 - **Cancelación de recordatorios pendientes** (v2026.6.8) — recordatorios futuros cancelados automáticamente al cancelar la cita
@@ -84,6 +84,6 @@ Actualizaciones del mes de junio de 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **14 lanzamientos** en este mes!
 :::

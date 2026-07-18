@@ -25,7 +25,7 @@ Updates for June 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (30)
+### New Features (30)
 - **Overdue Customers List — Billing** (v2026.6.14) — new dedicated tab in the Billing module with per-customer grouping, total customers and total overdue cards, search, clickable column sorting, expandable installment rows and payment registration directly on screen; WhatsApp fetched from `customer_contacts`
 - **Manage Customer Tags via AI Agent** (v2026.6.13) — new AI Agent ready action to add or remove customer tags; granular control by mode (None, All, Selected) with restricted enum in OpenAI tool
 - **Granular per-user permissions** (v2026.6.12) — individual module access control; exclusive hierarchy: custom > group > role; Owner always has full access
@@ -57,7 +57,7 @@ Updates for June 2026.
 - **Automatic customer deletion by usage limit** (v2026.6.2) — configurable deletion in Settings > Limits (trigger %, target %, order by last contact or registration, linked conversations, run time), processed by the existing deletion queue
 - **"Run now" button for automatic cleanups** (v2026.6.2) — triggers Customers or Storage cleanup immediately, with an "In progress..." state that blocks duplicate triggers
 
-### 🔄 Changes (13)
+### Changes (13)
 - **Role checks replaced by effective permissions** (v2026.6.12) — `isOwnerOrAdmin`, `req.isAdmin` and `req.isOwner` calculated from effective permissions on both frontend and backend
 - **Backend route protection by module** (v2026.6.12) — middleware verifies effective permission for settings, integrations, billing, teams, UTM and permission groups
 - **Auth middleware with access flags** (v2026.6.12) — `req.isOwner` and `req.isAdmin` populated directly, without extra database queries
@@ -72,7 +72,7 @@ Updates for June 2026.
 - **Visual improvements in the task list** (v2026.6.3) — "Due date" header without wrapping, status and dates no longer wrap, overdue date in red only, grouping/sorting controls in their own bar
 - **Customers with POS orders can now be deleted** (v2026.6.2) — orders preserved in the sales history, only unlinked from the customer
 
-### 🐛 Bug Fixes (8)
+### Bug Fixes (8)
 - **Customer custom permissions ignored `canAccessAll: false`** (v2026.6.12) — without the flag checked, the user now correctly sees only the customers they serve
 - **Before-appointment reminders with confirmed status** (v2026.6.8) — reminders now sent for confirmed appointments as well
 - **Pending reminder cancellation** (v2026.6.8) — future reminders automatically canceled when the appointment is canceled
@@ -84,6 +84,6 @@ Updates for June 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **15 releases** this month!
 :::

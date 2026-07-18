@@ -20,7 +20,7 @@ Updates for March 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (9)
+### New Features (9)
 - **Internal Direct Chat and improved Internal Groups** – 1:1 DM between agents accessible from the + button in the Chats page header; floating widget with auto-pin for all members, database persistence and fixed order; configurable permission for members to delete groups; direct chat deletion by either participant; notifications with sender name and no self-notification
 - **Mark read on WhatsApp when resolving and pause flow on resolve** – Optional Attendance setting for WAHA read receipts when finishing or marking resolved; automatic flow session pause equivalent to `POST /pause-flow`
 - **Forward messages and typed initial message** – Forward messages from chat to a new contact/channel; `POST /chat/create` accepts `initialMessage` as a string or object (text, image, video, audio, document with HTTPS URL); when creating with an initial message, the system may auto-attend or add you as collaborator; on forward, a toast with **Go to conversation** instead of an immediate redirect
@@ -33,6 +33,6 @@ Updates for March 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **9 releases** with **9 features** this month!
 :::

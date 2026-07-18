@@ -22,7 +22,7 @@ Updates for July 2026.
 
 ## Month Summary
 
-### ✨ New Features (29)
+### New Features (29)
 - **HR / Time clock module** (v2026.7.11) — clock-in, break, return, and clock-out with photo, GPS, and audit trail
 - **Workplaces and geofence** (v2026.7.11) — sites with radius and per-employee rules (including home office)
 - **Weekly schedule per employee** (v2026.7.11) — variable days and hours (e.g. Mon–Fri 8h, Saturday 4h)
@@ -53,7 +53,7 @@ Updates for July 2026.
 - **Test Channel Badge** (v2026.7.1) — amber visual identifier in the chat header when the conversation is on a `test` type channel
 - **Floating active node indicator** (v2026.7.1) — badge below the flow button in the agent header showing node name, debounce state, and time tooltip
 
-### 🔄 Improvements (14)
+### Improvements (14)
 - **Punch without a webcam** (v2026.7.11) — upload a photo file when there is no camera
 - **Mirrored camera preview** (v2026.7.11) — selfie-style framing; saved photo keeps normal orientation
 - **Loading on HR screens** (v2026.7.11) — avoids an empty flash while loading
@@ -69,7 +69,7 @@ Updates for July 2026.
 - **Notifications disabled during testing** (v2026.7.3) — test messages no longer notify the team
 - **Visual progress indicator** (v2026.7.3) — animated edge leading to the active node during testing
 
-### 🐛 Bug Fixes (6)
+### Bug Fixes (6)
 - **Mark as unread undone while chat is open** (v2026.7.8) — auto mark-as-read only when opening the internal conversation
 - **Organization settings for agents** (v2026.7.8) — settings GET allowed without Settings module; avoids errors and repeated chat requests
 - **Timeout checker performance** (v2026.7.3) — batch processing with concurrency, eliminating delays of up to 20-30 minutes
@@ -77,11 +77,11 @@ Updates for July 2026.
 - **FK error when deleting test chat** (v2026.7.1) — deletion in correct order to avoid constraint violation between chats and flow sessions
 - **Debounce override not propagated** (v2026.7.1) — debounce override configured in the test is now respected during flow execution
 
-### 🔒 Security (1)
+### Security (1)
 - **Validation when creating a conversation** (v2026.7.5) — channel permission checked on the server when starting a conversation
 
 ---
 
-::: info 📝 Total
+::: info Total
 **11 releases** this month!
 :::

@@ -25,7 +25,7 @@ Actualizaciones del mes de noviembre de 2025.
 
 ## Resumen del Mes
 
-### ✨ Nuevas Funcionalidades (22)
+### Nuevas Funcionalidades (22)
 - Citas recurrentes en la agenda
 - Integración Facebook Messenger
 - Grupos de WhatsApp
@@ -45,18 +45,18 @@ Actualizaciones del mes de noviembre de 2025.
 - Conversión JSON a texto
 - Y más...
 
-### 🔒 Seguridad (3)
+### Seguridad (3)
 - Visibilidad restringida de clientes para agentes
 - Métricas restringidas para agentes
 - Configuración rápida restringida para admins
 
-### 🐛 Correcciones (2)
+### Correcciones (2)
 - Corrección en selección de horarios del flujo
 - Proceso de reenvío del app WhatsApp
 
 ---
 
-::: info 📝 Total
+::: info Total
 **14 releases** con **25 mejoras** este mes!
 :::
 

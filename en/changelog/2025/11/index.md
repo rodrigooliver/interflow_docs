@@ -25,7 +25,7 @@ Updates for November 2025.
 
 ## Month Summary
 
-### ✨ New Features (22)
+### New Features (22)
 - Recurring appointments
 - Facebook Messenger integration
 - WhatsApp Groups
@@ -45,18 +45,18 @@ Updates for November 2025.
 - JSON to text conversion
 - And more...
 
-### 🔒 Security (3)
+### Security (3)
 - Restricted customer visibility for agents
 - Restricted metrics for agents
 - Quick setup restricted to admins
 
-### 🐛 Fixes (2)
+### Fixes (2)
 - Time slot selection in flow
 - WhatsApp app resubmission process
 
 ---
 
-::: info 📝 Total
+::: info Total
 **14 releases** with **25 improvements** this month!
 :::
 

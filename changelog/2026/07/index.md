@@ -22,7 +22,7 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (29)
+### Novas Funcionalidades (29)
 - **Módulo RH / Cartão ponto** (v2026.7.11) — entrada, pausa, retorno e saída com foto, GPS e auditoria
 - **Locais e geofence** (v2026.7.11) — locais com raio e regras por colaborador (incluindo home office)
 - **Jornada semanal por colaborador** (v2026.7.11) — dias e horas variáveis (ex.: seg–sex 8h, sábado 4h)
@@ -53,7 +53,7 @@ Atualizações do mês de julho de 2026.
 - **Badge de Canal de Teste** (v2026.7.1) — identificação visual em âmbar no header do chat quando o atendimento é de um canal tipo `test`
 - **Indicador flutuante de nó ativo** (v2026.7.1) — badge abaixo do botão de fluxo no header do agente exibe nome do nó, estado de debounce e tooltip com horário
 
-### 🔄 Melhorias (14)
+### Melhorias (14)
 - **Bater ponto sem webcam** (v2026.7.11) — envio de foto por arquivo quando não há câmera
 - **Preview da câmera em espelho** (v2026.7.11) — enquadramento tipo selfie; foto salva na orientação normal
 - **Loading nas telas de RH** (v2026.7.11) — evita flash de tela vazia ao carregar
@@ -69,7 +69,7 @@ Atualizações do mês de julho de 2026.
 - **Notificações desativadas no teste** (v2026.7.3) — mensagens de teste não notificam mais o time
 - **Indicador visual de progresso** (v2026.7.3) — edge animada até o nó ativo durante o teste
 
-### 🐛 Correções (6)
+### Correções (6)
 - **Marcar como não lida desfeita com o chat aberto** (v2026.7.8) — auto-marcar como lida só na abertura da conversa interna
 - **Settings da organização para agentes** (v2026.7.8) — GET de configurações liberado sem módulo Settings; evita erros e requisições repetidas no chat
 - **Desempenho da verificação de timeouts** (v2026.7.3) — processamento em lote com concorrência, eliminando atrasos de até 20-30 minutos
@@ -77,11 +77,11 @@ Atualizações do mês de julho de 2026.
 - **Erro ao deletar chat de teste** (v2026.7.1) — exclusão passa a encerrar a sessão do fluxo antes de remover a conversa
 - **Override de debounce não aplicado** (v2026.7.1) — tempo de debounce configurado no teste agora é respeitado na execução do fluxo
 
-### 🔒 Segurança (1)
+### Segurança (1)
 - **Validação ao criar conversa** (v2026.7.5) — permissão de canal verificada no servidor ao iniciar conversa
 
 ---
 
-::: info 📝 Total
+::: info Total
 **11 releases** neste mês!
 :::

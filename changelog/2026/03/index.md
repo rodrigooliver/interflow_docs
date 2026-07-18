@@ -20,7 +20,7 @@ Atualizações do mês de março de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (9)
+### Novas Funcionalidades (9)
 - **Chat Direto Interno e Grupos Internos aprimorados** – DM 1:1 entre agentes acessível pelo botão + no cabeçalho da página de Chats; widget flutuante com auto-pin para todos os membros, persistência no banco de dados e ordem fixa; permissão configurável para membros excluírem grupos; exclusão de chats diretos por qualquer participante; notificações com nome do remetente e sem auto-notificação
 - **Marcar lida no WhatsApp ao resolver e pausar fluxo ao resolver** – Configuração opcional em Atendimento para enviar leitura no WhatsApp (WAHA) ao finalizar ou marcar como resolvido; pausa automática de sessão de fluxo equivalente a `POST /pause-flow`
 - **Encaminhar mensagens e mensagem inicial tipada** – Encaminhe mensagens do chat para um novo contato/canal; `POST /chat/create` aceita `initialMessage` como string ou objeto (texto, imagem, vídeo, áudio, documento com URL HTTPS); ao criar com mensagem inicial, o sistema pode atender automaticamente ou adicionar você como colaborador; no encaminhamento, toast com **Ir para conversa** em vez de redirecionar na hora
@@ -33,6 +33,6 @@ Atualizações do mês de março de 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **9 releases** com **9 funcionalidades** neste mês!
 :::

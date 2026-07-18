@@ -17,7 +17,7 @@ Atualizações do mês de maio de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (7)
+### Novas Funcionalidades (7)
 - **Exclusão em massa com opção de apagar chats vinculados** (v2026.5.6) — ao excluir múltiplos clientes, admin/owner pode marcar opção para apagar todos os chats, mensagens e arquivos vinculados; arquivos removidos via fila assíncrona; seletor de 10 ou 50 clientes por página na listagem
 - **Canal Auxiliar WAHA para WhatsApp Official** (v2026.5.5) — canal WAHA vinculado ao Official para capturar echoes do celular, enviar fora da janela 24h, suportar grupos e buscar foto de perfil; configuração direta nas settings do canal oficial; zero duplicação de mensagens
 - **Ações em Massa na Lista de Atendimentos** (v2026.5.4) — marcar como lido ou resolvido em vários chats de uma vez; seleção manual ou todos os filtrados; resolvido apenas para `pending`; processamento em lote no servidor
@@ -27,6 +27,6 @@ Atualizações do mês de maio de 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **6 releases** neste mês!
 :::

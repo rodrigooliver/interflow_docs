@@ -10,7 +10,7 @@ function getSidebar(lang: string = '') {
   return {
     [`${prefix}/guide/`]: [
       {
-        text: lang === 'en' ? '🚀 Getting Started' : lang === 'es' ? '🚀 Primeros Pasos' : '🚀 Primeiros Passos',
+        text: lang === 'en' ? 'Getting Started' : lang === 'es' ? 'Primeros Pasos' : 'Primeiros Passos',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Introduction' : lang === 'es' ? 'Introducción' : 'Introdução', link: `${prefix}/guide/introduction` },
@@ -19,7 +19,7 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '📱 Communication Channels' : lang === 'es' ? '📱 Canales de Atención' : '📱 Canais de Atendimento',
+        text: lang === 'en' ? 'Communication Channels' : lang === 'es' ? 'Canales de Atención' : 'Canais de Atendimento',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/channels/` },
@@ -33,7 +33,7 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '💬 Chat & Support' : lang === 'es' ? '💬 Chat y Atención' : '💬 Chat e Atendimento',
+        text: lang === 'en' ? 'Chat & Support' : lang === 'es' ? 'Chat y Atención' : 'Chat e Atendimento',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Chat Interface' : lang === 'es' ? 'Interfaz de Chat' : 'Interface de Chat', link: `${prefix}/guide/chat/interface` },
@@ -46,7 +46,7 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '🤖 Automation & Flows' : lang === 'es' ? '🤖 Automatización y Flujos' : '🤖 Automação e Fluxos',
+        text: lang === 'en' ? 'Automation & Flows' : lang === 'es' ? 'Automatización y Flujos' : 'Automação e Fluxos',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Flow Builder' : lang === 'es' ? 'Constructor de Flujos' : 'Construtor de Fluxos', link: `${prefix}/guide/flows/builder` },
@@ -88,7 +88,7 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '🤖 AI Agents' : lang === 'es' ? '🤖 Agentes IA' : '🤖 Agentes IA',
+        text: lang === 'en' ? 'AI Agents' : lang === 'es' ? 'Agentes IA' : 'Agentes IA',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/ai-agents/` },
@@ -96,7 +96,7 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '📅 Schedule' : lang === 'es' ? '📅 Agenda' : '📅 Agenda',
+        text: lang === 'en' ? 'Schedule' : lang === 'es' ? 'Agenda' : 'Agenda',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/schedule/` },
@@ -106,7 +106,7 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '👥 CRM & Customers' : lang === 'es' ? '👥 CRM y Clientes' : '👥 CRM e Clientes',
+        text: lang === 'en' ? 'CRM & Customers' : lang === 'es' ? 'CRM y Clientes' : 'CRM e Clientes',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Customer Management' : lang === 'es' ? 'Gestión de Clientes' : 'Gerenciamento de Clientes', link: `${prefix}/guide/crm/customers` },
@@ -114,14 +114,14 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '🕐 HR / Time clock' : lang === 'es' ? '🕐 RRHH / Fichaje' : '🕐 RH / Ponto',
+        text: lang === 'en' ? 'HR / Time clock' : lang === 'es' ? 'RRHH / Fichaje' : 'RH / Ponto',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/hr/` }
         ]
       },
       {
-        text: lang === 'en' ? '📄 Document Templates' : lang === 'es' ? '📄 Plantillas de Documentos' : '📄 Modelos de Documentos',
+        text: lang === 'en' ? 'Document Templates' : lang === 'es' ? 'Plantillas de Documentos' : 'Modelos de Documentos',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/documents/` },
@@ -131,7 +131,7 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '📊 Reports' : lang === 'es' ? '📊 Informes' : '📊 Relatórios',
+        text: lang === 'en' ? 'Reports' : lang === 'es' ? 'Informes' : 'Relatórios',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/reports/` },
@@ -139,7 +139,7 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '⚙️ Settings' : lang === 'es' ? '⚙️ Configuraciones' : '⚙️ Configurações',
+        text: lang === 'en' ? 'Settings' : lang === 'es' ? 'Configuraciones' : 'Configurações',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/settings/` },
@@ -147,7 +147,7 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '🔌 Integrations' : lang === 'es' ? '🔌 Integraciones' : '🔌 Integrações',
+        text: lang === 'en' ? 'Integrations' : lang === 'es' ? 'Integraciones' : 'Integrações',
         collapsed: false,
         items: [
           { text: 'OpenAI', link: `${prefix}/guide/integrations/openai` },
@@ -160,42 +160,42 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '💰 Customer Billing' : lang === 'es' ? '💰 Facturación' : '💰 Cobrança',
+        text: lang === 'en' ? 'Customer Billing' : lang === 'es' ? 'Facturación' : 'Cobrança',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/billing/` }
         ]
       },
       {
-        text: lang === 'en' ? '💵 Financial' : lang === 'es' ? '💵 Financiero' : '💵 Financeiro',
+        text: lang === 'en' ? 'Financial' : lang === 'es' ? 'Financiero' : 'Financeiro',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/financial/` }
         ]
       },
       {
-        text: lang === 'en' ? '🛒 POS' : lang === 'es' ? '🛒 PDV' : '🛒 PDV',
+        text: lang === 'en' ? 'POS' : lang === 'es' ? 'PDV' : 'PDV',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/pos/` }
         ]
       },
       {
-        text: lang === 'en' ? '📈 UTM Tracking' : lang === 'es' ? '📈 UTM / Tracking' : '📈 UTM / Tracking',
+        text: lang === 'en' ? 'UTM Tracking' : lang === 'es' ? 'UTM / Tracking' : 'UTM / Tracking',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/utm/` }
         ]
       },
       {
-        text: lang === 'en' ? '🩺 Medical (EMR)' : lang === 'es' ? '🩺 Médico (EMR)' : '🩺 Médico (EMR)',
+        text: lang === 'en' ? 'Medical (EMR)' : lang === 'es' ? 'Médico (EMR)' : 'Médico (EMR)',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/medical/` }
         ]
       },
       {
-        text: lang === 'en' ? '🤝 Partner Portal' : lang === 'es' ? '🤝 Portal del socio' : '🤝 Portal do Parceiro',
+        text: lang === 'en' ? 'Partner Portal' : lang === 'es' ? 'Portal del socio' : 'Portal do Parceiro',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/partner/` }
@@ -204,7 +204,7 @@ function getSidebar(lang: string = '') {
     ],
     [`${prefix}/api/`]: [
       {
-        text: lang === 'en' ? '📚 API Reference' : lang === 'es' ? '📚 Referencia de API' : '📚 Referência da API',
+        text: lang === 'en' ? 'API Reference' : lang === 'es' ? 'Referencia de API' : 'Referência da API',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Introduction' : lang === 'es' ? 'Introducción' : 'Introdução', link: `${prefix}/api/` },
@@ -213,7 +213,7 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
-        text: lang === 'en' ? '💬 Messages' : lang === 'es' ? '💬 Mensajes' : '💬 Mensagens',
+        text: lang === 'en' ? 'Messages' : lang === 'es' ? 'Mensajes' : 'Mensagens',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Send Message' : lang === 'es' ? 'Enviar Mensaje' : 'Enviar Mensagem', link: `${prefix}/api/messages/send` }
@@ -222,7 +222,7 @@ function getSidebar(lang: string = '') {
     ],
     [`${prefix}/features/`]: [
       {
-        text: lang === 'en' ? '🎯 Features' : lang === 'es' ? '🎯 Recursos' : '🎯 Recursos',
+        text: lang === 'en' ? 'Features' : lang === 'es' ? 'Recursos' : 'Recursos',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/features/` }
@@ -270,7 +270,7 @@ function getSidebar(lang: string = '') {
     ],
     [`${prefix}/changelog/`]: [
       {
-        text: lang === 'en' ? '📋 Changelog' : lang === 'es' ? '📋 Changelog' : '📋 Changelog',
+        text: lang === 'en' ? 'Changelog' : lang === 'es' ? 'Changelog' : 'Changelog',
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/changelog/` },

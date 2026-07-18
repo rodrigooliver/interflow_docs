@@ -13,7 +13,7 @@ Atualizações do mês de janeiro de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (4)
+### Novas Funcionalidades (4)
 - **Controle de acesso granular ao CRM** - Sistema completo de permissões para atendentes visualizarem apenas seus clientes no CRM
 - **Consulta de clientes por permissão de usuário** - Agentes com `agent_limited` visualizam apenas seus clientes em todos os módulos
 - **Templates de WhatsApp Oficial em disparo em massa** - Envie templates pré-aprovados para múltiplos contatos
@@ -21,6 +21,6 @@ Atualizações do mês de janeiro de 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **2 releases** com **4 funcionalidades** neste mês!
 :::

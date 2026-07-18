@@ -19,7 +19,7 @@ Atualizações do mês de fevereiro de 2026.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (10)
+### Novas Funcionalidades (10)
 - **Recusa de Ligações WAHA** – Rejeitar ligações automaticamente, registrar "Ligação Recebida" no chat e enviar mensagem personalizada
 - **Modelos de Documentos** – Sistema completo de geração de documentos (editor visual, variáveis, helpers, condicionais, operações matemáticas, PDF/DOCX)
 - **Colaboradores** – Apenas admins e donos podem adicionar/remover; atendentes limitados só visualizam
@@ -33,6 +33,6 @@ Atualizações do mês de fevereiro de 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **8 releases** com **10 funcionalidades** neste mês!
 :::

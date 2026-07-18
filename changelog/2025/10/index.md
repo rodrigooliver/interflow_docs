@@ -16,7 +16,7 @@ Atualizações do mês de outubro de 2025.
 
 ## Resumo do Mês
 
-### ✨ Novas Funcionalidades (9)
+### Novas Funcionalidades (9)
 - Mensagens fixadas no chat
 - Node de nota privada no fluxo
 - Reativar conversa arquivada com nova mensagem
@@ -27,12 +27,12 @@ Atualizações do mês de outubro de 2025.
 - Cascata de alteração em campos select
 - Pausar fluxo ao atender
 
-### 🔒 Segurança (1)
+### Segurança (1)
 - Ocultar dados sensíveis para atendentes
 
 ---
 
-::: info 📝 Total
+::: info Total
 **5 releases** com **10 melhorias** neste mês!
 :::
 

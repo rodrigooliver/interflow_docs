@@ -19,7 +19,7 @@ Updates for February 2026.
 
 ## Month Summary
 
-### ✨ New Features (10)
+### New Features (10)
 - **WAHA Call Rejection** – Automatically reject calls, register "Call Received" in chat and send personalized message
 - **Document Templates** – Complete document generation system (visual editor, variables, helpers, conditionals, math operations, PDF/DOCX)
 - **Collaborators** – Only admins and owners can add/remove; limited agents can only view
@@ -33,6 +33,6 @@ Updates for February 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **8 releases** with **10 features** this month!
 :::

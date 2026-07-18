@@ -17,7 +17,7 @@ Updates for May 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (7)
+### New Features (7)
 - **Bulk deletion with option to delete linked chats** (v2026.5.6) — when bulk-deleting customers, admins/owners can check an option to delete all linked chats, messages and files; files removed via asynchronous queue; 10 or 50 customers per page selector in the customer list
 - **Auxiliary WAHA Channel for WhatsApp Official** (v2026.5.5) — WAHA channel linked to the Official to capture phone echoes, send outside the 24h window, support groups and fetch profile pictures; configured directly in the official channel settings; zero message duplication
 - **Bulk Actions in the Chat List** (v2026.5.4) — mark as read or resolved on multiple chats at once; manual selection or all filtered; resolved for `pending` only; server-side batch processing
@@ -27,6 +27,6 @@ Updates for May 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **6 releases** this month!
 :::

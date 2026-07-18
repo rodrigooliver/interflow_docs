@@ -13,7 +13,7 @@ Updates for January 2026.
 
 ## Monthly Summary
 
-### ✨ New Features (4)
+### New Features (4)
 - **Granular CRM access control** - Complete permissions system for agents to view only their customers in CRM
 - **Customer query by user permission** - Agents with `agent_limited` view only their customers across all modules
 - **Official WhatsApp Templates in bulk messaging** - Send pre-approved templates to multiple contacts
@@ -21,6 +21,6 @@ Updates for January 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **2 releases** with **4 features** this month!
 :::

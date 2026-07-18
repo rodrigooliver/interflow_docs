@@ -15,36 +15,27 @@ hero:
     - theme: alt
       text: API Reference
       link: /api/
-
 features:
-  - icon: 💬
-    title: Atendimento Multicanal
+  - title: Atendimento Multicanal
     details: WhatsApp Business, Instagram, Facebook Messenger e Email integrados em uma única plataforma. Centralize todos os seus canais de comunicação.
-  - icon: 🤖
-    title: Automação Inteligente
+  - title: Automação Inteligente
     details: Construa fluxos de atendimento automatizados com nosso editor visual drag-and-drop. Integre com IA para respostas inteligentes.
-  - icon: 👥
-    title: CRM Completo
+  - title: CRM Completo
     details: Gerencie seus clientes, acompanhe negócios em funis de venda, use campos personalizados e segmente sua base com tags.
-  - icon: 📅
-    title: Agendamentos
+  - title: Agendamentos
     details: Sistema completo de agendamentos com calendário, lembretes automáticos e integração com Google Calendar.
-  - icon: 💰
-    title: Gestão Financeira
+  - title: Gestão Financeira
     details: Controle receitas, despesas, transações e gere relatórios financeiros detalhados da sua operação.
-  - icon: 🛒
-    title: PDV Integrado
+  - title: PDV Integrado
     details: Ponto de venda completo com gestão de produtos, vendas e integração com meios de pagamento.
-  - icon: 📊
-    title: Relatórios e Analytics
+  - title: Relatórios e Analytics
     details: Dashboards em tempo real, métricas de atendimento, performance da equipe e insights para tomada de decisão.
-  - icon: 🌍
-    title: Multi-idioma
+  - title: Multi-idioma
     details: Suporte nativo para Português, Inglês e Espanhol. Interface adaptável ao idioma de sua preferência.
 ---
 
 
-## ⚠️ Documentação em Atualização
+## Documentação em Atualização
 
 ::: warning AVISO IMPORTANTE
 Esta documentação está em fase de **atualização contínua**. Novas seções e conteúdos estão sendo adicionados regularmente. 
@@ -54,7 +45,7 @@ Se você encontrar alguma informação desatualizada ou tiver dúvidas, entre em
 
 ---
 
-## 🚀 Início Rápido
+## Início Rápido
 
 Siga estes passos para começar a usar a Interflow:
 
@@ -72,7 +63,7 @@ Siga estes passos para começar a usar a Interflow:
 
 ---
 
-## 📱 Canais Suportados
+## Canais Suportados
 
 | Canal | Status | Recursos |
 |-------|--------|----------|
@@ -86,7 +77,7 @@ Siga estes passos para começar a usar a Interflow:
 
 ---
 
-## 🎬 Vídeos e Tutoriais
+## Vídeos e Tutoriais
 
 ::: info EM CONSTRUÇÃO
 Área de vídeos tutoriais em desenvolvimento. Em breve teremos:
@@ -108,7 +99,7 @@ Siga estes passos para começar a usar a Interflow:
 
 ---
 
-## 📸 Screenshots da Plataforma
+## Screenshots da Plataforma
 
 ::: info EM CONSTRUÇÃO
 Galeria de screenshots em desenvolvimento. Em breve você verá:
@@ -138,7 +129,7 @@ Galeria de screenshots em desenvolvimento. Em breve você verá:
 
 ---
 
-## 💻 Tecnologias
+## Tecnologias
 
 A Interflow é construída com tecnologias modernas e robustas:
 
@@ -152,7 +143,7 @@ A Interflow é construída com tecnologias modernas e robustas:
 
 ---
 
-## 📞 Suporte
+## Suporte
 
 Precisa de ajuda? Temos várias formas de suporte:
 

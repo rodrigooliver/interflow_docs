@@ -21,12 +21,12 @@ Actualizaciones del mes de abril de 2026.
 
 ## Resumen del Mes
 
-### 🐛 Correcciones (3)
+### Correcciones (3)
 - **Envío masivo — canal desconectado** — comprobación del estado de conexión al enviar y consulta de la cola alineada a la configuración
 - **Campo `installment_id` ausente al registrar un gasto** (v2026.4.8) — corregido error de tipo TypeScript al crear un gasto en un contrato
 - **Selección múltiple de mensajes en el chat** (v2026.4.9) — el clic en la casilla ya no revierte la selección ni sale del modo inesperadamente; mismo comportamiento que el cuerpo del mensaje
 
-### ✨ Nuevas Funcionalidades (20)
+### Nuevas Funcionalidades (20)
 - **Nodo Webhook Trigger** (v2026.4.10) — recibir eventos externos e iniciar flujos automáticamente; autenticación Bearer, Header, Query param, HMAC (SHA-1/256/512, compatible con Kiwify) o Público; token cifrado en la base de datos; búsqueda de cliente por múltiples campos (OR) con upsert inteligente; vinculación con chat y creación automática de customer_contacts; enrutamiento por tipo de evento con salidas independientes + fallback else; modo "escuchar" en tiempo real para mapear variables; registros con copia de camino y lista de IPs/orígenes permitidos
 - **Herramientas del Agente IA para datos del cliente** (v2026.4.1) — acciones de sistema para email, documento (ID fiscal con parámetros y almacenamiento solo dígitos), país y tipo de persona; modal **Añadir acción** agrupado por sección (Cliente, Atención, Agendamiento, Flujo, Agente); JSON de contexto del cliente con email, documento y país
 - **Accesos en la cola de campaña masiva** (v2026.4.2) — iconos distintos, Cmd/Ctrl en nueva pestaña, actualización en tiempo real de la cola
@@ -44,6 +44,6 @@ Actualizaciones del mes de abril de 2026.
 
 ---
 
-::: info 📝 Total
+::: info Total
 **10 lanzamientos** en este mes!
 :::
