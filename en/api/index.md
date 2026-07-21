@@ -13,7 +13,7 @@ The Interflow API allows you to integrate and automate platform functionalities 
 ### Base URL
 
 ```
-https://api.interflow.chat/v1
+https://node.interflow.chat
 ```
 
 ## Authentication
@@ -21,9 +21,14 @@ https://api.interflow.chat/v1
 The API uses **API Keys** for authentication:
 
 ```bash
-curl -X GET "https://api.interflow.chat/v1/customers" \
-  -H "Authorization: Bearer your_api_key_here" \
-  -H "Content-Type: application/json"
+curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
+  -H "x-api-key: ak_your_api_key_here" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "contactType": "whatsapp",
+    "contactValue": "5511999999999",
+    "channelId": "channel-uuid"
+  }'
 ```
 
 ## Rate Limiting
@@ -36,24 +41,24 @@ curl -X GET "https://api.interflow.chat/v1/customers" \
 
 ## Main Endpoints
 
+### Chats
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `POST` | `/api/{organizationId}/chat/create` | [Create chat](/en/api/chats/create) |
+
+<!-- Temporarily hidden — re-enable when messages docs are ready
 ### Messages
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
 | `POST` | `/messages/send` | Send message |
 | `POST` | `/messages/bulk` | Send bulk |
-
-### Customers
-
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| `GET` | `/customers` | List customers |
-| `POST` | `/customers` | Create customer |
-| `GET` | `/customers/:id` | Get customer |
+-->
 
 ## Next Steps
 
 - [Authentication](/en/api/authentication)
 - [Errors](/en/api/errors)
-- [Send Message](/en/api/messages/send)
+- [Create Chat](/en/api/chats/create)
 

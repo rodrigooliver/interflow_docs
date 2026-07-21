@@ -231,11 +231,19 @@ function getSidebar(lang: string = '') {
           { text: lang === 'en' ? 'Errors' : lang === 'es' ? 'Errores' : 'Erros', link: `${prefix}/api/errors` }
         ]
       },
+      // Temporariamente oculto — reativar quando a doc de mensagens estiver pronta
+      // {
+      //   text: lang === 'en' ? 'Messages' : lang === 'es' ? 'Mensajes' : 'Mensagens',
+      //   collapsed: false,
+      //   items: [
+      //     { text: lang === 'en' ? 'Send Message' : lang === 'es' ? 'Enviar Mensaje' : 'Enviar Mensagem', link: `${prefix}/api/messages/send` }
+      //   ]
+      // },
       {
-        text: lang === 'en' ? 'Messages' : lang === 'es' ? 'Mensajes' : 'Mensagens',
+        text: 'Chats',
         collapsed: false,
         items: [
-          { text: lang === 'en' ? 'Send Message' : lang === 'es' ? 'Enviar Mensaje' : 'Enviar Mensagem', link: `${prefix}/api/messages/send` }
+          { text: lang === 'en' ? 'Create Chat' : lang === 'es' ? 'Crear Chat' : 'Criar Chat', link: `${prefix}/api/chats/create` }
         ]
       }
     ],
