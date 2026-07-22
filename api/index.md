@@ -13,7 +13,7 @@ A API da Interflow permite que você integre e automatize funcionalidades da pla
 ### Base URL
 
 ```
-https://node.interflow.chat
+https://v1.api.interflow.chat
 ```
 
 ## Autenticação
@@ -21,7 +21,7 @@ https://node.interflow.chat
 A API utiliza **API Keys** para autenticação. Inclua sua chave no header de todas as requisições:
 
 ```bash
-curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
+curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "x-api-key: ak_sua_api_key_aqui" \
   -H "Content-Type: application/json" \
   -d '{

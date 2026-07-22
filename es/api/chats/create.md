@@ -8,7 +8,7 @@ Crea una nueva atención (o reutiliza un chat activo) para un contacto y canal.
 POST /api/{organizationId}/chat/create
 ```
 
-**URL base:** `https://node.interflow.chat`
+**URL base:** `https://v1.api.interflow.chat`
 
 ## Autenticación
 
@@ -86,7 +86,7 @@ Al crear un **cliente nuevo**, el sistema usa la etapa predeterminada del canal 
 ### Creación básica
 
 ```bash
-curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
+curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_tu_api_key" \
   -d '{
@@ -100,7 +100,7 @@ curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
 ### Plantilla WhatsApp + mantener pending + flujo al responder
 
 ```bash
-curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
+curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_tu_api_key" \
   -d '{
@@ -119,7 +119,7 @@ curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
 ### Flujo inmediato
 
 ```bash
-curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
+curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_tu_api_key" \
   -d '{

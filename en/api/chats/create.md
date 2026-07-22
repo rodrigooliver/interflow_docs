@@ -8,7 +8,7 @@ Creates a new conversation (or reuses an active chat) for a contact and channel.
 POST /api/{organizationId}/chat/create
 ```
 
-**Base URL:** `https://node.interflow.chat`
+**Base URL:** `https://v1.api.interflow.chat`
 
 ## Authentication
 
@@ -86,7 +86,7 @@ When creating a **new customer**, the system uses the channel default stage (`se
 ### Basic create
 
 ```bash
-curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
+curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_your_api_key" \
   -d '{
@@ -100,7 +100,7 @@ curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
 ### WhatsApp template + keep pending + flow on reply
 
 ```bash
-curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
+curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_your_api_key" \
   -d '{
@@ -119,7 +119,7 @@ curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
 ### Immediate flow
 
 ```bash
-curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
+curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_your_api_key" \
   -d '{

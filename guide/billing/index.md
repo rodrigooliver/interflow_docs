@@ -231,7 +231,7 @@ O relatório centraliza todos os splits gerados pelos pagamentos.
 Para receber notificações de pagamento automaticamente:
 
 1. No painel do Asaas → **Minha Conta → Configurações → Integrações → Webhook**
-2. Adicione a URL: `https://node.interflow.chat/webhooks/asaas`
+2. Adicione a URL: `https://v1.api.interflow.chat/webhooks/asaas`
 3. Selecione os eventos: `PAYMENT_RECEIVED`, `PAYMENT_CONFIRMED`, `PAYMENT_RECEIVED_IN_CASH`
 4. No campo **Token de autenticação**, gere ou defina uma chave secreta e copie o valor
 5. Salve no Asaas

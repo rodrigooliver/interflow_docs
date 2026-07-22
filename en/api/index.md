@@ -13,7 +13,7 @@ The Interflow API allows you to integrate and automate platform functionalities 
 ### Base URL
 
 ```
-https://node.interflow.chat
+https://v1.api.interflow.chat
 ```
 
 ## Authentication
@@ -21,7 +21,7 @@ https://node.interflow.chat
 The API uses **API Keys** for authentication:
 
 ```bash
-curl -X POST "https://node.interflow.chat/api/{organizationId}/chat/create" \
+curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "x-api-key: ak_your_api_key_here" \
   -H "Content-Type: application/json" \
   -d '{
