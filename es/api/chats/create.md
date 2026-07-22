@@ -38,16 +38,16 @@ Authorization: Bearer ak_tu_api_key
 |-------|------|-------------|-------------|
 | `contactType` | string | Sí | `whatsapp`, `phone`, `email`, `instagram`, `facebook` o `telegram` |
 | `contactValue` | string | Sí | Valor del contacto (número, email, username, etc.) |
-| `channelId` | string (UUID) | Sí | ID del canal activo |
-| `customerId` | string (UUID) | No | Cliente existente; si se omite, busca/crea automáticamente |
+| `channelId` | string (UUID) | Sí | ID del canal activo — menú lateral **Canales** (copiar en la tarjeta) |
+| `customerId` | string (UUID) | No | Cliente existente — **Clientes** → acciones (⋮) → **Copiar ID**; si se omite, busca/crea automáticamente |
 | `customerName` | string | No | Nombre al crear un cliente nuevo |
-| `teamId` | string (UUID) | No | Equipo de la atención |
+| `teamId` | string (UUID) | No | Equipo de la atención — menú **Equipos** (copiar en la tarjeta) |
 | `initialMessage` | string \| object | No | Mensaje inicial (texto o medio) |
-| `whatsappTemplate` | object | No | Plantilla Meta (solo canal WhatsApp Oficial) |
-| `flowId` | string (UUID) | No | Inicia el flujo **de inmediato** tras crear/encontrar el chat |
+| `whatsappTemplate` | object | No | Plantilla Meta (solo WhatsApp Oficial) — **Canales** → Plantillas → **Copiar ID** |
+| `flowId` | string (UUID) | No | Inicia el flujo **de inmediato** — menú **Flujos** (copiar en la tarjeta) |
 | `flowVariables` | array | No | Variables del flujo: `[{ "name": "...", "value": "..." }]` |
 | `contextMessage` | string | No | Contexto usado con `flowId` o `responseFlowId` |
-| `responseFlowId` | string (UUID) | No | Flujo que inicia **cuando el cliente responda** (`auto_trigger_on_response`) |
+| `responseFlowId` | string (UUID) | No | Flujo al responder el cliente — mismo ID en **Flujos** (copiar en la tarjeta) |
 | `keepPending` | boolean | No | Si es `true`, mantiene el chat en `pending` aunque haya `initialMessage` / `whatsappTemplate` (no atiende ni autoasigna) |
 
 ### `initialMessage`
@@ -67,7 +67,7 @@ Cadena (texto) u objeto:
 
 | Campo | Tipo | Descripción |
 |-------|------|-------------|
-| `id` o `templateId` | string (UUID) | ID de la plantilla en `whatsapp_templates` |
+| `id` o `templateId` | string (UUID) | ID Interflow de la plantilla — **Canales** → canal → **Plantillas de WhatsApp** → **Copiar ID** |
 | `variables` | object \| array | Variables de la plantilla (opcional) |
 
 ::: tip ETAPA DEL CLIENTE
@@ -92,7 +92,7 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -d '{
     "contactType": "whatsapp",
     "contactValue": "5511999999999",
-    "channelId": "39e2a574-367c-42dd-912b-50d0c385ca9d",
+    "channelId": "uuid-del-canal",
     "customerName": "Nombre del cliente"
   }'
 ```
@@ -106,12 +106,12 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -d '{
     "contactType": "whatsapp",
     "contactValue": "5511999999999",
-    "channelId": "39e2a574-367c-42dd-912b-50d0c385ca9d",
+    "channelId": "uuid-del-canal",
     "customerName": "Nombre del cliente",
     "keepPending": true,
-    "responseFlowId": "ba9fc9d9-f571-40f8-b868-f9cff5fa040f",
+    "responseFlowId": "uuid-del-flujo",
     "whatsappTemplate": {
-      "id": "0c77fa03-5429-4831-a495-183f8b5cb368"
+      "id": "uuid-de-la-plantilla"
     }
   }'
 ```
@@ -125,7 +125,7 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -d '{
     "contactType": "whatsapp",
     "contactValue": "5511999999999",
-    "channelId": "39e2a574-367c-42dd-912b-50d0c385ca9d",
+    "channelId": "uuid-del-canal",
     "flowId": "flow-uuid",
     "contextMessage": "¡Bienvenido!",
     "flowVariables": [
@@ -147,7 +147,7 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   "flowInitiated": false,
   "keepPending": true,
   "responseFlowScheduled": true,
-  "responseFlowId": "ba9fc9d9-f571-40f8-b868-f9cff5fa040f",
+  "responseFlowId": "uuid-del-flujo",
   "responseFlowName": "Nombre del flujo",
   "templateSent": true,
   "templateMessageId": "message-uuid"

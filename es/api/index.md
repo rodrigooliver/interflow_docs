@@ -31,6 +31,18 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   }'
 ```
 
+### Dónde encontrar los IDs
+
+| ID | En la app |
+|----|-----------|
+| `organizationId` | **Configuración** → **API Keys** |
+| `channelId` | Menú lateral **Canales** — copiar en la tarjeta del canal |
+| `whatsappTemplate.id` / `templateId` | **Canales** → canal WhatsApp Oficial → **Plantillas de WhatsApp** → **Copiar ID** |
+| `teamId` | Menú lateral **Equipos** — copiar en la tarjeta del equipo |
+| `flowId` / `responseFlowId` | Menú lateral **Flujos** — copiar en la tarjeta del flujo |
+| `customerId` | Menú lateral **Clientes** → acciones (⋮) → **Copiar ID** |
+| API Key | **Configuración** → **API Keys** → generar una nueva clave |
+
 ## Rate Limiting
 
 | Plan | Límite |

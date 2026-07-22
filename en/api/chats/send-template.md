@@ -20,7 +20,7 @@ x-api-key: ak_sua_api_key
 
 | Campo | Tipo | Obrigatório | Descrição |
 |-------|------|-------------|-----------|
-| `templateId` | string (UUID) | Sim | ID do template WhatsApp na organização |
+| `templateId` | string (UUID) | Yes | Interflow template ID — **Channels** → channel → **WhatsApp Templates** → **Copy ID** |
 | `variables` | object \| array | Não | Variáveis do template |
 | `tempId` | string | Não | ID temporário do cliente |
 
@@ -31,7 +31,7 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/{chatId}/s
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_sua_api_key" \
   -d '{
-    "templateId": "0c77fa03-5429-4831-a495-183f8b5cb368",
+    "templateId": "template-uuid",
     "variables": {
       "1": "Maria"
     }

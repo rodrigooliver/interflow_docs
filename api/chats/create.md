@@ -40,7 +40,7 @@ Authorization: Bearer ak_sua_api_key
 
 | Parâmetro | Tipo | Obrigatório | Descrição |
 |-----------|------|-------------|-----------|
-| `organizationId` | string (UUID) | Sim | ID da organização |
+| `organizationId` | string (UUID) | Sim | ID da organização — em **Configurações** → **API Keys** |
 
 ### Body
 
@@ -48,16 +48,16 @@ Authorization: Bearer ak_sua_api_key
 |-------|------|-------------|-----------|
 | `contactType` | string | Sim | `whatsapp`, `phone`, `email`, `instagram`, `facebook` ou `telegram` |
 | `contactValue` | string | Sim | Valor do contato (número, e-mail, username, etc.) |
-| `channelId` | string (UUID) | Sim | ID do canal ativo |
-| `customerId` | string (UUID) | Não | Cliente existente; se omitido, busca/cria automaticamente |
+| `channelId` | string (UUID) | Sim | ID do canal ativo — menu lateral **Canais** (copiar no card) |
+| `customerId` | string (UUID) | Não | Cliente existente — **Clientes** → ações (⋮) → **Copiar ID**; se omitido, busca/cria automaticamente |
 | `customerName` | string | Não | Nome ao criar um cliente novo |
-| `teamId` | string (UUID) | Não | Equipe do atendimento |
+| `teamId` | string (UUID) | Não | Equipe do atendimento — menu **Equipes** (copiar no card) |
 | `initialMessage` | string \| object | Não | Mensagem inicial (texto ou mídia) |
-| `whatsappTemplate` | object | Não | Template Meta (somente canal WhatsApp Oficial) |
-| `flowId` | string (UUID) | Não | Inicia o fluxo **imediatamente** após criar/encontrar o chat |
+| `whatsappTemplate` | object | Não | Template Meta (somente canal WhatsApp Oficial) — **Canais** → Templates → **Copiar ID** |
+| `flowId` | string (UUID) | Não | Inicia o fluxo **imediatamente** — menu **Fluxos** (copiar no card) |
 | `flowVariables` | array | Não | Variáveis do fluxo: `[{ "name": "...", "value": "..." }]` |
 | `contextMessage` | string | Não | Contexto usado com `flowId` ou `responseFlowId` |
-| `responseFlowId` | string (UUID) | Não | Fluxo que inicia **quando o cliente responder** (`auto_trigger_on_response`) |
+| `responseFlowId` | string (UUID) | Não | Fluxo ao responder o cliente — mesmo ID em **Fluxos** (copiar no card) |
 | `keepPending` | boolean | Não | Se `true`, mantém o chat em `pending` mesmo com `initialMessage` / `whatsappTemplate` (não atende nem auto-atribui) |
 
 ### `initialMessage`
@@ -77,7 +77,7 @@ String (texto) ou objeto:
 
 | Campo | Tipo | Descrição |
 |-------|------|-----------|
-| `id` ou `templateId` | string (UUID) | ID do template WhatsApp na organização |
+| `id` ou `templateId` | string (UUID) | ID Interflow do template — **Canais** → canal → **Templates do WhatsApp** → **Copiar ID** |
 | `variables` | object \| array | Variáveis do template (opcional) |
 
 ::: tip ESTÁGIO DO CLIENTE
@@ -102,7 +102,7 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -d '{
     "contactType": "whatsapp",
     "contactValue": "5511999999999",
-    "channelId": "39e2a574-367c-42dd-912b-50d0c385ca9d",
+    "channelId": "uuid-do-canal",
     "customerName": "Nome do cliente"
   }'
 ```
@@ -116,12 +116,12 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -d '{
     "contactType": "whatsapp",
     "contactValue": "5511999999999",
-    "channelId": "39e2a574-367c-42dd-912b-50d0c385ca9d",
+    "channelId": "uuid-do-canal",
     "customerName": "Nome do cliente",
     "keepPending": true,
-    "responseFlowId": "ba9fc9d9-f571-40f8-b868-f9cff5fa040f",
+    "responseFlowId": "uuid-do-fluxo",
     "whatsappTemplate": {
-      "id": "0c77fa03-5429-4831-a495-183f8b5cb368"
+      "id": "uuid-do-template"
     }
   }'
 ```
@@ -135,7 +135,7 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -d '{
     "contactType": "whatsapp",
     "contactValue": "5511999999999",
-    "channelId": "39e2a574-367c-42dd-912b-50d0c385ca9d",
+    "channelId": "uuid-do-canal",
     "initialMessage": "Olá! Como posso ajudar?"
   }'
 ```
@@ -149,7 +149,7 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -d '{
     "contactType": "whatsapp",
     "contactValue": "5511999999999",
-    "channelId": "39e2a574-367c-42dd-912b-50d0c385ca9d",
+    "channelId": "uuid-do-canal",
     "flowId": "flow-uuid",
     "contextMessage": "Bem-vindo!",
     "flowVariables": [
@@ -171,7 +171,7 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   "flowInitiated": false,
   "keepPending": true,
   "responseFlowScheduled": true,
-  "responseFlowId": "ba9fc9d9-f571-40f8-b868-f9cff5fa040f",
+  "responseFlowId": "uuid-do-fluxo",
   "responseFlowName": "Nome do fluxo",
   "templateSent": true,
   "templateMessageId": "message-uuid"

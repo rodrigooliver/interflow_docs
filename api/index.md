@@ -29,11 +29,14 @@ Também é aceito `Authorization: Bearer ak_...`.
 
 Veja [Autenticação](/api/authentication).
 
-### Obtendo sua API Key
+### Obtendo sua API Key e IDs
 
-1. **Configurações** → **API Keys**
-2. **Gerar nova chave**
-3. Copie e guarde em local seguro
+1. **Configurações** → **API Keys** — gere a chave e copie o **Organization ID**
+2. Menu lateral **Canais** — copie o **ID do canal** no card; em canal WhatsApp Oficial → **Templates** para o ID do template
+3. Menu **Equipes**, **Fluxos** e **Clientes** — copie `teamId`, `flowId` / `responseFlowId` e `customerId` (nos cards ou no menu de ações)
+4. Guarde a API Key em local seguro (ela é exibida só na criação)
+
+Detalhes em [Autenticação → Onde encontrar os IDs](/api/authentication#onde-encontrar-os-ids).
 
 ::: danger IMPORTANTE
 Nunca exponha a API Key em código frontend ou repositórios públicos.

@@ -12,9 +12,22 @@ Rotas não documentadas (fora do [inventário](/api/status)) retornam `403` com 
 4. Defina um nome descritivo
 5. Copie a chave gerada (exibida **apenas uma vez**)
 
+Na mesma tela (**Configurações** → **API Keys**) você também encontra o **Organization ID**, com botão para copiar. Use esse valor no path `{organizationId}` das rotas.
+
 ::: danger IMPORTANTE
 A API Key é secreta. Nunca exponha em código de cliente ou repositórios públicos.
 :::
+
+## Onde encontrar os IDs
+
+| ID | Onde obter no app |
+|----|-------------------|
+| `organizationId` | Menu **Configurações** → **API Keys** (campo Organization ID) |
+| `channelId` | Menu lateral **Canais** — cada card exibe o ID do canal com botão para copiar |
+| `whatsappTemplate.id` / `templateId` | **Canais** → canal WhatsApp Oficial → **Templates do WhatsApp** — botão **Copiar ID** no template |
+| `teamId` | Menu lateral **Equipes** — cada card exibe o ID da equipe com botão para copiar |
+| `flowId` / `responseFlowId` | Menu lateral **Fluxos** — cada card exibe o ID do fluxo com botão para copiar |
+| `customerId` | Menu lateral **Clientes** → menu de ações (⋮) → **Copiar ID** |
 
 ## Usando a API Key
 
@@ -97,7 +110,7 @@ Toda rota pública inclui `{organizationId}`:
 /api/{organizationId}/...
 ```
 
-A API Key deve pertencer a essa organização (exceto contas superadmin).
+Copie o Organization ID em **Configurações** → **API Keys**. A API Key deve pertencer a essa organização (exceto contas superadmin).
 
 ## Allowlist de IP (opcional)
 
