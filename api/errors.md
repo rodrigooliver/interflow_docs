@@ -80,18 +80,28 @@ Autenticação válida, mas sem permissão.
 
 ```json
 {
-  "success": false,
-  "error": {
-    "code": "FORBIDDEN",
-    "message": "Sem permissão para este recurso"
-  }
+  "error": "IP not allowed for this API key",
+  "code": "API_KEY_IP_DENIED",
+  "requestId": "550e8400-e29b-41d4-a716-446655440000"
 }
 ```
 
 **Causas comuns:**
-- API Key sem a permissão necessária
 - Tentando acessar recurso de outra organização
-- Recurso desabilitado no plano atual
+- IP fora da allowlist configurada na API Key (`API_KEY_IP_DENIED`)
+- Rota fora do [inventário da API](/api/status) (`API_KEY_ROUTE_DENIED`)
+- Assinatura inativa (`SUBSCRIPTION_INACTIVE`)
+
+Exemplo — rota não pública:
+
+```json
+{
+  "error": "This route is not available for API Key authentication",
+  "code": "API_KEY_ROUTE_DENIED",
+  "requestId": "550e8400-e29b-41d4-a716-446655440000"
+}
+```
+
 
 ### 404 Not Found
 
@@ -151,15 +161,17 @@ Requisição válida mas não pode ser processada.
 
 ### 429 Too Many Requests
 
-Rate limit excedido.
+Rate limit da API key excedido (limite por plano da organização).
 
 ```json
 {
-  "success": false,
-  "error": {
-    "code": "RATE_LIMIT_EXCEEDED",
-    "message": "Limite de requisições excedido. Tente novamente em 60 segundos."
-  }
+  "error": "Rate limit exceeded",
+  "code": "RATE_LIMIT_EXCEEDED",
+  "limit": 60,
+  "remaining": 0,
+  "reset": 1640995260,
+  "retryAfter": 45,
+  "requestId": "550e8400-e29b-41d4-a716-446655440000"
 }
 ```
 
@@ -168,8 +180,11 @@ Rate limit excedido.
 X-RateLimit-Limit: 60
 X-RateLimit-Remaining: 0
 X-RateLimit-Reset: 1640995260
-Retry-After: 60
+Retry-After: 45
+X-Request-Id: 550e8400-e29b-41d4-a716-446655440000
 ```
+
+A organização também recebe um e-mail de alerta (máx. 1/hora por chave).
 
 ### 500 Internal Server Error
 

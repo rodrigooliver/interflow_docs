@@ -2,6 +2,16 @@
 
 Cria um novo atendimento (ou reutiliza um chat ativo existente) para um contato e canal.
 
+::: tip ENDPOINT PRINCIPAL
+Este é um dos endpoints **mais importantes** da API. Além de criar (ou reutilizar) o chat, na **mesma requisição** você já pode:
+
+- enviar uma mensagem inicial (`initialMessage`)
+- enviar um template WhatsApp (`whatsappTemplate`)
+- iniciar um fluxo (`flowId`) ou agendar fluxo na resposta (`responseFlowId`)
+
+Existem rotas separadas para [enviar mensagem](/api/messages/send) e [enviar template](/api/chats/send-template) em um chat já existente — use-as quando o chat já foi criado. Para o caso mais comum (abrir atendimento e falar com o contato), prefira **Criar Chat** e faça tudo em uma única chamada.
+:::
+
 ## Endpoint
 
 ```http
@@ -67,7 +77,7 @@ String (texto) ou objeto:
 
 | Campo | Tipo | Descrição |
 |-------|------|-----------|
-| `id` ou `templateId` | string (UUID) | ID do template em `whatsapp_templates` |
+| `id` ou `templateId` | string (UUID) | ID do template WhatsApp na organização |
 | `variables` | object \| array | Variáveis do template (opcional) |
 
 ::: tip ESTÁGIO DO CLIENTE
@@ -196,4 +206,9 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
 
 ## Próximos passos
 
+- [Enviar mensagem](/api/messages/send)
+- [Sequência / atalhos](/api/messages/sequence)
+- [Template WhatsApp](/api/chats/send-template)
 - [Autenticação](/api/authentication)
+- [Inventário da API](/api/status)
+

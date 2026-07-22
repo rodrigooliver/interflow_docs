@@ -1,16 +1,10 @@
 # API Reference
 
-Bem-vindo à documentação da API da Interflow.
+Bem-vindo à documentação da API da Interflow para integrações com API Key.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua. Novos endpoints são documentados regularmente.
-:::
+Veja o [inventário de endpoints](/api/status) disponíveis.
 
-## Visão Geral
-
-A API da Interflow permite que você integre e automatize funcionalidades da plataforma em suas aplicações.
-
-### Base URL
+## Base URL
 
 ```
 https://v1.api.interflow.chat
@@ -18,7 +12,7 @@ https://v1.api.interflow.chat
 
 ## Autenticação
 
-A API utiliza **API Keys** para autenticação. Inclua sua chave no header de todas as requisições:
+Inclua sua API Key em todas as requisições:
 
 ```bash
 curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
@@ -31,64 +25,35 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   }'
 ```
 
+Também é aceito `Authorization: Bearer ak_...`.
+
+Veja [Autenticação](/api/authentication).
+
 ### Obtendo sua API Key
 
-1. Acesse **Configurações** → **API Keys**
-2. Clique em **"Gerar nova chave"**
-3. Dê um nome descritivo
-4. Copie e guarde em local seguro
+1. **Configurações** → **API Keys**
+2. **Gerar nova chave**
+3. Copie e guarde em local seguro
 
 ::: danger IMPORTANTE
-Sua API Key é secreta. Nunca exponha em código frontend ou repositórios públicos.
+Nunca exponha a API Key em código frontend ou repositórios públicos.
 :::
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Gerenciamento de API Keys</p>
-</div>
+## Formato de resposta
 
-## Formato de Resposta
+Respostas em JSON. O formato exato varia por endpoint; erros comuns incluem `error` (string) e opcionalmente `code` / `requestId`.
 
-Todas as respostas são em JSON:
-
-### Sucesso
+Exemplo de erro de rota não pública:
 
 ```json
 {
-  "success": true,
-  "data": {
-    // dados da resposta
-  },
-  "meta": {
-    "page": 1,
-    "per_page": 20,
-    "total": 100
-  }
+  "error": "This route is not available for API Key authentication",
+  "code": "API_KEY_ROUTE_DENIED",
+  "requestId": "..."
 }
 ```
 
-### Erro
-
-```json
-{
-  "success": false,
-  "error": {
-    "code": "VALIDATION_ERROR",
-    "message": "O campo 'email' é obrigatório",
-    "details": [
-      {
-        "field": "email",
-        "message": "Campo obrigatório"
-      }
-    ]
-  }
-}
-```
-
-## Rate Limiting
-
-A API possui limites de requisições por minuto:
+## Rate limiting
 
 | Plano | Limite |
 |-------|--------|
@@ -96,51 +61,51 @@ A API possui limites de requisições por minuto:
 | Professional | 300 req/min |
 | Enterprise | 1000 req/min |
 
-Headers de resposta indicam seu limite:
+Headers: `X-RateLimit-Limit`, `X-RateLimit-Remaining`, `X-RateLimit-Reset`.
 
-```
-X-RateLimit-Limit: 300
-X-RateLimit-Remaining: 298
-X-RateLimit-Reset: 1640995200
-```
+## Endpoints documentados
 
-## Endpoints Principais
+### Principal: criar atendimento e enviar em uma chamada
+
+Na maioria das integrações, comece por **[Criar chat](/api/chats/create)**. Ele cria (ou reutiliza) o atendimento e já aceita `initialMessage` e/ou `whatsappTemplate` na mesma requisição — sem precisar chamar depois as rotas de mensagem ou template.
+
+Use [enviar mensagem](/api/messages/send) e [enviar template](/api/chats/send-template) quando o chat **já existir** e você quiser continuar a conversa.
 
 ### Chats
 
-| Método | Endpoint | Descrição |
-|--------|----------|-----------|
-| `POST` | `/api/{organizationId}/chat/create` | [Criar chat](/api/chats/create) |
+| Método | Endpoint | Doc |
+|--------|----------|-----|
+| `POST` | `/api/{organizationId}/chat/create` | [Criar chat](/api/chats/create) (recomendado) |
+| `POST` | `/api/{organizationId}/chat/{chatId}/send-template` | [Enviar template](/api/chats/send-template) |
 
-<!-- Temporariamente oculto — reativar quando a doc de mensagens estiver pronta
 ### Mensagens
 
-| Método | Endpoint | Descrição |
-|--------|----------|-----------|
-| `POST` | `/messages/send` | Enviar mensagem |
-| `POST` | `/messages/bulk` | Enviar em massa |
-| `GET` | `/messages/:id` | Buscar mensagem |
+| Método | Endpoint | Doc |
+|--------|----------|-----|
+| `POST` | `/api/{organizationId}/chat/{chatId}/message` | [Enviar mensagem](/api/messages/send) |
+| `POST` | `/api/{organizationId}/chat/{chatId}/message-sequence` | [Sequência](/api/messages/sequence) |
+| — | Atalhos e sequências | [Atalhos](/api/messages/shortcuts) |
 
-## Exemplo: Enviar Mensagem
+### Clientes
 
-### Request
+| Método | Endpoint | Doc |
+|--------|----------|-----|
+| `POST` | `/api/{organizationId}/customers` | [Criar](/api/customers/create) |
+| `PUT` | `/api/{organizationId}/customers/{customerId}` | [Atualizar](/api/customers/update) |
+| `POST` / `DELETE` | `.../tags` | [Tags do cliente](/api/customers/tags) |
+| `POST` / `PUT` / `DELETE` | `.../notes` | [Notas](/api/customers/notes) |
+| `PUT` | `.../stage` | [Estágio](/api/customers/stage) |
+| `POST` | `.../field-values` | [Campos personalizados](/api/customers/field-values) |
 
-```bash
-curl -X POST "https://api.interflow.chat/v1/messages/send" \
-  -H "Authorization: Bearer sua_api_key" \
-  -H "Content-Type: application/json" \
-  -d '{
-    "channel_id": "uuid-do-canal",
-    "to": "5511999999999",
-    "type": "text",
-    "content": {
-      "text": "Olá! Esta é uma mensagem via API."
-    }
-  }'
-```
--->
+### Tags
 
-## Seções da API
+| Método | Endpoint | Doc |
+|--------|----------|-----|
+| `GET` / `POST` / `PUT` / `DELETE` | `/api/{organizationId}/tags` | [Tags](/api/tags/) |
+
+Inventário completo: [Inventário da API](/api/status).
+
+## Seções
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 16px; margin: 20px 0;">
 
@@ -148,9 +113,24 @@ curl -X POST "https://api.interflow.chat/v1/messages/send" \
   <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
     <span style="font-size: 24px;">💬</span>
     <h4 style="margin: 8px 0 4px 0;">Criar Chat</h4>
-    <p style="color: #666; font-size: 14px; margin: 0;">Iniciar atendimento via API</p>
+    <p style="color: #666; font-size: 14px; margin: 0;">Principal: atendimento + mensagem/template em uma chamada</p>
+  </div>
+</a>
+
+<a href="/api/messages/send" style="text-decoration: none;">
+  <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
+    <span style="font-size: 24px;">✉️</span>
+    <h4 style="margin: 8px 0 4px 0;">Mensagens</h4>
+    <p style="color: #666; font-size: 14px; margin: 0;">Enviar texto, mídia e sequências</p>
+  </div>
+</a>
+
+<a href="/api/customers/create" style="text-decoration: none;">
+  <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
+    <span style="font-size: 24px;">👤</span>
+    <h4 style="margin: 8px 0 4px 0;">Clientes</h4>
+    <p style="color: #666; font-size: 14px; margin: 0;">CRM via API Key</p>
   </div>
 </a>
 
 </div>
-

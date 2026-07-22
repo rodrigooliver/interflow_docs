@@ -228,22 +228,44 @@ function getSidebar(lang: string = '') {
         items: [
           { text: lang === 'en' ? 'Introduction' : lang === 'es' ? 'Introducción' : 'Introdução', link: `${prefix}/api/` },
           { text: lang === 'en' ? 'Authentication' : lang === 'es' ? 'Autenticación' : 'Autenticação', link: `${prefix}/api/authentication` },
-          { text: lang === 'en' ? 'Errors' : lang === 'es' ? 'Errores' : 'Erros', link: `${prefix}/api/errors` }
+          { text: lang === 'en' ? 'Errors' : lang === 'es' ? 'Errores' : 'Erros', link: `${prefix}/api/errors` },
+          { text: lang === 'en' ? 'API inventory' : lang === 'es' ? 'Inventario de la API' : 'Inventário da API', link: `${prefix}/api/status` }
         ]
       },
-      // Temporariamente oculto — reativar quando a doc de mensagens estiver pronta
-      // {
-      //   text: lang === 'en' ? 'Messages' : lang === 'es' ? 'Mensajes' : 'Mensagens',
-      //   collapsed: false,
-      //   items: [
-      //     { text: lang === 'en' ? 'Send Message' : lang === 'es' ? 'Enviar Mensaje' : 'Enviar Mensagem', link: `${prefix}/api/messages/send` }
-      //   ]
-      // },
       {
         text: 'Chats',
         collapsed: false,
         items: [
-          { text: lang === 'en' ? 'Create Chat' : lang === 'es' ? 'Crear Chat' : 'Criar Chat', link: `${prefix}/api/chats/create` }
+          { text: lang === 'en' ? 'Create Chat' : lang === 'es' ? 'Crear Chat' : 'Criar Chat', link: `${prefix}/api/chats/create` },
+          { text: lang === 'en' ? 'Send Template' : lang === 'es' ? 'Enviar Plantilla' : 'Enviar Template', link: `${prefix}/api/chats/send-template` }
+        ]
+      },
+      {
+        text: lang === 'en' ? 'Messages' : lang === 'es' ? 'Mensajes' : 'Mensagens',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Send Message' : lang === 'es' ? 'Enviar Mensaje' : 'Enviar Mensagem', link: `${prefix}/api/messages/send` },
+          { text: lang === 'en' ? 'Message Sequence' : lang === 'es' ? 'Secuencia' : 'Sequência', link: `${prefix}/api/messages/sequence` },
+          { text: lang === 'en' ? 'Shortcuts & sequences' : lang === 'es' ? 'Atajos y secuencias' : 'Atalhos e sequências', link: `${prefix}/api/messages/shortcuts` }
+        ]
+      },
+      {
+        text: lang === 'en' ? 'Customers' : lang === 'es' ? 'Clientes' : 'Clientes',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Create' : lang === 'es' ? 'Crear' : 'Criar', link: `${prefix}/api/customers/create` },
+          { text: lang === 'en' ? 'Update' : lang === 'es' ? 'Actualizar' : 'Atualizar', link: `${prefix}/api/customers/update` },
+          { text: 'Tags', link: `${prefix}/api/customers/tags` },
+          { text: lang === 'en' ? 'Notes' : lang === 'es' ? 'Notas' : 'Notas', link: `${prefix}/api/customers/notes` },
+          { text: lang === 'en' ? 'CRM Stage' : lang === 'es' ? 'Etapa CRM' : 'Estágio CRM', link: `${prefix}/api/customers/stage` },
+          { text: lang === 'en' ? 'Custom Fields' : lang === 'es' ? 'Campos personalizados' : 'Campos personalizados', link: `${prefix}/api/customers/field-values` }
+        ]
+      },
+      {
+        text: 'Tags',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/api/tags/` }
         ]
       }
     ],

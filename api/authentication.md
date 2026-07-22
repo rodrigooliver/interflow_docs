@@ -1,238 +1,155 @@
 # Autenticação
 
-Aprenda como autenticar suas requisições na API da Interflow.
+A API da Interflow usa **API Keys** para integrações.
 
-::: warning EM ATUALIZAÇÃO
-Esta documentação está em fase de atualização contínua.
-:::
-
-## Visão Geral
-
-A API da Interflow usa autenticação baseada em **API Keys**. Todas as requisições devem incluir uma chave válida no header de autorização.
+Rotas não documentadas (fora do [inventário](/api/status)) retornam `403` com código `API_KEY_ROUTE_DENIED`.
 
 ## Obtendo sua API Key
-
-### Via Painel
 
 1. Acesse a Interflow
 2. Vá em **Configurações** → **API Keys**
 3. Clique em **"Gerar nova chave"**
 4. Defina um nome descritivo
-5. Copie a chave gerada
-
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Gerenciamento de API Keys</p>
-</div>
+5. Copie a chave gerada (exibida **apenas uma vez**)
 
 ::: danger IMPORTANTE
-A API Key é exibida apenas uma vez no momento da criação. Guarde-a em um local seguro!
+A API Key é secreta. Nunca exponha em código de cliente ou repositórios públicos.
 :::
 
 ## Usando a API Key
 
-### Header de Autorização
-
-Inclua sua API Key no header `Authorization` usando o esquema Bearer:
+### Headers aceitos
 
 ```http
-Authorization: Bearer sua_api_key_aqui
+x-api-key: ak_sua_api_key
 ```
 
-### Exemplo com cURL
+ou
+
+```http
+Authorization: Bearer ak_sua_api_key
+```
+
+### Exemplo cURL
 
 ```bash
-curl -X GET "https://api.interflow.chat/v1/customers" \
-  -H "Authorization: Bearer if_live_abc123xyz789" \
-  -H "Content-Type: application/json"
+curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
+  -H "Content-Type: application/json" \
+  -H "x-api-key: ak_sua_api_key" \
+  -d '{
+    "contactType": "whatsapp",
+    "contactValue": "5511999999999",
+    "channelId": "uuid-do-canal"
+  }'
 ```
 
-### Exemplo com JavaScript
+### Exemplo JavaScript
 
 ```javascript
-const response = await fetch('https://api.interflow.chat/v1/customers', {
-  method: 'GET',
-  headers: {
-    'Authorization': 'Bearer if_live_abc123xyz789',
-    'Content-Type': 'application/json'
+const response = await fetch(
+  `https://v1.api.interflow.chat/api/${organizationId}/chat/create`,
+  {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      'x-api-key': process.env.INTERFLOW_API_KEY
+    },
+    body: JSON.stringify({
+      contactType: 'whatsapp',
+      contactValue: '5511999999999',
+      channelId: 'uuid-do-canal'
+    })
   }
-});
-
-const data = await response.json();
+);
 ```
 
-### Exemplo com Python
+### Exemplo Python
 
 ```python
+import os
 import requests
 
 headers = {
-    'Authorization': 'Bearer if_live_abc123xyz789',
-    'Content-Type': 'application/json'
+    'Content-Type': 'application/json',
+    'x-api-key': os.environ['INTERFLOW_API_KEY'],
 }
 
-response = requests.get(
-    'https://api.interflow.chat/v1/customers',
-    headers=headers
+response = requests.post(
+    f'https://v1.api.interflow.chat/api/{organization_id}/chat/create',
+    headers=headers,
+    json={
+        'contactType': 'whatsapp',
+        'contactValue': '5511999999999',
+        'channelId': 'uuid-do-canal',
+    },
 )
-
-data = response.json()
 ```
 
-### Exemplo com PHP
+## Formato da chave
 
-```php
-<?php
-$ch = curl_init();
+As chaves geradas pela plataforma usam o prefixo `ak_`. Na listagem você vê um **prefixo** curto para identificar a key sem expor o secret completo.
 
-curl_setopt_array($ch, [
-    CURLOPT_URL => 'https://api.interflow.chat/v1/customers',
-    CURLOPT_RETURNTRANSFER => true,
-    CURLOPT_HTTPHEADER => [
-        'Authorization: Bearer if_live_abc123xyz789',
-        'Content-Type: application/json'
-    ]
-]);
+## Organização no path
 
-$response = curl_exec($ch);
-$data = json_decode($response, true);
-
-curl_close($ch);
-```
-
-## Formato da API Key
-
-As API Keys seguem o formato:
+Toda rota pública inclui `{organizationId}`:
 
 ```
-if_[ambiente]_[id_aleatorio]
+/api/{organizationId}/...
 ```
 
-| Prefixo | Ambiente |
-|---------|----------|
-| `if_live_` | Produção |
-| `if_test_` | Sandbox |
+A API Key deve pertencer a essa organização (exceto contas superadmin).
 
-## Permissões
+## Allowlist de IP (opcional)
 
-Cada API Key pode ter permissões específicas:
+Ao criar/editar a key, você pode restringir IPs ou CIDRs.
 
-| Permissão | Descrição |
-|-----------|-----------|
-| `customers:read` | Ler clientes |
-| `customers:write` | Criar/editar clientes |
-| `messages:read` | Ler mensagens |
-| `messages:write` | Enviar mensagens |
-| `chats:read` | Ler conversas |
-| `chats:write` | Gerenciar conversas |
-| `*` | Acesso total |
+- Lista vazia — qualquer IP (padrão)
+- Lista preenchida — apenas IPs/CIDRs informados
 
-### Definindo Permissões
+IP não permitido → `403` com código `API_KEY_IP_DENIED`.
 
-Ao criar uma API Key, selecione apenas as permissões necessárias:
+## Rate limiting
 
-1. Clique em **"Permissões avançadas"**
-2. Marque as permissões desejadas
-3. Salve a chave
+Limite por minuto conforme o plano da organização (Starter / Professional / Enterprise). Headers:
 
-## Erros de Autenticação
+```
+X-RateLimit-Limit: 300
+X-RateLimit-Remaining: 298
+X-RateLimit-Reset: 1640995200
+```
+
+Em `429`, a organização pode receber alerta por e-mail (máx. 1/hora por chave).
+
+## Erros de autenticação
 
 ### 401 Unauthorized
 
-```json
-{
-  "success": false,
-  "error": {
-    "code": "UNAUTHORIZED",
-    "message": "API Key inválida ou ausente"
-  }
-}
-```
-
-**Causas:**
-- API Key não informada
-- API Key inválida
-- API Key revogada
+API Key ausente, inválida ou revogada.
 
 ### 403 Forbidden
 
-```json
-{
-  "success": false,
-  "error": {
-    "code": "FORBIDDEN",
-    "message": "Sem permissão para este recurso"
-  }
-}
-```
+| Código | Situação |
+|--------|----------|
+| `API_KEY_IP_DENIED` | IP fora da allowlist |
+| `API_KEY_ROUTE_DENIED` | Rota não está na API pública |
+| `SUBSCRIPTION_INACTIVE` | Assinatura inativa |
 
-**Causas:**
-- API Key não tem a permissão necessária
-- Recurso pertence a outra organização
+## Boas práticas
 
-## Gerenciando API Keys
-
-### Listando Chaves
-
-Veja todas as suas API Keys em **Configurações** → **API Keys**.
-
-### Revogando Chaves
-
-Para revogar uma chave:
-1. Encontre a chave na lista
-2. Clique em **"Revogar"**
-3. Confirme a ação
-
-::: warning ATENÇÃO
-Após revogar, todas as requisições com essa chave serão rejeitadas imediatamente.
-:::
-
-### Rotação de Chaves
-
-Recomendamos rotacionar suas API Keys periodicamente:
-
-1. Crie uma nova API Key
-2. Atualize suas integrações
-3. Revogue a chave antiga
-
-## Boas Práticas de Segurança
-
-### ✅ Faça
-
-- Guarde a API Key em variáveis de ambiente
-- Use chaves diferentes para cada ambiente
-- Limite as permissões ao necessário
-- Rotacione as chaves periodicamente
-- Revogue chaves não utilizadas
-
-### ❌ Evite
-
-- Commitar API Keys em repositórios
-- Expor chaves em código frontend
-- Compartilhar chaves entre equipes
-- Usar a mesma chave em múltiplas aplicações
-- Deixar chaves sem rotação por muito tempo
-
-## Variáveis de Ambiente
-
-Exemplo de configuração:
+- Guarde a key em variáveis de ambiente **no backend**
+- Use uma key por integração
+- Use allowlist de IP quando o servidor tiver IP fixo
+- Rotacione e revogue keys não utilizadas
+- Mantenha o e-mail da organização atualizado para alertas
 
 ```bash
-# .env
-INTERFLOW_API_KEY=if_live_abc123xyz789
-INTERFLOW_API_URL=https://api.interflow.chat/v1
+INTERFLOW_API_KEY=ak_sua_chave_aqui
+INTERFLOW_API_URL=https://v1.api.interflow.chat
 ```
 
-```javascript
-// config.js
-const apiKey = process.env.INTERFLOW_API_KEY;
-const apiUrl = process.env.INTERFLOW_API_URL;
-```
+## Próximos passos
 
-## Próximos Passos
-
-- [Limites e Rate Limiting](/api/limites)
-- [Erros da API](/api/erros)
-- [Enviar Mensagens](/api/mensagens/enviar)
-
+- [Visão geral / Rate limiting](/api/)
+- [Inventário da API](/api/status)
+- [Erros](/api/errors)
+- [Criar chat](/api/chats/create)
