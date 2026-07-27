@@ -10,6 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.7.15](/changelog/2026/07/2026.7.15) | 27/07 | **Transcrição de áudios** — texto automático com controles por canal | [Transcrição](/guide/channels/audio-transcription) |
 | [v2026.7.14](/changelog/2026/07/2026.7.14) | 27/07 | **Cliente em documentos e agenda** — CPF, contato e endereço automáticos | [Variáveis](/guide/documents/variables) |
 | [v2026.7.13](/changelog/2026/07/2026.7.13) | 18/07 | **Pesquisar em sites** — Firecrawl ou HTML no Agente de IA | [Pesquisar em sites](/guide/ai-agents/tools/research-websites) |
 | [v2026.7.12](/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificação por chave de acesso (passkey) | [WhatsApp WAHA](/guide/channels/whatsapp-waha) |
@@ -19,7 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.7.8](/changelog/2026/07/2026.7.8) | 14/07 | Chats internos com áudio e marcar lida/não lida | [Interface de chat](/guide/chat/interface) |
 | [v2026.7.7](/changelog/2026/07/2026.7.7) | 10/07 | Busca de clientes no funil de vendas | [Funis](/guide/crm/funnels) |
 | [v2026.7.6](/changelog/2026/07/2026.7.6) | 10/07 | Ocultar finalizados no funil de vendas | [Funis](/guide/crm/funnels) |
-| [v2026.7.5](/changelog/2026/07/2026.7.5) | 10/07 | Restrição de canais ao iniciar conversa | [Visibilidade ao iniciar](/guide/channels/start-chat-visibility) |
 
 [Ver todas as releases de julho →](/changelog/2026/07/)
 

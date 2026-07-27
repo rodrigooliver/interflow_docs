@@ -161,12 +161,22 @@ Impide la recepción de medios (imágenes, videos, etc.) en grupos:
 1. Ve a **Configuración** → **Canales** → tu canal WAHA
 2. Activa **"Bloquear medios en grupos"**
 
+### Transcribir audios en grupos
+
+Por defecto, los audios de grupo **no** se transcriben. Para habilitar:
+
+1. Con **Habilitar grupos** activo, abre la configuración del canal WAHA
+2. Activa **"Transcribir audios en grupos"**
+
+Detalles de cliente/agente: [Transcripción de audios](/es/guide/channels/audio-transcription).
+
 ### Permisos
 
 | Configuración | Descripción |
 |---------------|-------------|
 | **Habilitar grupos** | Admin puede activar/desactivar por canal |
 | **Bloquear medios** | Impide recibir archivos en grupos |
+| **Transcribir audios en grupos** | Opt-in; desactivado por defecto (los grupos suelen no usar IA) |
 
 ### Limitaciones
 

@@ -76,6 +76,14 @@ Each channel has status indicators:
 
 ---
 
+## Audio transcription
+
+Channels can automatically convert audio to text, with separate controls for customer, agent, and (on WAHA) groups.
+
+> Guide: [Audio transcription](/en/guide/channels/audio-transcription)
+
+---
+
 ## Visibility when starting a conversation
 
 Define **who can use each channel** when starting a new conversation with a customer (everyone, by role, or specific users). Auxiliary channels are not included in that list.

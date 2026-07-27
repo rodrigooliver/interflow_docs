@@ -6,6 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.15](/en/changelog/2026/07/2026.7.15) | 07/27 | **Automatic audio transcription** — text in the chat and AI context, with per-channel controls (customer, agent, and WAHA groups) |
 | [2026.7.14](/en/changelog/2026/07/2026.7.14) | 07/27 | **Customer data in documents & schedule** — tax ID, contact, and address auto-filled in templates and notifications |
 | [2026.7.13](/en/changelog/2026/07/2026.7.13) | 07/18 | **Research websites** — AI Agent tool with Firecrawl or plain HTML, allowlist, and optional web search |
 | [2026.7.12](/en/changelog/2026/07/2026.7.12) | 07/18 | **WhatsApp WAHA** — passkey verification when connecting the channel |
@@ -25,7 +26,8 @@ Updates for July 2026.
 
 ## Month Summary
 
-### New Features (37)
+### New Features (38)
+- **Automatic audio transcription** (v2026.7.15) — text on the message and AI context, with customer, agent, and WAHA group toggles
 - **Customer data in document templates** (v2026.7.14) — tax ID and address (plus name/contact) as native template variables
 - **Customer data in schedule notifications** (v2026.7.14) — document, email, phone, WhatsApp, and address in appointment reminders
 - **Research information on websites** (v2026.7.13) — AI Agent tool to read web pages and use the content in replies
@@ -95,5 +97,5 @@ Updates for July 2026.
 ---
 
 ::: info Total
-**14 releases** this month!
+**15 releases** this month!
 :::

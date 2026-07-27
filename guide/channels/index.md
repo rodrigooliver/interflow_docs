@@ -76,6 +76,14 @@ Cada canal possui indicadores de status:
 
 ---
 
+## Transcrição de áudios
+
+Os canais podem converter áudios em texto automaticamente, com controles separados para cliente, agente e (no WAHA) grupos.
+
+> Guia: [Transcrição de áudios](/guide/channels/audio-transcription)
+
+---
+
 ## Visibilidade ao iniciar conversa
 
 Defina **quem pode usar cada canal** ao iniciar uma nova conversa com um cliente (todos, por perfil ou usuários específicos). Canais auxiliares não entram nessa lista.

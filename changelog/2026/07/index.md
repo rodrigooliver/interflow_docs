@@ -6,6 +6,7 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.15](/changelog/2026/07/2026.7.15) | 27/07 | **Transcrição automática de áudios** — texto na conversa e contexto para IA, com controles por canal (cliente, agente e grupos WAHA) |
 | [2026.7.14](/changelog/2026/07/2026.7.14) | 27/07 | **Cliente em documentos e agenda** — CPF/CNPJ, contato e endereço preenchidos automaticamente em modelos e notificações |
 | [2026.7.13](/changelog/2026/07/2026.7.13) | 18/07 | **Pesquisar em sites** — ferramenta do Agente de IA com Firecrawl ou HTML puro, allowlist e busca web opcional |
 | [2026.7.12](/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificação por chave de acesso (passkey) ao conectar o canal |
@@ -25,7 +26,8 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (37)
+### Novas Funcionalidades (38)
+- **Transcrição automática de áudios** (v2026.7.15) — texto na mensagem e contexto para IA, com toggles de cliente, agente e grupos (WAHA)
 - **Dados do cliente em modelos de documentos** (v2026.7.14) — CPF/CNPJ e endereço (além de nome/contato) como variáveis nativas nos templates
 - **Dados do cliente em notificações da agenda** (v2026.7.14) — documento, e-mail, telefone, WhatsApp e endereço nos lembretes de compromisso
 - **Pesquisar informações em sites** (v2026.7.13) — ferramenta do Agente de IA para ler páginas web e usar o conteúdo na resposta
@@ -95,5 +97,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info Total
-**14 releases** neste mês!
+**15 releases** neste mês!
 :::

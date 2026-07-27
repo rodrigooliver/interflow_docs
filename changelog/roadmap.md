@@ -16,7 +16,6 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 
 | Recurso | Previsão | Descrição |
 |---------|----------|-----------|
-| Transcrição automática de áudios nos atendimentos | Jul/2026 | Transcrever automaticamente áudios enviados por cliente ou agente, exibindo o texto na conversa e usando o conteúdo como contexto para a IA. |
 | Lançamento manual de recebimento ou bloqueio parcial de dívidas | Jul/2026 | Registrar manualmente valores recebidos à vista ou bloqueios parciais (ex.: judicial), com valor, data e descrição refletidos nos relatórios financeiros. |
 | Mover agendamento entre diferentes agendas | Jul/2026 | Transferir um agendamento de uma agenda para outra sem excluir e recriar, mantendo dados e histórico. |
 | Widgets de tarefas por status e usuário (estilo Kanban) | Jul/2026 | Organizar tarefas em colunas visuais (iniciar, em desenvolvimento, concluídas) por usuário, com arrastar e soltar. |

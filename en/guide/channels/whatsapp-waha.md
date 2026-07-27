@@ -161,6 +161,15 @@ Prevent receiving media (images, videos, etc.) in groups:
 1. Go to **Settings** → **Channels** → your WAHA channel
 2. Enable **"Block media in groups"**
 
+### Transcribe group audio
+
+By default, group audio is **not** transcribed. To enable:
+
+1. With **Enable groups** on, open your WAHA channel settings
+2. Enable **"Transcribe group audio"**
+
+Details for customer/agent options: [Audio transcription](/en/guide/channels/audio-transcription).
+
 ### Close Group Conversation
 
 You can close/resolve group conversations the same way as individual chats.
@@ -171,6 +180,7 @@ You can close/resolve group conversations the same way as individual chats.
 |---------|-------------|
 | **Enable groups** | Admin can enable/disable per channel |
 | **Block media** | Prevents receiving files in groups |
+| **Transcribe group audio** | Opt-in; off by default (groups rarely use AI) |
 
 ### Limitations
 

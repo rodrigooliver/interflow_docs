@@ -24,6 +24,7 @@ function getSidebar(lang: string = '') {
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/channels/` },
           { text: lang === 'en' ? 'Start chat visibility' : lang === 'es' ? 'Visibilidad al iniciar chat' : 'Visibilidade ao iniciar conversa', link: `${prefix}/guide/channels/start-chat-visibility` },
+          { text: lang === 'en' ? 'Audio transcription' : lang === 'es' ? 'Transcripción de audios' : 'Transcrição de áudios', link: `${prefix}/guide/channels/audio-transcription` },
           { text: 'WhatsApp Business', link: `${prefix}/guide/channels/whatsapp-business` },
           { text: 'WhatsApp WAHA', link: `${prefix}/guide/channels/whatsapp-waha` },
           { text: 'Instagram', link: `${prefix}/guide/channels/instagram` },
@@ -335,6 +336,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/07/` },
+              { text: 'v2026.7.15', link: `${prefix}/changelog/2026/07/2026.7.15` },
               { text: 'v2026.7.14', link: `${prefix}/changelog/2026/07/2026.7.14` },
               { text: 'v2026.7.13', link: `${prefix}/changelog/2026/07/2026.7.13` },
               { text: 'v2026.7.12', link: `${prefix}/changelog/2026/07/2026.7.12` },

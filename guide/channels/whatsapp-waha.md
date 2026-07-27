@@ -173,6 +173,15 @@ Impeça o recebimento de mídia (imagens, vídeos, etc.) em grupos:
 1. Acesse **Configurações** → **Canais** → seu canal WAHA
 2. Ative **"Bloquear mídia em grupos"**
 
+### Transcrever áudios em grupos
+
+Por padrão, áudios de grupo **não** são transcritos. Para habilitar:
+
+1. Com **Habilitar grupos** ativo, abra as configurações do canal WAHA
+2. Ative **"Transcrever áudios em grupos"**
+
+Detalhes das opções de cliente/agente: [Transcrição de áudios](/guide/channels/audio-transcription).
+
 ### Encerrar Conversa de Grupo
 
 É possível encerrar/resolver conversas de grupos WhatsApp da mesma forma que chats individuais.
@@ -183,6 +192,7 @@ Impeça o recebimento de mídia (imagens, vídeos, etc.) em grupos:
 |--------------|-----------|
 | **Habilitar grupos** | Admin pode ativar/desativar por canal |
 | **Bloquear mídia** | Impede recebimento de arquivos em grupos |
+| **Transcrever áudios em grupos** | Opt-in; desligado por padrão (grupos costumam não usar IA) |
 
 ### Limitações
 
