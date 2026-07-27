@@ -6,6 +6,7 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.18](/changelog/2026/07/2026.7.18) | 27/07 | **Renomear pastas no Agente de IA** — editar o nome das pastas de arquivos com efeito imediato para a organização |
 | [2026.7.17](/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ em atalhos** — variável <code v-pre>{{customer.document}}</code> preenchida automaticamente no envio |
 | [2026.7.16](/changelog/2026/07/2026.7.16) | 27/07 | **Mover agendamento entre agendas** — transferir compromissos sem excluir e recriar, inclusive recorrentes |
 | [2026.7.15](/changelog/2026/07/2026.7.15) | 27/07 | **Transcrição automática de áudios** — texto na conversa e contexto para IA, com controles por canal (cliente, agente e grupos WAHA) |
@@ -28,7 +29,8 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (40)
+### Novas Funcionalidades (41)
+- **Renomear pastas de arquivos no Agente de IA** (v2026.7.18) — alterar o nome das pastas na aba Arquivos, com efeito imediato para todos os membros
 - **Variável de CPF/CNPJ em atalhos de mensagem** (v2026.7.17) — <code v-pre>{{customer.document}}</code> inserida no atalho e substituída automaticamente no atendimento
 - **Mover agendamento entre agendas** (v2026.7.16) — trocar a agenda na edição sem excluir/recriar; suporte a únicos e recorrentes (este / deste em diante / todos)
 - **Transcrição automática de áudios** (v2026.7.15) — texto na mensagem e contexto para IA, com toggles de cliente, agente e grupos (WAHA)
@@ -101,5 +103,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info Total
-**17 releases** neste mês!
+**18 releases** neste mês!
 :::

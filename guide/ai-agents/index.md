@@ -147,13 +147,18 @@ A aba de testes permite conversar diretamente com o Agente IA antes de colocá-l
 
 ### 3. Arquivos
 
-Adicione mídia que o agente pode enviar durante a conversa.
+Adicione mídia que o agente pode enviar durante a conversa. Organize os arquivos em **pastas (categorias)** para facilitar a localização e o contexto da IA.
 
 **Tipos de arquivo suportados:**
 - 🖼️ **Imagens**: JPG, PNG, GIF, WebP
 - 🎵 **Áudios**: MP3, WAV, OGG
 - 🎬 **Vídeos**: MP4, WebM
 - 📄 **Documentos**: PDF, DOCX, XLSX
+
+**Pastas:**
+- Crie pastas para agrupar documentos (ex.: Produtos, Políticas, Fotos)
+- Renomeie uma pasta pelo ícone de lápis no cabeçalho — a alteração vale na hora para toda a organização
+- Os arquivos da pasta permanecem acessíveis após o rename
 
 **Uso:**
 O agente pode referenciar e enviar esses arquivos durante a conversa quando apropriado.

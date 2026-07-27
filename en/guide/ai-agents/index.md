@@ -120,13 +120,18 @@ The testing tab lets you chat directly with the AI Agent before going live.
 
 ### 3. Files
 
-Add media the agent can send during conversations.
+Add media the agent can send during conversations. Organize files into **folders (categories)** to make them easier to find and give better context to the AI.
 
 **Supported file types:**
 - 🖼️ **Images**: JPG, PNG, GIF, WebP
 - 🎵 **Audio**: MP3, WAV, OGG
 - 🎬 **Videos**: MP4, WebM
 - 📄 **Documents**: PDF, DOCX, XLSX
+
+**Folders:**
+- Create folders to group documents (e.g. Products, Policies, Photos)
+- Rename a folder with the pencil icon in the header — the change applies immediately for the whole organization
+- Files in the folder remain accessible after renaming
 
 ### 4. Tools
 

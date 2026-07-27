@@ -104,7 +104,13 @@ Pestaña principal donde define las instrucciones del agente.
 Permite conversar directamente con el Agente IA antes de ponerlo en producción.
 
 ### 3. Archivos
-Agregue medios que el agente puede enviar durante la conversación.
+
+Agregue medios que el agente puede enviar durante la conversación. Organice los archivos en **carpetas (categorías)** para facilitar la localización y el contexto de la IA.
+
+**Carpetas:**
+- Cree carpetas para agrupar documentos (ej.: Productos, Políticas, Fotos)
+- Renombre una carpeta con el icono de lápiz en el encabezado — el cambio aplica de inmediato para toda la organización
+- Los archivos de la carpeta siguen accesibles después del rename
 
 ### 4. Herramientas
 

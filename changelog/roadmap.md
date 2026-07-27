@@ -19,9 +19,7 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 | Lançamento manual de recebimento ou bloqueio parcial de dívidas | Jul/2026 | Registrar manualmente valores recebidos à vista ou bloqueios parciais (ex.: judicial), com valor, data e descrição refletidos nos relatórios financeiros. |
 | Widgets de tarefas por status e usuário (estilo Kanban) | Jul/2026 | Organizar tarefas em colunas visuais (iniciar, em desenvolvimento, concluídas) por usuário, com arrastar e soltar. |
 | IA identifica clientes de tráfego pago via API Meta | Jul/2026 | Identificar automaticamente leads vindos de anúncios Facebook/Instagram (API Meta), com tags de origem para segmentação e relatórios. |
-| Ordenar documentos da Base de Conhecimento em ordem alfabética | Jul/2026 | Listar documentos do RAG híbrido em ordem alfabética pelo título para facilitar a busca. |
 | Pausa no atendimento humano com mensagem automática de ausência | Jul/2026 | Permitir pausar o atendimento (ex.: almoço) com mensagem automática ao cliente e retomada normal ao voltar. |
-| Editar nome das pastas de arquivos no Agente de IA | Jul/2026 | Renomear pastas de arquivos do agente IA da organização, com efeito imediato para todos os membros. |
 | Campos personalizados como filtros no relatório de atendimentos | Jul/2026 | Usar campos personalizados como filtros e colunas exportáveis nos relatórios de atendimentos. |
 | Sugestão de equipes ao convidar novo usuário | Jul/2026 | No convite de usuário, permitir selecionar as equipes na mesma etapa, sem precisar configurar depois em outro menu. |
 | Impressão de relatórios filtrados por período, cliente e estabelecimento | Ago/2026 | Imprimir relatórios (ex.: prestação de contas) com filtros de período, cliente e estabelecimento, prontos para compartilhar. |

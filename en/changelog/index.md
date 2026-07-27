@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.7.18](/en/changelog/2026/07/2026.7.18) | Jul 27 | **Rename folders in the AI Agent** — file folder names with immediate effect | [AI Agents](/en/guide/ai-agents/) |
 | [v2026.7.17](/en/changelog/2026/07/2026.7.17) | Jul 27 | **Tax ID in shortcuts** — variable filled automatically on send | [Shortcuts](/en/guide/chat/message-shortcuts) |
 | [v2026.7.16](/en/changelog/2026/07/2026.7.16) | Jul 27 | **Move appointments between schedules** — no delete and recreate | [Schedule](/en/guide/schedule/) |
 | [v2026.7.15](/en/changelog/2026/07/2026.7.15) | Jul 27 | **Audio transcription** — automatic text with per-channel controls | [Transcription](/en/guide/channels/audio-transcription) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.7.11](/en/changelog/2026/07/2026.7.11) | Jul 17 | **HR / Time clock** — punch, geofence, schedule, payroll and push | [HR guide](/en/guide/hr/) |
 | [v2026.7.10](/en/changelog/2026/07/2026.7.10) | Jul 16 | **Call API** AI tool — allowlisted routes and pre-publish test | [Query API](/en/guide/ai-agents/tools/query-api) |
 | [v2026.7.9](/en/changelog/2026/07/2026.7.9) | Jul 15 | Customer contact & address tools (GPS) and CRM addresses | [Customers](/en/guide/crm/customers) |
-| [v2026.7.8](/en/changelog/2026/07/2026.7.8) | Jul 14 | Internal chats: audio and read/unread | [Chat interface](/en/guide/chat/interface) |
 
 [See all July releases →](/en/changelog/2026/07/)
 

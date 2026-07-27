@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.7.18](/es/changelog/2026/07/2026.7.18) | 27/07 | **Renombrar carpetas en el Agente de IA** — nombres de carpetas de archivos con efecto inmediato | [Agentes IA](/es/guide/ai-agents/) |
 | [v2026.7.17](/es/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ en atajos** — variable rellenada automáticamente al enviar | [Atajos](/es/guide/chat/message-shortcuts) |
 | [v2026.7.16](/es/changelog/2026/07/2026.7.16) | 27/07 | **Mover citas entre agendas** — sin eliminar y recrear | [Agenda](/es/guide/schedule/) |
 | [v2026.7.15](/es/changelog/2026/07/2026.7.15) | 27/07 | **Transcripción de audios** — texto automático con controles por canal | [Transcripción](/es/guide/channels/audio-transcription) |
@@ -19,7 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — punto, geofence, jornada, nómina y push | [Guía RRHH](/es/guide/hr/) |
 | [v2026.7.10](/es/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** en el Agente de IA — allowlist y prueba | [Consultar API](/es/guide/ai-agents/tools/query-api) |
 | [v2026.7.9](/es/changelog/2026/07/2026.7.9) | 15/07 | Contacto y dirección del cliente (GPS) vía tools y CRM | [Clientes](/es/guide/crm/customers) |
-| [v2026.7.8](/es/changelog/2026/07/2026.7.8) | 14/07 | Chats internos con audio y marcar leído/no leído | [Interfaz de chat](/es/guide/chat/interface) |
 
 [Ver todas las releases de julio →](/es/changelog/2026/07/)
 
