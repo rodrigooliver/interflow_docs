@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"Módulo Médico (EMR)","description":"","frontmatter":{},"headers":[],"relativePath":"guide/medical/index.md","filePath":"guide/medical/index.md","lastUpdated":1784357915000}');
+const _sfc_main = { name: "guide/medical/index.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="modulo-medico-emr" tabindex="-1">Módulo Médico (EMR) <a class="header-anchor" href="#modulo-medico-emr" aria-label="Permalink to &quot;Módulo Médico (EMR)&quot;">​</a></h1><p>Prontuário eletrônico ligado ao CRM: pacientes, consultas, receitas, atestados e templates clínicos.</p><div class="tip custom-block"><p class="custom-block-title">Acesso</p><p>Menu → <strong>Prontuário / Médico</strong>. Requer módulo <code>medical</code> habilitado.</p></div><div class="info custom-block"><p class="custom-block-title">Paciente = Cliente</p><p>Cada paciente é um <strong>cliente</strong> do CRM. O histórico clínico fica unificado na ficha do paciente.</p></div><h2 id="visao-geral" tabindex="-1">Visão geral <a class="header-anchor" href="#visao-geral" aria-label="Permalink to &quot;Visão geral&quot;">​</a></h2><table tabindex="0"><thead><tr><th>Área</th><th>Função</th></tr></thead><tbody><tr><td><strong>Consultas</strong></td><td>Atendimentos clínicos</td></tr><tr><td><strong>Prontuários</strong></td><td>Registros médicos</td></tr><tr><td><strong>Receitas</strong></td><td>Prescrições</td></tr><tr><td><strong>Atestados</strong></td><td>Certificados / atestados</td></tr><tr><td><strong>Templates</strong></td><td>Modelos de documentos clínicos</td></tr><tr><td><strong>Pacientes</strong></td><td>Lista e ficha unificada</td></tr></tbody></table><h2 id="ficha-do-paciente" tabindex="-1">Ficha do paciente <a class="header-anchor" href="#ficha-do-paciente" aria-label="Permalink to &quot;Ficha do paciente&quot;">​</a></h2><ol><li>Abra <strong>Médico → Pacientes</strong></li><li>Selecione o paciente</li><li>Use as abas: agendamentos, prontuários, receitas, atestados e anexos</li></ol><h2 id="fluxo-tipico" tabindex="-1">Fluxo típico <a class="header-anchor" href="#fluxo-tipico" aria-label="Permalink to &quot;Fluxo típico&quot;">​</a></h2><ol><li>Localize ou cadastre o cliente/paciente</li><li>Crie uma <strong>consulta</strong></li><li>Registre o <strong>prontuário</strong> da consulta</li><li>Emita <strong>receita</strong> e/ou <strong>atestado</strong> a partir de templates, se necessário</li><li>Anexe arquivos à ficha quando precisar</li></ol><h2 id="templates-medicos" tabindex="-1">Templates médicos <a class="header-anchor" href="#templates-medicos" aria-label="Permalink to &quot;Templates médicos&quot;">​</a></h2><p>Em <strong>Médico → Templates</strong>, cadastre modelos reutilizáveis para documentos clínicos (estrutura semelhante aos <a href="/guide/documents/">modelos de documentos</a> da plataforma).</p><h2 id="relacionados" tabindex="-1">Relacionados <a class="header-anchor" href="#relacionados" aria-label="Permalink to &quot;Relacionados&quot;">​</a></h2><ul><li><a href="/guide/crm/customers">Clientes</a></li><li><a href="/guide/schedule/">Agenda</a></li><li><a href="/guide/documents/">Modelos de documentos</a></li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("guide/medical/index.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const index = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  index as default
+};

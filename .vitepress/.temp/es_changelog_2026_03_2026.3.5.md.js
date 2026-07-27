@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"v2026.3.5","description":"","frontmatter":{},"headers":[],"relativePath":"es/changelog/2026/03/2026.3.5.md","filePath":"es/changelog/2026/03/2026.3.5.md","lastUpdated":1784358336000}');
+const _sfc_main = { name: "es/changelog/2026/03/2026.3.5.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="v2026-3-5" tabindex="-1">v2026.3.5 <a class="header-anchor" href="#v2026-3-5" aria-label="Permalink to &quot;v2026.3.5&quot;">​</a></h1><p>Fecha de lanzamiento: <strong>24 de Marzo de 2026</strong></p><hr><h2 id="nuevas-funcionalidades" tabindex="-1">Nuevas Funcionalidades <a class="header-anchor" href="#nuevas-funcionalidades" aria-label="Permalink to &quot;Nuevas Funcionalidades&quot;">​</a></h2><h3 id="bloquear-medios-en-grupos-de-whatsapp" tabindex="-1">Bloquear medios en grupos de WhatsApp <a class="header-anchor" href="#bloquear-medios-en-grupos-de-whatsapp" aria-label="Permalink to &quot;Bloquear medios en grupos de WhatsApp&quot;">​</a></h3><p>Ahora puedes configurar el canal para <strong>no almacenar</strong> fotos, videos, audios y documentos enviados en grupos de WhatsApp. Solo se guardan los mensajes de texto.</p><h4 id="¿para-que-sirve" tabindex="-1">¿Para qué sirve? <a class="header-anchor" href="#¿para-que-sirve" aria-label="Permalink to &quot;¿Para qué sirve?&quot;">​</a></h4><ul><li><strong>Ahorrar espacio</strong> – Los grupos suelen recibir muchos archivos pesados de varios participantes. Esta opción evita que ocupen espacio de tu plan</li><li><strong>Previsibilidad</strong> – Tienes más control sobre el consumo del plan y reduces el riesgo de costos extras o bloqueos</li><li><strong>Historial preservado</strong> – Los mensajes de texto siguen almacenándose normalmente</li></ul><p>Cuando la opción está activa, los medios siguen visibles en WhatsApp, pero no se guardan en la plataforma. En el historial de la conversación aparece un aviso indicando que el medio fue bloqueado o eliminado para ahorrar espacio.</p><h4 id="¿como-usarlo" tabindex="-1">¿Cómo usarlo? <a class="header-anchor" href="#¿como-usarlo" aria-label="Permalink to &quot;¿Cómo usarlo?&quot;">​</a></h4><ol><li>En el menú lateral izquierdo, haz clic en <strong>Canales</strong></li><li>Haz clic en el canal de WhatsApp deseado</li><li>Haz clic en <strong>Editar</strong> (o en el nombre del canal)</li><li>En la sección <strong>Grupos</strong>, activa <strong>Habilitar grupos</strong> (si aún no está activo)</li><li>Marca la opción <strong>Bloquear recepción de medios en grupos</strong></li><li>Haz clic en <strong>Guardar</strong></li></ol><p>Para volver a almacenar medios, basta con desmarcar esta opción y guardar.</p><hr><h2 id="beneficios" tabindex="-1">Beneficios <a class="header-anchor" href="#beneficios" aria-label="Permalink to &quot;Beneficios&quot;">​</a></h2><ul><li>✅ <strong>Ahorro significativo de espacio</strong> – Menos archivos pesados almacenados</li><li>✅ <strong>Mayor previsibilidad</strong> – Consumo del plan más controlado</li><li>✅ <strong>Menor riesgo de costos extras</strong> – Evita superar el límite contratado</li><li>✅ <strong>Configuración sencilla</strong> – Un clic en el canal y listo</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("es/changelog/2026/03/2026.3.5.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _2026_3_5 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _2026_3_5 as default
+};

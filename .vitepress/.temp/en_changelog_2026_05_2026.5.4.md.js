@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"v2026.5.4","description":"","frontmatter":{},"headers":[],"relativePath":"en/changelog/2026/05/2026.5.4.md","filePath":"en/changelog/2026/05/2026.5.4.md","lastUpdated":1784358336000}');
+const _sfc_main = { name: "en/changelog/2026/05/2026.5.4.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="v2026-5-4" tabindex="-1">v2026.5.4 <a class="header-anchor" href="#v2026-5-4" aria-label="Permalink to &quot;v2026.5.4&quot;">​</a></h1><p>Release date: <strong>May 22, 2026</strong></p><hr><h2 id="new-features" tabindex="-1">New Features <a class="header-anchor" href="#new-features" aria-label="Permalink to &quot;New Features&quot;">​</a></h2><h3 id="bulk-actions-in-the-chat-list" tabindex="-1">Bulk Actions in the Chat List <a class="header-anchor" href="#bulk-actions-in-the-chat-list" aria-label="Permalink to &quot;Bulk Actions in the Chat List&quot;">​</a></h3><p>You can now perform actions on multiple chats at once — mark as read or mark as resolved — directly from the chat list, using the existing advanced filters.</p><h4 id="what-is-it-for" tabindex="-1">What is it for? <a class="header-anchor" href="#what-is-it-for" aria-label="Permalink to &quot;What is it for?&quot;">​</a></h4><ul><li>Clear queues quickly after bulk campaigns or volume spikes</li><li>Mark all filtered chats as read (by tag, channel, agent, status, etc.) in one click</li><li>Bulk-resolve <strong>pending</strong> conversations without opening each chat individually</li><li>Reduce repetitive manual work for teams handling high conversation volume</li></ul><h4 id="how-to-use" tabindex="-1">How to use? <a class="header-anchor" href="#how-to-use" aria-label="Permalink to &quot;How to use?&quot;">​</a></h4><ol><li>Open <strong>Chats</strong> and apply the desired filters (status, tag, channel, agent, team, unread only, etc.)</li><li>Click the <strong>bulk selection</strong> icon (☑) at the top of the chat list</li><li>Select chats individually with checkboxes <strong>or</strong> use <strong>Select all filtered</strong> to include every matching page</li><li>In the bottom bar, choose: <ul><li><strong>Mark as read</strong> — clears unread messages on eligible chats</li><li><strong>Mark as resolved</strong> — closes only chats with <strong>pending</strong> status; <strong>in progress</strong> chats are skipped</li></ul></li><li>Confirm the action when prompted (more than 10 chats)</li></ol><blockquote><p>💡 The operation runs as a single batch on the server, staying fast even with hundreds of conversations. Already-read chats or chats not in <code>pending</code> are counted as skipped in the summary.</p></blockquote><hr><h2 id="benefits" tabindex="-1">Benefits <a class="header-anchor" href="#benefits" aria-label="Permalink to &quot;Benefits&quot;">​</a></h2><ul><li>✅ Bulk management aligned with the chat list&#39;s advanced filters</li><li>✅ Fewer clicks for teams running campaigns or large queues</li><li>✅ Mark as resolved follows the same individual rule: <strong>pending</strong> only</li><li>✅ Optimized processing in a single database operation</li><li>✅ Clear feedback with processed and skipped totals after each action</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("en/changelog/2026/05/2026.5.4.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _2026_5_4 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _2026_5_4 as default
+};

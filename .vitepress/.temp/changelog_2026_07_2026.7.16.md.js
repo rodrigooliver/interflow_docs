@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"v2026.7.16","description":"","frontmatter":{},"headers":[],"relativePath":"changelog/2026/07/2026.7.16.md","filePath":"changelog/2026/07/2026.7.16.md","lastUpdated":1785168686000}');
+const _sfc_main = { name: "changelog/2026/07/2026.7.16.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="v2026-7-16" tabindex="-1">v2026.7.16 <a class="header-anchor" href="#v2026-7-16" aria-label="Permalink to &quot;v2026.7.16&quot;">​</a></h1><p>Data de lançamento: <strong>27 de julho de 2026</strong></p><hr><h2 id="novas-funcionalidades" tabindex="-1">Novas Funcionalidades <a class="header-anchor" href="#novas-funcionalidades" aria-label="Permalink to &quot;Novas Funcionalidades&quot;">​</a></h2><h3 id="mover-agendamento-entre-agendas" tabindex="-1">Mover agendamento entre agendas <a class="header-anchor" href="#mover-agendamento-entre-agendas" aria-label="Permalink to &quot;Mover agendamento entre agendas&quot;">​</a></h3><p>Ao editar um agendamento, você pode trocar a <strong>Agenda</strong> sem excluir e recriar o compromisso. Cliente, histórico, chat e demais vínculos permanecem no mesmo registro.</p><p>Funciona para agendamentos <strong>únicos</strong> e <strong>recorrentes</strong>. Nos recorrentes, o escopo de edição continua valendo:</p><table tabindex="0"><thead><tr><th>Escopo</th><th>O que muda de agenda</th></tr></thead><tbody><tr><td><strong>Somente este</strong></td><td>Apenas a ocorrência selecionada</td></tr><tr><td><strong>Deste em diante</strong></td><td>Esta e as futuras (a série passa a gerar na nova agenda)</td></tr><tr><td><strong>Todos</strong></td><td>Toda a série</td></tr></tbody></table><h4 id="para-que-serve" tabindex="-1">Para que serve? <a class="header-anchor" href="#para-que-serve" aria-label="Permalink to &quot;Para que serve?&quot;">​</a></h4><ul><li>Corrigir agendamentos criados na agenda errada</li><li>Redistribuir compromissos entre agendas sem retrabalho</li><li>Manter histórico, lembretes e vínculos intactos</li></ul><h4 id="como-usar" tabindex="-1">Como usar? <a class="header-anchor" href="#como-usar" aria-label="Permalink to &quot;Como usar?&quot;">​</a></h4><ol><li>Abra o agendamento na <strong>Agenda</strong></li><li>No campo <strong>Agenda</strong>, escolha a agenda de destino</li><li>Selecione novamente <strong>Serviço</strong> e <strong>Profissional</strong> da nova agenda (são limpos ao trocar)</li><li>Salve</li><li>Se for recorrente, escolha o escopo: somente este, deste em diante ou todos</li></ol><div class="tip custom-block"><p class="custom-block-title">Serviço e profissional</p><p>Cada agenda tem seus próprios serviços e profissionais. Ao mudar de agenda, escolha os valores corretos da agenda de destino antes de salvar.</p></div><blockquote><p>Guia completo: <a href="/guide/schedule/">Agenda e Agendamentos</a></p></blockquote><hr><h2 id="beneficios" tabindex="-1">Benefícios <a class="header-anchor" href="#beneficios" aria-label="Permalink to &quot;Benefícios&quot;">​</a></h2><ul><li>Menos exclusões e recriações manuais</li><li>Histórico e vínculos do agendamento preservados</li><li>Suporte completo a recorrentes (uma ocorrência ou a série)</li><li>Gestão de múltiplas agendas mais ágil no dia a dia</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("changelog/2026/07/2026.7.16.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _2026_7_16 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _2026_7_16 as default
+};

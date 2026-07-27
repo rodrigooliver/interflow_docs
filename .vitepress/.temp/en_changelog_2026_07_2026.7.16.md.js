@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"v2026.7.16","description":"","frontmatter":{},"headers":[],"relativePath":"en/changelog/2026/07/2026.7.16.md","filePath":"en/changelog/2026/07/2026.7.16.md","lastUpdated":1785168686000}');
+const _sfc_main = { name: "en/changelog/2026/07/2026.7.16.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="v2026-7-16" tabindex="-1">v2026.7.16 <a class="header-anchor" href="#v2026-7-16" aria-label="Permalink to &quot;v2026.7.16&quot;">​</a></h1><p>Release date: <strong>July 27, 2026</strong></p><hr><h2 id="new-features" tabindex="-1">New Features <a class="header-anchor" href="#new-features" aria-label="Permalink to &quot;New Features&quot;">​</a></h2><h3 id="move-appointments-between-schedules" tabindex="-1">Move appointments between schedules <a class="header-anchor" href="#move-appointments-between-schedules" aria-label="Permalink to &quot;Move appointments between schedules&quot;">​</a></h3><p>When editing an appointment, you can change the <strong>Schedule</strong> without deleting and recreating the booking. Customer, history, chat, and other links stay on the same record.</p><p>Works for <strong>one-off</strong> and <strong>recurring</strong> appointments. For recurring ones, the usual edit scope still applies:</p><table tabindex="0"><thead><tr><th>Scope</th><th>What moves to the new schedule</th></tr></thead><tbody><tr><td><strong>This only</strong></td><td>Only the selected occurrence</td></tr><tr><td><strong>This and future</strong></td><td>This and future ones (the series will keep generating on the new schedule)</td></tr><tr><td><strong>All</strong></td><td>The entire series</td></tr></tbody></table><h4 id="what-is-it-for" tabindex="-1">What is it for? <a class="header-anchor" href="#what-is-it-for" aria-label="Permalink to &quot;What is it for?&quot;">​</a></h4><ul><li>Fix appointments created on the wrong schedule</li><li>Redistribute bookings across schedules without rework</li><li>Keep history, reminders, and links intact</li></ul><h4 id="how-to-use" tabindex="-1">How to use? <a class="header-anchor" href="#how-to-use" aria-label="Permalink to &quot;How to use?&quot;">​</a></h4><ol><li>Open the appointment in <strong>Schedule</strong></li><li>In the <strong>Schedule</strong> field, choose the destination schedule</li><li>Select <strong>Service</strong> and <strong>Provider</strong> again from the new schedule (they are cleared when you switch)</li><li>Save</li><li>If it is recurring, choose the scope: this only, this and future, or all</li></ol><div class="tip custom-block"><p class="custom-block-title">Service and provider</p><p>Each schedule has its own services and providers. After changing schedule, pick the correct values for the destination before saving.</p></div><blockquote><p>Full guide: <a href="/en/guide/schedule/">Schedule and Appointments</a></p></blockquote><hr><h2 id="benefits" tabindex="-1">Benefits <a class="header-anchor" href="#benefits" aria-label="Permalink to &quot;Benefits&quot;">​</a></h2><ul><li>Fewer manual deletes and recreations</li><li>Appointment history and links preserved</li><li>Full support for recurring appointments (one occurrence or the series)</li><li>Faster day-to-day management across multiple schedules</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("en/changelog/2026/07/2026.7.16.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _2026_7_16 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _2026_7_16 as default
+};

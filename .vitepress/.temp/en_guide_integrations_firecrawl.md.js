@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"Firecrawl Integration","description":"","frontmatter":{},"headers":[],"relativePath":"en/guide/integrations/firecrawl.md","filePath":"en/guide/integrations/firecrawl.md","lastUpdated":1784359757000}');
+const _sfc_main = { name: "en/guide/integrations/firecrawl.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="firecrawl-integration" tabindex="-1">Firecrawl Integration <a class="header-anchor" href="#firecrawl-integration" aria-label="Permalink to &quot;Firecrawl Integration&quot;">​</a></h1><p>Use Firecrawl to extract web page content (including JavaScript sites) and feed the <strong>AI Agent</strong> with markdown text.</p><blockquote><p>Changelog: <a href="/en/changelog/2026/07/2026.7.13">v2026.7.13</a></p></blockquote><h2 id="what-it-is" tabindex="-1">What it is <a class="header-anchor" href="#what-it-is" aria-label="Permalink to &quot;What it is&quot;">​</a></h2><p>Firecrawl is an external service that scrapes pages and returns clean content. In Interflow, the <strong>API key belongs to the organization</strong> (Settings → Integrations) and is used by the <strong>Research information on websites</strong> AI Agent tool.</p><h2 id="configure-the-key" tabindex="-1">Configure the key <a class="header-anchor" href="#configure-the-key" aria-label="Permalink to &quot;Configure the key&quot;">​</a></h2><ol><li>Create an account and API key at <a href="https://www.firecrawl.dev/" target="_blank" rel="noreferrer">Firecrawl</a></li><li>In Interflow: <strong>Settings → Integrations</strong></li><li>Find <strong>Firecrawl</strong></li><li>Paste the key, validate, and save</li></ol><p>The key is stored <strong>encrypted</strong> and appears masked in the UI.</p><h2 id="use-in-the-ai-agent" tabindex="-1">Use in the AI Agent <a class="header-anchor" href="#use-in-the-ai-agent" aria-label="Permalink to &quot;Use in the AI Agent&quot;">​</a></h2><ol><li>Open the <strong>AI Agent</strong> (Prompt) → <strong>Actions / Tools</strong></li><li>Add <strong>Research information about…</strong></li><li>Choose the <strong>Firecrawl</strong> engine and select the saved integration</li><li>Register the allowed sites (URL + description)</li><li>Optional: enable <strong>free web search</strong></li><li>Save and publish the prompt</li></ol><blockquote><p>Tool walkthrough: <a href="/en/guide/ai-agents/tools/research-websites">AI Tools — Research information on websites</a></p></blockquote><h2 id="firecrawl-vs-plain-html" tabindex="-1">Firecrawl vs Plain HTML <a class="header-anchor" href="#firecrawl-vs-plain-html" aria-label="Permalink to &quot;Firecrawl vs Plain HTML&quot;">​</a></h2><table tabindex="0"><thead><tr><th>Engine</th><th>Needs a key?</th><th>Best for</th></tr></thead><tbody><tr><td><strong>Firecrawl</strong></td><td>Yes</td><td>JavaScript / SPA sites, free web search</td></tr><tr><td><strong>Plain HTML</strong></td><td>No</td><td>Static HTML pages, no API cost</td></tr></tbody></table><h2 id="related" tabindex="-1">Related <a class="header-anchor" href="#related" aria-label="Permalink to &quot;Related&quot;">​</a></h2><ul><li><a href="/en/guide/ai-agents/tools/">AI Tools</a></li><li><a href="/en/guide/ai-agents/">AI Agents</a></li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("en/guide/integrations/firecrawl.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const firecrawl = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  firecrawl as default
+};

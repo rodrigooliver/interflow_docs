@@ -1,0 +1,21 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"Cambiar Dirección del Cliente","description":"","frontmatter":{},"headers":[],"relativePath":"es/guide/ai-agents/tools/change-customer-address.md","filePath":"es/guide/ai-agents/tools/change-customer-address.md","lastUpdated":1784359757000}');
+const _sfc_main = { name: "es/guide/ai-agents/tools/change-customer-address.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="cambiar-direccion-del-cliente" tabindex="-1">Cambiar Dirección del Cliente <a class="header-anchor" href="#cambiar-direccion-del-cliente" aria-label="Permalink to &quot;Cambiar Dirección del Cliente&quot;">​</a></h1><p>Permite que la IA <strong>guarde o actualice la dirección</strong> del cliente en el registro cuando informe los datos en la conversación (calle, número, ciudad, estado, código postal, etc.) o envíe una <strong>ubicación GPS</strong>.</p><p><strong>Cuándo usar:</strong></p><ul><li>El cliente informa una dirección de entrega o facturación</li><li>El cliente envía el pin de ubicación en WhatsApp</li><li>Actualización de la dirección predeterminada ya registrada</li><li>Recolección de dirección en flujos de pedido o visita</li></ul><p><strong>Qué puede guardar la IA:</strong></p><ul><li>Calle y número (o línea completa de la dirección)</li><li>Complemento, ciudad, estado y código postal</li><li>País y etiqueta opcional de la dirección</li><li>Latitud y longitud (GPS)</li><li>Instrucciones de entrega/acceso (ej.: interfono, portón)</li><li>Dirección marcada como predeterminada (actualiza la existente o crea una nueva)</li></ul><p><strong>Ubicación GPS:</strong></p><ul><li>Acepta coordenadas separadas (<code>latitude</code> / <code>longitude</code>) o el formato del mensaje de ubicación (ej.: <code>-3.03, -59.98</code>)</li><li>Si solo llega el GPS, el sistema intenta completar calle, ciudad y demás campos mediante geocodificación inversa (Google Maps con clave configurada, o Nominatim)</li></ul><p><strong>Ejemplo de uso:</strong></p><div class="language-text vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>👤 Cliente: Mi dirección es Calle de las Flores, 120, apto 3, São Paulo - SP, CP 01310-100</span></span>
+<span class="line"><span>🤖 IA: ¡Listo! Ya guardé esa dirección en tu registro. ¿Necesitas algo más?</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="language-text vp-adaptive-theme line-numbers-mode"><button title="Copy Code" class="copy"></button><span class="lang">text</span><pre class="shiki shiki-themes github-light github-dark vp-code" tabindex="0"><code><span class="line"><span>👤 Cliente: [envía ubicación en el mapa]</span></span>
+<span class="line"><span>🤖 IA: Recibí tu ubicación y ya actualicé la dirección en el registro.</span></span></code></pre><div class="line-numbers-wrapper" aria-hidden="true"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div><div class="tip custom-block"><p class="custom-block-title">💡 Contexto automático</p><p>Las direcciones ya registradas también entran en el <strong>Customer info</strong> del primer mensaje de contexto del agente, para que la IA no tenga que preguntar de nuevo.</p></div><div class="info custom-block"><p class="custom-block-title">⚠️ Única</p><p>Esta acción puede agregarse solo una vez por agente.</p></div></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("es/guide/ai-agents/tools/change-customer-address.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const changeCustomerAddress = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  changeCustomerAddress as default
+};

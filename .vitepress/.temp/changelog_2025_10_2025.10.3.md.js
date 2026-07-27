@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"v2025.10.3","description":"","frontmatter":{},"headers":[],"relativePath":"changelog/2025/10/2025.10.3.md","filePath":"changelog/2025/10/2025.10.3.md","lastUpdated":1784358336000}');
+const _sfc_main = { name: "changelog/2025/10/2025.10.3.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="v2025-10-3" tabindex="-1">v2025.10.3 <a class="header-anchor" href="#v2025-10-3" aria-label="Permalink to &quot;v2025.10.3&quot;">​</a></h1><p>Data de lançamento: <strong>29 de Outubro de 2025</strong></p><hr><h2 id="nova-funcionalidade" tabindex="-1">Nova Funcionalidade <a class="header-anchor" href="#nova-funcionalidade" aria-label="Permalink to &quot;Nova Funcionalidade&quot;">​</a></h2><h3 id="ocultar-dados-sensiveis-de-atendentes" tabindex="-1">Ocultar Dados Sensíveis de Atendentes <a class="header-anchor" href="#ocultar-dados-sensiveis-de-atendentes" aria-label="Permalink to &quot;Ocultar Dados Sensíveis de Atendentes&quot;">​</a></h3><p>Configuração global para ocultar informações de contato dos clientes para atendentes.</p><h4 id="como-configurar" tabindex="-1">Como configurar? <a class="header-anchor" href="#como-configurar" aria-label="Permalink to &quot;Como configurar?&quot;">​</a></h4><ol><li>Acesse <strong>Configurações</strong> → <strong>Aba Geral</strong></li><li>Localize <strong>&quot;Ocultar Dados de Contato dos Atendentes&quot;</strong></li><li>Ative o botão de alternância</li><li>Configuração aplicada imediatamente</li></ol><h4 id="quem-ve-os-dados" tabindex="-1">Quem vê os dados? <a class="header-anchor" href="#quem-ve-os-dados" aria-label="Permalink to &quot;Quem vê os dados?&quot;">​</a></h4><table tabindex="0"><thead><tr><th>Perfil</th><th>Acesso</th></tr></thead><tbody><tr><td>Superadmin</td><td>✅ Acesso completo</td></tr><tr><td>Proprietário</td><td>✅ Acesso completo</td></tr><tr><td>Administrador</td><td>✅ Acesso completo</td></tr><tr><td><strong>Atendente</strong></td><td>❌ Dados ocultos</td></tr></tbody></table><h4 id="o-que-fica-oculto-para-atendentes" tabindex="-1">O que fica oculto para atendentes: <a class="header-anchor" href="#o-que-fica-oculto-para-atendentes" aria-label="Permalink to &quot;O que fica oculto para atendentes:&quot;">​</a></h4><ul><li>❌ Email, Telefone, WhatsApp</li><li>❌ Contatos na exportação (CSV, Excel, JSON)</li><li>❌ Contatos nos resultados de busca</li><li>❌ Contatos ao iniciar chat</li><li>❌ IDs externos do chat e mensagens</li><li>❌ Seção de contatos ao editar cliente</li></ul><h4 id="o-que-atendentes-podem-fazer" tabindex="-1">O que atendentes PODEM fazer: <a class="header-anchor" href="#o-que-atendentes-podem-fazer" aria-label="Permalink to &quot;O que atendentes PODEM fazer:&quot;">​</a></h4><ul><li>✅ Ver e editar nome do cliente</li><li>✅ Ver e gerenciar tags</li><li>✅ Ver e editar campos personalizados</li><li>✅ Atender chats normalmente</li><li>✅ Enviar e receber mensagens</li></ul><hr><h2 id="beneficios" tabindex="-1">Benefícios <a class="header-anchor" href="#beneficios" aria-label="Permalink to &quot;Benefícios&quot;">​</a></h2><ul><li>✅ Proteção de privacidade dos clientes</li><li>✅ Conformidade com LGPD</li><li>✅ Redução de risco de vazamentos</li><li>✅ Atendentes continuam produtivos</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("changelog/2025/10/2025.10.3.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _2025_10_3 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _2025_10_3 as default
+};

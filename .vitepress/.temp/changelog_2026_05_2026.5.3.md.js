@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"v2026.5.3","description":"","frontmatter":{},"headers":[],"relativePath":"changelog/2026/05/2026.5.3.md","filePath":"changelog/2026/05/2026.5.3.md","lastUpdated":1784358336000}');
+const _sfc_main = { name: "changelog/2026/05/2026.5.3.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="v2026-5-3" tabindex="-1">v2026.5.3 <a class="header-anchor" href="#v2026-5-3" aria-label="Permalink to &quot;v2026.5.3&quot;">​</a></h1><p>Data de lançamento: <strong>22 de maio de 2026</strong></p><hr><h2 id="novas-funcionalidades" tabindex="-1">Novas Funcionalidades <a class="header-anchor" href="#novas-funcionalidades" aria-label="Permalink to &quot;Novas Funcionalidades&quot;">​</a></h2><h3 id="transferencia-de-estagio-entre-funis-do-crm" tabindex="-1">Transferência de Estágio entre Funis do CRM <a class="header-anchor" href="#transferencia-de-estagio-entre-funis-do-crm" aria-label="Permalink to &quot;Transferência de Estágio entre Funis do CRM&quot;">​</a></h3><p>Agora é possível transferir um estágio inteiro — junto com todos os clientes nele — de um funil de vendas para outro. Isso simplifica ajustes de processo e reorganização comercial sem precisar mover clientes um a um.</p><h4 id="para-que-serve" tabindex="-1">Para que serve? <a class="header-anchor" href="#para-que-serve" aria-label="Permalink to &quot;Para que serve?&quot;">​</a></h4><ul><li>Reorganizar a estrutura de funis quando o processo de vendas muda</li><li>Consolidar estágios em outro funil sem perder clientes nem histórico</li><li>Adaptar funis por equipe ou linha de negócio com mais flexibilidade</li><li>Preservar automações do estágio (<code>flow_start_id</code>, eventos de conversão UTM)</li></ul><h4 id="como-usar" tabindex="-1">Como usar? <a class="header-anchor" href="#como-usar" aria-label="Permalink to &quot;Como usar?&quot;">​</a></h4><ol><li>Acesse o <strong>CRM</strong> e abra o funil que contém o estágio desejado</li><li>Escolha uma das opções: <ul><li>No <strong>menu ⋯</strong> da coluna do estágio, clique em <strong>Transferir para outro funil</strong></li><li>Ou abra <strong>Administrar Estágios</strong> e clique no ícone de transferência (⇄) ao lado do estágio</li></ul></li><li>No modal, confirme o nome do estágio e a quantidade de clientes que serão migrados</li><li>Selecione o <strong>funil de destino</strong> na lista (o funil atual não aparece)</li><li>Clique em <strong>Transferir</strong></li></ol><blockquote><p>💡 A ação só fica disponível quando a organização possui <strong>dois ou mais funis</strong>. O estágio transferido é adicionado automaticamente ao <strong>final</strong> do funil de destino.</p></blockquote><hr><h2 id="beneficios" tabindex="-1">Benefícios <a class="header-anchor" href="#beneficios" aria-label="Permalink to &quot;Benefícios&quot;">​</a></h2><ul><li>✅ Reorganização de funis sem movimentação manual de clientes</li><li>✅ Histórico de estágios dos clientes preservado integralmente</li><li>✅ Automações e configurações do estágio mantidas após a transferência</li><li>✅ Posições dos estágios restantes no funil origem reorganizadas automaticamente</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("changelog/2026/05/2026.5.3.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _2026_5_3 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _2026_5_3 as default
+};

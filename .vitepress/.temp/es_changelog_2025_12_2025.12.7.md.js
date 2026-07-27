@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"v2025.12.7","description":"","frontmatter":{},"headers":[],"relativePath":"es/changelog/2025/12/2025.12.7.md","filePath":"es/changelog/2025/12/2025.12.7.md","lastUpdated":1784358336000}');
+const _sfc_main = { name: "es/changelog/2025/12/2025.12.7.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="v2025-12-7" tabindex="-1">v2025.12.7 <a class="header-anchor" href="#v2025-12-7" aria-label="Permalink to &quot;v2025.12.7&quot;">​</a></h1><p>Fecha de lanzamiento: <strong>16 de Diciembre de 2025</strong></p><hr><h2 id="correccion" tabindex="-1">Corrección <a class="header-anchor" href="#correccion" aria-label="Permalink to &quot;Corrección&quot;">​</a></h2><h3 id="agente-ia-ahora-respeta-descansos-configurados-en-la-agenda" tabindex="-1">Agente IA Ahora Respeta Descansos Configurados en la Agenda <a class="header-anchor" href="#agente-ia-ahora-respeta-descansos-configurados-en-la-agenda" aria-label="Permalink to &quot;Agente IA Ahora Respeta Descansos Configurados en la Agenda&quot;">​</a></h3><p>El Agente IA fue corregido para siempre respetar la configuración de descansos e indisponibilidades en la agenda.</p><h4 id="¿que-fue-corregido" tabindex="-1">¿Qué fue corregido? <a class="header-anchor" href="#¿que-fue-corregido" aria-label="Permalink to &quot;¿Qué fue corregido?&quot;">​</a></h4><p>Antes, el Agente IA continuaba ofreciendo días y horarios aunque hubiera descansos configurados. Ahora:</p><ul><li>❌ <strong>NO ofrece</strong> horarios en períodos de descanso</li><li>❌ <strong>NO permite</strong> crear citas en días bloqueados</li><li>✅ <strong>Explica al cliente</strong> el motivo de la indisponibilidad</li><li>✅ <strong>Sugiere automáticamente</strong> fechas alternativas disponibles</li></ul><h4 id="tipos-de-descanso-soportados" tabindex="-1">Tipos de descanso soportados <a class="header-anchor" href="#tipos-de-descanso-soportados" aria-label="Permalink to &quot;Tipos de descanso soportados&quot;">​</a></h4><table tabindex="0"><thead><tr><th>Tipo</th><th>Descripción</th></tr></thead><tbody><tr><td><strong>Día completo</strong></td><td>Bloquea el día completo (feriados, descansos programados)</td></tr><tr><td><strong>Horario específico</strong></td><td>Bloquea solo un período (almuerzo, reuniones)</td></tr><tr><td><strong>Por profesional</strong></td><td>Aplica el descanso solo a un profesional específico</td></tr><tr><td><strong>Todos</strong></td><td>Aplica el descanso para todo el equipo</td></tr></tbody></table><h4 id="ejemplo-de-respuesta-de-la-ia" tabindex="-1">Ejemplo de respuesta de la IA <a class="header-anchor" href="#ejemplo-de-respuesta-de-la-ia" aria-label="Permalink to &quot;Ejemplo de respuesta de la IA&quot;">​</a></h4><blockquote><p>&quot;Desafortunadamente no tenemos atención el día 25/12 debido a la <strong>Navidad</strong>. ¿Puedo verificar otros días disponibles para ti?&quot;</p></blockquote><hr><h2 id="beneficios" tabindex="-1">Beneficios <a class="header-anchor" href="#beneficios" aria-label="Permalink to &quot;Beneficios&quot;">​</a></h2><ul><li>✅ Solo horarios realmente disponibles son ofrecidos</li><li>✅ Evita conflictos y retrabajos</li><li>✅ Mejor experiencia para el cliente</li><li>✅ Agenda de profesionales respetada</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("es/changelog/2025/12/2025.12.7.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _2025_12_7 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _2025_12_7 as default
+};

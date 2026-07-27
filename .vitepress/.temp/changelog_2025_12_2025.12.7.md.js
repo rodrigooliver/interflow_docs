@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"v2025.12.7","description":"","frontmatter":{},"headers":[],"relativePath":"changelog/2025/12/2025.12.7.md","filePath":"changelog/2025/12/2025.12.7.md","lastUpdated":1784358336000}');
+const _sfc_main = { name: "changelog/2025/12/2025.12.7.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="v2025-12-7" tabindex="-1">v2025.12.7 <a class="header-anchor" href="#v2025-12-7" aria-label="Permalink to &quot;v2025.12.7&quot;">​</a></h1><p>Data de lançamento: <strong>16 de Dezembro de 2025</strong></p><hr><h2 id="correcao" tabindex="-1">Correção <a class="header-anchor" href="#correcao" aria-label="Permalink to &quot;Correção&quot;">​</a></h2><h3 id="atendente-ia-agora-respeita-folgas-configuradas-na-agenda" tabindex="-1">Atendente IA Agora Respeita Folgas Configuradas na Agenda <a class="header-anchor" href="#atendente-ia-agora-respeita-folgas-configuradas-na-agenda" aria-label="Permalink to &quot;Atendente IA Agora Respeita Folgas Configuradas na Agenda&quot;">​</a></h3><p>O Atendente IA foi corrigido para sempre respeitar a configuração de folgas e indisponibilidades definidas na agenda.</p><h4 id="o-que-foi-corrigido" tabindex="-1">O que foi corrigido? <a class="header-anchor" href="#o-que-foi-corrigido" aria-label="Permalink to &quot;O que foi corrigido?&quot;">​</a></h4><p>Antes, o Atendente IA continuava oferecendo dias e horários mesmo quando havia folgas configuradas. Agora:</p><ul><li>❌ <strong>NÃO oferece</strong> horários em períodos de folga</li><li>❌ <strong>NÃO permite</strong> criar agendamentos em dias bloqueados</li><li>✅ <strong>Explica ao cliente</strong> o motivo da indisponibilidade</li><li>✅ <strong>Sugere automaticamente</strong> datas alternativas disponíveis</li></ul><h4 id="tipos-de-folgas-suportadas" tabindex="-1">Tipos de folgas suportadas <a class="header-anchor" href="#tipos-de-folgas-suportadas" aria-label="Permalink to &quot;Tipos de folgas suportadas&quot;">​</a></h4><table tabindex="0"><thead><tr><th>Tipo</th><th>Descrição</th></tr></thead><tbody><tr><td><strong>Dia inteiro</strong></td><td>Bloqueia o dia completo (feriados, folgas programadas)</td></tr><tr><td><strong>Horário específico</strong></td><td>Bloqueia apenas um período (almoço, reuniões)</td></tr><tr><td><strong>Por profissional</strong></td><td>Aplica a folga apenas a um profissional específico</td></tr><tr><td><strong>Todos</strong></td><td>Aplica a folga para toda a equipe</td></tr></tbody></table><h4 id="exemplo-de-resposta-da-ia" tabindex="-1">Exemplo de resposta da IA <a class="header-anchor" href="#exemplo-de-resposta-da-ia" aria-label="Permalink to &quot;Exemplo de resposta da IA&quot;">​</a></h4><blockquote><p>&quot;Infelizmente não temos atendimento no dia 25/12 devido ao <strong>Natal</strong>. Posso verificar outros dias disponíveis para você?&quot;</p></blockquote><hr><h2 id="beneficios" tabindex="-1">Benefícios <a class="header-anchor" href="#beneficios" aria-label="Permalink to &quot;Benefícios&quot;">​</a></h2><ul><li>✅ Apenas horários realmente disponíveis são oferecidos</li><li>✅ Evita conflitos e retrabalhos</li><li>✅ Melhor experiência para o cliente</li><li>✅ Agenda dos profissionais respeitada</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("changelog/2025/12/2025.12.7.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _2025_12_7 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _2025_12_7 as default
+};

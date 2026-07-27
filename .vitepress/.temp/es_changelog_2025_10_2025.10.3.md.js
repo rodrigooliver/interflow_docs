@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.1tPrXgE0.js";
+const __pageData = JSON.parse('{"title":"v2025.10.3","description":"","frontmatter":{},"headers":[],"relativePath":"es/changelog/2025/10/2025.10.3.md","filePath":"es/changelog/2025/10/2025.10.3.md","lastUpdated":1784358336000}');
+const _sfc_main = { name: "es/changelog/2025/10/2025.10.3.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><h1 id="v2025-10-3" tabindex="-1">v2025.10.3 <a class="header-anchor" href="#v2025-10-3" aria-label="Permalink to &quot;v2025.10.3&quot;">​</a></h1><p>Fecha de lanzamiento: <strong>29 de Octubre de 2025</strong></p><hr><h2 id="nueva-funcionalidad" tabindex="-1">Nueva Funcionalidad <a class="header-anchor" href="#nueva-funcionalidad" aria-label="Permalink to &quot;Nueva Funcionalidad&quot;">​</a></h2><h3 id="ocultar-datos-sensibles-de-agentes" tabindex="-1">Ocultar Datos Sensibles de Agentes <a class="header-anchor" href="#ocultar-datos-sensibles-de-agentes" aria-label="Permalink to &quot;Ocultar Datos Sensibles de Agentes&quot;">​</a></h3><p>Configuración global para ocultar información de contacto de los clientes para agentes.</p><h4 id="¿como-configurar" tabindex="-1">¿Cómo configurar? <a class="header-anchor" href="#¿como-configurar" aria-label="Permalink to &quot;¿Cómo configurar?&quot;">​</a></h4><ol><li>Accede a <strong>Configuraciones</strong> → <strong>Pestaña General</strong></li><li>Localiza <strong>&quot;Ocultar Datos de Contacto de los Agentes&quot;</strong></li><li>Activa el botón de alternancia</li><li>Configuración se aplica inmediatamente</li></ol><h4 id="¿quien-ve-los-datos" tabindex="-1">¿Quién ve los datos? <a class="header-anchor" href="#¿quien-ve-los-datos" aria-label="Permalink to &quot;¿Quién ve los datos?&quot;">​</a></h4><table tabindex="0"><thead><tr><th>Perfil</th><th>Acceso</th></tr></thead><tbody><tr><td>Superadmin</td><td>✅ Acceso completo</td></tr><tr><td>Propietario</td><td>✅ Acceso completo</td></tr><tr><td>Administrador</td><td>✅ Acceso completo</td></tr><tr><td><strong>Agente</strong></td><td>❌ Datos ocultos</td></tr></tbody></table><h4 id="que-queda-oculto-para-agentes" tabindex="-1">Qué queda oculto para agentes: <a class="header-anchor" href="#que-queda-oculto-para-agentes" aria-label="Permalink to &quot;Qué queda oculto para agentes:&quot;">​</a></h4><ul><li>❌ Email, Teléfono, WhatsApp</li><li>❌ Contactos en exportación (CSV, Excel, JSON)</li><li>❌ Contactos en resultados de búsqueda</li><li>❌ Contactos al iniciar chat</li><li>❌ IDs externos del chat y mensajes</li><li>❌ Sección de contactos al editar cliente</li></ul><h4 id="que-agentes-pueden-hacer" tabindex="-1">Qué agentes PUEDEN hacer: <a class="header-anchor" href="#que-agentes-pueden-hacer" aria-label="Permalink to &quot;Qué agentes PUEDEN hacer:&quot;">​</a></h4><ul><li>✅ Ver y editar nombre del cliente</li><li>✅ Ver y gestionar tags</li><li>✅ Ver y editar campos personalizados</li><li>✅ Atender chats normalmente</li><li>✅ Enviar y recibir mensajes</li></ul><hr><h2 id="beneficios" tabindex="-1">Beneficios <a class="header-anchor" href="#beneficios" aria-label="Permalink to &quot;Beneficios&quot;">​</a></h2><ul><li>✅ Protección de privacidad de los clientes</li><li>✅ Conformidad con LGPD</li><li>✅ Reducción de riesgo de filtraciones</li><li>✅ Agentes siguen productivos</li></ul></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("es/changelog/2025/10/2025.10.3.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _2025_10_3 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _2025_10_3 as default
+};
