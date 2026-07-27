@@ -69,7 +69,7 @@ Updates for July 2026.
 - **Floating active node indicator** (v2026.7.1) — badge below the flow button in the agent header showing node name, debounce state, and time tooltip
 
 ### Improvements (15)
-- **Appointment templates with customer data** (v2026.7.14) — documents generated from an appointment also load `{{customer.*}}`
+- **Appointment templates with customer data** (v2026.7.14) — documents generated from an appointment also load <code v-pre>{{customer.*}}</code>
 - **Punch without a webcam** (v2026.7.11) — upload a photo file when there is no camera
 - **Mirrored camera preview** (v2026.7.11) — selfie-style framing; saved photo keeps normal orientation
 - **Loading on HR screens** (v2026.7.11) — avoids an empty flash while loading

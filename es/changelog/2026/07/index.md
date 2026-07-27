@@ -69,7 +69,7 @@ Actualizaciones del mes de julio de 2026.
 - **Indicador flotante de nodo activo** (v2026.7.1) — badge debajo del botón de flujo en el encabezado del agente con nombre del nodo, estado de debounce y tooltip con horario
 
 ### Mejoras (15)
-- **Plantillas de cita con datos del cliente** (v2026.7.14) — documentos generados a partir de una cita también cargan `{{customer.*}}`
+- **Plantillas de cita con datos del cliente** (v2026.7.14) — documentos generados a partir de una cita también cargan <code v-pre>{{customer.*}}</code>
 - **Fichar sin webcam** (v2026.7.11) — envío de foto por archivo cuando no hay cámara
 - **Vista previa de cámara en espejo** (v2026.7.11) — encuadre tipo selfie; foto guardada en orientación normal
 - **Loading en pantallas de RRHH** (v2026.7.11) — evita un vacío momentáneo al cargar

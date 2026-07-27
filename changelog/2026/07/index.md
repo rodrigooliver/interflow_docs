@@ -69,7 +69,7 @@ Atualizações do mês de julho de 2026.
 - **Indicador flutuante de nó ativo** (v2026.7.1) — badge abaixo do botão de fluxo no header do agente exibe nome do nó, estado de debounce e tooltip com horário
 
 ### Melhorias (15)
-- **Templates de agendamento com dados do cliente** (v2026.7.14) — documentos gerados a partir de compromisso também carregam `{{customer.*}}`
+- **Templates de agendamento com dados do cliente** (v2026.7.14) — documentos gerados a partir de compromisso também carregam <code v-pre>{{customer.*}}</code>
 - **Bater ponto sem webcam** (v2026.7.11) — envio de foto por arquivo quando não há câmera
 - **Preview da câmera em espelho** (v2026.7.11) — enquadramento tipo selfie; foto salva na orientação normal
 - **Loading nas telas de RH** (v2026.7.11) — evita flash de tela vazia ao carregar
