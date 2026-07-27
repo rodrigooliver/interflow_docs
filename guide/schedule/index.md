@@ -80,6 +80,17 @@ Crie compromissos que se repetem automaticamente.
 | **Excluir único** | Remove apenas uma ocorrência |
 | **Excluir todos** | Remove toda a série |
 
+## Mover agendamento entre agendas
+
+Na edição de um agendamento (único ou recorrente), o campo **Agenda** permite transferir o compromisso para outra agenda sem excluir e recriar.
+
+1. Abra o agendamento e escolha a nova **Agenda**
+2. Selecione novamente **Serviço** e **Profissional** da agenda de destino
+3. Salve
+4. Se for recorrente, escolha o escopo: somente este, deste em diante ou todos
+
+Histórico, chat e demais vínculos do agendamento permanecem intactos.
+
 ### Exemplo de Uso
 
 ```

@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.7.16](/en/changelog/2026/07/2026.7.16) | Jul 27 | **Move appointments between schedules** — no delete and recreate | [Schedule](/en/guide/schedule/) |
 | [v2026.7.15](/en/changelog/2026/07/2026.7.15) | Jul 27 | **Audio transcription** — automatic text with per-channel controls | [Transcription](/en/guide/channels/audio-transcription) |
 | [v2026.7.14](/en/changelog/2026/07/2026.7.14) | Jul 27 | **Customer data in docs & schedule** — tax ID, contact, and address auto-fill | [Variables](/en/guide/documents/variables) |
 | [v2026.7.13](/en/changelog/2026/07/2026.7.13) | Jul 18 | **Research websites** — Firecrawl or HTML in the AI Agent | [Research websites](/en/guide/ai-agents/tools/research-websites) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.7.9](/en/changelog/2026/07/2026.7.9) | Jul 15 | Customer contact & address tools (GPS) and CRM addresses | [Customers](/en/guide/crm/customers) |
 | [v2026.7.8](/en/changelog/2026/07/2026.7.8) | Jul 14 | Internal chats: audio and read/unread | [Chat interface](/en/guide/chat/interface) |
 | [v2026.7.7](/en/changelog/2026/07/2026.7.7) | Jul 10 | Customer search in the sales funnel | [Funnels](/en/guide/crm/funnels) |
-| [v2026.7.6](/en/changelog/2026/07/2026.7.6) | Jul 10 | Hide finished customers in the sales funnel | [Funnels](/en/guide/crm/funnels) |
 
 [See all July releases →](/en/changelog/2026/07/)
 

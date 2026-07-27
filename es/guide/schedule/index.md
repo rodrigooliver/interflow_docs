@@ -80,6 +80,17 @@ Crea citas que se repiten automáticamente.
 | **Eliminar único** | Remueve solo una ocurrencia |
 | **Eliminar todos** | Remueve toda la serie |
 
+## Mover citas entre agendas
+
+Al editar una cita (única o recurrente), el campo **Agenda** permite transferir el compromiso a otra agenda sin eliminar y recrear.
+
+1. Abre la cita y elige la nueva **Agenda**
+2. Selecciona de nuevo **Servicio** y **Profesional** de la agenda de destino
+3. Guarda
+4. Si es recurrente, elige el alcance: solo esta, desde esta en adelante o todas
+
+Historial, chat y demás vínculos de la cita se mantienen intactos.
+
 ## Recordatorios Automáticos
 
 Configura mensajes automáticos para recordar a los clientes sus citas.

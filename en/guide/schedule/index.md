@@ -80,6 +80,17 @@ Create appointments that repeat automatically.
 | **Delete single** | Removes only one occurrence |
 | **Delete all** | Removes entire series |
 
+## Move appointments between schedules
+
+When editing an appointment (one-off or recurring), the **Schedule** field lets you move the booking to another schedule without deleting and recreating it.
+
+1. Open the appointment and choose the new **Schedule**
+2. Select **Service** and **Provider** again from the destination schedule
+3. Save
+4. If it is recurring, choose the scope: this only, this and future, or all
+
+History, chat, and other appointment links remain intact.
+
 ## Automatic Reminders
 
 Configure automatic messages to remind customers of their appointments.

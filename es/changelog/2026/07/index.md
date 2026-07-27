@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.16](/es/changelog/2026/07/2026.7.16) | 27/07 | **Mover citas entre agendas** — transferir compromisos sin eliminar y recrear, inclusive recurrentes |
 | [2026.7.15](/es/changelog/2026/07/2026.7.15) | 27/07 | **Transcripción automática de audios** — texto en la conversación y contexto para IA, con controles por canal (cliente, agente y grupos WAHA) |
 | [2026.7.14](/es/changelog/2026/07/2026.7.14) | 27/07 | **Cliente en documentos y agenda** — documento, contacto y dirección rellenados automáticamente en plantillas y notificaciones |
 | [2026.7.13](/es/changelog/2026/07/2026.7.13) | 18/07 | **Investigar sitios** — herramienta del Agente de IA con Firecrawl o HTML puro, allowlist y búsqueda web opcional |
@@ -26,7 +27,8 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (38)
+### Nuevas Funcionalidades (39)
+- **Mover citas entre agendas** (v2026.7.16) — cambiar la agenda al editar sin eliminar/recrear; únicas y recurrentes (esta / desde esta / todas)
 - **Transcripción automática de audios** (v2026.7.15) — texto en el mensaje y contexto para IA, con toggles de cliente, agente y grupos WAHA
 - **Datos del cliente en plantillas de documentos** (v2026.7.14) — documento y dirección (además de nombre/contacto) como variables nativas en plantillas
 - **Datos del cliente en notificaciones de la agenda** (v2026.7.14) — documento, correo, teléfono, WhatsApp y dirección en recordatorios de cita
@@ -97,5 +99,5 @@ Actualizaciones del mes de julio de 2026.
 ---
 
 ::: info Total
-**15 lanzamientos** este mes!
+**16 lanzamientos** este mes!
 :::

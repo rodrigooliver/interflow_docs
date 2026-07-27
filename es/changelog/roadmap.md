@@ -17,7 +17,6 @@ Este roadmap se actualiza con regularidad y puede cambiar según las prioridades
 | Recurso | Previsión | Descripción |
 |---------|-----------|-------------|
 | Registro manual de cobros o bloqueos parciales de deudas | Jul/2026 | Registrar manualmente cobros en efectivo o bloqueos parciales (p. ej. judiciales), con valor, fecha y descripción en los informes financieros. |
-| Mover citas entre diferentes agendas | Jul/2026 | Transferir una cita de una agenda a otra sin eliminar y recrear, manteniendo datos e historial. |
 | Widgets de tareas por estado y usuario (estilo Kanban) | Jul/2026 | Organizar tareas en columnas visuales (iniciar, en desarrollo, concluidas) por usuario, con arrastrar y soltar. |
 | IA identifica clientes de tráfico pago vía API Meta | Jul/2026 | Identificar automáticamente leads de anuncios Facebook/Instagram (API Meta), con tags de origen para segmentación e informes. |
 | Variable de documento del cliente en atajos de mensaje | Jul/2026 | Usar el documento del cliente como variable en atajos, rellenada automáticamente al enviar el mensaje. |

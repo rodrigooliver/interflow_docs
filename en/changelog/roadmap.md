@@ -17,7 +17,6 @@ This roadmap is updated regularly and may change based on product priorities.
 | Feature | Target | Description |
 |---------|--------|-------------|
 | Manual entry for cash receipts or partial debt holds | Jul 2026 | Manually register cash receipts or partial holds (e.g. legal), with amount, date, and description reflected in financial reports. |
-| Move appointments between different schedules | Jul 2026 | Move an appointment from one schedule to another without deleting and recreating it, keeping data and history. |
 | Task widgets by status and user (Kanban-style) | Jul 2026 | Organize tasks in visual columns (to start, in progress, done) per user, with drag and drop. |
 | AI identifies paid-traffic customers via Meta API | Jul 2026 | Automatically identify leads from Facebook/Instagram ads (Meta API), with origin tags for segmentation and reporting. |
 | Customer tax ID variable in message shortcuts | Jul 2026 | Use the customer tax ID as a shortcut variable, filled automatically when the message is sent. |
