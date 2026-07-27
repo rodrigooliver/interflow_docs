@@ -41,6 +41,21 @@ En el listado, los atajos con más de un mensaje muestran un badge (ej.: `3 msgs
 Los atajos creados antes de esta versión se convierten automáticamente al formato de pasos. No es necesario recrearlos.
 :::
 
+## Variables en el texto del atajo
+
+Al crear o editar un atajo, usa el selector de variables para insertar datos del cliente o de la atención. Al enviar, el sistema sustituye la variable por el valor real.
+
+| Variable | Contenido |
+|----------|-----------|
+| <code v-pre>{{customer.name}}</code> | Nombre completo del cliente |
+| <code v-pre>{{customer.firstName}}</code> | Primer nombre del cliente |
+| <code v-pre>{{customer.document}}</code> | CPF/CNPJ registrado del cliente |
+| <code v-pre>{{greeting}}</code> | Saludo según la hora (Buenos días, Buenas tardes, Buenas noches) |
+
+::: tip Documento del cliente
+Si el cliente no tiene CPF/CNPJ en el registro, <code v-pre>{{customer.document}}</code> se sustituye por texto vacío. Registra el documento en el CRM para que aparezca en el mensaje.
+:::
+
 ## Usar en el chat
 
 1. En el atendimiento, escribe `/` y elige el atajo deseado
@@ -66,4 +81,5 @@ El campo de escritura normal **permanece visible** mientras el modal está abier
 ## Relacionado
 
 - [Interfaz de Chat](/es/guide/chat/interface) — visión general del atendimiento
-- [Changelog v2026.7.4](/es/changelog/2026/07/2026.7.4) — detalles de esta versión
+- [Changelog v2026.7.17](/es/changelog/2026/07/2026.7.17) — variable de CPF/CNPJ en atajos
+- [Changelog v2026.7.4](/es/changelog/2026/07/2026.7.4) — atajos en secuencia

@@ -6,6 +6,7 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.17](/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ em atalhos** — variável <code v-pre>{{customer.document}}</code> preenchida automaticamente no envio |
 | [2026.7.16](/changelog/2026/07/2026.7.16) | 27/07 | **Mover agendamento entre agendas** — transferir compromissos sem excluir e recriar, inclusive recorrentes |
 | [2026.7.15](/changelog/2026/07/2026.7.15) | 27/07 | **Transcrição automática de áudios** — texto na conversa e contexto para IA, com controles por canal (cliente, agente e grupos WAHA) |
 | [2026.7.14](/changelog/2026/07/2026.7.14) | 27/07 | **Cliente em documentos e agenda** — CPF/CNPJ, contato e endereço preenchidos automaticamente em modelos e notificações |
@@ -27,7 +28,8 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (39)
+### Novas Funcionalidades (40)
+- **Variável de CPF/CNPJ em atalhos de mensagem** (v2026.7.17) — <code v-pre>{{customer.document}}</code> inserida no atalho e substituída automaticamente no atendimento
 - **Mover agendamento entre agendas** (v2026.7.16) — trocar a agenda na edição sem excluir/recriar; suporte a únicos e recorrentes (este / deste em diante / todos)
 - **Transcrição automática de áudios** (v2026.7.15) — texto na mensagem e contexto para IA, com toggles de cliente, agente e grupos (WAHA)
 - **Dados do cliente em modelos de documentos** (v2026.7.14) — CPF/CNPJ e endereço (além de nome/contato) como variáveis nativas nos templates
@@ -99,5 +101,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info Total
-**16 releases** neste mês!
+**17 releases** neste mês!
 :::

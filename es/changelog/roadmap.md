@@ -19,7 +19,6 @@ Este roadmap se actualiza con regularidad y puede cambiar según las prioridades
 | Registro manual de cobros o bloqueos parciales de deudas | Jul/2026 | Registrar manualmente cobros en efectivo o bloqueos parciales (p. ej. judiciales), con valor, fecha y descripción en los informes financieros. |
 | Widgets de tareas por estado y usuario (estilo Kanban) | Jul/2026 | Organizar tareas en columnas visuales (iniciar, en desarrollo, concluidas) por usuario, con arrastrar y soltar. |
 | IA identifica clientes de tráfico pago vía API Meta | Jul/2026 | Identificar automáticamente leads de anuncios Facebook/Instagram (API Meta), con tags de origen para segmentación e informes. |
-| Variable de documento del cliente en atajos de mensaje | Jul/2026 | Usar el documento del cliente como variable en atajos, rellenada automáticamente al enviar el mensaje. |
 | Ordenar documentos de la Base de Conocimiento alfabéticamente | Jul/2026 | Listar documentos del RAG híbrido en orden alfabético por título para facilitar la búsqueda. |
 | Pausa en atención humana con mensaje automático de ausencia | Jul/2026 | Permitir pausar la atención (p. ej. almuerzo) con mensaje automático al cliente y reanudar al volver. |
 | Editar el nombre de carpetas de archivos en el Agente de IA | Jul/2026 | Renombrar carpetas de archivos del agente IA de la organización, con efecto inmediato para todos los miembros. |

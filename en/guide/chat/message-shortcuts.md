@@ -41,6 +41,21 @@ In the list, shortcuts with more than one message show a badge (e.g. `3 msgs`).
 Shortcuts created before this version are automatically converted to the step format. No need to recreate them.
 :::
 
+## Variables in shortcut text
+
+When creating or editing a shortcut, use the variable selector to insert customer or conversation data. On send, the system replaces each variable with the real value.
+
+| Variable | Content |
+|----------|---------|
+| <code v-pre>{{customer.name}}</code> | Customer's full name |
+| <code v-pre>{{customer.firstName}}</code> | Customer's first name |
+| <code v-pre>{{customer.document}}</code> | Customer's tax ID (CPF/CNPJ) on file |
+| <code v-pre>{{greeting}}</code> | Time-based greeting (Good morning, Good afternoon, Good evening) |
+
+::: tip Customer document
+If the customer has no tax ID on file, <code v-pre>{{customer.document}}</code> is replaced with empty text. Add the document in the CRM so it appears in the message.
+:::
+
 ## Use in chat
 
 1. During a conversation, type `/` and choose the shortcut
@@ -66,4 +81,5 @@ The normal typing field **stays visible** while the modal is open, so you keep c
 ## Related
 
 - [Chat Interface](/en/guide/chat/interface) — support overview
-- [Changelog v2026.7.4](/en/changelog/2026/07/2026.7.4) — details for this release
+- [Changelog v2026.7.17](/en/changelog/2026/07/2026.7.17) — tax ID variable in shortcuts
+- [Changelog v2026.7.4](/en/changelog/2026/07/2026.7.4) — sequence shortcuts

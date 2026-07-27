@@ -6,6 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.17](/en/changelog/2026/07/2026.7.17) | 07/27 | **Tax ID in shortcuts** — <code v-pre>{{customer.document}}</code> variable filled automatically on send |
 | [2026.7.16](/en/changelog/2026/07/2026.7.16) | 07/27 | **Move appointments between schedules** — transfer bookings without deleting and recreating, including recurring ones |
 | [2026.7.15](/en/changelog/2026/07/2026.7.15) | 07/27 | **Automatic audio transcription** — text in the chat and AI context, with per-channel controls (customer, agent, and WAHA groups) |
 | [2026.7.14](/en/changelog/2026/07/2026.7.14) | 07/27 | **Customer data in documents & schedule** — tax ID, contact, and address auto-filled in templates and notifications |
@@ -27,7 +28,8 @@ Updates for July 2026.
 
 ## Month Summary
 
-### New Features (39)
+### New Features (40)
+- **Customer tax ID variable in message shortcuts** (v2026.7.17) — <code v-pre>{{customer.document}}</code> inserted in the shortcut and replaced automatically in chat
 - **Move appointments between schedules** (v2026.7.16) — change schedule on edit without delete/recreate; one-off and recurring (this / this and future / all)
 - **Automatic audio transcription** (v2026.7.15) — text on the message and AI context, with customer, agent, and WAHA group toggles
 - **Customer data in document templates** (v2026.7.14) — tax ID and address (plus name/contact) as native template variables
@@ -99,5 +101,5 @@ Updates for July 2026.
 ---
 
 ::: info Total
-**16 releases** this month!
+**17 releases** this month!
 :::

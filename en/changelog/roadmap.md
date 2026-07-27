@@ -19,7 +19,6 @@ This roadmap is updated regularly and may change based on product priorities.
 | Manual entry for cash receipts or partial debt holds | Jul 2026 | Manually register cash receipts or partial holds (e.g. legal), with amount, date, and description reflected in financial reports. |
 | Task widgets by status and user (Kanban-style) | Jul 2026 | Organize tasks in visual columns (to start, in progress, done) per user, with drag and drop. |
 | AI identifies paid-traffic customers via Meta API | Jul 2026 | Automatically identify leads from Facebook/Instagram ads (Meta API), with origin tags for segmentation and reporting. |
-| Customer tax ID variable in message shortcuts | Jul 2026 | Use the customer tax ID as a shortcut variable, filled automatically when the message is sent. |
 | Sort Knowledge Base documents alphabetically | Jul 2026 | List hybrid RAG documents alphabetically by title to make browsing easier. |
 | Human-agent pause with automatic away message | Jul 2026 | Allow pausing human support (e.g. lunch) with an automatic away message to the customer, then resume normally. |
 | Rename file folders in the AI Agent | Jul 2026 | Rename organization AI Agent file folders, with immediate effect for all members. |

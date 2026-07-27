@@ -41,6 +41,21 @@ Na listagem, atalhos com mais de uma mensagem exibem um badge (ex.: `3 msgs`).
 Atalhos criados antes desta versão são convertidos automaticamente para o formato de passos. Não é necessário recriá-los.
 :::
 
+## Variáveis no texto do atalho
+
+Ao criar ou editar um atalho, use o seletor de variáveis para inserir dados do cliente ou do atendimento. No envio, o sistema substitui a variável pelo valor real.
+
+| Variável | Conteúdo |
+|----------|----------|
+| <code v-pre>{{customer.name}}</code> | Nome completo do cliente |
+| <code v-pre>{{customer.firstName}}</code> | Primeiro nome do cliente |
+| <code v-pre>{{customer.document}}</code> | CPF/CNPJ cadastrado do cliente |
+| <code v-pre>{{greeting}}</code> | Saudação conforme o horário (Bom dia, Boa tarde, Boa noite) |
+
+::: tip Documento do cliente
+Se o cliente não tiver CPF/CNPJ no cadastro, <code v-pre>{{customer.document}}</code> é substituída por texto vazio. Cadastre o documento no CRM para que o valor apareça na mensagem.
+:::
+
 ## Usar no chat
 
 1. No atendimento, digite `/` e escolha o atalho desejado
@@ -66,4 +81,5 @@ O campo de digitação normal **permanece visível** enquanto o modal está aber
 ## Relacionado
 
 - [Interface de Chat](/guide/chat/interface) — visão geral do atendimento
-- [Changelog v2026.7.4](/changelog/2026/07/2026.7.4) — detalhes desta versão
+- [Changelog v2026.7.17](/changelog/2026/07/2026.7.17) — variável de CPF/CNPJ nos atalhos
+- [Changelog v2026.7.4](/changelog/2026/07/2026.7.4) — atalhos em sequência
