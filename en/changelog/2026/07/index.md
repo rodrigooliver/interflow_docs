@@ -6,6 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.14](/en/changelog/2026/07/2026.7.14) | 07/27 | **Customer data in documents & schedule** — tax ID, contact, and address auto-filled in templates and notifications |
 | [2026.7.13](/en/changelog/2026/07/2026.7.13) | 07/18 | **Research websites** — AI Agent tool with Firecrawl or plain HTML, allowlist, and optional web search |
 | [2026.7.12](/en/changelog/2026/07/2026.7.12) | 07/18 | **WhatsApp WAHA** — passkey verification when connecting the channel |
 | [2026.7.11](/en/changelog/2026/07/2026.7.11) | 07/17 | **HR / Time clock** — punches, schedule, calendar, absences, daily payroll, and push |
@@ -24,7 +25,9 @@ Updates for July 2026.
 
 ## Month Summary
 
-### New Features (35)
+### New Features (37)
+- **Customer data in document templates** (v2026.7.14) — tax ID and address (plus name/contact) as native template variables
+- **Customer data in schedule notifications** (v2026.7.14) — document, email, phone, WhatsApp, and address in appointment reminders
 - **Research information on websites** (v2026.7.13) — AI Agent tool to read web pages and use the content in replies
 - **Firecrawl integration** (v2026.7.13) — organization API key under Settings → Integrations, with validation and encryption
 - **Plain HTML engine** (v2026.7.13) — scrape without a Firecrawl key for static sites
@@ -61,7 +64,8 @@ Updates for July 2026.
 - **Test Channel Badge** (v2026.7.1) — amber visual identifier in the chat header when the conversation is on a `test` type channel
 - **Floating active node indicator** (v2026.7.1) — badge below the flow button in the agent header showing node name, debounce state, and time tooltip
 
-### Improvements (14)
+### Improvements (15)
+- **Appointment templates with customer data** (v2026.7.14) — documents generated from an appointment also load `{{customer.*}}`
 - **Punch without a webcam** (v2026.7.11) — upload a photo file when there is no camera
 - **Mirrored camera preview** (v2026.7.11) — selfie-style framing; saved photo keeps normal orientation
 - **Loading on HR screens** (v2026.7.11) — avoids an empty flash while loading
@@ -91,5 +95,5 @@ Updates for July 2026.
 ---
 
 ::: info Total
-**13 releases** this month!
+**14 releases** this month!
 :::

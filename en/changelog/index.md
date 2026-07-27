@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.7.14](/en/changelog/2026/07/2026.7.14) | Jul 27 | **Customer data in docs & schedule** — tax ID, contact, and address auto-fill | [Variables](/en/guide/documents/variables) |
 | [v2026.7.13](/en/changelog/2026/07/2026.7.13) | Jul 18 | **Research websites** — Firecrawl or HTML in the AI Agent | [Research websites](/en/guide/ai-agents/tools/research-websites) |
 | [v2026.7.12](/en/changelog/2026/07/2026.7.12) | Jul 18 | **WhatsApp WAHA** — passkey security verification | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha) |
 | [v2026.7.11](/en/changelog/2026/07/2026.7.11) | Jul 17 | **HR / Time clock** — punch, geofence, schedule, payroll and push | [HR guide](/en/guide/hr/) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.7.7](/en/changelog/2026/07/2026.7.7) | Jul 10 | Customer search in the sales funnel | [Funnels](/en/guide/crm/funnels) |
 | [v2026.7.6](/en/changelog/2026/07/2026.7.6) | Jul 10 | Hide finished customers in the sales funnel | [Funnels](/en/guide/crm/funnels) |
 | [v2026.7.5](/en/changelog/2026/07/2026.7.5) | Jul 10 | Channel restriction when starting a chat | [Start chat visibility](/en/guide/channels/start-chat-visibility) |
-| [v2026.7.4](/en/changelog/2026/07/2026.7.4) | Jul 8 | Message shortcut sequences | [Shortcuts](/en/guide/chat/message-shortcuts) |
 
 [See all July releases →](/en/changelog/2026/07/)
 

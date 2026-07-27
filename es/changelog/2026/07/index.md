@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.14](/es/changelog/2026/07/2026.7.14) | 27/07 | **Cliente en documentos y agenda** — documento, contacto y dirección rellenados automáticamente en plantillas y notificaciones |
 | [2026.7.13](/es/changelog/2026/07/2026.7.13) | 18/07 | **Investigar sitios** — herramienta del Agente de IA con Firecrawl o HTML puro, allowlist y búsqueda web opcional |
 | [2026.7.12](/es/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificación con clave de acceso (passkey) al conectar el canal |
 | [2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — fichaje, jornada, calendario, ausencias, nómina diaria y push |
@@ -24,7 +25,9 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (35)
+### Nuevas Funcionalidades (37)
+- **Datos del cliente en plantillas de documentos** (v2026.7.14) — documento y dirección (además de nombre/contacto) como variables nativas en plantillas
+- **Datos del cliente en notificaciones de la agenda** (v2026.7.14) — documento, correo, teléfono, WhatsApp y dirección en recordatorios de cita
 - **Investigar información en sitios** (v2026.7.13) — herramienta del Agente de IA para leer páginas web y usar el contenido en la respuesta
 - **Integración Firecrawl** (v2026.7.13) — API key de la organización en Configuración → Integraciones, con validación y cifrado
 - **Motor HTML puro** (v2026.7.13) — scrape sin clave Firecrawl para sitios estáticos
@@ -61,7 +64,8 @@ Actualizaciones del mes de julio de 2026.
 - **Badge de Canal de Prueba** (v2026.7.1) — identificación visual en ámbar en el encabezado del chat cuando el atendimiento es de un canal tipo `test`
 - **Indicador flotante de nodo activo** (v2026.7.1) — badge debajo del botón de flujo en el encabezado del agente con nombre del nodo, estado de debounce y tooltip con horario
 
-### Mejoras (14)
+### Mejoras (15)
+- **Plantillas de cita con datos del cliente** (v2026.7.14) — documentos generados a partir de una cita también cargan `{{customer.*}}`
 - **Fichar sin webcam** (v2026.7.11) — envío de foto por archivo cuando no hay cámara
 - **Vista previa de cámara en espejo** (v2026.7.11) — encuadre tipo selfie; foto guardada en orientación normal
 - **Loading en pantallas de RRHH** (v2026.7.11) — evita un vacío momentáneo al cargar
@@ -91,5 +95,5 @@ Actualizaciones del mes de julio de 2026.
 ---
 
 ::: info Total
-**13 lanzamientos** este mes!
+**14 lanzamientos** este mes!
 :::

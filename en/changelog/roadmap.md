@@ -11,7 +11,6 @@ This roadmap is updated regularly and may change based on product priorities.
 | Feature | Target | Description |
 |---------|--------|-------------|
 | Sync franchise meeting schedule with a fixed booking link | Jul 2026 | Integrate franchise meeting availability so prospects can book presentation slots. After confirmation, the system automatically sends the fixed online meeting link. |
-| Customer registration with data linked to documents and calendars | Jul 2026 | When registering a customer (name, tax ID, contact, and address), data becomes available automatically in document templates and calendar integrations. |
 
 ## Planned
 

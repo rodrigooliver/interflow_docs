@@ -107,15 +107,40 @@ Configure mensagens automáticas para lembrar clientes de seus compromissos.
 
 ### Template de Lembrete
 
+Variáveis disponíveis nos templates de notificação da agenda:
+
+| Variável | Conteúdo |
+|----------|----------|
+| `{{name}}` | Nome do cliente |
+| `{{document}}` / `{{cpf}}` | CPF/CNPJ |
+| `{{email}}` | E-mail |
+| `{{phone}}` | Telefone |
+| `{{whatsapp}}` | WhatsApp |
+| `{{address}}` | Endereço completo |
+| `{{city}}` | Cidade |
+| `{{state}}` | Estado |
+| `{{postal_code}}` | CEP |
+| `{{provider}}` | Profissional |
+| `{{service}}` | Serviço |
+| `{{schedule}}` | Agenda |
+| `{{date}}` | Data |
+| `{{hour}}` / `{{start_time}}` | Horário de início |
+| `{{end_time}}` | Horário de término |
+| `{{organization}}` | Organização |
+
 ```
-Olá, {{customer_name}}! 👋
+Olá, {{name}}!
 
 Lembrando do seu agendamento:
 
-📅 Data: {{appointment_date}}
-⏰ Horário: {{appointment_time}}
-📍 Serviço: {{appointment_service}}
-👨‍⚕️ Profissional: {{appointment_professional}}
+Data: {{date}}
+Horário: {{hour}}
+Serviço: {{service}}
+Profissional: {{provider}}
+
+Documento: {{document}}
+Contato: {{phone}}
+Endereço: {{address}}
 
 Para confirmar, responda "SIM".
 Para reagendar, responda "REAGENDAR".

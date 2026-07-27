@@ -6,6 +6,7 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.14](/changelog/2026/07/2026.7.14) | 27/07 | **Cliente em documentos e agenda** — CPF/CNPJ, contato e endereço preenchidos automaticamente em modelos e notificações |
 | [2026.7.13](/changelog/2026/07/2026.7.13) | 18/07 | **Pesquisar em sites** — ferramenta do Agente de IA com Firecrawl ou HTML puro, allowlist e busca web opcional |
 | [2026.7.12](/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificação por chave de acesso (passkey) ao conectar o canal |
 | [2026.7.11](/changelog/2026/07/2026.7.11) | 17/07 | **RH / Ponto** — cartão ponto, jornada, calendário, atestados, folha diária e push |
@@ -24,7 +25,9 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (35)
+### Novas Funcionalidades (37)
+- **Dados do cliente em modelos de documentos** (v2026.7.14) — CPF/CNPJ e endereço (além de nome/contato) como variáveis nativas nos templates
+- **Dados do cliente em notificações da agenda** (v2026.7.14) — documento, e-mail, telefone, WhatsApp e endereço nos lembretes de compromisso
 - **Pesquisar informações em sites** (v2026.7.13) — ferramenta do Agente de IA para ler páginas web e usar o conteúdo na resposta
 - **Integração Firecrawl** (v2026.7.13) — API key da organização em Configurações → Integrações, com validação e criptografia
 - **Motor HTML puro** (v2026.7.13) — scrape sem chave Firecrawl para sites estáticos
@@ -61,7 +64,8 @@ Atualizações do mês de julho de 2026.
 - **Badge de Canal de Teste** (v2026.7.1) — identificação visual em âmbar no header do chat quando o atendimento é de um canal tipo `test`
 - **Indicador flutuante de nó ativo** (v2026.7.1) — badge abaixo do botão de fluxo no header do agente exibe nome do nó, estado de debounce e tooltip com horário
 
-### Melhorias (14)
+### Melhorias (15)
+- **Templates de agendamento com dados do cliente** (v2026.7.14) — documentos gerados a partir de compromisso também carregam `{{customer.*}}`
 - **Bater ponto sem webcam** (v2026.7.11) — envio de foto por arquivo quando não há câmera
 - **Preview da câmera em espelho** (v2026.7.11) — enquadramento tipo selfie; foto salva na orientação normal
 - **Loading nas telas de RH** (v2026.7.11) — evita flash de tela vazia ao carregar
@@ -91,5 +95,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info Total
-**13 releases** neste mês!
+**14 releases** neste mês!
 :::

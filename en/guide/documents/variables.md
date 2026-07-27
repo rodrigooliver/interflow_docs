@@ -10,29 +10,36 @@ Learn to use dynamic variables and Handlebars helpers to create powerful and fle
 
 ```handlebars
 {{customer.name}}          // Full name
+{{customer.document}}      // Tax ID (formatted)
 {{customer.email}}         // Email
 {{customer.phone}}         // Phone
-{{customer.document}}      // CPF/SSN
-{{customer.birth_date}}    // Date of birth
+{{customer.whatsapp}}      // WhatsApp
+{{customer.created_at}}    // Registration date
+{{customer.stage_name}}    // Funnel stage
+{{customer.tags}}          // Tags (comma-separated)
 ```
 
 </div>
 
-#### 📍 Address
+#### 📍 Address (customer default address)
 <div v-pre>
 
 ```handlebars
-{{customer.address.street}}      // Street/Avenue
-{{customer.address.number}}      // Number
-{{customer.address.complement}}  // Complement
-{{customer.address.neighborhood}}// Neighborhood
-{{customer.address.city}}        // City
-{{customer.address.state}}       // State
-{{customer.address.zip_code}}    // ZIP Code
-{{customer.address.country}}     // Country
+{{customer.address}}             // Full address (text)
+{{customer.formatted_address}}   // Formatted address (Maps, if any)
+{{customer.address_line_1}}      // Street line
+{{customer.address_line_2}}      // Complement
+{{customer.city}}                // City
+{{customer.state}}               // State
+{{customer.postal_code}}         // ZIP / postal code
+{{customer.country}}             // Country
 ```
 
 </div>
+
+::: tip Which address is used?
+The system uses the address marked as **default** (`is_default`). If there is no default, it uses the most recent address.
+:::
 
 ### 📅 System Data
 

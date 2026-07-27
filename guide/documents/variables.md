@@ -10,29 +10,36 @@ Aprenda a usar variáveis dinâmicas e helpers Handlebars para criar documentos 
 
 ```handlebars
 {{customer.name}}          // Nome completo
+{{customer.document}}      // CPF/CNPJ (formatado)
 {{customer.email}}         // Email
 {{customer.phone}}         // Telefone
-{{customer.document}}      // CPF/CNPJ
-{{customer.birth_date}}    // Data de nascimento
+{{customer.whatsapp}}      // WhatsApp
+{{customer.created_at}}    // Data de cadastro
+{{customer.stage_name}}    // Estágio no funil
+{{customer.tags}}          // Tags (separadas por vírgula)
 ```
 
 </div>
 
-#### 📍 Endereço
+#### 📍 Endereço (endereço padrão do cliente)
 <div v-pre>
 
 ```handlebars
-{{customer.address.street}}      // Rua/Avenida
-{{customer.address.number}}      // Número
-{{customer.address.complement}}  // Complemento
-{{customer.address.neighborhood}}// Bairro
-{{customer.address.city}}        // Cidade
-{{customer.address.state}}       // Estado (UF)
-{{customer.address.zip_code}}    // CEP
-{{customer.address.country}}     // País
+{{customer.address}}             // Endereço completo (texto)
+{{customer.formatted_address}}   // Endereço formatado (Maps, se houver)
+{{customer.address_line_1}}      // Logradouro
+{{customer.address_line_2}}      // Complemento
+{{customer.city}}                // Cidade
+{{customer.state}}               // Estado (UF)
+{{customer.postal_code}}         // CEP
+{{customer.country}}             // País
 ```
 
 </div>
+
+::: tip Endereço usado
+O sistema usa o endereço marcado como **padrão** (`is_default`). Se não houver padrão, usa o endereço mais recente.
+:::
 
 ### 📅 Dados do Sistema
 

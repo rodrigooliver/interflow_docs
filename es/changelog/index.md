@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.7.14](/es/changelog/2026/07/2026.7.14) | 27/07 | **Cliente en documentos y agenda** — documento, contacto y dirección automáticos | [Variables](/es/guide/documents/variables) |
 | [v2026.7.13](/es/changelog/2026/07/2026.7.13) | 18/07 | **Investigar sitios** — Firecrawl o HTML en el Agente de IA | [Investigar sitios](/es/guide/ai-agents/tools/research-websites) |
 | [v2026.7.12](/es/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificación con clave de acceso (passkey) | [WhatsApp WAHA](/es/guide/channels/whatsapp-waha) |
 | [v2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — punto, geofence, jornada, nómina y push | [Guía RRHH](/es/guide/hr/) |
@@ -19,7 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.7.7](/es/changelog/2026/07/2026.7.7) | 10/07 | Búsqueda de clientes en el embudo de ventas | [Embudos](/es/guide/crm/funnels) |
 | [v2026.7.6](/es/changelog/2026/07/2026.7.6) | 10/07 | Ocultar finalizados en el embudo de ventas | [Embudos](/es/guide/crm/funnels) |
 | [v2026.7.5](/es/changelog/2026/07/2026.7.5) | 10/07 | Restricción de canales al iniciar conversación | [Visibilidad al iniciar](/es/guide/channels/start-chat-visibility) |
-| [v2026.7.4](/es/changelog/2026/07/2026.7.4) | 08/07 | Atajos de mensaje en secuencia | [Atajos](/es/guide/chat/message-shortcuts) |
 
 [Ver todas las releases de julio →](/es/changelog/2026/07/)
 

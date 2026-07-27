@@ -10,29 +10,36 @@ Aprenda a usar variables dinámicas y helpers Handlebars para crear documentos p
 
 ```handlebars
 {{customer.name}}          // Nombre completo
+{{customer.document}}      // Documento (formateado)
 {{customer.email}}         // Email
 {{customer.phone}}         // Teléfono
-{{customer.document}}      // DNI/CUIT
-{{customer.birth_date}}    // Fecha de nacimiento
+{{customer.whatsapp}}      // WhatsApp
+{{customer.created_at}}    // Fecha de alta
+{{customer.stage_name}}    // Etapa del embudo
+{{customer.tags}}          // Tags (separadas por coma)
 ```
 
 </div>
 
-#### 📍 Dirección
+#### 📍 Dirección (dirección predeterminada del cliente)
 <div v-pre>
 
 ```handlebars
-{{customer.address.street}}      // Calle/Avenida
-{{customer.address.number}}      // Número
-{{customer.address.complement}}  // Complemento
-{{customer.address.neighborhood}}// Barrio
-{{customer.address.city}}        // Ciudad
-{{customer.address.state}}       // Estado/Provincia
-{{customer.address.zip_code}}    // Código Postal
-{{customer.address.country}}     // País
+{{customer.address}}             // Dirección completa (texto)
+{{customer.formatted_address}}   // Dirección formateada (Maps, si hay)
+{{customer.address_line_1}}      // Calle / línea 1
+{{customer.address_line_2}}      // Complemento
+{{customer.city}}                // Ciudad
+{{customer.state}}               // Estado/Provincia
+{{customer.postal_code}}         // Código postal
+{{customer.country}}             // País
 ```
 
 </div>
+
+::: tip ¿Qué dirección se usa?
+El sistema usa la dirección marcada como **predeterminada** (`is_default`). Si no hay predeterminada, usa la más reciente.
+:::
 
 ### 📅 Datos del Sistema
 

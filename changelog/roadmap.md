@@ -11,7 +11,6 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 | Recurso | Previsão | Descrição |
 |---------|----------|-----------|
 | Sincronizar agenda de reuniões de franquia com link fixo para agendamento | Jul/2026 | Integrar a agenda de reuniões de franquias no Interflow para que interessados escolham horários disponíveis. Após a confirmação, o sistema envia automaticamente o link fixo da reunião online. |
-| Cadastro de cliente com dados vinculados a documentos e calendários | Jul/2026 | Ao cadastrar um cliente (nome, CPF, contato e endereço), os dados ficam disponíveis automaticamente em modelos de documentos e integrações de calendário, sem retrabalho. |
 
 ## Planejado
 

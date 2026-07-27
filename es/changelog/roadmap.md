@@ -11,7 +11,6 @@ Este roadmap se actualiza con regularidad y puede cambiar según las prioridades
 | Recurso | Previsión | Descripción |
 |---------|-----------|-------------|
 | Sincronizar agenda de reuniones de franquicia con enlace fijo de reserva | Jul/2026 | Integrar la agenda de reuniones de franquicias para que interesados elijan horarios disponibles. Tras la confirmación, el sistema envía automáticamente el enlace fijo de la reunión online. |
-| Alta de cliente con datos vinculados a documentos y calendarios | Jul/2026 | Al registrar un cliente (nombre, documento, contacto y dirección), los datos quedan disponibles automáticamente en plantillas de documentos e integraciones de calendario. |
 
 ## Planificado
 

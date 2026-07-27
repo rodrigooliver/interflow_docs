@@ -95,6 +95,45 @@ Configure automatic messages to remind customers of their appointments.
 4. Customize message template
 5. Save settings
 
+### Notification template variables
+
+| Variable | Content |
+|----------|---------|
+| `{{name}}` | Customer name |
+| `{{document}}` / `{{cpf}}` | Tax ID |
+| `{{email}}` | Email |
+| `{{phone}}` | Phone |
+| `{{whatsapp}}` | WhatsApp |
+| `{{address}}` | Full address |
+| `{{city}}` | City |
+| `{{state}}` | State |
+| `{{postal_code}}` | ZIP / postal code |
+| `{{provider}}` | Provider |
+| `{{service}}` | Service |
+| `{{schedule}}` | Schedule |
+| `{{date}}` | Date |
+| `{{hour}}` / `{{start_time}}` | Start time |
+| `{{end_time}}` | End time |
+| `{{organization}}` | Organization |
+
+```
+Hello, {{name}}!
+
+Reminder of your appointment:
+
+Date: {{date}}
+Time: {{hour}}
+Service: {{service}}
+Provider: {{provider}}
+
+Document: {{document}}
+Contact: {{phone}}
+Address: {{address}}
+
+Reply "YES" to confirm.
+Reply "RESCHEDULE" to change the time.
+```
+
 ### Behavior
 
 - ✅ Sent only for **confirmed** appointments

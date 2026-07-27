@@ -95,6 +95,45 @@ Configura mensajes automáticos para recordar a los clientes sus citas.
 4. Personaliza el modelo de mensaje
 5. Guarda las configuraciones
 
+### Variables de la plantilla de notificación
+
+| Variable | Contenido |
+|----------|-----------|
+| `{{name}}` | Nombre del cliente |
+| `{{document}}` / `{{cpf}}` | Documento |
+| `{{email}}` | Correo |
+| `{{phone}}` | Teléfono |
+| `{{whatsapp}}` | WhatsApp |
+| `{{address}}` | Dirección completa |
+| `{{city}}` | Ciudad |
+| `{{state}}` | Estado/Provincia |
+| `{{postal_code}}` | Código postal |
+| `{{provider}}` | Profesional |
+| `{{service}}` | Servicio |
+| `{{schedule}}` | Agenda |
+| `{{date}}` | Fecha |
+| `{{hour}}` / `{{start_time}}` | Hora de inicio |
+| `{{end_time}}` | Hora de fin |
+| `{{organization}}` | Organización |
+
+```
+Hola, {{name}}!
+
+Recordatorio de tu cita:
+
+Fecha: {{date}}
+Horario: {{hour}}
+Servicio: {{service}}
+Profesional: {{provider}}
+
+Documento: {{document}}
+Contacto: {{phone}}
+Dirección: {{address}}
+
+Responde "SÍ" para confirmar.
+Responde "REAGENDAR" para cambiar el horario.
+```
+
 ### Comportamiento
 
 - ✅ Enviado solo para citas **confirmadas**
