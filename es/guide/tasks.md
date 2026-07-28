@@ -68,6 +68,7 @@ Puedes crear tareas directamente desde conversaciones en el chat:
 
 ## Próximos Pasos
 
+- [Automatizaciones de proyectos de tareas](/es/guide/tasks-project-automations) - Plantillas, reglas Kanban y etapa predeterminada
 - [Dashboard](/es/guide/dashboard) - Ver tus tareas en el widget del dashboard
 - [Chat](/es/guide/chat/interface) - Crear tareas desde mensajes
 - [Informes](/es/guide/reports/) - Métricas de productividad

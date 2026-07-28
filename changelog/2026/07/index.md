@@ -6,6 +6,7 @@ Atualizações do mês de julho de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.7.19](/changelog/2026/07/2026.7.19) | 28/07 | **Automações e templates de projetos de tarefas** — Kanban com regras, templates na criação e etapa padrão |
 | [2026.7.18](/changelog/2026/07/2026.7.18) | 27/07 | **Renomear pastas no Agente de IA** — editar o nome das pastas de arquivos com efeito imediato para a organização |
 | [2026.7.17](/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ em atalhos** — variável <code v-pre>{{customer.document}}</code> preenchida automaticamente no envio |
 | [2026.7.16](/changelog/2026/07/2026.7.16) | 27/07 | **Mover agendamento entre agendas** — transferir compromissos sem excluir e recriar, inclusive recorrentes |
@@ -29,7 +30,10 @@ Atualizações do mês de julho de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (41)
+### Novas Funcionalidades (44)
+- **Templates na criação de projetos de tarefas** (v2026.7.19) — Livre, Por status, Por prioridade e Sprint simples com colunas (e regras) prontas
+- **Automações de projetos de tarefas** (v2026.7.19) — regras por evento/condição/ação com histórico e notificações
+- **Etapa padrão do projeto** (v2026.7.19) — coluna pré-selecionada ao criar tarefas no projeto
 - **Renomear pastas de arquivos no Agente de IA** (v2026.7.18) — alterar o nome das pastas na aba Arquivos, com efeito imediato para todos os membros
 - **Variável de CPF/CNPJ em atalhos de mensagem** (v2026.7.17) — <code v-pre>{{customer.document}}</code> inserida no atalho e substituída automaticamente no atendimento
 - **Mover agendamento entre agendas** (v2026.7.16) — trocar a agenda na edição sem excluir/recriar; suporte a únicos e recorrentes (este / deste em diante / todos)
@@ -72,7 +76,8 @@ Atualizações do mês de julho de 2026.
 - **Badge de Canal de Teste** (v2026.7.1) — identificação visual em âmbar no header do chat quando o atendimento é de um canal tipo `test`
 - **Indicador flutuante de nó ativo** (v2026.7.1) — badge abaixo do botão de fluxo no header do agente exibe nome do nó, estado de debounce e tooltip com horário
 
-### Melhorias (15)
+### Melhorias (16)
+- **Board de tarefas mais fluido** (v2026.7.19) — arraste otimista, loading ao iniciar/concluir, animação quando a automação move o card e sync em tempo real sem eco da própria ação
 - **Templates de agendamento com dados do cliente** (v2026.7.14) — documentos gerados a partir de compromisso também carregam <code v-pre>{{customer.*}}</code>
 - **Bater ponto sem webcam** (v2026.7.11) — envio de foto por arquivo quando não há câmera
 - **Preview da câmera em espelho** (v2026.7.11) — enquadramento tipo selfie; foto salva na orientação normal
@@ -103,5 +108,5 @@ Atualizações do mês de julho de 2026.
 ---
 
 ::: info Total
-**18 releases** neste mês!
+**19 releases** neste mês!
 :::

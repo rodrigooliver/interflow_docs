@@ -6,6 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.19](/en/changelog/2026/07/2026.7.19) | 07/28 | **Task project automations and templates** — Kanban with rules, templates on create, and default stage |
 | [2026.7.18](/en/changelog/2026/07/2026.7.18) | 07/27 | **Rename folders in the AI Agent** — edit file folder names with immediate effect for the organization |
 | [2026.7.17](/en/changelog/2026/07/2026.7.17) | 07/27 | **Tax ID in shortcuts** — <code v-pre>{{customer.document}}</code> variable filled automatically on send |
 | [2026.7.16](/en/changelog/2026/07/2026.7.16) | 07/27 | **Move appointments between schedules** — transfer bookings without deleting and recreating, including recurring ones |
@@ -29,7 +30,10 @@ Updates for July 2026.
 
 ## Month Summary
 
-### New Features (41)
+### New Features (44)
+- **Templates when creating task projects** (v2026.7.19) — Free, By status, By priority, and Simple sprint with ready columns (and rules)
+- **Task project automations** (v2026.7.19) — event/condition/action rules with history and notifications
+- **Project default stage** (v2026.7.19) — pre-selected column when creating tasks in the project
 - **Rename file folders in the AI Agent** (v2026.7.18) — change folder names in the Files tab, with immediate effect for all members
 - **Customer tax ID variable in message shortcuts** (v2026.7.17) — <code v-pre>{{customer.document}}</code> inserted in the shortcut and replaced automatically in chat
 - **Move appointments between schedules** (v2026.7.16) — change schedule on edit without delete/recreate; one-off and recurring (this / this and future / all)
@@ -72,7 +76,8 @@ Updates for July 2026.
 - **Test Channel Badge** (v2026.7.1) — amber visual identifier in the chat header when the conversation is on a `test` type channel
 - **Floating active node indicator** (v2026.7.1) — badge below the flow button in the agent header showing node name, debounce state, and time tooltip
 
-### Improvements (15)
+### Improvements (16)
+- **Smoother task board** (v2026.7.19) — optimistic drag, loading on start/complete, animation when automation moves a card, and realtime sync without echoing your own action
 - **Appointment templates with customer data** (v2026.7.14) — documents generated from an appointment also load <code v-pre>{{customer.*}}</code>
 - **Punch without a webcam** (v2026.7.11) — upload a photo file when there is no camera
 - **Mirrored camera preview** (v2026.7.11) — selfie-style framing; saved photo keeps normal orientation
@@ -103,5 +108,5 @@ Updates for July 2026.
 ---
 
 ::: info Total
-**18 releases** this month!
+**19 releases** this month!
 :::

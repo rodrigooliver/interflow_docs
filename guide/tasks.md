@@ -92,6 +92,7 @@ As mudanças de status (iniciar, concluir, cancelar) notificam os membros do pro
 
 ## Próximos Passos
 
+- [Automações de projetos de tarefas](/guide/tasks-project-automations) - Templates, regras Kanban e etapa padrão
 - [Dashboard](/guide/dashboard) - Veja suas tarefas no widget do dashboard
 - [Chat](/guide/chat/interface) - Criar tarefas a partir de mensagens
 - [Relatórios](/guide/reports/) - Métricas de produtividade

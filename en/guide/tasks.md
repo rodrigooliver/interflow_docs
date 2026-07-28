@@ -92,6 +92,7 @@ You can create tasks directly from chat conversations:
 
 ## Next Steps
 
+- [Task project automations](/en/guide/tasks-project-automations) - Templates, Kanban rules, and default stage
 - [Dashboard](/en/guide/dashboard) - View your tasks in the dashboard widget
 - [Chat](/en/guide/chat/interface) - Create tasks from messages
 - [Reports](/en/guide/reports/) - Productivity metrics

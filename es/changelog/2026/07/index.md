@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.19](/es/changelog/2026/07/2026.7.19) | 28/07 | **Automatizaciones y plantillas de proyectos de tareas** — Kanban con reglas, plantillas al crear y etapa predeterminada |
 | [2026.7.18](/es/changelog/2026/07/2026.7.18) | 27/07 | **Renombrar carpetas en el Agente de IA** — editar el nombre de las carpetas de archivos con efecto inmediato para la organización |
 | [2026.7.17](/es/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ en atajos** — variable <code v-pre>{{customer.document}}</code> rellenada automáticamente al enviar |
 | [2026.7.16](/es/changelog/2026/07/2026.7.16) | 27/07 | **Mover citas entre agendas** — transferir compromisos sin eliminar y recrear, inclusive recurrentes |
@@ -29,7 +30,10 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (41)
+### Nuevas Funcionalidades (44)
+- **Plantillas al crear proyectos de tareas** (v2026.7.19) — Libre, Por estado, Por prioridad y Sprint simple con columnas (y reglas) listas
+- **Automatizaciones de proyectos de tareas** (v2026.7.19) — reglas por evento/condición/acción con historial y notificaciones
+- **Etapa predeterminada del proyecto** (v2026.7.19) — columna preseleccionada al crear tareas en el proyecto
 - **Renombrar carpetas de archivos en el Agente de IA** (v2026.7.18) — cambiar el nombre de las carpetas en la pestaña Archivos, con efecto inmediato para todos los miembros
 - **Variable de CPF/CNPJ en atajos de mensaje** (v2026.7.17) — <code v-pre>{{customer.document}}</code> insertada en el atajo y sustituida automáticamente en la atención
 - **Mover citas entre agendas** (v2026.7.16) — cambiar la agenda al editar sin eliminar/recrear; únicas y recurrentes (esta / desde esta / todas)
@@ -72,7 +76,8 @@ Actualizaciones del mes de julio de 2026.
 - **Badge de Canal de Prueba** (v2026.7.1) — identificación visual en ámbar en el encabezado del chat cuando el atendimiento es de un canal tipo `test`
 - **Indicador flotante de nodo activo** (v2026.7.1) — badge debajo del botón de flujo en el encabezado del agente con nombre del nodo, estado de debounce y tooltip con horario
 
-### Mejoras (15)
+### Mejoras (16)
+- **Tablero de tareas más fluido** (v2026.7.19) — arrastre optimista, loading al iniciar/completar, animación cuando la automatización mueve la tarjeta y sync en tiempo real sin eco de la propia acción
 - **Plantillas de cita con datos del cliente** (v2026.7.14) — documentos generados a partir de una cita también cargan <code v-pre>{{customer.*}}</code>
 - **Fichar sin webcam** (v2026.7.11) — envío de foto por archivo cuando no hay cámara
 - **Vista previa de cámara en espejo** (v2026.7.11) — encuadre tipo selfie; foto guardada en orientación normal
@@ -103,5 +108,5 @@ Actualizaciones del mes de julio de 2026.
 ---
 
 ::: info Total
-**18 lanzamientos** este mes!
+**19 lanzamientos** este mes!
 :::

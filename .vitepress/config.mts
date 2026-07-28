@@ -43,7 +43,15 @@ function getSidebar(lang: string = '') {
           { text: lang === 'en' ? 'Closure Types' : lang === 'es' ? 'Tipos de cierre' : 'Tipos de Encerramento', link: `${prefix}/guide/chat/closure-types` },
           { text: lang === 'en' ? 'Message Shortcut Sequences' : lang === 'es' ? 'Secuencias en Atajos de Mensaje' : 'Atalhos de Mensagem em Sequência', link: `${prefix}/guide/chat/message-shortcuts` },
           { text: lang === 'en' ? 'Text Enhancer' : lang === 'es' ? 'Mejorador de Texto' : 'Melhorador de Texto', link: `${prefix}/guide/chat/text-enhancer` },
-          { text: lang === 'en' ? 'My Tasks' : lang === 'es' ? 'Mis Tareas' : 'Minhas Tarefas', link: `${prefix}/guide/tasks` }
+          { text: lang === 'en' ? 'My Tasks' : lang === 'es' ? 'Mis Tareas' : 'Minhas Tarefas', link: `${prefix}/guide/tasks` },
+          {
+            text: lang === 'en'
+              ? 'Task project automations'
+              : lang === 'es'
+                ? 'Automatizaciones de proyectos'
+                : 'Automações de projetos',
+            link: `${prefix}/guide/tasks-project-automations`
+          }
         ]
       },
       {
@@ -336,6 +344,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/07/` },
+              { text: 'v2026.7.19', link: `${prefix}/changelog/2026/07/2026.7.19` },
               { text: 'v2026.7.18', link: `${prefix}/changelog/2026/07/2026.7.18` },
               { text: 'v2026.7.17', link: `${prefix}/changelog/2026/07/2026.7.17` },
               { text: 'v2026.7.16', link: `${prefix}/changelog/2026/07/2026.7.16` },
