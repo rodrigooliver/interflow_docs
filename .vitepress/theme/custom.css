@@ -108,6 +108,10 @@
 
 /* ─── Nav / sidebar glass ───────────────────────────────────────────────── */
 
+/*
+ * Com sidebar, o VitePress aplica o fundo só em .content-body (área do doc),
+ * deixando o topo “cortado”. Forçamos barra full-width como na home.
+ */
 .VPNavBar {
   background: var(--if-glass-header) !important;
   backdrop-filter: blur(20px);
@@ -115,9 +119,26 @@
   box-shadow: var(--if-glass-shadow);
 }
 
+.VPNavBar .wrapper,
+.VPNavBar .container,
+.VPNavBar .content,
+.VPNavBar .content-body,
 .VPNavBar.has-sidebar .content,
-.VPNavBar .container {
+.VPNavBar.has-sidebar .content-body,
+.VPNavBar:not(.home.top) .content-body {
   background: transparent !important;
+}
+
+/* Divider padrão fica inset à direita da sidebar — usamos border-bottom do VPNavBar */
+.VPNavBar .divider {
+  display: none !important;
+}
+
+/* Evita “linha” só sob o logo (sobre a sidebar) */
+@media (min-width: 960px) {
+  .VPNavBarTitle.has-sidebar .title {
+    border-bottom-color: transparent !important;
+  }
 }
 
 .VPSidebar {
