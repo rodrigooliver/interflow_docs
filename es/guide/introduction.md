@@ -8,8 +8,9 @@ Bienvenido a la documentación oficial de **Interflow** – tu plataforma comple
 Interflow es una plataforma SaaS que centraliza todos tus canales de comunicación con clientes en un solo lugar. Con ella, puedes:
 
 - **Atender clientes** de WhatsApp, Instagram, Facebook y Email
-- **Automatizar conversaciones** con flujos visuales inteligentes
+- **Automatizar conversaciones** con flujos visuales y agentes de IA
 - **Gestionar relaciones** con CRM completo
+- **Organizar el trabajo** con proyectos, tablero de tareas y Mis Tareas
 - **Programar servicios** con sistema de calendario integrado
 - **Controlar finanzas** de tu operación
 - **Analizar métricas** con dashboards en tiempo real
@@ -39,7 +40,7 @@ La plataforma fue desarrollada para empresas que:
 
 ## Principales Recursos
 
-### 💬 Atención Multicanal
+### Atención Multicanal
 
 Centraliza WhatsApp, Instagram, Facebook y Email en una única bandeja de entrada. Tu equipo atiende de forma organizada sin alternar entre aplicaciones.
 
@@ -50,7 +51,7 @@ Centraliza WhatsApp, Instagram, Facebook y Email en una única bandeja de entrad
 - Adjuntos y medios
 - Notas internas entre agentes
 
-### 🤖 Automatización con Flujos
+### Automatización con Flujos
 
 Construye automatizaciones visuales sin necesidad de programar. Nuestro editor drag-and-drop permite crear flujos complejos de forma intuitiva.
 
@@ -65,7 +66,7 @@ Construye automatizaciones visuales sin necesidad de programar. Nuestro editor d
 
 ![Constructor de Flujos](/images/guide/flows/flow_es.png)
 
-### 👥 CRM Integrado
+### CRM Integrado
 
 Gestiona tus clientes con recursos avanzados de CRM directamente integrados a la atención.
 
@@ -75,9 +76,21 @@ Gestiona tus clientes con recursos avanzados de CRM directamente integrados a la
 - Tags para segmentación
 - Embudos de venta (Kanban)
 - Historial de interacciones
-- Tareas y seguimientos
+- Tareas ligadas al cliente y a la atención
 
-### 📅 Sistema de Citas
+### Tareas
+
+Organiza el trabajo del equipo en **proyectos** con tablero visual, lista y calendario — y sigue lo tuyo en **Mis Tareas**.
+
+**Incluye:**
+- Plantillas de tablero (por estado, prioridad, sprint o libre)
+- Automatizaciones del proyecto (estado ↔ columna)
+- Creación desde la conversación, con o sin **Generar con IA**
+- Subtareas, checklist, etiquetas e historial
+
+[Guía de Tareas](/es/guide/tasks/) · [Plantillas](/es/guide/tasks/templates) · [Automatizaciones](/es/guide/tasks/project-automations)
+
+### Sistema de Citas
 
 Ofrece programación online a tus clientes con calendario integrado y recordatorios automáticos.
 
@@ -88,7 +101,7 @@ Ofrece programación online a tus clientes con calendario integrado y recordator
 - Integración con Google Calendar
 - Pago anticipado (opcional)
 
-### 💰 Módulo Financiero
+### Módulo Financiero
 
 Controla las finanzas de tu operación con visibilidad completa de ingresos y gastos.
 
@@ -99,7 +112,7 @@ Controla las finanzas de tu operación con visibilidad completa de ingresos y ga
 - Informes y gráficos
 - Gestión de cajas
 
-### 🛒 PDV (Punto de Venta)
+### PDV (Punto de Venta)
 
 Para operaciones que necesitan ventas directas, nuestro PDV integrado ofrece:
 
@@ -156,22 +169,19 @@ Ahora que conoces Interflow, sigue al próximo paso:
 
 <a href="/es/guide/quick-start" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%); border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">🚀</span>
-    <p style="color: white; margin-top: 8px; font-weight: bold;">Inicio Rápido</p>
+    <p style="color: white; margin: 0; font-weight: bold;">Inicio Rápido</p>
   </div>
 </a>
 
 <a href="/es/guide/channels/" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">📱</span>
-    <p style="color: white; margin-top: 8px; font-weight: bold;">Conectar Canales</p>
+    <p style="color: white; margin: 0; font-weight: bold;">Conectar Canales</p>
   </div>
 </a>
 
 <a href="/es/api/" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">📚</span>
-    <p style="color: white; margin-top: 8px; font-weight: bold;">API Reference</p>
+    <p style="color: white; margin: 0; font-weight: bold;">API Reference</p>
   </div>
 </a>
 

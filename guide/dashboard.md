@@ -6,7 +6,7 @@ Personalize sua tela inicial com os widgets mais relevantes para sua rotina de t
 
 O Dashboard da Interflow é totalmente personalizável por cada usuário. Você pode escolher, reordenar e remover widgets dos módulos disponíveis — CRM, financeiro, agendamentos, tarefas e conversas — deixando as informações mais importantes logo na entrada do sistema.
 
-::: tip 💡 Acesso
+::: tip Acesso
 Acesse o Dashboard pelo **ícone inicial** no menu lateral.
 :::
 
@@ -28,11 +28,11 @@ Acesse o Dashboard pelo **ícone inicial** no menu lateral.
 2. Clique no botão **"Personalizar"** no canto superior direito do banner de boas-vindas
 3. No modal, **arraste** os widgets para reordenar ou use os ícones para:
    - **Alterar tamanho** (↔ entre meia largura e largura total)
-   - **Remover** o widget (🗑)
+   - **Remover** o widget
 4. Na seção **"Adicionar widgets"**, clique em **+** para incluir novos módulos
 5. Clique em **"Salvar configuração"** — o layout fica salvo para próximas sessões
 
-::: info 💾 Sincronização
+::: info Sincronização
 A configuração é salva no banco de dados e sincronizada entre todos os seus dispositivos.
 :::
 

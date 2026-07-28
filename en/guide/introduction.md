@@ -8,8 +8,9 @@ Welcome to the official **Interflow** documentation – your complete multichann
 Interflow is a SaaS platform that centralizes all your customer communication channels in one place. With it, you can:
 
 - **Serve customers** from WhatsApp, Instagram, Facebook, and Email
-- **Automate conversations** with intelligent visual flows
+- **Automate conversations** with visual flows and AI agents
 - **Manage relationships** with a complete CRM
+- **Organize work** with projects, task boards, and My Tasks
 - **Schedule services** with an integrated calendar system
 - **Control finances** of your operation
 - **Analyze metrics** with real-time dashboards
@@ -39,7 +40,7 @@ The platform was developed for companies that:
 
 ## Main Features
 
-### 💬 Multichannel Support
+### Multichannel Support
 
 Centralize WhatsApp, Instagram, Facebook, and Email in a single inbox. Your team serves customers in an organized way without switching between apps.
 
@@ -50,7 +51,7 @@ Centralize WhatsApp, Instagram, Facebook, and Email in a single inbox. Your team
 - Attachments and media
 - Internal notes between agents
 
-### 🤖 Automation with Flows
+### Automation with Flows
 
 Build visual automations without coding. Our drag-and-drop editor allows you to create complex flows intuitively.
 
@@ -65,7 +66,7 @@ Build visual automations without coding. Our drag-and-drop editor allows you to 
 
 ![Flow Builder](/images/guide/flows/flow_en.png)
 
-### 👥 Integrated CRM
+### Integrated CRM
 
 Manage your customers with advanced CRM features directly integrated with customer service.
 
@@ -75,9 +76,21 @@ Manage your customers with advanced CRM features directly integrated with custom
 - Tags for segmentation
 - Sales funnels (Kanban)
 - Interaction history
-- Tasks and follow-ups
+- Tasks linked to the customer and the conversation
 
-### 📅 Scheduling System
+### Tasks
+
+Organize team work in **projects** with a visual board, list, and calendar — and track what is yours in **My Tasks**.
+
+**Includes:**
+- Board templates (by status, priority, sprint, or free)
+- Project automations (status ↔ column)
+- Creation from the conversation, with or without **Generate with AI**
+- Subtasks, checklist, labels, and history
+
+[Tasks guide](/en/guide/tasks/) · [Templates](/en/guide/tasks/templates) · [Automations](/en/guide/tasks/project-automations)
+
+### Scheduling System
 
 Offer online scheduling to your customers with an integrated calendar and automatic reminders.
 
@@ -88,7 +101,7 @@ Offer online scheduling to your customers with an integrated calendar and automa
 - Google Calendar integration
 - Advance payment (optional)
 
-### 💰 Financial Module
+### Financial Module
 
 Control your operation's finances with complete visibility of income and expenses.
 
@@ -99,7 +112,7 @@ Control your operation's finances with complete visibility of income and expense
 - Reports and charts
 - Cash management
 
-### 🛒 POS (Point of Sale)
+### POS (Point of Sale)
 
 For operations that need direct sales, our integrated POS offers:
 
@@ -156,22 +169,19 @@ Now that you know Interflow, proceed to the next step:
 
 <a href="/en/guide/quick-start" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #2563eb 0%, #3b82f6 100%); border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">🚀</span>
-    <p style="color: white; margin-top: 8px; font-weight: bold;">Quick Start</p>
+    <p style="color: white; margin: 0; font-weight: bold;">Quick Start</p>
   </div>
 </a>
 
 <a href="/en/guide/channels/" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%); border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">📱</span>
-    <p style="color: white; margin-top: 8px; font-weight: bold;">Connect Channels</p>
+    <p style="color: white; margin: 0; font-weight: bold;">Connect Channels</p>
   </div>
 </a>
 
 <a href="/en/api/" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">📚</span>
-    <p style="color: white; margin-top: 8px; font-weight: bold;">API Reference</p>
+    <p style="color: white; margin: 0; font-weight: bold;">API Reference</p>
   </div>
 </a>
 

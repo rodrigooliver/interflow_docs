@@ -1,6 +1,8 @@
 # Recursos
 
-Conheça os recursos da plataforma Interflow. Use o **menu à esquerda** para navegar por área.
+O Interflow reúne atendimento, automação, CRM, operação e gestão em uma plataforma integrada. Esta seção apresenta cada módulo em nível de produto — o que ele resolve, para quem serve e como se conecta ao restante da plataforma.
+
+Use o **menu à esquerda** para navegar por área ou a tabela abaixo para ir direto ao recurso desejado.
 
 ## Visão geral
 
@@ -23,6 +25,6 @@ Conheça os recursos da plataforma Interflow. Use o **menu à esquerda** para na
 | [Portal do Parceiro](/features/partner) | Organizações, planos, comissões e wallet |
 | [Segurança e API](/features/security) | Permissões granulares e chaves de API |
 
-::: tip Prefere o passo a passo?
-Os **Guias** trazem instruções detalhadas de configuração e uso. Em cada recurso há links para a documentação completa.
+::: tip Por onde começar?
+Se você está configurando a plataforma pela primeira vez, comece pelo [Guia de início rápido](/guide/quick-start). Cada página de recurso abaixo traz links para os **Guias** com o passo a passo detalhado de configuração e uso.
 :::

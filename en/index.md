@@ -17,31 +17,37 @@ hero:
       link: /en/api/
 features:
   - title: Multi-Channel Support
-    details: WhatsApp Business, Instagram, Facebook Messenger, and Email integrated into a single platform. Centralize all your communication channels.
-  - title: Intelligent Automation
-    details: Build automated service flows with our visual drag-and-drop editor. Integrate with AI for smart responses.
+    details: WhatsApp, Instagram, Facebook, and Email in one inbox — with tags, bulk sends, and shortcuts.
+    link: /en/features/channels
+    linkText: View feature
+  - title: Automation & AI
+    details: Visual flows, AI agents, and integrations to automate customer support.
+    link: /en/features/automation
+    linkText: View feature
   - title: Complete CRM
-    details: Manage your customers, track deals in sales funnels, use custom fields, and segment your base with tags.
+    details: Customers, custom fields, and Kanban funnels tied to every conversation.
+    link: /en/features/crm
+    linkText: View feature
+  - title: Tasks
+    details: Project boards, My Tasks, templates, automations, and AI creation from chat.
+    link: /en/features/tasks
+    linkText: View feature
   - title: Scheduling
-    details: Complete scheduling system with calendar, automatic reminders, and Google Calendar integration.
+    details: Calendar, reminders, public booking, and silent flows by status.
+    link: /en/features/schedule
+    linkText: View feature
   - title: Financial Management
-    details: Control income, expenses, transactions, and generate detailed financial reports of your operation.
+    details: Income, expenses, cashiers, and billing with contracts and installments.
+    link: /en/features/financial
+    linkText: View feature
   - title: Integrated POS
-    details: Complete point of sale with product management, sales, and payment method integration.
+    details: Sales, products, inventory, and tables — POS in the same operation.
+    link: /en/features/pos
+    linkText: View feature
   - title: Reports and Analytics
-    details: Real-time dashboards, service metrics, team performance, and insights for decision making.
-  - title: Multi-language
-    details: Native support for Portuguese, English, and Spanish. Interface adaptable to your preferred language.
----
-
-
-## Documentation Under Update
-
-::: warning IMPORTANT NOTICE
-This documentation is in a phase of **continuous update**. New sections and content are being added regularly.
-
-If you find any outdated information or have questions, please contact us through support.
-:::
+    details: Customizable dashboard, team volume, and exports for decisions.
+    link: /en/features/reports
+    linkText: View feature
 
 ---
 
@@ -59,7 +65,26 @@ Follow these steps to start using Interflow:
 
 </div>
 
-➡️ [See complete introduction guide](/en/guide/introduction)
+[See complete introduction guide](/en/guide/introduction)
+
+---
+
+## Explore the modules
+
+Documentation aligned with the platform guides. Use the left menu or start here:
+
+| Area | Guide |
+|------|-------|
+| [Channels](/en/guide/channels/) | WhatsApp, Instagram, Facebook, Email, and templates |
+| [Chat & support](/en/guide/chat/interface) | Inbox, tags, bulk messages, shortcuts, and text enhancer |
+| [Flows](/en/guide/flows/builder) · [AI Agents](/en/guide/ai-agents/) | Visual automation and AI tools |
+| [CRM](/en/guide/crm/customers) · [Funnels](/en/guide/crm/funnels) | Customers and sales funnels |
+| [Tasks](/en/guide/tasks/) | Projects, templates, My Tasks, and automations |
+| [Schedule](/en/guide/schedule/) | Calendar, reminders, silent flows, and booking |
+| [Dashboard](/en/guide/dashboard) · [Reports](/en/guide/reports/) | Widgets and metrics |
+| [Documents](/en/guide/documents/) · [HR](/en/guide/hr/) | Templates and time clock |
+| [Financial](/en/guide/financial/) · [Billing](/en/guide/billing/) · [POS](/en/guide/pos/) | Commercial operations |
+| [API](/en/api/) · [Features](/en/features/) | Technical reference and feature overview |
 
 ---
 
@@ -67,13 +92,13 @@ Follow these steps to start using Interflow:
 
 | Channel | Status | Features |
 |---------|--------|----------|
-| [WhatsApp Business API](/en/guide/channels/whatsapp-business) | ✅ Available | Messages, media, templates, catalogs |
-| [WhatsApp (WAHA)](/en/guide/channels/whatsapp-waha) | ✅ Available | Messages, media, groups |
-| [Instagram Direct](/en/guide/channels/instagram) | ✅ Available | Messages, stories, media |
-| [Facebook Messenger](/en/guide/channels/facebook) | ✅ Available | Messages, media, automation |
-| [Email (IMAP/SMTP)](/en/guide/channels/email) | ✅ Available | Send, receive, attachments |
-| Telegram | 🔜 Coming soon | - |
-| SMS | 🔜 Coming soon | - |
+| [WhatsApp Business API](/en/guide/channels/whatsapp-business) | Available | Messages, media, templates, catalogs |
+| [WhatsApp (WAHA)](/en/guide/channels/whatsapp-waha) | Available | Messages, media, groups |
+| [Instagram Direct](/en/guide/channels/instagram) | Available | Messages, stories, media |
+| [Facebook Messenger](/en/guide/channels/facebook) | Available | Messages, media, automation |
+| [Email (IMAP/SMTP)](/en/guide/channels/email) | Available | Send, receive, attachments |
+| Telegram | Coming soon | - |
+| SMS | Coming soon | - |
 
 ---
 
@@ -99,36 +124,6 @@ Tutorial videos area in development. Coming soon:
 
 ---
 
-## Platform Screenshots
-
-::: info UNDER CONSTRUCTION
-Screenshot gallery in development. Soon you'll see:
-
-- Chat interface
-- Flow builder
-- Reports dashboard
-- CRM and sales funnels
-- Financial module
-:::
-
-<!-- Placeholder for screenshots -->
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 16px; margin: 20px 0;">
-  <div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 12px; padding: 80px 20px; text-align: center;">
-    <span style="font-size: 32px;">💬</span>
-    <p style="color: #666; margin-top: 8px;">Chat Interface</p>
-  </div>
-  <div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 12px; padding: 80px 20px; text-align: center;">
-    <span style="font-size: 32px;">🔧</span>
-    <p style="color: #666; margin-top: 8px;">Flow Builder</p>
-  </div>
-  <div style="background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%); border-radius: 12px; padding: 80px 20px; text-align: center;">
-    <span style="font-size: 32px;">📊</span>
-    <p style="color: #666; margin-top: 8px;">Dashboard</p>
-  </div>
-</div>
-
----
-
 ## Technologies
 
 Interflow is built with modern and robust technologies:
@@ -147,6 +142,17 @@ Interflow is built with modern and robust technologies:
 
 Need help? We have several support options:
 
-- 📧 **Email**: suporte@interflow.chat
-- 💬 **Chat**: Available on the platform
-- 📖 **Documentation**: You're here!
+- **Email**: suporte@interflow.chat
+- **Chat**: Available on the platform
+- **Documentation**: You're here!
+
+---
+
+## Documentation Under Update
+
+::: warning IMPORTANT NOTICE
+This documentation is in a phase of **continuous update**. New sections and content are being added regularly.
+
+If you find any outdated information or have questions, please contact us through support.
+:::
+

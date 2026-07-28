@@ -6,7 +6,7 @@ Customize your home screen with the most relevant widgets for your daily work.
 
 Interflow's Dashboard is fully customizable for each user. You can choose, reorder, and remove widgets from available modules — CRM, financial, appointments, tasks, and conversations — keeping the most important information right at the entrance to the system.
 
-::: tip 💡 Access
+::: tip Access
 Access the Dashboard via the **home icon** in the left menu.
 :::
 
@@ -28,11 +28,11 @@ Access the Dashboard via the **home icon** in the left menu.
 2. Click the **"Customize"** button in the top-right corner of the welcome banner
 3. In the modal, **drag** widgets to reorder or use the icons to:
    - **Change size** (↔ between half-width and full-width)
-   - **Remove** the widget (🗑)
+   - **Remove** the widget
 4. In the **"Add widgets"** section, click **+** to include new modules
 5. Click **"Save configuration"** — the layout is saved for future sessions
 
-::: info 💾 Sync
+::: info Sync
 The configuration is saved in the database and synchronized across all your devices.
 :::
 
