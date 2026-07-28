@@ -53,6 +53,8 @@ Para el código QR:
 3. Haz clic en **"Conectar un dispositivo"**
 4. Escanea el QR Code
 
+![Código QR para conexión](/images/guide/channels/waha_qr_es.png)
+
 ### Paso 2.1: Verificación con clave de acceso (cuando WhatsApp lo pida)
 
 Algunas cuentas de WhatsApp exigen una **clave de acceso** (passkey) al vincular un nuevo dispositivo. En ese caso, después del código QR o del código de emparejamiento, Interflow muestra el paso de verificación en la propia pantalla del canal.

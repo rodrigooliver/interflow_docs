@@ -6,6 +6,8 @@ Learn about the Interflow service interface and how to use all features.
 
 The Interflow chat interface is designed to maximize your service team's productivity, centralizing all conversations in a single screen.
 
+![Chat Interface](/images/guide/chat/chat_en.png)
+
 ## Interface Layout
 
 The chat screen is divided into three main areas:

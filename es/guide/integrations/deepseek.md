@@ -35,11 +35,7 @@ Puedes registrar tu clave de DeepSeek de dos formas:
 3. Completa el título y la clave de API, valida y guarda
 4. La integración creada queda automáticamente seleccionada para el prompt actual
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Configuración de la clave DeepSeek en Interflow</p>
-</div>
+![Configuración de la clave DeepSeek](/images/guide/integrations/deepseek_key_es.png)
 
 ## Modelos disponibles
 

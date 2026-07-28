@@ -32,11 +32,7 @@ Before you begin, you need:
 2. Create a Meta Business account
 3. Complete business verification
 
-<!-- Placeholder for screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Meta Business Suite</p>
-</div>
+![Meta Business Suite](/images/guide/channels/whatsapp_business/meta_business_en.png)
 
 ### Step 2: Configure WhatsApp Business
 

@@ -100,11 +100,7 @@ Se você usa 2FA (recomendado):
 3. Preencha todos os campos
 4. Teste a conexão
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Configuração de email</p>
-</div>
+![Configuración de email](/images/guide/channels/email_config_es.png)
 
 ## Sincronização
 

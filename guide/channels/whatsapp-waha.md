@@ -53,11 +53,7 @@ Para o QR Code:
 3. Clique em **"Conectar um aparelho"**
 4. Escaneie o QR Code
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: QR Code para conexão</p>
-</div>
+![QR Code para conexão](/images/guide/channels/waha_qr_pt.png)
 
 ### Passo 2.1: Verificação por chave de acesso (quando o WhatsApp pedir)
 

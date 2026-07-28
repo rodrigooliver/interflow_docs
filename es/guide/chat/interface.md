@@ -6,6 +6,8 @@ Conoce la interfaz de atención de Interflow y aprende a usar todos los recursos
 
 La interfaz de chat de Interflow fue diseñada para maximizar la productividad de tu equipo de atención, centralizando todas las conversaciones en una única pantalla.
 
+![Interfaz de Chat](/images/guide/chat/chat_es.png)
+
 ## Layout de la Interfaz
 
 La pantalla de chat se divide en tres áreas principales:

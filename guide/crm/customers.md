@@ -6,11 +6,7 @@ Gerencie todos os seus clientes de forma centralizada no CRM da Interflow.
 
 O CRM da Interflow permite gerenciar todos os seus contatos em um único lugar, com histórico completo de interações, campos personalizados e segmentação por tags.
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Lista de clientes</p>
-</div>
+![Lista de clientes](/images/guide/crm/customers_pt.png)
 
 ## Acessando Clientes
 
@@ -120,11 +116,7 @@ Os endereços também podem ser gravados automaticamente pela ferramenta **Alter
 - Adicionar nota
 - Editar cadastro
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Perfil do cliente</p>
-</div>
+![Perfil do cliente](/images/guide/crm/customer_profile_pt.png)
 
 ## Pesquisa e Filtros
 

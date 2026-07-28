@@ -53,6 +53,8 @@ For QR Code:
 3. Click **"Link a device"**
 4. Scan the QR Code
 
+![QR Code for connection](/images/guide/channels/waha_qr_en.png)
+
 ### Step 2.1: Passkey verification (when WhatsApp asks)
 
 Some WhatsApp accounts require a **passkey** when linking a new device. In that case, after the QR Code or pairing code, Interflow shows the verification step on the channel screen itself.

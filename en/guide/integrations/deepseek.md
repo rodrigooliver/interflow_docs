@@ -35,11 +35,7 @@ You can register your DeepSeek key in two ways:
 3. Fill in the title and API key, validate, and save
 4. The newly created integration is automatically selected for the current prompt
 
-<!-- Placeholder for screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: DeepSeek key configuration in Interflow</p>
-</div>
+![DeepSeek key configuration](/images/guide/integrations/deepseek_key_en.png)
 
 ## Available models
 

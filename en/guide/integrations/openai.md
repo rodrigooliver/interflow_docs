@@ -38,11 +38,7 @@ You will only be able to see the key **once** after creation. Save it in a secur
 3. Paste your API key in the designated field
 4. Click **Save**
 
-<!-- Placeholder for screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: OpenAI key configuration in Interflow</p>
-</div>
+![OpenAI key configuration](/images/guide/integrations/openai_key_en.png)
 
 ## Useful links
 

@@ -6,6 +6,8 @@ Manage all your customers centrally in Interflow CRM.
 
 Interflow CRM allows you to manage all your contacts in one place, with complete interaction history, custom fields, and tag segmentation.
 
+![Customer list](/images/guide/crm/customers_en.png)
+
 ## Accessing Customers
 
 1. In the main menu, click **Customers**
@@ -113,6 +115,8 @@ Addresses can also be written automatically by the **Update Customer Address** t
 - Schedule task
 - Add note
 - Edit registration
+
+![Customer profile](/images/guide/crm/customer_profile_en.png)
 
 ## Search and Filters
 

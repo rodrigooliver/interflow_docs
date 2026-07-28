@@ -14,6 +14,8 @@ Rotas não documentadas (fora do [inventário](/api/status)) retornam `403` com 
 
 Na mesma tela (**Configurações** → **API Keys**) você também encontra o **Organization ID**, com botão para copiar. Use esse valor no path `{organizationId}` das rotas.
 
+![Gerenciamento de API Keys](/images/api/api_keys_pt.png)
+
 ::: danger IMPORTANTE
 A API Key é secreta. Nunca exponha em código de cliente ou repositórios públicos.
 :::

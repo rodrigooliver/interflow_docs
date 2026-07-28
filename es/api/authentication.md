@@ -20,11 +20,7 @@ A API da Interflow usa autenticação baseada em **API Keys**. Todas as requisi�
 4. Defina um nome descritivo
 5. Copie a chave gerada
 
-<!-- Placeholder para screenshot -->
-<div style="background: #f5f5f5; border: 2px dashed #ccc; border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="font-size: 48px;">📸</span>
-  <p style="color: #666; margin-top: 8px;">Screenshot: Gerenciamento de API Keys</p>
-</div>
+![Gestión de API Keys](/images/api/api_keys_es.png)
 
 ::: danger IMPORTANTE
 A API Key é exibida apenas uma vez no momento da criação. Guarde-a em um local seguro!
