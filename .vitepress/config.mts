@@ -42,16 +42,16 @@ function getSidebar(lang: string = '') {
           { text: 'Tags', link: `${prefix}/guide/chat/tags` },
           { text: lang === 'en' ? 'Closure Types' : lang === 'es' ? 'Tipos de cierre' : 'Tipos de Encerramento', link: `${prefix}/guide/chat/closure-types` },
           { text: lang === 'en' ? 'Message Shortcut Sequences' : lang === 'es' ? 'Secuencias en Atajos de Mensaje' : 'Atalhos de Mensagem em Sequência', link: `${prefix}/guide/chat/message-shortcuts` },
-          { text: lang === 'en' ? 'Text Enhancer' : lang === 'es' ? 'Mejorador de Texto' : 'Melhorador de Texto', link: `${prefix}/guide/chat/text-enhancer` },
-          { text: lang === 'en' ? 'My Tasks' : lang === 'es' ? 'Mis Tareas' : 'Minhas Tarefas', link: `${prefix}/guide/tasks` },
-          {
-            text: lang === 'en'
-              ? 'Task project automations'
-              : lang === 'es'
-                ? 'Automatizaciones de proyectos'
-                : 'Automações de projetos',
-            link: `${prefix}/guide/tasks-project-automations`
-          }
+          { text: lang === 'en' ? 'Text Enhancer' : lang === 'es' ? 'Mejorador de Texto' : 'Melhorador de Texto', link: `${prefix}/guide/chat/text-enhancer` }
+        ]
+      },
+      {
+        text: lang === 'en' ? 'Tasks' : lang === 'es' ? 'Tareas' : 'Tarefas',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión general' : 'Visão geral', link: `${prefix}/guide/tasks/` },
+          { text: lang === 'en' ? 'Templates' : lang === 'es' ? 'Plantillas' : 'Templates', link: `${prefix}/guide/tasks/templates` },
+          { text: lang === 'en' ? 'Automations' : lang === 'es' ? 'Automatizaciones' : 'Automações', link: `${prefix}/guide/tasks/project-automations` }
         ]
       },
       {
@@ -300,6 +300,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'CRM & Customers' : lang === 'es' ? 'CRM y clientes' : 'CRM e Clientes', link: `${prefix}/features/crm` },
+          { text: lang === 'en' ? 'Tasks' : lang === 'es' ? 'Tareas' : 'Tarefas', link: `${prefix}/features/tasks` },
           { text: lang === 'en' ? 'Schedule' : lang === 'es' ? 'Agenda' : 'Agenda', link: `${prefix}/features/schedule` },
           { text: lang === 'en' ? 'HR / Time Clock' : lang === 'es' ? 'RRHH / Fichaje' : 'RH / Ponto', link: `${prefix}/features/hr` },
           { text: lang === 'en' ? 'Documents' : lang === 'es' ? 'Documentos' : 'Documentos', link: `${prefix}/features/documents` }

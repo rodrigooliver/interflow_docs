@@ -9,7 +9,6 @@ Day-to-day agent tools: inbox, shortcuts, tags, closure types, and campaigns.
 - [Tags](/en/guide/chat/tags) and [closure types](/en/guide/chat/closure-types)
 - [Message shortcuts](/en/guide/chat/message-shortcuts) and [text enhancer](/en/guide/chat/text-enhancer)
 - Internal agent chat
-- [My tasks](/en/guide/tasks)
 
 ## Guides
 

@@ -65,7 +65,7 @@ Para voltar ao layout padrão:
 
 ## Próximos Passos
 
-- [Minhas Tarefas](/guide/tasks) - Gerencie todas as suas tarefas em um lugar
+- [Minhas Tarefas](/guide/tasks/) - Gerencie todas as suas tarefas em um lugar
 - [Agenda](/guide/schedule/) - Configure agendamentos integrados
 - [CRM](/guide/crm/customers) - Gerenciamento de clientes
 - [Relatórios](/guide/reports/) - Relatórios e métricas avançadas

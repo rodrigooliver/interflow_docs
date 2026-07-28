@@ -10,6 +10,7 @@ Conheça os recursos da plataforma Interflow. Use o **menu à esquerda** para na
 | [Chat e Atendimento](/features/chat) | Inbox, tags, disparos em massa, atalhos e chat interno |
 | [Automação e IA](/features/automation) | Fluxos visuais, agentes IA e integrações |
 | [CRM e Clientes](/features/crm) | Perfis, campos personalizados e funis Kanban |
+| [Tarefas](/features/tasks) | Projetos, quadro visual, Minhas Tarefas e automações |
 | [Agenda](/features/schedule) | Calendário, lembretes, fluxos silenciosos e booking |
 | [RH / Ponto](/features/hr) | Cartão ponto, geofence, banco de horas e folha |
 | [Documentos](/features/documents) | Modelos com variáveis e condicionais |

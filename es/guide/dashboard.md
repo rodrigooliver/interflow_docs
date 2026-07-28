@@ -46,7 +46,7 @@ Los administradores y propietarios pueden verificar cómo aparece el dashboard p
 
 ## Próximos Pasos
 
-- [Mis Tareas](/es/guide/tasks) - Gestiona todas tus tareas en un lugar
+- [Mis Tareas](/es/guide/tasks/) - Gestiona todas tus tareas en un lugar
 - [Agenda](/es/guide/schedule/) - Configura citas integradas
 - [CRM](/es/guide/crm/customers) - Gestión de clientes
 - [Informes](/es/guide/reports/) - Informes y métricas avanzadas

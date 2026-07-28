@@ -10,6 +10,7 @@ Explore las capacidades de Interflow. Use el **menú izquierdo** para navegar po
 | [Chat y atención](/es/features/chat) | Bandeja, tags, disparos, atajos y chat interno |
 | [Automatización e IA](/es/features/automation) | Flujos visuales, agentes IA e integraciones |
 | [CRM y clientes](/es/features/crm) | Perfiles, campos personalizados y embudos Kanban |
+| [Tareas](/es/features/tasks) | Proyectos, tablero visual, Mis Tareas y automatizaciones |
 | [Agenda](/es/features/schedule) | Calendario, recordatorios, flujos silenciosos y booking |
 | [RRHH / Fichaje](/es/features/hr) | Fichaje, geofence, banco de horas y nómina |
 | [Documentos](/es/features/documents) | Plantillas con variables y condicionales |

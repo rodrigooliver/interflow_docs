@@ -9,7 +9,6 @@ Ferramentas do dia a dia do atendente: inbox, atalhos, tags, encerramento e camp
 - [Tags](/guide/chat/tags) e [tipos de encerramento](/guide/chat/closure-types)
 - [Atalhos de mensagem](/guide/chat/message-shortcuts) e [melhorador de texto](/guide/chat/text-enhancer)
 - Chat interno entre agentes
-- [Minhas tarefas](/guide/tasks)
 
 ## Guias
 

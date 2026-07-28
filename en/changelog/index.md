@@ -10,7 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
-| [v2026.7.19](/en/changelog/2026/07/2026.7.19) | Jul 28 | **Task automations and templates** — Kanban with rules and ready-made projects | [Automations](/en/guide/tasks-project-automations) |
+| [v2026.7.19](/en/changelog/2026/07/2026.7.19) | Jul 28 | **Task automations and templates** — Kanban with rules and ready-made projects | [Automations](/en/guide/tasks/project-automations) |
 | [v2026.7.18](/en/changelog/2026/07/2026.7.18) | Jul 27 | **Rename folders in the AI Agent** — file folder names with immediate effect | [AI Agents](/en/guide/ai-agents/) |
 | [v2026.7.17](/en/changelog/2026/07/2026.7.17) | Jul 27 | **Tax ID in shortcuts** — variable filled automatically on send | [Shortcuts](/en/guide/chat/message-shortcuts) |
 | [v2026.7.16](/en/changelog/2026/07/2026.7.16) | Jul 27 | **Move appointments between schedules** — no delete and recreate | [Schedule](/en/guide/schedule/) |

@@ -10,7 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
-| [v2026.7.19](/changelog/2026/07/2026.7.19) | 28/07 | **Automações e templates de tarefas** — Kanban com regras e projetos prontos | [Automações](/guide/tasks-project-automations) |
+| [v2026.7.19](/changelog/2026/07/2026.7.19) | 28/07 | **Automações e templates de tarefas** — Kanban com regras e projetos prontos | [Automações](/guide/tasks/project-automations) |
 | [v2026.7.18](/changelog/2026/07/2026.7.18) | 27/07 | **Renomear pastas no Agente de IA** — nomes das pastas de arquivos com efeito imediato | [Agentes IA](/guide/ai-agents/) |
 | [v2026.7.17](/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ em atalhos** — variável preenchida automaticamente no envio | [Atalhos](/guide/chat/message-shortcuts) |
 | [v2026.7.16](/changelog/2026/07/2026.7.16) | 27/07 | **Mover agendamento entre agendas** — sem excluir e recriar | [Agenda](/guide/schedule/) |

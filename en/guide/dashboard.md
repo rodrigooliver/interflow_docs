@@ -57,7 +57,7 @@ Administrators and owners can check how the dashboard looks for regular users:
 
 ## Next Steps
 
-- [My Tasks](/en/guide/tasks) - Manage all your tasks in one place
+- [My Tasks](/en/guide/tasks/) - Manage all your tasks in one place
 - [Schedule](/en/guide/schedule/) - Configure integrated appointments
 - [CRM](/en/guide/crm/customers) - Customer management
 - [Reports](/en/guide/reports/) - Advanced reports and metrics

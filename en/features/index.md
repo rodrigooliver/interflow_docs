@@ -10,6 +10,7 @@ Explore Interflow capabilities. Use the **left menu** to browse by area.
 | [Chat & Support](/en/features/chat) | Inbox, tags, bulk messages, shortcuts and internal chat |
 | [Automation & AI](/en/features/automation) | Visual flows, AI agents and integrations |
 | [CRM & Customers](/en/features/crm) | Profiles, custom fields and Kanban funnels |
+| [Tasks](/en/features/tasks) | Projects, visual board, My Tasks and automations |
 | [Schedule](/en/features/schedule) | Calendar, reminders, silent flows and booking |
 | [HR / Time Clock](/en/features/hr) | Punch, geofence, hour bank and payroll |
 | [Documents](/en/features/documents) | Templates with variables and conditionals |

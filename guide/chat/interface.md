@@ -194,15 +194,24 @@ Execute ações em vários chats de uma só vez diretamente da lista de atendime
 Ideal para limpar filas após disparos em massa ou picos de volume, marcando centenas de conversas em poucos cliques.
 :::
 
-### Criar Tarefa a partir de Mensagens
+### Criar tarefa a partir da conversa
 
-Selecione mensagens específicas de uma conversa para criar uma tarefa diretamente:
+Dá para criar uma tarefa ligada ao atendimento do cliente de duas formas — com ajuda da IA, se quiser:
 
-1. Na área de mensagens, clique e segure (ou use o menu ⋮ da mensagem) para selecionar
-2. Selecione uma ou mais mensagens relevantes
-3. Na barra inferior, clique em **"Criar Tarefa"**
-4. Preencha os detalhes da tarefa (título, responsável, prazo)
-5. As mensagens selecionadas ficam vinculadas à tarefa como contexto
+**Pela conversa (campo de mensagem)**  
+1. Clique no ícone de lista (**Criar tarefa relacionada a este chat**)  
+2. Use **Gerar com IA** para montar título, descrição, prioridade e subtarefas com base nas mensagens da conversa  
+3. (Opcional) Informe um **contexto adicional** para a IA (foco ou comando)  
+4. Revise, complete responsáveis/prazo e salve  
+
+**Por mensagens selecionadas**  
+1. No menu do atendimento, escolha **Selecionar Mensagens** (ou pelo menu da mensagem)  
+2. Marque as desejadas — ou **Selecionar todas**  
+3. Na barra de seleção, clique em **Criar Tarefa**  
+4. A IA pode gerar o conteúdo **só com as mensagens escolhidas** (com contexto adicional opcional)  
+5. Revise e salve — as mensagens ficam vinculadas à tarefa  
+
+Guia completo: [Tarefas — a partir do atendimento](/guide/tasks/#tarefas-a-partir-do-atendimento).
 
 ### Assumir Conversa
 
