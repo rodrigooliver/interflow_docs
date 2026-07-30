@@ -10,6 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.7.20](/changelog/2026/07/2026.7.20) | 30/07 | **Filtros com vários canais** — vários WhatsApps no mesmo filtro rápido | [Interface de Chat](/guide/chat/interface#filtros-personalizados) |
 | [v2026.7.19](/changelog/2026/07/2026.7.19) | 28/07 | **Automações e templates de tarefas** — Kanban com regras e projetos prontos | [Automações](/guide/tasks/project-automations) |
 | [v2026.7.18](/changelog/2026/07/2026.7.18) | 27/07 | **Renomear pastas no Agente de IA** — nomes das pastas de arquivos com efeito imediato | [Agentes IA](/guide/ai-agents/) |
 | [v2026.7.17](/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ em atalhos** — variável preenchida automaticamente no envio | [Atalhos](/guide/chat/message-shortcuts) |
@@ -19,7 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.7.13](/changelog/2026/07/2026.7.13) | 18/07 | **Pesquisar em sites** — Firecrawl ou HTML no Agente de IA | [Pesquisar em sites](/guide/ai-agents/tools/research-websites) |
 | [v2026.7.12](/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificação por chave de acesso (passkey) | [WhatsApp WAHA](/guide/channels/whatsapp-waha) |
 | [v2026.7.11](/changelog/2026/07/2026.7.11) | 17/07 | **RH / Ponto** — cartão ponto, geofence, jornada, folha e push | [Guia RH](/guide/hr/) |
-| [v2026.7.10](/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** no Agente de IA — rotas com allowlist e teste | [Consultar API](/guide/ai-agents/tools/query-api) |
 
 [Ver todas as releases de julho →](/changelog/2026/07/)
 

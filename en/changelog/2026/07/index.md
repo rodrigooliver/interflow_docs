@@ -6,6 +6,7 @@ Updates for July 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.7.20](/en/changelog/2026/07/2026.7.20) | 07/30 | **Quick filters with multiple channels** — select several WhatsApps (and other channels) in the same filter |
 | [2026.7.19](/en/changelog/2026/07/2026.7.19) | 07/28 | **Task project automations and templates** — Kanban with rules, templates on create, and default stage |
 | [2026.7.18](/en/changelog/2026/07/2026.7.18) | 07/27 | **Rename folders in the AI Agent** — edit file folder names with immediate effect for the organization |
 | [2026.7.17](/en/changelog/2026/07/2026.7.17) | 07/27 | **Tax ID in shortcuts** — <code v-pre>{{customer.document}}</code> variable filled automatically on send |
@@ -30,7 +31,8 @@ Updates for July 2026.
 
 ## Month Summary
 
-### New Features (44)
+### New Features (45)
+- **Quick filters with multiple channels** (v2026.7.20) — select multiple channels (e.g. several WhatsApps) in the same quick filter or filters panel
 - **Templates when creating task projects** (v2026.7.19) — Free, By status, By priority, and Simple sprint with ready columns (and rules)
 - **Task project automations** (v2026.7.19) — event/condition/action rules with history and notifications
 - **Project default stage** (v2026.7.19) — pre-selected column when creating tasks in the project
@@ -108,5 +110,5 @@ Updates for July 2026.
 ---
 
 ::: info Total
-**19 releases** this month!
+**20 releases** this month!
 :::

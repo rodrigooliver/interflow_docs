@@ -6,6 +6,7 @@ Actualizaciones del mes de julio de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.7.20](/es/changelog/2026/07/2026.7.20) | 30/07 | **Filtros rápidos con varios canales** — seleccionar múltiples WhatsApps (y otros canales) en el mismo filtro |
 | [2026.7.19](/es/changelog/2026/07/2026.7.19) | 28/07 | **Automatizaciones y plantillas de proyectos de tareas** — Kanban con reglas, plantillas al crear y etapa predeterminada |
 | [2026.7.18](/es/changelog/2026/07/2026.7.18) | 27/07 | **Renombrar carpetas en el Agente de IA** — editar el nombre de las carpetas de archivos con efecto inmediato para la organización |
 | [2026.7.17](/es/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ en atajos** — variable <code v-pre>{{customer.document}}</code> rellenada automáticamente al enviar |
@@ -30,7 +31,8 @@ Actualizaciones del mes de julio de 2026.
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (44)
+### Nuevas Funcionalidades (45)
+- **Filtros rápidos con varios canales** (v2026.7.20) — seleccionar múltiples canales (ej.: varios WhatsApps) en el mismo filtro rápido o panel de filtros
 - **Plantillas al crear proyectos de tareas** (v2026.7.19) — Libre, Por estado, Por prioridad y Sprint simple con columnas (y reglas) listas
 - **Automatizaciones de proyectos de tareas** (v2026.7.19) — reglas por evento/condición/acción con historial y notificaciones
 - **Etapa predeterminada del proyecto** (v2026.7.19) — columna preseleccionada al crear tareas en el proyecto
@@ -108,5 +110,5 @@ Actualizaciones del mes de julio de 2026.
 ---
 
 ::: info Total
-**19 lanzamientos** este mes!
+**20 lanzamientos** este mes!
 :::

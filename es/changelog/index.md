@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.7.20](/es/changelog/2026/07/2026.7.20) | 30/07 | **Filtros con varios canales** — varios WhatsApps en el mismo filtro rápido | [Interfaz de Chat](/es/guide/chat/interface#filtros-personalizados) |
 | [v2026.7.19](/es/changelog/2026/07/2026.7.19) | 28/07 | **Automatizaciones y plantillas de tareas** — Kanban con reglas y proyectos listos | [Automatizaciones](/es/guide/tasks/project-automations) |
 | [v2026.7.18](/es/changelog/2026/07/2026.7.18) | 27/07 | **Renombrar carpetas en el Agente de IA** — nombres de carpetas de archivos con efecto inmediato | [Agentes IA](/es/guide/ai-agents/) |
 | [v2026.7.17](/es/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ en atajos** — variable rellenada automáticamente al enviar | [Atajos](/es/guide/chat/message-shortcuts) |
@@ -19,7 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.7.13](/es/changelog/2026/07/2026.7.13) | 18/07 | **Investigar sitios** — Firecrawl o HTML en el Agente de IA | [Investigar sitios](/es/guide/ai-agents/tools/research-websites) |
 | [v2026.7.12](/es/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificación con clave de acceso (passkey) | [WhatsApp WAHA](/es/guide/channels/whatsapp-waha) |
 | [v2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — punto, geofence, jornada, nómina y push | [Guía RRHH](/es/guide/hr/) |
-| [v2026.7.10](/es/changelog/2026/07/2026.7.10) | 16/07 | **Consultar API** en el Agente de IA — allowlist y prueba | [Consultar API](/es/guide/ai-agents/tools/query-api) |
 
 [Ver todas las releases de julio →](/es/changelog/2026/07/)
 

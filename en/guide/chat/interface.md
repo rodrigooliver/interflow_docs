@@ -37,13 +37,13 @@ Create custom filters to organize your conversations:
 3. Configure criteria:
    - **Teams**: Select one or multiple teams
    - **Tags**: Filter by specific tags
-   - **Channel**: WhatsApp, Instagram, etc.
+   - **Channels**: One or more (WhatsApp, Instagram, etc.)
    - **Status**: In progress, pending, etc.
 4. Customize name, icon and **color** (expanded palette available!)
 5. Save
 
-::: tip 💡 Tip
-You can filter by **multiple teams** simultaneously! Useful for supervisors managing several teams.
+::: tip Tip
+You can filter by **multiple teams** and **multiple channels** at once — useful for supervisors and teams that operate several WhatsApp numbers.
 :::
 
 ### Conversation Search

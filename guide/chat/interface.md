@@ -37,13 +37,13 @@ Crie filtros customizados para organizar suas conversas:
 3. Configure os critérios:
    - **Equipes**: Selecione uma ou múltiplas equipes
    - **Tags**: Filtrar por tags específicas
-   - **Canal**: WhatsApp, Instagram, etc.
+   - **Canais**: Um ou vários (WhatsApp, Instagram, etc.)
    - **Status**: Em andamento, pendente, etc.
 4. Personalize nome, ícone e **cor** (paleta expandida disponível!)
 5. Salve
 
-::: tip 💡 Dica
-Você pode filtrar por **múltiplas equipes** simultaneamente! Útil para supervisores que gerenciam várias equipes.
+::: tip Dica
+Você pode filtrar por **múltiplas equipes** e **múltiplos canais** ao mesmo tempo — útil para supervisores e times que operam vários números de WhatsApp.
 :::
 
 ### Busca de Conversas
