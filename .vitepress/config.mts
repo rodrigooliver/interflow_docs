@@ -25,12 +25,19 @@ function getSidebar(lang: string = '') {
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/channels/` },
           { text: lang === 'en' ? 'Start chat visibility' : lang === 'es' ? 'Visibilidad al iniciar chat' : 'Visibilidade ao iniciar conversa', link: `${prefix}/guide/channels/start-chat-visibility` },
           { text: lang === 'en' ? 'Audio transcription' : lang === 'es' ? 'Transcripción de audios' : 'Transcrição de áudios', link: `${prefix}/guide/channels/audio-transcription` },
-          { text: 'WhatsApp Business', link: `${prefix}/guide/channels/whatsapp-business` },
+          {
+            text: 'WhatsApp Business',
+            collapsed: false,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión general' : 'Visão geral', link: `${prefix}/guide/channels/whatsapp-business` },
+              { text: lang === 'en' ? 'Templates' : lang === 'es' ? 'Plantillas' : 'Templates', link: `${prefix}/guide/channels/whatsapp-templates` },
+              { text: lang === 'en' ? 'Errors' : lang === 'es' ? 'Errores' : 'Erros', link: `${prefix}/guide/channels/whatsapp-business-errors` }
+            ]
+          },
           { text: 'WhatsApp WAHA', link: `${prefix}/guide/channels/whatsapp-waha` },
           { text: 'Instagram', link: `${prefix}/guide/channels/instagram` },
           { text: 'Facebook Messenger', link: `${prefix}/guide/channels/facebook` },
-          { text: 'Email', link: `${prefix}/guide/channels/email` },
-          { text: lang === 'en' ? 'WhatsApp Templates' : lang === 'es' ? 'Plantillas WhatsApp' : 'Templates WhatsApp', link: `${prefix}/guide/channels/whatsapp-templates` }
+          { text: 'Email', link: `${prefix}/guide/channels/email` }
         ]
       },
       {

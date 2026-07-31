@@ -146,9 +146,17 @@ Motivos comuns:
 - Verifique se o número do destinatário está correto
 - Confirme que o cliente tem WhatsApp ativo
 - Cheque se você está respeitando a janela de 24h
+- Se o erro for **130472** (*User's phone number is part of an experiment*) ou **131049** (*This message was not delivered to maintain healthy ecosystem engagement*), veja [Erros do WhatsApp Business](/guide/channels/whatsapp-business-errors)
+
+## Erros
+
+Para códigos e mensagens retornados pela Meta (incluindo **130472** e **131049**), consulte a página dedicada:
+
+→ [Erros do WhatsApp Business](/guide/channels/whatsapp-business-errors)
 
 ## Próximos Passos
 
+- [Erros do WhatsApp Business](/guide/channels/whatsapp-business-errors)
 - [Automação com Fluxos](/guide/flows/builder)
 - [Métricas de Atendimento](/guide/reports/support)
 
