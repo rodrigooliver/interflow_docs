@@ -18,7 +18,7 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 |---------|----------|-----------|
 | Lançamento manual de recebimento ou bloqueio parcial de dívidas | Jul/2026 | Registrar manualmente valores recebidos à vista ou bloqueios parciais (ex.: judicial), com valor, data e descrição refletidos nos relatórios financeiros. |
 | Widgets de tarefas por status e usuário (estilo Kanban) | Jul/2026 | Organizar tarefas em colunas visuais (iniciar, em desenvolvimento, concluídas) por usuário, com arrastar e soltar. |
-| IA identifica clientes de tráfego pago via API Meta | Jul/2026 | Identificar automaticamente leads vindos de anúncios Facebook/Instagram (API Meta), com tags de origem para segmentação e relatórios. |
+| IA identifica clientes de tráfego pago via API Meta | Ago/2026 | Complementar o hub Connections (já com atribuição por anúncio e Instant Forms) com identificação automática por IA e tags de origem para segmentação e relatórios. |
 | Pausa no atendimento humano com mensagem automática de ausência | Jul/2026 | Permitir pausar o atendimento (ex.: almoço) com mensagem automática ao cliente e retomada normal ao voltar. |
 | Campos personalizados como filtros no relatório de atendimentos | Jul/2026 | Usar campos personalizados como filtros e colunas exportáveis nos relatórios de atendimentos. |
 | Sugestão de equipes ao convidar novo usuário | Jul/2026 | No convite de usuário, permitir selecionar as equipes na mesma etapa, sem precisar configurar depois em outro menu. |

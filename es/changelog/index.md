@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.8.1](/es/changelog/2026/08/2026.8.1) | 07/08 | **Connections / Meta Lead Ads** — atribución por anuncio, leads y customers por ad | [UTM](/es/guide/utm/) |
 | [v2026.7.20](/es/changelog/2026/07/2026.7.20) | 30/07 | **Filtros con varios canales** — varios WhatsApps en el mismo filtro rápido | [Interfaz de Chat](/es/guide/chat/interface#filtros-personalizados) |
 | [v2026.7.19](/es/changelog/2026/07/2026.7.19) | 28/07 | **Automatizaciones y plantillas de tareas** — Kanban con reglas y proyectos listos | [Automatizaciones](/es/guide/tasks/project-automations) |
 | [v2026.7.18](/es/changelog/2026/07/2026.7.18) | 27/07 | **Renombrar carpetas en el Agente de IA** — nombres de carpetas de archivos con efecto inmediato | [Agentes IA](/es/guide/ai-agents/) |
@@ -19,15 +20,14 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.7.14](/es/changelog/2026/07/2026.7.14) | 27/07 | **Cliente en documentos y agenda** — documento, contacto y dirección automáticos | [Variables](/es/guide/documents/variables) |
 | [v2026.7.13](/es/changelog/2026/07/2026.7.13) | 18/07 | **Investigar sitios** — Firecrawl o HTML en el Agente de IA | [Investigar sitios](/es/guide/ai-agents/tools/research-websites) |
 | [v2026.7.12](/es/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificación con clave de acceso (passkey) | [WhatsApp WAHA](/es/guide/channels/whatsapp-waha) |
-| [v2026.7.11](/es/changelog/2026/07/2026.7.11) | 17/07 | **RRHH / Fichaje** — punto, geofence, jornada, nómina y push | [Guía RRHH](/es/guide/hr/) |
 
-[Ver todas las releases de julio →](/es/changelog/2026/07/)
+[Ver todas las releases de agosto →](/es/changelog/2026/08/)
 
 ## Dónde navegar
 
 | Destino | Contenido |
 |---------|-----------|
-| [Julio 2026](/es/changelog/2026/07/) | Mes actual |
+| [Agosto 2026](/es/changelog/2026/08/) | Mes actual |
 | [2026](/es/changelog/2026/) | Todos los meses del año |
 | [2025](/es/changelog/2025/) | Histórico del año anterior |
 | [Roadmap](/es/changelog/roadmap) | Lo que está planificado |

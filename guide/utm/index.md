@@ -1,6 +1,6 @@
-# UTM / Tracking de Campanhas
+# UTM — Connections / Meta Lead Ads
 
-Rastreie campanhas, leads, links de WhatsApp, formulários e pixels de anúncio.
+Gerencie conexões Meta, páginas, contas de anúncios, Instant Forms, pixels e atribuição de leads/customers por anúncio.
 
 ::: tip Acesso
 Menu → **UTM**. Requer módulo `utm` habilitado.
@@ -8,48 +8,75 @@ Menu → **UTM**. Requer módulo `utm` habilitado.
 
 ## Visão geral
 
+O fluxo ativo do módulo é o hub **Connections** (Meta Lead Ads e futuros provedores).
+
 | Área | Função |
 |------|--------|
-| **Dashboard** | Visão geral do tracking |
-| **Campanhas** | CRUD de campanhas |
-| **Detalhes** | Configuração da campanha |
-| **Leads** | Leads capturados; converter/detalhar |
-| **Analytics** | Métricas da campanha |
-| **WhatsApp** | Links `wa.me` com tracking |
-| **Formulários** | Forms com campos, redirect e tracking |
-| **Pixels** | Facebook, Google Ads, Google Analytics |
+| **Connections** | Conectar a Meta e listar hubs |
+| **Páginas** | Páginas Facebook da conexão |
+| **Contas de anúncios** | Ad Accounts vinculadas à página |
+| **Campanhas / conjuntos / anúncios** | Sync da Meta (somente leitura operacional) |
+| **Instant Forms** | Sync e mapeamento de campos + ações |
+| **Pixels** | Sync e token CAPI na conta de anúncios |
+| **Leads / customers por anúncio** | Listas paginadas a partir de cada ad |
 
-## Criar uma campanha
+::: info UTM clássico
+Telas antigas de campanhas manuais, forms de site, WhatsApp trackeado e analytics clássico foram descontinuadas no app. O caminho suportado é o hub Connections.
+:::
 
-1. Abra **UTM → Campanhas**
-2. Clique em **Nova campanha**
-3. Defina nome e parâmetros UTM (source, medium, campaign, etc.)
-4. Salve e abra os detalhes para configurar canais de captura
+## Conectar a Meta
 
-## Links de WhatsApp
+1. Abra **UTM**
+2. Crie ou abra uma **conexão** Meta
+3. Autorize as permissões pedidas (páginas, ads, leads)
+4. Selecione as **páginas** e **contas de anúncios** que farão parte do hub
 
-1. Na campanha, abra a aba **WhatsApp**
-2. Gere links `wa.me` com identificação de tracking
-3. Use esses links em anúncios, bio ou landing pages
-4. Os cliques/leads aparecem em **Leads** e **Analytics**
+## Navegar até um anúncio
 
-## Formulários
+1. Connections → **Página**
+2. Abra uma **conta de anúncios**
+3. Sincronize **campanhas** quando necessário
+4. Abra a campanha → **conjunto (ad set)** → lista de **anúncios**
 
-1. Crie um formulário na aba **Forms**
-2. Configure campos, redirect pós-envio e tracking
-3. Publique/incorpore o form onde capturar leads
-4. Converta leads em clientes quando fizer sentido no CRM
+Na lista de anúncios:
 
-## Pixels
+- **Detalhes** — criativo, IDs Meta e status
+- **Ver leads** — leads atribuídos àquele anúncio
+- **Ver customers** — customers com o mesmo anúncio
 
-Cadastre pixels **Facebook**, **Google Ads** ou **Google Analytics** na aba **Pixels** para medir conversões externas.
+## Atribuição por anúncio
+
+Leads Meta são atribuídos ao **anúncio** (ID local + ID Meta), não à campanha.
+
+- Instant Forms **não** escolhem campanha/ad na configuração
+- O anúncio chega no próprio lead da Meta
+- Customers podem herdar `utm_campaign_ad_id` a partir dessa atribuição
+
+## Instant Forms
+
+1. Na **página**, abra a aba **Forms**
+2. Sincronize os Instant Forms da Meta
+3. Clique no form para mapear:
+   - campos do formulário → campos do Interflow
+   - ações (tags, estágio do funil, etc.)
+4. Salve o mapeamento
+
+Não é necessário (nem possível) vincular o form a uma campanha: a atribuição vem do anúncio do lead.
+
+## Pixels (CAPI)
+
+1. Abra a **conta de anúncios**
+2. Sincronize os **pixels** da Meta
+3. Informe o **token CAPI** do pixel usado para eventos de conversão
+
+Pixels ficam no nível da conta (não da campanha nem do conjunto).
 
 ## Integração com CRM
 
-Estágios de funil podem registrar eventos UTM (`utm_event`). Combine campanhas UTM com [funis](/guide/crm/funnels) para fechar o ciclo aquisição → venda.
+Combine atribuição por anúncio com [funis](/guide/crm/funnels) e [clientes](/guide/crm/customers): tags e estágios podem ser aplicados pelas ações do Instant Form no momento do lead.
 
 ## Relacionados
 
 - [Funis CRM](/guide/crm/funnels)
 - [Clientes](/guide/crm/customers)
-- [Disparos em massa](/guide/chat/bulk-messages)
+- [Changelog v2026.8.1](/changelog/2026/08/2026.8.1)

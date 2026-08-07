@@ -19,7 +19,7 @@ Use o **menu à esquerda** para navegar por área ou a tabela abaixo para ir dir
 | [Financeiro](/features/financial) | Receitas, despesas, caixas e categorias |
 | [Cobrança](/features/billing) | Contratos, parcelas, splits e Asaas |
 | [PDV](/features/pos) | Vendas, produtos, pedidos, estoque e mesas |
-| [UTM](/features/utm) | Campanhas, leads, formulários e pixels |
+| [UTM](/features/utm) | Connections / Meta Lead Ads, Instant Forms, pixels e atribuição por anúncio |
 | [Médico (EMR)](/features/medical) | Pacientes, consultas, prontuários e receitas |
 | [Relatórios](/features/reports) | Volume por agente/equipe e exportações |
 | [Portal do Parceiro](/features/partner) | Organizações, planos, comissões e wallet |

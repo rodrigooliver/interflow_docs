@@ -1,30 +1,27 @@
-# UTM / Tracking
+# UTM / Connections (Meta Lead Ads)
 
-Rastreie campanhas de marketing, capture leads e meça conversões — com links WhatsApp, formulários, pixels de anúncio e eventos no funil de vendas.
+Conecte a Meta, sincronize páginas e contas de anúncios, mapeie Instant Forms e atribua leads/customers pelo anúncio.
 
 ## Para que serve
 
-- Marketing digital que precisa medir ROI de campanhas pagas
-- Growth teams que capturam leads via formulários com redirect
-- Vendas que conectam origem da campanha ao funil comercial
-- Agências que comparam performance por canal e campanha
+- Times que capturam leads com Facebook/Instagram Instant Forms
+- Operações que precisam saber **qual anúncio** gerou o lead ou o customer
+- Marketing que envia eventos de conversão (CAPI) a partir do funil
 
 ## O que você pode fazer
 
-- Criar e gerenciar campanhas com dashboard e analytics integrados
-- Gerar links WhatsApp (`wa.me`) com parâmetros UTM para tracking
-- Publicar formulários com redirect e captura de leads
-- Instalar pixels de Facebook, Google Ads e Google Analytics
-- Converter leads capturados em clientes do CRM
-- Registrar eventos UTM em estágios do funil (`utm_event`) para medir conversão por etapa
-- Usar links rastreados em disparos em massa e campanhas de chat
+- Gerenciar o hub **Connections** (conexão Meta → páginas → contas → campanhas → conjuntos → anúncios)
+- Sincronizar Instant Forms da página e mapear campos + ações (tags, estágio)
+- Ver **leads** e **customers** paginados por anúncio
+- Gerenciar **pixels** e token CAPI na conta de anúncios
+- Atribuir leads Meta ao anúncio (não à campanha)
 
 ## Como se conecta
 
-- **[CRM e Clientes](/features/crm)** — leads viram clientes; eventos UTM nos estágios do funil
-- **[Chat e Atendimento](/features/chat)** — links rastreados em disparos e campanhas
-- **[Automação e IA](/features/automation)** — fluxos podem reagir a origem do lead
+- **[CRM e Clientes](/features/crm)** — leads viram customers com atribuição do anúncio
+- **[Chat e Atendimento](/features/chat)** — ações do form podem iniciar ou etiquetar atendimento
+- **[Automação e IA](/features/automation)** — estágio/tags aplicados no ingest do lead
 
 ## Guias
 
-- [UTM — visão geral](/guide/utm/)
+- [UTM — Connections / Meta Lead Ads](/guide/utm/)

@@ -18,7 +18,7 @@ This roadmap is updated regularly and may change based on product priorities.
 |---------|--------|-------------|
 | Manual entry for cash receipts or partial debt holds | Jul 2026 | Manually register cash receipts or partial holds (e.g. legal), with amount, date, and description reflected in financial reports. |
 | Task widgets by status and user (Kanban-style) | Jul 2026 | Organize tasks in visual columns (to start, in progress, done) per user, with drag and drop. |
-| AI identifies paid-traffic customers via Meta API | Jul 2026 | Automatically identify leads from Facebook/Instagram ads (Meta API), with origin tags for segmentation and reporting. |
+| AI identifies paid-traffic customers via Meta API | Aug 2026 | Build on the Connections hub (already with ad-level attribution and Instant Forms) with automatic AI identification and origin tags for segmentation and reporting. |
 | Human-agent pause with automatic away message | Jul 2026 | Allow pausing human support (e.g. lunch) with an automatic away message to the customer, then resume normally. |
 | Custom fields as filters in attendance reports | Jul 2026 | Use custom fields as filters and exportable columns in attendance reports. |
 | Suggest teams when inviting a new user | Jul 2026 | When inviting a user, select teams in the same step instead of configuring them later in another menu. |

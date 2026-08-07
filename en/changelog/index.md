@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.8.1](/en/changelog/2026/08/2026.8.1) | Aug 7 | **Connections / Meta Lead Ads** — ad-level attribution, leads and customers per ad | [UTM](/en/guide/utm/) |
 | [v2026.7.20](/en/changelog/2026/07/2026.7.20) | Jul 30 | **Multi-channel quick filters** — several WhatsApps in one filter | [Chat interface](/en/guide/chat/interface#custom-filters) |
 | [v2026.7.19](/en/changelog/2026/07/2026.7.19) | Jul 28 | **Task automations and templates** — Kanban with rules and ready-made projects | [Automations](/en/guide/tasks/project-automations) |
 | [v2026.7.18](/en/changelog/2026/07/2026.7.18) | Jul 27 | **Rename folders in the AI Agent** — file folder names with immediate effect | [AI Agents](/en/guide/ai-agents/) |
@@ -19,15 +20,14 @@ The **10 most recent releases** (newest first):
 | [v2026.7.14](/en/changelog/2026/07/2026.7.14) | Jul 27 | **Customer data in docs & schedule** — tax ID, contact, and address auto-fill | [Variables](/en/guide/documents/variables) |
 | [v2026.7.13](/en/changelog/2026/07/2026.7.13) | Jul 18 | **Research websites** — Firecrawl or HTML in the AI Agent | [Research websites](/en/guide/ai-agents/tools/research-websites) |
 | [v2026.7.12](/en/changelog/2026/07/2026.7.12) | Jul 18 | **WhatsApp WAHA** — passkey security verification | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha) |
-| [v2026.7.11](/en/changelog/2026/07/2026.7.11) | Jul 17 | **HR / Time clock** — punch, geofence, schedule, payroll and push | [HR guide](/en/guide/hr/) |
 
-[See all July releases →](/en/changelog/2026/07/)
+[See all August releases →](/en/changelog/2026/08/)
 
 ## Where to browse
 
 | Destination | Content |
 |-------------|---------|
-| [July 2026](/en/changelog/2026/07/) | Current month |
+| [August 2026](/en/changelog/2026/08/) | Current month |
 | [2026](/en/changelog/2026/) | All months this year |
 | [2025](/en/changelog/2025/) | Previous year |
 | [Roadmap](/en/changelog/roadmap) | What is planned next |

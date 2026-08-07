@@ -19,7 +19,7 @@ Use the **left menu** to browse by area, or the table below to jump straight to 
 | [Financial](/en/features/financial) | Revenue, expenses, cash registers, and categories |
 | [Billing](/en/features/billing) | Contracts, installments, splits, and Asaas |
 | [POS](/en/features/pos) | Sales, products, orders, inventory, and tables |
-| [UTM](/en/features/utm) | Campaigns, leads, forms, and pixels |
+| [UTM](/en/features/utm) | Connections / Meta Lead Ads, Instant Forms, pixels, and ad-level attribution |
 | [Medical (EMR)](/en/features/medical) | Patients, appointments, records, and prescriptions |
 | [Reports](/en/features/reports) | Volume by agent/team and exports |
 | [Partner Portal](/en/features/partner) | Organizations, plans, commissions, and wallet |
