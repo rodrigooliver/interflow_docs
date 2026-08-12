@@ -115,6 +115,7 @@ Os endereços também podem ser gravados automaticamente pela ferramenta **Alter
 - Agendar tarefa
 - Adicionar nota
 - Editar cadastro
+- **Macros** — botões de automação no topo da aba Geral e no menu ⋮ (veja [Macros de cliente](/guide/crm/customer-macros))
 
 ![Perfil do cliente](/images/guide/crm/customer_profile_pt.png)
 
@@ -376,6 +377,7 @@ Quando um cliente inicia uma conversa:
 ## Próximos Passos
 
 - [Relatórios](/guide/reports/) - Relatórios avançados de clientes
+- [Macros de cliente](/guide/crm/customer-macros) - Botões de automação no cadastro
 - [Configurações](/guide/settings/) - Permissões e visibilidade
 - [Chat](/guide/chat/interface) - Atendimento integrado
 

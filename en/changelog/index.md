@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.8.4](/en/changelog/2026/08/2026.8.4) | Aug 12 | **Customer macros** — automation buttons and lead/client kind | [Macros](/en/guide/crm/customer-macros) |
 | [v2026.8.3](/en/changelog/2026/08/2026.8.3) | Aug 12 | **Schedule and hour bank** — real clock times, weekly overtime, close to the bank | [HR / Time clock](/en/guide/hr/) |
 | [v2026.8.2](/en/changelog/2026/08/2026.8.2) | Aug 11 | **Teams on invite** — select teams in the same user invite step | — |
 | [v2026.8.1](/en/changelog/2026/08/2026.8.1) | Aug 7 | **Connections / Meta Lead Ads** — ad-level attribution, leads and customers per ad | [UTM](/en/guide/utm/) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.7.17](/en/changelog/2026/07/2026.7.17) | Jul 27 | **Tax ID in shortcuts** — variable filled automatically on send | [Shortcuts](/en/guide/chat/message-shortcuts) |
 | [v2026.7.16](/en/changelog/2026/07/2026.7.16) | Jul 27 | **Move appointments between schedules** — no delete and recreate | [Schedule](/en/guide/schedule/) |
 | [v2026.7.15](/en/changelog/2026/07/2026.7.15) | Jul 27 | **Audio transcription** — automatic text with per-channel controls | [Transcription](/en/guide/channels/audio-transcription) |
-| [v2026.7.14](/en/changelog/2026/07/2026.7.14) | Jul 27 | **Customer data in docs & schedule** — tax ID, contact, and address auto-fill | [Variables](/en/guide/documents/variables) |
 
 [See all August releases →](/en/changelog/2026/08/)
 

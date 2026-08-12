@@ -115,6 +115,7 @@ Addresses can also be written automatically by the **Update Customer Address** t
 - Schedule task
 - Add note
 - Edit registration
+- **Macros** — automation buttons at the top of the General tab and in the ⋮ menu (see [Customer macros](/en/guide/crm/customer-macros))
 
 ![Customer profile](/images/guide/crm/customer_profile_en.png)
 
@@ -357,5 +358,6 @@ Notes are visible only to your team.
 ## Next Steps
 
 - [Reports](/en/guide/reports/) - Advanced customer reports
+- [Customer macros](/en/guide/crm/customer-macros) - Automation buttons on the profile
 - [Settings](/en/guide/settings/) - Permissions and visibility
 - [Chat](/en/guide/chat/interface) - Integrated service

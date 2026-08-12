@@ -115,6 +115,7 @@ Las direcciones también pueden grabarse automáticamente con la herramienta **C
 - Agendar tarea
 - Agregar nota
 - Editar registro
+- **Macros** — botones de automatización arriba de la pestaña General y en el menú ⋮ (ver [Macros de cliente](/es/guide/crm/customer-macros))
 
 ![Perfil del cliente](/images/guide/crm/customer_profile_es.png)
 
@@ -344,5 +345,6 @@ Las notas son visibles solo para tu equipo.
 ## Próximos Pasos
 
 - [Informes](/es/guide/reports/) - Informes avanzados de clientes
+- [Macros de cliente](/es/guide/crm/customer-macros) - Botones de automatización en el perfil
 - [Configuraciones](/es/guide/settings/) - Permisos y visibilidad
 - [Chat](/es/guide/chat/interface) - Atención integrada

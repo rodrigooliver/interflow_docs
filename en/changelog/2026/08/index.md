@@ -6,6 +6,7 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.4](/en/changelog/2026/08/2026.8.4) | 08/12 | **Customer macros** — automation buttons and lead/client kind |
 | [2026.8.3](/en/changelog/2026/08/2026.8.3) | 08/12 | **Schedule and hour bank** — real clock times, weekly overtime, and close to the bank |
 | [2026.8.2](/en/changelog/2026/08/2026.8.2) | 08/11 | **Teams on invite** — select teams in the same user invite step |
 | [2026.8.1](/en/changelog/2026/08/2026.8.1) | 08/07 | **Connections / Meta Lead Ads** — ad-level attribution, leads and customers per ad, forms without campaign mapping, pixels on the ad account |
@@ -14,7 +15,9 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (9)
+### New Features (11)
+- **Customer macros** (v2026.8.4) — buttons on the profile: actions, visibility, and ask on click
+- **Lead or client kind** (v2026.8.4) — list filter and macro conditions/actions
 - **Real schedule and 44h load** (v2026.8.3) — clock-in/lunch/clock-out times and 1 weekly overtime hour on close
 - **Hour bank on period close** (v2026.8.3) — configurable policy (offset, bank, or pay OT)
 - **HR settings and 4 punches** (v2026.8.3) — org settings, daily table with lunch punches and lateness
@@ -25,5 +28,6 @@ Updates for August 2026.
 - **Instant Forms without campaign mapping** (v2026.8.1) — fields and actions only; ad comes with the lead
 - **Pixels on the ad account** (v2026.8.1) — sync and CAPI token at Ad Account level
 
-### Fixes (1)
+### Fixes (2)
+- **Customer not found when changing stage** (v2026.8.4) — funnel stage updates work again
 - **Overtime showing as zero on a 9-hour day** (v2026.8.3) — 8:00–12:00 / 13:30–18:30 now yields 1 overtime hour per week

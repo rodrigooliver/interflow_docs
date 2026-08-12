@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.8.4](/es/changelog/2026/08/2026.8.4) | 12/08 | **Macros de cliente** — botones de automatización y tipo lead/cliente | [Macros](/es/guide/crm/customer-macros) |
 | [v2026.8.3](/es/changelog/2026/08/2026.8.3) | 12/08 | **Jornada y banco de horas** — horario real, 1h extra semanal y cierre en el banco | [RRHH / Fichaje](/es/guide/hr/) |
 | [v2026.8.2](/es/changelog/2026/08/2026.8.2) | 11/08 | **Equipos en la invitación** — seleccionar equipos en el mismo paso de invitar usuario | — |
 | [v2026.8.1](/es/changelog/2026/08/2026.8.1) | 07/08 | **Connections / Meta Lead Ads** — atribución por anuncio, leads y customers por ad | [UTM](/es/guide/utm/) |
@@ -19,7 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.7.17](/es/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ en atajos** — variable rellenada automáticamente al enviar | [Atajos](/es/guide/chat/message-shortcuts) |
 | [v2026.7.16](/es/changelog/2026/07/2026.7.16) | 27/07 | **Mover citas entre agendas** — sin eliminar y recrear | [Agenda](/es/guide/schedule/) |
 | [v2026.7.15](/es/changelog/2026/07/2026.7.15) | 27/07 | **Transcripción de audios** — texto automático con controles por canal | [Transcripción](/es/guide/channels/audio-transcription) |
-| [v2026.7.14](/es/changelog/2026/07/2026.7.14) | 27/07 | **Cliente en documentos y agenda** — documento, contacto y dirección automáticos | [Variables](/es/guide/documents/variables) |
 
 [Ver todas las releases de agosto →](/es/changelog/2026/08/)
 

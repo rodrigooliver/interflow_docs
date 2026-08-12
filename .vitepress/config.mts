@@ -145,6 +145,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Customer Management' : lang === 'es' ? 'Gestión de Clientes' : 'Gerenciamento de Clientes', link: `${prefix}/guide/crm/customers` },
+          { text: lang === 'en' ? 'Customer macros' : lang === 'es' ? 'Macros de cliente' : 'Macros de cliente', link: `${prefix}/guide/crm/customer-macros` },
           { text: lang === 'en' ? 'Sales Funnels' : lang === 'es' ? 'Embudos de venta' : 'Funis de Venda', link: `${prefix}/guide/crm/funnels` }
         ]
       },
@@ -352,6 +353,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/08/` },
+              { text: 'v2026.8.4', link: `${prefix}/changelog/2026/08/2026.8.4` },
               { text: 'v2026.8.3', link: `${prefix}/changelog/2026/08/2026.8.3` },
               { text: 'v2026.8.2', link: `${prefix}/changelog/2026/08/2026.8.2` },
               { text: 'v2026.8.1', link: `${prefix}/changelog/2026/08/2026.8.1` }
