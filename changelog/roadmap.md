@@ -21,7 +21,6 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 | IA identifica clientes de tráfego pago via API Meta | Ago/2026 | Complementar o hub Connections (já com atribuição por anúncio e Instant Forms) com identificação automática por IA e tags de origem para segmentação e relatórios. |
 | Pausa no atendimento humano com mensagem automática de ausência | Jul/2026 | Permitir pausar o atendimento (ex.: almoço) com mensagem automática ao cliente e retomada normal ao voltar. |
 | Campos personalizados como filtros no relatório de atendimentos | Jul/2026 | Usar campos personalizados como filtros e colunas exportáveis nos relatórios de atendimentos. |
-| Sugestão de equipes ao convidar novo usuário | Jul/2026 | No convite de usuário, permitir selecionar as equipes na mesma etapa, sem precisar configurar depois em outro menu. |
 | Impressão de relatórios filtrados por período, cliente e estabelecimento | Ago/2026 | Imprimir relatórios (ex.: prestação de contas) com filtros de período, cliente e estabelecimento, prontos para compartilhar. |
 | Recibo manual de pagamento em dinheiro com baixa de parcela | Ago/2026 | Registrar recebimento em dinheiro, gerar recibo e baixar a parcela automaticamente no financeiro. |
 | Ajustes no fluxo de cobranças e sucumbência padrão | Ago/2026 | Evitar criação automática indesejada de cobranças, padronizar o nome (EMPRESA X DEVEDOR) e manter sucumbência zerada por padrão, editável sob demanda. |

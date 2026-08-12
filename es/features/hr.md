@@ -13,9 +13,10 @@ Controla la jornada laboral con fichaje digital, geolocalización, banco de hora
 
 - Registrar fichajes: entrada, pausa, retorno y salida, con foto y GPS
 - Definir ubicaciones con geofence y reglas de home office por colaborador
-- Configurar jornada semanal y calendario de RRHH (feriados y días sin expediente)
+- Configurar jornada por horario (entrada, almuerzo y salida) y carga contractual (44h por defecto)
 - Registrar ausencias (certificado médico, día libre individual) con adjunto
-- Monitorear banco de horas y generar vista previa de nómina gerencial (horas por día, exportación CSV)
+- Monitorear banco de horas, informe mensual y generar vista previa de nómina gerencial (4 marcajes, retrasos, HE, CSV)
+- Definir el destino de las horas extra (banco, compensación o pago) en Ajustes RRHH
 - Recibir notificaciones push para gerentes en cada fichaje
 - Acceder a la vista del colaborador en **Mi perfil RRHH**, separada del panel administrativo
 

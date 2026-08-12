@@ -10,6 +10,8 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.8.3](/es/changelog/2026/08/2026.8.3) | 12/08 | **Jornada y banco de horas** — horario real, 1h extra semanal y cierre en el banco | [RRHH / Fichaje](/es/guide/hr/) |
+| [v2026.8.2](/es/changelog/2026/08/2026.8.2) | 11/08 | **Equipos en la invitación** — seleccionar equipos en el mismo paso de invitar usuario | — |
 | [v2026.8.1](/es/changelog/2026/08/2026.8.1) | 07/08 | **Connections / Meta Lead Ads** — atribución por anuncio, leads y customers por ad | [UTM](/es/guide/utm/) |
 | [v2026.7.20](/es/changelog/2026/07/2026.7.20) | 30/07 | **Filtros con varios canales** — varios WhatsApps en el mismo filtro rápido | [Interfaz de Chat](/es/guide/chat/interface#filtros-personalizados) |
 | [v2026.7.19](/es/changelog/2026/07/2026.7.19) | 28/07 | **Automatizaciones y plantillas de tareas** — Kanban con reglas y proyectos listos | [Automatizaciones](/es/guide/tasks/project-automations) |
@@ -18,8 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.7.16](/es/changelog/2026/07/2026.7.16) | 27/07 | **Mover citas entre agendas** — sin eliminar y recrear | [Agenda](/es/guide/schedule/) |
 | [v2026.7.15](/es/changelog/2026/07/2026.7.15) | 27/07 | **Transcripción de audios** — texto automático con controles por canal | [Transcripción](/es/guide/channels/audio-transcription) |
 | [v2026.7.14](/es/changelog/2026/07/2026.7.14) | 27/07 | **Cliente en documentos y agenda** — documento, contacto y dirección automáticos | [Variables](/es/guide/documents/variables) |
-| [v2026.7.13](/es/changelog/2026/07/2026.7.13) | 18/07 | **Investigar sitios** — Firecrawl o HTML en el Agente de IA | [Investigar sitios](/es/guide/ai-agents/tools/research-websites) |
-| [v2026.7.12](/es/changelog/2026/07/2026.7.12) | 18/07 | **WhatsApp WAHA** — verificación con clave de acceso (passkey) | [WhatsApp WAHA](/es/guide/channels/whatsapp-waha) |
 
 [Ver todas las releases de agosto →](/es/changelog/2026/08/)
 

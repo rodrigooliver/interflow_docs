@@ -2,7 +2,7 @@
 
 Control de jornada con fichaje, locales (geofence), banco de horas, calendario, ausencias y nómina gerencial.
 
-> Changelog: [v2026.7.11](/es/changelog/2026/07/2026.7.11)
+> Changelog: [v2026.8.3](/es/changelog/2026/08/2026.8.3) · [v2026.7.11](/es/changelog/2026/07/2026.7.11)
 
 ## Visión general
 
@@ -10,9 +10,10 @@ El módulo **RRHH / Fichaje** permite:
 
 - Fichar (entrada, pausa, retorno y salida) con foto y GPS
 - Definir locales permitidos (geofence) o liberar home office por persona
-- Configurar **jornada semanal** por colaborador (días y horas)
+- Configurar **jornada por horario** (entrada, almuerzo y salida) y **carga contractual** (44h por defecto)
 - Registrar **festivos / sin expediente** y **certificados / libranzas** individuales
-- Seguir banco de horas y vista previa de nómina **con horas por día**
+- Seguir banco de horas, **informe mensual** y vista previa de nómina **con los 4 marcajes del día**
+- Definir el destino de las horas extra (banco, compensación o pago) en **Ajustes RRHH**
 - Notificar a gestores por push cuando alguien ficha
 - Separar la vista del colaborador (**Mi perfil RRHH**) de la vista admin
 
@@ -64,23 +65,35 @@ No es necesario registrar festivos en el calendario para fichar. El calendario y
 
 ## Colaboradores y jornada (admin)
 
-En **RRHH / Fichaje → Colaboradores** el admin registra cargo, **jornada semanal**, geofence, vacaciones y remuneración (cuando está permitido).
+En **RRHH / Fichaje → Colaboradores** el admin registra cargo, **jornada**, geofence, vacaciones y remuneración (cuando está permitido). La jornada también se puede editar en el detalle de la persona, pestaña **Jornada**.
 
-### Jornada semanal
+### Horario de presencia y carga contractual
 
-En el modal de alta/edición:
+Son dos conceptos distintos:
+
+| Concepto | Qué es | Ejemplo de oficina |
+|----------|--------|--------------------|
+| Horario de presencia | Cuándo la persona debe estar en el expediente | Lun–vie, 08:00–12:00 y 13:30–18:30 (9h/día) |
+| Carga contractual | Horas “normales” de la semana (CLT 44h) | 8h48 por día laborable — la 1h de más de la semana es extra |
+
+En el editor:
 
 1. Marque los días en que la persona trabaja
-2. Indique las horas de cada día (ej.: lun–vie `8`, sábado `4`)
-3. Guarde
+2. Indique **mañana** y **tarde** (inicio y fin), o use **Jornada de oficina**
+3. Opcional: **Copiar a días laborables**
+4. Carga contractual semanal: déjelo vacío para heredar 44h de la organización, o indique un valor propio
+5. Guarde
 
-La nómina usa esa jornada para calcular horas esperadas, extras y faltas. Los días desmarcados (0h) no generan falta.
+La nómina compara lo **trabajado** con la carga contractual (no con las 9h de presencia). Quien cumple el horario de oficina genera **12 min extra por día = 1h por semana**. Los días desmarcados no generan falta.
+
+El retraso es la entrada después del primer horario registrado, descontada la tolerancia de la organización.
 
 Al abrir la ficha de una persona:
 
 - **Fichajes** — marcajes con filtro; use **Detalles** para ver foto y evidencias
-- **Banco de horas** — saldo y movimientos
-- **Nómina** — vista previa del período con totales y **horas por día**
+- **Jornada** — horarios reales y carga contractual
+- **Banco de horas** — saldo del período, créditos, débitos y movimientos
+- **Nómina** — vista previa con totales (retrasos, HE, faltas, delta del banco) y **4 marcajes por día**
 - **Ausencias** — certificados y libranzas individuales (con adjunto)
 - **Notificaciones** — quién recibe push cuando esa persona ficha
 
@@ -102,6 +115,8 @@ En el detalle del colaborador → pestaña **Ausencias**:
 2. Tipo: **Certificado médico** o **Libranza individual**
 3. Indique inicio y fin, observación (ej.: dónde se presentó el certificado) y adjunte PDF/imagen si hay
 4. Guarde
+
+En **Libranza individual**, marque **Descontar la carga del día en el banco de horas** si la libranza debe salir del saldo (banco habilitado).
 
 Las ausencias también **ponen a cero el esperado** en los días cubiertos, solo para esa persona.
 
@@ -127,12 +142,24 @@ En **RRHH / Fichaje → Fichajes**:
 
 ## Banco de horas y nómina
 
-- **Banco de horas** — saldo e historial; el admin puede registrar ajustes
+- **Banco de horas** — saldo actual, filtro de mes, saldo inicial/final, créditos, débitos y CSV; el admin puede registrar ajustes
 - **Nómina** — vista previa gerencial del período:
-  - Totales por colaborador (normales, HE, faltas, estimaciones)
-  - Sección **Horas por día** (entrada, salida, trabajado, esperado, estado del día)
+  - Totales por colaborador (normales, HE, retrasos, faltas, delta del banco, estimaciones)
+  - Sección **Horas por día** (entrada, salida a almuerzo, retorno, salida, trabajado, esperado, retraso, HE, falta)
   - Exportación **CSV período** o **CSV diario**
-  - Cierre del período
+  - **Cerrar período** guarda el resumen **y** mueve el banco según la política
+
+### Destino de las horas extra
+
+En **RRHH / Fichaje → Ajustes RRHH**:
+
+| Modo | Comportamiento en el cierre |
+|------|-----------------------------|
+| Compensar y banco (por defecto) | HE compensa retraso/falta del período; el resto acredita el banco |
+| Solo banco | HE acredita; faltas debitan |
+| Pagar HE | HE queda en la nómina; el banco no se mueve |
+
+También se puede definir tolerancia de retraso, carga semanal por defecto (2640 min = 44h), huso, tope y plazo del banco.
 
 ::: tip Nota
 La nómina en Interflow es **gerencial** y no sustituye la nómina oficial / eSocial.
@@ -161,6 +188,6 @@ Cuando la persona ficha, los destinatarios reciben una notificación con enlace 
 | Quién | Qué ve |
 |-------|--------|
 | Colaborador | Fichar, Mi perfil RRHH, propio banco/nómina (sin foto/IP) |
-| Admin / Owner | Colaboradores, fichajes con detalles/foto, locales, calendario, nómina, ausencias, notificaciones |
+| Admin / Owner | Colaboradores, jornada, fichajes con detalles/foto, locales, calendario, nómina, banco, ausencias, notificaciones, ajustes RRHH |
 
 En el servidor, las respuestas de fichajes para no-admin **no incluyen** foto, IP ni user-agent.

@@ -2,7 +2,7 @@
 
 Controle de jornada com cartão ponto, locais (geofence), banco de horas, calendário, ausências e folha gerencial.
 
-> Changelog: [v2026.7.11](/changelog/2026/07/2026.7.11)
+> Changelog: [v2026.8.3](/changelog/2026/08/2026.8.3) · [v2026.7.11](/changelog/2026/07/2026.7.11)
 
 ## Visão geral
 
@@ -10,9 +10,10 @@ O módulo **RH / Ponto** permite:
 
 - Bater ponto (entrada, pausa, retorno e saída) com foto e GPS
 - Definir locais permitidos (geofence) ou liberar home office por pessoa
-- Configurar **jornada semanal** por colaborador (dias e horas)
+- Configurar **jornada por horário** (entrada, almoço e saída) e **carga contratual** (padrão 44h)
 - Cadastrar **feriados / sem expediente** e **atestados / folgas** individuais
-- Acompanhar banco de horas e prévia de folha **com horas por dia**
+- Acompanhar banco de horas, **relatório mensal** e prévia de folha **com as 4 marcações do dia**
+- Definir o destino das horas extras (banco, compensação ou pagamento) em **Configurações RH**
 - Notificar gestores por push quando alguém registra o ponto
 - Separar a visão do colaborador (**Meu perfil RH**) da visão admin
 
@@ -64,23 +65,35 @@ Não é necessário cadastrar feriados no calendário para bater ponto. O calend
 
 ## Colaboradores e jornada (admin)
 
-Em **RH / Ponto → Colaboradores** o admin cadastra cargo, **jornada semanal**, geofence, férias e remuneração (quando permitido).
+Em **RH / Ponto → Colaboradores** o admin cadastra cargo, **jornada**, geofence, férias e remuneração (quando permitido). A jornada também pode ser editada no detalhe da pessoa, aba **Jornada**.
 
-### Jornada semanal
+### Horário de presença e carga contratual
 
-No modal de cadastro/edição:
+São dois conceitos diferentes:
+
+| Conceito | O que é | Exemplo do escritório |
+|----------|---------|------------------------|
+| Horário de presença | Quando a pessoa deve estar no expediente | Seg–sex, 08:00–12:00 e 13:30–18:30 (9h/dia) |
+| Carga contratual | Horas “normais” da semana (CLT 44h) | 8h48 por dia útil — a 1h a mais da semana é extra |
+
+No editor:
 
 1. Marque os dias em que a pessoa trabalha
-2. Informe as horas de cada dia (ex.: seg–sex `8`, sábado `4`)
-3. Salve
+2. Informe **manhã** e **tarde** (início e fim), ou use **Jornada do escritório**
+3. Opcional: **Copiar para dias úteis**
+4. Carga contratual semanal: deixe vazio para herdar 44h da organização, ou informe um valor próprio
+5. Salve
 
-A folha usa essa jornada para calcular horas esperadas, HE e faltas. Dias desmarcados (0h) não geram falta.
+A folha compara o **trabalhado** com a carga contratual (não com as 9h de presença). Quem cumpre o horário do escritório gera **12 min extra por dia = 1h por semana**. Dias desmarcados não geram falta.
+
+Atraso é a entrada depois do primeiro horário cadastrado, descontada a tolerância da organização.
 
 Ao abrir o card de uma pessoa:
 
 - **Ponto** — batidas com filtro; use **Detalhes** para ver foto e evidências
-- **Banco de horas** — saldo e movimentos
-- **Folha** — prévia do período com totais e **horas por dia**
+- **Jornada** — horários reais e carga contratual
+- **Banco de horas** — saldo do período, créditos, débitos e movimentos
+- **Folha** — prévia com totais (atrasos, HE, faltas, delta do banco) e **4 marcações por dia**
 - **Ausências** — atestados e folgas individuais (com anexo)
 - **Notificações** — quem recebe push quando essa pessoa bate ponto
 
@@ -102,6 +115,8 @@ No detalhe do colaborador → aba **Ausências**:
 2. Tipo: **Atestado médico** ou **Folga individual**
 3. Informe início e fim, observação (ex.: onde o atestado foi apresentado) e anexe PDF/imagem se houver
 4. Salve
+
+Em **Folga individual**, marque **Descontar a carga do dia no banco de horas** se a folga deve sair do saldo (banco habilitado).
 
 Ausências também **zeram o esperado** nos dias cobertos, só para aquela pessoa.
 
@@ -127,12 +142,24 @@ Em **RH / Ponto → Batidas**:
 
 ## Banco de horas e folha
 
-- **Banco de horas** — saldo e histórico; admin pode lançar ajuste
+- **Banco de horas** — saldo atual, filtro de mês, saldo inicial/final, créditos, débitos e CSV; admin pode lançar ajuste
 - **Folha** — prévia gerencial do período:
-  - Totais por colaborador (normais, HE, faltas, estimativas)
-  - Seção **Horas por dia** (entrada, saída, trabalhado, esperado, status do dia)
+  - Totais por colaborador (normais, HE, atrasos, faltas, delta do banco, estimativas)
+  - Seção **Horas por dia** (entrada, saída almoço, retorno, saída, trabalhado, esperado, atraso, HE, falta)
   - Exportação **CSV período** ou **CSV diário**
-  - Fechamento do período
+  - **Fechar período** grava o resumo **e** movimenta o banco conforme a política
+
+### Destino das horas extras
+
+Em **RH / Ponto → Configurações RH**:
+
+| Modo | Comportamento no fechamento |
+|------|-----------------------------|
+| Compensar e banco (padrão) | HE abate atraso/falta do período; o restante credita o banco |
+| Só banco | HE credita; faltas debitam |
+| Pagar HE | HE fica na folha; o banco não se move |
+
+Também dá para definir tolerância de atraso, carga semanal padrão (2640 min = 44h), fuso, teto e prazo do banco.
 
 ::: tip Observação
 A folha na Interflow é **gerencial** e não substitui folha oficial / eSocial.
@@ -161,6 +188,6 @@ Quando a pessoa bater ponto, os destinatários recebem uma notificação com lin
 | Quem | O que vê |
 |------|----------|
 | Colaborador | Bater ponto, Meu perfil RH, próprio banco/folha (sem foto/IP) |
-| Admin / Owner | Colaboradores, batidas com detalhes/foto, locais, calendário, folha, ausências, notificações |
+| Admin / Owner | Colaboradores, jornada, batidas com detalhes/foto, locais, calendário, folha, banco, ausências, notificações, configurações RH |
 
 No servidor, respostas de batidas para não-admin **não incluem** foto, IP nem user-agent.

@@ -13,9 +13,10 @@ Controle a jornada de trabalho com cartão ponto digital, geolocalização, banc
 
 - Registrar batidas de ponto: entrada, pausa, retorno e saída, com foto e GPS
 - Definir locais com geofence e regras de home office por colaborador
-- Configurar jornada semanal e calendário RH (feriados e dias sem expediente)
+- Configurar jornada por horário (entrada, almoço e saída) e carga contratual (padrão 44h)
 - Registrar ausências (atestado, folga individual) com anexo
-- Acompanhar banco de horas e gerar prévia de folha gerencial (horas por dia, exportação CSV)
+- Acompanhar banco de horas, relatório mensal e gerar prévia de folha gerencial (4 marcações, atrasos, HE, CSV)
+- Definir o destino das horas extras (banco, compensação ou pagamento) em Configurações RH
 - Receber notificações push para gestores a cada batida de ponto
 - Acessar visão do colaborador em **Meu perfil RH**, separada do painel administrativo
 

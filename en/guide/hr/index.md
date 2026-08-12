@@ -2,7 +2,7 @@
 
 Workday control with time clock, workplaces (geofence), hour bank, calendar, absences, and managerial payroll.
 
-> Changelog: [v2026.7.11](/en/changelog/2026/07/2026.7.11)
+> Changelog: [v2026.8.3](/en/changelog/2026/08/2026.8.3) · [v2026.7.11](/en/changelog/2026/07/2026.7.11)
 
 ## Overview
 
@@ -10,9 +10,10 @@ The **HR / Time clock** module lets you:
 
 - Punch time (clock-in, break, return, clock-out) with photo and GPS
 - Define allowed locations (geofence) or allow home office per person
-- Configure a **weekly schedule** per employee (days and hours)
+- Configure a **schedule with real times** (clock-in, lunch, clock-out) and a **contractual load** (44h by default)
 - Register **holidays / non-working days** and individual **certificates / days off**
-- Track hour bank and payroll preview **with hours per day**
+- Track the hour bank, **monthly report**, and payroll preview **with the 4 punches of the day**
+- Choose where overtime goes (bank, offset, or pay) under **HR settings**
 - Notify managers by push when someone punches
 - Separate the employee view (**My HR profile**) from the admin view
 
@@ -64,23 +65,35 @@ You do **not** need to register holidays to punch. Calendar and absences only af
 
 ## Employees and schedule (admin)
 
-Under **HR / Time clock → Employees**, admins register job title, **weekly schedule**, geofence, vacation, and compensation (when allowed).
+Under **HR / Time clock → Employees**, admins register job title, **schedule**, geofence, vacation, and compensation (when allowed). The schedule can also be edited on the person detail, **Schedule** tab.
 
-### Weekly schedule
+### Presence times and contractual load
 
-In the create/edit modal:
+These are two different concepts:
+
+| Concept | Meaning | Office example |
+|---------|---------|----------------|
+| Presence schedule | When the person should be at work | Mon–Fri, 08:00–12:00 and 13:30–18:30 (9h/day) |
+| Contractual load | “Regular” hours in the week (44h CLT) | 8h48 per workday — the extra hour in the week is overtime |
+
+In the editor:
 
 1. Enable the days the person works
-2. Set hours per day (e.g. Mon–Fri `8`, Saturday `4`)
-3. Save
+2. Set **morning** and **afternoon** (start and end), or use **Office schedule**
+3. Optional: **Copy to weekdays**
+4. Weekly contractual load: leave empty to inherit 44h from the organization, or set a custom value
+5. Save
 
-Payroll uses this schedule for expected hours, overtime, and absences. Disabled days (0h) do not generate absence.
+Payroll compares **worked time** to the contractual load (not to the 9h presence window). Meeting the office times yields **12 extra minutes per day = 1h per week**. Disabled days do not generate absence.
+
+Lateness is clock-in after the first registered slot, minus the organization tolerance.
 
 Opening a person’s card:
 
 - **Punches** — entries with filters; use **Details** for photo and evidence
-- **Hour bank** — balance and movements
-- **Payroll** — period preview with totals and **hours per day**
+- **Schedule** — real times and contractual load
+- **Hour bank** — period balance, credits, debits, and movements
+- **Payroll** — preview with totals (lateness, OT, absences, bank delta) and **4 punches per day**
 - **Absences** — medical certificates and individual days off (with attachment)
 - **Notifications** — who receives push when that person punches
 
@@ -102,6 +115,8 @@ On the employee detail → **Absences** tab:
 2. Type: **Medical certificate** or **Individual day off**
 3. Enter start/end, a note (e.g. where the certificate was presented), and attach a PDF/image if needed
 4. Save
+
+For **Individual day off**, check **Debit the day’s load from the hour bank** if the day off should come out of the balance (bank enabled).
 
 Absences also **zero expected hours** on covered days, for that person only.
 
@@ -127,12 +142,24 @@ Under **HR / Time clock → Punches**:
 
 ## Hour bank and payroll
 
-- **Hour bank** — balance and history; admins can post adjustments
+- **Hour bank** — current balance, month filter, opening/closing balance, credits, debits, and CSV; admins can post adjustments
 - **Payroll** — managerial period preview:
-  - Totals per employee (regular, OT, absences, estimates)
-  - **Hours per day** section (clock-in, clock-out, worked, expected, day status)
+  - Totals per employee (regular, OT, lateness, absences, bank delta, estimates)
+  - **Hours per day** section (in, lunch out, lunch return, out, worked, expected, lateness, OT, absence)
   - **Period CSV** or **daily CSV** export
-  - Period closing
+  - **Close period** saves the snapshot **and** posts to the hour bank according to policy
+
+### Where overtime goes
+
+Under **HR / Time clock → HR settings**:
+
+| Mode | Behavior on close |
+|------|-------------------|
+| Offset then bank (default) | OT offsets lateness/absence in the period; the remainder credits the bank |
+| Hour bank only | OT credits; absences debit |
+| Pay overtime | OT stays on payroll; the bank does not move |
+
+You can also set late tolerance, default weekly load (2640 min = 44h), timezone, bank cap, and compensation deadline.
 
 ::: tip Note
 Payroll in Interflow is **managerial** and does not replace official payroll / eSocial.
@@ -161,6 +188,6 @@ When the person punches, recipients get a notification linking to their HR profi
 | Who | What they see |
 |-----|----------------|
 | Employee | Punch, My HR profile, own hour bank/payroll (no photo/IP) |
-| Admin / Owner | Employees, punch details/photo, workplaces, calendar, payroll, absences, notifications |
+| Admin / Owner | Employees, schedule, punch details/photo, workplaces, calendar, payroll, hour bank, absences, notifications, HR settings |
 
 On the server, punch responses for non-admins **do not include** photo, IP, or user-agent.
