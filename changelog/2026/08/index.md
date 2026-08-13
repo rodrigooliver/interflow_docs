@@ -6,6 +6,7 @@ Atualizações do mês de agosto de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.8.6](/changelog/2026/08/2026.8.6) | 13/08 | **Canal por equipe** — quem pode iniciar conversa restrito às equipes marcadas |
 | [2026.8.5](/changelog/2026/08/2026.8.5) | 13/08 | **Status Online / Ausente** — pausa no atendimento com mensagem automática opcional |
 | [2026.8.4](/changelog/2026/08/2026.8.4) | 12/08 | **Macros de cliente** — botões de automação e tipo lead/cliente |
 | [2026.8.3](/changelog/2026/08/2026.8.3) | 12/08 | **Jornada e banco de horas** — horário real, 1h extra semanal e fechamento no banco |
@@ -16,7 +17,8 @@ Atualizações do mês de agosto de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (12)
+### Novas Funcionalidades (13)
+- **Restrição de canal por equipe** (v2026.8.6) — iniciar conversa só com as equipes marcadas no canal
 - **Status Online / Ausente** (v2026.8.5) — pausa no atendimento, sai do rodízio e mensagem automática opcional
 - **Macros de cliente** (v2026.8.4) — botões no cadastro: ações, visibilidade e perguntar no clique
 - **Tipo lead ou cliente** (v2026.8.4) — filtro na lista e condições/ações das macros

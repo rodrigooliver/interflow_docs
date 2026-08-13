@@ -11,6 +11,7 @@ Cada canal pode ter uma regra de **visibilidade ao iniciar conversa**:
 | **Todos** | Qualquer membro da organização vê o canal (padrão) |
 | **Por perfil** | Só usuários com os perfis selecionados |
 | **Usuários** | Só as pessoas selecionadas |
+| **Por equipe** | Só membros de pelo menos uma das equipes marcadas |
 
 **Proprietários e administradores** sempre veem todos os canais principais, para operação e configuração.
 
@@ -22,6 +23,7 @@ Cada canal pode ter uma regra de **visibilidade ao iniciar conversa**:
 |---------|---------|
 | Número oficial restrito | Só gerentes e um grupo de usuários podem iniciar pelo número principal |
 | Canal de vendas | Visível apenas para o perfil de vendas |
+| Canal por time | Só a equipe de cobrança inicia pelo número de cobrança |
 | Evitar uso indevido | Impedir que atendentes usem um canal de cobrança ou VIP |
 
 ## Onde acessar
@@ -35,8 +37,8 @@ Cada canal pode ter uma regra de **visibilidade ao iniciar conversa**:
 
 1. Abra o canal em **Canais**
 2. Clique em **Configurações**
-3. Na seção de visibilidade, escolha **Todos**, **Por perfil** ou **Usuários**
-4. Se escolher perfil ou usuários, marque as opções desejadas
+3. Na seção de visibilidade, escolha **Todos**, **Por perfil**, **Usuários** ou **Por equipe**
+4. Se escolher perfil, usuários ou equipes, marque as opções desejadas
 5. Salve
 
 ::: tip 💡 Padrão
@@ -52,10 +54,13 @@ Canais sem configuração específica continuam liberados para **todos**. Nada m
 ## Limitações
 
 - A regra vale ao **iniciar nova conversa** (seleção de canal). Não altera sozinha os filtros da caixa de entrada
-- Integrações por chave de API da organização não aplicam a restrição por perfil/usuário (continua bloqueando canais auxiliares)
+- Integrações por chave de API da organização não aplicam a restrição por perfil, usuário ou equipe (continua bloqueando canais auxiliares)
+- A opção **Por equipe** não se mistura com perfil ou usuários: escolha um escopo por vez
+- A equipe padrão do ticket (para quem o atendimento é atribuído) é uma configuração separada
 - Perfis personalizados usam o **perfil base** do membro (como em outros controles de visibilidade da plataforma)
 
 ## Relacionado
 
+- [Changelog v2026.8.6](/changelog/2026/08/2026.8.6)
 - [Changelog v2026.7.5](/changelog/2026/07/2026.7.5)
 - [Canais de Atendimento](/guide/channels/)

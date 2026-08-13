@@ -11,6 +11,7 @@ Each channel can have a **visibility rule when starting a conversation**:
 | **Everyone** | Any organization member sees the channel (default) |
 | **By role** | Only users with the selected roles |
 | **Users** | Only the selected people |
+| **By team** | Only members of at least one of the selected teams |
 
 **Owners and admins** always see all primary channels, for operations and configuration.
 
@@ -22,6 +23,7 @@ Each channel can have a **visibility rule when starting a conversation**:
 |----------|---------|
 | Restricted official number | Only managers and a group of users can start via the main number |
 | Sales channel | Visible only to the sales role |
+| Channel by team | Only the billing team can start via the billing number |
 | Prevent misuse | Stop agents from using a billing or VIP channel |
 
 ## Where to access
@@ -35,8 +37,8 @@ Each channel can have a **visibility rule when starting a conversation**:
 
 1. Open the channel under **Channels**
 2. Click **Settings**
-3. In the visibility section, choose **Everyone**, **By role**, or **Users**
-4. If you choose role or users, select the desired options
+3. In the visibility section, choose **Everyone**, **By role**, **Users**, or **By team**
+4. If you choose role, users, or teams, select the desired options
 5. Save
 
 ::: tip 💡 Default
@@ -52,10 +54,13 @@ Channels without a specific configuration stay open to **everyone**. Nothing cha
 ## Limitations
 
 - The rule applies when **starting a new conversation** (channel selection). It does not by itself change inbox filters
-- Organization API key integrations do not apply the role/user restriction (auxiliary channels are still blocked)
+- Organization API key integrations do not apply the role, user, or team restriction (auxiliary channels are still blocked)
+- **By team** does not combine with role or users: pick one scope at a time
+- The default team for the ticket (who the conversation is assigned to) is a separate setting
 - Custom permission groups use the member's **base role** (as with other visibility controls in the platform)
 
 ## Related
 
+- [Changelog v2026.8.6](/en/changelog/2026/08/2026.8.6)
 - [Changelog v2026.7.5](/en/changelog/2026/07/2026.7.5)
 - [Support Channels](/en/guide/channels/)

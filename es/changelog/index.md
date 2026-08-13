@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.8.6](/es/changelog/2026/08/2026.8.6) | 13/08 | **Canal por equipo** — quién puede iniciar conversación limitado a los equipos marcados | [Visibilidad](/es/guide/channels/start-chat-visibility) |
 | [v2026.8.5](/es/changelog/2026/08/2026.8.5) | 13/08 | **Estado En línea / Ausente** — pausa en la atención con mensaje automático opcional | [Ausente](/es/guide/chat/agent-away) |
 | [v2026.8.4](/es/changelog/2026/08/2026.8.4) | 12/08 | **Macros de cliente** — botones de automatización y tipo lead/cliente | [Macros](/es/guide/crm/customer-macros) |
 | [v2026.8.3](/es/changelog/2026/08/2026.8.3) | 12/08 | **Jornada y banco de horas** — horario real, 1h extra semanal y cierre en el banco | [RRHH / Fichaje](/es/guide/hr/) |
@@ -19,7 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.7.19](/es/changelog/2026/07/2026.7.19) | 28/07 | **Automatizaciones y plantillas de tareas** — Kanban con reglas y proyectos listos | [Automatizaciones](/es/guide/tasks/project-automations) |
 | [v2026.7.18](/es/changelog/2026/07/2026.7.18) | 27/07 | **Renombrar carpetas en el Agente de IA** — nombres de carpetas de archivos con efecto inmediato | [Agentes IA](/es/guide/ai-agents/) |
 | [v2026.7.17](/es/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ en atajos** — variable rellenada automáticamente al enviar | [Atajos](/es/guide/chat/message-shortcuts) |
-| [v2026.7.16](/es/changelog/2026/07/2026.7.16) | 27/07 | **Mover citas entre agendas** — sin eliminar y recrear | [Agenda](/es/guide/schedule/) |
 
 [Ver todas las releases de agosto →](/es/changelog/2026/08/)
 

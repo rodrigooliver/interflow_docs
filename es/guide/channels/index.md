@@ -86,7 +86,7 @@ Los canales pueden convertir audios en texto automáticamente, con controles sep
 
 ## Visibilidad al iniciar conversación
 
-Define **quién puede usar cada canal** al iniciar una nueva conversación con un cliente (todos, por perfil o usuarios específicos). Los canales auxiliares no entran en esa lista.
+Define **quién puede usar cada canal** al iniciar una nueva conversación con un cliente (todos, por perfil, por usuarios o por equipo). Los canales auxiliares no entran en esa lista.
 
 > Guía completa: [Restricción de canales al iniciar conversación](/es/guide/channels/start-chat-visibility)
 

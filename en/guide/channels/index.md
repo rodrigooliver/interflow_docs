@@ -86,7 +86,7 @@ Channels can automatically convert audio to text, with separate controls for cus
 
 ## Visibility when starting a conversation
 
-Define **who can use each channel** when starting a new conversation with a customer (everyone, by role, or specific users). Auxiliary channels are not included in that list.
+Define **who can use each channel** when starting a new conversation with a customer (everyone, by role, specific users, or by team). Auxiliary channels are not included in that list.
 
 > Full guide: [Restrict channels when starting a conversation](/en/guide/channels/start-chat-visibility)
 
