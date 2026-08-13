@@ -10,6 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.8.5](/changelog/2026/08/2026.8.5) | 13/08 | **Status Online / Ausente** — pausa no atendimento com mensagem automática opcional | [Ausente](/guide/chat/agent-away) |
 | [v2026.8.4](/changelog/2026/08/2026.8.4) | 12/08 | **Macros de cliente** — botões de automação e tipo lead/cliente | [Macros](/guide/crm/customer-macros) |
 | [v2026.8.3](/changelog/2026/08/2026.8.3) | 12/08 | **Jornada e banco de horas** — horário real, 1h extra semanal e fechamento no banco | [RH / Ponto](/guide/hr/) |
 | [v2026.8.2](/changelog/2026/08/2026.8.2) | 11/08 | **Equipes no convite** — selecionar equipes na mesma etapa do convite de usuário | — |
@@ -19,7 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.7.18](/changelog/2026/07/2026.7.18) | 27/07 | **Renomear pastas no Agente de IA** — nomes das pastas de arquivos com efeito imediato | [Agentes IA](/guide/ai-agents/) |
 | [v2026.7.17](/changelog/2026/07/2026.7.17) | 27/07 | **CPF/CNPJ em atalhos** — variável preenchida automaticamente no envio | [Atalhos](/guide/chat/message-shortcuts) |
 | [v2026.7.16](/changelog/2026/07/2026.7.16) | 27/07 | **Mover agendamento entre agendas** — sem excluir e recriar | [Agenda](/guide/schedule/) |
-| [v2026.7.15](/changelog/2026/07/2026.7.15) | 27/07 | **Transcrição de áudios** — texto automático com controles por canal | [Transcrição](/guide/channels/audio-transcription) |
 
 [Ver todas as releases de agosto →](/changelog/2026/08/)
 

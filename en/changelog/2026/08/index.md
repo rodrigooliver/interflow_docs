@@ -6,6 +6,7 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.5](/en/changelog/2026/08/2026.8.5) | 08/13 | **Online / Away status** — pause support with optional automatic message |
 | [2026.8.4](/en/changelog/2026/08/2026.8.4) | 08/12 | **Customer macros** — automation buttons and lead/client kind |
 | [2026.8.3](/en/changelog/2026/08/2026.8.3) | 08/12 | **Schedule and hour bank** — real clock times, weekly overtime, and close to the bank |
 | [2026.8.2](/en/changelog/2026/08/2026.8.2) | 08/11 | **Teams on invite** — select teams in the same user invite step |
@@ -15,7 +16,8 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (11)
+### New Features (12)
+- **Online / Away status** (v2026.8.5) — pause support, leave rotation, optional automatic message
 - **Customer macros** (v2026.8.4) — buttons on the profile: actions, visibility, and ask on click
 - **Lead or client kind** (v2026.8.4) — list filter and macro conditions/actions
 - **Real schedule and 44h load** (v2026.8.3) — clock-in/lunch/clock-out times and 1 weekly overtime hour on close

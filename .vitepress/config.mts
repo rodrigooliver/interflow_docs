@@ -45,6 +45,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Chat Interface' : lang === 'es' ? 'Interfaz de Chat' : 'Interface de Chat', link: `${prefix}/guide/chat/interface` },
+          { text: lang === 'en' ? 'Online / Away status' : lang === 'es' ? 'Estado En línea / Ausente' : 'Status Online / Ausente', link: `${prefix}/guide/chat/agent-away` },
           { text: lang === 'en' ? 'Bulk Messages' : lang === 'es' ? 'Disparos masivos' : 'Disparos em Massa', link: `${prefix}/guide/chat/bulk-messages` },
           { text: 'Tags', link: `${prefix}/guide/chat/tags` },
           { text: lang === 'en' ? 'Closure Types' : lang === 'es' ? 'Tipos de cierre' : 'Tipos de Encerramento', link: `${prefix}/guide/chat/closure-types` },
@@ -353,6 +354,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/08/` },
+              { text: 'v2026.8.5', link: `${prefix}/changelog/2026/08/2026.8.5` },
               { text: 'v2026.8.4', link: `${prefix}/changelog/2026/08/2026.8.4` },
               { text: 'v2026.8.3', link: `${prefix}/changelog/2026/08/2026.8.3` },
               { text: 'v2026.8.2', link: `${prefix}/changelog/2026/08/2026.8.2` },

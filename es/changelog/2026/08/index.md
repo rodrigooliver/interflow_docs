@@ -6,6 +6,7 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.8.5](/es/changelog/2026/08/2026.8.5) | 13/08 | **Estado En línea / Ausente** — pausa en la atención con mensaje automático opcional |
 | [2026.8.4](/es/changelog/2026/08/2026.8.4) | 12/08 | **Macros de cliente** — botones de automatización y tipo lead/cliente |
 | [2026.8.3](/es/changelog/2026/08/2026.8.3) | 12/08 | **Jornada y banco de horas** — horario real, 1h extra semanal y cierre en el banco |
 | [2026.8.2](/es/changelog/2026/08/2026.8.2) | 11/08 | **Equipos en la invitación** — seleccionar equipos en el mismo paso de invitar usuario |
@@ -15,7 +16,8 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (11)
+### Nuevas Funcionalidades (12)
+- **Estado En línea / Ausente** (v2026.8.5) — pausa en la atención, sale de la rotación y mensaje automático opcional
 - **Macros de cliente** (v2026.8.4) — botones en el perfil: acciones, visibilidad y preguntar al hacer clic
 - **Tipo lead o cliente** (v2026.8.4) — filtro en la lista y condiciones/acciones de las macros
 - **Jornada real y carga 44h** (v2026.8.3) — horarios de entrada/almuerzo/salida y 1h extra semanal en el cierre
