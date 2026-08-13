@@ -266,12 +266,16 @@ Configura los atajos en **Organización** → **Atajos de Mensaje**.
 
 | Atajo | Acción |
 |-------|--------|
-| `Enter` | Enviar mensaje |
-| `Shift+Enter` | Nueva línea |
+| `Enter` | Enviar mensaje (en el computador) |
+| `Shift+Enter` | Nueva línea (en el computador) |
+| `Enter` (celular) | Nueva línea — el envío es con el botón |
+| `Ctrl+Enter` / `⌘+Enter` | Enviar en el editor expandido |
 | `Esc` | Cerrar conversación |
 | `/` | Abrir respuestas rápidas |
 | `Ctrl+K` | Buscar conversación |
 | `Ctrl+J` | Abrir comandos de IA |
+
+Cuando el texto supera unas 6 líneas, usa el icono de **expandir** para un editor más grande (pantalla completa en el celular), con negrita, cursiva, emoji y mejorar con IA.
 
 ## Mejorador de Texto (Ctrl+J)
 

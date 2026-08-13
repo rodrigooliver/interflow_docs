@@ -349,12 +349,16 @@ Você pode excluir notas enviadas por engano:
 
 | Atalho | Ação |
 |--------|------|
-| `Enter` | Enviar mensagem |
-| `Shift+Enter` | Nova linha |
+| `Enter` | Enviar mensagem (no computador) |
+| `Shift+Enter` | Nova linha (no computador) |
+| `Enter` (celular) | Nova linha — o envio é pelo botão |
+| `Ctrl+Enter` / `⌘+Enter` | Enviar no editor expandido |
 | `Esc` | Fechar conversa |
 | `/` | Abrir respostas rápidas |
 | `Ctrl+K` | Buscar conversa |
 | `Ctrl+J` | Abrir comandos de IA |
+
+Quando o texto passa de cerca de 6 linhas, use o ícone de **expandir** para um editor maior (tela cheia no celular), com negrito, itálico, emoji e melhorar com IA.
 
 ## Melhorador de Texto (Ctrl+J)
 

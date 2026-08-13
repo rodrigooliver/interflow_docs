@@ -6,6 +6,7 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.7](/en/changelog/2026/08/2026.8.7) | 08/13 | **Expanded editor** — long messages full screen and Enter on mobile inserts a new line |
 | [2026.8.6](/en/changelog/2026/08/2026.8.6) | 08/13 | **Channel by team** — who can start a conversation limited to selected teams |
 | [2026.8.5](/en/changelog/2026/08/2026.8.5) | 08/13 | **Online / Away status** — pause support with optional automatic message |
 | [2026.8.4](/en/changelog/2026/08/2026.8.4) | 08/12 | **Customer macros** — automation buttons and lead/client kind |
@@ -17,7 +18,8 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (13)
+### New Features (14)
+- **Expanded editor for long messages** (v2026.8.7) — larger field with formatting and AI; full screen on mobile
 - **Restrict a channel by team** (v2026.8.6) — start a conversation only with the teams marked on the channel
 - **Online / Away status** (v2026.8.5) — pause support, leave rotation, optional automatic message
 - **Customer macros** (v2026.8.4) — buttons on the profile: actions, visibility, and ask on click
@@ -32,6 +34,8 @@ Updates for August 2026.
 - **Instant Forms without campaign mapping** (v2026.8.1) — fields and actions only; ad comes with the lead
 - **Pixels on the ad account** (v2026.8.1) — sync and CAPI token at Ad Account level
 
-### Fixes (2)
+### Fixes (4)
+- **Enter on mobile sent the message** (v2026.8.7) — Enter inserts a new line; send with the button
+- **Empty space in the AI improve modal** (v2026.8.7) — height follows the content on desktop
 - **Customer not found when changing stage** (v2026.8.4) — funnel stage updates work again
 - **Overtime showing as zero on a 9-hour day** (v2026.8.3) — 8:00–12:00 / 13:30–18:30 now yields 1 overtime hour per week

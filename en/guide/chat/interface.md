@@ -270,12 +270,16 @@ Configure shortcuts at **Organization** → **Message Shortcuts**.
 
 | Shortcut | Action |
 |----------|--------|
-| `Enter` | Send message |
-| `Shift+Enter` | New line |
+| `Enter` | Send message (on desktop) |
+| `Shift+Enter` | New line (on desktop) |
+| `Enter` (mobile) | New line — send with the button |
+| `Ctrl+Enter` / `⌘+Enter` | Send in the expanded editor |
 | `Esc` | Close conversation |
 | `/` | Open quick replies |
 | `Ctrl+K` | Search conversation |
 | `Ctrl+J` | Open AI commands |
+
+When the text goes past about 6 lines, use the **expand** icon for a larger editor (full screen on mobile), with bold, italic, emoji, and AI improve.
 
 ## Text Enhancer (Ctrl+J)
 

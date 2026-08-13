@@ -6,6 +6,7 @@ Atualizações do mês de agosto de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.8.7](/changelog/2026/08/2026.8.7) | 13/08 | **Editor expandido** — mensagens longas em tela cheia e Enter no celular quebra linha |
 | [2026.8.6](/changelog/2026/08/2026.8.6) | 13/08 | **Canal por equipe** — quem pode iniciar conversa restrito às equipes marcadas |
 | [2026.8.5](/changelog/2026/08/2026.8.5) | 13/08 | **Status Online / Ausente** — pausa no atendimento com mensagem automática opcional |
 | [2026.8.4](/changelog/2026/08/2026.8.4) | 12/08 | **Macros de cliente** — botões de automação e tipo lead/cliente |
@@ -17,7 +18,8 @@ Atualizações do mês de agosto de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (13)
+### Novas Funcionalidades (14)
+- **Editor expandido para mensagens longas** (v2026.8.7) — campo maior com formatação e IA; tela cheia no celular
 - **Restrição de canal por equipe** (v2026.8.6) — iniciar conversa só com as equipes marcadas no canal
 - **Status Online / Ausente** (v2026.8.5) — pausa no atendimento, sai do rodízio e mensagem automática opcional
 - **Macros de cliente** (v2026.8.4) — botões no cadastro: ações, visibilidade e perguntar no clique
@@ -32,6 +34,8 @@ Atualizações do mês de agosto de 2026.
 - **Instant Forms sem mapear campanha** (v2026.8.1) — só campos e ações; anúncio vem no lead
 - **Pixels na conta de anúncios** (v2026.8.1) — sync e token CAPI no nível da Ad Account
 
-### Correções (2)
+### Correções (4)
+- **Enter no celular enviava a mensagem** (v2026.8.7) — Enter quebra linha; envio pelo botão
+- **Espaço vazio no modal de melhorar texto** (v2026.8.7) — altura acompanha o conteúdo no computador
 - **Cliente não encontrado ao mudar estágio** (v2026.8.4) — atualização do funil volta a funcionar
 - **Hora extra zerada na jornada de 9h** (v2026.8.3) — a jornada 08h–12h / 13h30–18h30 passa a gerar 1h extra por semana

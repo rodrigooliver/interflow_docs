@@ -6,6 +6,7 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.8.7](/es/changelog/2026/08/2026.8.7) | 13/08 | **Editor expandido** — mensajes largos a pantalla completa y Enter en el celular inserta línea |
 | [2026.8.6](/es/changelog/2026/08/2026.8.6) | 13/08 | **Canal por equipo** — quién puede iniciar conversación limitado a los equipos marcados |
 | [2026.8.5](/es/changelog/2026/08/2026.8.5) | 13/08 | **Estado En línea / Ausente** — pausa en la atención con mensaje automático opcional |
 | [2026.8.4](/es/changelog/2026/08/2026.8.4) | 12/08 | **Macros de cliente** — botones de automatización y tipo lead/cliente |
@@ -17,7 +18,8 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (13)
+### Nuevas Funcionalidades (14)
+- **Editor expandido para mensajes largos** (v2026.8.7) — campo más grande con formato e IA; pantalla completa en el celular
 - **Restricción de canal por equipo** (v2026.8.6) — iniciar conversación solo con los equipos marcados en el canal
 - **Estado En línea / Ausente** (v2026.8.5) — pausa en la atención, sale de la rotación y mensaje automático opcional
 - **Macros de cliente** (v2026.8.4) — botones en el perfil: acciones, visibilidad y preguntar al hacer clic
@@ -32,6 +34,8 @@ Actualizaciones del mes de agosto de 2026.
 - **Instant Forms sin mapear campaña** (v2026.8.1) — solo campos y acciones; el anuncio viene en el lead
 - **Píxeles en la cuenta publicitaria** (v2026.8.1) — sync y token CAPI a nivel de Ad Account
 
-### Correcciones (2)
+### Correcciones (4)
+- **Enter en el celular enviaba el mensaje** (v2026.8.7) — Enter inserta una nueva línea; envío con el botón
+- **Espacio vacío en el modal de mejorar texto** (v2026.8.7) — la altura sigue el contenido en el computador
 - **Cliente no encontrado al cambiar de etapa** (v2026.8.4) — la actualización del embudo vuelve a funcionar
 - **Hora extra en cero en la jornada de 9h** (v2026.8.3) — 08:00–12:00 / 13:30–18:30 pasa a generar 1h extra por semana
