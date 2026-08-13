@@ -5,7 +5,7 @@ Configure the actions your AI Agent can run during conversations.
 ## Tool Types
 
 ### 1. Ready-made Actions (System)
-Preconfigured Interflow actions, ready to use. Just add and customize.
+Preconfigured Interflow actions, ready to use. Just add and customize. On each action, **Available when** restricts the tool to channel, stage, and/or tags. Guide: [Channel and conditions](/en/guide/ai-agents/channel-conditions).
 
 ### 2. Custom Actions
 Custom tools you create for specific integrations.

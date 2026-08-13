@@ -5,7 +5,7 @@ Configure las acciones que su Agente IA puede ejecutar durante las conversacione
 ## Tipos de Herramientas
 
 ### 1. Acciones Listas (Sistema)
-Acciones preconfiguradas de Interflow, listas para usar. Solo agregue y personalice.
+Acciones preconfiguradas de Interflow, listas para usar. Solo agregue y personalice. En cada acción, **Disponible cuando** restringe la herramienta a canal, etapa y/o etiquetas. Guía: [Canal y condiciones](/es/guide/ai-agents/channel-conditions).
 
 ### 2. Acciones Personalizadas
 Herramientas personalizadas que usted crea para integraciones específicas.

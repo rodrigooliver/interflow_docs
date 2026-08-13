@@ -98,10 +98,10 @@ Cree el agente desde cero, configurando cada detalle manualmente.
 El editor de Agentes IA tiene **6 pestañas principales**:
 
 ### 1. Contexto
-Pestaña principal donde define las instrucciones del agente.
+Pestaña principal donde define las instrucciones del agente. El editor incluye un botón de ramificación para bloques si / si no por canal, embudo y etiquetas. Detalles: [Canal y condiciones](/es/guide/ai-agents/channel-conditions).
 
 ### 2. Probar
-Permite conversar directamente con el Agente IA antes de ponerlo en producción.
+Permite conversar directamente con el Agente IA antes de ponerlo en producción. Abra **Simular contexto** para elegir canal, etapa y etiquetas y validar las condiciones.
 
 ### 3. Archivos
 
@@ -116,11 +116,11 @@ Agregue medios que el agente puede enviar durante la conversación. Organice los
 
 Configure las acciones que el agente puede ejecutar durante la conversación. Hay dos tipos:
 
-- **Acciones listas** — ficha del cliente, contacto, dirección, consultar API, investigar sitios, transferir, agenda, embudo, follow-up y más
+- **Acciones listas** — ficha del cliente, contacto, dirección, consultar API, investigar sitios, transferir, agenda, embudo, follow-up y más. En cada una, **Disponible cuando** restringe la herramienta a canal, etapa y/o etiquetas.
 - **Acciones personalizadas** — herramientas que usted crea (parámetros + qué ejecutar al activarlas)
 
 ::: tip 📖 Ver más
-Lista completa, descripción de cada acción y paso a paso: [Herramientas de IA](/es/guide/ai-agents/tools/).
+Lista completa, descripción de cada acción y paso a paso: [Herramientas de IA](/es/guide/ai-agents/tools/). Condiciones por canal: [Canal y condiciones](/es/guide/ai-agents/channel-conditions).
 :::
 
 ### 5. Base de Conocimiento
@@ -242,6 +242,7 @@ Al transferir a equipo humano, la IA puede generar automáticamente un resumen:
 
 ## Próximos Pasos
 
+- [Canal y condiciones](/es/guide/ai-agents/channel-conditions) - Un agente en varios canales
 - [Herramientas de IA](/es/guide/ai-agents/tools/) - Configure acciones del agente
 - [Flujos de Atención](/es/guide/flows/builder) - Integre IA en los flujos
 - [Agenda](/es/guide/schedule/) - Configure citas vía IA

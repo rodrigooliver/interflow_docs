@@ -6,6 +6,7 @@ Atualizações do mês de agosto de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.8.8](/changelog/2026/08/2026.8.8) | 13/08 | **Agente IA por canal** — contexto de origem e condições em texto, extras e ferramentas |
 | [2026.8.7](/changelog/2026/08/2026.8.7) | 13/08 | **Editor expandido** — mensagens longas em tela cheia e Enter no celular quebra linha |
 | [2026.8.6](/changelog/2026/08/2026.8.6) | 13/08 | **Canal por equipe** — quem pode iniciar conversa restrito às equipes marcadas |
 | [2026.8.5](/changelog/2026/08/2026.8.5) | 13/08 | **Status Online / Ausente** — pausa no atendimento com mensagem automática opcional |
@@ -18,7 +19,8 @@ Atualizações do mês de agosto de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (14)
+### Novas Funcionalidades (15)
+- **Canal de origem e condições no Agente IA** (v2026.8.8) — identificador do canal no contexto, if/else no prompt, addons e ferramentas prontas condicionais
 - **Editor expandido para mensagens longas** (v2026.8.7) — campo maior com formatação e IA; tela cheia no celular
 - **Restrição de canal por equipe** (v2026.8.6) — iniciar conversa só com as equipes marcadas no canal
 - **Status Online / Ausente** (v2026.8.5) — pausa no atendimento, sai do rodízio e mensagem automática opcional

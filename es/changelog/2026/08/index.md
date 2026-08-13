@@ -6,6 +6,7 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.8.8](/es/changelog/2026/08/2026.8.8) | 13/08 | **Agente IA por canal** — contexto de origen y condiciones en texto, extras y herramientas |
 | [2026.8.7](/es/changelog/2026/08/2026.8.7) | 13/08 | **Editor expandido** — mensajes largos a pantalla completa y Enter en el celular inserta línea |
 | [2026.8.6](/es/changelog/2026/08/2026.8.6) | 13/08 | **Canal por equipo** — quién puede iniciar conversación limitado a los equipos marcados |
 | [2026.8.5](/es/changelog/2026/08/2026.8.5) | 13/08 | **Estado En línea / Ausente** — pausa en la atención con mensaje automático opcional |
@@ -18,7 +19,8 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (14)
+### Nuevas Funcionalidades (15)
+- **Canal de origen y condiciones en el Agente IA** (v2026.8.8) — identificador del canal en el contexto, si/si no en el prompt, extras y herramientas listas condicionales
 - **Editor expandido para mensajes largos** (v2026.8.7) — campo más grande con formato e IA; pantalla completa en el celular
 - **Restricción de canal por equipo** (v2026.8.6) — iniciar conversación solo con los equipos marcados en el canal
 - **Estado En línea / Ausente** (v2026.8.5) — pausa en la atención, sale de la rotación y mensaje automático opcional

@@ -102,10 +102,11 @@ This is the main tab where you define the agent's prompt/instructions.
 
 **Available resources:**
 - **Text Editor**: Write the agent's instructions, personality, and rules
+- **Conditions in the text**: branch button for if / else blocks by channel, funnel, and tags — [Channel and conditions](/en/guide/ai-agents/channel-conditions)
 - **Generate with AI**: Creates context automatically based on a description
 - **Improve**: Improves existing text using AI
 - **Questions**: View questions the agent couldn't answer (edit mode only)
-- **Extra Contexts**: Add supplementary information (e.g., product lists)
+- **Extra Contexts**: Add supplementary information (e.g., product lists), with a **Show when** filter
 - **Token Usage**: Track token consumption in real time (for Interflow)
 
 ### 2. Test
@@ -117,6 +118,10 @@ The testing tab lets you chat directly with the AI Agent before going live.
 2. Type messages as if you were a customer
 3. Observe the agent's responses
 4. Check if the behavior is appropriate
+
+::: tip Channel and conditions
+The same agent can serve several channels. On the **Test** tab, open **Simulate context** to pick channel, stage, and tags. Details: [Channel and conditions](/en/guide/ai-agents/channel-conditions).
+:::
 
 ### 3. Files
 
@@ -137,11 +142,11 @@ Add media the agent can send during conversations. Organize files into **folders
 
 Configure the actions the agent can run during the conversation. There are two types:
 
-- **Ready-made actions** — customer profile, contact, address, query API, research websites, transfer, schedule, funnel, follow-up, and more
+- **Ready-made actions** — customer profile, contact, address, query API, research websites, transfer, schedule, funnel, follow-up, and more. On each one, **Available when** restricts the tool to channel, stage, and/or tags.
 - **Custom actions** — tools you create (parameters + what to run when triggered)
 
 ::: tip 📖 See more
-Full list, description of each action, and setup steps: [AI Tools](/en/guide/ai-agents/tools/).
+Full list, description of each action, and setup steps: [AI Tools](/en/guide/ai-agents/tools/). Conditions by channel: [Channel and conditions](/en/guide/ai-agents/channel-conditions).
 :::
 
 ### 5. Knowledge Base
@@ -346,7 +351,10 @@ Add supplementary information to the agent's context, such as product lists, FAQ
 ### How to Add
 1. In the **Context** tab, click **"+ Add"** in Extra Contexts
 2. Fill in title, description, and content
-3. Save
+3. (Optional) set **Show when** — channel, stage, and/or tags
+4. Save
+
+Matching extra contexts are concatenated into a single text. With no filter, the block is always included. Guide: [Channel and conditions](/en/guide/ai-agents/channel-conditions).
 
 ## Best Practices
 
@@ -379,6 +387,7 @@ Track your AI Agents' performance:
 
 ## Next Steps
 
+- [Channel and conditions](/en/guide/ai-agents/channel-conditions) - One agent on several channels
 - [AI Tools](/en/guide/ai-agents/tools/) - Configure agent actions
 - [Text Enhancer](/en/guide/chat/text-enhancer) - AI commands for agents
 - [Flows](/en/guide/flows/builder) - Integrate AI into flows

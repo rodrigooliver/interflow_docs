@@ -109,6 +109,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/ai-agents/` },
+          { text: lang === 'en' ? 'Channel and conditions' : lang === 'es' ? 'Canal y condiciones' : 'Canal e condições', link: `${prefix}/guide/ai-agents/channel-conditions` },
           {
             text: lang === 'en' ? 'AI Tools' : lang === 'es' ? 'Herramientas de IA' : 'Ferramentas da IA',
             collapsed: true,
@@ -354,6 +355,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/08/` },
+              { text: 'v2026.8.8', link: `${prefix}/changelog/2026/08/2026.8.8` },
               { text: 'v2026.8.7', link: `${prefix}/changelog/2026/08/2026.8.7` },
               { text: 'v2026.8.6', link: `${prefix}/changelog/2026/08/2026.8.6` },
               { text: 'v2026.8.5', link: `${prefix}/changelog/2026/08/2026.8.5` },

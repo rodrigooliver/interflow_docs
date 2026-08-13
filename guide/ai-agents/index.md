@@ -102,10 +102,11 @@ Esta é a aba principal onde você define o prompt/instruções do agente.
 
 **Recursos disponíveis:**
 - **Editor de Texto**: Escreva as instruções, personalidade e regras do agente
+- **Condições no texto**: botão de ramificação para blocos se / senão por canal, funil e tags — [Canal e condições](/guide/ai-agents/channel-conditions)
 - **Gerar com IA**: Cria o contexto automaticamente baseado em uma descrição
 - **Melhorar**: Melhora o texto existente usando IA
 - **Questões**: Visualiza perguntas que o agente não soube responder (apenas em edição)
-- **Contextos Extras**: Adicione informações complementares (ex: listas de produtos)
+- **Contextos Extras**: Adicione informações complementares (ex: listas de produtos), com filtro **Exibir quando**
 - **Uso de Tokens**: Acompanhe o consumo de tokens em tempo real (para Interflow)
 
 **Exemplo de Prompt:**
@@ -144,6 +145,11 @@ A aba de testes permite conversar diretamente com o Agente IA antes de colocá-l
 - ✅ Respostas a perguntas frequentes
 - ✅ Limites do que a IA pode/não pode fazer
 - ✅ Cenários de transferência para humano
+- ✅ Regras por canal, estágio e tags — use **Simular contexto**
+
+::: tip Canal e condições
+O mesmo agente pode atender em vários canais. Na aba **Teste**, abra **Simular contexto** para escolher canal, estágio e tags e validar o recorte. Detalhes: [Canal e condições](/guide/ai-agents/channel-conditions).
+:::
 
 ### 3. Arquivos
 
@@ -167,11 +173,11 @@ O agente pode referenciar e enviar esses arquivos durante a conversa quando apro
 
 Configure as ações que o agente pode executar durante a conversa. Há dois tipos:
 
-- **Ações prontas** — cadastro do cliente, contato, endereço, consultar API, pesquisar em sites, transferir, agenda, funil, follow-up e outras
+- **Ações prontas** — cadastro do cliente, contato, endereço, consultar API, pesquisar em sites, transferir, agenda, funil, follow-up e outras. Em cada uma, **Disponível quando** restringe a ferramenta a canal, estágio e/ou tags.
 - **Ações personalizadas** — ferramentas que você cria (parâmetros + o que executar ao acionar)
 
 ::: tip 📖 Ver mais
-Lista completa, descrição de cada ação e passo a passo: [Ferramentas da IA](/guide/ai-agents/tools/).
+Lista completa, descrição de cada ação e passo a passo: [Ferramentas da IA](/guide/ai-agents/tools/). Condições por canal: [Canal e condições](/guide/ai-agents/channel-conditions).
 :::
 
 ### 5. Base de Conhecimento
@@ -402,7 +408,10 @@ Adicione informações complementares ao contexto do agente, como listas de prod
 ### Como Adicionar
 1. Na aba **Contexto**, clique em **"+ Adicionar"** em Contextos Extras
 2. Preencha título, descrição e conteúdo
-3. Salve
+3. (Opcional) defina **Exibir quando** — canal, estágio e/ou tags
+4. Salve
+
+Os contextos que passam na condição são concatenados em um único texto. Sem filtro, o bloco entra sempre. Guia: [Canal e condições](/guide/ai-agents/channel-conditions).
 
 ## Boas Práticas
 
@@ -435,6 +444,7 @@ Acompanhe o desempenho dos seus Agentes IA:
 
 ## Próximos Passos
 
+- [Canal e condições](/guide/ai-agents/channel-conditions) - Um agente em vários canais
 - [Ferramentas da IA](/guide/ai-agents/tools/) - Configure ações do agente
 - [Melhorador de Texto](/guide/chat/text-enhancer) - Comandos de IA para atendentes
 - [Fluxos de Atendimento](/guide/flows/builder) - Integre IA nos fluxos
