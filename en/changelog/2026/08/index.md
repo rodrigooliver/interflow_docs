@@ -6,6 +6,7 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.9](/en/changelog/2026/08/2026.8.9) | 08/18 | **AI Agent signature** — same format as the text node, without the model reading it |
 | [2026.8.8](/en/changelog/2026/08/2026.8.8) | 08/13 | **AI Agent by channel** — origin context and conditions in prompt, extras, and tools |
 | [2026.8.7](/en/changelog/2026/08/2026.8.7) | 08/13 | **Expanded editor** — long messages full screen and Enter on mobile inserts a new line |
 | [2026.8.6](/en/changelog/2026/08/2026.8.6) | 08/13 | **Channel by team** — who can start a conversation limited to selected teams |
@@ -19,7 +20,8 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (15)
+### New Features (16)
+- **Signature on AI Agent send** (v2026.8.9) — header or footer in metadata, without the model copying the text
 - **Origin channel and conditions on the AI Agent** (v2026.8.8) — channel identifier in context, if/else in the prompt, conditional extras and ready-made tools
 - **Expanded editor for long messages** (v2026.8.7) — larger field with formatting and AI; full screen on mobile
 - **Restrict a channel by team** (v2026.8.6) — start a conversation only with the teams marked on the channel

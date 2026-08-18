@@ -235,6 +235,9 @@ Configurações detalhadas do agente:
 - **Thinking Mode** (DeepSeek): Liga/desliga raciocínio em cadeia e esforço (Alto / Máximo)
 - **Máximo de Tokens** (OpenAI sem raciocínio): Limite de tokens na resposta
 - **Verbosidade** (modelos GPT-5): Controla o tamanho das respostas
+- **Enviar mensagens pelo agente**: a resposta final vai direto ao chat (remova o nó Enviar Texto do fluxo para não duplicar)
+- **Quebrar texto por parágrafo**: cada parágrafo (linha em branco) vira uma mensagem
+- **Assinatura**: texto no início ou no fim da mensagem; o modelo não lê esse texto
 - **Fuso Horário**: Define o timezone para datas e horários
 
 #### Configurações de Fluxo
@@ -345,27 +348,22 @@ Ao transferir uma conversa para equipe humana, a IA pode gerar automaticamente u
 
 ## Assinatura em Mensagens
 
-Adicione uma assinatura automática às mensagens geradas pela IA.
+Adicione uma assinatura automática às mensagens enviadas pelo agente, no mesmo formato do nó Enviar Texto. Ela aparece no chat para o cliente, mas **não entra no histórico que o modelo lê** — a IA não copia nem duplica o texto.
 
 ### Como Configurar
 
-A assinatura é configurada no **fluxo vinculado ao agente**, especificamente no **Nó de Enviar Texto**.
+1. Abra o Agente IA na aba **Avançado**
+2. Ative **Enviar mensagens pelo agente**
+3. Preencha **Assinatura** e escolha **Início (Header)** ou **Fim (Footer)**
+4. Se o fluxo ainda tiver um nó **Enviar Texto** depois do agente, remova-o para evitar mensagens duplicadas
 
-1. Acesse o fluxo vinculado ao Agente IA
-2. Localize o nó de **Enviar Texto** que envia as respostas da IA
-3. No campo de mensagem, adicione a assinatura desejada após a variável da resposta
+Inclua as quebras de linha no próprio texto da assinatura se quiser separar do conteúdo.
 
-**Exemplo:**
-```text
-{{ai_response}}
-
----
-🤖 Mensagem enviada pela IA
-```
-
-::: tip 📖 Saiba Mais
-Veja a documentação completa do nó em [Mensagem de Texto](/guide/flows/nodes/text).
+::: tip Fluxos antigos
+Com **Enviar mensagens pelo agente** desligado, o envio continua no nó Enviar Texto — a assinatura nesse caso ainda é a do nó. Veja [Mensagem de Texto](/guide/flows/nodes/text).
 :::
+
+> Changelog: [v2026.8.9](/changelog/2026/08/2026.8.9)
 
 ## Integração com Agendamentos
 

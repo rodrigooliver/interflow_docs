@@ -196,6 +196,9 @@ Detailed agent settings:
 - **Thinking Mode** (DeepSeek): Enable/disable chain-of-thought and effort (High / Maximum)
 - **Max Tokens** (OpenAI without reasoning): Response token limit
 - **Verbosity** (GPT-5 models): Controls response length
+- **Send messages from the agent**: the final reply goes straight to the chat (remove the Send Text node from the flow to avoid duplicates)
+- **Split text by paragraph**: each paragraph (blank line) becomes a separate message
+- **Signature**: text at the beginning or end of the message; the model does not read this text
 - **Timezone**: Sets the timezone for dates and times
 
 #### Flow Settings
@@ -264,6 +267,25 @@ Access the detailed history at **Settings → Usage → AI Credits**:
 - Filters by transaction type and usage
 
 ---
+
+## Signature in Messages
+
+Add an automatic signature to messages the agent sends, in the same format as the Send Text node. It appears in the chat for the customer, but it is **not included in the history the model reads** — the AI will not copy or duplicate the text.
+
+### How to configure
+
+1. Open the AI Agent on the **Advanced** tab
+2. Turn on **Send messages from the agent**
+3. Fill in **Signature** and choose **Beginning (Header)** or **End (Footer)**
+4. If the flow still has a **Send Text** node after the agent, remove it to avoid duplicate messages
+
+Include line breaks in the signature text if you want it separated from the content.
+
+::: tip Older flows
+With **Send messages from the agent** off, sending still happens in the Send Text node — the signature in that case is still the node's. See [Text Message](/en/guide/flows/nodes/text).
+:::
+
+> Changelog: [v2026.8.9](/en/changelog/2026/08/2026.8.9)
 
 ## Intelligent Follow-up
 
