@@ -6,6 +6,7 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.10](/en/changelog/2026/08/2026.8.10) | 08/25 | **WAHA new-contact protection** — channel stays connected, only first contact stops |
 | [2026.8.9](/en/changelog/2026/08/2026.8.9) | 08/18 | **AI Agent signature** — same format as the text node, without the model reading it |
 | [2026.8.8](/en/changelog/2026/08/2026.8.8) | 08/13 | **AI Agent by channel** — origin context and conditions in prompt, extras, and tools |
 | [2026.8.7](/en/changelog/2026/08/2026.8.7) | 08/13 | **Expanded editor** — long messages full screen and Enter on mobile inserts a new line |
@@ -20,7 +21,8 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (16)
+### New Features (17)
+- **Protection against WhatsApp new-contact blocks on WAHA** (v2026.8.10) — amber badge, warm chats continue, campaign pauses
 - **Signature on AI Agent send** (v2026.8.9) — header or footer in metadata, without the model copying the text
 - **Origin channel and conditions on the AI Agent** (v2026.8.8) — channel identifier in context, if/else in the prompt, conditional extras and ready-made tools
 - **Expanded editor for long messages** (v2026.8.7) — larger field with formatting and AI; full screen on mobile

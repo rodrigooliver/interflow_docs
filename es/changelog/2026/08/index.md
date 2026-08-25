@@ -6,6 +6,7 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.8.10](/es/changelog/2026/08/2026.8.10) | 25/08 | **Protección de contactos nuevos en WAHA** — canal conectado, solo el primer contacto para |
 | [2026.8.9](/es/changelog/2026/08/2026.8.9) | 18/08 | **Firma en el Agente IA** — mismo formato del nodo de texto, sin que el modelo lea el texto |
 | [2026.8.8](/es/changelog/2026/08/2026.8.8) | 13/08 | **Agente IA por canal** — contexto de origen y condiciones en texto, extras y herramientas |
 | [2026.8.7](/es/changelog/2026/08/2026.8.7) | 13/08 | **Editor expandido** — mensajes largos a pantalla completa y Enter en el celular inserta línea |
@@ -20,7 +21,8 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (16)
+### Nuevas Funcionalidades (17)
+- **Protección contra el bloqueo de contactos nuevos en WAHA** (v2026.8.10) — sello ámbar, atención caliente sigue, campaña pausa
 - **Firma en el envío del Agente IA** (v2026.8.9) — header o footer en metadata, sin que el modelo copie el texto
 - **Canal de origen y condiciones en el Agente IA** (v2026.8.8) — identificador del canal en el contexto, si/si no en el prompt, extras y herramientas listas condicionales
 - **Editor expandido para mensajes largos** (v2026.8.7) — campo más grande con formato e IA; pantalla completa en el celular

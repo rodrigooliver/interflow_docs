@@ -233,6 +233,33 @@ Se você usa o WhatsApp Oficial (API Meta), configure um canal WAHA auxiliar par
 O canal auxiliar **não aparece na listagem geral** de canais — fica visível apenas dentro das configurações do canal official.
 :::
 
+## Restrição de novos contatos
+
+O WhatsApp pode bloquear **primeiro contato** (número com quem aquele canal ainda não conversou). O canal **continua conectado**. Não reinicie, não faça logout e não gere QR de novo — isso piora a restrição.
+
+### O que você vê
+
+- No card do canal, o selo **Conectado** permanece verde
+- Um selo âmbar avisa que novos contatos estão bloqueados (e até quando, se o WhatsApp informar)
+- Na tela do canal, o mesmo aviso aparece em todas as abas
+
+### O que a Interflow faz
+
+- Para o envio para números novos
+- Continua o atendimento em conversas que já existem
+- Pausa campanhas WAHA na hora (elas **não** retomam sozinhas quando a restrição cai)
+- Não tenta de novo o envio que o WhatsApp recusou
+
+### Limite diário extra (opcional)
+
+Útil quando vários funcionários usam o mesmo número e fica difícil contar os primeiros contatos do dia.
+
+1. Abra **Canais** → canal WAHA → configurações
+2. Em **Limite diário extra de novos contatos**, deixe **0** (padrão) para só respeitar o teto do WhatsApp
+3. Ou informe um número: ao atingir, a Interflow para novos 1:1 naquele dia; conversas existentes continuam. O contador zera no dia seguinte
+
+> Changelog: [v2026.8.10](/changelog/2026/08/2026.8.10)
+
 ## Boas Práticas
 
 Para evitar bloqueios do WhatsApp:
@@ -252,6 +279,10 @@ Para evitar bloqueios do WhatsApp:
 - Iniciar conversas com desconhecidos
 
 ## Reconexão
+
+::: warning Restrição de novos contatos
+Se o canal está **conectado** e só há o aviso âmbar de novos contatos, **não reconecte**. Espere o WhatsApp liberar.
+:::
 
 Se o canal desconectar:
 

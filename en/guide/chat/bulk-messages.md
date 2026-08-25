@@ -25,6 +25,18 @@ Sidebar → **Bulk messages**. Requires `bulkMessages`.
 `bulk_silent` does not talk to the contact. Use it for CRM updates, tasks, webhooks, etc.
 :::
 
+## WhatsApp WAHA
+
+In **message** mode with a WAHA channel:
+
+- **Send only to existing conversations** is checked by default — it does not open a new contact on that number
+- If WhatsApp restricts first contacts, the campaign **pauses immediately** and does not resume by itself
+- People who already have a conversation on the channel can still receive messages
+
+Useful so a shared number does not make a WhatsApp block worse.
+
+> Channel guide: [WhatsApp WAHA — New-contact restriction](/en/guide/channels/whatsapp-waha#new-contact-restriction)
+
 ## Related
 
 - [WhatsApp templates](/en/guide/channels/whatsapp-templates)

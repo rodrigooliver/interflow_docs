@@ -10,6 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.8.10](/changelog/2026/08/2026.8.10) | 25/08 | **Proteção de novos contatos no WAHA** — canal conectado, só o primeiro contato para | [WhatsApp WAHA](/guide/channels/whatsapp-waha#restricao-de-novos-contatos) |
 | [v2026.8.9](/changelog/2026/08/2026.8.9) | 18/08 | **Assinatura no Agente IA** — início ou fim da mensagem, sem o modelo ler o texto | [Assinatura](/guide/ai-agents/#assinatura-em-mensagens) |
 | [v2026.8.8](/changelog/2026/08/2026.8.8) | 13/08 | **Agente IA por canal** — contexto de origem e condições em texto, addons e ferramentas | [Canal e condições](/guide/ai-agents/channel-conditions) |
 | [v2026.8.7](/changelog/2026/08/2026.8.7) | 13/08 | **Editor expandido** — mensagens longas em tela cheia e Enter no celular quebra linha | [Interface](/guide/chat/interface#atalhos-de-teclado) |
@@ -19,7 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.8.3](/changelog/2026/08/2026.8.3) | 12/08 | **Jornada e banco de horas** — horário real, 1h extra semanal e fechamento no banco | [RH / Ponto](/guide/hr/) |
 | [v2026.8.2](/changelog/2026/08/2026.8.2) | 11/08 | **Equipes no convite** — selecionar equipes na mesma etapa do convite de usuário | — |
 | [v2026.8.1](/changelog/2026/08/2026.8.1) | 07/08 | **Connections / Meta Lead Ads** — atribuição por anúncio, leads e customers por ad | [UTM](/guide/utm/) |
-| [v2026.7.20](/changelog/2026/07/2026.7.20) | 30/07 | **Filtros com vários canais** — vários WhatsApps no mesmo filtro rápido | [Interface de Chat](/guide/chat/interface#filtros-personalizados) |
 
 [Ver todas as releases de agosto →](/changelog/2026/08/)
 

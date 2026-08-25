@@ -21,6 +21,18 @@ Menú → **Disparos masivos**. Requiere `bulkMessages`.
 3. Configure mensaje/plantilla/flujo e intervalo
 4. Inicie — puede pausar o cancelar después
 
+## WhatsApp WAHA
+
+En modo **mensaje** con canal WAHA:
+
+- **Enviar solo a conversaciones existentes** viene marcado por defecto — no abre un contacto nuevo en ese número
+- Si WhatsApp restringe primeros contactos, la campaña **se pausa al momento** y no se reanuda sola
+- Quien ya tiene conversación en el canal puede seguir recibiendo
+
+Útil para no agravar el bloqueo cuando varias personas disparan por el mismo número.
+
+> Guía del canal: [WhatsApp WAHA — Restricción de contactos nuevos](/es/guide/channels/whatsapp-waha#restriccion-de-contactos-nuevos)
+
 ## Relacionados
 
 - [Plantillas WhatsApp](/es/guide/channels/whatsapp-templates)

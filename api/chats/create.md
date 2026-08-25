@@ -87,13 +87,13 @@ String (texto) ou objeto:
 
 ### `utm` (Make / Facebook Lead Ads)
 
-Pode ser o **bundle inteiro** do módulo *Facebook Lead Ads — New Lead* no Make, ou um objeto já mapeado. Não crie uma coluna nova: o Interflow grava em `customers.utm_metadata` (JSONB) e tenta vincular o anúncio no hub (`utm_campaign_ad_id`) pelo `ad_id`.
+Pode ser o **bundle inteiro** do módulo *Facebook Lead Ads — New Lead* no Make, ou um objeto já mapeado. O Interflow grava em `customers.utm_metadata` (JSONB), preenche `customers.ad_source_id` com o ID externo (`ad_id` / `sourceID`) e tenta vincular o anúncio no hub (`utm_campaign_ad_id`) pelo mesmo ID.
 
 | Campo aceito | Aliases (Make / Meta) | Destino |
 |--------------|------------------------|---------|
 | `lead_id` | `Lead ID`, `id` | `utm_metadata.meta_leadgen_id` |
 | `form_id` | `Form ID` | `utm_metadata.form_id` |
-| `ad_id` | `Ad ID`, `sourceID` | `utm_metadata.sourceID` + lookup do anúncio |
+| `ad_id` | `Ad ID`, `sourceID`, `source_id`, `ad_source_id` | `customers.ad_source_id` + `utm_metadata.sourceID` + lookup do anúncio |
 | `ad_name` | `Ad name` | `utm_metadata.ad_name` / `adTitle` |
 | `adset_id` | `Ad set ID`, `Ad group ID` | `utm_metadata.adset_id` |
 | `adset_name` | `Adset name` | `utm_metadata.adset_name` |

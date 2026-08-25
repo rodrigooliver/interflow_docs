@@ -227,6 +227,33 @@ If you use WhatsApp Official (Meta API), configure a WAHA auxiliary channel to o
 The auxiliary channel **doesn't appear in the general channel listing** — it's only visible inside the official channel settings.
 :::
 
+## New-contact restriction
+
+WhatsApp can block **first contact** (a number that channel has not talked to yet). The channel **stays connected**. Do not restart, log out, or generate a new QR — that makes the restriction worse.
+
+### What you see
+
+- On the channel card, **Connected** stays green
+- An amber badge says new contacts are blocked (and until when, if WhatsApp reports it)
+- The same banner appears on every tab of the channel screen
+
+### What Interflow does
+
+- Stops sending to new numbers
+- Keeps serving existing conversations
+- Pauses WAHA campaigns immediately (they **do not** resume by themselves when the restriction ends)
+- Does not retry the send WhatsApp refused
+
+### Extra daily limit (optional)
+
+Useful when several people share the same number and it is hard to count first contacts for the day.
+
+1. Open **Channels** → WAHA channel → settings
+2. In **Optional extra daily new-contact limit**, leave **0** (default) to follow WhatsApp’s cap only
+3. Or set a number: when it is reached, Interflow stops new 1:1s for that day; existing chats keep working. The counter resets the next day
+
+> Changelog: [v2026.8.10](/en/changelog/2026/08/2026.8.10)
+
 ## Best Practices
 
 To avoid WhatsApp blocks:
@@ -246,6 +273,10 @@ To avoid WhatsApp blocks:
 - Starting conversations with strangers
 
 ## Reconnection
+
+::: warning New-contact restriction
+If the channel is **connected** and you only see the amber new-contact warning, **do not reconnect**. Wait for WhatsApp to lift it.
+:::
 
 If channel disconnects:
 

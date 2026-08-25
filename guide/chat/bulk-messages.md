@@ -33,6 +33,18 @@ Ideal para processar leads/clientes em background (atualizar CRM, criar tarefas,
 Nós de mídia, texto enviado ao cliente e input/interativos são bloqueados nesse tipo de fluxo — ele não conversa com o contato.
 :::
 
+## WhatsApp WAHA
+
+No modo **mensagem** com canal WAHA:
+
+- **Enviar apenas para conversas existentes** vem marcado por padrão — não abre contato novo neste número
+- Se o WhatsApp restringir primeiros contatos, a campanha **pausa na hora** e não retoma sozinha
+- Quem já tem conversa no canal continua podendo receber
+
+Útil para não agravar o bloqueio quando várias pessoas disparam pelo mesmo número.
+
+> Guia do canal: [WhatsApp WAHA — Restrição de novos contatos](/guide/channels/whatsapp-waha#restricao-de-novos-contatos)
+
 ## Boas práticas
 
 - Prefira templates aprovados no WhatsApp Official

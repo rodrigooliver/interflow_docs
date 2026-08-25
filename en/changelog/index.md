@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.8.10](/en/changelog/2026/08/2026.8.10) | Aug 25 | **WAHA new-contact protection** — channel stays connected, only first contact stops | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha#new-contact-restriction) |
 | [v2026.8.9](/en/changelog/2026/08/2026.8.9) | Aug 18 | **AI Agent signature** — start or end of the message, without the model reading it | [Signature](/en/guide/ai-agents/#signature-in-messages) |
 | [v2026.8.8](/en/changelog/2026/08/2026.8.8) | Aug 13 | **AI Agent by channel** — origin context and conditions in prompt, extras, and tools | [Channel and conditions](/en/guide/ai-agents/channel-conditions) |
 | [v2026.8.7](/en/changelog/2026/08/2026.8.7) | Aug 13 | **Expanded editor** — long messages full screen and Enter on mobile inserts a new line | [Interface](/en/guide/chat/interface#keyboard-shortcuts) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.8.3](/en/changelog/2026/08/2026.8.3) | Aug 12 | **Schedule and hour bank** — real clock times, weekly overtime, close to the bank | [HR / Time clock](/en/guide/hr/) |
 | [v2026.8.2](/en/changelog/2026/08/2026.8.2) | Aug 11 | **Teams on invite** — select teams in the same user invite step | — |
 | [v2026.8.1](/en/changelog/2026/08/2026.8.1) | Aug 7 | **Connections / Meta Lead Ads** — ad-level attribution, leads and customers per ad | [UTM](/en/guide/utm/) |
-| [v2026.7.20](/en/changelog/2026/07/2026.7.20) | Jul 30 | **Multi-channel quick filters** — several WhatsApps in one filter | [Chat interface](/en/guide/chat/interface#custom-filters) |
 
 [See all August releases →](/en/changelog/2026/08/)
 
