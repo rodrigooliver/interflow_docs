@@ -6,6 +6,8 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.12](/en/changelog/2026/08/2026.8.12) | 08/25 | **Move or remove customers** — leave the funnel or move the batch to another stage |
+| [2026.8.11](/en/changelog/2026/08/2026.8.11) | 08/25 | **Task templates** — reusable draft, automations/macros, and list columns |
 | [2026.8.10](/en/changelog/2026/08/2026.8.10) | 08/25 | **WAHA new-contact protection** — channel stays connected, only first contact stops |
 | [2026.8.9](/en/changelog/2026/08/2026.8.9) | 08/18 | **AI Agent signature** — same format as the text node, without the model reading it |
 | [2026.8.8](/en/changelog/2026/08/2026.8.8) | 08/13 | **AI Agent by channel** — origin context and conditions in prompt, extras, and tools |
@@ -21,7 +23,11 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (17)
+### New Features (21)
+- **Empty or move customers from a stage** (v2026.8.12) — column menu removes from the funnel or moves the batch to another stage
+- **Task templates** (v2026.8.11) — per-project draft fills title, relative due date, assignees, and checklist
+- **Templates in automations and macros** (v2026.8.11) — create a task from the draft; condition by template
+- **Optional list columns** (v2026.8.11) — customer, stage, labels, and checklist; refresh button
 - **Protection against WhatsApp new-contact blocks on WAHA** (v2026.8.10) — amber badge, warm chats continue, campaign pauses
 - **Signature on AI Agent send** (v2026.8.9) — header or footer in metadata, without the model copying the text
 - **Origin channel and conditions on the AI Agent** (v2026.8.8) — channel identifier in context, if/else in the prompt, conditional extras and ready-made tools

@@ -2,7 +2,7 @@
 
 Organiza el trabajo del equipo en **proyectos** con tablero visual (columnas y tarjetas), lista y calendario — y sigue lo que te corresponde en **Mis Tareas**.
 
-> Relacionado: [Plantillas](/es/guide/tasks/templates) · [Automatizaciones](/es/guide/tasks/project-automations) · [Changelog v2026.7.19](/es/changelog/2026/07/2026.7.19)
+> Relacionado: [Plantillas de tablero](/es/guide/tasks/templates) · [Plantillas de tarea](/es/guide/tasks/task-templates) · [Automatizaciones](/es/guide/tasks/project-automations) · [Changelog v2026.8.11](/es/changelog/2026/08/2026.8.11)
 
 ## Visión general
 
@@ -45,7 +45,7 @@ Con un proyecto abierto, cambia entre:
 | Vista | Para qué sirve |
 |-------|----------------|
 | **Tablero** | Columnas = etapas; tarjetas = tareas; arrastrar y soltar entre columnas |
-| **Lista** | Tabla con edición rápida de estado, prioridad y vencimiento |
+| **Lista** | Tabla con edición rápida de estado, prioridad y vencimiento; selector **Columnas** (cliente, etapa, etiquetas, checklist) |
 | **Calendario** | Tareas por día de vencimiento |
 
 ### En el tablero
@@ -73,7 +73,7 @@ En la barra del proyecto puedes:
 
 ## Crear y editar una tarea
 
-1. Haz clic en **Agregar tarea** (o en el **+** de la columna)
+1. Haz clic en **Agregar tarea** (o en el **+** de la columna). Si el proyecto tiene plantillas, usa la flecha para elegir un [molde](/es/guide/tasks/task-templates)
 2. Completa título, descripción, etapa, prioridad, vencimiento, responsables, etiquetas y, si corresponde, el **cliente**
 3. Guarda — se usa la etapa predeterminada del proyecto si no eliges otra
 
@@ -110,8 +110,9 @@ En el icono de configuración del proyecto:
 
 - **Editar proyecto** — nombre, descripción y **etapa predeterminada al crear tarea**
 - **Gestionar miembros**
-- **Automatizaciones** — reglas del tablero ([guía](/es/guide/tasks/project-automations)); plantillas al crear: [Plantillas](/es/guide/tasks/templates)
+- **Automatizaciones** — reglas del tablero ([guía](/es/guide/tasks/project-automations)); plantillas al crear el proyecto: [Plantillas de tablero](/es/guide/tasks/templates)
 - **Gestionar etiquetas**
+- **Plantillas** — moldes reutilizables de tarea ([guía](/es/guide/tasks/task-templates))
 - **Ver historial del proyecto**
 - **Eliminar proyecto**
 
@@ -205,7 +206,8 @@ Con el acceso **Rendimiento** / **Performance** en Tareas, el equipo sigue indic
 
 ## Próximos pasos
 
-- [Plantillas de proyectos](/es/guide/tasks/templates)
+- [Plantillas de tablero](/es/guide/tasks/templates)
+- [Plantillas de tarea](/es/guide/tasks/task-templates)
 - [Automatizaciones de proyectos](/es/guide/tasks/project-automations)
 - [Interfaz de chat](/es/guide/chat/interface) — crear tarea desde la atención
 - [Dashboard](/es/guide/dashboard) — widget de tareas

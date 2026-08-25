@@ -10,6 +10,8 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.8.12](/en/changelog/2026/08/2026.8.12) | Aug 25 | **Move or remove customers** — leave the funnel or move the batch to another stage | [Funnels](/en/guide/crm/funnels#empty-or-move-customers-from-a-stage) |
+| [v2026.8.11](/en/changelog/2026/08/2026.8.11) | Aug 25 | **Task templates** — reusable draft fills title, due date, assignees, and checklist | [Task templates](/en/guide/tasks/task-templates) |
 | [v2026.8.10](/en/changelog/2026/08/2026.8.10) | Aug 25 | **WAHA new-contact protection** — channel stays connected, only first contact stops | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha#new-contact-restriction) |
 | [v2026.8.9](/en/changelog/2026/08/2026.8.9) | Aug 18 | **AI Agent signature** — start or end of the message, without the model reading it | [Signature](/en/guide/ai-agents/#signature-in-messages) |
 | [v2026.8.8](/en/changelog/2026/08/2026.8.8) | Aug 13 | **AI Agent by channel** — origin context and conditions in prompt, extras, and tools | [Channel and conditions](/en/guide/ai-agents/channel-conditions) |
@@ -18,8 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.8.5](/en/changelog/2026/08/2026.8.5) | Aug 13 | **Online / Away status** — pause support with optional automatic message | [Away](/en/guide/chat/agent-away) |
 | [v2026.8.4](/en/changelog/2026/08/2026.8.4) | Aug 12 | **Customer macros** — automation buttons and lead/client kind | [Macros](/en/guide/crm/customer-macros) |
 | [v2026.8.3](/en/changelog/2026/08/2026.8.3) | Aug 12 | **Schedule and hour bank** — real clock times, weekly overtime, close to the bank | [HR / Time clock](/en/guide/hr/) |
-| [v2026.8.2](/en/changelog/2026/08/2026.8.2) | Aug 11 | **Teams on invite** — select teams in the same user invite step | — |
-| [v2026.8.1](/en/changelog/2026/08/2026.8.1) | Aug 7 | **Connections / Meta Lead Ads** — ad-level attribution, leads and customers per ad | [UTM](/en/guide/utm/) |
 
 [See all August releases →](/en/changelog/2026/08/)
 

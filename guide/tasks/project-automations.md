@@ -2,7 +2,7 @@
 
 Configure regras para que o quadro do projeto reaja sozinho a mudanças nas tarefas.
 
-> Relacionado: [Visão geral](/guide/tasks/) · [Templates](/guide/tasks/templates) · [Changelog v2026.7.19](/changelog/2026/07/2026.7.19)
+> Relacionado: [Visão geral](/guide/tasks/) · [Templates de quadro](/guide/tasks/templates) · [Templates de tarefa](/guide/tasks/task-templates) · [Changelog v2026.8.11](/changelog/2026/08/2026.8.11)
 
 ## O que é
 
@@ -33,7 +33,7 @@ No modal **Automações do projeto**:
 
 ### Campos nas condições
 
-- Status, estágio (coluna), prioridade
+- Status, estágio (coluna), prioridade, [template](/guide/tasks/task-templates)
 - Arquivada / não arquivada
 - Vencimento (incluindo “está atrasada”)
 
@@ -41,7 +41,7 @@ No modal **Automações do projeto**:
 
 - Definir status · Mover estágio · Definir prioridade
 - Arquivar · Desarquivar · Limpar vencimento
-- **Criar tarefa** (follow-up) — título com variáveis como o título da tarefa atual, cliente (mesmo / nenhum), vencimento em X dias
+- **Criar tarefa** (follow-up) — [template de tarefa](/guide/tasks/task-templates) opcional, título com variáveis (título, descrição, nome do cliente, status, prioridade), cliente (mesmo / nenhum), vencimento em X dias
 - **Iniciar fluxo silencioso** — fluxos do tipo automação de tarefas
 
 ## Exemplos práticos
@@ -72,6 +72,7 @@ As regras dos templates só disparam se o “outro lado” ainda não estiver no
 
 ## Próximos passos
 
-- [Templates de projetos](/guide/tasks/templates)
+- [Templates de quadro](/guide/tasks/templates)
+- [Templates de tarefa](/guide/tasks/task-templates)
 - [Visão geral de Tarefas](/guide/tasks/)
-- [Changelog v2026.7.19](/changelog/2026/07/2026.7.19)
+- [Changelog v2026.8.11](/changelog/2026/08/2026.8.11)

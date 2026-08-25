@@ -40,7 +40,7 @@ Uma **macro** é um botão configurável que aparece no **editar cliente**. Voc�
 | Transferir para equipe | Transfere o atendimento atual para a equipe |
 | Transferir para atendente | Define o atendente principal do chat |
 | Adicionar colaboradores | Inclui membros no atendimento (ignora o atendente atual) |
-| Criar tarefa | Projeto, título, responsáveis e vencimento em N dias |
+| Criar tarefa | Projeto, [template](/guide/tasks/task-templates) opcional, título, responsáveis e vencimento em N dias |
 | Iniciar fluxo silencioso | Fluxo da organização (com ou sem chat) |
 
 Ações de **equipe**, **atendente** e **colaboradores** (e fluxo com chat obrigatório) só rodam a partir de um **atendimento aberto**. No editar cliente fora do chat, o botão continua visível e avisa ao clicar.
@@ -66,3 +66,4 @@ O cadastro tem **Lead (venda)** ou **Cliente (fechado)**. Use na lista (filtro) 
 
 - [Gerenciamento de Clientes](/guide/crm/customers)
 - [Funis de Venda](/guide/crm/funnels)
+- [Templates de tarefa](/guide/tasks/task-templates)

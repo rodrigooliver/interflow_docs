@@ -2,7 +2,7 @@
 
 Configura reglas para que el tablero del proyecto reaccione solo a los cambios de las tareas.
 
-> Relacionado: [Visión general](/es/guide/tasks/) · [Plantillas](/es/guide/tasks/templates) · [Changelog v2026.7.19](/es/changelog/2026/07/2026.7.19)
+> Relacionado: [Visión general](/es/guide/tasks/) · [Plantillas de tablero](/es/guide/tasks/templates) · [Plantillas de tarea](/es/guide/tasks/task-templates) · [Changelog v2026.8.11](/es/changelog/2026/08/2026.8.11)
 
 ## Qué es
 
@@ -33,7 +33,7 @@ En el modal **Automatizaciones del proyecto**:
 
 ### Campos en condiciones
 
-- Estado, etapa (columna), prioridad
+- Estado, etapa (columna), prioridad, [plantilla](/es/guide/tasks/task-templates)
 - Archivada / no archivada
 - Vencimiento (incluyendo “está atrasada”)
 
@@ -41,7 +41,7 @@ En el modal **Automatizaciones del proyecto**:
 
 - Definir estado · Mover etapa · Definir prioridad
 - Archivar · Desarchivar · Limpiar vencimiento
-- **Crear tarea** (seguimiento) — título con variables como el título de la tarea actual, cliente (mismo / ninguno), vencimiento en X días
+- **Crear tarea** (seguimiento) — [plantilla de tarea](/es/guide/tasks/task-templates) opcional, título con variables (título, descripción, nombre del cliente, estado, prioridad), cliente (mismo / ninguno), vencimiento en X días
 - **Iniciar flujo silencioso** — flujos del tipo automatización de tareas
 
 ## Ejemplos prácticos
@@ -72,6 +72,7 @@ Las reglas de las plantillas solo se disparan si el “otro lado” aún no est�
 
 ## Próximos pasos
 
-- [Plantillas de proyectos](/es/guide/tasks/templates)
+- [Plantillas de tablero](/es/guide/tasks/templates)
+- [Plantillas de tarea](/es/guide/tasks/task-templates)
 - [Visión general de Tareas](/es/guide/tasks/)
-- [Changelog v2026.7.19](/es/changelog/2026/07/2026.7.19)
+- [Changelog v2026.8.11](/es/changelog/2026/08/2026.8.11)

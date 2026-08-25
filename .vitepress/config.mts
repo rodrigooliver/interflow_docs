@@ -59,6 +59,7 @@ function getSidebar(lang: string = '') {
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión general' : 'Visão geral', link: `${prefix}/guide/tasks/` },
           { text: lang === 'en' ? 'Templates' : lang === 'es' ? 'Plantillas' : 'Templates', link: `${prefix}/guide/tasks/templates` },
+          { text: lang === 'en' ? 'Task templates' : lang === 'es' ? 'Plantillas de tareas' : 'Templates de tarefas', link: `${prefix}/guide/tasks/task-templates` },
           { text: lang === 'en' ? 'Automations' : lang === 'es' ? 'Automatizaciones' : 'Automações', link: `${prefix}/guide/tasks/project-automations` }
         ]
       },
@@ -355,6 +356,8 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/08/` },
+              { text: 'v2026.8.12', link: `${prefix}/changelog/2026/08/2026.8.12` },
+              { text: 'v2026.8.11', link: `${prefix}/changelog/2026/08/2026.8.11` },
               { text: 'v2026.8.10', link: `${prefix}/changelog/2026/08/2026.8.10` },
               { text: 'v2026.8.9', link: `${prefix}/changelog/2026/08/2026.8.9` },
               { text: 'v2026.8.8', link: `${prefix}/changelog/2026/08/2026.8.8` },

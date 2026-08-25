@@ -2,7 +2,7 @@
 
 Organize team work in **projects** with a visual board (columns and cards), list, and calendar — and track what is assigned to you in **My Tasks**.
 
-> Related: [Templates](/en/guide/tasks/templates) · [Automations](/en/guide/tasks/project-automations) · [Changelog v2026.7.19](/en/changelog/2026/07/2026.7.19)
+> Related: [Board templates](/en/guide/tasks/templates) · [Task templates](/en/guide/tasks/task-templates) · [Automations](/en/guide/tasks/project-automations) · [Changelog v2026.8.11](/en/changelog/2026/08/2026.8.11)
 
 ## Overview
 
@@ -45,7 +45,7 @@ With a project open, switch between:
 | View | Use it to |
 |------|-----------|
 | **Board** | Columns = stages; cards = tasks; drag and drop between columns |
-| **List** | Table with quick edit of status, priority, and due date |
+| **List** | Table with quick edit of status, priority, and due date; **Columns** selector (customer, stage, labels, checklist) |
 | **Calendar** | Tasks by due date |
 
 ### On the board
@@ -73,7 +73,7 @@ In the project bar you can:
 
 ## Create and edit a task
 
-1. Click **Add task** (or **+** on a column)
+1. Click **Add task** (or **+** on a column). If the project has templates, use the arrow to pick a [draft](/en/guide/tasks/task-templates)
 2. Fill in title, description, stage, priority, due date, assignees, labels, and optionally the **customer**
 3. Save — the project default stage is used if you do not pick another
 
@@ -110,8 +110,9 @@ In the project settings menu:
 
 - **Edit project** — name, description, and **default stage when creating a task**
 - **Manage members**
-- **Automations** — board rules ([guide](/en/guide/tasks/project-automations)); templates on create: [Templates](/en/guide/tasks/templates)
+- **Automations** — board rules ([guide](/en/guide/tasks/project-automations)); board templates when creating a project: [Board templates](/en/guide/tasks/templates)
 - **Manage labels**
+- **Templates** — reusable task drafts ([guide](/en/guide/tasks/task-templates))
 - **View project history**
 - **Delete project**
 
@@ -205,7 +206,8 @@ From the **Performance** shortcut in Tasks, the team can follow productivity ind
 
 ## Next steps
 
-- [Project templates](/en/guide/tasks/templates)
+- [Board templates](/en/guide/tasks/templates)
+- [Task templates](/en/guide/tasks/task-templates)
 - [Project automations](/en/guide/tasks/project-automations)
 - [Chat interface](/en/guide/chat/interface) — create a task from a conversation
 - [Dashboard](/en/guide/dashboard) — tasks widget

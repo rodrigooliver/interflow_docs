@@ -40,7 +40,7 @@ Una **macro** es un botón configurable en **editar cliente**. Defines:
 | Transferir a equipo | Transfiere la conversación actual al equipo |
 | Transferir a agente | Define el agente principal del chat |
 | Agregar colaboradores | Incluye miembros en la conversación (omite el agente actual) |
-| Crear tarea | Proyecto, título, responsables y vencimiento en N días |
+| Crear tarea | Proyecto, [plantilla](/es/guide/tasks/task-templates) opcional, título, responsables y vencimiento en N días |
 | Iniciar flujo silencioso | Flujo de la organización (con o sin chat) |
 
 Las acciones de **equipo**, **agente** y **colaboradores** (y flujos que requieren chat) solo se ejecutan desde una **conversación abierta**. En editar cliente fuera del chat, el botón sigue visible y avisa al hacer clic.
@@ -66,3 +66,4 @@ El perfil tiene **Lead (venta)** o **Cliente (cerrado)**. Úsalo en el filtro de
 
 - [Gestión de Clientes](/es/guide/crm/customers)
 - [Embudos de venta](/es/guide/crm/funnels)
+- [Plantillas de tarea](/es/guide/tasks/task-templates)

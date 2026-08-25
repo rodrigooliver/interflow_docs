@@ -2,7 +2,11 @@
 
 Al crear un proyecto en **Tareas**, elige una **plantilla de tablero** con columnas listas — y, cuando corresponde, con reglas de automatización ya configuradas.
 
-> Relacionado: [Visión general](/es/guide/tasks/) · [Automatizaciones](/es/guide/tasks/project-automations) · [Changelog v2026.7.19](/es/changelog/2026/07/2026.7.19)
+> Relacionado: [Visión general](/es/guide/tasks/) · [Plantillas de tarea](/es/guide/tasks/task-templates) · [Automatizaciones](/es/guide/tasks/project-automations) · [Changelog v2026.7.19](/es/changelog/2026/07/2026.7.19)
+
+::: tip Plantillas de tarea
+Para moldes del **contenido** de la tarea (título, plazo, checklist), usa [Plantillas de tarea](/es/guide/tasks/task-templates) — no las plantillas de tablero de esta página.
+:::
 
 ## Para qué sirve
 
@@ -63,5 +67,6 @@ Después de crear el proyecto, en **Editar proyecto** defines la **etapa predete
 
 ## Próximos pasos
 
+- [Plantillas de tarea](/es/guide/tasks/task-templates)
 - [Automatizaciones de proyectos](/es/guide/tasks/project-automations)
 - [Visión general de Tareas](/es/guide/tasks/)

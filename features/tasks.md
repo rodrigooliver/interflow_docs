@@ -11,7 +11,8 @@ Organize o trabalho da equipe com projetos, quadro visual, calendário, visão p
 
 ## O que você pode fazer
 
-- Criar projetos com [templates](/guide/tasks/templates): Livre, Por status, Por prioridade ou Sprint simples
+- Criar projetos com [templates de quadro](/guide/tasks/templates): Livre, Por status, Por prioridade ou Sprint simples
+- Usar [templates de tarefa](/guide/tasks/task-templates) para preencher título, prazo, responsáveis e checklist
 - Visualizar tarefas em quadro (Kanban), lista ou calendário, com arrastar e soltar entre colunas
 - Definir status, prioridade, etapa, responsáveis, vencimento, cliente, checklist e etiquetas
 - Gerenciar membros com papéis Leitor, Editor ou Administrador, com notificações
@@ -30,5 +31,6 @@ Organize o trabalho da equipe com projetos, quadro visual, calendário, visão p
 ## Guias
 
 - [Visão geral de Tarefas](/guide/tasks/)
-- [Templates de projeto](/guide/tasks/templates)
+- [Templates de quadro](/guide/tasks/templates)
+- [Templates de tarefa](/guide/tasks/task-templates)
 - [Automações de projeto](/guide/tasks/project-automations)

@@ -2,7 +2,7 @@
 
 Set up rules so the project board reacts on its own to task changes.
 
-> Related: [Overview](/en/guide/tasks/) · [Templates](/en/guide/tasks/templates) · [Changelog v2026.7.19](/en/changelog/2026/07/2026.7.19)
+> Related: [Overview](/en/guide/tasks/) · [Board templates](/en/guide/tasks/templates) · [Task templates](/en/guide/tasks/task-templates) · [Changelog v2026.8.11](/en/changelog/2026/08/2026.8.11)
 
 ## What it is
 
@@ -33,7 +33,7 @@ In the **Project automations** modal:
 
 ### Condition fields
 
-- Status, stage (column), priority
+- Status, stage (column), priority, [template](/en/guide/tasks/task-templates)
 - Archived / not archived
 - Due date (including overdue)
 
@@ -41,7 +41,7 @@ In the **Project automations** modal:
 
 - Set status · Move stage · Set priority
 - Archive · Unarchive · Clear due date
-- **Create task** (follow-up) — title with variables such as the current task title, customer (same / none), due in X days
+- **Create task** (follow-up) — optional [task template](/en/guide/tasks/task-templates), title with variables (title, description, customer name, status, priority), customer (same / none), due in X days
 - **Start silent flow** — task-automation type flows
 
 ## Practical examples
@@ -72,6 +72,7 @@ Template rules only fire if the “other side” is not already at the target va
 
 ## Next steps
 
-- [Project templates](/en/guide/tasks/templates)
+- [Board templates](/en/guide/tasks/templates)
+- [Task templates](/en/guide/tasks/task-templates)
 - [Tasks overview](/en/guide/tasks/)
-- [Changelog v2026.7.19](/en/changelog/2026/07/2026.7.19)
+- [Changelog v2026.8.11](/en/changelog/2026/08/2026.8.11)

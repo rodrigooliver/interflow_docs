@@ -2,7 +2,11 @@
 
 When creating a project in **Tasks**, pick a **board template** with ready-made columns — and, when it makes sense, with automation rules already configured.
 
-> Related: [Overview](/en/guide/tasks/) · [Automations](/en/guide/tasks/project-automations) · [Changelog v2026.7.19](/en/changelog/2026/07/2026.7.19)
+> Related: [Overview](/en/guide/tasks/) · [Task templates](/en/guide/tasks/task-templates) · [Automations](/en/guide/tasks/project-automations) · [Changelog v2026.7.19](/en/changelog/2026/07/2026.7.19)
+
+::: tip Task templates
+For drafts of the task **content** (title, due date, checklist), use [Task templates](/en/guide/tasks/task-templates) — not the board templates on this page.
+:::
 
 ## What it is for
 
@@ -63,5 +67,6 @@ After creating the project, in **Edit project** you set the **default stage when
 
 ## Next steps
 
+- [Task templates](/en/guide/tasks/task-templates)
 - [Project automations](/en/guide/tasks/project-automations)
 - [Tasks overview](/en/guide/tasks/)

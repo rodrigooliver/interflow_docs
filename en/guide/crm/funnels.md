@@ -27,6 +27,20 @@ You cannot delete funnels/stages that still have customers. Move them first.
 
 Drag cards between columns · Search across the funnel · **Only mine** · **Hide finished**
 
+### Empty or move customers from a stage
+
+Owners, admins, and managers can clear a column without dragging cards one by one.
+
+1. Open the funnel and click the stage **three dots**
+2. Choose **Move or remove customers**
+3. **Remove from funnel** — customers leave the funnel
+4. **Move to another stage** — pick the destination funnel and stage (any funnel in the organization)
+5. Confirm — applies to **all** customers in that stage and cannot be undone
+
+This action **does not** start stage-change flows. Drag a card when you want the automation to run.
+
+> Changelog: [v2026.8.12](/en/changelog/2026/08/2026.8.12)
+
 ### Stage automation
 
 1. Create a flow typed **CRM stage change**

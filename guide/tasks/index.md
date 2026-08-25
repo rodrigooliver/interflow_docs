@@ -2,7 +2,7 @@
 
 Organize o trabalho da equipe em **projetos** com quadro visual (colunas e cartões), lista e calendário — e acompanhe o que é seu em **Minhas Tarefas**.
 
-> Relacionado: [Templates](/guide/tasks/templates) · [Automações](/guide/tasks/project-automations) · [Changelog v2026.7.19](/changelog/2026/07/2026.7.19)
+> Relacionado: [Templates de quadro](/guide/tasks/templates) · [Templates de tarefa](/guide/tasks/task-templates) · [Automações](/guide/tasks/project-automations) · [Changelog v2026.8.11](/changelog/2026/08/2026.8.11)
 
 ## Visão geral
 
@@ -45,7 +45,7 @@ Com um projeto aberto, alterne entre:
 | Visualização | Para que serve |
 |--------------|----------------|
 | **Quadro** | Colunas = etapas; cartões = tarefas; arrastar e soltar entre colunas |
-| **Lista** | Tabela com edição rápida de status, prioridade e vencimento |
+| **Lista** | Tabela com edição rápida de status, prioridade e vencimento; seletor **Colunas** (cliente, etapa, etiquetas, checklist) |
 | **Calendário** | Tarefas pelo dia de vencimento |
 
 ### No quadro
@@ -73,7 +73,7 @@ Na barra do projeto você pode:
 
 ## Criar e editar uma tarefa
 
-1. Clique em **Adicionar Tarefa** (ou no **+** da coluna)
+1. Clique em **Adicionar Tarefa** (ou no **+** da coluna). Se o projeto tiver templates, use a seta para escolher um [molde](/guide/tasks/task-templates)
 2. Preencha título, descrição, etapa, prioridade, vencimento, responsáveis, etiquetas e, se fizer sentido, o **cliente**
 3. Salve — a etapa padrão do projeto é usada se você não escolher outra
 
@@ -110,8 +110,9 @@ No ícone de configurações do projeto:
 
 - **Editar Projeto** — nome, descrição e **estágio padrão ao criar tarefa**
 - **Gerenciar membros**
-- **Automações** — regras do quadro ([guia](/guide/tasks/project-automations)); templates na criação: [Templates](/guide/tasks/templates)
+- **Automações** — regras do quadro ([guia](/guide/tasks/project-automations)); templates na criação do projeto: [Templates de quadro](/guide/tasks/templates)
 - **Gerenciar etiquetas**
+- **Templates** — moldes reutilizáveis de tarefa ([guia](/guide/tasks/task-templates))
 - **Ver Histórico do Projeto**
 - **Excluir Projeto**
 
@@ -205,7 +206,8 @@ Pelo atalho **Performance** na área de tarefas, a equipe acompanha indicadores 
 
 ## Próximos passos
 
-- [Templates de projetos](/guide/tasks/templates)
+- [Templates de quadro](/guide/tasks/templates)
+- [Templates de tarefa](/guide/tasks/task-templates)
 - [Automações de projetos](/guide/tasks/project-automations)
 - [Interface de chat](/guide/chat/interface) — criar tarefa a partir do atendimento
 - [Dashboard](/guide/dashboard) — widget de tarefas

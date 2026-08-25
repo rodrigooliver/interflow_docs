@@ -11,7 +11,8 @@ Organize team work with projects, a visual board, calendar, personal view, and a
 
 ## What you can do
 
-- Create projects with [templates](/en/guide/tasks/templates): Free, By status, By priority, or Simple sprint
+- Create projects with [board templates](/en/guide/tasks/templates): Free, By status, By priority, or Simple sprint
+- Use [task templates](/en/guide/tasks/task-templates) to pre-fill title, due date, assignees, and checklist
 - View tasks on a board (Kanban), list, or calendar, with drag-and-drop between columns
 - Set status, priority, stage, assignees, due date, customer, checklist, and labels
 - Manage members with Reader, Editor, or Administrator roles, with notifications
@@ -30,5 +31,6 @@ Organize team work with projects, a visual board, calendar, personal view, and a
 ## Guides
 
 - [Tasks overview](/en/guide/tasks/)
-- [Project templates](/en/guide/tasks/templates)
+- [Board templates](/en/guide/tasks/templates)
+- [Task templates](/en/guide/tasks/task-templates)
 - [Project automations](/en/guide/tasks/project-automations)

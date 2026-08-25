@@ -10,6 +10,8 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.8.12](/es/changelog/2026/08/2026.8.12) | 25/08 | **Mover o quitar clientes** — salir del embudo o mover el lote a otra etapa | [Embudos](/es/guide/crm/funnels#vaciar-o-mover-clientes-de-la-etapa) |
+| [v2026.8.11](/es/changelog/2026/08/2026.8.11) | 25/08 | **Plantillas de tarea** — molde reutilizable completa título, plazo, responsables y checklist | [Plantillas de tarea](/es/guide/tasks/task-templates) |
 | [v2026.8.10](/es/changelog/2026/08/2026.8.10) | 25/08 | **Protección de contactos nuevos en WAHA** — canal conectado, solo el primer contacto para | [WhatsApp WAHA](/es/guide/channels/whatsapp-waha#restriccion-de-contactos-nuevos) |
 | [v2026.8.9](/es/changelog/2026/08/2026.8.9) | 18/08 | **Firma en el Agente IA** — inicio o fin del mensaje, sin que el modelo lea el texto | [Firma](/es/guide/ai-agents/#firma-en-mensajes) |
 | [v2026.8.8](/es/changelog/2026/08/2026.8.8) | 13/08 | **Agente IA por canal** — contexto de origen y condiciones en texto, extras y herramientas | [Canal y condiciones](/es/guide/ai-agents/channel-conditions) |
@@ -18,8 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.8.5](/es/changelog/2026/08/2026.8.5) | 13/08 | **Estado En línea / Ausente** — pausa en la atención con mensaje automático opcional | [Ausente](/es/guide/chat/agent-away) |
 | [v2026.8.4](/es/changelog/2026/08/2026.8.4) | 12/08 | **Macros de cliente** — botones de automatización y tipo lead/cliente | [Macros](/es/guide/crm/customer-macros) |
 | [v2026.8.3](/es/changelog/2026/08/2026.8.3) | 12/08 | **Jornada y banco de horas** — horario real, 1h extra semanal y cierre en el banco | [RRHH / Fichaje](/es/guide/hr/) |
-| [v2026.8.2](/es/changelog/2026/08/2026.8.2) | 11/08 | **Equipos en la invitación** — seleccionar equipos en el mismo paso de invitar usuario | — |
-| [v2026.8.1](/es/changelog/2026/08/2026.8.1) | 07/08 | **Connections / Meta Lead Ads** — atribución por anuncio, leads y customers por ad | [UTM](/es/guide/utm/) |
 
 [Ver todas las releases de agosto →](/es/changelog/2026/08/)
 

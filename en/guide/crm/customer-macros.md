@@ -40,7 +40,7 @@ A **macro** is a configurable button on **edit customer**. You define:
 | Transfer to team | Transfers the current conversation to the team |
 | Transfer to agent | Sets the conversation’s primary agent |
 | Add collaborators | Adds members to the conversation (skips the current assignee) |
-| Create task | Project, title, assignees, and due in N days |
+| Create task | Project, optional [template](/en/guide/tasks/task-templates), title, assignees, and due in N days |
 | Start silent flow | Organization flow (with or without chat) |
 
 **Team**, **agent**, and **collaborator** actions (and flows that require a chat) only run from an **open conversation**. On edit customer outside a chat, the button stays visible and warns on click.
@@ -66,3 +66,4 @@ The profile has **Lead (sale)** or **Client (closed)**. Use it in the list filte
 
 - [Customer Management](/en/guide/crm/customers)
 - [Sales Funnels](/en/guide/crm/funnels)
+- [Task templates](/en/guide/tasks/task-templates)

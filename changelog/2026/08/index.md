@@ -6,6 +6,8 @@ Atualizações do mês de agosto de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.8.12](/changelog/2026/08/2026.8.12) | 25/08 | **Mover ou remover clientes** — tirar do funil ou mover o lote para outra etapa |
+| [2026.8.11](/changelog/2026/08/2026.8.11) | 25/08 | **Templates de tarefa** — molde reutilizável, automações/macros e colunas na lista |
 | [2026.8.10](/changelog/2026/08/2026.8.10) | 25/08 | **Proteção de novos contatos no WAHA** — canal conectado, só o primeiro contato para |
 | [2026.8.9](/changelog/2026/08/2026.8.9) | 18/08 | **Assinatura no Agente IA** — mesmo formato do nó texto, sem o modelo ler o texto |
 | [2026.8.8](/changelog/2026/08/2026.8.8) | 13/08 | **Agente IA por canal** — contexto de origem e condições em texto, extras e ferramentas |
@@ -21,7 +23,11 @@ Atualizações do mês de agosto de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (17)
+### Novas Funcionalidades (21)
+- **Esvaziar ou mover clientes do estágio** (v2026.8.12) — menu da coluna remove do funil ou move o lote para outra etapa
+- **Templates de tarefa** (v2026.8.11) — molde por projeto preenche título, prazo relativo, responsáveis e checklist
+- **Templates em automações e macros** (v2026.8.11) — criar tarefa a partir do molde; condição por template
+- **Colunas opcionais na lista** (v2026.8.11) — cliente, etapa, etiquetas e checklist; botão atualizar
 - **Proteção contra bloqueio de novos contatos no WAHA** (v2026.8.10) — selo âmbar, atendimento quente segue, campanha pausa
 - **Assinatura no envio do Agente IA** (v2026.8.9) — header ou footer em metadata, sem o modelo copiar o texto
 - **Canal de origem e condições no Agente IA** (v2026.8.8) — identificador do canal no contexto, if/else no prompt, addons e ferramentas prontas condicionais

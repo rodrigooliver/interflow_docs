@@ -11,7 +11,8 @@ Organiza el trabajo del equipo con proyectos, tablero visual, calendario, vista 
 
 ## Qué puedes hacer
 
-- Crear proyectos con [plantillas](/es/guide/tasks/templates): Libre, Por estado, Por prioridad o Sprint simple
+- Crear proyectos con [plantillas de tablero](/es/guide/tasks/templates): Libre, Por estado, Por prioridad o Sprint simple
+- Usar [plantillas de tarea](/es/guide/tasks/task-templates) para completar título, plazo, responsables y checklist
 - Visualizar tareas en tablero (Kanban), lista o calendario, con arrastrar y soltar entre columnas
 - Definir estado, prioridad, etapa, responsables, vencimiento, cliente, checklist y etiquetas
 - Gestionar miembros con roles Lector, Editor o Administrador, con notificaciones
@@ -30,5 +31,6 @@ Organiza el trabajo del equipo con proyectos, tablero visual, calendario, vista 
 ## Guías
 
 - [Visión general de Tareas](/es/guide/tasks/)
-- [Plantillas de proyecto](/es/guide/tasks/templates)
+- [Plantillas de tablero](/es/guide/tasks/templates)
+- [Plantillas de tarea](/es/guide/tasks/task-templates)
 - [Automatizaciones de proyecto](/es/guide/tasks/project-automations)

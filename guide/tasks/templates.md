@@ -2,7 +2,11 @@
 
 Ao criar um projeto em **Tarefas**, escolha um **template de quadro** com colunas prontas — e, quando fizer sentido, com regras de automação já configuradas.
 
-> Relacionado: [Visão geral](/guide/tasks/) · [Automações](/guide/tasks/project-automations) · [Changelog v2026.7.19](/changelog/2026/07/2026.7.19)
+> Relacionado: [Visão geral](/guide/tasks/) · [Templates de tarefa](/guide/tasks/task-templates) · [Automações](/guide/tasks/project-automations) · [Changelog v2026.7.19](/changelog/2026/07/2026.7.19)
+
+::: tip Templates de tarefa
+Para moldes do **conteúdo** da tarefa (título, prazo, checklist), use [Templates de tarefa](/guide/tasks/task-templates) — não os templates de quadro desta página.
+:::
 
 ## Para que serve
 
@@ -63,5 +67,6 @@ Depois de criar o projeto, em **Editar Projeto** você define o **estágio padr�
 
 ## Próximos passos
 
+- [Templates de tarefa](/guide/tasks/task-templates)
 - [Automações de projetos](/guide/tasks/project-automations)
 - [Visão geral de Tarefas](/guide/tasks/)

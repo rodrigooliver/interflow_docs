@@ -43,7 +43,21 @@ Funis ou estágios que ainda possuem clientes não podem ser apagados. Mova os c
 
 ### Preço de venda em massa
 
-Owners/admins/managers podem atualizar `sale_price` em lote nos cards selecionados (quando a ação estiver disponível na UI).
+Owners, admins e gerentes podem definir o valor de venda de todos os clientes do estágio que ainda estão sem valor (menu da coluna → **Definir valor de venda**).
+
+### Esvaziar ou mover clientes do estágio
+
+Owners, admins e gerentes podem limpar a coluna sem arrastar card por card.
+
+1. Abra o funil e clique nos **três pontos** do estágio
+2. Escolha **Mover ou remover clientes**
+3. **Remover do funil** — os clientes ficam sem estágio
+4. **Mover para outro estágio** — escolha o funil e a etapa de destino (qualquer funil da organização)
+5. Confirme — vale para **todos** os clientes daquele estágio e não pode ser desfeita
+
+A ação **não** dispara os fluxos de mudança de estágio. Use o arrastar do card quando quiser que a automação rode.
+
+> Changelog: [v2026.8.12](/changelog/2026/08/2026.8.12)
 
 ## Automação por estágio
 
