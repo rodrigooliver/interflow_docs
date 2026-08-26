@@ -6,6 +6,7 @@ Atualizações do mês de agosto de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.8.16](/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipe em massa** — mudar só a equipe de várias conversas de uma vez |
 | [2026.8.15](/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir após o encerramento** — mesma conversa se o cliente responder na janela |
 | [2026.8.14](/changelog/2026/08/2026.8.14) | 26/08 | **Filtros e colunas por campos do cliente** — recorte da fila e colunas no relatório |
 | [2026.8.13](/changelog/2026/08/2026.8.13) | 26/08 | **Notificações por grupo** — silenciar push e som de um grupo do WhatsApp, só para você |
@@ -26,7 +27,8 @@ Atualizações do mês de agosto de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (25)
+### Novas Funcionalidades (26)
+- **Ajuste de equipe em massa** (v2026.8.16) — mudar só a equipe responsável de várias conversas, sem notificação nem mudança de status
 - **Reabrir atendimento após o encerramento** (v2026.8.15) — janela em minutos para voltar no mesmo ticket em vez de abrir outro
 - **Filtros por campos personalizados do cliente** (v2026.8.14) — lista, múltipla escolha, data e data/hora na fila, no relatório e nos filtros rápidos
 - **Colunas de campos personalizados no relatório** (v2026.8.14) — todos os campos do cliente como checks na exportação de atendimentos

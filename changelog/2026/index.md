@@ -5,7 +5,7 @@ Todas as atualizações da plataforma Interflow em 2026.
 ## Meses
 
 ### Agosto
-- [Agosto 2026](/changelog/2026/08/) - 15 releases, 25 funcionalidades, 5 correções
+- [Agosto 2026](/changelog/2026/08/) - 16 releases, 26 funcionalidades, 5 correções
 
 ### Julho
 - [Julho 2026](/changelog/2026/07/) - 20 releases, 45 funcionalidades, 6 correções

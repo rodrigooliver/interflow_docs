@@ -56,6 +56,21 @@ Search conversations by customer's **phone number**:
 - ✅ `999999999` (number only)
 - ✅ `+55 11 99999-9999` (formatted)
 
+### Bulk actions
+
+Select several conversations in the list and apply the same action at once. The bar sits in the **list footer**.
+
+1. In the list, turn on **Bulk actions**
+2. Select conversations (or **Select all filtered**)
+3. Open **Actions** and choose:
+   - **Mark as read**
+   - **Mark as resolved** (pending chats only)
+   - **Change team** — updates only the responsible team
+
+::: warning Team adjustment, not the official transfer
+**Change team** in bulk actions does **not** send a notification, create a system message, or change the agent or status. Chats already on the chosen team are skipped. For a real transfer (queue, push, and team flow), use **Transfer team** on each conversation.
+:::
+
 ### Page Navigation
 
 Navigate directly to a specific page:

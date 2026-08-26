@@ -56,6 +56,21 @@ Busque conversas pelo **número de telefone** do cliente:
 - ✅ `999999999` (apenas número)
 - ✅ `+55 11 99999-9999` (formatado)
 
+### Ações em massa
+
+Marque várias conversas na lista e aplique a mesma ação de uma vez. A barra fica no **rodapé da lista**.
+
+1. Na lista, ative **Ações em massa**
+2. Selecione conversas (ou **Selecionar todos os filtrados**)
+3. Abra **Ações** e escolha:
+   - **Marcar como lido**
+   - **Marcar como resolvido** (só atendimentos aguardando)
+   - **Transferir para equipe** — muda só a equipe responsável
+
+::: warning Ajuste de equipe, não transferência oficial
+**Transferir para equipe** nas ações em massa **não** envia notificação, **não** cria mensagem de sistema e **não** altera o agente nem o status. Conversas já na equipe escolhida são ignoradas. Para transferir de verdade (fila, push e fluxo da equipe), use **Transferir equipe** em cada conversa.
+:::
+
 ### Navegação por Páginas
 
 Navegue diretamente para uma página específica:

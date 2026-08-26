@@ -10,6 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.8.16](/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipe em massa** — mudar só a equipe de várias conversas de uma vez | [Interface](/guide/chat/interface#acoes-em-massa) |
 | [v2026.8.15](/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir após o encerramento** — mesma conversa se o cliente responder na janela | [Configurações](/guide/settings/#reabrir-atendimento-apos-o-encerramento) |
 | [v2026.8.14](/changelog/2026/08/2026.8.14) | 26/08 | **Filtros e colunas por campos do cliente** — recorte da fila e colunas no relatório | [Filtros](/guide/chat/filters) |
 | [v2026.8.13](/changelog/2026/08/2026.8.13) | 26/08 | **Notificações por grupo** — silenciar push e som de um grupo do WhatsApp, só para você | [Grupos WhatsApp](/guide/chat/whatsapp-group-notifications) |
@@ -19,7 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.8.9](/changelog/2026/08/2026.8.9) | 18/08 | **Assinatura no Agente IA** — início ou fim da mensagem, sem o modelo ler o texto | [Assinatura](/guide/ai-agents/#assinatura-em-mensagens) |
 | [v2026.8.8](/changelog/2026/08/2026.8.8) | 13/08 | **Agente IA por canal** — contexto de origem e condições em texto, addons e ferramentas | [Canal e condições](/guide/ai-agents/channel-conditions) |
 | [v2026.8.7](/changelog/2026/08/2026.8.7) | 13/08 | **Editor expandido** — mensagens longas em tela cheia e Enter no celular quebra linha | [Interface](/guide/chat/interface#atalhos-de-teclado) |
-| [v2026.8.6](/changelog/2026/08/2026.8.6) | 13/08 | **Canal por equipe** — quem pode iniciar conversa restrito às equipes marcadas | [Visibilidade](/guide/channels/start-chat-visibility) |
 
 [Ver todas as releases de agosto →](/changelog/2026/08/)
 

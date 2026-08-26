@@ -56,6 +56,21 @@ Busca conversaciones por **número de teléfono** del cliente:
 - ✅ `999999999` (solo número)
 - ✅ `+55 11 99999-9999` (formateado)
 
+### Acciones en masa
+
+Marca varias conversaciones en la lista y aplica la misma acción de una vez. La barra queda en el **pie de la lista**.
+
+1. En la lista, activa **Acciones en masa**
+2. Selecciona conversaciones (o **Seleccionar todos los filtrados**)
+3. Abre **Acciones** y elige:
+   - **Marcar como leído**
+   - **Marcar como resuelto** (solo atenciones en espera)
+   - **Cambiar de equipo** — cambia solo el equipo responsable
+
+::: warning Ajuste de equipo, no la transferencia oficial
+**Cambiar de equipo** en las acciones en masa **no** envía notificación, **no** crea mensaje de sistema y **no** cambia el agente ni el estado. Las conversaciones que ya están en el equipo elegido se ignoran. Para transferir de verdad (cola, push y flujo del equipo), usa **Transferir equipo** en cada conversación.
+:::
+
 ### Navegación por Páginas
 
 Navega directamente a una página específica:

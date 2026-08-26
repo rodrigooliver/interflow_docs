@@ -6,6 +6,7 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.16](/en/changelog/2026/08/2026.8.16) | 08/26 | **Bulk team adjustment** — change only the team of several chats at once |
 | [2026.8.15](/en/changelog/2026/08/2026.8.15) | 08/26 | **Reopen after closing** — same conversation if the customer replies in the window |
 | [2026.8.14](/en/changelog/2026/08/2026.8.14) | 08/26 | **Filters and columns by customer fields** — queue cut and report columns |
 | [2026.8.13](/en/changelog/2026/08/2026.8.13) | 08/26 | **Notifications per group** — mute push and sound for a WhatsApp group, only for you |
@@ -26,7 +27,8 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (25)
+### New Features (26)
+- **Bulk team adjustment** (v2026.8.16) — change only the responsible team of several chats, without notification or status change
 - **Reopen the chat after closing** (v2026.8.15) — minute window to return to the same ticket instead of opening another
 - **Filters by customer custom fields** (v2026.8.14) — select, multi-select, date, and date/time in the queue, report, and quick filters
 - **Custom field columns in the report** (v2026.8.14) — all customer fields as checks in the attendance export
