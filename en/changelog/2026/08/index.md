@@ -6,6 +6,7 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.18](/en/changelog/2026/08/2026.8.18) | 08/26 | **Cash receipt** — settle the installment with a printable or downloadable proof |
 | [2026.8.17](/en/changelog/2026/08/2026.8.17) | 08/26 | **Unread in quick filters** — store the criterion on the team shortcut |
 | [2026.8.16](/en/changelog/2026/08/2026.8.16) | 08/26 | **Bulk team adjustment** — change only the team of several chats at once |
 | [2026.8.15](/en/changelog/2026/08/2026.8.15) | 08/26 | **Reopen after closing** — same conversation if the customer replies in the window |
@@ -28,7 +29,8 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (27)
+### New Features (28)
+- **Cash payment receipt** (v2026.8.18) — settle the installment, post to the cash register, and print or download a PDF proof
 - **Unread messages in custom quick filters** (v2026.8.17) — store “unread only” on the shortcut, combined with assignee, team, or channel
 - **Bulk team adjustment** (v2026.8.16) — change only the responsible team of several chats, without notification or status change
 - **Reopen the chat after closing** (v2026.8.15) — minute window to return to the same ticket instead of opening another

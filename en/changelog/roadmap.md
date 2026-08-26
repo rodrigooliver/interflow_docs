@@ -18,7 +18,6 @@ This roadmap is updated regularly and may change based on product priorities.
 | Feature | Target | Description |
 |---------|--------|-------------|
 | Print reports filtered by period, customer, and establishment | Aug 2026 | Print reports (e.g. account statements) filtered by period, customer, and establishment, ready to share. |
-| Manual cash payment receipt with installment settlement | Aug 2026 | Register a cash payment, generate a receipt, and settle the installment automatically in finance. |
 | Sync Interflow calendar with Google Calendar | Aug 2026 | Two-way event sync between the native calendar and Google Calendar, with a choice of which calendars to connect. |
 | Reload button in the Tasks module | Aug 2026 | Refresh only the task list, without reloading the whole page. |
 | Automatic conversation distribution via team rotation | Aug 2026 | Automatically transfer conversations across teams in rotation, leaving the chat pending for any team member to pick up. |

@@ -18,7 +18,6 @@ Este roadmap se actualiza con regularidad y puede cambiar según las prioridades
 | Recurso | Previsión | Descripción |
 |---------|-----------|-------------|
 | Impresión de informes filtrados por período, cliente y establecimiento | Ago/2026 | Imprimir informes (p. ej. rendición de cuentas) con filtros de período, cliente y establecimiento, listos para compartir. |
-| Recibo manual de pago en efectivo con baja de cuota | Ago/2026 | Registrar un cobro en efectivo, generar recibo y liquidar la cuota automáticamente en el financiero. |
 | Integración de la agenda de Interflow con Google Calendar | Ago/2026 | Sincronización bidireccional de eventos entre la agenda nativa y Google Calendar, con elección de las agendas a conectar. |
 | Botón de recargar en el módulo de tareas | Ago/2026 | Actualizar solo la lista de tareas, sin recargar toda la página. |
 | Distribución automática de conversaciones por rotación entre equipos | Ago/2026 | Transferir conversaciones automáticamente entre equipos en rotación, dejando la atención pendiente para que cualquier miembro la asuma. |

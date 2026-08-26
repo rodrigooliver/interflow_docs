@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.8.18](/es/changelog/2026/08/2026.8.18) | 26/08 | **Recibo en efectivo** — baja de la cuota con comprobante para imprimir o descargar | |
 | [v2026.8.17](/es/changelog/2026/08/2026.8.17) | 26/08 | **No leídas en filtros rápidos** — guardar el criterio en el atajo del equipo | [Filtros](/es/guide/chat/filters#mensajes-no-leidos) |
 | [v2026.8.16](/es/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipo en masa** — cambiar solo el equipo de varias conversaciones de una vez | [Interfaz](/es/guide/chat/interface#acciones-en-masa) |
 | [v2026.8.15](/es/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir después del cierre** — la misma conversación si el cliente responde en la ventana | [Configuración](/es/guide/settings/#reabrir-atencion-despues-del-cierre) |
@@ -19,7 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.8.11](/es/changelog/2026/08/2026.8.11) | 25/08 | **Plantillas de tarea** — molde reutilizable completa título, plazo, responsables y checklist | [Plantillas de tarea](/es/guide/tasks/task-templates) |
 | [v2026.8.10](/es/changelog/2026/08/2026.8.10) | 25/08 | **Protección de contactos nuevos en WAHA** — canal conectado, solo el primer contacto para | [WhatsApp WAHA](/es/guide/channels/whatsapp-waha#restriccion-de-contactos-nuevos) |
 | [v2026.8.9](/es/changelog/2026/08/2026.8.9) | 18/08 | **Firma en el Agente IA** — inicio o fin del mensaje, sin que el modelo lea el texto | [Firma](/es/guide/ai-agents/#firma-en-mensajes) |
-| [v2026.8.8](/es/changelog/2026/08/2026.8.8) | 13/08 | **Agente IA por canal** — contexto de origen y condiciones en texto, extras y herramientas | [Canal y condiciones](/es/guide/ai-agents/channel-conditions) |
 
 [Ver todas las releases de agosto →](/es/changelog/2026/08/)
 
