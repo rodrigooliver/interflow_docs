@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.8.17](/en/changelog/2026/08/2026.8.17) | Aug 26 | **Unread in quick filters** — store the criterion on the team shortcut | [Filters](/en/guide/chat/filters#unread-messages) |
 | [v2026.8.16](/en/changelog/2026/08/2026.8.16) | Aug 26 | **Bulk team adjustment** — change only the team of several chats at once | [Interface](/en/guide/chat/interface#bulk-actions) |
 | [v2026.8.15](/en/changelog/2026/08/2026.8.15) | Aug 26 | **Reopen after closing** — same conversation if the customer replies in the window | [Settings](/en/guide/settings/#reopen-the-chat-after-closing) |
 | [v2026.8.14](/en/changelog/2026/08/2026.8.14) | Aug 26 | **Filters and columns by customer fields** — queue cut and report columns | [Filters](/en/guide/chat/filters) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.8.10](/en/changelog/2026/08/2026.8.10) | Aug 25 | **WAHA new-contact protection** — channel stays connected, only first contact stops | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha#new-contact-restriction) |
 | [v2026.8.9](/en/changelog/2026/08/2026.8.9) | Aug 18 | **AI Agent signature** — start or end of the message, without the model reading it | [Signature](/en/guide/ai-agents/#signature-in-messages) |
 | [v2026.8.8](/en/changelog/2026/08/2026.8.8) | Aug 13 | **AI Agent by channel** — origin context and conditions in prompt, extras, and tools | [Channel and conditions](/en/guide/ai-agents/channel-conditions) |
-| [v2026.8.7](/en/changelog/2026/08/2026.8.7) | Aug 13 | **Expanded editor** — long messages full screen and Enter on mobile inserts a new line | [Interface](/en/guide/chat/interface#keyboard-shortcuts) |
 
 [See all August releases →](/en/changelog/2026/08/)
 

@@ -17,7 +17,6 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 
 | Recurso | Previsão | Descrição |
 |---------|----------|-----------|
-| Filtrar conversas não lidas em filtros rápidos personalizados | Ago/2026 | Usar “mensagens não lidas” como condição nos filtros rápidos, combinando com responsável, data, canal e outros critérios. |
 | Impressão de relatórios filtrados por período, cliente e estabelecimento | Ago/2026 | Imprimir relatórios (ex.: prestação de contas) com filtros de período, cliente e estabelecimento, prontos para compartilhar. |
 | Recibo manual de pagamento em dinheiro com baixa de parcela | Ago/2026 | Registrar recebimento em dinheiro, gerar recibo e baixar a parcela automaticamente no financeiro. |
 | Integração da agenda do Interflow com Google Agenda | Ago/2026 | Sincronização bidirecional de eventos entre a agenda nativa e o Google Agenda, com escolha das agendas a conectar. |

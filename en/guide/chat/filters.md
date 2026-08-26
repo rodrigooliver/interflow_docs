@@ -1,8 +1,8 @@
 # Conversation filters
 
-Besides the quick filters (Mine, Unassigned, Groups), the advanced panel cuts the queue by team, tag, channel, status, funnel, and **customer custom fields**.
+Besides the quick filters (Mine, Unassigned, Groups), the advanced panel cuts the queue by team, tag, channel, status, funnel, **unread messages**, and **customer custom fields**.
 
-Changelog: [v2026.8.14](/en/changelog/2026/08/2026.8.14)
+Changelog: [v2026.8.17](/en/changelog/2026/08/2026.8.17) · [v2026.8.14](/en/changelog/2026/08/2026.8.14)
 
 ---
 
@@ -47,6 +47,25 @@ Several active fields combine: the customer must match **all** of them.
 4. Apply — the list, active chips, and counts follow
 
 Admins can add the same criteria in **Configure quick filters**, so the team opens the queue already narrowed.
+
+---
+
+## Unread messages
+
+The **Unread only** cut can live in the panel, the header button, and **custom quick filters**.
+
+| Where | What it does |
+|-------|--------------|
+| **Unread** button in the list header | Quick cut of the current list, without storing it on the shortcut |
+| Filters panel | Same criterion, visible with the other cuts |
+| **Configure quick filters** | Stores unread on the shortcut, combined with assignee, team, channel, and the rest |
+
+1. In **Chats**, open **Configure quick filters**
+2. Duplicate a filter (or edit a custom one) and open **Settings**
+3. Check **Unread only** and combine it with the other criteria
+4. Save — when you click the shortcut, the list, chip, and count follow
+
+The header button is still available to refine the list on the spot. Switching to a system tab turns unread off. Archived remains a separate toggle.
 
 ---
 

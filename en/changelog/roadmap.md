@@ -17,7 +17,6 @@ This roadmap is updated regularly and may change based on product priorities.
 
 | Feature | Target | Description |
 |---------|--------|-------------|
-| Filter unread conversations in custom quick filters | Aug 2026 | Use “unread messages” as a condition in custom quick filters, combined with assignee, date, channel, and other criteria. |
 | Print reports filtered by period, customer, and establishment | Aug 2026 | Print reports (e.g. account statements) filtered by period, customer, and establishment, ready to share. |
 | Manual cash payment receipt with installment settlement | Aug 2026 | Register a cash payment, generate a receipt, and settle the installment automatically in finance. |
 | Sync Interflow calendar with Google Calendar | Aug 2026 | Two-way event sync between the native calendar and Google Calendar, with a choice of which calendars to connect. |

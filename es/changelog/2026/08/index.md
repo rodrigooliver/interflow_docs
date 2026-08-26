@@ -6,6 +6,7 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.8.17](/es/changelog/2026/08/2026.8.17) | 26/08 | **No leídas en filtros rápidos** — guardar el criterio en el atajo del equipo |
 | [2026.8.16](/es/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipo en masa** — cambiar solo el equipo de varias conversaciones de una vez |
 | [2026.8.15](/es/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir después del cierre** — la misma conversación si el cliente responde en la ventana |
 | [2026.8.14](/es/changelog/2026/08/2026.8.14) | 26/08 | **Filtros y columnas por campos del cliente** — recorte de la cola y columnas en el informe |
@@ -27,7 +28,8 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (26)
+### Nuevas Funcionalidades (27)
+- **Mensajes no leídos en los filtros rápidos personalizados** (v2026.8.17) — guardar “no leídos” en el atajo, combinado con responsable, equipo o canal
 - **Ajuste de equipo en masa** (v2026.8.16) — cambiar solo el equipo responsable de varias conversaciones, sin notificación ni cambio de estado
 - **Reabrir atención después del cierre** (v2026.8.15) — ventana en minutos para volver al mismo ticket en lugar de abrir otro
 - **Filtros por campos personalizados del cliente** (v2026.8.14) — lista, selección múltiple, fecha y fecha/hora en la cola, el informe y los filtros rápidos

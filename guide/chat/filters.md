@@ -1,8 +1,8 @@
 # Filtros de conversas
 
-Além dos filtros rápidos (Minhas, Não atribuídas, Grupos), o painel avançado recorta a fila por equipe, tag, canal, status, funil e **campos personalizados do cliente**.
+Além dos filtros rápidos (Minhas, Não atribuídas, Grupos), o painel avançado recorta a fila por equipe, tag, canal, status, funil, **mensagens não lidas** e **campos personalizados do cliente**.
 
-Changelog: [v2026.8.14](/changelog/2026/08/2026.8.14)
+Changelog: [v2026.8.17](/changelog/2026/08/2026.8.17) · [v2026.8.14](/changelog/2026/08/2026.8.14)
 
 ---
 
@@ -47,6 +47,25 @@ Vários campos ativos ao mesmo tempo se combinam: o cliente precisa satisfazer *
 4. Aplique — a lista, os chips ativos e os contadores acompanham
 
 Administradores podem incluir os mesmos critérios em **Configurar filtros rápidos**, para a equipe abrir a fila já recortada.
+
+---
+
+## Mensagens não lidas
+
+O recorte **Não lidos** pode ir no painel, no botão do header e nos **filtros rápidos personalizados**.
+
+| Onde | O que faz |
+|------|-----------|
+| Botão **Não lidos** no header da lista | Recorte rápido da lista atual, sem gravar no atalho |
+| Painel de filtros | Mesmo critério, visível junto com os outros recortes |
+| **Configurar filtros rápidos** | Grava “não lidas” no atalho, combinado com responsável, equipe, canal e o restante |
+
+1. Em **Chats**, abra **Configurar filtros rápidos**
+2. Duplique um filtro (ou edite um personalizado) e abra **Configurações**
+3. Marque **Não lidos** e combine com os outros critérios
+4. Salve — ao clicar no atalho, a lista, o chip e o contador acompanham
+
+O botão do header continua disponível para refinar a lista na hora. Trocar para uma aba padrão do sistema desliga o recorte de não lidas. Arquivados segue como toggle separado.
 
 ---
 
