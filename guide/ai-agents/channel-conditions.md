@@ -40,7 +40,7 @@ Na aba **Contexto**, o editor tem um botão de ramificação para inserir um blo
 1. Escolha canal, estágio e/ou tags
 2. Preencha o texto **se verdadeiro**
 3. (Opcional) preencha **se falso**
-4. O bloco entra no prompt; no editor, `{{#if}}`, `{{else}}` e `{{/if}}` aparecem destacados
+4. O bloco entra no prompt; no editor, <code v-pre>{{#if}}</code>, <code v-pre>{{else}}</code> e <code v-pre>{{/if}}</code> aparecem destacados
 
 Só o texto da ramificação que bate vai para a IA. Sem `se falso`, o bloco some quando a condição não é atendida.
 

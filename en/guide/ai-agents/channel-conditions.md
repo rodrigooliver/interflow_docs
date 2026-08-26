@@ -40,7 +40,7 @@ On the **Context** tab, the editor has a branch button to insert a conditional b
 1. Pick channel, stage, and/or tags
 2. Fill in the **if true** text
 3. (Optional) fill in **if false**
-4. The block is inserted; in the editor, `{{#if}}`, `{{else}}`, and `{{/if}}` are highlighted
+4. The block is inserted; in the editor, <code v-pre>{{#if}}</code>, <code v-pre>{{else}}</code>, and <code v-pre>{{/if}}</code> are highlighted
 
 Only the matching branch is sent to the AI. Without **if false**, the block is omitted when the condition does not match.
 

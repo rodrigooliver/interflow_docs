@@ -40,7 +40,7 @@ En la pestaña **Contexto**, el editor tiene un botón de ramificación para ins
 1. Elija canal, etapa y/o etiquetas
 2. Complete el texto **si es verdadero**
 3. (Opcional) complete **si es falso**
-4. El bloque entra en el prompt; en el editor, `{{#if}}`, `{{else}}` y `{{/if}}` aparecen resaltados
+4. El bloque entra en el prompt; en el editor, <code v-pre>{{#if}}</code>, <code v-pre>{{else}}</code> y <code v-pre>{{/if}}</code> aparecen resaltados
 
 Solo el texto de la ramificación que coincide va a la IA. Sin **si es falso**, el bloque desaparece cuando la condición no se cumple.
 
