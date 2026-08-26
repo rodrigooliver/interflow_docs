@@ -14,3 +14,4 @@ Menú → **Tipos de cierre**.
 
 - [Interfaz de chat](/es/guide/chat/interface)
 - [Constructor de flujos](/es/guide/flows/builder)
+- [Reabrir después del cierre](/es/guide/settings/#reabrir-atencion-despues-del-cierre)

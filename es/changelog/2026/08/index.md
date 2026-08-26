@@ -6,7 +6,8 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
-| [2026.8.14](/es/changelog/2026/08/2026.8.14) | 26/08 | **Filtros por campos del cliente** — lista, selección múltiple, fecha y fecha/hora en la cola y el informe |
+| [2026.8.15](/es/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir después del cierre** — la misma conversación si el cliente responde en la ventana |
+| [2026.8.14](/es/changelog/2026/08/2026.8.14) | 26/08 | **Filtros y columnas por campos del cliente** — recorte de la cola y columnas en el informe |
 | [2026.8.13](/es/changelog/2026/08/2026.8.13) | 26/08 | **Notificaciones por grupo** — silenciar push y sonido de un grupo de WhatsApp, solo para ti |
 | [2026.8.12](/es/changelog/2026/08/2026.8.12) | 25/08 | **Mover o quitar clientes** — salir del embudo o mover el lote a otra etapa |
 | [2026.8.11](/es/changelog/2026/08/2026.8.11) | 25/08 | **Plantillas de tarea** — molde reutilizable, automatizaciones/macros y columnas en la lista |
@@ -25,8 +26,10 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (23)
+### Nuevas Funcionalidades (25)
+- **Reabrir atención después del cierre** (v2026.8.15) — ventana en minutos para volver al mismo ticket en lugar de abrir otro
 - **Filtros por campos personalizados del cliente** (v2026.8.14) — lista, selección múltiple, fecha y fecha/hora en la cola, el informe y los filtros rápidos
+- **Columnas de campos personalizados en el informe** (v2026.8.14) — todos los campos del cliente como checks en la exportación de atenciones
 - **Notificaciones por grupo de WhatsApp** (v2026.8.13) — cada usuario silencia push y sonido de un grupo, sin perder la lista
 - **Vaciar o mover clientes de la etapa** (v2026.8.12) — menú de la columna quita del embudo o mueve el lote a otra etapa
 - **Plantillas de tarea** (v2026.8.11) — molde por proyecto completa título, plazo relativo, responsables y checklist
@@ -50,7 +53,8 @@ Actualizaciones del mes de agosto de 2026.
 - **Instant Forms sin mapear campaña** (v2026.8.1) — solo campos y acciones; el anuncio viene en el lead
 - **Píxeles en la cuenta publicitaria** (v2026.8.1) — sync y token CAPI a nivel de Ad Account
 
-### Correcciones (4)
+### Correcciones (5)
+- **Conversión de WhatsApp en el embudo sin anuncio registrado** (v2026.8.14) — el evento Meta sigue con el canal Oficial y el identificador del clic
 - **Enter en el celular enviaba el mensaje** (v2026.8.7) — Enter inserta una nueva línea; envío con el botón
 - **Espacio vacío en el modal de mejorar texto** (v2026.8.7) — la altura sigue el contenido en el computador
 - **Cliente no encontrado al cambiar de etapa** (v2026.8.4) — la actualización del embudo vuelve a funcionar

@@ -58,6 +58,29 @@ Quando um atendente clica em "Atender" um chat com fluxo ativo:
 "Continuar Fluxo" = Cliente recebe mensagens do atendente E do fluxo!
 :::
 
+### Reabrir atendimento após o encerramento
+
+Se o cliente responder logo depois que o atendente concluiu o chat, o sistema pode **reabrir o mesmo ticket** em vez de criar um atendimento novo.
+
+**Como configurar:**
+
+1. Em **Configurações** → **Atendimento**, localize **Reabrir atendimento se o cliente responder após o encerramento**
+2. Ative o toggle
+3. Informe a janela em minutos (1 a 1440; o padrão ao ligar é 15)
+4. Salve
+
+**O que acontece:**
+
+- Mensagem do cliente **dentro da janela** → o ticket encerrado volta (mesmo número)
+- Se havia agente, a conversa volta para ele; senão, volta para a fila da equipe
+- Mensagem **fora da janela**, ou opção desligada → atendimento novo, como hoje
+
+::: tip Quem entra
+Só conversas individuais e mensagem do cliente. Grupos e mensagens enviadas pelo aparelho do agente não reabrem o ticket.
+:::
+
+> Changelog: [v2026.8.15](/changelog/2026/08/2026.8.15)
+
 ### Botão de WhatsApp Rápido
 
 Botão para abrir WhatsApp do cliente diretamente do chat, com ações automáticas.

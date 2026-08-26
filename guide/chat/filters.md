@@ -11,7 +11,7 @@ Changelog: [v2026.8.14](/changelog/2026/08/2026.8.14)
 | Superfície | O que faz |
 |------------|-----------|
 | Painel de filtros em **Chats** | Recorta a lista e os contadores |
-| **Exportar relatório** | Aplica o mesmo recorte na exportação |
+| **Exportar relatório** | Aplica o mesmo recorte e permite marcar campos personalizados como colunas |
 | **Configurar filtros rápidos** | Grava o critério no atalho da equipe |
 
 ---
@@ -50,12 +50,24 @@ Administradores podem incluir os mesmos critérios em **Configurar filtros rápi
 
 ---
 
+## Colunas no relatório
+
+Na tela **Exportar relatório**, a lista de colunas inclui **todos** os campos personalizados da organização (texto, número, lista, data, data/hora e sim/não — não só os que filtram).
+
+1. Abra **Exportar relatório** em Chats
+2. À direita, role até **Campos personalizados**
+3. Marque os campos que devem virar colunas no arquivo
+4. Exporte
+
+Os campos saem desmarcados por padrão. Grupo ou conversa sem cliente fica com a célula vazia.
+
+---
+
 ## O que não entra
 
 - Grupos do WhatsApp e chats internos (não têm cliente)
 - Conversas individuais **sem** cliente vinculado
-- Campos de texto, número e sim/não — ainda não filtram a lista
-- Colunas extras desses campos no arquivo do relatório — o recorte vale; as colunas exportáveis continuam no roadmap
+- Campos de texto, número e sim/não — ainda não filtram a lista (entram só como colunas no relatório)
 
 ---
 

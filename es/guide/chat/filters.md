@@ -11,7 +11,7 @@ Changelog: [v2026.8.14](/es/changelog/2026/08/2026.8.14)
 | Superficie | Qué hace |
 |------------|----------|
 | Panel de filtros en **Chats** | Recorta la lista y los contadores |
-| **Exportar informe** | Aplica el mismo recorte a la exportación |
+| **Exportar informe** | Aplica el mismo recorte y permite marcar campos personalizados como columnas |
 | **Configurar filtros rápidos** | Guarda el criterio en el atajo del equipo |
 
 ---
@@ -50,12 +50,24 @@ Los administradores pueden incluir los mismos criterios en **Configurar filtros 
 
 ---
 
+## Columnas en el informe
+
+En **Exportar informe**, la lista de columnas incluye **todos** los campos personalizados de la organización (texto, número, lista, fecha, fecha/hora y sí/no — no solo los que filtran).
+
+1. Abre **Exportar informe** en Chats
+2. A la derecha, baja hasta **Campos personalizados**
+3. Marca los campos que deben convertirse en columnas en el archivo
+4. Exporta
+
+Los campos salen desmarcados por defecto. Un grupo o conversación sin cliente queda con la celda vacía.
+
+---
+
 ## Qué no entra
 
 - Grupos de WhatsApp y chats internos (no tienen cliente)
 - Conversaciones individuales **sin** cliente vinculado
-- Campos de texto, número y sí/no — aún no filtran la lista
-- Columnas extra de esos campos en el archivo del informe — el recorte vale; las columnas exportables siguen en el roadmap
+- Campos de texto, número y sí/no — aún no filtran la lista (solo entran como columnas del informe)
 
 ---
 

@@ -58,6 +58,29 @@ Cuando un agente hace clic en "Atender" un chat con flujo activo:
 "Continuar Flujo" = ¡El cliente recibe mensajes del agente Y del flujo!
 :::
 
+### Reabrir atención después del cierre
+
+Si el cliente responde justo después de que el agente cierra el chat, el sistema puede **reabrir el mismo ticket** en lugar de crear una atención nueva.
+
+**Cómo configurar:**
+
+1. En **Configuración** → **Atención**, busque **Reabrir atención si el cliente responde después del cierre**
+2. Active el interruptor
+3. Indique la ventana en minutos (1 a 1440; el valor al activar es 15)
+4. Guarde
+
+**Qué sucede:**
+
+- Mensaje del cliente **dentro de la ventana** → vuelve el ticket cerrado (mismo número)
+- Si había agente, la conversación vuelve a él; si no, vuelve a la cola del equipo
+- Mensaje **fuera de la ventana**, o opción desactivada → atención nueva, como hoy
+
+::: tip Quién entra
+Solo conversaciones individuales y mensajes del cliente. Los grupos y los mensajes enviados desde el teléfono del agente no reabren el ticket.
+:::
+
+> Changelog: [v2026.8.15](/es/changelog/2026/08/2026.8.15)
+
 ### Botón de WhatsApp Rápido
 
 Botón para abrir el WhatsApp del cliente directamente del chat, con acciones automáticas.

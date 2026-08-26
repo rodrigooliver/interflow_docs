@@ -6,7 +6,8 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| [2026.8.14](/en/changelog/2026/08/2026.8.14) | 08/26 | **Filters by customer fields** — select, multi-select, date, and date/time in the queue and report |
+| [2026.8.15](/en/changelog/2026/08/2026.8.15) | 08/26 | **Reopen after closing** — same conversation if the customer replies in the window |
+| [2026.8.14](/en/changelog/2026/08/2026.8.14) | 08/26 | **Filters and columns by customer fields** — queue cut and report columns |
 | [2026.8.13](/en/changelog/2026/08/2026.8.13) | 08/26 | **Notifications per group** — mute push and sound for a WhatsApp group, only for you |
 | [2026.8.12](/en/changelog/2026/08/2026.8.12) | 08/25 | **Move or remove customers** — leave the funnel or move the batch to another stage |
 | [2026.8.11](/en/changelog/2026/08/2026.8.11) | 08/25 | **Task templates** — reusable draft, automations/macros, and list columns |
@@ -25,8 +26,10 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (23)
+### New Features (25)
+- **Reopen the chat after closing** (v2026.8.15) — minute window to return to the same ticket instead of opening another
 - **Filters by customer custom fields** (v2026.8.14) — select, multi-select, date, and date/time in the queue, report, and quick filters
+- **Custom field columns in the report** (v2026.8.14) — all customer fields as checks in the attendance export
 - **Notifications per WhatsApp group** (v2026.8.13) — each user mutes push and sound for a group, without losing the list
 - **Empty or move customers from a stage** (v2026.8.12) — column menu removes from the funnel or moves the batch to another stage
 - **Task templates** (v2026.8.11) — per-project draft fills title, relative due date, assignees, and checklist
@@ -50,7 +53,8 @@ Updates for August 2026.
 - **Instant Forms without campaign mapping** (v2026.8.1) — fields and actions only; ad comes with the lead
 - **Pixels on the ad account** (v2026.8.1) — sync and CAPI token at Ad Account level
 
-### Fixes (4)
+### Fixes (5)
+- **WhatsApp funnel conversion without a registered ad** (v2026.8.14) — Meta event goes through with the official channel and click identifier
 - **Enter on mobile sent the message** (v2026.8.7) — Enter inserts a new line; send with the button
 - **Empty space in the AI improve modal** (v2026.8.7) — height follows the content on desktop
 - **Customer not found when changing stage** (v2026.8.4) — funnel stage updates work again

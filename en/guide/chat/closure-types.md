@@ -14,3 +14,4 @@ Sidebar → **Closure types**.
 
 - [Chat interface](/en/guide/chat/interface)
 - [Flow builder](/en/guide/flows/builder)
+- [Reopen after closing](/en/guide/settings/#reopen-the-chat-after-closing)

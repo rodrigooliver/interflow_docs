@@ -29,3 +29,4 @@ Crie o fluxo antes em **Fluxos**, com tipo adequado a encerramento de atendiment
 
 - [Interface de chat](/guide/chat/interface)
 - [Construtor de fluxos](/guide/flows/builder)
+- [Reabrir após o encerramento](/guide/settings/#reabrir-atendimento-apos-o-encerramento)

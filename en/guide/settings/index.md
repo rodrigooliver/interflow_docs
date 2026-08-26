@@ -58,6 +58,29 @@ When an agent clicks "Attend" on a chat with active flow:
 "Continue Flow" = Customer receives messages from agent AND flow!
 :::
 
+### Reopen the chat after closing
+
+If the customer replies right after the agent closes the chat, the system can **reopen the same ticket** instead of creating a new conversation.
+
+**How to configure:**
+
+1. In **Settings** → **Attendance**, find **Reopen chat if the customer replies after closing**
+2. Turn the toggle on
+3. Set the window in minutes (1 to 1440; 15 when you first enable it)
+4. Save
+
+**What happens:**
+
+- Customer message **inside the window** → the closed ticket comes back (same number)
+- If there was an agent, the chat returns to them; otherwise it returns to the team queue
+- Message **outside the window**, or option off → a new conversation, as today
+
+::: tip Who is included
+Only individual chats and customer messages. Groups and messages sent from the agent’s phone do not reopen the ticket.
+:::
+
+> Changelog: [v2026.8.15](/en/changelog/2026/08/2026.8.15)
+
 ### Quick WhatsApp Button
 
 Button to open customer's WhatsApp directly from chat, with automatic actions.
