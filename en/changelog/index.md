@@ -10,6 +10,8 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.8.14](/en/changelog/2026/08/2026.8.14) | Aug 26 | **Filters by customer fields** — select, date, and date/time in the queue and report | [Filters](/en/guide/chat/filters) |
+| [v2026.8.13](/en/changelog/2026/08/2026.8.13) | Aug 26 | **Notifications per group** — mute push and sound for a WhatsApp group, only for you | [WhatsApp groups](/en/guide/chat/whatsapp-group-notifications) |
 | [v2026.8.12](/en/changelog/2026/08/2026.8.12) | Aug 25 | **Move or remove customers** — leave the funnel or move the batch to another stage | [Funnels](/en/guide/crm/funnels#empty-or-move-customers-from-a-stage) |
 | [v2026.8.11](/en/changelog/2026/08/2026.8.11) | Aug 25 | **Task templates** — reusable draft fills title, due date, assignees, and checklist | [Task templates](/en/guide/tasks/task-templates) |
 | [v2026.8.10](/en/changelog/2026/08/2026.8.10) | Aug 25 | **WAHA new-contact protection** — channel stays connected, only first contact stops | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha#new-contact-restriction) |
@@ -18,8 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.8.7](/en/changelog/2026/08/2026.8.7) | Aug 13 | **Expanded editor** — long messages full screen and Enter on mobile inserts a new line | [Interface](/en/guide/chat/interface#keyboard-shortcuts) |
 | [v2026.8.6](/en/changelog/2026/08/2026.8.6) | Aug 13 | **Channel by team** — who can start a conversation limited to selected teams | [Visibility](/en/guide/channels/start-chat-visibility) |
 | [v2026.8.5](/en/changelog/2026/08/2026.8.5) | Aug 13 | **Online / Away status** — pause support with optional automatic message | [Away](/en/guide/chat/agent-away) |
-| [v2026.8.4](/en/changelog/2026/08/2026.8.4) | Aug 12 | **Customer macros** — automation buttons and lead/client kind | [Macros](/en/guide/crm/customer-macros) |
-| [v2026.8.3](/en/changelog/2026/08/2026.8.3) | Aug 12 | **Schedule and hour bank** — real clock times, weekly overtime, close to the bank | [HR / Time clock](/en/guide/hr/) |
 
 [See all August releases →](/en/changelog/2026/08/)
 

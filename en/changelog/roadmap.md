@@ -19,7 +19,7 @@ This roadmap is updated regularly and may change based on product priorities.
 | Manual entry for cash receipts or partial debt holds | Jul 2026 | Manually register cash receipts or partial holds (e.g. legal), with amount, date, and description reflected in financial reports. |
 | Task widgets by status and user (Kanban-style) | Jul 2026 | Organize tasks in visual columns (to start, in progress, done) per user, with drag and drop. |
 | AI identifies paid-traffic customers via Meta API | Aug 2026 | Build on the Connections hub (already with ad-level attribution and Instant Forms) with automatic AI identification and origin tags for segmentation and reporting. |
-| Custom fields as filters in attendance reports | Jul 2026 | Use custom fields as filters and exportable columns in attendance reports. |
+| Custom fields as columns in attendance reports | Jul 2026 | Include customer custom fields as exportable columns in attendance reports (filters shipped in v2026.8.14). |
 | Print reports filtered by period, customer, and establishment | Aug 2026 | Print reports (e.g. account statements) filtered by period, customer, and establishment, ready to share. |
 | Manual cash payment receipt with installment settlement | Aug 2026 | Register a cash payment, generate a receipt, and settle the installment automatically in finance. |
 | Billing flow adjustments and default succumbency value | Aug 2026 | Avoid unwanted automatic billing creation, standardize charge names, and keep succumbency at zero by default unless edited. |

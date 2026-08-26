@@ -39,11 +39,12 @@ Crie filtros customizados para organizar suas conversas:
    - **Tags**: Filtrar por tags específicas
    - **Canais**: Um ou vários (WhatsApp, Instagram, etc.)
    - **Status**: Em andamento, pendente, etc.
+   - **Campos personalizados**: lista, múltipla escolha, data e data/hora do cliente (todos, sem valor ou valores/período)
 4. Personalize nome, ícone e **cor** (paleta expandida disponível!)
 5. Salve
 
 ::: tip Dica
-Você pode filtrar por **múltiplas equipes** e **múltiplos canais** ao mesmo tempo — útil para supervisores e times que operam vários números de WhatsApp.
+Você pode filtrar por **múltiplas equipes** e **múltiplos canais** ao mesmo tempo — útil para supervisores e times que operam vários números de WhatsApp. Os campos personalizados do cliente (lista, data e data/hora) estão detalhados em [Filtros de conversas](/guide/chat/filters).
 :::
 
 ### Busca de Conversas
@@ -446,6 +447,12 @@ Ao criar um Grupo Interno, configure as permissões:
 - Título com nome do remetente: `Nome · Chat Interno` (DM) ou `Nome · Nome do Grupo` (grupo)
 - Contagem de não lidas individual por usuário
 - Remetente não recebe notificação da própria mensagem
+
+### Notificações de grupos do WhatsApp
+
+Em grupos externos com muito movimento, cada usuário pode **desativar o push e o som** só para si. A conversa e o badge de não lidos continuam.
+
+Guia: [Notificações de grupos do WhatsApp](/guide/chat/whatsapp-group-notifications)
 
 ---
 

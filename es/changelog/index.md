@@ -10,6 +10,8 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.8.14](/es/changelog/2026/08/2026.8.14) | 26/08 | **Filtros por campos del cliente** — lista, fecha y fecha/hora en la cola y el informe | [Filtros](/es/guide/chat/filters) |
+| [v2026.8.13](/es/changelog/2026/08/2026.8.13) | 26/08 | **Notificaciones por grupo** — silenciar push y sonido de un grupo de WhatsApp, solo para ti | [Grupos WhatsApp](/es/guide/chat/whatsapp-group-notifications) |
 | [v2026.8.12](/es/changelog/2026/08/2026.8.12) | 25/08 | **Mover o quitar clientes** — salir del embudo o mover el lote a otra etapa | [Embudos](/es/guide/crm/funnels#vaciar-o-mover-clientes-de-la-etapa) |
 | [v2026.8.11](/es/changelog/2026/08/2026.8.11) | 25/08 | **Plantillas de tarea** — molde reutilizable completa título, plazo, responsables y checklist | [Plantillas de tarea](/es/guide/tasks/task-templates) |
 | [v2026.8.10](/es/changelog/2026/08/2026.8.10) | 25/08 | **Protección de contactos nuevos en WAHA** — canal conectado, solo el primer contacto para | [WhatsApp WAHA](/es/guide/channels/whatsapp-waha#restriccion-de-contactos-nuevos) |
@@ -18,8 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.8.7](/es/changelog/2026/08/2026.8.7) | 13/08 | **Editor expandido** — mensajes largos a pantalla completa y Enter en el celular inserta línea | [Interfaz](/es/guide/chat/interface#atajos-de-teclado) |
 | [v2026.8.6](/es/changelog/2026/08/2026.8.6) | 13/08 | **Canal por equipo** — quién puede iniciar conversación limitado a los equipos marcados | [Visibilidad](/es/guide/channels/start-chat-visibility) |
 | [v2026.8.5](/es/changelog/2026/08/2026.8.5) | 13/08 | **Estado En línea / Ausente** — pausa en la atención con mensaje automático opcional | [Ausente](/es/guide/chat/agent-away) |
-| [v2026.8.4](/es/changelog/2026/08/2026.8.4) | 12/08 | **Macros de cliente** — botones de automatización y tipo lead/cliente | [Macros](/es/guide/crm/customer-macros) |
-| [v2026.8.3](/es/changelog/2026/08/2026.8.3) | 12/08 | **Jornada y banco de horas** — horario real, 1h extra semanal y cierre en el banco | [RRHH / Fichaje](/es/guide/hr/) |
 
 [Ver todas las releases de agosto →](/es/changelog/2026/08/)
 

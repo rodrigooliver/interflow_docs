@@ -6,6 +6,8 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.14](/en/changelog/2026/08/2026.8.14) | 08/26 | **Filters by customer fields** — select, multi-select, date, and date/time in the queue and report |
+| [2026.8.13](/en/changelog/2026/08/2026.8.13) | 08/26 | **Notifications per group** — mute push and sound for a WhatsApp group, only for you |
 | [2026.8.12](/en/changelog/2026/08/2026.8.12) | 08/25 | **Move or remove customers** — leave the funnel or move the batch to another stage |
 | [2026.8.11](/en/changelog/2026/08/2026.8.11) | 08/25 | **Task templates** — reusable draft, automations/macros, and list columns |
 | [2026.8.10](/en/changelog/2026/08/2026.8.10) | 08/25 | **WAHA new-contact protection** — channel stays connected, only first contact stops |
@@ -23,7 +25,9 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (21)
+### New Features (23)
+- **Filters by customer custom fields** (v2026.8.14) — select, multi-select, date, and date/time in the queue, report, and quick filters
+- **Notifications per WhatsApp group** (v2026.8.13) — each user mutes push and sound for a group, without losing the list
 - **Empty or move customers from a stage** (v2026.8.12) — column menu removes from the funnel or moves the batch to another stage
 - **Task templates** (v2026.8.11) — per-project draft fills title, relative due date, assignees, and checklist
 - **Templates in automations and macros** (v2026.8.11) — create a task from the draft; condition by template

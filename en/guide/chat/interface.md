@@ -39,11 +39,12 @@ Create custom filters to organize your conversations:
    - **Tags**: Filter by specific tags
    - **Channels**: One or more (WhatsApp, Instagram, etc.)
    - **Status**: In progress, pending, etc.
+   - **Custom fields**: customer select, multi-select, date, and date/time (all, blank, or specific values/period)
 4. Customize name, icon and **color** (expanded palette available!)
 5. Save
 
 ::: tip Tip
-You can filter by **multiple teams** and **multiple channels** at once — useful for supervisors and teams that operate several WhatsApp numbers.
+You can filter by **multiple teams** and **multiple channels** at once — useful for supervisors and teams that operate several WhatsApp numbers. Customer custom fields (select, date, and date/time) are covered in [Conversation filters](/en/guide/chat/filters).
 :::
 
 ### Conversation Search
@@ -359,6 +360,12 @@ When creating an Internal Group, configure permissions:
 - Title with sender name: `Name · Internal Chat` (DM) or `Name · Group Name` (group)
 - Individual unread count per user
 - Sender doesn't receive notification for their own message
+
+### WhatsApp group notifications
+
+In busy external groups, each user can **turn off push and sound** only for themselves. The conversation and the unread badge stay.
+
+Guide: [WhatsApp group notifications](/en/guide/chat/whatsapp-group-notifications)
 
 ---
 

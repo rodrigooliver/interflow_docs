@@ -45,6 +45,8 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Chat Interface' : lang === 'es' ? 'Interfaz de Chat' : 'Interface de Chat', link: `${prefix}/guide/chat/interface` },
+          { text: lang === 'en' ? 'Conversation filters' : lang === 'es' ? 'Filtros de conversaciones' : 'Filtros de conversas', link: `${prefix}/guide/chat/filters` },
+          { text: lang === 'en' ? 'WhatsApp group notifications' : lang === 'es' ? 'Notificaciones de grupos de WhatsApp' : 'Notificações de grupos do WhatsApp', link: `${prefix}/guide/chat/whatsapp-group-notifications` },
           { text: lang === 'en' ? 'Online / Away status' : lang === 'es' ? 'Estado En línea / Ausente' : 'Status Online / Ausente', link: `${prefix}/guide/chat/agent-away` },
           { text: lang === 'en' ? 'Bulk Messages' : lang === 'es' ? 'Disparos masivos' : 'Disparos em Massa', link: `${prefix}/guide/chat/bulk-messages` },
           { text: 'Tags', link: `${prefix}/guide/chat/tags` },
@@ -356,6 +358,8 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/08/` },
+              { text: 'v2026.8.14', link: `${prefix}/changelog/2026/08/2026.8.14` },
+              { text: 'v2026.8.13', link: `${prefix}/changelog/2026/08/2026.8.13` },
               { text: 'v2026.8.12', link: `${prefix}/changelog/2026/08/2026.8.12` },
               { text: 'v2026.8.11', link: `${prefix}/changelog/2026/08/2026.8.11` },
               { text: 'v2026.8.10', link: `${prefix}/changelog/2026/08/2026.8.10` },

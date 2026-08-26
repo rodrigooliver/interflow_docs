@@ -19,7 +19,7 @@ Este roadmap se actualiza con regularidad y puede cambiar según las prioridades
 | Registro manual de cobros o bloqueos parciales de deudas | Jul/2026 | Registrar manualmente cobros en efectivo o bloqueos parciales (p. ej. judiciales), con valor, fecha y descripción en los informes financieros. |
 | Widgets de tareas por estado y usuario (estilo Kanban) | Jul/2026 | Organizar tareas en columnas visuales (iniciar, en desarrollo, concluidas) por usuario, con arrastrar y soltar. |
 | IA identifica clientes de tráfico pago vía API Meta | Ago/2026 | Complementar el hub Connections (ya con atribución por anuncio e Instant Forms) con identificación automática por IA y tags de origen para segmentación e informes. |
-| Campos personalizados como filtros en informes de atención | Jul/2026 | Usar campos personalizados como filtros y columnas exportables en informes de atención. |
+| Campos personalizados como columnas en informes de atención | Jul/2026 | Incluir campos personalizados del cliente como columnas exportables en el informe de atenciones (los filtros ya están en la v2026.8.14). |
 | Impresión de informes filtrados por período, cliente y establecimiento | Ago/2026 | Imprimir informes (p. ej. rendición de cuentas) con filtros de período, cliente y establecimiento, listos para compartir. |
 | Recibo manual de pago en efectivo con baja de cuota | Ago/2026 | Registrar un cobro en efectivo, generar recibo y liquidar la cuota automáticamente en el financiero. |
 | Ajustes en el flujo de cobros y sucumbencia por defecto | Ago/2026 | Evitar creación automática indeseada de cobros, estandarizar el nombre y mantener la sucumbencia en cero por defecto, editable bajo demanda. |

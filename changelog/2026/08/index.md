@@ -6,6 +6,8 @@ Atualizações do mês de agosto de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.8.14](/changelog/2026/08/2026.8.14) | 26/08 | **Filtros por campos do cliente** — lista, múltipla escolha, data e data/hora na fila e no relatório |
+| [2026.8.13](/changelog/2026/08/2026.8.13) | 26/08 | **Notificações por grupo** — silenciar push e som de um grupo do WhatsApp, só para você |
 | [2026.8.12](/changelog/2026/08/2026.8.12) | 25/08 | **Mover ou remover clientes** — tirar do funil ou mover o lote para outra etapa |
 | [2026.8.11](/changelog/2026/08/2026.8.11) | 25/08 | **Templates de tarefa** — molde reutilizável, automações/macros e colunas na lista |
 | [2026.8.10](/changelog/2026/08/2026.8.10) | 25/08 | **Proteção de novos contatos no WAHA** — canal conectado, só o primeiro contato para |
@@ -23,7 +25,9 @@ Atualizações do mês de agosto de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (21)
+### Novas Funcionalidades (23)
+- **Filtros por campos personalizados do cliente** (v2026.8.14) — lista, múltipla escolha, data e data/hora na fila, no relatório e nos filtros rápidos
+- **Notificações por grupo do WhatsApp** (v2026.8.13) — cada usuário silencia push e som de um grupo, sem perder a lista
 - **Esvaziar ou mover clientes do estágio** (v2026.8.12) — menu da coluna remove do funil ou move o lote para outra etapa
 - **Templates de tarefa** (v2026.8.11) — molde por projeto preenche título, prazo relativo, responsáveis e checklist
 - **Templates em automações e macros** (v2026.8.11) — criar tarefa a partir do molde; condição por template

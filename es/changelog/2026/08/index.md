@@ -6,6 +6,8 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.8.14](/es/changelog/2026/08/2026.8.14) | 26/08 | **Filtros por campos del cliente** — lista, selección múltiple, fecha y fecha/hora en la cola y el informe |
+| [2026.8.13](/es/changelog/2026/08/2026.8.13) | 26/08 | **Notificaciones por grupo** — silenciar push y sonido de un grupo de WhatsApp, solo para ti |
 | [2026.8.12](/es/changelog/2026/08/2026.8.12) | 25/08 | **Mover o quitar clientes** — salir del embudo o mover el lote a otra etapa |
 | [2026.8.11](/es/changelog/2026/08/2026.8.11) | 25/08 | **Plantillas de tarea** — molde reutilizable, automatizaciones/macros y columnas en la lista |
 | [2026.8.10](/es/changelog/2026/08/2026.8.10) | 25/08 | **Protección de contactos nuevos en WAHA** — canal conectado, solo el primer contacto para |
@@ -23,7 +25,9 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (21)
+### Nuevas Funcionalidades (23)
+- **Filtros por campos personalizados del cliente** (v2026.8.14) — lista, selección múltiple, fecha y fecha/hora en la cola, el informe y los filtros rápidos
+- **Notificaciones por grupo de WhatsApp** (v2026.8.13) — cada usuario silencia push y sonido de un grupo, sin perder la lista
 - **Vaciar o mover clientes de la etapa** (v2026.8.12) — menú de la columna quita del embudo o mueve el lote a otra etapa
 - **Plantillas de tarea** (v2026.8.11) — molde por proyecto completa título, plazo relativo, responsables y checklist
 - **Plantillas en automatizaciones y macros** (v2026.8.11) — crear tarea a partir del molde; condición por plantilla
