@@ -105,8 +105,9 @@ Esta é a aba principal onde você define o prompt/instruções do agente.
 - **Condições no texto**: botão de ramificação para blocos se / senão por canal, funil e tags — [Canal e condições](/guide/ai-agents/channel-conditions)
 - **Gerar com IA**: Cria o contexto automaticamente baseado em uma descrição
 - **Melhorar**: Melhora o texto existente usando IA
-- **Questões**: Visualiza perguntas que o agente não soube responder (apenas em edição)
-- **Contextos Extras**: Adicione informações complementares (ex: listas de produtos), com filtro **Exibir quando**
+- **Fora de contexto**: perguntas de clientes que não estavam no contexto do agente (apenas em edição)
+- **Mensagens e dados do cliente**: limite de histórico e quais dados do cadastro entram no modelo, com máscara opcional
+- **Skills**: contextos adicionais concatenados ao prompt (listas, FAQs, regras), com filtro **Exibir quando**
 - **Uso de Tokens**: Acompanhe o consumo de tokens em tempo real (para Interflow)
 
 **Exemplo de Prompt:**
@@ -396,20 +397,42 @@ A IA automaticamente:
 - ✅ **Explica ao cliente** o motivo da indisponibilidade
 - ✅ **Sugere automaticamente** datas alternativas
 
-## Contextos Extras
+## Mensagens e dados do cliente
 
-Adicione informações complementares ao contexto do agente, como listas de produtos, FAQs, ou qualquer conteúdo que o agente possa precisar consultar.
+Cada agente controla **quanto histórico** e **quais dados do cliente** entram no contexto enviado ao modelo. Na aba **Contexto**, o botão **Mensagens e dados do cliente** abre essa configuração.
 
-### Tipos Disponíveis
-- **Lista WhatsApp**: Formata o conteúdo para exibição em listas do WhatsApp
+O **limite de mensagens** define quantas mensagens do chat atual o modelo vê (1 a 200; padrão 50). Em conversas longas, um limite menor reduz tokens sem mudar o prompt.
 
-### Como Adicionar
-1. Na aba **Contexto**, clique em **"+ Adicionar"** em Contextos Extras
-2. Preencha título, descrição e conteúdo
-3. (Opcional) defina **Exibir quando** — canal, estágio e/ou tags
-4. Salve
+Em **Dados do cliente**, escolha o que vai na primeira mensagem após o prompt:
 
-Os contextos que passam na condição são concatenados em um único texto. Sem filtro, o bloco entra sempre. Guia: [Canal e condições](/guide/ai-agents/channel-conditions).
+| Opção | O que o modelo recebe |
+|-------|------------------------|
+| **Sim** | Todos os campos do cadastro. Opcional: ligar **Mascarar dados** e marcar o que ocultar em parte (CPF, e-mail, telefone, endereço) |
+| **Não** | Nenhum dado cadastral |
+| **Alguns** | Só os campos marcados em **Enviar**; em cada um, dá para marcar **Mascarar** |
+
+Campos disponíveis: nome, e-mail, documento (CPF/CNPJ), país, contatos, endereços, tags, estágio do funil, campos personalizados, conversas anteriores e agendamentos futuros. **Canal** e **data/hora** do sistema entram sempre, independente dessa opção.
+
+Agentes antigos sem essa configuração seguem com 50 mensagens e todos os dados, sem máscara.
+
+> Changelog: [v2026.8.21](/changelog/2026/08/2026.8.21)
+
+## Skills
+
+Skills são **contextos adicionais** concatenados ao prompt do agente — listas de produtos, FAQs, regras ou qualquer bloco extra. Diferente da base de conhecimento, o conteúdo entra direto no contexto, sem a IA precisar chamar uma ferramenta.
+
+### Tipos
+- **Texto livre**: FAQ, regras, catálogo
+- **Lista WhatsApp**: Formata o conteúdo para listas interativas do WhatsApp
+
+### Como adicionar
+1. Na aba **Contexto**, em **Skills**, clique em **Adicionar skill**
+2. Escolha o tipo (texto livre ou lista WhatsApp)
+3. Preencha título, descrição e conteúdo
+4. (Opcional) defina **Exibir quando** — canal, estágio e/ou tags
+5. Salve o contexto do agente
+
+As skills que passam na condição são concatenadas em um único texto. Sem filtro, o bloco entra sempre. Guia: [Canal e condições](/guide/ai-agents/channel-conditions).
 
 ## Boas Práticas
 
@@ -420,7 +443,7 @@ Os contextos que passam na condição são concatenados em um único texto. Sem 
 - Limite o escopo de atuação (o que a IA pode e não pode fazer)
 - Teste exaustivamente antes de colocar em produção
 - Monitore as conversas e ajuste o prompt
-- Use a aba "Questões" para identificar gaps no contexto
+- Use **Fora de contexto** para ver perguntas de clientes que o agente não encontrou no contexto
 
 ### ❌ Evite
 

@@ -6,6 +6,8 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.22](/en/changelog/2026/08/2026.8.22) | 08/27 | **One-off message on pending** — reply without taking over the conversation |
+| [2026.8.21](/en/changelog/2026/08/2026.8.21) | 08/27 | **Messages and customer data** — history limit and profile masking on the AI Agent |
 | [2026.8.20](/en/changelog/2026/08/2026.8.20) | 08/26 | **Create chat from the AI Agent** — collect data and open (or continue) the conversation on the channel |
 | [2026.8.19](/en/changelog/2026/08/2026.8.19) | 08/26 | **`contact` field on the API** — create a chat with just the contact; type comes from the channel |
 | [2026.8.18](/en/changelog/2026/08/2026.8.18) | 08/26 | **Cash receipt** — settle the installment with a printable or downloadable proof |
@@ -31,7 +33,9 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (30)
+### New Features (32)
+- **One-off message on a pending chat** (v2026.8.22) — button to send a message without taking over; the input opens only after the click
+- **Messages and customer data on the AI Agent** (v2026.8.21) — history limit and which profile fields go to the model, with optional masking
 - **Create or continue chat from the AI Agent** (v2026.8.20) — collect data in the conversation and open (or reuse) the chat on the channel, with flow, funnel, and tags
 - **`contact` field on the create-chat API** (v2026.8.19) — one field; type inferred from the channel; old format still valid
 - **Cash payment receipt** (v2026.8.18) — settle the installment, post to the cash register, and print or download a PDF proof

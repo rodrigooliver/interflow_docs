@@ -30,7 +30,7 @@ Se já existir um chat ativo (`pending`, `em atendimento` ou `aguardando encerra
 
 ## O que a IA pode pedir
 
-Para cada dado (nome, WhatsApp, e-mail, telefone, documento, Instagram, Facebook):
+Para cada dado (nome, WhatsApp, e-mail, telefone, documento, Instagram, Facebook, valor de compra):
 
 | Modo | Efeito |
 |------|--------|

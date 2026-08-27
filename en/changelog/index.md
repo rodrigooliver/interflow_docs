@@ -10,6 +10,8 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.8.22](/en/changelog/2026/08/2026.8.22) | Aug 27 | **One-off message on pending** — reply without taking over the conversation | [Settings](/en/guide/settings/#allow-message-without-attending) |
+| [v2026.8.21](/en/changelog/2026/08/2026.8.21) | Aug 27 | **Messages and customer data** — history limit and profile masking on the AI Agent | [AI Agents](/en/guide/ai-agents/#messages-and-customer-data) |
 | [v2026.8.20](/en/changelog/2026/08/2026.8.20) | Aug 26 | **Create chat from the AI Agent** — collect data and open (or continue) the conversation on the channel | [Create or continue chat](/en/guide/ai-agents/tools/create-chat) |
 | [v2026.8.19](/en/changelog/2026/08/2026.8.19) | Aug 26 | **`contact` field on the API** — create a chat with just the contact; type comes from the channel | [Create Chat](/en/api/chats/create) |
 | [v2026.8.18](/en/changelog/2026/08/2026.8.18) | Aug 26 | **Cash receipt** — settle the installment with a printable or downloadable proof | |
@@ -18,8 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.8.15](/en/changelog/2026/08/2026.8.15) | Aug 26 | **Reopen after closing** — same conversation if the customer replies in the window | [Settings](/en/guide/settings/#reopen-the-chat-after-closing) |
 | [v2026.8.14](/en/changelog/2026/08/2026.8.14) | Aug 26 | **Filters and columns by customer fields** — queue cut and report columns | [Filters](/en/guide/chat/filters) |
 | [v2026.8.13](/en/changelog/2026/08/2026.8.13) | Aug 26 | **Notifications per group** — mute push and sound for a WhatsApp group, only for you | [WhatsApp groups](/en/guide/chat/whatsapp-group-notifications) |
-| [v2026.8.12](/en/changelog/2026/08/2026.8.12) | Aug 25 | **Move or remove customers** — leave the funnel or move the batch to another stage | [Funnels](/en/guide/crm/funnels#empty-or-move-customers-from-a-stage) |
-| [v2026.8.11](/en/changelog/2026/08/2026.8.11) | Aug 25 | **Task templates** — reusable draft fills title, due date, assignees, and checklist | [Task templates](/en/guide/tasks/task-templates) |
 
 [See all August releases →](/en/changelog/2026/08/)
 

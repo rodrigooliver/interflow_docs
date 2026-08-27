@@ -61,6 +61,7 @@ Authorization: Bearer ak_tu_api_key
 | `instagram` | string | Instagram ID. **Obligatorio** en canal Instagram |
 | `facebook` | string | Facebook ID. **Obligatorio** en canal Facebook |
 | `document` | string | CPF/CNPJ (u otro documento). Solo se rellena si el cliente aún no tiene documento |
+| `salePrice` / `sale_price` | number \| string | Valor de compra/venta (`customers.sale_price`). Solo se rellena si está vacío |
 | `tags` | string[] \| string | Nombres de tags (existentes). No crea una tag nueva |
 | `customFields` | object \| array | Campos personalizados por **slug**: `{ "inversion": "Hasta 15 mil" }` o `[{ "slug": "inversion", "value": "Hasta 15 mil" }]` |
 | `forceUpdate` | object | Qué campos sobrescribir aunque ya tengan valor. Ver la tabla abajo |
@@ -78,6 +79,7 @@ Sin `forceUpdate`, un cliente existente solo rellena lo que esté **vacío**. Ma
 | `instagram` | Actualiza el Instagram ID |
 | `facebook` | Actualiza el Facebook ID |
 | `document` | Sobrescribe el documento |
+| `sale_price` | Sobrescribe el valor de compra |
 | `customFields` | `true` fuerza todos los slugs enviados; o lista (`["inversion"]`) / slug (`"inversion"`) |
 
 ### Identificador por el canal

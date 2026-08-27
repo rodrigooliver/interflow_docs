@@ -6,6 +6,8 @@ Atualizações do mês de agosto de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento |
+| [2026.8.21](/changelog/2026/08/2026.8.21) | 27/08 | **Mensagens e dados do cliente** — limite de histórico e máscara de cadastro no Agente IA |
 | [2026.8.20](/changelog/2026/08/2026.8.20) | 26/08 | **Criar chat pelo Agente IA** — recolhe dados e abre (ou continua) o atendimento no canal |
 | [2026.8.19](/changelog/2026/08/2026.8.19) | 26/08 | **Campo `contact` na API** — criar chat só com o contato; o tipo vem do canal |
 | [2026.8.18](/changelog/2026/08/2026.8.18) | 26/08 | **Recibo em dinheiro** — baixa da parcela com comprovante para imprimir ou baixar |
@@ -31,7 +33,9 @@ Atualizações do mês de agosto de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (30)
+### Novas Funcionalidades (32)
+- **Mensagem avulsa em chat pendente** (v2026.8.22) — botão para enviar mensagem sem assumir o atendimento; o input só abre após o clique
+- **Mensagens e dados do cliente no Agente IA** (v2026.8.21) — limite de histórico e quais dados do cadastro entram no modelo, com máscara opcional
 - **Criar ou continuar chat pelo Agente IA** (v2026.8.20) — recolhe dados na conversa e abre (ou reutiliza) o atendimento no canal, com fluxo, funil e tags
 - **Campo `contact` na API de criar chat** (v2026.8.19) — um campo só; o tipo é inferido pelo canal; o formato antigo continua válido
 - **Recibo de pagamento em dinheiro** (v2026.8.18) — baixa da parcela, lançamento no caixa e comprovante para imprimir ou baixar em PDF

@@ -105,8 +105,9 @@ This is the main tab where you define the agent's prompt/instructions.
 - **Conditions in the text**: branch button for if / else blocks by channel, funnel, and tags — [Channel and conditions](/en/guide/ai-agents/channel-conditions)
 - **Generate with AI**: Creates context automatically based on a description
 - **Improve**: Improves existing text using AI
-- **Questions**: View questions the agent couldn't answer (edit mode only)
-- **Extra Contexts**: Add supplementary information (e.g., product lists), with a **Show when** filter
+- **Out of context**: customer questions that were not found in the agent context (edit mode only)
+- **Messages and customer data**: history limit and which profile fields go to the model, with optional masking
+- **Skills**: additional context concatenated into the prompt (lists, FAQs, rules), with a **Show when** filter
 - **Token Usage**: Track token consumption in real time (for Interflow)
 
 ### 2. Test
@@ -363,20 +364,42 @@ The AI can manage appointments conversationally:
        I'll send a reminder 24h before. See you then! 😊
 ```
 
-## Extra Contexts
+## Messages and customer data
 
-Add supplementary information to the agent's context, such as product lists, FAQs, or any content the agent might need.
+Each agent controls **how much history** and **which customer data** go into the context sent to the model. On the **Context** tab, **Messages and customer data** opens these settings.
 
-### Available Types
-- **WhatsApp List**: Formats content for display in WhatsApp lists
+The **message limit** is how many messages from the current chat the model sees (1 to 200; default 50). On long conversations, a lower limit cuts tokens without changing the prompt.
 
-### How to Add
-1. In the **Context** tab, click **"+ Add"** in Extra Contexts
-2. Fill in title, description, and content
-3. (Optional) set **Show when** — channel, stage, and/or tags
-4. Save
+Under **Customer data**, choose what goes in the first message after the prompt:
 
-Matching extra contexts are concatenated into a single text. With no filter, the block is always included. Guide: [Channel and conditions](/en/guide/ai-agents/channel-conditions).
+| Option | What the model receives |
+|--------|-------------------------|
+| **Yes** | All profile fields. Optional: turn on **Mask data** and pick what to partially hide (tax ID, email, phone, address) |
+| **No** | No profile data |
+| **Some** | Only the fields marked **Send**; on each one, you can also mark **Mask** |
+
+Available fields: name, email, document (tax ID), country, contacts, addresses, tags, funnel stage, custom fields, previous conversations, and upcoming appointments. **Channel** and system **date/time** are always included, regardless of this option.
+
+Existing agents without this setting keep 50 messages and all data, unmasked.
+
+> Changelog: [v2026.8.21](/en/changelog/2026/08/2026.8.21)
+
+## Skills
+
+Skills are **additional context** concatenated into the agent's prompt — product lists, FAQs, rules, or any extra block. Unlike the knowledge base, the content goes straight into context; the AI does not need to call a tool.
+
+### Types
+- **Free text**: FAQ, rules, catalog
+- **WhatsApp List**: Formats content for interactive WhatsApp lists
+
+### How to add
+1. On the **Context** tab, under **Skills**, click **Add skill**
+2. Choose the type (free text or WhatsApp list)
+3. Fill in title, description, and content
+4. (Optional) set **Show when** — channel, stage, and/or tags
+5. Save the agent context
+
+Matching skills are concatenated into a single text. With no filter, the block is always included. Guide: [Channel and conditions](/en/guide/ai-agents/channel-conditions).
 
 ## Best Practices
 
@@ -387,7 +410,7 @@ Matching extra contexts are concatenated into a single text. With no filter, the
 - Limit the scope of action (what AI can and cannot do)
 - Test extensively before going live
 - Monitor conversations and adjust the prompt
-- Use the "Questions" tab to identify context gaps
+- Use **Out of context** to review customer questions the agent did not find in the context
 
 ### ❌ Avoid
 

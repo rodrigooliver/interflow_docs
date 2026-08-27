@@ -98,7 +98,7 @@ Cree el agente desde cero, configurando cada detalle manualmente.
 El editor de Agentes IA tiene **6 pestañas principales**:
 
 ### 1. Contexto
-Pestaña principal donde define las instrucciones del agente. El editor incluye un botón de ramificación para bloques si / si no por canal, embudo y etiquetas. Detalles: [Canal y condiciones](/es/guide/ai-agents/channel-conditions).
+Pestaña principal donde define las instrucciones del agente. El editor incluye un botón de ramificación para bloques si / si no por canal, embudo y etiquetas. Detalles: [Canal y condiciones](/es/guide/ai-agents/channel-conditions). En **Mensajes y datos del cliente** configura el límite de historial y qué datos de la ficha entran al modelo. En **Skills** agrega contextos adicionales concatenados al prompt.
 
 ### 2. Probar
 Permite conversar directamente con el Agente IA antes de ponerlo en producción. Abra **Simular contexto** para elegir canal, etapa y etiquetas y validar las condiciones.
@@ -247,6 +247,43 @@ Al transferir a equipo humano, la IA puede generar automáticamente un resumen:
 2. Marque: ✅ **"Generar resumen al transferir"**
 3. Guarde
 
+## Mensajes y datos del cliente
+
+Cada agente controla **cuánto historial** y **qué datos del cliente** entran en el contexto enviado al modelo. En la pestaña **Contexto**, **Mensajes y datos del cliente** abre esta configuración.
+
+El **límite de mensajes** define cuántos mensajes del chat actual ve el modelo (1 a 200; predeterminado 50). En conversaciones largas, un límite menor reduce tokens sin cambiar el prompt.
+
+En **Datos del cliente**, elija lo que va en el primer mensaje después del prompt:
+
+| Opción | Qué recibe el modelo |
+|--------|----------------------|
+| **Sí** | Todos los campos de la ficha. Opcional: activar **Enmascarar datos** y marcar qué ocultar en parte (documento, correo, teléfono, dirección) |
+| **No** | Ningún dato de la ficha |
+| **Algunos** | Solo los campos marcados en **Enviar**; en cada uno, puede marcar **Enmascarar** |
+
+Campos disponibles: nombre, email, documento, país, contactos, direcciones, etiquetas, etapa del embudo, campos personalizados, conversaciones anteriores y citas futuras. **Canal** y **fecha/hora** del sistema entran siempre, independiente de esta opción.
+
+Los agentes antiguos sin esta configuración siguen con 50 mensajes y todos los datos, sin máscara.
+
+> Changelog: [v2026.8.21](/es/changelog/2026/08/2026.8.21)
+
+## Skills
+
+Las skills son **contextos adicionales** concatenados al prompt del agente — listas de productos, FAQs, reglas o cualquier bloque extra. A diferencia de la base de conocimiento, el contenido entra directo al contexto, sin que la IA llame a una herramienta.
+
+### Tipos
+- **Texto libre**: FAQ, reglas, catálogo
+- **Lista de WhatsApp**: Formatea el contenido para listas interactivas de WhatsApp
+
+### Cómo agregar
+1. En la pestaña **Contexto**, en **Skills**, haga clic en **Añadir skill**
+2. Elija el tipo (texto libre o lista de WhatsApp)
+3. Complete título, descripción y contenido
+4. (Opcional) defina **Mostrar cuando** — canal, etapa y/o etiquetas
+5. Guarde el contexto del agente
+
+Las skills que cumplen la condición se concatenan en un solo texto. Sin filtro, el bloque entra siempre. Guía: [Canal y condiciones](/es/guide/ai-agents/channel-conditions).
+
 ## Buenas Prácticas
 
 ### ✅ Haga
@@ -255,7 +292,7 @@ Al transferir a equipo humano, la IA puede generar automáticamente un resumen:
 - Proporcione ejemplos de respuestas ideales
 - Limite el alcance de actuación
 - Pruebe exhaustivamente antes de publicar
-- Use la pestaña "Preguntas" para identificar vacíos en el contexto
+- Use **Fuera de contexto** para ver preguntas de clientes que el agente no encontró en el contexto
 
 ### ❌ Evite
 

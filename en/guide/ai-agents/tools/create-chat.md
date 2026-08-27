@@ -30,7 +30,7 @@ If an active chat already exists (`pending`, `in progress`, or `awaiting close`)
 
 ## What the AI may ask
 
-For each field (name, WhatsApp, email, phone, document, Instagram, Facebook):
+For each field (name, WhatsApp, email, phone, document, Instagram, Facebook, purchase value):
 
 | Mode | Effect |
 |------|--------|

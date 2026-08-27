@@ -6,6 +6,8 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.8.22](/es/changelog/2026/08/2026.8.22) | 27/08 | **Mensaje suelto en pendiente** — responder sin asumir la atención |
+| [2026.8.21](/es/changelog/2026/08/2026.8.21) | 27/08 | **Mensajes y datos del cliente** — límite de historial y máscara de la ficha en el Agente IA |
 | [2026.8.20](/es/changelog/2026/08/2026.8.20) | 26/08 | **Crear chat desde el Agente IA** — recolecta datos y abre (o continúa) la atención en el canal |
 | [2026.8.19](/es/changelog/2026/08/2026.8.19) | 26/08 | **Campo `contact` en la API** — crear chat solo con el contacto; el tipo viene del canal |
 | [2026.8.18](/es/changelog/2026/08/2026.8.18) | 26/08 | **Recibo en efectivo** — baja de la cuota con comprobante para imprimir o descargar |
@@ -31,7 +33,9 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (30)
+### Nuevas Funcionalidades (32)
+- **Mensaje suelto en un chat pendiente** (v2026.8.22) — botón para enviar un mensaje sin asumir la atención; el campo solo se abre después del clic
+- **Mensajes y datos del cliente en el Agente IA** (v2026.8.21) — límite de historial y qué datos de la ficha entran al modelo, con máscara opcional
 - **Crear o continuar chat desde el Agente IA** (v2026.8.20) — recolecta datos en la conversación y abre (o reutiliza) la atención en el canal, con flujo, embudo y etiquetas
 - **Campo `contact` en la API de crear chat** (v2026.8.19) — un solo campo; el tipo se infiere del canal; el formato antiguo sigue válido
 - **Recibo de pago en efectivo** (v2026.8.18) — baja de la cuota, asiento en caja y comprobante para imprimir o descargar en PDF

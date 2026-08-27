@@ -58,6 +58,31 @@ When an agent clicks "Attend" on a chat with active flow:
 "Continue Flow" = Customer receives messages from agent AND flow!
 :::
 
+### Allow message without attending
+
+On **pending** chats, the footer only shows **Attend**. With this option on, **Send a message** also appears: the agent unlocks the field, sends, and the ticket **stays in the queue**.
+
+**How to configure:**
+
+1. In **Settings** → **Attendance**, find **Allow message without attending**
+2. Turn the toggle on
+3. Save
+
+**What happens:**
+
+- Pending chat → two buttons: **Attend** and **Send a message**
+- The message field does **not** open on its own; only after the second button
+- Closing the conversation or opening another one brings both buttons back
+- Sending the message does **not** take over the conversation
+- Chat reserved for another agent → reservation banner, no buttons
+- Closed 24-hour window → the existing notice, not the composer
+
+::: tip Default
+The option starts off. Only an admin or owner can change it in organization settings.
+:::
+
+> Changelog: [v2026.8.22](/en/changelog/2026/08/2026.8.22)
+
 ### Reopen the chat after closing
 
 If the customer replies right after the agent closes the chat, the system can **reopen the same ticket** instead of creating a new conversation.

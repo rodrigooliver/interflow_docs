@@ -30,7 +30,7 @@ Si ya existe un chat activo (`pendiente`, `en atención` o `esperando cierre`) d
 
 ## Lo que la IA puede pedir
 
-Para cada dato (nombre, WhatsApp, correo, teléfono, documento, Instagram, Facebook):
+Para cada dato (nombre, WhatsApp, correo, teléfono, documento, Instagram, Facebook, valor de compra):
 
 | Modo | Efecto |
 |------|--------|

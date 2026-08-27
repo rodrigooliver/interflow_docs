@@ -61,6 +61,7 @@ Authorization: Bearer ak_your_api_key
 | `instagram` | string | Instagram ID. **Required** on Instagram |
 | `facebook` | string | Facebook ID. **Required** on Facebook |
 | `document` | string | Tax ID (CPF/CNPJ or other). Only set if the customer has no document yet |
+| `salePrice` / `sale_price` | number \| string | Purchase/sale value (`customers.sale_price`). Only set if empty |
 | `tags` | string[] \| string | Tag names (existing only). Does not create a new tag |
 | `customFields` | object \| array | Custom fields by **slug**: `{ "budget": "Up to 15k" }` or `[{ "slug": "budget", "value": "Up to 15k" }]` |
 | `forceUpdate` | object | Which fields to overwrite even if already set. See the table below |
@@ -78,6 +79,7 @@ Without `forceUpdate`, an existing customer only fills **empty** fields. Set `tr
 | `instagram` | Updates the Instagram ID |
 | `facebook` | Updates the Facebook ID |
 | `document` | Overwrites the document |
+| `sale_price` | Overwrites the purchase value |
 | `customFields` | `true` forces every sent slug; or a list (`["budget"]`) / slug (`"budget"`) |
 
 ### Identifier from the channel

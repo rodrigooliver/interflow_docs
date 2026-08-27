@@ -58,6 +58,31 @@ Quando um atendente clica em "Atender" um chat com fluxo ativo:
 "Continuar Fluxo" = Cliente recebe mensagens do atendente E do fluxo!
 :::
 
+### Permitir mensagem sem atender
+
+Em chats **pendentes**, o rodapé mostra só **Atender**. Com esta opção ligada, aparece também **Enviar mensagem avulsa**: o atendente libera o campo, envia e o ticket **continua na fila**.
+
+**Como configurar:**
+
+1. Em **Configurações** → **Atendimento**, localize **Permitir mensagem sem atender**
+2. Ative o toggle
+3. Salve
+
+**O que acontece:**
+
+- Chat pendente → dois botões: **Atender** e **Enviar mensagem avulsa**
+- O campo de mensagem **não** abre sozinho; só depois do clique no segundo botão
+- Fechar a conversa ou abrir outra volta os dois botões
+- Enviar a mensagem **não** assume o atendimento
+- Chat reservado para outro agente → banner de reserva, sem os botões
+- Janela de 24h fechada → aviso já conhecido, sem o compositor
+
+::: tip Padrão
+A opção começa desligada. Só admin ou owner altera nas configurações da organização.
+:::
+
+> Changelog: [v2026.8.22](/changelog/2026/08/2026.8.22)
+
 ### Reabrir atendimento após o encerramento
 
 Se o cliente responder logo depois que o atendente concluiu o chat, o sistema pode **reabrir o mesmo ticket** em vez de criar um atendimento novo.

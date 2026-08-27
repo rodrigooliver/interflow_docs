@@ -58,6 +58,31 @@ Cuando un agente hace clic en "Atender" un chat con flujo activo:
 "Continuar Flujo" = ¡El cliente recibe mensajes del agente Y del flujo!
 :::
 
+### Permitir mensaje sin atender
+
+En chats **pendientes**, el pie solo muestra **Atender**. Con esta opción activa, también aparece **Enviar mensaje suelto**: el agente libera el campo, envía y el ticket **sigue en la cola**.
+
+**Cómo configurar:**
+
+1. En **Configuración** → **Atención**, busque **Permitir mensaje sin atender**
+2. Active el interruptor
+3. Guarde
+
+**Qué sucede:**
+
+- Chat pendiente → dos botones: **Atender** y **Enviar mensaje suelto**
+- El campo de mensaje **no** se abre solo; solo después del segundo botón
+- Cerrar la conversación o abrir otra vuelve a mostrar los dos botones
+- Enviar el mensaje **no** asume la atención
+- Chat reservado para otro agente → aviso de reserva, sin los botones
+- Ventana de 24h cerrada → el aviso que ya existía, no el compositor
+
+::: tip Predeterminado
+La opción empieza desactivada. Solo un admin u owner la cambia en la configuración de la organización.
+:::
+
+> Changelog: [v2026.8.22](/es/changelog/2026/08/2026.8.22)
+
 ### Reabrir atención después del cierre
 
 Si el cliente responde justo después de que el agente cierra el chat, el sistema puede **reabrir el mismo ticket** en lugar de crear una atención nueva.
