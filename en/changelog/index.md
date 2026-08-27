@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.8.20](/en/changelog/2026/08/2026.8.20) | Aug 26 | **Create chat from the AI Agent** — collect data and open (or continue) the conversation on the channel | [Create or continue chat](/en/guide/ai-agents/tools/create-chat) |
 | [v2026.8.19](/en/changelog/2026/08/2026.8.19) | Aug 26 | **`contact` field on the API** — create a chat with just the contact; type comes from the channel | [Create Chat](/en/api/chats/create) |
 | [v2026.8.18](/en/changelog/2026/08/2026.8.18) | Aug 26 | **Cash receipt** — settle the installment with a printable or downloadable proof | |
 | [v2026.8.17](/en/changelog/2026/08/2026.8.17) | Aug 26 | **Unread in quick filters** — store the criterion on the team shortcut | [Filters](/en/guide/chat/filters#unread-messages) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.8.13](/en/changelog/2026/08/2026.8.13) | Aug 26 | **Notifications per group** — mute push and sound for a WhatsApp group, only for you | [WhatsApp groups](/en/guide/chat/whatsapp-group-notifications) |
 | [v2026.8.12](/en/changelog/2026/08/2026.8.12) | Aug 25 | **Move or remove customers** — leave the funnel or move the batch to another stage | [Funnels](/en/guide/crm/funnels#empty-or-move-customers-from-a-stage) |
 | [v2026.8.11](/en/changelog/2026/08/2026.8.11) | Aug 25 | **Task templates** — reusable draft fills title, due date, assignees, and checklist | [Task templates](/en/guide/tasks/task-templates) |
-| [v2026.8.10](/en/changelog/2026/08/2026.8.10) | Aug 25 | **WAHA new-contact protection** — channel stays connected, only first contact stops | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha#new-contact-restriction) |
 
 [See all August releases →](/en/changelog/2026/08/)
 

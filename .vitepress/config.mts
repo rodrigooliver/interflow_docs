@@ -124,6 +124,7 @@ function getSidebar(lang: string = '') {
               { text: lang === 'en' ? 'Update Customer Address' : lang === 'es' ? 'Cambiar Dirección del Cliente' : 'Alterar Endereço do Cliente', link: `${prefix}/guide/ai-agents/tools/change-customer-address` },
               { text: lang === 'en' ? 'Query API' : lang === 'es' ? 'Consultar API' : 'Consultar API', link: `${prefix}/guide/ai-agents/tools/query-api` },
               { text: lang === 'en' ? 'Research Websites' : lang === 'es' ? 'Investigar Sitios' : 'Pesquisar em Sites', link: `${prefix}/guide/ai-agents/tools/research-websites` },
+              { text: lang === 'en' ? 'Create or continue chat' : lang === 'es' ? 'Crear o continuar chat' : 'Criar ou continuar chat', link: `${prefix}/guide/ai-agents/tools/create-chat` },
               { text: lang === 'en' ? 'Transfer to Team' : lang === 'es' ? 'Transferir a Equipo' : 'Transferir para Equipe', link: `${prefix}/guide/ai-agents/tools/transfer-to-team` },
               { text: lang === 'en' ? 'Schedule' : lang === 'es' ? 'Agendar' : 'Agendar', link: `${prefix}/guide/ai-agents/tools/schedule` },
               { text: lang === 'en' ? 'Confirm Appointment' : lang === 'es' ? 'Confirmar Cita' : 'Confirmar Agendamento', link: `${prefix}/guide/ai-agents/tools/confirm-schedule` },
@@ -358,6 +359,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/08/` },
+              { text: 'v2026.8.20', link: `${prefix}/changelog/2026/08/2026.8.20` },
               { text: 'v2026.8.19', link: `${prefix}/changelog/2026/08/2026.8.19` },
               { text: 'v2026.8.18', link: `${prefix}/changelog/2026/08/2026.8.18` },
               { text: 'v2026.8.17', link: `${prefix}/changelog/2026/08/2026.8.17` },

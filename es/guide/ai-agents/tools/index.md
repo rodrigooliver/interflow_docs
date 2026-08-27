@@ -20,6 +20,7 @@ Herramientas personalizadas que usted crea para integraciones específicas.
 | [Cambiar Dirección del Cliente](/es/guide/ai-agents/tools/change-customer-address) | Guarda dirección (texto o GPS) en el registro del cliente |
 | [Consultar API](/es/guide/ai-agents/tools/query-api) | Consulta o ejecuta operaciones en APIs externas con rutas permitidas |
 | [Investigar información en sitios](/es/guide/ai-agents/tools/research-websites) | Lee páginas web (Firecrawl o HTML) para responder con contenido actualizado |
+| [Crear o continuar chat](/es/guide/ai-agents/tools/create-chat) | Recolecta datos y abre (o reutiliza) una atención en otro canal |
 | [Transferir a Equipo](/es/guide/ai-agents/tools/transfer-to-team) | Deriva la atención a un equipo humano |
 | [Agendar](/es/guide/ai-agents/tools/schedule) | Crea citas desde la conversación |
 | [Confirmar Cita](/es/guide/ai-agents/tools/confirm-schedule) | Confirma asistencia en citas existentes |

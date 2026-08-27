@@ -20,6 +20,7 @@ Ferramentas customizadas que você cria para integrações específicas.
 | [Alterar Endereço do Cliente](/guide/ai-agents/tools/change-customer-address) | Salva endereço (texto ou GPS) no cadastro do cliente |
 | [Consultar API](/guide/ai-agents/tools/query-api) | Consulta ou executa operações em APIs externas com rotas permitidas |
 | [Pesquisar informações em sites](/guide/ai-agents/tools/research-websites) | Lê páginas web (Firecrawl ou HTML) para responder com conteúdo atualizado |
+| [Criar ou continuar chat](/guide/ai-agents/tools/create-chat) | Recolhe dados e abre (ou reutiliza) um atendimento em outro canal |
 | [Transferir para Equipe](/guide/ai-agents/tools/transfer-to-team) | Encaminha o atendimento para uma equipe humana |
 | [Agendar](/guide/ai-agents/tools/schedule) | Cria agendamentos pela conversa |
 | [Confirmar Agendamento](/guide/ai-agents/tools/confirm-schedule) | Confirma presença em agendamentos existentes |

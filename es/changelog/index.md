@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.8.20](/es/changelog/2026/08/2026.8.20) | 26/08 | **Crear chat desde el Agente IA** — recolecta datos y abre (o continúa) la atención en el canal | [Crear o continuar chat](/es/guide/ai-agents/tools/create-chat) |
 | [v2026.8.19](/es/changelog/2026/08/2026.8.19) | 26/08 | **Campo `contact` en la API** — crear chat solo con el contacto; el tipo viene del canal | [Crear Chat](/es/api/chats/create) |
 | [v2026.8.18](/es/changelog/2026/08/2026.8.18) | 26/08 | **Recibo en efectivo** — baja de la cuota con comprobante para imprimir o descargar | |
 | [v2026.8.17](/es/changelog/2026/08/2026.8.17) | 26/08 | **No leídas en filtros rápidos** — guardar el criterio en el atajo del equipo | [Filtros](/es/guide/chat/filters#mensajes-no-leidos) |
@@ -19,7 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.8.13](/es/changelog/2026/08/2026.8.13) | 26/08 | **Notificaciones por grupo** — silenciar push y sonido de un grupo de WhatsApp, solo para ti | [Grupos WhatsApp](/es/guide/chat/whatsapp-group-notifications) |
 | [v2026.8.12](/es/changelog/2026/08/2026.8.12) | 25/08 | **Mover o quitar clientes** — salir del embudo o mover el lote a otra etapa | [Embudos](/es/guide/crm/funnels#vaciar-o-mover-clientes-de-la-etapa) |
 | [v2026.8.11](/es/changelog/2026/08/2026.8.11) | 25/08 | **Plantillas de tarea** — molde reutilizable completa título, plazo, responsables y checklist | [Plantillas de tarea](/es/guide/tasks/task-templates) |
-| [v2026.8.10](/es/changelog/2026/08/2026.8.10) | 25/08 | **Protección de contactos nuevos en WAHA** — canal conectado, solo el primer contacto para | [WhatsApp WAHA](/es/guide/channels/whatsapp-waha#restriccion-de-contactos-nuevos) |
 
 [Ver todas las releases de agosto →](/es/changelog/2026/08/)
 

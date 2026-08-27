@@ -20,6 +20,7 @@ Custom tools you create for specific integrations.
 | [Update Customer Address](/en/guide/ai-agents/tools/change-customer-address) | Saves an address (text or GPS) on the customer record |
 | [Query API](/en/guide/ai-agents/tools/query-api) | Queries or runs operations on external APIs with allowlisted routes |
 | [Research information on websites](/en/guide/ai-agents/tools/research-websites) | Reads web pages (Firecrawl or HTML) to answer with up-to-date content |
+| [Create or continue chat](/en/guide/ai-agents/tools/create-chat) | Collects data and opens (or reuses) a conversation on another channel |
 | [Transfer to Team](/en/guide/ai-agents/tools/transfer-to-team) | Hands the conversation off to a human team |
 | [Schedule](/en/guide/ai-agents/tools/schedule) | Creates appointments from the conversation |
 | [Confirm Appointment](/en/guide/ai-agents/tools/confirm-schedule) | Confirms attendance for existing appointments |

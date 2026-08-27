@@ -6,6 +6,7 @@ Atualizações do mês de agosto de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.8.20](/changelog/2026/08/2026.8.20) | 26/08 | **Criar chat pelo Agente IA** — recolhe dados e abre (ou continua) o atendimento no canal |
 | [2026.8.19](/changelog/2026/08/2026.8.19) | 26/08 | **Campo `contact` na API** — criar chat só com o contato; o tipo vem do canal |
 | [2026.8.18](/changelog/2026/08/2026.8.18) | 26/08 | **Recibo em dinheiro** — baixa da parcela com comprovante para imprimir ou baixar |
 | [2026.8.17](/changelog/2026/08/2026.8.17) | 26/08 | **Não lidas nos filtros rápidos** — gravar o critério no atalho da equipe |
@@ -30,7 +31,8 @@ Atualizações do mês de agosto de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (29)
+### Novas Funcionalidades (30)
+- **Criar ou continuar chat pelo Agente IA** (v2026.8.20) — recolhe dados na conversa e abre (ou reutiliza) o atendimento no canal, com fluxo, funil e tags
 - **Campo `contact` na API de criar chat** (v2026.8.19) — um campo só; o tipo é inferido pelo canal; o formato antigo continua válido
 - **Recibo de pagamento em dinheiro** (v2026.8.18) — baixa da parcela, lançamento no caixa e comprovante para imprimir ou baixar em PDF
 - **Mensagens não lidas nos filtros rápidos personalizados** (v2026.8.17) — gravar “não lidos” no atalho, combinado com responsável, equipe ou canal
