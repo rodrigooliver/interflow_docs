@@ -7,7 +7,7 @@ Configure agentes de inteligência artificial para automatizar atendimentos na I
 Os Agentes IA da Interflow são assistentes virtuais inteligentes que podem atender clientes de forma autônoma, responder perguntas, agendar compromissos, transferir para equipes e muito mais.
 
 ::: info 🔄 Fluxo Automático
-Ao criar um Agente IA, o sistema **gera automaticamente um fluxo** vinculado a ele. O agente sempre opera dentro deste fluxo, permitindo combinar a inteligência da IA com outros nós de automação.
+Ao criar um Agente IA, o sistema **gera automaticamente um fluxo** vinculado a ele. No atendimento automático, o agente opera nesse fluxo. Também dá para [executar o mesmo agente em uma mensagem](/guide/ai-agents/run-on-message), sem iniciar fluxo.
 :::
 
 ## Modelos Disponíveis
@@ -417,6 +417,14 @@ Agentes antigos sem essa configuração seguem com 50 mensagens e todos os dados
 
 > Changelog: [v2026.8.21](/changelog/2026/08/2026.8.21)
 
+## Executar em uma mensagem
+
+No menu de uma mensagem do cliente ou do agente, **Executar agente IA** dispara o prompt **sem iniciar fluxo**. O modelo vê só aquela mensagem (mais data, canal e dados do cliente). As ferramentas são as mesmas; o envio ao chat depende de **Enviar mensagens pelo agente**.
+
+Não aparece em nota privada, evento de sistema nem chat agendado. A permissão é a de iniciar fluxo.
+
+> Guia completo: [Executar em uma mensagem](/guide/ai-agents/run-on-message)
+
 ## Skills
 
 Skills são **contextos adicionais** concatenados ao prompt do agente — listas de produtos, FAQs, regras ou qualquer bloco extra. Diferente da base de conhecimento, o conteúdo entra direto no contexto, sem a IA precisar chamar uma ferramenta.
@@ -465,6 +473,7 @@ Acompanhe o desempenho dos seus Agentes IA:
 
 ## Próximos Passos
 
+- [Executar em uma mensagem](/guide/ai-agents/run-on-message) - Disparar o agente sem fluxo
 - [Canal e condições](/guide/ai-agents/channel-conditions) - Um agente em vários canais
 - [Ferramentas da IA](/guide/ai-agents/tools/) - Configure ações do agente
 - [Melhorador de Texto](/guide/chat/text-enhancer) - Comandos de IA para atendentes

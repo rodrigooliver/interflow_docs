@@ -10,6 +10,8 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.8.24](/changelog/2026/08/2026.8.24) | 27/08 | **Vozes do sistema** — gerar áudio a partir do texto no atendimento | [Vozes do sistema](/guide/chat/system-voices) |
+| [v2026.8.23](/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA na mensagem** — executar o prompt sem iniciar fluxo | [Executar em uma mensagem](/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento | [Configurações](/guide/settings/#permitir-mensagem-sem-atender) |
 | [v2026.8.21](/changelog/2026/08/2026.8.21) | 27/08 | **Mensagens e dados do cliente** — limite de histórico e máscara de cadastro no Agente IA | [Agentes IA](/guide/ai-agents/#mensagens-e-dados-do-cliente) |
 | [v2026.8.20](/changelog/2026/08/2026.8.20) | 26/08 | **Criar chat pelo Agente IA** — recolhe dados e abre (ou continua) o atendimento no canal | [Criar ou continuar chat](/guide/ai-agents/tools/create-chat) |
@@ -18,8 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.8.17](/changelog/2026/08/2026.8.17) | 26/08 | **Não lidas nos filtros rápidos** — gravar o critério no atalho da equipe | [Filtros](/guide/chat/filters#mensagens-nao-lidas) |
 | [v2026.8.16](/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipe em massa** — mudar só a equipe de várias conversas de uma vez | [Interface](/guide/chat/interface#acoes-em-massa) |
 | [v2026.8.15](/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir após o encerramento** — mesma conversa se o cliente responder na janela | [Configurações](/guide/settings/#reabrir-atendimento-apos-o-encerramento) |
-| [v2026.8.14](/changelog/2026/08/2026.8.14) | 26/08 | **Filtros e colunas por campos do cliente** — recorte da fila e colunas no relatório | [Filtros](/guide/chat/filters) |
-| [v2026.8.13](/changelog/2026/08/2026.8.13) | 26/08 | **Notificações por grupo** — silenciar push e som de um grupo do WhatsApp, só para você | [Grupos WhatsApp](/guide/chat/whatsapp-group-notifications) |
 
 [Ver todas as releases de agosto →](/changelog/2026/08/)
 

@@ -10,6 +10,8 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.8.24](/en/changelog/2026/08/2026.8.24) | Aug 27 | **System voices** — generate audio from text in the conversation | [System voices](/en/guide/chat/system-voices) |
+| [v2026.8.23](/en/changelog/2026/08/2026.8.23) | Aug 27 | **AI Agent on a message** — run the prompt without starting a flow | [Run on a message](/en/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/en/changelog/2026/08/2026.8.22) | Aug 27 | **One-off message on pending** — reply without taking over the conversation | [Settings](/en/guide/settings/#allow-message-without-attending) |
 | [v2026.8.21](/en/changelog/2026/08/2026.8.21) | Aug 27 | **Messages and customer data** — history limit and profile masking on the AI Agent | [AI Agents](/en/guide/ai-agents/#messages-and-customer-data) |
 | [v2026.8.20](/en/changelog/2026/08/2026.8.20) | Aug 26 | **Create chat from the AI Agent** — collect data and open (or continue) the conversation on the channel | [Create or continue chat](/en/guide/ai-agents/tools/create-chat) |
@@ -18,8 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.8.17](/en/changelog/2026/08/2026.8.17) | Aug 26 | **Unread in quick filters** — store the criterion on the team shortcut | [Filters](/en/guide/chat/filters#unread-messages) |
 | [v2026.8.16](/en/changelog/2026/08/2026.8.16) | Aug 26 | **Bulk team adjustment** — change only the team of several chats at once | [Interface](/en/guide/chat/interface#bulk-actions) |
 | [v2026.8.15](/en/changelog/2026/08/2026.8.15) | Aug 26 | **Reopen after closing** — same conversation if the customer replies in the window | [Settings](/en/guide/settings/#reopen-the-chat-after-closing) |
-| [v2026.8.14](/en/changelog/2026/08/2026.8.14) | Aug 26 | **Filters and columns by customer fields** — queue cut and report columns | [Filters](/en/guide/chat/filters) |
-| [v2026.8.13](/en/changelog/2026/08/2026.8.13) | Aug 26 | **Notifications per group** — mute push and sound for a WhatsApp group, only for you | [WhatsApp groups](/en/guide/chat/whatsapp-group-notifications) |
 
 [See all August releases →](/en/changelog/2026/08/)
 

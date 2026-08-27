@@ -112,6 +112,7 @@ Quando um cliente tem várias conversas ativas simultaneamente:
 - **Histórico** - Todas as mensagens trocadas
 - **Campo de texto** - Para digitar mensagens
 - **Anexos** - Enviar arquivos
+- **Gravar baseado em texto** - Transformar o texto digitado em áudio com as [vozes do sistema](/guide/chat/system-voices)
 - **Emojis** - Seletor de emojis
 - **Respostas rápidas** - Atalhos de mensagem
 - **Comandos IA** - Atalhos para IA (Ctrl+J)
@@ -336,6 +337,12 @@ Atalhos com **várias mensagens** exibem um badge na listagem e abrem um **modal
 - Áudios têm player integrado
 - Documentos podem ser baixados
 
+### Gravar baseado em texto
+
+Digite o texto e use **Gravar baseado em texto** para gerar um áudio com as vozes da organização. O envio fica em uma única mensagem: áudio + roteiro como transcrição.
+
+Guia: [Vozes do sistema](/guide/chat/system-voices)
+
 ## Notas Internas
 
 Adicione anotações visíveis apenas para a equipe:
@@ -473,6 +480,7 @@ Guia: [Notificações de grupos do WhatsApp](/guide/chat/whatsapp-group-notifica
 
 ## Próximos Passos
 
+- [Vozes do sistema](/guide/chat/system-voices) - Áudio a partir do texto no atendimento
 - [Melhorador de Texto](/guide/chat/text-enhancer) - Comandos de IA personalizados
 - [Agentes IA](/guide/ai-agents/) - IA autônoma para atendimento
 - [Agenda](/guide/schedule/) - Agendamentos integrados

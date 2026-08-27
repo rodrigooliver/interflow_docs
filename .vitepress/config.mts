@@ -52,6 +52,7 @@ function getSidebar(lang: string = '') {
           { text: 'Tags', link: `${prefix}/guide/chat/tags` },
           { text: lang === 'en' ? 'Closure Types' : lang === 'es' ? 'Tipos de cierre' : 'Tipos de Encerramento', link: `${prefix}/guide/chat/closure-types` },
           { text: lang === 'en' ? 'Message Shortcut Sequences' : lang === 'es' ? 'Secuencias en Atajos de Mensaje' : 'Atalhos de Mensagem em Sequência', link: `${prefix}/guide/chat/message-shortcuts` },
+          { text: lang === 'en' ? 'System voices' : lang === 'es' ? 'Voces del sistema' : 'Vozes do sistema', link: `${prefix}/guide/chat/system-voices` },
           { text: lang === 'en' ? 'Text Enhancer' : lang === 'es' ? 'Mejorador de Texto' : 'Melhorador de Texto', link: `${prefix}/guide/chat/text-enhancer` }
         ]
       },
@@ -112,6 +113,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/ai-agents/` },
+          { text: lang === 'en' ? 'Run on a message' : lang === 'es' ? 'Ejecutar en un mensaje' : 'Executar em uma mensagem', link: `${prefix}/guide/ai-agents/run-on-message` },
           { text: lang === 'en' ? 'Channel and conditions' : lang === 'es' ? 'Canal y condiciones' : 'Canal e condições', link: `${prefix}/guide/ai-agents/channel-conditions` },
           {
             text: lang === 'en' ? 'AI Tools' : lang === 'es' ? 'Herramientas de IA' : 'Ferramentas da IA',
@@ -359,6 +361,8 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/08/` },
+              { text: 'v2026.8.24', link: `${prefix}/changelog/2026/08/2026.8.24` },
+              { text: 'v2026.8.23', link: `${prefix}/changelog/2026/08/2026.8.23` },
               { text: 'v2026.8.22', link: `${prefix}/changelog/2026/08/2026.8.22` },
               { text: 'v2026.8.21', link: `${prefix}/changelog/2026/08/2026.8.21` },
               { text: 'v2026.8.20', link: `${prefix}/changelog/2026/08/2026.8.20` },

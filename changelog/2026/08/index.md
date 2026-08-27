@@ -6,6 +6,8 @@ Atualizações do mês de agosto de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.8.24](/changelog/2026/08/2026.8.24) | 27/08 | **Vozes do sistema** — gerar áudio a partir do texto no atendimento |
+| [2026.8.23](/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA na mensagem** — executar o prompt sem iniciar fluxo |
 | [2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento |
 | [2026.8.21](/changelog/2026/08/2026.8.21) | 27/08 | **Mensagens e dados do cliente** — limite de histórico e máscara de cadastro no Agente IA |
 | [2026.8.20](/changelog/2026/08/2026.8.20) | 26/08 | **Criar chat pelo Agente IA** — recolhe dados e abre (ou continua) o atendimento no canal |
@@ -33,7 +35,9 @@ Atualizações do mês de agosto de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (32)
+### Novas Funcionalidades (34)
+- **Vozes do sistema e áudio a partir do texto** (v2026.8.24) — cadastre vozes (OpenAI, ElevenLabs ou Minimax) e gere áudio no chat; o roteiro fica como transcrição na mesma mensagem
+- **Executar Agente IA em uma mensagem** (v2026.8.23) — menu da mensagem dispara o prompt sem fluxo, só com aquela mensagem
 - **Mensagem avulsa em chat pendente** (v2026.8.22) — botão para enviar mensagem sem assumir o atendimento; o input só abre após o clique
 - **Mensagens e dados do cliente no Agente IA** (v2026.8.21) — limite de histórico e quais dados do cadastro entram no modelo, com máscara opcional
 - **Criar ou continuar chat pelo Agente IA** (v2026.8.20) — recolhe dados na conversa e abre (ou reutiliza) o atendimento no canal, com fluxo, funil e tags

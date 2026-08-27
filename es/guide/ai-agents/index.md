@@ -7,7 +7,7 @@ Configure agentes de inteligencia artificial para automatizar la atención al cl
 Los Agentes IA de Interflow son asistentes virtuales inteligentes que pueden atender clientes de forma autónoma, responder preguntas, agendar citas, transferir a equipos y mucho más.
 
 ::: info 🔄 Flujo Automático
-Al crear un Agente IA, el sistema **genera automáticamente un flujo** vinculado a él. El agente siempre opera dentro de este flujo, permitiendo combinar la inteligencia de IA con otros nodos de automatización.
+Al crear un Agente IA, el sistema **genera automáticamente un flujo** vinculado a él. En la atención automática, el agente opera en ese flujo. También se puede [ejecutar el mismo agente en un mensaje](/es/guide/ai-agents/run-on-message), sin iniciar un flujo.
 :::
 
 ## Modelos Disponibles
@@ -267,6 +267,14 @@ Los agentes antiguos sin esta configuración siguen con 50 mensajes y todos los 
 
 > Changelog: [v2026.8.21](/es/changelog/2026/08/2026.8.21)
 
+## Ejecutar en un mensaje
+
+En el menú de un mensaje del cliente o del agente, **Ejecutar agente IA** dispara el prompt **sin iniciar un flujo**. El modelo ve solo ese mensaje (más fecha, canal y datos del cliente). Las herramientas son las mismas; el envío al chat depende de **Enviar mensajes por el agente**.
+
+No aparece en nota privada, evento de sistema ni chat programado. El permiso es el de iniciar flujo.
+
+> Guía completa: [Ejecutar en un mensaje](/es/guide/ai-agents/run-on-message)
+
 ## Skills
 
 Las skills son **contextos adicionales** concatenados al prompt del agente — listas de productos, FAQs, reglas o cualquier bloque extra. A diferencia de la base de conocimiento, el contenido entra directo al contexto, sin que la IA llame a una herramienta.
@@ -302,6 +310,7 @@ Las skills que cumplen la condición se concatenan en un solo texto. Sin filtro,
 
 ## Próximos Pasos
 
+- [Ejecutar en un mensaje](/es/guide/ai-agents/run-on-message) - Disparar el agente sin flujo
 - [Canal y condiciones](/es/guide/ai-agents/channel-conditions) - Un agente en varios canales
 - [Herramientas de IA](/es/guide/ai-agents/tools/) - Configure acciones del agente
 - [Flujos de Atención](/es/guide/flows/builder) - Integre IA en los flujos

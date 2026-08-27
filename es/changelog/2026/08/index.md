@@ -6,6 +6,8 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.8.24](/es/changelog/2026/08/2026.8.24) | 27/08 | **Voces del sistema** — generar audio a partir del texto en la atención |
+| [2026.8.23](/es/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA en el mensaje** — ejecutar el prompt sin iniciar un flujo |
 | [2026.8.22](/es/changelog/2026/08/2026.8.22) | 27/08 | **Mensaje suelto en pendiente** — responder sin asumir la atención |
 | [2026.8.21](/es/changelog/2026/08/2026.8.21) | 27/08 | **Mensajes y datos del cliente** — límite de historial y máscara de la ficha en el Agente IA |
 | [2026.8.20](/es/changelog/2026/08/2026.8.20) | 26/08 | **Crear chat desde el Agente IA** — recolecta datos y abre (o continúa) la atención en el canal |
@@ -33,7 +35,9 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (32)
+### Nuevas Funcionalidades (34)
+- **Voces del sistema y audio a partir del texto** (v2026.8.24) — registre voces (OpenAI, ElevenLabs o Minimax) y genere audio en el chat; el guion queda como transcripción en el mismo mensaje
+- **Ejecutar Agente IA en un mensaje** (v2026.8.23) — el menú del mensaje dispara el prompt sin flujo, solo con ese mensaje
 - **Mensaje suelto en un chat pendiente** (v2026.8.22) — botón para enviar un mensaje sin asumir la atención; el campo solo se abre después del clic
 - **Mensajes y datos del cliente en el Agente IA** (v2026.8.21) — límite de historial y qué datos de la ficha entran al modelo, con máscara opcional
 - **Crear o continuar chat desde el Agente IA** (v2026.8.20) — recolecta datos en la conversación y abre (o reutiliza) la atención en el canal, con flujo, embudo y etiquetas

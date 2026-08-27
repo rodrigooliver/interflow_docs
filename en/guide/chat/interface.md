@@ -112,6 +112,7 @@ When a customer has multiple active conversations:
 - **History** - All exchanged messages
 - **Text field** - For typing messages
 - **Attachments** - Send files
+- **Record from text** - Turn typed text into audio with [system voices](/en/guide/chat/system-voices)
 - **Emojis** - Emoji selector
 - **Quick replies** - Message shortcuts
 - **AI Commands** - AI shortcuts (Ctrl+J)
@@ -386,6 +387,7 @@ Guide: [WhatsApp group notifications](/en/guide/chat/whatsapp-group-notification
 
 ## Next Steps
 
+- [System voices](/en/guide/chat/system-voices) - Audio from text in the conversation
 - [Text Enhancer](/en/guide/chat/text-enhancer) - Custom AI commands
 - [AI Agents](/en/guide/ai-agents/) - Autonomous AI for service
 - [Schedule](/en/guide/schedule/) - Integrated appointments

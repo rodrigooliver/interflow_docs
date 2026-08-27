@@ -6,6 +6,8 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.24](/en/changelog/2026/08/2026.8.24) | 08/27 | **System voices** — generate audio from text in the conversation |
+| [2026.8.23](/en/changelog/2026/08/2026.8.23) | 08/27 | **AI Agent on a message** — run the prompt without starting a flow |
 | [2026.8.22](/en/changelog/2026/08/2026.8.22) | 08/27 | **One-off message on pending** — reply without taking over the conversation |
 | [2026.8.21](/en/changelog/2026/08/2026.8.21) | 08/27 | **Messages and customer data** — history limit and profile masking on the AI Agent |
 | [2026.8.20](/en/changelog/2026/08/2026.8.20) | 08/26 | **Create chat from the AI Agent** — collect data and open (or continue) the conversation on the channel |
@@ -33,7 +35,9 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (32)
+### New Features (34)
+- **System voices and audio from text** (v2026.8.24) — save voices (OpenAI, ElevenLabs, or Minimax) and generate audio in chat; the script stays as transcription on the same message
+- **Run an AI Agent on a message** (v2026.8.23) — message menu runs the prompt without a flow, using only that message
 - **One-off message on a pending chat** (v2026.8.22) — button to send a message without taking over; the input opens only after the click
 - **Messages and customer data on the AI Agent** (v2026.8.21) — history limit and which profile fields go to the model, with optional masking
 - **Create or continue chat from the AI Agent** (v2026.8.20) — collect data in the conversation and open (or reuse) the chat on the channel, with flow, funnel, and tags

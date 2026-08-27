@@ -112,6 +112,7 @@ Cuando un cliente tiene múltiples conversaciones activas:
 - **Historial** - Todos los mensajes intercambiados
 - **Campo de texto** - Para escribir mensajes
 - **Adjuntos** - Enviar archivos
+- **Grabar desde texto** - Convertir el texto escrito en audio con las [voces del sistema](/es/guide/chat/system-voices)
 - **Emojis** - Selector de emojis
 - **Respuestas rápidas** - Atajos de mensajes
 - **Comandos IA** - Atajos de IA (Ctrl+J)
@@ -381,6 +382,7 @@ Guía: [Notificaciones de grupos de WhatsApp](/es/guide/chat/whatsapp-group-noti
 
 ## Próximos Pasos
 
+- [Voces del sistema](/es/guide/chat/system-voices) - Audio a partir del texto en la atención
 - [Mejorador de Texto](/es/guide/chat/text-enhancer) - Comandos de IA personalizados
 - [Agentes IA](/es/guide/ai-agents/) - IA autónoma para atención
 - [Agenda](/es/guide/schedule/) - Citas integradas
