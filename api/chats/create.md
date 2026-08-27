@@ -46,11 +46,9 @@ Authorization: Bearer ak_sua_api_key
 
 | Campo | Tipo | Obrigatório | Descrição |
 |-------|------|-------------|-----------|
-| `contactType` | string | Sim | `whatsapp`, `phone`, `email`, `instagram`, `facebook` ou `telegram` |
-| `contactValue` | string | Sim | Valor do contato (número, e-mail, username, etc.) |
 | `channelId` | string (UUID) | Sim | ID do canal ativo — menu lateral **Canais** (copiar no card) |
 | `customerId` | string (UUID) | Não | Cliente existente — **Clientes** → ações (⋮) → **Copiar ID**; se omitido, busca/cria automaticamente |
-| `customerName` | string | Não | Nome ao criar um cliente novo |
+| `customer` | object | Sim* | Dados do cliente. O identificador do chat vem daqui, conforme o canal |
 | `teamId` | string (UUID) | Não | Equipe do atendimento — menu **Equipes** (copiar no card) |
 | `initialMessage` | string \| object | Não | Mensagem inicial (texto ou mídia) |
 | `whatsappTemplate` | object | Não | Template Meta (somente canal WhatsApp Oficial) — **Canais** → Templates → **Copiar ID** |
@@ -60,10 +58,49 @@ Authorization: Bearer ak_sua_api_key
 | `responseFlowId` | string (UUID) | Não | Fluxo ao responder o cliente — mesmo ID em **Fluxos** (copiar no card) |
 | `keepPending` | boolean | Não | Se `true`, mantém o chat em `pending` mesmo com `initialMessage` / `whatsappTemplate` (não atende nem auto-atribui) |
 | `utm` | object | Não | Atribuição UTM / Facebook Lead Ads (Make). Gravado em `customers.utm_metadata` |
-| `customFields` | object \| array | Não | Custom fields do customer por **slug**: `{ "investimento": "Até 15 mil" }` ou `[{ "slug": "investimento", "value": "Até 15 mil" }]` |
-| `tags` | string[] \| string | Não | Nomes das tags do customer (cadastro ou existente). Não cria tag nova |
-| `email` | string | Não | E-mail extra (se diferente do `contactValue`). Preenche `customers.email` se vazio; senão vira contato secundário |
-| `phone` | string | Não | Telefone extra (se diferente do WhatsApp/`contactValue`). Gravado como contato `phone` |
+
+\*Obrigatório: `channelId` e o campo de `customer` do canal (`whatsapp`/`phone`, `email`, `instagram` ou `facebook`).
+
+### `customer`
+
+| Campo | Tipo | Descrição |
+|-------|------|-----------|
+| `name` | string | Nome do cliente. Se o cadastro já existir e o nome estiver vazio, preenche |
+| `whatsapp` | string | Número WhatsApp. **Obrigatório** em canal WhatsApp se não vier `phone` |
+| `phone` | string | Telefone. No WhatsApp, usado se não vier `whatsapp`. Senão vira contato extra |
+| `email` | string | E-mail. **Obrigatório** em canal e-mail. Nos outros, contato extra |
+| `instagram` | string | Instagram ID. **Obrigatório** em canal Instagram |
+| `facebook` | string | Facebook ID. **Obrigatório** em canal Facebook |
+| `document` | string | CPF/CNPJ (ou outro documento). Só preenche se o campo estiver vazio |
+| `tags` | string[] \| string | Nomes das tags (cadastro ou existente). Não cria tag nova |
+| `customFields` | object \| array | Campos personalizados por **slug**: `{ "investimento": "Até 15 mil" }` ou `[{ "slug": "investimento", "value": "Até 15 mil" }]` |
+| `forceUpdate` | object | Quais campos sobrescrever mesmo se já tiverem valor. Veja a tabela abaixo |
+
+### `customer.forceUpdate`
+
+Sem `forceUpdate`, cliente existente só preenche o que estiver **vazio**. Marque `true` nos campos que devem ser sobrescritos:
+
+| Chave | Efeito |
+|-------|--------|
+| `name` | Sobrescreve o nome |
+| `email` | Sobrescreve o e-mail principal |
+| `phone` | Atualiza o contato telefone existente |
+| `whatsapp` | Atualiza o contato WhatsApp existente |
+| `instagram` | Atualiza o Instagram ID |
+| `facebook` | Atualiza o Facebook ID |
+| `document` | Sobrescreve o documento |
+| `customFields` | `true` força todos os slugs enviados; ou lista (`["investimento"]`) / slug (`"investimento"`) |
+
+### Identificador pelo canal
+
+O Interflow lê o destinatário em `customer`, conforme o tipo do canal:
+
+| Tipo do canal | Campo em `customer` |
+|---------------|---------------------|
+| `whatsapp_official`, `whatsapp_wapi`, `whatsapp_zapi`, `whatsapp_waha`, `whatsapp_evo` | `whatsapp` (senão `phone`) |
+| `email` | `email` |
+| `instagram` | `instagram` |
+| `facebook` | `facebook` |
 
 ### `initialMessage`
 
@@ -107,9 +144,9 @@ Pode ser o **bundle inteiro** do módulo *Facebook Lead Ads — New Lead* no Mak
 | `utm_source` / `utm_medium` / `utm_campaign` / `utm_term` / `utm_content` | — | espelhados em `utm_metadata` |
 | `utm_campaign_id` / `utm_campaign_ad_id` | UUIDs internos (opcional) | FKs do customer, se o anúncio ainda não estiver syncado |
 
-Perguntas do Instant Form em `utm.field_data` ficam só no JSON de UTM. Custom fields do CRM vão no objeto separado `customFields` (chave = slug).
+Perguntas do Instant Form em `utm.field_data` ficam só no JSON de UTM. Custom fields do CRM vão em `customer.customFields` (chave = slug).
 
-Cliente **já existente**: atribuição de campanha/anúncio só preenche se estiver vazia (first-touch). `field_data` é mesclado. `customFields` só preenche slug ainda vazio (`already_filled` se já tiver valor). Cadastro novo grava todos os slugs enviados. Slug inexistente ou valor inválido é ignorado (`customFieldsSkipped`).
+Cliente **já existente**: nome, e-mail, documento, UTM/anúncio e `customer.customFields` só preenchem o que estiver **vazio** — valor já gravado não é sobrescrito (`already_filled`), salvo se `customer.forceUpdate` marcar o campo. Contatos extras (telefone, WhatsApp, Instagram, Facebook) são adicionados se ainda não existirem; com `forceUpdate` o contato daquele tipo é atualizado. Cadastro novo grava todos os slugs enviados. Slug inexistente ou valor inválido é ignorado (`customFieldsSkipped`).
 
 ::: tip ESTÁGIO DO CLIENTE
 Ao criar um **cliente novo**, o sistema usa o estágio padrão configurado no canal (`settings.defaultStageId`), se válido.
@@ -131,9 +168,8 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_sua_api_key" \
   -d '{
-    "contactType": "whatsapp",
-    "contactValue": "5511999999999",
     "channelId": "uuid-do-canal",
+    "customer": { "whatsapp": "5511999999999" },
     "customerName": "Nome do cliente"
   }'
 ```
@@ -145,9 +181,8 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_sua_api_key" \
   -d '{
-    "contactType": "whatsapp",
-    "contactValue": "5511999999999",
     "channelId": "uuid-do-canal",
+    "customer": { "whatsapp": "5511999999999" },
     "customerName": "Nome do cliente",
     "keepPending": true,
     "responseFlowId": "uuid-do-fluxo",
@@ -164,9 +199,8 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_sua_api_key" \
   -d '{
-    "contactType": "whatsapp",
-    "contactValue": "5511999999999",
     "channelId": "uuid-do-canal",
+    "customer": { "whatsapp": "5511999999999" },
     "initialMessage": "Olá! Como posso ajudar?"
   }'
 ```
@@ -180,10 +214,25 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_sua_api_key" \
   -d '{
-    "contactType": "whatsapp",
-    "contactValue": "5511999999999",
     "channelId": "uuid-do-canal",
-    "customerName": "Nome do lead",
+    "customer": {
+      "name": "Nome do lead",
+      "email": "lead@email.com",
+      "phone": "551133334444",
+      "whatsapp": "5511999999999",
+      "document": "12345678901",
+      "tags": ["Lead Facebook", "Móveis"],
+      "customFields": {
+        "investimento": "Até 15 mil",
+        "loja": "Loja X",
+        "bairro-cidade": "Pinheiros"
+      },
+      "forceUpdate": {
+        "name": true,
+        "document": true,
+        "customFields": ["investimento"]
+      }
+    },
     "utm": {
       "lead_id": "1234567890",
       "form_id": "987654321",
@@ -197,15 +246,7 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
       "is_organic": false,
       "platform": "fb",
       "created_time": "2026-08-17T16:20:00+0000"
-    },
-    "customFields": {
-      "investimento": "Até 15 mil",
-      "loja": "Loja X",
-      "bairro-cidade": "Pinheiros"
-    },
-    "tags": ["Lead Facebook", "Móveis"],
-    "email": "lead@email.com",
-    "phone": "551133334444"
+    }
   }'
 ```
 
@@ -216,9 +257,8 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_sua_api_key" \
   -d '{
-    "contactType": "whatsapp",
-    "contactValue": "5511999999999",
     "channelId": "uuid-do-canal",
+    "customer": { "whatsapp": "5511999999999" },
     "flowId": "flow-uuid",
     "contextMessage": "Bem-vindo!",
     "flowVariables": [
@@ -277,7 +317,7 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
 ```json
 {
   "success": false,
-  "error": "Parâmetros obrigatórios: contactType, contactValue, channelId"
+  "error": "Parâmetros obrigatórios: channelId e customer.whatsapp / customer.email / customer.instagram / customer.facebook (conforme o canal)"
 }
 ```
 

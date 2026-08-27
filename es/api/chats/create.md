@@ -36,11 +36,9 @@ Authorization: Bearer ak_tu_api_key
 
 | Campo | Tipo | Obligatorio | Descripción |
 |-------|------|-------------|-------------|
-| `contactType` | string | Sí | `whatsapp`, `phone`, `email`, `instagram`, `facebook` o `telegram` |
-| `contactValue` | string | Sí | Valor del contacto (número, email, username, etc.) |
 | `channelId` | string (UUID) | Sí | ID del canal activo — menú lateral **Canales** (copiar en la tarjeta) |
 | `customerId` | string (UUID) | No | Cliente existente — **Clientes** → acciones (⋮) → **Copiar ID**; si se omite, busca/crea automáticamente |
-| `customerName` | string | No | Nombre al crear un cliente nuevo |
+| `customer` | object | Sí* | Datos del cliente. El identificador del chat sale de aquí, según el canal |
 | `teamId` | string (UUID) | No | Equipo de la atención — menú **Equipos** (copiar en la tarjeta) |
 | `initialMessage` | string \| object | No | Mensaje inicial (texto o medio) |
 | `whatsappTemplate` | object | No | Plantilla Meta (solo WhatsApp Oficial) — **Canales** → Plantillas → **Copiar ID** |
@@ -49,6 +47,51 @@ Authorization: Bearer ak_tu_api_key
 | `contextMessage` | string | No | Contexto usado con `flowId` o `responseFlowId` |
 | `responseFlowId` | string (UUID) | No | Flujo al responder el cliente — mismo ID en **Flujos** (copiar en la tarjeta) |
 | `keepPending` | boolean | No | Si es `true`, mantiene el chat en `pending` aunque haya `initialMessage` / `whatsappTemplate` (no atiende ni autoasigna) |
+
+\*Obligatorio: `channelId` y el campo de `customer` del canal (`whatsapp`/`phone`, `email`, `instagram` o `facebook`).
+
+### `customer`
+
+| Campo | Tipo | Descripción |
+|-------|------|-------------|
+| `name` | string | Nombre del cliente |
+| `whatsapp` | string | Número de WhatsApp. **Obligatorio** en WhatsApp si no viene `phone` |
+| `phone` | string | Teléfono. En WhatsApp, se usa si no viene `whatsapp`. Si no, queda como contacto extra |
+| `email` | string | Email. **Obligatorio** en canal email. En los demás, contacto extra |
+| `instagram` | string | Instagram ID. **Obligatorio** en canal Instagram |
+| `facebook` | string | Facebook ID. **Obligatorio** en canal Facebook |
+| `document` | string | CPF/CNPJ (u otro documento). Solo se rellena si el cliente aún no tiene documento |
+| `tags` | string[] \| string | Nombres de tags (existentes). No crea una tag nueva |
+| `customFields` | object \| array | Campos personalizados por **slug**: `{ "inversion": "Hasta 15 mil" }` o `[{ "slug": "inversion", "value": "Hasta 15 mil" }]` |
+| `forceUpdate` | object | Qué campos sobrescribir aunque ya tengan valor. Ver la tabla abajo |
+
+### `customer.forceUpdate`
+
+Sin `forceUpdate`, un cliente existente solo rellena lo que esté **vacío**. Marca `true` en los campos que deben sobrescribirse:
+
+| Clave | Efecto |
+|-------|--------|
+| `name` | Sobrescribe el nombre |
+| `email` | Sobrescribe el email principal |
+| `phone` | Actualiza el contacto de teléfono existente |
+| `whatsapp` | Actualiza el contacto de WhatsApp existente |
+| `instagram` | Actualiza el Instagram ID |
+| `facebook` | Actualiza el Facebook ID |
+| `document` | Sobrescribe el documento |
+| `customFields` | `true` fuerza todos los slugs enviados; o lista (`["inversion"]`) / slug (`"inversion"`) |
+
+### Identificador por el canal
+
+Interflow lee el destinatario en `customer`, según el tipo de canal:
+
+| Tipo del canal | Campo en `customer` |
+|----------------|---------------------|
+| `whatsapp_official`, `whatsapp_wapi`, `whatsapp_zapi`, `whatsapp_waha`, `whatsapp_evo` | `whatsapp` (si no, `phone`) |
+| `email` | `email` |
+| `instagram` | `instagram` |
+| `facebook` | `facebook` |
+
+Cliente existente: nombre, email, documento y `customer.customFields` solo rellenan lo vacío (`already_filled`), salvo que `customer.forceUpdate` marque el campo. Contactos extra (teléfono, WhatsApp, Instagram, Facebook) se añaden si aún no existen; con `forceUpdate` se actualiza ese tipo de contacto.
 
 ### `initialMessage`
 
@@ -90,9 +133,8 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_tu_api_key" \
   -d '{
-    "contactType": "whatsapp",
-    "contactValue": "5511999999999",
     "channelId": "uuid-del-canal",
+    "customer": { "whatsapp": "5511999999999" },
     "customerName": "Nombre del cliente"
   }'
 ```
@@ -104,9 +146,8 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_tu_api_key" \
   -d '{
-    "contactType": "whatsapp",
-    "contactValue": "5511999999999",
     "channelId": "uuid-del-canal",
+    "customer": { "whatsapp": "5511999999999" },
     "customerName": "Nombre del cliente",
     "keepPending": true,
     "responseFlowId": "uuid-del-flujo",
@@ -123,9 +164,8 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/chat/create" \
   -H "Content-Type: application/json" \
   -H "x-api-key: ak_tu_api_key" \
   -d '{
-    "contactType": "whatsapp",
-    "contactValue": "5511999999999",
     "channelId": "uuid-del-canal",
+    "customer": { "whatsapp": "5511999999999" },
     "flowId": "flow-uuid",
     "contextMessage": "¡Bienvenido!",
     "flowVariables": [

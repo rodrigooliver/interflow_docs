@@ -6,6 +6,7 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.8.19](/es/changelog/2026/08/2026.8.19) | 26/08 | **Campo `contact` en la API** — crear chat solo con el contacto; el tipo viene del canal |
 | [2026.8.18](/es/changelog/2026/08/2026.8.18) | 26/08 | **Recibo en efectivo** — baja de la cuota con comprobante para imprimir o descargar |
 | [2026.8.17](/es/changelog/2026/08/2026.8.17) | 26/08 | **No leídas en filtros rápidos** — guardar el criterio en el atajo del equipo |
 | [2026.8.16](/es/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipo en masa** — cambiar solo el equipo de varias conversaciones de una vez |
@@ -29,7 +30,8 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (28)
+### Nuevas Funcionalidades (29)
+- **Campo `contact` en la API de crear chat** (v2026.8.19) — un solo campo; el tipo se infiere del canal; el formato antiguo sigue válido
 - **Recibo de pago en efectivo** (v2026.8.18) — baja de la cuota, asiento en caja y comprobante para imprimir o descargar en PDF
 - **Mensajes no leídos en los filtros rápidos personalizados** (v2026.8.17) — guardar “no leídos” en el atajo, combinado con responsable, equipo o canal
 - **Ajuste de equipo en masa** (v2026.8.16) — cambiar solo el equipo responsable de varias conversaciones, sin notificación ni cambio de estado

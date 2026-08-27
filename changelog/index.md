@@ -10,6 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.8.19](/changelog/2026/08/2026.8.19) | 26/08 | **Campo `contact` na API** — criar chat só com o contato; o tipo vem do canal | [Criar Chat](/api/chats/create) |
 | [v2026.8.18](/changelog/2026/08/2026.8.18) | 26/08 | **Recibo em dinheiro** — baixa da parcela com comprovante para imprimir ou baixar | |
 | [v2026.8.17](/changelog/2026/08/2026.8.17) | 26/08 | **Não lidas nos filtros rápidos** — gravar o critério no atalho da equipe | [Filtros](/guide/chat/filters#mensagens-nao-lidas) |
 | [v2026.8.16](/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipe em massa** — mudar só a equipe de várias conversas de uma vez | [Interface](/guide/chat/interface#acoes-em-massa) |
@@ -19,7 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.8.12](/changelog/2026/08/2026.8.12) | 25/08 | **Mover ou remover clientes** — tirar do funil ou mover o lote para outra etapa | [Funis](/guide/crm/funnels#esvaziar-ou-mover-clientes-do-estagio) |
 | [v2026.8.11](/changelog/2026/08/2026.8.11) | 25/08 | **Templates de tarefa** — molde reutilizável preenche título, prazo, responsáveis e checklist | [Templates de tarefa](/guide/tasks/task-templates) |
 | [v2026.8.10](/changelog/2026/08/2026.8.10) | 25/08 | **Proteção de novos contatos no WAHA** — canal conectado, só o primeiro contato para | [WhatsApp WAHA](/guide/channels/whatsapp-waha#restricao-de-novos-contatos) |
-| [v2026.8.9](/changelog/2026/08/2026.8.9) | 18/08 | **Assinatura no Agente IA** — início ou fim da mensagem, sem o modelo ler o texto | [Assinatura](/guide/ai-agents/#assinatura-em-mensagens) |
 
 [Ver todas as releases de agosto →](/changelog/2026/08/)
 
