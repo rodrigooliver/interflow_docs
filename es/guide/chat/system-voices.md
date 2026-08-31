@@ -43,6 +43,8 @@ Admin y owner crean, editan y eliminan. Los demás miembros solo usan las voces 
 
 Una voz inactiva desaparece del botón del chat, pero sigue en la lista para reactivarla después.
 
+Para copiar una voz, use **Duplicar** en la tarjeta o en el formulario de edición. Abre una voz nueva con los mismos datos y el nombre `(copia)` — ajuste y guarde.
+
 ## Usar en la atención
 
 1. Escriba el texto en el campo del mensaje

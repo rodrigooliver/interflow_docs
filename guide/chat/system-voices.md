@@ -43,6 +43,8 @@ Admin e owner criam, editam e excluem. Os demais membros só usam as vozes ativa
 
 Voz inativa some do botão no chat, mas permanece na lista para reativar depois.
 
+Para copiar uma voz, use **Duplicar** no card ou no formulário de edição. Abre uma nova voz com os mesmos dados e o nome `(cópia)` — ajuste e salve.
+
 ## Usar no atendimento
 
 1. Digite o texto no campo da mensagem

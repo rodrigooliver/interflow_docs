@@ -43,6 +43,8 @@ Admin and owner create, edit, and delete. Other members only use active voices.
 
 An inactive voice disappears from the chat button, but stays in the list so you can turn it back on later.
 
+To copy a voice, use **Duplicate** on the card or in the edit form. It opens a new voice with the same settings and a `(copy)` name — adjust and save.
+
 ## Use it in a conversation
 
 1. Type the text in the message field
