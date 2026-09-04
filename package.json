@@ -6,9 +6,9 @@
   "type": "module",
   "scripts": {
     "sync": "node scripts/sync-i18n.js",
-    "dev": "npm run sync && vitepress dev",
+    "dev": "npm run sync && vitepress dev --port 3031 --strictPort",
     "build": "npm run sync && vitepress build",
-    "preview": "vitepress preview"
+    "preview": "vitepress preview --port 3031 --strictPort"
   },
   "devDependencies": {
     "vitepress": "^1.5.0",

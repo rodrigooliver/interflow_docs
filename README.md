@@ -47,7 +47,7 @@ npm run preview
 
 ### Servidor de Desenvolvimento
 
-O servidor será iniciado em `http://localhost:5173`.
+O servidor será iniciado em `http://localhost:3031`.
 
 ## Estrutura do Projeto
 
@@ -152,5 +152,5 @@ Copyright © 2024-presente Interflow. Todos os direitos reservados.
 - [Plataforma Interflow](https://app.interflow.chat)
 - [Site Institucional](https://interflow.chat)
 - [API Reference](https://docs.interflow.chat/api/)
-- [GitHub](https://github.com/rodrigooliver/interflow)
+- [GitHub](https://github.com/rodrigooliver/interflow_app)
 
