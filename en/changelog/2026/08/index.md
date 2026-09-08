@@ -6,6 +6,7 @@ Updates for August 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.8.25](/en/changelog/2026/08/2026.8.25) | 09/08 | **Counters per team** — up to 12 numbers on quick filters, visible only to who needs them |
 | [2026.8.24](/en/changelog/2026/08/2026.8.24) | 08/27 | **System voices** — generate audio from text in the conversation |
 | [2026.8.23](/en/changelog/2026/08/2026.8.23) | 08/27 | **AI Agent on a message** — run the prompt without starting a flow |
 | [2026.8.22](/en/changelog/2026/08/2026.8.22) | 08/27 | **One-off message on pending** — reply without taking over the conversation |
@@ -35,7 +36,8 @@ Updates for August 2026.
 
 ## Month summary
 
-### New Features (34)
+### New Features (35)
+- **Counters on quick filters per user or team** (v2026.8.25) — up to 12 numbers on shortcuts; each person sees only what was released to their role, team, or user
 - **System voices and audio from text** (v2026.8.24) — save voices (OpenAI, ElevenLabs, or Minimax) and generate audio in chat; the script stays as transcription on the same message
 - **Run an AI Agent on a message** (v2026.8.23) — message menu runs the prompt without a flow, using only that message
 - **One-off message on a pending chat** (v2026.8.22) — button to send a message without taking over; the input opens only after the click

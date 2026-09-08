@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.8.25](/en/changelog/2026/08/2026.8.25) | Sep 8 | **Counters per team** — up to 12 numbers on quick filters, visible only to who needs them | [Filters](/en/guide/chat/filters#counters-on-quick-filters) |
 | [v2026.8.24](/en/changelog/2026/08/2026.8.24) | Aug 27 | **System voices** — generate audio from text in the conversation | [System voices](/en/guide/chat/system-voices) |
 | [v2026.8.23](/en/changelog/2026/08/2026.8.23) | Aug 27 | **AI Agent on a message** — run the prompt without starting a flow | [Run on a message](/en/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/en/changelog/2026/08/2026.8.22) | Aug 27 | **One-off message on pending** — reply without taking over the conversation | [Settings](/en/guide/settings/#allow-message-without-attending) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.8.18](/en/changelog/2026/08/2026.8.18) | Aug 26 | **Cash receipt** — settle the installment with a printable or downloadable proof | |
 | [v2026.8.17](/en/changelog/2026/08/2026.8.17) | Aug 26 | **Unread in quick filters** — store the criterion on the team shortcut | [Filters](/en/guide/chat/filters#unread-messages) |
 | [v2026.8.16](/en/changelog/2026/08/2026.8.16) | Aug 26 | **Bulk team adjustment** — change only the team of several chats at once | [Interface](/en/guide/chat/interface#bulk-actions) |
-| [v2026.8.15](/en/changelog/2026/08/2026.8.15) | Aug 26 | **Reopen after closing** — same conversation if the customer replies in the window | [Settings](/en/guide/settings/#reopen-the-chat-after-closing) |
 
 [See all August releases →](/en/changelog/2026/08/)
 

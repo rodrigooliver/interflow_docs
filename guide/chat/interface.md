@@ -41,10 +41,12 @@ Crie filtros customizados para organizar suas conversas:
    - **Status**: Em andamento, pendente, etc.
    - **Campos personalizados**: lista, múltipla escolha, data e data/hora do cliente (todos, sem valor ou valores/período)
 4. Personalize nome, ícone e **cor** (paleta expandida disponível!)
-5. Salve
+5. Defina **quem vê** o atalho: todos, equipes, perfis ou usuários
+6. Clique no ícone de **contador** nos filtros que devem mostrar o número (até 12 na organização)
+7. Salve
 
 ::: tip Dica
-Você pode filtrar por **múltiplas equipes** e **múltiplos canais** ao mesmo tempo — útil para supervisores e times que operam vários números de WhatsApp. Os campos personalizados do cliente (lista, data e data/hora) estão detalhados em [Filtros de conversas](/guide/chat/filters).
+Você pode filtrar por **múltiplas equipes** e **múltiplos canais** ao mesmo tempo — útil para supervisores e times que operam vários números de WhatsApp. Os campos personalizados do cliente (lista, data e data/hora) e os **contadores por equipe** estão detalhados em [Filtros de conversas](/guide/chat/filters).
 :::
 
 ### Busca de Conversas

@@ -2,7 +2,7 @@
 
 Además de los filtros rápidos (Mías, Sin asignar, Grupos), el panel avanzado recorta la cola por equipo, tag, canal, estado, embudo, **mensajes no leídos** y **campos personalizados del cliente**.
 
-Changelog: [v2026.8.17](/es/changelog/2026/08/2026.8.17) · [v2026.8.14](/es/changelog/2026/08/2026.8.14)
+Changelog: [v2026.8.25](/es/changelog/2026/08/2026.8.25) · [v2026.8.17](/es/changelog/2026/08/2026.8.17) · [v2026.8.14](/es/changelog/2026/08/2026.8.14)
 
 ---
 
@@ -66,6 +66,23 @@ El recorte **No leídos** puede ir en el panel, en el botón del encabezado y en
 4. Guarda — al hacer clic en el atajo, la lista, el chip y el contador siguen
 
 El botón del encabezado sigue disponible para refinar la lista en el momento. Cambiar a una pestaña predeterminada del sistema apaga el recorte de no leídas. Archivados sigue como interruptor aparte.
+
+---
+
+## Contadores en los filtros rápidos
+
+Cada atajo puede mostrar el **número** de conversaciones junto al nombre. Antes el tope era 4 para toda la empresa; ahora puedes activar el contador en **hasta 12** filtros.
+
+Combínalo con la **visibilidad** del atajo (todos, equipos, perfiles o usuarios). Comercial ve los números de ventas; soporte, los de soporte. Quien no tiene ese atajo tampoco ve el número — el sistema actualiza solo lo que esa persona realmente sigue.
+
+1. En **Chats**, abre **Configurar filtros rápidos**
+2. En cada atajo, define **quién lo ve** (todos, equipos, perfiles o usuarios)
+3. Haz clic en el ícono de **contador** en los filtros que deben mostrar el número (hasta 12 en total de la organización)
+4. Guarda — cada persona ve en la barra solo los atajos liberados para ella, con los números al lado
+
+::: tip Límite
+El límite de 12 es de la organización (cuántos filtros tienen el número activo). Con visibilidad por equipo, ventas y soporte pueden tener conjuntos distintos sin repartirse los mismos 4 espacios de antes.
+:::
 
 ---
 

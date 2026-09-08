@@ -10,6 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.8.25](/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipe** — até 12 números nos filtros rápidos, visíveis só para quem precisa | [Filtros](/guide/chat/filters#contadores-nos-filtros-rapidos) |
 | [v2026.8.24](/changelog/2026/08/2026.8.24) | 27/08 | **Vozes do sistema** — gerar áudio a partir do texto no atendimento | [Vozes do sistema](/guide/chat/system-voices) |
 | [v2026.8.23](/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA na mensagem** — executar o prompt sem iniciar fluxo | [Executar em uma mensagem](/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento | [Configurações](/guide/settings/#permitir-mensagem-sem-atender) |
@@ -19,7 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.8.18](/changelog/2026/08/2026.8.18) | 26/08 | **Recibo em dinheiro** — baixa da parcela com comprovante para imprimir ou baixar | |
 | [v2026.8.17](/changelog/2026/08/2026.8.17) | 26/08 | **Não lidas nos filtros rápidos** — gravar o critério no atalho da equipe | [Filtros](/guide/chat/filters#mensagens-nao-lidas) |
 | [v2026.8.16](/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipe em massa** — mudar só a equipe de várias conversas de uma vez | [Interface](/guide/chat/interface#acoes-em-massa) |
-| [v2026.8.15](/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir após o encerramento** — mesma conversa se o cliente responder na janela | [Configurações](/guide/settings/#reabrir-atendimento-apos-o-encerramento) |
 
 [Ver todas as releases de agosto →](/changelog/2026/08/)
 

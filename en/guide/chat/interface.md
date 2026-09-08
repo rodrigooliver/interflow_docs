@@ -41,10 +41,12 @@ Create custom filters to organize your conversations:
    - **Status**: In progress, pending, etc.
    - **Custom fields**: customer select, multi-select, date, and date/time (all, blank, or specific values/period)
 4. Customize name, icon and **color** (expanded palette available!)
-5. Save
+5. Set **who can see** the shortcut: everyone, teams, roles, or users
+6. Click the **counter** icon on the filters that should show a number (up to 12 for the organization)
+7. Save
 
 ::: tip Tip
-You can filter by **multiple teams** and **multiple channels** at once — useful for supervisors and teams that operate several WhatsApp numbers. Customer custom fields (select, date, and date/time) are covered in [Conversation filters](/en/guide/chat/filters).
+You can filter by **multiple teams** and **multiple channels** at once — useful for supervisors and teams that operate several WhatsApp numbers. Customer custom fields (select, date, and date/time) and **per-team counters** are covered in [Conversation filters](/en/guide/chat/filters).
 :::
 
 ### Conversation Search

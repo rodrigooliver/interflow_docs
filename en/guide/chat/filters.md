@@ -2,7 +2,7 @@
 
 Besides the quick filters (Mine, Unassigned, Groups), the advanced panel cuts the queue by team, tag, channel, status, funnel, **unread messages**, and **customer custom fields**.
 
-Changelog: [v2026.8.17](/en/changelog/2026/08/2026.8.17) · [v2026.8.14](/en/changelog/2026/08/2026.8.14)
+Changelog: [v2026.8.25](/en/changelog/2026/08/2026.8.25) · [v2026.8.17](/en/changelog/2026/08/2026.8.17) · [v2026.8.14](/en/changelog/2026/08/2026.8.14)
 
 ---
 
@@ -66,6 +66,23 @@ The **Unread only** cut can live in the panel, the header button, and **custom q
 4. Save — when you click the shortcut, the list, chip, and count follow
 
 The header button is still available to refine the list on the spot. Switching to a system tab turns unread off. Archived remains a separate toggle.
+
+---
+
+## Counters on quick filters
+
+Each shortcut can show the **number** of conversations next to the name. The cap used to be 4 for the whole company; you can now turn the counter on for **up to 12** filters.
+
+Combine that with shortcut **visibility** (everyone, teams, roles, or users). Sales sees sales numbers; support, support numbers. People without that shortcut don’t see the number either — the system updates only what that person actually follows.
+
+1. In **Chats**, open **Configure quick filters**
+2. On each shortcut, set **who can see it** (everyone, teams, roles, or users)
+3. Click the **counter** icon on the filters that should show a number (up to 12 for the organization)
+4. Save — each person sees in the bar only the shortcuts released to them, with the numbers beside them
+
+::: tip Limit
+The 12 limit is organization-wide (how many filters have the number on). With per-team visibility, sales and support can have different sets without splitting the old 4 slots.
+:::
 
 ---
 

@@ -6,6 +6,7 @@ Actualizaciones del mes de agosto de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.8.25](/es/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipo** — hasta 12 números en los filtros rápidos, visibles solo para quien los necesita |
 | [2026.8.24](/es/changelog/2026/08/2026.8.24) | 27/08 | **Voces del sistema** — generar audio a partir del texto en la atención |
 | [2026.8.23](/es/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA en el mensaje** — ejecutar el prompt sin iniciar un flujo |
 | [2026.8.22](/es/changelog/2026/08/2026.8.22) | 27/08 | **Mensaje suelto en pendiente** — responder sin asumir la atención |
@@ -35,7 +36,8 @@ Actualizaciones del mes de agosto de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (34)
+### Nuevas Funcionalidades (35)
+- **Contadores en los filtros rápidos por usuario o equipo** (v2026.8.25) — hasta 12 números en los atajos; cada persona ve solo lo que se liberó para su perfil, equipo o usuario
 - **Voces del sistema y audio a partir del texto** (v2026.8.24) — registre voces (OpenAI, ElevenLabs o Minimax) y genere audio en el chat; el guion queda como transcripción en el mismo mensaje
 - **Ejecutar Agente IA en un mensaje** (v2026.8.23) — el menú del mensaje dispara el prompt sin flujo, solo con ese mensaje
 - **Mensaje suelto en un chat pendiente** (v2026.8.22) — botón para enviar un mensaje sin asumir la atención; el campo solo se abre después del clic

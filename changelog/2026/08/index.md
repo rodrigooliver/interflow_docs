@@ -6,6 +6,7 @@ Atualizações do mês de agosto de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.8.25](/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipe** — até 12 números nos filtros rápidos, visíveis só para quem precisa |
 | [2026.8.24](/changelog/2026/08/2026.8.24) | 27/08 | **Vozes do sistema** — gerar áudio a partir do texto no atendimento |
 | [2026.8.23](/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA na mensagem** — executar o prompt sem iniciar fluxo |
 | [2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento |
@@ -35,7 +36,8 @@ Atualizações do mês de agosto de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (34)
+### Novas Funcionalidades (35)
+- **Contadores nos filtros rápidos por usuário ou equipe** (v2026.8.25) — até 12 números nos atalhos, cada pessoa vê só o que foi liberado para o perfil, a equipe ou o usuário
 - **Vozes do sistema e áudio a partir do texto** (v2026.8.24) — cadastre vozes (OpenAI, ElevenLabs ou Minimax) e gere áudio no chat; o roteiro fica como transcrição na mesma mensagem
 - **Executar Agente IA em uma mensagem** (v2026.8.23) — menu da mensagem dispara o prompt sem fluxo, só com aquela mensagem
 - **Mensagem avulsa em chat pendente** (v2026.8.22) — botão para enviar mensagem sem assumir o atendimento; o input só abre após o clique
