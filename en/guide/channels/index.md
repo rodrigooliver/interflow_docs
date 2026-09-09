@@ -76,6 +76,8 @@ Each channel has status indicators:
 
 On **WhatsApp WAHA**, the channel can stay **connected** (green) and show an amber badge if WhatsApp restricted *new* contacts. Existing chats keep working. Details: [New-contact restriction](/en/guide/channels/whatsapp-waha#new-contact-restriction).
 
+If an **already connected** WAHA channel goes offline, the owner and admins get a push with the name and number. Details: [Reconnection](/en/guide/channels/whatsapp-waha#reconnection).
+
 ---
 
 ## Audio transcription

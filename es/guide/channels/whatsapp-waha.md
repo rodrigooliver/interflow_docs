@@ -274,9 +274,13 @@ Para evitar bloqueos del WhatsApp:
 Si el canal está **conectado** y solo ves el aviso ámbar de contactos nuevos, **no reconectes**. Espera a que WhatsApp lo libere.
 :::
 
+Si el canal **ya estaba conectado** y queda offline, el owner y los admins reciben un push con el nombre del canal y el número. El aviso espera unos minutos (los reinicios cortos no lo disparan) y **no** sale si desconectas o eliminas la instancia en el formulario, ni si solo falla la lectura del QR.
+
+> Changelog: [v2026.9.1](/es/changelog/2026/09/2026.9.1)
+
 Si el canal se desconecta:
 
-1. Verifica el estado en **Canales**
+1. Verifica el estado en **Canales** (o ábrelo desde el push)
 2. Haz clic en el canal desconectado
 3. Escanea el nuevo QR Code
 4. Espera la reconexión

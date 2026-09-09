@@ -76,6 +76,8 @@ Cada canal possui indicadores de status:
 
 No **WhatsApp WAHA**, o canal pode continuar **conectado** (verde) e mostrar um selo âmbar se o WhatsApp restringiu *novos* contatos. Conversas existentes seguem. Detalhes: [Restrição de novos contatos](/guide/channels/whatsapp-waha#restricao-de-novos-contatos).
 
+Se um canal WAHA **já conectado** ficar offline, owner e admins recebem um push com o nome e o número. Detalhes: [Reconexão](/guide/channels/whatsapp-waha#reconexao).
+
 ---
 
 ## Transcrição de áudios

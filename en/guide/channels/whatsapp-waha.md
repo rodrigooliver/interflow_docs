@@ -278,9 +278,13 @@ To avoid WhatsApp blocks:
 If the channel is **connected** and you only see the amber new-contact warning, **do not reconnect**. Wait for WhatsApp to lift it.
 :::
 
-If channel disconnects:
+If the channel **was already connected** and goes offline, the owner and admins get a push with the channel name and number. The alert waits a few minutes (short restarts do not fire it) and **does not** send if you disconnect or delete the instance in the form, or if only QR scanning fails.
 
-1. Check status in **Channels**
+> Changelog: [v2026.9.1](/en/changelog/2026/09/2026.9.1)
+
+If the channel disconnects:
+
+1. Check status in **Channels** (or open it from the push)
 2. Click on disconnected channel
 3. Scan new QR Code
 4. Wait for reconnection

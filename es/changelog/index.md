@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.9.1](/es/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner y admins con el nombre y el número | [WAHA](/es/guide/channels/whatsapp-waha#reconexion) |
 | [v2026.8.25](/es/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipo** — hasta 12 números en los filtros rápidos, visibles solo para quien los necesita | [Filtros](/es/guide/chat/filters#contadores-en-los-filtros-rapidos) |
 | [v2026.8.24](/es/changelog/2026/08/2026.8.24) | 27/08 | **Voces del sistema** — generar audio a partir del texto en la atención | [Voces del sistema](/es/guide/chat/system-voices) |
 | [v2026.8.23](/es/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA en el mensaje** — ejecutar el prompt sin iniciar un flujo | [Ejecutar en un mensaje](/es/guide/ai-agents/run-on-message) |
@@ -19,15 +20,14 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.8.19](/es/changelog/2026/08/2026.8.19) | 26/08 | **Campo `contact` en la API** — crear chat solo con el contacto; el tipo viene del canal | [Crear Chat](/es/api/chats/create) |
 | [v2026.8.18](/es/changelog/2026/08/2026.8.18) | 26/08 | **Recibo en efectivo** — baja de la cuota con comprobante para imprimir o descargar | |
 | [v2026.8.17](/es/changelog/2026/08/2026.8.17) | 26/08 | **No leídas en filtros rápidos** — guardar el criterio en el atajo del equipo | [Filtros](/es/guide/chat/filters#mensajes-no-leidos) |
-| [v2026.8.16](/es/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipo en masa** — cambiar solo el equipo de varias conversaciones de una vez | [Interfaz](/es/guide/chat/interface#acciones-en-masa) |
 
-[Ver todas las releases de agosto →](/es/changelog/2026/08/)
+[Ver todas las releases de septiembre →](/es/changelog/2026/09/)
 
 ## Dónde navegar
 
 | Destino | Contenido |
 |---------|-----------|
-| [Agosto 2026](/es/changelog/2026/08/) | Mes actual |
+| [Septiembre 2026](/es/changelog/2026/09/) | Mes actual |
 | [2026](/es/changelog/2026/) | Todos los meses del año |
 | [2025](/es/changelog/2025/) | Histórico del año anterior |
 | [Roadmap](/es/changelog/roadmap) | Lo que está planificado |
