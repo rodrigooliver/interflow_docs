@@ -6,6 +6,7 @@ Updates for September 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.9.5](/en/changelog/2026/09/2026.9.5) | 09/10 | **Audio on the AI Agent** — reply with a system voice, without TTS nodes |
 | [2026.9.4](/en/changelog/2026/09/2026.9.4) | 09/10 | **List and day in columns** — by professional or schedule, with compact cards |
 | [2026.9.3](/en/changelog/2026/09/2026.9.3) | 09/10 | **24-hour window and templates in flows** — official-channel condition and approved template sending |
 | [2026.9.2](/en/changelog/2026/09/2026.9.2) | 09/10 | **Menu by module and search** — workspaces in the sidebar and ⌘K / Ctrl+K |
@@ -15,7 +16,8 @@ Updates for September 2026.
 
 ## Month summary
 
-### New Features (7)
+### New Features (8)
+- **Audio on the AI Agent** (v2026.9.5) — system-voice reply, with audio, link, and probability rules
 - **List and day in columns** (v2026.9.4) — split by professional or schedule, with compact cards and a hover panel
 - **Start an unconfirmed appointment** (v2026.9.4) — skip confirmation and go straight to in progress
 - **24-hour window in flows** (v2026.9.3) — route based on the customer's latest message on WhatsApp Official

@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.9.5](/en/changelog/2026/09/2026.9.5) | Sep 10 | **Audio on the AI Agent** — reply with a system voice, without TTS nodes | [AI Agents](/en/guide/ai-agents/#audio-replies) |
 | [v2026.9.4](/en/changelog/2026/09/2026.9.4) | Sep 10 | **List and day in columns** — by professional or schedule, with compact cards | [Schedule](/en/guide/schedule/#column-split) |
 | [v2026.9.3](/en/changelog/2026/09/2026.9.3) | Sep 10 | **24-hour window and templates in flows** — automatically choose between direct messages and approved templates | [Guide](/en/guide/flows/nodes/whatsapp-template) |
 | [v2026.9.2](/en/changelog/2026/09/2026.9.2) | Sep 10 | **Menu by module and search** — workspaces in the sidebar and ⌘K / Ctrl+K | [Settings](/en/guide/settings/#menu-and-search) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.8.23](/en/changelog/2026/08/2026.8.23) | Aug 27 | **AI Agent on a message** — run the prompt without starting a flow | [Run on a message](/en/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/en/changelog/2026/08/2026.8.22) | Aug 27 | **One-off message on pending** — reply without taking over the conversation | [Settings](/en/guide/settings/#allow-message-without-attending) |
 | [v2026.8.21](/en/changelog/2026/08/2026.8.21) | Aug 27 | **Messages and customer data** — history limit and profile masking on the AI Agent | [AI Agents](/en/guide/ai-agents/#messages-and-customer-data) |
-| [v2026.8.20](/en/changelog/2026/08/2026.8.20) | Aug 26 | **Create chat from the AI Agent** — collect data and open (or continue) the conversation on the channel | [Create or continue chat](/en/guide/ai-agents/tools/create-chat) |
 
 [See all September releases →](/en/changelog/2026/09/)
 

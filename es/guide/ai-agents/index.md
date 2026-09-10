@@ -161,6 +161,7 @@ Configuraciones detalladas del agente:
 - **Enviar mensajes desde el agente**: la respuesta final va directo al chat (quite el nodo Enviar Texto del flujo para no duplicar)
 - **Dividir texto por párrafo**: cada párrafo (línea en blanco) se convierte en un mensaje
 - **Firma**: texto al inicio o al final del mensaje; el modelo no lee este texto
+- **Responder con audio**: convierte la respuesta en audio con una [voz del sistema](/es/guide/chat/system-voices); si falla, envía el texto
 
 ## Firma en Mensajes
 
@@ -180,6 +181,29 @@ Con **Enviar mensajes desde el agente** desactivado, el envío sigue en el nodo 
 :::
 
 > Changelog: [v2026.8.9](/es/changelog/2026/08/2026.8.9)
+
+## Respuesta en audio
+
+El Agente IA puede enviar la respuesta final como audio, sin nodos de TTS en el flujo. Registre la voz en [Voces del sistema](/es/guide/chat/system-voices) (ElevenLabs, Minimax u OpenAI) y active la opción en la pestaña **Avanzado**.
+
+### Cómo configurar
+
+1. Abra el Agente IA en la pestaña **Avanzado**
+2. Active **Enviar mensajes desde el agente**
+3. Active **Responder con audio** y elija la voz
+4. Ajuste las reglas:
+   - **Si el cliente envió audio, responder con audio**
+   - **Si la respuesta tiene un enlace, enviar texto**
+   - **Probabilidad de audio en respuestas de texto** (0–100%; 25% equivale a 1 de 4)
+5. Si el flujo todavía tiene nodos de TTS / audio después del agente, quítelos para no duplicar el envío
+
+El texto del modelo se reescribe para lectura en voz (números, fechas y URL). El cliente recibe el audio con esa versión como transcripción. Las listas interactivas y el JSON de media siguen en texto.
+
+::: tip Si el audio falla
+Cualquier error (voz, reescritura, TTS, carga o envío) hace que el agente envíe el **texto original**. El cliente no se queda sin respuesta.
+:::
+
+> Changelog: [v2026.9.5](/es/changelog/2026/09/2026.9.5)
 
 ## Integración de Fallback
 

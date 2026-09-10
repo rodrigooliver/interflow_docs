@@ -200,6 +200,7 @@ Detailed agent settings:
 - **Send messages from the agent**: the final reply goes straight to the chat (remove the Send Text node from the flow to avoid duplicates)
 - **Split text by paragraph**: each paragraph (blank line) becomes a separate message
 - **Signature**: text at the beginning or end of the message; the model does not read this text
+- **Reply with audio**: turns the reply into audio with a [system voice](/en/guide/chat/system-voices); on failure, sends the text
 - **Timezone**: Sets the timezone for dates and times
 
 #### Flow Settings
@@ -287,6 +288,29 @@ With **Send messages from the agent** off, sending still happens in the Send Tex
 :::
 
 > Changelog: [v2026.8.9](/en/changelog/2026/08/2026.8.9)
+
+## Audio replies
+
+The AI Agent can send the final reply as audio, without TTS nodes in the flow. Register the voice in [System voices](/en/guide/chat/system-voices) (ElevenLabs, Minimax, or OpenAI) and turn the option on in the **Advanced** tab.
+
+### How to configure
+
+1. Open the AI Agent on the **Advanced** tab
+2. Turn on **Send messages from the agent**
+3. Turn on **Reply with audio** and choose the voice
+4. Adjust the rules:
+   - **If the customer sent audio, reply with audio**
+   - **If the reply contains a link, send text**
+   - **Audio chance on text replies** (0–100%; 25% is 1 in 4)
+5. If the flow still has TTS / audio nodes after the agent, remove them to avoid duplicate sends
+
+The model text is rewritten for speech (numbers, dates, and URLs spoken out). The customer receives the audio with that version as the transcription. Interactive lists and media JSON stay as text.
+
+::: tip If audio fails
+Any error (voice, rewrite, TTS, upload, or send) makes the agent send the **original text**. The customer still gets a reply.
+:::
+
+> Changelog: [v2026.9.5](/en/changelog/2026/09/2026.9.5)
 
 ## Intelligent Follow-up
 

@@ -239,6 +239,7 @@ Configurações detalhadas do agente:
 - **Enviar mensagens pelo agente**: a resposta final vai direto ao chat (remova o nó Enviar Texto do fluxo para não duplicar)
 - **Quebrar texto por parágrafo**: cada parágrafo (linha em branco) vira uma mensagem
 - **Assinatura**: texto no início ou no fim da mensagem; o modelo não lê esse texto
+- **Responder com áudio**: converte a resposta em áudio com uma [voz do sistema](/guide/chat/system-voices); se falhar, envia o texto
 - **Fuso Horário**: Define o timezone para datas e horários
 
 #### Configurações de Fluxo
@@ -365,6 +366,29 @@ Com **Enviar mensagens pelo agente** desligado, o envio continua no nó Enviar T
 :::
 
 > Changelog: [v2026.8.9](/changelog/2026/08/2026.8.9)
+
+## Resposta em áudio
+
+O Agente IA pode enviar a resposta final como áudio, sem montar nós de TTS no fluxo. Cadastre a voz em [Vozes do sistema](/guide/chat/system-voices) (ElevenLabs, Minimax ou OpenAI) e ative a opção na aba **Avançado**.
+
+### Como configurar
+
+1. Abra o Agente IA na aba **Avançado**
+2. Ative **Enviar mensagens pelo agente**
+3. Ative **Responder com áudio** e escolha a voz
+4. Ajuste as regras:
+   - **Se o cliente mandou áudio, responder em áudio**
+   - **Se a resposta tiver link, enviar texto**
+   - **Probabilidade de áudio em respostas de texto** (0–100%; 25% equivale a 1 em 4)
+5. Se o fluxo ainda tiver nós de TTS / áudio depois do agente, remova-os para não duplicar o envio
+
+O texto gerado pelo modelo é reescrito para leitura em voz (números, datas e URLs por extenso). O áudio vai ao cliente com essa versão como transcrição. Listas interativas e mídia JSON continuam em texto.
+
+::: tip Se o áudio falhar
+Qualquer erro (voz, reescrita, TTS, upload ou envio) faz o agente enviar o **texto original**. O cliente não fica sem resposta.
+:::
+
+> Changelog: [v2026.9.5](/changelog/2026/09/2026.9.5)
 
 ## Integração com Agendamentos
 

@@ -6,6 +6,7 @@ Atualizações do mês de setembro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.9.5](/changelog/2026/09/2026.9.5) | 10/09 | **Áudio no Agente IA** — responder com voz do sistema, sem nós de TTS |
 | [2026.9.4](/changelog/2026/09/2026.9.4) | 10/09 | **Lista e dia em colunas** — por profissional ou agenda, com cards compactos |
 | [2026.9.3](/changelog/2026/09/2026.9.3) | 10/09 | **Janela de 24h e templates nos fluxos** — condição por canal oficial e envio de modelo aprovado |
 | [2026.9.2](/changelog/2026/09/2026.9.2) | 10/09 | **Menu por módulo e busca** — workspaces no sidebar e ⌘K / Ctrl+K |
@@ -15,7 +16,8 @@ Atualizações do mês de setembro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (7)
+### Novas Funcionalidades (8)
+- **Áudio no Agente IA** (v2026.9.5) — resposta em voz do sistema, com regras de áudio, link e probabilidade
 - **Lista e dia em colunas** (v2026.9.4) — divisão por profissional ou agenda, com cards compactos e painel no hover
 - **Iniciar agendamento ainda não confirmado** (v2026.9.4) — pular a confirmação e ir direto para em andamento
 - **Janela de 24h nos fluxos** (v2026.9.3) — ramificação conforme a última mensagem do cliente no WhatsApp Oficial

@@ -9,6 +9,7 @@ Genere audio a partir del texto en la atención, con las voces registradas de la
 - Enviar audio con la voz de la marca, sin grabar en el micrófono
 - Estandarizar tono, velocidad y proveedor entre atendentes
 - Guardar el guion en el mismo mensaje, como transcripción
+- Usar la misma voz en las [respuestas en audio del Agente IA](/es/guide/ai-agents/#respuesta-en-audio)
 
 ## Dónde acceder
 
@@ -16,6 +17,7 @@ Genere audio a partir del texto en la atención, con las voces registradas de la
 |------|------|
 | **Registrar voces** | Menú lateral → **Voces** |
 | **Usar en el chat** | Campo de mensaje → **Grabar desde texto** |
+| **Usar en el Agente IA** | Agente IA → pestaña **Avanzado** → **Responder con audio** |
 
 El botón del chat solo aparece si hay al menos una voz **activa** y el canal acepta audio.
 

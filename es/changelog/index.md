@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.9.5](/es/changelog/2026/09/2026.9.5) | 10/09 | **Audio en el Agente IA** — responder con voz del sistema, sin nodos de TTS | [Agentes IA](/es/guide/ai-agents/#respuesta-en-audio) |
 | [v2026.9.4](/es/changelog/2026/09/2026.9.4) | 10/09 | **Lista y día en columnas** — por profesional o agenda, con tarjetas compactas | [Agenda](/es/guide/schedule/#division-en-columnas) |
 | [v2026.9.3](/es/changelog/2026/09/2026.9.3) | 10/09 | **Ventana de 24h y plantillas en los flujos** — elección automática entre mensaje directo y plantilla aprobada | [Guía](/es/guide/flows/nodes/whatsapp-template) |
 | [v2026.9.2](/es/changelog/2026/09/2026.9.2) | 10/09 | **Menú por módulo y búsqueda** — workspaces en la barra y ⌘K / Ctrl+K | [Configuración](/es/guide/settings/#menu-y-busqueda) |
@@ -19,7 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.8.23](/es/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA en el mensaje** — ejecutar el prompt sin iniciar un flujo | [Ejecutar en un mensaje](/es/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/es/changelog/2026/08/2026.8.22) | 27/08 | **Mensaje suelto en pendiente** — responder sin asumir la atención | [Configuración](/es/guide/settings/#permitir-mensaje-sin-atender) |
 | [v2026.8.21](/es/changelog/2026/08/2026.8.21) | 27/08 | **Mensajes y datos del cliente** — límite de historial y máscara de la ficha en el Agente IA | [Agentes IA](/es/guide/ai-agents/#mensajes-y-datos-del-cliente) |
-| [v2026.8.20](/es/changelog/2026/08/2026.8.20) | 26/08 | **Crear chat desde el Agente IA** — recolecta datos y abre (o continúa) la atención en el canal | [Crear o continuar chat](/es/guide/ai-agents/tools/create-chat) |
 
 [Ver todas las releases de septiembre →](/es/changelog/2026/09/)
 

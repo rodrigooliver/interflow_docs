@@ -9,6 +9,7 @@ Gere áudio a partir do texto no atendimento, com vozes cadastradas da organiza�
 - Enviar áudio com a voz da marca, sem gravar no microfone
 - Padronizar tom, velocidade e provedor entre atendentes
 - Guardar o roteiro na mesma mensagem, como transcrição
+- Usar a mesma voz nas [respostas em áudio do Agente IA](/guide/ai-agents/#resposta-em-audio)
 
 ## Onde acessar
 
@@ -16,6 +17,7 @@ Gere áudio a partir do texto no atendimento, com vozes cadastradas da organiza�
 |------|---------|
 | **Cadastrar vozes** | Menu lateral → **Vozes** |
 | **Usar no chat** | Campo de mensagem → **Gravar baseado em texto** |
+| **Usar no Agente IA** | Agente IA → aba **Avançado** → **Responder com áudio** |
 
 O botão no chat só aparece se existir pelo menos uma voz **ativa** e o canal aceitar áudio.
 

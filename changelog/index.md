@@ -10,6 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.9.5](/changelog/2026/09/2026.9.5) | 10/09 | **Áudio no Agente IA** — responder com voz do sistema, sem nós de TTS | [Agentes IA](/guide/ai-agents/#resposta-em-audio) |
 | [v2026.9.4](/changelog/2026/09/2026.9.4) | 10/09 | **Lista e dia em colunas** — por profissional ou agenda, com cards compactos | [Agenda](/guide/schedule/#divisao-em-colunas) |
 | [v2026.9.3](/changelog/2026/09/2026.9.3) | 10/09 | **Janela de 24h e templates nos fluxos** — escolha automática entre mensagem direta e modelo aprovado | [Guia](/guide/flows/nodes/whatsapp-template) |
 | [v2026.9.2](/changelog/2026/09/2026.9.2) | 10/09 | **Menu por módulo e busca** — workspaces no sidebar e ⌘K / Ctrl+K | [Configurações](/guide/settings/#menu-e-busca) |
@@ -19,7 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.8.23](/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA na mensagem** — executar o prompt sem iniciar fluxo | [Executar em uma mensagem](/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento | [Configurações](/guide/settings/#permitir-mensagem-sem-atender) |
 | [v2026.8.21](/changelog/2026/08/2026.8.21) | 27/08 | **Mensagens e dados do cliente** — limite de histórico e máscara de cadastro no Agente IA | [Agentes IA](/guide/ai-agents/#mensagens-e-dados-do-cliente) |
-| [v2026.8.20](/changelog/2026/08/2026.8.20) | 26/08 | **Criar chat pelo Agente IA** — recolhe dados e abre (ou continua) o atendimento no canal | [Criar ou continuar chat](/guide/ai-agents/tools/create-chat) |
 
 [Ver todas as releases de setembro →](/changelog/2026/09/)
 
