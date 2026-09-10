@@ -18,9 +18,24 @@ El módulo de Agenda de Interflow permite gestionar citas, consultas y reuniones
 
 | Visualización | Descripción |
 |---------------|-------------|
+| **Lista** | Citas en tarjetas, agrupadas por día |
 | **Día** | Muestra todas las citas de un único día |
 | **Semana** | Muestra 6-7 días con vista expandida |
 | **Mes** | Calendario mensual con resumen de citas |
+
+### División en columnas
+
+En las vistas **Lista** y **Día**, se puede separar la pantalla en columnas por **profesional** o por **agenda**.
+
+1. Abre el menú de visualización en el encabezado
+2. Elige **Por profesional** o **Por agenda**
+3. Marca quién (o qué agendas) debe aparecer y confirma
+
+La elección se guarda en el navegador. En la lista, los horarios se alinean en la misma fila entre las columnas. Con más de una columna, las tarjetas quedan compactas; en el ordenador, pasa el cursor para ver detalles y acciones (confirmar, iniciar, cancelar).
+
+Con estado **Agendado**, también se puede **Iniciar** la cita sin confirmar antes.
+
+> Changelog: [v2026.9.4](/es/changelog/2026/09/2026.9.4)
 
 ### Atajos de Teclado
 

@@ -18,9 +18,24 @@ The Interflow Schedule module allows you to manage appointments, consultations, 
 
 | View | Description |
 |------|-------------|
+| **List** | Appointments as cards, grouped by day |
 | **Day** | Displays all appointments for a single day |
 | **Week** | Displays 6-7 days with expanded view |
 | **Month** | Monthly calendar with appointment summary |
+
+### Column split
+
+In **List** and **Day** views, you can split the screen into columns by **professional** or by **schedule**.
+
+1. Open the view menu in the header
+2. Choose **By professional** or **By schedule**
+3. Check who (or which schedules) should appear and confirm
+
+The choice is saved in the browser. In the list, times line up on the same row across columns. With more than one column, cards become compact; on desktop, hover to see details and actions (confirm, start, cancel).
+
+When status is **Scheduled**, you can also **Start** the appointment without confirming first.
+
+> Changelog: [v2026.9.4](/en/changelog/2026/09/2026.9.4)
 
 ### Keyboard Shortcuts
 

@@ -18,9 +18,24 @@ O módulo de Agenda da Interflow permite gerenciar compromissos, consultas e reu
 
 | Visualização | Descrição |
 |--------------|-----------|
+| **Lista** | Compromissos em cards, agrupados por dia |
 | **Dia** | Exibe todos os compromissos de um único dia |
 | **Semana** | Exibe 6-7 dias com visão expandida |
 | **Mês** | Calendário mensal com resumo dos compromissos |
+
+### Divisão em colunas
+
+Nas visualizações **Lista** e **Dia**, é possível separar a tela em colunas por **profissional** ou por **agenda**.
+
+1. Abra o menu de visualização no cabeçalho
+2. Escolha **Por profissional** ou **Por agenda**
+3. Marque quem (ou quais agendas) deve aparecer e confirme
+
+A escolha fica salva no navegador. Na lista, os horários alinham-se na mesma linha entre as colunas. Com mais de uma coluna, os cards ficam compactos; no computador, passe o mouse para ver detalhes e ações (confirmar, iniciar, cancelar).
+
+Com status **Agendado**, também é possível **Iniciar** o compromisso sem confirmar antes.
+
+> Changelog: [v2026.9.4](/changelog/2026/09/2026.9.4)
 
 ### Atalhos de Teclado
 
