@@ -8,9 +8,23 @@ El módulo de Configuraciones centraliza todas las opciones de personalización 
 
 ## Accediendo a Configuraciones
 
-1. En el menú principal, haz clic en **Configuraciones** (⚙️)
-2. Navega por las pestañas disponibles
-3. Los cambios se guardan automáticamente o al hacer clic en "Guardar"
+1. En el **pie** de la barra, haz clic en **Ajustes**
+2. En el hub, usa los grupos **Clientes**, **Equipo** y **Cuenta**
+3. Preferencias de atención, canales, etiquetas y macros también están en el módulo **Atención**, en el bloque Ajustes
+4. Los cambios se guardan automáticamente o al hacer clic en "Guardar"
+
+## Menú y búsqueda
+
+El menú lateral se organiza por **módulo** (Atención, Finanzas, PDV, Cobros, RR. HH. / Punto y Prontuario). Cambia el módulo debajo de la organización.
+
+Para encontrar una pantalla o una opción:
+
+1. Haz clic en la **lupa** arriba de la barra, o pulsa **⌘K** (Mac) / **Ctrl+K** (Windows y Linux)
+2. Escribe el nombre en el idioma de la interfaz (ej.: `suscripción`, `crm`, `etiquetas`)
+3. En CRM y Clientes, si puedes ver todos, la búsqueda ofrece **los míos** y **todos**
+4. Ítems dentro de las páginas (ej.: firma opcional del agente) abren la pantalla y van al bloque
+
+> Changelog: [v2026.9.2](/es/changelog/2026/09/2026.9.2)
 
 ## Configuraciones Generales
 

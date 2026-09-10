@@ -8,9 +8,23 @@ O módulo de Configurações centraliza todas as opções de personalização da
 
 ## Acessando Configurações
 
-1. No menu principal, clique em **Configurações** (⚙️)
-2. Navegue pelas abas disponíveis
-3. As alterações são salvas automaticamente ou ao clicar em "Salvar"
+1. No **rodapé** da barra lateral, clique em **Configurações**
+2. No hub, use os grupos **Clientes**, **Equipe** e **Conta**
+3. Preferências de atendimento, canais, tags e macros também ficam no módulo **Atendimento**, no bloco Configurações
+4. As alterações são salvas automaticamente ou ao clicar em "Salvar"
+
+## Menu e busca
+
+O menu lateral é organizado por **módulo** (Atendimento, Financeiro, PDV, Cobranças, RH / Ponto e Prontuário). Troque o módulo no seletor abaixo da organização.
+
+Para achar uma tela ou uma opção de configuração:
+
+1. Clique na **lupa** no topo da barra, ou pressione **⌘K** (Mac) / **Ctrl+K** (Windows e Linux)
+2. Digite o nome no idioma da interface (ex.: `assinatura`, `crm`, `tags`)
+3. Em CRM e Clientes, se você puder ver todos, a busca oferece **os que atendo** e **todos**
+4. Itens de dentro das páginas (ex.: assinatura opcional do atendente) abrem a tela e rolam até o bloco
+
+> Changelog: [v2026.9.2](/changelog/2026/09/2026.9.2)
 
 ## Configurações Gerais
 

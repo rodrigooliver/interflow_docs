@@ -8,9 +8,23 @@ The Settings module centralizes all platform customization options, from persona
 
 ## Accessing Settings
 
-1. In the main menu, click **Settings** (⚙️)
-2. Navigate through available tabs
-3. Changes are saved automatically or when clicking "Save"
+1. In the sidebar **footer**, click **Settings**
+2. In the hub, use the **Customers**, **Team**, and **Account** groups
+3. Inbox preferences, channels, tags, and macros are also in the **Inbox** module, under Settings
+4. Changes are saved automatically or when clicking "Save"
+
+## Menu and search
+
+The sidebar is organized by **module** (Inbox, Finance, POS, Billing, HR / Time clock, and Medical records). Switch modules under the organization name.
+
+To find a screen or a setting:
+
+1. Click the **magnifier** at the top of the bar, or press **⌘K** (Mac) / **Ctrl+K** (Windows and Linux)
+2. Type the name in the interface language (e.g. `subscription`, `crm`, `tags`)
+3. In CRM and Customers, if you can see everyone, search offers **mine** and **all**
+4. Items inside pages (e.g. optional agent signature) open the screen and scroll to the block
+
+> Changelog: [v2026.9.2](/en/changelog/2026/09/2026.9.2)
 
 ## General Settings
 

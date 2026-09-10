@@ -6,11 +6,14 @@ Actualizaciones del mes de septiembre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.9.2](/es/changelog/2026/09/2026.9.2) | 10/09 | **Menú por módulo y búsqueda** — workspaces en la barra y ⌘K / Ctrl+K |
 | [2026.9.1](/es/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner y admins con el nombre y el número |
 
 ---
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (1)
+### Nuevas Funcionalidades (3)
+- **Menú por módulo** (v2026.9.2) — Atención, Finanzas, PDV, Cobros, RR. HH. y Prontuario en el selector de la barra
+- **Búsqueda en el menú** (v2026.9.2) — ⌘K / Ctrl+K para páginas y opciones de configuración
 - **Aviso cuando WhatsApp WAHA queda desconectado** (v2026.9.1) — push para owner y admins si la sesión activa se cae; ignora reinicio corto, QR y desconexión manual
