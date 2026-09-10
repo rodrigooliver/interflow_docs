@@ -16,6 +16,7 @@ Nodes for sending messages and content to customers:
 - [Send Video](/en/guide/flows/nodes/video) - Sends videos
 - [Send Document](/en/guide/flows/nodes/document) - Sends PDFs and documents
 - [Send Email](/en/guide/flows/nodes/email) - Sends emails via SMTP
+- [WhatsApp Template](/en/guide/flows/nodes/whatsapp-template) - Sends an approved template for the official channel
 
 ## Receiving Nodes
 
@@ -81,6 +82,7 @@ Nodes specific to the sales module:
 | Video | Sending | Sends video |
 | Document | Sending | Sends document |
 | Email | Sending | Sends email |
+| WhatsApp Template | Sending | Sends an approved template by channel |
 | Input | Receiving | Waits for response |
 | Delay | Control | Pauses execution |
 | Condition | Control | Logical branching |

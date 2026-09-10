@@ -16,6 +16,7 @@ Nós para enviar mensagens e conteúdo ao cliente:
 - [Enviar Vídeo](/guide/flows/nodes/video) - Envia vídeos
 - [Enviar Documento](/guide/flows/nodes/document) - Envia PDFs e documentos
 - [Enviar Email](/guide/flows/nodes/email) - Envia emails via SMTP
+- [Template do WhatsApp](/guide/flows/nodes/whatsapp-template) - Envia um template aprovado conforme o canal oficial
 
 ## Nós de Recebimento
 
@@ -82,6 +83,7 @@ Nós específicos para o módulo de vendas:
 | Vídeo | Envio | Envia vídeo |
 | Documento | Envio | Envia documento |
 | Email | Envio | Envia email |
+| Template WhatsApp | Envio | Envia template aprovado por canal |
 | Input | Recebimento | Aguarda resposta |
 | Delay | Controle | Pausa execução |
 | Condição | Controle | Ramificação lógica |

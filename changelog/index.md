@@ -10,6 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.9.3](/changelog/2026/09/2026.9.3) | 10/09 | **Janela de 24h e templates nos fluxos** — escolha automática entre mensagem direta e modelo aprovado | [Guia](/guide/flows/nodes/whatsapp-template) |
 | [v2026.9.2](/changelog/2026/09/2026.9.2) | 10/09 | **Menu por módulo e busca** — workspaces no sidebar e ⌘K / Ctrl+K | [Configurações](/guide/settings/#menu-e-busca) |
 | [v2026.9.1](/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner e admins com o nome e o número | [WAHA](/guide/channels/whatsapp-waha#reconexao) |
 | [v2026.8.25](/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipe** — até 12 números nos filtros rápidos, visíveis só para quem precisa | [Filtros](/guide/chat/filters#contadores-nos-filtros-rapidos) |
@@ -19,7 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.8.21](/changelog/2026/08/2026.8.21) | 27/08 | **Mensagens e dados do cliente** — limite de histórico e máscara de cadastro no Agente IA | [Agentes IA](/guide/ai-agents/#mensagens-e-dados-do-cliente) |
 | [v2026.8.20](/changelog/2026/08/2026.8.20) | 26/08 | **Criar chat pelo Agente IA** — recolhe dados e abre (ou continua) o atendimento no canal | [Criar ou continuar chat](/guide/ai-agents/tools/create-chat) |
 | [v2026.8.19](/changelog/2026/08/2026.8.19) | 26/08 | **Campo `contact` na API** — criar chat só com o contato; o tipo vem do canal | [Criar Chat](/api/chats/create) |
-| [v2026.8.18](/changelog/2026/08/2026.8.18) | 26/08 | **Recibo em dinheiro** — baixa da parcela com comprovante para imprimir ou baixar | |
 
 [Ver todas as releases de setembro →](/changelog/2026/09/)
 

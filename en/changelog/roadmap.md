@@ -29,7 +29,6 @@ This roadmap is updated regularly and may change based on product priorities.
 | Disable immediate flow on official API channels in Meta forms | Aug 2026 | Block immediate flow start on official API channels, requiring an approved template for the first contact. |
 | Edit and delete messages in internal chat | Aug 2026 | Edit or delete messages sent in the team’s internal chat. |
 | Billing flow adjustments and default succumbency value | Aug 2026 | Avoid unwanted automatic billing creation, standardize charge names (COMPANY X DEBTOR), and keep succumbency at zero by default. |
-| Detect the 24-hour window and add a template node in flows | Aug 2026 | Check whether the conversation is inside WhatsApp’s 24-hour window and send an approved template when it is not. |
 | Meet call button with customer notifications | Aug 2026 | Start a Google Meet call from the conversation and automatically send the join link to the customer. |
 | Fix contact number in “View customers” in UTM Tracking | Aug 2026 | Show the contact number for every customer in an ad’s customer list. |
 | Fix custom field ordering | Aug 2026 | Keep the user-defined order of custom fields after edits and page reloads. |

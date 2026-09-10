@@ -29,7 +29,6 @@ Este roadmap se actualiza con regularidad y puede cambiar según las prioridades
 | Desactivar flujo inmediato en canales oficiales del formulario Meta | Ago/2026 | Impedir el inicio de flujo inmediato en canales de API oficial, exigiendo una plantilla aprobada en el primer contacto. |
 | Eliminación y edición de mensajes en el chat interno | Ago/2026 | Editar o eliminar mensajes enviados en el chat interno del equipo. |
 | Ajustes en el flujo de cobros y sucumbencia por defecto | Ago/2026 | Evitar la creación automática indeseada de cobros, estandarizar el nombre (EMPRESA X DEUDOR) y mantener la sucumbencia en cero por defecto. |
-| Detectar la ventana de 24 h y nodo de plantilla en los flujos | Ago/2026 | Verificar si la conversación está dentro de la ventana de 24 h de WhatsApp y enviar una plantilla aprobada cuando esté fuera. |
 | Botón de llamadas Meet con notificación al cliente | Ago/2026 | Iniciar Google Meet desde la atención y enviar automáticamente el enlace de la llamada al cliente. |
 | Corregir el número de contacto en “Ver customers” de UTM Tracking | Ago/2026 | Mostrar el número de contacto de todos los clientes en el listado de un anuncio. |
 | Corregir el orden de los campos personalizados | Ago/2026 | Mantener el orden definido por el usuario después de ediciones y al recargar la página. |

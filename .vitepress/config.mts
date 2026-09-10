@@ -84,6 +84,7 @@ function getSidebar(lang: string = '') {
               { text: lang === 'en' ? 'Send Video' : lang === 'es' ? 'Enviar Video' : 'Enviar Vídeo', link: `${prefix}/guide/flows/nodes/video` },
               { text: lang === 'en' ? 'Send Document' : lang === 'es' ? 'Enviar Documento' : 'Enviar Documento', link: `${prefix}/guide/flows/nodes/document` },
               { text: lang === 'en' ? 'Send Email' : lang === 'es' ? 'Enviar Email' : 'Enviar Email', link: `${prefix}/guide/flows/nodes/email` },
+              { text: lang === 'en' ? 'WhatsApp Template' : lang === 'es' ? 'Plantilla de WhatsApp' : 'Template do WhatsApp', link: `${prefix}/guide/flows/nodes/whatsapp-template` },
               { text: 'Input', link: `${prefix}/guide/flows/nodes/input` },
               { text: 'Delay', link: `${prefix}/guide/flows/nodes/delay` },
               { text: lang === 'en' ? 'Variable' : lang === 'es' ? 'Variable' : 'Variável', link: `${prefix}/guide/flows/nodes/variable` },
@@ -361,6 +362,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/09/` },
+              { text: 'v2026.9.3', link: `${prefix}/changelog/2026/09/2026.9.3` },
               { text: 'v2026.9.2', link: `${prefix}/changelog/2026/09/2026.9.2` },
               { text: 'v2026.9.1', link: `${prefix}/changelog/2026/09/2026.9.1` }
             ]

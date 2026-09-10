@@ -16,6 +16,7 @@ Nodos para enviar mensajes y contenido al cliente:
 - [Enviar Video](/es/guide/flows/nodes/video) - Envía videos
 - [Enviar Documento](/es/guide/flows/nodes/document) - Envía PDFs y documentos
 - [Enviar Email](/es/guide/flows/nodes/email) - Envía emails vía SMTP
+- [Plantilla de WhatsApp](/es/guide/flows/nodes/whatsapp-template) - Envía una plantilla aprobada según el canal oficial
 
 ## Nodos de Recepción
 
@@ -81,6 +82,7 @@ Nodos específicos para el módulo de ventas:
 | Video | Envío | Envía video |
 | Documento | Envío | Envía documento |
 | Email | Envío | Envía email |
+| Plantilla de WhatsApp | Envío | Envía una plantilla aprobada por canal |
 | Input | Recepción | Espera respuesta |
 | Delay | Control | Pausa ejecución |
 | Condición | Control | Ramificación lógica |
