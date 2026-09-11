@@ -39,7 +39,7 @@ Cree cajas, agregue **operadores** y defina permisos por caja. Cada usuario solo
 
 ## Informes
 
-En **Financiero → Informes** solo ves las cajas en las que eres operador:
+En **Financiero → Informes** solo ves las cajas en las que eres **admin** o tienes el permiso **Puede ver informes**:
 
 1. Elige el período y, si quieres, una caja (o todas las que puedes acceder)
 2. **Flujo de caja** — ingresos/gastos realizados y previstos en el tiempo

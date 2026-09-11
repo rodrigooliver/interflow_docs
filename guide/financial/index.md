@@ -80,7 +80,7 @@ Cadastre nomes/chaves, se aceita crédito, parcelas e taxa percentual. Use esses
 
 ## Relatórios
 
-Em **Financeiro → Relatórios** você vê só os caixas em que é operador:
+Em **Financeiro → Relatórios** você vê só os caixas em que é **admin** ou tem a permissão **Pode ver relatórios**:
 
 1. Escolha o período e, se quiser, um caixa (ou todos os que você acessa)
 2. **Fluxo de caixa** — receitas/despesas realizadas e previstas no tempo
@@ -94,7 +94,7 @@ Quem tem a permissão de exportar relatórios pode baixar a aba atual em CSV.
 
 - Módulo `financial` habilitado na organização
 - Permissões especiais (conforme grupo): acessar todas as transações, aprovar, exportar relatórios
-- Permissões por caixa para operadores
+- Permissões por caixa para operadores (incluindo **Pode ver relatórios**)
 
 ## Próximos passos
 

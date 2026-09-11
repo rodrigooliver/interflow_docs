@@ -39,7 +39,7 @@ Create cashiers, add **operators**, and set per-cashier permissions (view, creat
 
 ## Reports
 
-In **Financial → Reports** you only see cash registers you operate:
+In **Financial → Reports** you only see cash registers where you are **admin** or have **Can view reports**:
 
 1. Pick a period and, optionally, a cash register (or all you can access)
 2. **Cash flow** — settled and open income/expenses over time
@@ -53,7 +53,7 @@ Profiles with export permission can download the current tab as CSV.
 
 - Module `financial` enabled
 - Special group permissions: all transactions, approve, export reports
-- Per-cashier operator permissions
+- Per-cashier operator permissions (including **Can view reports**)
 
 ## Related
 
