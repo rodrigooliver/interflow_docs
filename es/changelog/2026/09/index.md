@@ -6,6 +6,7 @@ Actualizaciones del mes de septiembre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.9.6](/es/changelog/2026/09/2026.9.6) | 10/09 | **Informes financieros** — flujo de caja, categorías y aging en las cajas con acceso |
 | [2026.9.5](/es/changelog/2026/09/2026.9.5) | 10/09 | **Audio en el Agente IA** — responder con voz del sistema, sin nodos de TTS |
 | [2026.9.4](/es/changelog/2026/09/2026.9.4) | 10/09 | **Lista y día en columnas** — por profesional o agenda, con tarjetas compactas |
 | [2026.9.3](/es/changelog/2026/09/2026.9.3) | 10/09 | **Ventana de 24h y plantillas en los flujos** — condición por canal oficial y envío de plantilla aprobada |
@@ -16,7 +17,8 @@ Actualizaciones del mes de septiembre de 2026.
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (8)
+### Nuevas Funcionalidades (9)
+- **Informes financieros** (v2026.9.6) — flujo de caja, categorías, por cobrar/pagar y comparativo por caja, solo en las cajas con acceso
 - **Audio en el Agente IA** (v2026.9.5) — respuesta con voz del sistema, con reglas de audio, enlace y probabilidad
 - **Lista y día en columnas** (v2026.9.4) — división por profesional o agenda, con tarjetas compactas y panel al pasar el cursor
 - **Iniciar una cita aún no confirmada** (v2026.9.4) — saltar la confirmación e ir directo a en curso

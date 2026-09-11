@@ -15,7 +15,7 @@ Menú → **Financiero**. El módulo `financial` debe estar habilitado.
 | **Cajas** | Cuentas de caja y operadores |
 | **Categorías** | Categorías de ingreso/gasto |
 | **Métodos de pago** | Crédito, tasas, cuotas |
-| **Informes** | Informes del módulo |
+| **Informes** | Flujo de caja, categorías, por cobrar/pagar y por caja |
 
 ::: info
 **Facturación** (contratos/Asaas) es un módulo aparte — ver [Facturación](/es/guide/billing/).
@@ -36,6 +36,18 @@ Pendiente · Pagado/Recibido · Vencido · Cancelado
 ## Cajas
 
 Cree cajas, agregue **operadores** y defina permisos por caja. Cada usuario solo ve las cajas donde es operador (salvo permisos especiales).
+
+## Informes
+
+En **Financiero → Informes** solo ves las cajas en las que eres operador:
+
+1. Elige el período y, si quieres, una caja (o todas las que puedes acceder)
+2. **Flujo de caja** — ingresos/gastos realizados y previstos en el tiempo
+3. **Por categoría** — DRE gerencial (realizado y en abierto)
+4. **Por cobrar / pagar** — aging (al día, 1–30, 31–60, 61–90, 90+)
+5. **Por caja** — comparativo de saldo y movimiento
+
+Quien tiene permiso para exportar informes puede descargar la pestaña actual en CSV.
 
 ## Relacionados
 

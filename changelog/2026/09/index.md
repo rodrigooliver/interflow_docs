@@ -6,6 +6,7 @@ Atualizações do mês de setembro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.9.6](/changelog/2026/09/2026.9.6) | 10/09 | **Relatórios financeiros** — fluxo de caixa, categorias e aging nos caixas com acesso |
 | [2026.9.5](/changelog/2026/09/2026.9.5) | 10/09 | **Áudio no Agente IA** — responder com voz do sistema, sem nós de TTS |
 | [2026.9.4](/changelog/2026/09/2026.9.4) | 10/09 | **Lista e dia em colunas** — por profissional ou agenda, com cards compactos |
 | [2026.9.3](/changelog/2026/09/2026.9.3) | 10/09 | **Janela de 24h e templates nos fluxos** — condição por canal oficial e envio de modelo aprovado |
@@ -16,7 +17,8 @@ Atualizações do mês de setembro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (8)
+### Novas Funcionalidades (9)
+- **Relatórios financeiros** (v2026.9.6) — fluxo de caixa, categorias, a receber/pagar e comparativo por caixa, só nos caixas com acesso
 - **Áudio no Agente IA** (v2026.9.5) — resposta em voz do sistema, com regras de áudio, link e probabilidade
 - **Lista e dia em colunas** (v2026.9.4) — divisão por profissional ou agenda, com cards compactos e painel no hover
 - **Iniciar agendamento ainda não confirmado** (v2026.9.4) — pular a confirmação e ir direto para em andamento

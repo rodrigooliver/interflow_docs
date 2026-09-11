@@ -22,6 +22,7 @@ Este módulo gerencia o financeiro **interno** da organização. Para contratos,
 - Configurar métodos de pagamento (crédito, taxas, parcelas)
 - Vincular transações opcionalmente a um cliente do CRM
 - Usar sugestões com IA para categorização de lançamentos
+- Ver relatórios de fluxo de caixa, categorias, a receber/pagar e por caixa (somente caixas com acesso)
 - Exportar relatórios conforme permissão do perfil
 
 ## Como se conecta

@@ -22,6 +22,7 @@ This module manages the organization's **internal** finances. For contracts, ins
 - Configure payment methods (credit, fees, installments)
 - Optionally link transactions to a CRM customer
 - Use AI suggestions for transaction categorization
+- View cash flow, category, receivable/payable, and per-register reports (only cash registers you can access)
 - Export reports according to profile permissions
 
 ## How it connects

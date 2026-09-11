@@ -15,7 +15,7 @@ Menu lateral → **Financeiro**. O módulo precisa estar habilitado no plano/org
 | **Caixas** | Contas de caixa e operadores |
 | **Categorias** | Categorias de receita e despesa |
 | **Métodos de pagamento** | Formas de pagamento (crédito, taxas, parcelas) |
-| **Relatórios** | Relatórios do módulo |
+| **Relatórios** | Fluxo de caixa, categorias, a receber/pagar e por caixa |
 
 ::: info
 **Cobrança** (contratos/Asaas) é um módulo separado — veja [Cobrança](/guide/billing/).
@@ -77,6 +77,18 @@ Em **Financeiro → Categorias**:
 ## Métodos de pagamento
 
 Cadastre nomes/chaves, se aceita crédito, parcelas e taxa percentual. Use esses métodos ao lançar transações.
+
+## Relatórios
+
+Em **Financeiro → Relatórios** você vê só os caixas em que é operador:
+
+1. Escolha o período e, se quiser, um caixa (ou todos os que você acessa)
+2. **Fluxo de caixa** — receitas/despesas realizadas e previstas no tempo
+3. **Por categoria** — DRE gerencial (realizado e em aberto)
+4. **A receber / a pagar** — aging (em dia, 1–30, 31–60, 61–90, 90+)
+5. **Por caixa** — comparativo de saldo e movimento
+
+Quem tem a permissão de exportar relatórios pode baixar a aba atual em CSV.
 
 ## Permissões
 

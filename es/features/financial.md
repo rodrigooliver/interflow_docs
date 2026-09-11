@@ -22,6 +22,7 @@ Este módulo gestiona las finanzas **internas** de la organización. Para contra
 - Configurar métodos de pago (crédito, tasas, cuotas)
 - Vincular transacciones opcionalmente a un cliente del CRM
 - Usar sugerencias con IA para categorización de movimientos
+- Ver informes de flujo de caja, categorías, por cobrar/pagar y por caja (solo cajas con acceso)
 - Exportar informes según permiso del perfil
 
 ## Cómo se conecta
