@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.9.7](/en/changelog/2026/09/2026.9.7) | Sep 10 | **Cost centers** — expenses by area, entry filtering, and CSV reporting | [Financial](/en/guide/financial/#cost-centers) |
 | [v2026.9.6](/en/changelog/2026/09/2026.9.6) | Sep 10 | **Financial reports** — cash flow, categories, and aging on cash registers you can access | [Financial](/en/guide/financial/#reports) |
 | [v2026.9.5](/en/changelog/2026/09/2026.9.5) | Sep 10 | **Audio on the AI Agent** — reply with a system voice, without TTS nodes | [AI Agents](/en/guide/ai-agents/#audio-replies) |
 | [v2026.9.4](/en/changelog/2026/09/2026.9.4) | Sep 10 | **List and day in columns** — by professional or schedule, with compact cards | [Schedule](/en/guide/schedule/#column-split) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.8.25](/en/changelog/2026/08/2026.8.25) | Sep 8 | **Counters per team** — up to 12 numbers on quick filters, visible only to who needs them | [Filters](/en/guide/chat/filters#counters-on-quick-filters) |
 | [v2026.8.24](/en/changelog/2026/08/2026.8.24) | Aug 27 | **System voices** — generate audio from text in the conversation | [System voices](/en/guide/chat/system-voices) |
 | [v2026.8.23](/en/changelog/2026/08/2026.8.23) | Aug 27 | **AI Agent on a message** — run the prompt without starting a flow | [Run on a message](/en/guide/ai-agents/run-on-message) |
-| [v2026.8.22](/en/changelog/2026/08/2026.8.22) | Aug 27 | **One-off message on pending** — reply without taking over the conversation | [Settings](/en/guide/settings/#allow-message-without-attending) |
 
 [See all September releases →](/en/changelog/2026/09/)
 

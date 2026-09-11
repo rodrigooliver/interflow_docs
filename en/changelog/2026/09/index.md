@@ -6,6 +6,7 @@ Updates for September 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.9.7](/en/changelog/2026/09/2026.9.7) | 09/10 | **Cost centers** — expenses by area, entry filtering, and CSV reporting |
 | [2026.9.6](/en/changelog/2026/09/2026.9.6) | 09/10 | **Financial reports** — cash flow, categories, and aging on cash registers you can access |
 | [2026.9.5](/en/changelog/2026/09/2026.9.5) | 09/10 | **Audio on the AI Agent** — reply with a system voice, without TTS nodes |
 | [2026.9.4](/en/changelog/2026/09/2026.9.4) | 09/10 | **List and day in columns** — by professional or schedule, with compact cards |
@@ -17,7 +18,8 @@ Updates for September 2026.
 
 ## Month summary
 
-### New Features (9)
+### New Features (10)
+- **Cost centers** (v2026.9.7) — management, optional expense assignment, filtering, and a dedicated CSV report
 - **Financial reports** (v2026.9.6) — cash flow, categories, receivables/payables, and per-register comparison, only for cash registers you can access
 - **Audio on the AI Agent** (v2026.9.5) — system-voice reply, with audio, link, and probability rules
 - **List and day in columns** (v2026.9.4) — split by professional or schedule, with compact cards and a hover panel

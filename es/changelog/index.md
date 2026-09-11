@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.9.7](/es/changelog/2026/09/2026.9.7) | 10/09 | **Centros de coste** — gastos por área, filtro de movimientos e informe con CSV | [Financiero](/es/guide/financial/#centros-de-coste) |
 | [v2026.9.6](/es/changelog/2026/09/2026.9.6) | 10/09 | **Informes financieros** — flujo de caja, categorías y aging en las cajas con acceso | [Financiero](/es/guide/financial/#informes) |
 | [v2026.9.5](/es/changelog/2026/09/2026.9.5) | 10/09 | **Audio en el Agente IA** — responder con voz del sistema, sin nodos de TTS | [Agentes IA](/es/guide/ai-agents/#respuesta-en-audio) |
 | [v2026.9.4](/es/changelog/2026/09/2026.9.4) | 10/09 | **Lista y día en columnas** — por profesional o agenda, con tarjetas compactas | [Agenda](/es/guide/schedule/#division-en-columnas) |
@@ -19,7 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.8.25](/es/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipo** — hasta 12 números en los filtros rápidos, visibles solo para quien los necesita | [Filtros](/es/guide/chat/filters#contadores-en-los-filtros-rapidos) |
 | [v2026.8.24](/es/changelog/2026/08/2026.8.24) | 27/08 | **Voces del sistema** — generar audio a partir del texto en la atención | [Voces del sistema](/es/guide/chat/system-voices) |
 | [v2026.8.23](/es/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA en el mensaje** — ejecutar el prompt sin iniciar un flujo | [Ejecutar en un mensaje](/es/guide/ai-agents/run-on-message) |
-| [v2026.8.22](/es/changelog/2026/08/2026.8.22) | 27/08 | **Mensaje suelto en pendiente** — responder sin asumir la atención | [Configuración](/es/guide/settings/#permitir-mensaje-sin-atender) |
 
 [Ver todas las releases de septiembre →](/es/changelog/2026/09/)
 
