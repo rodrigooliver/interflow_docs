@@ -197,11 +197,15 @@ Detailed agent settings:
 - **Thinking Mode** (DeepSeek): Enable/disable chain-of-thought and effort (High / Maximum)
 - **Max Tokens** (OpenAI without reasoning): Response token limit
 - **Verbosity** (GPT-5 models): Controls response length
+- **Timezone**: Sets the timezone for dates and times
+
+#### Message sending
+On the **Sending** tab:
 - **Send messages from the agent**: the final reply goes straight to the chat (remove the Send Text node from the flow to avoid duplicates)
 - **Split text by paragraph**: each paragraph (blank line) becomes a separate message
 - **Signature**: text at the beginning or end of the message; the model does not read this text
 - **Reply with audio**: turns the reply into audio with a [system voice](/en/guide/chat/system-voices); on failure, sends the text
-- **Timezone**: Sets the timezone for dates and times
+- **Send audio through the auxiliary channel**: on WhatsApp Official with a connected WAHA auxiliary, audio goes out through the auxiliary (OGG, more natural sound)
 
 #### Flow Settings
 - **View Flow**: Access the agent's linked flow
@@ -276,7 +280,7 @@ Add an automatic signature to messages the agent sends, in the same format as th
 
 ### How to configure
 
-1. Open the AI Agent on the **Advanced** tab
+1. Open the AI Agent on the **Sending** tab
 2. Turn on **Send messages from the agent**
 3. Fill in **Signature** and choose **Beginning (Header)** or **End (Footer)**
 4. If the flow still has a **Send Text** node after the agent, remove it to avoid duplicate messages
@@ -291,17 +295,18 @@ With **Send messages from the agent** off, sending still happens in the Send Tex
 
 ## Audio replies
 
-The AI Agent can send the final reply as audio, without TTS nodes in the flow. Register the voice in [System voices](/en/guide/chat/system-voices) (ElevenLabs, Minimax, or OpenAI) and turn the option on in the **Advanced** tab.
+The AI Agent can send the final reply as audio, without TTS nodes in the flow. Register the voice in [System voices](/en/guide/chat/system-voices) (ElevenLabs, Minimax, or OpenAI) and turn the option on in the **Sending** tab.
 
 ### How to configure
 
-1. Open the AI Agent on the **Advanced** tab
+1. Open the AI Agent on the **Sending** tab
 2. Turn on **Send messages from the agent**
 3. Turn on **Reply with audio** and choose the voice
 4. Adjust the rules:
    - **If the customer sent audio, reply with audio**
    - **If the reply contains a link, send text**
    - **Audio chance on text replies** (0–100%; 25% is 1 in 4)
+   - **Send audio through the auxiliary channel** — on WhatsApp Official with a connected [WAHA auxiliary](/en/guide/channels/whatsapp-waha#auxiliary-channel-for-whatsapp-official), audio goes out through the auxiliary (OGG conversion and a more natural sound). If the auxiliary is unavailable, it sends through Official.
 5. If the flow still has TTS / audio nodes after the agent, remove them to avoid duplicate sends
 
 The model text is rewritten for speech (numbers, dates, and URLs spoken out). The customer receives the audio with that version as the transcription. Interactive lists and media JSON stay as text.

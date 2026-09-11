@@ -236,11 +236,15 @@ Configurações detalhadas do agente:
 - **Thinking Mode** (DeepSeek): Liga/desliga raciocínio em cadeia e esforço (Alto / Máximo)
 - **Máximo de Tokens** (OpenAI sem raciocínio): Limite de tokens na resposta
 - **Verbosidade** (modelos GPT-5): Controla o tamanho das respostas
+- **Fuso Horário**: Define o timezone para datas e horários
+
+#### Envio de mensagens
+Na aba **Envio**:
 - **Enviar mensagens pelo agente**: a resposta final vai direto ao chat (remova o nó Enviar Texto do fluxo para não duplicar)
 - **Quebrar texto por parágrafo**: cada parágrafo (linha em branco) vira uma mensagem
 - **Assinatura**: texto no início ou no fim da mensagem; o modelo não lê esse texto
 - **Responder com áudio**: converte a resposta em áudio com uma [voz do sistema](/guide/chat/system-voices); se falhar, envia o texto
-- **Fuso Horário**: Define o timezone para datas e horários
+- **Enviar áudio pelo canal auxiliar**: no WhatsApp Oficial com auxiliar WAHA conectado, o áudio sai pelo auxiliar (OGG, som mais natural)
 
 #### Configurações de Fluxo
 - **Visualizar Fluxo**: Acesse o fluxo vinculado ao agente
@@ -354,7 +358,7 @@ Adicione uma assinatura automática às mensagens enviadas pelo agente, no mesmo
 
 ### Como Configurar
 
-1. Abra o Agente IA na aba **Avançado**
+1. Abra o Agente IA na aba **Envio**
 2. Ative **Enviar mensagens pelo agente**
 3. Preencha **Assinatura** e escolha **Início (Header)** ou **Fim (Footer)**
 4. Se o fluxo ainda tiver um nó **Enviar Texto** depois do agente, remova-o para evitar mensagens duplicadas
@@ -369,17 +373,18 @@ Com **Enviar mensagens pelo agente** desligado, o envio continua no nó Enviar T
 
 ## Resposta em áudio
 
-O Agente IA pode enviar a resposta final como áudio, sem montar nós de TTS no fluxo. Cadastre a voz em [Vozes do sistema](/guide/chat/system-voices) (ElevenLabs, Minimax ou OpenAI) e ative a opção na aba **Avançado**.
+O Agente IA pode enviar a resposta final como áudio, sem montar nós de TTS no fluxo. Cadastre a voz em [Vozes do sistema](/guide/chat/system-voices) (ElevenLabs, Minimax ou OpenAI) e ative a opção na aba **Envio**.
 
 ### Como configurar
 
-1. Abra o Agente IA na aba **Avançado**
+1. Abra o Agente IA na aba **Envio**
 2. Ative **Enviar mensagens pelo agente**
 3. Ative **Responder com áudio** e escolha a voz
 4. Ajuste as regras:
    - **Se o cliente mandou áudio, responder em áudio**
    - **Se a resposta tiver link, enviar texto**
    - **Probabilidade de áudio em respostas de texto** (0–100%; 25% equivale a 1 em 4)
+   - **Enviar áudio pelo canal auxiliar** — no WhatsApp Oficial com [canal auxiliar WAHA](/guide/channels/whatsapp-waha#canal-auxiliar-para-whatsapp-official) conectado, o áudio sai pelo auxiliar (conversão para OGG e som mais natural). Sem auxiliar disponível, envia pelo oficial.
 5. Se o fluxo ainda tiver nós de TTS / áudio depois do agente, remova-os para não duplicar o envio
 
 O texto gerado pelo modelo é reescrito para leitura em voz (números, datas e URLs por extenso). O áudio vai ao cliente com essa versão como transcrição. Listas interativas e mídia JSON continuam em texto.

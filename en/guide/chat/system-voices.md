@@ -17,7 +17,7 @@ Generate audio from text in the conversation, using the organization’s saved v
 |------|------|
 | **Save voices** | Sidebar → **Voices** |
 | **Use in chat** | Message field → **Record from text** |
-| **Use on the AI Agent** | AI Agent → **Advanced** tab → **Reply with audio** |
+| **Use on the AI Agent** | AI Agent → **Sending** tab → **Reply with audio** |
 
 The chat button only appears if there is at least one **active** voice and the channel accepts audio.
 

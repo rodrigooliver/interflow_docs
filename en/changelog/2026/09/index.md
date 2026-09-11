@@ -26,5 +26,6 @@ Updates for September 2026.
 - **Menu search** (v2026.9.2) — ⌘K / Ctrl+K for pages and settings options
 - **Alert when WhatsApp WAHA stays disconnected** (v2026.9.1) — push to owner and admins if the active session drops; ignores short restarts, QR, and manual disconnect
 
-### Fixes (1)
+### Fixes (2)
+- **Audio and text in the same reply** (v2026.9.5) — the customer gets only the audio, with the transcription on the audio itself
 - **Split columns remembered after refresh** (v2026.9.4) — the chosen professionals or schedules stay in the browser

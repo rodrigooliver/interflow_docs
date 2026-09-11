@@ -17,7 +17,7 @@ Genere audio a partir del texto en la atención, con las voces registradas de la
 |------|------|
 | **Registrar voces** | Menú lateral → **Voces** |
 | **Usar en el chat** | Campo de mensaje → **Grabar desde texto** |
-| **Usar en el Agente IA** | Agente IA → pestaña **Avanzado** → **Responder con audio** |
+| **Usar en el Agente IA** | Agente IA → pestaña **Envío** → **Responder con audio** |
 
 El botón del chat solo aparece si hay al menos una voz **activa** y el canal acepta audio.
 

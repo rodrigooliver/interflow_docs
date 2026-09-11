@@ -26,5 +26,6 @@ Atualizações do mês de setembro de 2026.
 - **Busca no menu** (v2026.9.2) — ⌘K / Ctrl+K para páginas e opções de configuração
 - **Aviso quando o WhatsApp WAHA fica desconectado** (v2026.9.1) — push para owner e admins se a sessão ativa cair; ignora reinício curto, QR e desconexão manual
 
-### Correções (1)
+### Correções (2)
+- **Áudio e texto na mesma resposta** (v2026.9.5) — o cliente recebe só o áudio, com a transcrição no próprio áudio
 - **Colunas da divisão lembradas ao atualizar** (v2026.9.4) — a escolha de profissionais ou agendas permanece no navegador

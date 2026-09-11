@@ -17,7 +17,7 @@ Gere áudio a partir do texto no atendimento, com vozes cadastradas da organiza�
 |------|---------|
 | **Cadastrar vozes** | Menu lateral → **Vozes** |
 | **Usar no chat** | Campo de mensagem → **Gravar baseado em texto** |
-| **Usar no Agente IA** | Agente IA → aba **Avançado** → **Responder com áudio** |
+| **Usar no Agente IA** | Agente IA → aba **Envio** → **Responder com áudio** |
 
 O botão no chat só aparece se existir pelo menos uma voz **ativa** e o canal aceitar áudio.
 
