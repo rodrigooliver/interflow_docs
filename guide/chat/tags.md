@@ -9,7 +9,7 @@ Menu → **Tags**.
 ## Para que servem
 
 - Filtrar a caixa de entrada e listagens
-- Segmentar públicos em [disparos em massa](/guide/chat/bulk-messages)
+- Segmentar públicos em [disparos em massa](/guide/chat/bulk-messages) (inclusão ou exclusão)
 - Organizar clientes e contextos de atendimento
 - Condicionar comportamentos em fluxos e prompts (quando configurado)
 

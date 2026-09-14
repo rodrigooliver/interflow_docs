@@ -6,7 +6,7 @@ Etiquetas de color para organizar chats, clientes y automatizaciones.
 Menú → **Tags**.
 :::
 
-Cree tags con **nombre** y **color**. Úselas en filtros y [disparos masivos](/es/guide/chat/bulk-messages).
+Cree etiquetas con **nombre** y **color**. Úselas en filtros y [disparos masivos](/es/guide/chat/bulk-messages) (inclusión o exclusión).
 
 ::: warning
 Borrar una tag **no elimina** el historial de uso en mensajes/prompts.

@@ -17,9 +17,23 @@ Menú → **Disparos masivos**. Requiere `bulkMessages`.
 ## Crear campaña
 
 1. Abra **Disparos masivos** → **Nueva**
-2. Elija modo y filtros (canal, tags, etapas CRM, estado…)
-3. Configure mensaje/plantilla/flujo e intervalo
-4. Inicie — puede pausar o cancelar después
+2. Elija modo y filtros (canal, etiquetas, etapas CRM, estado…)
+3. Si quiere, marque **Etiquetas excluidas** para quien no debe recibir
+4. Configure mensaje/plantilla/flujo e intervalo
+5. Inicie — puede pausar o cancelar después
+
+## Excluir etiquetas
+
+Además de incluir por etiquetas, la campaña puede **excluir** contactos con determinadas etiquetas (por ejemplo `parar mensajes` o `salir`).
+
+- Quien tenga **cualquier** etiqueta excluida no entra en la cola, aunque coincida con una etapa u otra etiqueta de inclusión
+- La estimación de destinatarios ya descuenta a esas personas
+- Una etiqueta no queda a la vez en inclusión y exclusión
+- Si **Etiquetas excluidas** está vacío, el disparo se comporta como antes
+
+Útil para respetar la baja sin desarmar las listas de inclusión.
+
+> Changelog: [v2026.9.8](/es/changelog/2026/09/2026.9.8)
 
 ## WhatsApp WAHA
 

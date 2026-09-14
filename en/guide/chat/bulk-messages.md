@@ -18,8 +18,22 @@ Sidebar → **Bulk messages**. Requires `bulkMessages`.
 
 1. Open **Bulk messages** → **New**
 2. Choose send mode and audience filters (channel, tags, CRM stages, status…)
-3. Configure message/template/flow and interval
-4. Start — you can pause or cancel later
+3. Optionally mark **Excluded tags** so those contacts do not receive the send
+4. Configure message/template/flow and interval
+5. Start — you can pause or cancel later
+
+## Exclude tags
+
+Besides including by tags, a campaign can **exclude** contacts with certain tags (for example `stop messages` or `opt out`).
+
+- Anyone with **any** excluded tag is left out of the queue, even if they match a stage or another include tag
+- The recipient estimate already subtracts those people
+- A tag cannot be selected for include and exclude at the same time
+- If **Excluded tags** is empty, the send behaves as before
+
+Useful to honor opt-out requests without dismantling include lists.
+
+> Changelog: [v2026.9.8](/en/changelog/2026/09/2026.9.8)
 
 ::: warning Silent flows
 `bulk_silent` does not talk to the contact. Use it for CRM updates, tasks, webhooks, etc.

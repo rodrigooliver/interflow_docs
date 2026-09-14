@@ -10,6 +10,7 @@ As **10 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.9.8](/changelog/2026/09/2026.9.8) | 14/09 | **Excluir tags no disparo** — não enviar para quem pediu para parar | [Disparos em massa](/guide/chat/bulk-messages#excluir-tags) |
 | [v2026.9.7](/changelog/2026/09/2026.9.7) | 10/09 | **Centros de custo** — despesas por área, filtro nos lançamentos e relatório com CSV | [Financeiro](/guide/financial/#centros-de-custo) |
 | [v2026.9.6](/changelog/2026/09/2026.9.6) | 10/09 | **Relatórios financeiros** — fluxo de caixa, categorias e aging nos caixas com acesso | [Financeiro](/guide/financial/#relatorios) |
 | [v2026.9.5](/changelog/2026/09/2026.9.5) | 10/09 | **Áudio no Agente IA** — responder com voz do sistema, sem nós de TTS | [Agentes IA](/guide/ai-agents/#resposta-em-audio) |
@@ -19,7 +20,6 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.9.1](/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner e admins com o nome e o número | [WAHA](/guide/channels/whatsapp-waha#reconexao) |
 | [v2026.8.25](/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipe** — até 12 números nos filtros rápidos, visíveis só para quem precisa | [Filtros](/guide/chat/filters#contadores-nos-filtros-rapidos) |
 | [v2026.8.24](/changelog/2026/08/2026.8.24) | 27/08 | **Vozes do sistema** — gerar áudio a partir do texto no atendimento | [Vozes do sistema](/guide/chat/system-voices) |
-| [v2026.8.23](/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA na mensagem** — executar o prompt sem iniciar fluxo | [Executar em uma mensagem](/guide/ai-agents/run-on-message) |
 
 [Ver todas as releases de setembro →](/changelog/2026/09/)
 

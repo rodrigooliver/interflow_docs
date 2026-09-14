@@ -20,10 +20,24 @@ Menu → **Disparos em massa**. Requer módulo/permissão `bulkMessages`.
 2. Clique em **Nova campanha**
 3. Escolha o modo de envio
 4. Defina o público com filtros (canal, tags, estágios CRM, status, etc.)
-5. No modo silencioso, use filtros como **mínimo de interações do cliente** quando disponível
-6. Configure a mensagem, o template ou o fluxo
-7. Defina o intervalo entre envios (respeite os mínimos do modo)
-8. Inicie a campanha — você pode **pausar** ou **cancelar** depois
+5. Se quiser, marque **Tags excluídas** para quem não deve receber
+6. No modo silencioso, use filtros como **mínimo de interações do cliente** quando disponível
+7. Configure a mensagem, o template ou o fluxo
+8. Defina o intervalo entre envios (respeite os mínimos do modo)
+9. Inicie a campanha — você pode **pausar** ou **cancelar** depois
+
+## Excluir tags
+
+Além de incluir por tags, a campanha pode **excluir** contatos com determinadas tags (por exemplo `parar mensagens` ou `sair`).
+
+- Quem tiver **qualquer** tag excluída não entra na fila, mesmo que esteja em um estágio ou em outra tag de inclusão
+- A estimativa de destinatários já desconta essas pessoas
+- Uma tag não fica ao mesmo tempo em inclusão e exclusão
+- Se **Tags excluídas** estiver vazio, o disparo se comporta como antes
+
+Útil para respeitar descadastramento sem desmontar as listas de inclusão.
+
+> Changelog: [v2026.9.8](/changelog/2026/09/2026.9.8)
 
 ## Fluxo silencioso (`bulk_silent`)
 
@@ -49,7 +63,7 @@ No modo **mensagem** com canal WAHA:
 
 - Prefira templates aprovados no WhatsApp Official
 - Não abuse de disparos não solicitados (risco de bloqueio)
-- Segmente com tags e estágios do funil
+- Segmente com tags e estágios do funil; use **Tags excluídas** para quem pediu para parar
 - Monitore a campanha em 
 
 ## Relacionados
