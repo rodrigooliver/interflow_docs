@@ -4,9 +4,9 @@ Novedades, mejoras y correcciones de la plataforma Interflow — organizadas por
 
 Use esta página para ver las **últimas actualizaciones** e ir a la release o a la guía correspondiente.
 
-## Últimas 10 actualizaciones
+## Últimas 20 actualizaciones
 
-Las **10 releases más recientes** (la más nueva primero):
+Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
@@ -20,6 +20,16 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.9.2](/es/changelog/2026/09/2026.9.2) | 10/09 | **Menú por módulo y búsqueda** — workspaces en la barra y ⌘K / Ctrl+K | [Configuración](/es/guide/settings/#menu-y-busqueda) |
 | [v2026.9.1](/es/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner y admins con el nombre y el número | [WAHA](/es/guide/channels/whatsapp-waha#reconexion) |
 | [v2026.8.25](/es/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipo** — hasta 12 números en los filtros rápidos, visibles solo para quien los necesita | [Filtros](/es/guide/chat/filters#contadores-en-los-filtros-rapidos) |
+| [v2026.8.24](/es/changelog/2026/08/2026.8.24) | 27/08 | **Voces del sistema** — generar audio a partir del texto en la atención | [Voces del sistema](/es/guide/chat/system-voices) |
+| [v2026.8.23](/es/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA en el mensaje** — ejecutar el prompt sin iniciar un flujo | [Agentes IA](/es/guide/ai-agents/run-on-message) |
+| [v2026.8.22](/es/changelog/2026/08/2026.8.22) | 27/08 | **Mensaje suelto en pendiente** — responder sin asumir la atención | [Configuración](/es/guide/settings/#permitir-mensaje-sin-atender) |
+| [v2026.8.21](/es/changelog/2026/08/2026.8.21) | 27/08 | **Mensajes y datos del cliente** — límite de historial y máscara de la ficha en el Agente IA | [Agentes IA](/es/guide/ai-agents/#mensajes-y-datos-del-cliente) |
+| [v2026.8.20](/es/changelog/2026/08/2026.8.20) | 26/08 | **Crear chat desde el Agente IA** — recolecta datos y abre (o continúa) la atención en el canal | [Agentes IA](/es/guide/ai-agents/tools/create-chat) |
+| [v2026.8.19](/es/changelog/2026/08/2026.8.19) | 26/08 | **Campo de contacto al crear chat** — abrir atención solo con el contacto; el tipo viene del canal | [Changelog](/es/changelog/2026/08/2026.8.19) |
+| [v2026.8.18](/es/changelog/2026/08/2026.8.18) | 26/08 | **Recibo en efectivo** — baja de la cuota con comprobante para imprimir o descargar | [Changelog](/es/changelog/2026/08/2026.8.18) |
+| [v2026.8.17](/es/changelog/2026/08/2026.8.17) | 26/08 | **No leídas en filtros rápidos** — guardar el criterio en el atajo del equipo | [Filtros](/es/guide/chat/filters#mensajes-no-leidos) |
+| [v2026.8.16](/es/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipo en masa** — cambiar solo el equipo de varias conversaciones de una vez | [Interfaz](/es/guide/chat/interface#acciones-en-masa) |
+| [v2026.8.15](/es/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir después del cierre** — la misma conversación si el cliente responde en la ventana | [Configuración](/es/guide/settings/#reabrir-atencion-despues-del-cierre) |
 
 [Ver todas las releases de septiembre →](/es/changelog/2026/09/)
 

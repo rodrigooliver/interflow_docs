@@ -4,9 +4,9 @@ Novidades, melhorias e correções da plataforma Interflow — organizadas por v
 
 Use esta página para ver as **últimas atualizações** e ir direto à release ou ao guia correspondente.
 
-## Últimas 10 atualizações
+## Últimas 20 atualizações
 
-As **10 releases mais recentes** (mais nova primeiro):
+As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
@@ -20,6 +20,16 @@ As **10 releases mais recentes** (mais nova primeiro):
 | [v2026.9.2](/changelog/2026/09/2026.9.2) | 10/09 | **Menu por módulo e busca** — workspaces no sidebar e ⌘K / Ctrl+K | [Configurações](/guide/settings/#menu-e-busca) |
 | [v2026.9.1](/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner e admins com o nome e o número | [WAHA](/guide/channels/whatsapp-waha#reconexao) |
 | [v2026.8.25](/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipe** — até 12 números nos filtros rápidos, visíveis só para quem precisa | [Filtros](/guide/chat/filters#contadores-nos-filtros-rapidos) |
+| [v2026.8.24](/changelog/2026/08/2026.8.24) | 27/08 | **Vozes do sistema** — gerar áudio a partir do texto no atendimento | [Vozes do sistema](/guide/chat/system-voices) |
+| [v2026.8.23](/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA na mensagem** — executar o prompt sem iniciar fluxo | [Agentes IA](/guide/ai-agents/run-on-message) |
+| [v2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento | [Configurações](/guide/settings/#permitir-mensagem-sem-atender) |
+| [v2026.8.21](/changelog/2026/08/2026.8.21) | 27/08 | **Mensagens e dados do cliente** — limite de histórico e máscara de cadastro no Agente IA | [Agentes IA](/guide/ai-agents/#mensagens-e-dados-do-cliente) |
+| [v2026.8.20](/changelog/2026/08/2026.8.20) | 26/08 | **Criar chat pelo Agente IA** — recolhe dados e abre (ou continua) o atendimento no canal | [Agentes IA](/guide/ai-agents/tools/create-chat) |
+| [v2026.8.19](/changelog/2026/08/2026.8.19) | 26/08 | **Campo de contato na criação de chat** — abrir atendimento só com o contato; o tipo vem do canal | [Changelog](/changelog/2026/08/2026.8.19) |
+| [v2026.8.18](/changelog/2026/08/2026.8.18) | 26/08 | **Recibo em dinheiro** — baixa da parcela com comprovante para imprimir ou baixar | [Changelog](/changelog/2026/08/2026.8.18) |
+| [v2026.8.17](/changelog/2026/08/2026.8.17) | 26/08 | **Não lidas nos filtros rápidos** — gravar o critério no atalho da equipe | [Filtros](/guide/chat/filters#mensagens-nao-lidas) |
+| [v2026.8.16](/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipe em massa** — mudar só a equipe de várias conversas de uma vez | [Interface](/guide/chat/interface#acoes-em-massa) |
+| [v2026.8.15](/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir após o encerramento** — mesma conversa se o cliente responder na janela | [Configurações](/guide/settings/#reabrir-atendimento-apos-o-encerramento) |
 
 [Ver todas as releases de setembro →](/changelog/2026/09/)
 
