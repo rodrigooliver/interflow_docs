@@ -10,10 +10,11 @@ Menú → **Financiero**. El módulo `financial` debe estar habilitado.
 
 | Área | Función |
 |------|--------|
-| **Dashboard** | Saldos, resumen y atajos |
+| **Dashboard** | Por cobrar, por pagar y saldo de las cajas con acceso |
 | **Por cobrar / Por pagar** | Obligaciones abiertas, vencidos y por vencer |
-| **Movimientos** | Extracto de lo ya pagado o cobrado |
-| **Cajas** | Cuentas de caja y operadores |
+| **Movimientos** | Extracto de lo ya pagado o cobrado, incluidas las transferencias entre cajas |
+| **Clientes** | Cadastro usado como pagador o receptor |
+| **Cajas** | Cuentas de caja y operadores (en Configuración) |
 | **Categorías** | Categorías de ingreso/gasto |
 | **Centros de coste** | Áreas responsables de los gastos |
 | **Métodos de pago** | Crédito, tasas, cuotas |
@@ -30,7 +31,7 @@ Menú → **Financiero**. El módulo `financial` debe estar habilitado.
 1. Abra **Financiero → Por cobrar** o **Por pagar**
 2. Use **Nuevo ingreso** o **Nuevo gasto**
 3. Complete descripción, valor, categoría y vencimiento
-4. Opcional: centro de coste (en gastos), método, caja, cliente, notas, datos de pago (PIX, código de barras o cuenta) y recurrencia
+4. Opcional: centro de coste (en gastos), método, caja, pagador o receptor, notas, datos de pago (PIX, código de barras o cuenta) y recurrencia
 5. Guarde
 
 Filtros rápidos en la parte superior: **hoy**, **hasta hoy**, **hasta mañana**, **hasta 7 días**, **hasta fin de mes** y **solo este mes**. Los totales de vencidos y por vencer siguen el filtro.
@@ -44,6 +45,8 @@ Pendiente · Pagado/Recibido · Vencido · Cancelado
 ## Movimientos
 
 En **Financiero → Movimientos** ves el extracto: lo que ya se pagó o cobró. Filtros rápidos: **mes actual** y **mes pasado**. El valor mostrado es el del movimiento; si difiere del original de la obligación, el original también aparece.
+
+Para **mover saldo entre cajas**, use **Transferencia** en esta pantalla — ver [Transferencia entre cajas](#transferencia-entre-cajas).
 
 ## Registrar pago
 
@@ -70,7 +73,26 @@ Al editar un ítem de la serie, elija:
 
 Los movimientos ya registrados no entran en ese cambio.
 
-> Changelog: [v2026.9.10](/es/changelog/2026/09/2026.9.10)
+## Transferencia entre cajas
+
+Mueve saldo de una caja a otra **al momento**. No es una cuenta por pagar ni por cobrar: no entra en el resultado como ingreso o gasto. Solo cambia el saldo de las cajas y aparece en el extracto.
+
+1. Abra **Financiero → Movimientos**
+2. Pulse **Transferencia**
+3. Elija origen, destino, valor, descripción y fecha
+4. Guarde
+
+El extracto muestra los dos lados con el sello **Transferencia** y la otra caja. Editar valor, descripción o fecha actualiza el par. Eliminar un lado quita los dos.
+
+Hay que ser operador con permiso de **crear** en las dos cajas. No hay recurrencia ni pendiente: el movimiento ya nace registrado.
+
+## Aviso de vencimiento
+
+Cada día, a las **8:00** (hora de Brasilia), los operadores de la caja con permiso de ver (o admin de la caja) reciben un push de las obligaciones que **vencen hoy**. Un aviso por persona por caja, sin repetir el mismo día.
+
+El toque abre **Por pagar** o **Por cobrar** ya en esa caja y en el filtro **hoy**. Las transferencias entre cajas no generan aviso. Hay que mantener las notificaciones de la app activas.
+
+> Changelog: [v2026.9.11](/es/changelog/2026/09/2026.9.11)
 
 ## Cajas
 
@@ -92,7 +114,7 @@ El centro de coste es opcional y exclusivo para gastos. Las categorías describe
 En **Financiero → Informes** solo ves las cajas en las que eres **admin** o tienes el permiso **Puede ver informes**:
 
 1. Elige el período y, si quieres, una caja (o todas las que puedes acceder)
-2. **Flujo de caja** — ingresos/gastos realizados y previstos en el tiempo
+2. **Flujo de caja** — ingresos/gastos realizados y previstos en el tiempo (las transferencias entre cajas quedan fuera)
 3. **Por categoría** — DRE gerencial (realizado y en abierto)
 4. **Por centro de coste** — gastos realizados, pendientes y totales por área
 5. **Por cobrar / pagar** — aging (al día, 1–30, 31–60, 61–90, 90+)

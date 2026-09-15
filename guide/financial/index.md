@@ -10,10 +10,11 @@ Menu lateral → **Financeiro**. O módulo precisa estar habilitado no plano/org
 
 | Área | Função |
 |------|--------|
-| **Dashboard** | Saldo, resumo e atalhos para nova receita/despesa |
+| **Dashboard** | A receber, a pagar e saldo dos caixas com acesso |
 | **A receber / A pagar** | Obrigações em aberto, vencidos e a vencer |
-| **Lançamentos** | Extrato do que já foi pago ou recebido |
-| **Caixas** | Contas de caixa e operadores |
+| **Lançamentos** | Extrato do que já foi pago ou recebido, inclusive transferências entre caixas |
+| **Clientes** | Cadastro usado como pagador ou recebedor |
+| **Caixas** | Contas de caixa e operadores (em Configurações) |
 | **Categorias** | Categorias de receita e despesa |
 | **Centros de custo** | Áreas responsáveis pelas despesas |
 | **Métodos de pagamento** | Formas de pagamento (crédito, taxas, parcelas) |
@@ -26,8 +27,8 @@ Menu lateral → **Financeiro**. O módulo precisa estar habilitado no plano/org
 ## Dashboard
 
 1. Abra **Financeiro**
-2. Veja o resumo de receitas/despesas e os caixas aos quais você tem acesso
-3. Use **Nova receita** ou **Nova despesa** para lançamentos rápidos
+2. Veja **a receber**, **a pagar** (até o fim do mês) e o **saldo** dos caixas com acesso
+3. Use **Nova conta a receber** ou **Nova conta a pagar** para criar uma obrigação
 
 Sem caixa vinculado ao seu usuário, o uso pode ficar bloqueado — peça a um admin para adicioná-lo como operador.
 
@@ -38,7 +39,7 @@ Sem caixa vinculado ao seu usuário, o uso pode ficar bloqueado — peça a um a
 1. Abra **Financeiro → A receber** ou **A pagar**
 2. Use **Nova receita** ou **Nova despesa**
 3. Preencha descrição, valor, categoria e vencimento
-4. Opcionais: centro de custo (em despesas), método, caixa, cliente, notas, dados de pagamento (PIX, código de barras ou conta) e recorrência
+4. Opcionais: centro de custo (em despesas), método, caixa, pagador ou recebedor, notas, dados de pagamento (PIX, código de barras ou conta) e recorrência
 5. Salve
 
 Filtros rápidos no topo: **hoje**, **até hoje**, **até amanhã**, **até 7 dias**, **até o fim do mês** e **somente este mês**. Os totais de vencidos e a vencer acompanham o filtro.
@@ -57,6 +58,8 @@ Uma obrigação atrasada entra em **Vencidos** pela data, mesmo se o status aind
 ## Lançamentos
 
 Em **Financeiro → Lançamentos** você vê o extrato: o que já foi pago ou recebido. Filtros rápidos: **mês atual** e **mês passado**. O valor exibido é o valor do lançamento; se for diferente do original da obrigação, o original também aparece.
+
+Para **mover saldo entre caixas**, use **Transferência** nesta tela — veja [Transferência entre caixas](#transferencia-entre-caixas).
 
 ## Lançar pagamento
 
@@ -83,11 +86,30 @@ Ao editar um item da série, escolha:
 
 Lançamentos já feitos não entram nessa alteração.
 
-> Changelog: [v2026.9.10](/changelog/2026/09/2026.9.10)
+## Transferência entre caixas
+
+Move saldo de um caixa para outro **na hora**. Não é conta a pagar nem a receber: não entra no resultado como receita ou despesa. Só altera o saldo dos caixas e aparece no extrato.
+
+1. Abra **Financeiro → Lançamentos**
+2. Clique em **Transferência**
+3. Escolha o caixa de origem, o de destino, valor, descrição e data
+4. Salve
+
+O extrato mostra os dois lados com o selo **Transferência** e o outro caixa. Editar valor, descrição ou data atualiza o par. Excluir um lado remove os dois.
+
+É preciso ser operador com permissão de **criar** nos dois caixas. Não há recorrência nem pendência: o movimento já nasce lançado.
+
+## Aviso de vencimento
+
+Todo dia, às **8h** (horário de Brasília), os operadores do caixa com permissão de ver (ou admin do caixa) recebem um push das obrigações que **vencem hoje**. Um aviso por pessoa por caixa, sem repetir no mesmo dia.
+
+O toque abre **A pagar** ou **A receber** já no caixa e no filtro **hoje**. Transferências entre caixas não geram aviso. É preciso manter as notificações do app ativas.
+
+> Changelog: [v2026.9.11](/changelog/2026/09/2026.9.11)
 
 ## Caixas
 
-1. Abra **Financeiro → Caixas**
+1. Abra **Financeiro → Configurações → Caixas**
 2. Crie um caixa (nome e configurações)
 3. Adicione **operadores** e defina permissões por caixa (visualizar, criar, editar, excluir, admin)
 
@@ -121,7 +143,7 @@ O centro de custo é opcional e exclusivo para despesas. Categorias indicam **o 
 Em **Financeiro → Relatórios** você vê só os caixas em que é **admin** ou tem a permissão **Pode ver relatórios**:
 
 1. Escolha o período e, se quiser, um caixa (ou todos os que você acessa)
-2. **Fluxo de caixa** — receitas/despesas realizadas e previstas no tempo
+2. **Fluxo de caixa** — receitas/despesas realizadas e previstas no tempo (transferências entre caixas ficam de fora)
 3. **Por categoria** — DRE gerencial (realizado e em aberto)
 4. **Por centro de custo** — despesas realizadas, em aberto e totais por área
 5. **A receber / a pagar** — aging (em dia, 1–30, 31–60, 61–90, 90+)

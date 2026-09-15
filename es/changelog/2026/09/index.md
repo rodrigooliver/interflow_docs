@@ -6,6 +6,7 @@ Actualizaciones del mes de septiembre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.9.11](/es/changelog/2026/09/2026.9.11) | 15/09 | **Transferencia entre cajas y aviso de vencimiento** — mueve saldo sin entrar en el DRE y avisa en el móvil lo que vence hoy |
 | [2026.9.10](/es/changelog/2026/09/2026.9.10) | 15/09 | **Por cobrar, por pagar y movimientos** — obligaciones abiertas, extracto y registro de pago o cobro |
 | [2026.9.9](/es/changelog/2026/09/2026.9.9) | 15/09 | **Rotación entre equipos** — el canal sortea el equipo; transferir o salir puede enviar a la cola |
 | [2026.9.8](/es/changelog/2026/09/2026.9.8) | 14/09 | **Excluir etiquetas en el disparo** — no enviar a quien tiene etiquetas como parar mensajes o salir |
@@ -21,7 +22,9 @@ Actualizaciones del mes de septiembre de 2026.
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (15)
+### Nuevas Funcionalidades (17)
+- **Transferencia entre cajas** (v2026.9.11) — mueve saldo de una caja a otra sin contar como ingreso o gasto
+- **Aviso en el móvil de las cuentas que vencen hoy** (v2026.9.11) — push matutino para los operadores de la caja
 - **Por cobrar, por pagar y movimientos** (v2026.9.10) — obligaciones abiertas separadas del extracto, con vencidos, por vencer y filtros rápidos
 - **Registrar pago o cobro** (v2026.9.10) — valor pagado, datos de pago, caja y quién registró
 - **Recurrencia con buffer automático** (v2026.9.10) — ocurrencias iniciales y ajuste en todas las próximas aún no registradas

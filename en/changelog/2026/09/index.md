@@ -6,6 +6,7 @@ Updates for September 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.9.11](/en/changelog/2026/09/2026.9.11) | 09/15 | **Cashier transfer and due-today notice** — move balance without hitting P&L, and get a morning push for today’s dues |
 | [2026.9.10](/en/changelog/2026/09/2026.9.10) | 09/15 | **Receivables, payables, and posted entries** — open obligations, statement, and posting a payment or receipt |
 | [2026.9.9](/en/changelog/2026/09/2026.9.9) | 09/15 | **Team-to-team rotation** — the channel picks the team; transfer or leave can send to the queue |
 | [2026.9.8](/en/changelog/2026/09/2026.9.8) | 09/14 | **Exclude tags in bulk send** — skip contacts with tags such as stop messages or opt out |
@@ -21,7 +22,9 @@ Updates for September 2026.
 
 ## Month summary
 
-### New Features (15)
+### New Features (17)
+- **Transfer between cashiers** (v2026.9.11) — move balance from one register to another without counting as income or expense
+- **Push for accounts due today** (v2026.9.11) — morning notice for the register’s operators
 - **Receivables, payables, and posted entries** (v2026.9.10) — open obligations separate from the statement, with overdue, upcoming, and quick filters
 - **Post a payment or receipt** (v2026.9.10) — paid amount, payment details, cash register, and who posted
 - **Recurring series with an automatic buffer** (v2026.9.10) — initial occurrences and edits on all upcoming items not yet posted

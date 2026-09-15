@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.9.11](/es/changelog/2026/09/2026.9.11) | 15/09 | **Transferencia entre cajas y aviso de vencimiento** — mueve saldo sin entrar en el DRE y avisa lo que vence hoy | [Financiero](/es/guide/financial/#transferencia-entre-cajas) |
 | [v2026.9.10](/es/changelog/2026/09/2026.9.10) | 15/09 | **Por cobrar, por pagar y movimientos** — obligaciones abiertas, extracto y registro de pago | [Financiero](/es/guide/financial/#por-cobrar-y-por-pagar) |
 | [v2026.9.9](/es/changelog/2026/09/2026.9.9) | 15/09 | **Rotación entre equipos** — el canal sortea el equipo; transferir o salir puede enviar a la cola | [Equipos](/es/guide/teams/#rotacion-entre-equipos) |
 | [v2026.9.8](/es/changelog/2026/09/2026.9.8) | 14/09 | **Excluir etiquetas en el disparo** — no enviar a quien pidió parar | [Disparos masivos](/es/guide/chat/bulk-messages#excluir-etiquetas) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.8.19](/es/changelog/2026/08/2026.8.19) | 26/08 | **Campo de contacto al crear chat** — abrir atención solo con el contacto; el tipo viene del canal | [Changelog](/es/changelog/2026/08/2026.8.19) |
 | [v2026.8.18](/es/changelog/2026/08/2026.8.18) | 26/08 | **Recibo en efectivo** — baja de la cuota con comprobante para imprimir o descargar | [Changelog](/es/changelog/2026/08/2026.8.18) |
 | [v2026.8.17](/es/changelog/2026/08/2026.8.17) | 26/08 | **No leídas en filtros rápidos** — guardar el criterio en el atajo del equipo | [Filtros](/es/guide/chat/filters#mensajes-no-leidos) |
-| [v2026.8.16](/es/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipo en masa** — cambiar solo el equipo de varias conversaciones de una vez | [Interfaz](/es/guide/chat/interface#acciones-en-masa) |
 
 [Ver todas las releases de septiembre →](/es/changelog/2026/09/)
 

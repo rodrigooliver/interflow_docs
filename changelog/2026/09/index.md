@@ -6,6 +6,7 @@ Atualizações do mês de setembro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.9.11](/changelog/2026/09/2026.9.11) | 15/09 | **Transferência entre caixas e aviso de vencimento** — move saldo sem entrar no DRE e avisa no celular o que vence hoje |
 | [2026.9.10](/changelog/2026/09/2026.9.10) | 15/09 | **A receber, a pagar e lançamentos** — obrigações em aberto, extrato e lançar pagamento ou recebimento |
 | [2026.9.9](/changelog/2026/09/2026.9.9) | 15/09 | **Rodízio entre equipes** — o canal sorteia o time; transferir ou sair pode mandar para a fila |
 | [2026.9.8](/changelog/2026/09/2026.9.8) | 14/09 | **Excluir tags no disparo** — não enviar para quem tem tags como parar mensagens ou sair |
@@ -21,7 +22,9 @@ Atualizações do mês de setembro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (15)
+### Novas Funcionalidades (17)
+- **Transferência entre caixas** (v2026.9.11) — move saldo de um caixa para outro sem contar como receita ou despesa
+- **Aviso no celular das contas que vencem hoje** (v2026.9.11) — push matinal para os operadores do caixa
 - **A receber, a pagar e lançamentos** (v2026.9.10) — obrigações em aberto separadas do extrato, com vencidos, a vencer e filtros rápidos
 - **Lançar pagamento ou recebimento** (v2026.9.10) — valor pago, dados de pagamento, caixa e quem lançou
 - **Recorrência com buffer automático** (v2026.9.10) — ocorrências iniciais e ajuste em todas as próximas ainda não lançadas

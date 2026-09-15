@@ -10,10 +10,11 @@ Sidebar → **Financial**. The `financial` module must be enabled for the organi
 
 | Area | Purpose |
 |------|--------|
-| **Dashboard** | Balances, summary, quick income/expense |
+| **Dashboard** | Receivables, payables, and cash-register balances you can access |
 | **Receivables / Payables** | Open obligations, overdue and upcoming |
-| **Posted entries** | Statement of what was already paid or received |
-| **Cashiers** | Cash accounts and operators |
+| **Posted entries** | Statement of what was already paid or received, including transfers between cashiers |
+| **Customers** | Directory used as payer or payee |
+| **Cashiers** | Cash accounts and operators (under Settings) |
 | **Categories** | Income/expense categories |
 | **Cost centers** | Areas responsible for expenses |
 | **Payment methods** | Credit, fees, installments |
@@ -30,7 +31,7 @@ Sidebar → **Financial**. The `financial` module must be enabled for the organi
 1. Open **Finance → Receivables** or **Payables**
 2. Use **New income** or **New expense**
 3. Fill description, amount, category, and due date
-4. Optional: cost center (for expenses), payment method, cash register, customer, notes, payment details (PIX, barcode, or bank account), and recurrence
+4. Optional: cost center (for expenses), payment method, cash register, payer or payee, notes, payment details (PIX, barcode, or bank account), and recurrence
 5. Save
 
 Quick filters at the top: **today**, **through today**, **through tomorrow**, **next 7 days**, **through month end**, and **this month only**. Overdue and upcoming totals follow the filter.
@@ -44,6 +45,8 @@ Pending · Paid/Received · Overdue · Cancelled
 ## Posted entries
 
 In **Finance → Posted entries** you see the statement: what was already paid or received. Quick filters: **this month** and **last month**. The amount shown is the posted amount; if it differs from the original obligation, the original appears as well.
+
+To **move balance between cash registers**, use **Transfer** on this screen — see [Transfer between cashiers](#transfer-between-cashiers).
 
 ## Post a payment
 
@@ -70,7 +73,26 @@ When you edit an item in the series, choose:
 
 Already posted entries are not part of that change.
 
-> Changelog: [v2026.9.10](/en/changelog/2026/09/2026.9.10)
+## Transfer between cashiers
+
+Moves balance from one cash register to another **immediately**. It is not a payable or receivable: it does not enter results as income or expense. It only changes register balances and appears on the statement.
+
+1. Open **Finance → Posted entries**
+2. Click **Transfer**
+3. Choose source, destination, amount, description, and date
+4. Save
+
+The statement shows both sides with a **Transfer** badge and the other register. Editing amount, description, or date updates the pair. Deleting one side removes both.
+
+You must be an operator with **create** permission on both registers. There is no recurrence or pending state: the movement is posted as soon as you save.
+
+## Due-today notice
+
+Every day at **8:00 a.m.** (Brasília time), register operators with view permission (or register admins) get a push for obligations **due today**. One notice per person per register, with no repeat on the same day.
+
+Tapping opens **Payables** or **Receivables** already on that register and the **today** filter. Transfers between cashiers do not trigger a notice. App notifications must stay on.
+
+> Changelog: [v2026.9.11](/en/changelog/2026/09/2026.9.11)
 
 ## Cashiers
 
@@ -92,7 +114,7 @@ Cost centers are optional and exclusive to expenses. Categories describe **the t
 In **Financial → Reports** you only see cash registers where you are **admin** or have **Can view reports**:
 
 1. Pick a period and, optionally, a cash register (or all you can access)
-2. **Cash flow** — settled and open income/expenses over time
+2. **Cash flow** — settled and open income/expenses over time (transfers between cashiers are excluded)
 3. **By category** — management P&L (settled and open)
 4. **By cost center** — settled, open, and total expenses by area
 5. **Receivable / payable** — aging (current, 1–30, 31–60, 61–90, 90+)
