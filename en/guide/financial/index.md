@@ -11,7 +11,8 @@ Sidebar → **Financial**. The `financial` module must be enabled for the organi
 | Area | Purpose |
 |------|--------|
 | **Dashboard** | Balances, summary, quick income/expense |
-| **Transactions** | List, filter, create, mark paid/received |
+| **Receivables / Payables** | Open obligations, overdue and upcoming |
+| **Posted entries** | Statement of what was already paid or received |
 | **Cashiers** | Cash accounts and operators |
 | **Categories** | Income/expense categories |
 | **Cost centers** | Areas responsible for expenses |
@@ -22,17 +23,54 @@ Sidebar → **Financial**. The `financial` module must be enabled for the organi
 **Billing** (contracts/Asaas) is a separate module — see [Billing](/en/guide/billing/).
 :::
 
-## Create a transaction
+## Receivables and payables
 
-1. Open **Financial → Transactions** (or use the dashboard shortcut)
-2. Choose **Income** or **Expense**
-3. Fill required fields: description, amount, category, due date
-4. Optional: cost center (for expenses), payment method, cashier, customer, notes, recurrence/installments
+**Receivables** lists open income. **Payables** lists open expenses. Both screens split **overdue** (due date in the past) from **upcoming**, with separate totals.
+
+1. Open **Finance → Receivables** or **Payables**
+2. Use **New income** or **New expense**
+3. Fill description, amount, category, and due date
+4. Optional: cost center (for expenses), payment method, cash register, customer, notes, payment details (PIX, barcode, or bank account), and recurrence
 5. Save
+
+Quick filters at the top: **today**, **through today**, **through tomorrow**, **next 7 days**, **through month end**, and **this month only**. Overdue and upcoming totals follow the filter.
+
+A late obligation appears under **Overdue** by date, even if the status is still pending.
 
 ### Statuses
 
 Pending · Paid/Received · Overdue · Cancelled
+
+## Posted entries
+
+In **Finance → Posted entries** you see the statement: what was already paid or received. Quick filters: **this month** and **last month**. The amount shown is the posted amount; if it differs from the original obligation, the original appears as well.
+
+## Post a payment
+
+To settle an obligation, use **Post payment** or **Post receipt** — do not just mark it as paid.
+
+1. Open the obligation in **Receivables** or **Payables**
+2. Choose **Post payment** or **Post receipt**
+3. Check the **original amount** and, if needed, change the **posted amount**
+4. Adjust date, cash register (among those you operate), and payment details
+5. Save
+
+The system stores who posted and when. PIX, barcode, or bank details can be copied, edited, or removed after you save.
+
+## Recurrence
+
+When you create with a frequency other than once, choose **how many occurrences to generate** up front (up to 12). The system keeps future due dates in the queue, whether or not you have already posted one.
+
+When you edit an item in the series, choose:
+
+- **This one only** — change only this open obligation
+- **All upcoming** — copy description, category, and cash register to items not yet posted
+- **Apply amount** and **Apply payment details** — only if you also want those fields to change on upcoming items
+- **Include due date** — only if you want to shift the following dates by the same interval
+
+Already posted entries are not part of that change.
+
+> Changelog: [v2026.9.10](/en/changelog/2026/09/2026.9.10)
 
 ## Cashiers
 
@@ -44,7 +82,7 @@ Use **Financial → Cost centers** to track where company resources are consumed
 
 1. Enter a unique code, name, and optional description
 2. Select the cost center when creating or editing an **expense**
-3. Filter entries by cost center in **Transactions**
+3. Filter by cost center in **Receivables**, **Payables**, or **Posted entries**
 4. Deactivate centers that are no longer used; previous entries remain linked
 
 Cost centers are optional and exclusive to expenses. Categories describe **the type of expense**; cost centers identify **the area responsible for it**.

@@ -6,6 +6,7 @@ Atualizações do mês de setembro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.9.10](/changelog/2026/09/2026.9.10) | 15/09 | **A receber, a pagar e lançamentos** — obrigações em aberto, extrato e lançar pagamento ou recebimento |
 | [2026.9.9](/changelog/2026/09/2026.9.9) | 15/09 | **Rodízio entre equipes** — o canal sorteia o time; transferir ou sair pode mandar para a fila |
 | [2026.9.8](/changelog/2026/09/2026.9.8) | 14/09 | **Excluir tags no disparo** — não enviar para quem tem tags como parar mensagens ou sair |
 | [2026.9.7](/changelog/2026/09/2026.9.7) | 10/09 | **Centros de custo** — despesas por área, filtro nos lançamentos e relatório com CSV |
@@ -20,7 +21,10 @@ Atualizações do mês de setembro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (12)
+### Novas Funcionalidades (15)
+- **A receber, a pagar e lançamentos** (v2026.9.10) — obrigações em aberto separadas do extrato, com vencidos, a vencer e filtros rápidos
+- **Lançar pagamento ou recebimento** (v2026.9.10) — valor pago, dados de pagamento, caixa e quem lançou
+- **Recorrência com buffer automático** (v2026.9.10) — ocorrências iniciais e ajuste em todas as próximas ainda não lançadas
 - **Rodízio automático entre equipes** (v2026.9.9) — fila de times no canal, no webhook e ao transferir ou sair
 - **Excluir tags no disparo em massa** (v2026.9.8) — suprimir destinatários com tags de descadastramento, mesmo que estejam na inclusão
 - **Centros de custo** (v2026.9.7) — cadastro, associação opcional às despesas, filtro e relatório dedicado com CSV
@@ -34,6 +38,8 @@ Atualizações do mês de setembro de 2026.
 - **Busca no menu** (v2026.9.2) — ⌘K / Ctrl+K para páginas e opções de configuração
 - **Aviso quando o WhatsApp WAHA fica desconectado** (v2026.9.1) — push para owner e admins se a sessão ativa cair; ignora reinício curto, QR e desconexão manual
 
-### Correções (2)
+### Correções (4)
+- **Vencidos pela data** (v2026.9.10) — obrigação atrasada aparece em vencidos mesmo com status pendente
+- **Totais e loading nos filtros** (v2026.9.10) — atalho de data carrega e os totais acompanham o período
 - **Áudio e texto na mesma resposta** (v2026.9.5) — o cliente recebe só o áudio, com a transcrição no próprio áudio
 - **Colunas da divisão lembradas ao atualizar** (v2026.9.4) — a escolha de profissionais ou agendas permanece no navegador

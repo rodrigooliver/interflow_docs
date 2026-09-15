@@ -16,7 +16,10 @@ Este módulo gestiona las finanzas **internas** de la organización. Para contra
 ## Qué puedes hacer
 
 - Visualizar dashboard con saldo, ingresos y gastos consolidados
-- Registrar transacciones de ingreso o gasto con estado: pendiente, pagado, vencido o cancelado
+- Controlar **por cobrar** y **por pagar** en pantallas distintas del extracto de **movimientos**
+- Registrar ingresos y gastos con estado: pendiente, pagado, vencido o cancelado
+- Registrar pago o cobro con el valor pagado, datos (PIX, boleto, cuenta) y quién registró
+- Generar cuentas recurrentes y ajustar las próximas aún no registradas
 - Gestionar cajas con operadores y permisos específicos por caja
 - Organizar categorías de ingreso y gasto, con subcategorías
 - Configurar métodos de pago (crédito, tasas, cuotas)

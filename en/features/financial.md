@@ -16,7 +16,10 @@ This module manages the organization's **internal** finances. For contracts, ins
 ## What you can do
 
 - View a dashboard with consolidated balance, revenue, and expenses
-- Record revenue or expense transactions with status: pending, paid, overdue, or cancelled
+- Track **receivables** and **payables** on screens separate from **posted entries**
+- Record income and expenses with status: pending, paid, overdue, or cancelled
+- Post a payment or receipt with the paid amount, payment details (PIX, boleto, account), and who posted
+- Generate recurring items and adjust upcoming ones not yet posted
 - Manage cash registers with operators and per-register permissions
 - Organize revenue and expense categories, with subcategories
 - Configure payment methods (credit, fees, installments)

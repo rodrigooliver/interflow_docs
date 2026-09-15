@@ -16,7 +16,10 @@ Este módulo gerencia o financeiro **interno** da organização. Para contratos,
 ## O que você pode fazer
 
 - Visualizar dashboard com saldo, receitas e despesas consolidadas
-- Registrar transações de receita ou despesa com status: pendente, pago, vencido ou cancelado
+- Controlar **a receber** e **a pagar** em telas distintas do extrato de **lançamentos**
+- Registrar receitas e despesas com status: pendente, pago, vencido ou cancelado
+- Lançar pagamento ou recebimento com valor pago, dados (PIX, boleto, conta) e quem lançou
+- Gerar contas recorrentes e ajustar as próximas ainda não lançadas
 - Gerenciar caixas com operadores e permissões específicas por caixa
 - Organizar categorias de receita e despesa, com subcategorias
 - Configurar métodos de pagamento (crédito, taxas, parcelas)

@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.9.10](/en/changelog/2026/09/2026.9.10) | Sep 15 | **Receivables, payables, and posted entries** — open obligations, statement, and posting a payment | [Financial](/en/guide/financial/#receivables-and-payables) |
 | [v2026.9.9](/en/changelog/2026/09/2026.9.9) | Sep 15 | **Team-to-team rotation** — the channel picks the team; transfer or leave can send to the queue | [Teams](/en/guide/teams/#team-to-team-rotation) |
 | [v2026.9.8](/en/changelog/2026/09/2026.9.8) | Sep 14 | **Exclude tags in bulk send** — skip people who asked to stop | [Bulk messages](/en/guide/chat/bulk-messages#exclude-tags) |
 | [v2026.9.7](/en/changelog/2026/09/2026.9.7) | Sep 10 | **Cost centers** — expenses by area, entry filtering, and CSV reporting | [Financial](/en/guide/financial/#cost-centers) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.8.18](/en/changelog/2026/08/2026.8.18) | Aug 26 | **Cash receipt** — settle the installment with a printable or downloadable proof | [Changelog](/en/changelog/2026/08/2026.8.18) |
 | [v2026.8.17](/en/changelog/2026/08/2026.8.17) | Aug 26 | **Unread in quick filters** — store the criterion on the team shortcut | [Filters](/en/guide/chat/filters#unread-messages) |
 | [v2026.8.16](/en/changelog/2026/08/2026.8.16) | Aug 26 | **Bulk team adjustment** — change only the team of several chats at once | [Interface](/en/guide/chat/interface#bulk-actions) |
-| [v2026.8.15](/en/changelog/2026/08/2026.8.15) | Aug 26 | **Reopen after closing** — same conversation if the customer replies in the window | [Settings](/en/guide/settings/#reopen-the-chat-after-closing) |
 
 [See all September releases →](/en/changelog/2026/09/)
 

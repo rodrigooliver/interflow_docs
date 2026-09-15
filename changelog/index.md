@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.9.10](/changelog/2026/09/2026.9.10) | 15/09 | **A receber, a pagar e lançamentos** — obrigações em aberto, extrato e lançar pagamento | [Financeiro](/guide/financial/#a-receber-e-a-pagar) |
 | [v2026.9.9](/changelog/2026/09/2026.9.9) | 15/09 | **Rodízio entre equipes** — o canal sorteia o time; transferir ou sair pode mandar para a fila | [Equipes](/guide/teams/#rodizio-entre-equipes) |
 | [v2026.9.8](/changelog/2026/09/2026.9.8) | 14/09 | **Excluir tags no disparo** — não enviar para quem pediu para parar | [Disparos em massa](/guide/chat/bulk-messages#excluir-tags) |
 | [v2026.9.7](/changelog/2026/09/2026.9.7) | 10/09 | **Centros de custo** — despesas por área, filtro nos lançamentos e relatório com CSV | [Financeiro](/guide/financial/#centros-de-custo) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.8.18](/changelog/2026/08/2026.8.18) | 26/08 | **Recibo em dinheiro** — baixa da parcela com comprovante para imprimir ou baixar | [Changelog](/changelog/2026/08/2026.8.18) |
 | [v2026.8.17](/changelog/2026/08/2026.8.17) | 26/08 | **Não lidas nos filtros rápidos** — gravar o critério no atalho da equipe | [Filtros](/guide/chat/filters#mensagens-nao-lidas) |
 | [v2026.8.16](/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipe em massa** — mudar só a equipe de várias conversas de uma vez | [Interface](/guide/chat/interface#acoes-em-massa) |
-| [v2026.8.15](/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir após o encerramento** — mesma conversa se o cliente responder na janela | [Configurações](/guide/settings/#reabrir-atendimento-apos-o-encerramento) |
 
 [Ver todas as releases de setembro →](/changelog/2026/09/)
 

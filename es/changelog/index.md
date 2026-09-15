@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.9.10](/es/changelog/2026/09/2026.9.10) | 15/09 | **Por cobrar, por pagar y movimientos** — obligaciones abiertas, extracto y registro de pago | [Financiero](/es/guide/financial/#por-cobrar-y-por-pagar) |
 | [v2026.9.9](/es/changelog/2026/09/2026.9.9) | 15/09 | **Rotación entre equipos** — el canal sortea el equipo; transferir o salir puede enviar a la cola | [Equipos](/es/guide/teams/#rotacion-entre-equipos) |
 | [v2026.9.8](/es/changelog/2026/09/2026.9.8) | 14/09 | **Excluir etiquetas en el disparo** — no enviar a quien pidió parar | [Disparos masivos](/es/guide/chat/bulk-messages#excluir-etiquetas) |
 | [v2026.9.7](/es/changelog/2026/09/2026.9.7) | 10/09 | **Centros de coste** — gastos por área, filtro de movimientos e informe con CSV | [Financiero](/es/guide/financial/#centros-de-coste) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.8.18](/es/changelog/2026/08/2026.8.18) | 26/08 | **Recibo en efectivo** — baja de la cuota con comprobante para imprimir o descargar | [Changelog](/es/changelog/2026/08/2026.8.18) |
 | [v2026.8.17](/es/changelog/2026/08/2026.8.17) | 26/08 | **No leídas en filtros rápidos** — guardar el criterio en el atajo del equipo | [Filtros](/es/guide/chat/filters#mensajes-no-leidos) |
 | [v2026.8.16](/es/changelog/2026/08/2026.8.16) | 26/08 | **Ajuste de equipo en masa** — cambiar solo el equipo de varias conversaciones de una vez | [Interfaz](/es/guide/chat/interface#acciones-en-masa) |
-| [v2026.8.15](/es/changelog/2026/08/2026.8.15) | 26/08 | **Reabrir después del cierre** — la misma conversación si el cliente responde en la ventana | [Configuración](/es/guide/settings/#reabrir-atencion-despues-del-cierre) |
 
 [Ver todas las releases de septiembre →](/es/changelog/2026/09/)
 

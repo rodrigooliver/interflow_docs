@@ -6,6 +6,7 @@ Actualizaciones del mes de septiembre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.9.10](/es/changelog/2026/09/2026.9.10) | 15/09 | **Por cobrar, por pagar y movimientos** — obligaciones abiertas, extracto y registro de pago o cobro |
 | [2026.9.9](/es/changelog/2026/09/2026.9.9) | 15/09 | **Rotación entre equipos** — el canal sortea el equipo; transferir o salir puede enviar a la cola |
 | [2026.9.8](/es/changelog/2026/09/2026.9.8) | 14/09 | **Excluir etiquetas en el disparo** — no enviar a quien tiene etiquetas como parar mensajes o salir |
 | [2026.9.7](/es/changelog/2026/09/2026.9.7) | 10/09 | **Centros de coste** — gastos por área, filtro de movimientos e informe con CSV |
@@ -20,7 +21,10 @@ Actualizaciones del mes de septiembre de 2026.
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (12)
+### Nuevas Funcionalidades (15)
+- **Por cobrar, por pagar y movimientos** (v2026.9.10) — obligaciones abiertas separadas del extracto, con vencidos, por vencer y filtros rápidos
+- **Registrar pago o cobro** (v2026.9.10) — valor pagado, datos de pago, caja y quién registró
+- **Recurrencia con buffer automático** (v2026.9.10) — ocurrencias iniciales y ajuste en todas las próximas aún no registradas
 - **Rotación automática entre equipos** (v2026.9.9) — cola de equipos en el canal, en el webhook y al transferir o salir
 - **Excluir etiquetas en el disparo masivo** (v2026.9.8) — omitir destinatarios con etiquetas de baja, aunque coincidan con la inclusión
 - **Centros de coste** (v2026.9.7) — gestión, asociación opcional a gastos, filtro e informe dedicado con CSV
@@ -34,6 +38,8 @@ Actualizaciones del mes de septiembre de 2026.
 - **Búsqueda en el menú** (v2026.9.2) — ⌘K / Ctrl+K para páginas y opciones de configuración
 - **Aviso cuando WhatsApp WAHA queda desconectado** (v2026.9.1) — push para owner y admins si la sesión activa se cae; ignora reinicio corto, QR y desconexión manual
 
-### Correcciones (2)
+### Correcciones (4)
+- **Vencidos por fecha** (v2026.9.10) — la obligación atrasada aparece en vencidos aunque el estado siga pendiente
+- **Totales y carga en los filtros** (v2026.9.10) — el atajo de fecha carga y los totales siguen el período
 - **Audio y texto en la misma respuesta** (v2026.9.5) — el cliente recibe solo el audio, con la transcripción en el propio audio
 - **Columnas de la división recordadas al actualizar** (v2026.9.4) — la elección de profesionales o agendas permanece en el navegador

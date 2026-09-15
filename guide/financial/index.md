@@ -11,7 +11,8 @@ Menu lateral → **Financeiro**. O módulo precisa estar habilitado no plano/org
 | Área | Função |
 |------|--------|
 | **Dashboard** | Saldo, resumo e atalhos para nova receita/despesa |
-| **Transações** | Listar, filtrar, criar e marcar como pago/recebido |
+| **A receber / A pagar** | Obrigações em aberto, vencidos e a vencer |
+| **Lançamentos** | Extrato do que já foi pago ou recebido |
 | **Caixas** | Contas de caixa e operadores |
 | **Categorias** | Categorias de receita e despesa |
 | **Centros de custo** | Áreas responsáveis pelas despesas |
@@ -30,34 +31,59 @@ Menu lateral → **Financeiro**. O módulo precisa estar habilitado no plano/org
 
 Sem caixa vinculado ao seu usuário, o uso pode ficar bloqueado — peça a um admin para adicioná-lo como operador.
 
-## Transações
+## A receber e a pagar
 
-### Criar uma transação
+**A receber** lista receitas em aberto. **A pagar** lista despesas em aberto. As duas telas separam **vencidos** (vencimento no passado) de **a vencer**, com totais distintos e o **total** no meio.
 
-1. Vá em **Financeiro → Transações** (ou use o atalho no dashboard)
-2. Escolha **Receita** ou **Despesa**
-3. Preencha os campos obrigatórios:
- - Descrição
- - Valor
- - Categoria
- - Data de vencimento
-4. Opcionais: centro de custo (em despesas), método de pagamento, caixa, cliente, notas, frequência e parcelas
+1. Abra **Financeiro → A receber** ou **A pagar**
+2. Use **Nova receita** ou **Nova despesa**
+3. Preencha descrição, valor, categoria e vencimento
+4. Opcionais: centro de custo (em despesas), método, caixa, cliente, notas, dados de pagamento (PIX, código de barras ou conta) e recorrência
 5. Salve
+
+Filtros rápidos no topo: **hoje**, **até hoje**, **até amanhã**, **até 7 dias**, **até o fim do mês** e **somente este mês**. Os totais de vencidos e a vencer acompanham o filtro.
+
+Uma obrigação atrasada entra em **Vencidos** pela data, mesmo se o status ainda estiver pendente.
 
 ### Status
 
 | Status | Significado |
 |--------|-------------|
-| Pendente | Ainda não quitada |
-| Pago / Recebido | Quitada |
-| Vencido | Passou do vencimento sem quitação |
+| Pendente | Ainda não lançada |
+| Pago / Recebido | Já lançada no extrato |
+| Vencido | Passou do vencimento sem lançamento |
 | Cancelado | Encerrada manualmente |
 
-### Ações comuns
+## Lançamentos
 
-- **Marcar como pago/recebido**
-- Editar ou excluir (conforme permissão)
-- Filtrar por período, tipo, status, caixa, categoria ou centro de custo
+Em **Financeiro → Lançamentos** você vê o extrato: o que já foi pago ou recebido. Filtros rápidos: **mês atual** e **mês passado**. O valor exibido é o valor do lançamento; se for diferente do original da obrigação, o original também aparece.
+
+## Lançar pagamento
+
+Para quitar uma obrigação, use **Lançar pagamento** ou **Lançar recebimento** — não basta marcar como pago.
+
+1. Abra a obrigação em **A receber** ou **A pagar**
+2. Escolha **Lançar pagamento** ou **Lançar recebimento**
+3. Confira o **valor original** e, se precisar, altere o **valor do lançamento**
+4. Ajuste data, caixa (entre os que você opera) e dados de pagamento
+5. Salve
+
+O sistema guarda quem lançou e quando. PIX, código de barras ou dados bancários podem ser copiados, editados ou removidos depois de salvos.
+
+## Recorrência
+
+Ao criar com frequência diferente de única, escolha **quantas ocorrências gerar** no início (até 12). O sistema mantém vencimentos futuros na fila, independente de já ter lançado alguma.
+
+Ao editar um item da série, escolha:
+
+- **Só esta** — altera apenas a obrigação aberta
+- **Todas as próximas** — replica descrição, categoria e caixa nas ainda não lançadas
+- **Aplicar valor** e **Aplicar dados de pagamento** — só se quiser que esses campos também mudem nas próximas
+- **Incluir vencimento** — só se quiser deslocar as datas seguintes pelo mesmo intervalo
+
+Lançamentos já feitos não entram nessa alteração.
+
+> Changelog: [v2026.9.10](/changelog/2026/09/2026.9.10)
 
 ## Caixas
 
@@ -85,7 +111,7 @@ Use **Financeiro → Centros de custo** para acompanhar onde os recursos da empr
 
 1. Cadastre um código único, nome e descrição opcional
 2. Ao criar ou editar uma **despesa**, escolha o centro de custo
-3. Em **Transações**, filtre os lançamentos por centro
+3. Em **A receber**, **A pagar** ou **Lançamentos**, filtre por centro de custo
 4. Inative centros que não são mais usados; os lançamentos anteriores permanecem vinculados
 
 O centro de custo é opcional e exclusivo para despesas. Categorias indicam **o tipo do gasto**; centros de custo indicam **qual área é responsável por ele**.
