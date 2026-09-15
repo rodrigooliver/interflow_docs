@@ -6,6 +6,7 @@ Updates for September 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.9.9](/en/changelog/2026/09/2026.9.9) | 09/15 | **Team-to-team rotation** — the channel picks the team; transfer or leave can send to the queue |
 | [2026.9.8](/en/changelog/2026/09/2026.9.8) | 09/14 | **Exclude tags in bulk send** — skip contacts with tags such as stop messages or opt out |
 | [2026.9.7](/en/changelog/2026/09/2026.9.7) | 09/10 | **Cost centers** — expenses by area, entry filtering, and CSV reporting |
 | [2026.9.6](/en/changelog/2026/09/2026.9.6) | 09/10 | **Financial reports** — cash flow, categories, and aging on cash registers you can access |
@@ -19,7 +20,8 @@ Updates for September 2026.
 
 ## Month summary
 
-### New Features (11)
+### New Features (12)
+- **Automatic team-to-team rotation** (v2026.9.9) — channel team queue on inbound chats and when transferring or leaving
 - **Exclude tags in bulk messages** (v2026.9.8) — suppress recipients with opt-out tags, even if they match include filters
 - **Cost centers** (v2026.9.7) — management, optional expense assignment, filtering, and a dedicated CSV report
 - **Financial reports** (v2026.9.6) — cash flow, categories, receivables/payables, and per-register comparison, only for cash registers you can access

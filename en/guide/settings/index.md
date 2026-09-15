@@ -72,6 +72,20 @@ When an agent clicks "Attend" on a chat with active flow:
 "Continue Flow" = Customer receives messages from agent AND flow!
 :::
 
+### Agents can pick a team when rotation is on
+
+When the **channel** has team rotation, agents see **Send to team rotation** on transfer or leave. With this toggle on (default), they can also pick a specific team. Off, they can only send to rotation. Admins and owners always choose.
+
+**How to configure:**
+
+1. In **Settings** → **Attendance**, find **Agents can pick a team when rotation is on**
+2. Toggle it
+3. Save
+
+The channel must have rotation enabled. See [Team-to-team rotation](/en/guide/teams/#team-to-team-rotation).
+
+> Changelog: [v2026.9.9](/en/changelog/2026/09/2026.9.9)
+
 ### Allow message without attending
 
 On **pending** chats, the footer only shows **Attend**. With this option on, **Send a message** also appears: the agent unlocks the field, sends, and the ticket **stays in the queue**.

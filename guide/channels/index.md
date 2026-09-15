@@ -88,6 +88,21 @@ Os canais podem converter áudios em texto automaticamente, com controles separa
 
 ---
 
+## Rodízio entre equipes
+
+No painel do canal, ative **Rodízio entre equipes** e monte uma lista ordenada (mínimo duas equipes).
+
+- Contatos novos que entram pelo webhook recebem a próxima equipe da fila
+- A **equipe padrão** do canal continua como fallback se a fila ficar inválida
+- Depois do sorteio, vale a configuração da equipe destino: se ela tiver rodízio de pessoas, atribui/reserva um membro; senão, o chat fica pendente para qualquer um assumir
+- Em **Transferir** e **Sair do atendimento**, há a opção de enviar ao rodízio do canal (em vez de escolher uma equipe)
+
+A organização pode restringir se o atendente escolhe equipe ou só envia ao rodízio em **Configurações**.
+
+> Changelog: [v2026.9.9](/changelog/2026/09/2026.9.9)
+
+---
+
 ## Visibilidade ao iniciar conversa
 
 Defina **quem pode usar cada canal** ao iniciar uma nova conversa com um cliente (todos, por perfil, por usuários ou por equipe). Canais auxiliares não entram nessa lista.

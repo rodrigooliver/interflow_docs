@@ -88,6 +88,21 @@ Channels can automatically convert audio to text, with separate controls for cus
 
 ---
 
+## Team rotation
+
+In the channel panel, enable **Team rotation** and build an ordered list (at least two teams).
+
+- New contacts arriving via webhook get the next team in the queue
+- The channel **default team** remains the fallback if the queue becomes invalid
+- After the pick, the destination team's settings apply: if it has people rotation, a member is assigned or reserved; otherwise the chat stays pending for anyone to take
+- **Transfer** and **Leave attendance** include an option to send the chat to the channel rotation instead of picking a team
+
+The organization can decide whether agents may pick a team or can only send to rotation under **Settings**.
+
+> Changelog: [v2026.9.9](/en/changelog/2026/09/2026.9.9)
+
+---
+
 ## Visibility when starting a conversation
 
 Define **who can use each channel** when starting a new conversation with a customer (everyone, by role, specific users, or by team). Auxiliary channels are not included in that list.

@@ -72,6 +72,20 @@ Cuando un agente hace clic en "Atender" un chat con flujo activo:
 "Continuar Flujo" = ¡El cliente recibe mensajes del agente Y del flujo!
 :::
 
+### El agente puede elegir equipo en la rotación
+
+Cuando el **canal** tiene rotación entre equipos, el agente ve **Enviar a la rotación** al transferir o salir. Con este toggle activo (predeterminado), también puede elegir un equipo específico. Desactivado, solo envía a la rotación. Admins y owners siempre eligen.
+
+**Cómo configurar:**
+
+1. En **Configuración** → **Atención**, busque **El agente puede elegir equipo en la rotación**
+2. Ajuste el toggle
+3. Guarde
+
+El canal debe tener la rotación activa. Vea [Rotación entre equipos](/es/guide/teams/#rotacion-entre-equipos).
+
+> Changelog: [v2026.9.9](/es/changelog/2026/09/2026.9.9)
+
 ### Permitir mensaje sin atender
 
 En chats **pendientes**, el pie solo muestra **Atender**. Con esta opción activa, también aparece **Enviar mensaje suelto**: el agente libera el campo, envía y el ticket **sigue en la cola**.

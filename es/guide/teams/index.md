@@ -189,6 +189,23 @@ Pasa el cursor para ver hora límite y modo (laboral/fuera de horario).
 
 ---
 
+## Rotación entre equipos {#rotacion-entre-equipos}
+
+La rotación de **personas** (arriba) reparte dentro de un equipo. La rotación **entre equipos** se configura en el **canal**:
+
+1. Active **Rotación entre equipos** en la configuración del canal
+2. Agregue al menos dos equipos y defina el orden de la cola
+3. Los chats inbound nuevos van al siguiente equipo
+4. Al transferir o salir, use **Enviar a la rotación de equipos** para no mantener el chat en el equipo actual
+
+El equipo destino decide el resto: si el auto-assign de personas está activo, se elige un miembro; si no, el chat queda pendiente para cualquiera.
+
+En **Configuraciones de la organización** se define si el agente puede elegir un equipo específico cuando el canal tiene rotación, o si solo puede enviar a la cola.
+
+> Changelog: [v2026.9.9](/es/changelog/2026/09/2026.9.9)
+
+---
+
 ## Buenas prácticas
 
 1. **Ordena la cola** según tu operación (experiencia, rotación, etc.)

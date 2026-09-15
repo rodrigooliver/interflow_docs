@@ -20,7 +20,6 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 | Impressão de relatórios filtrados por período, cliente e estabelecimento | Ago/2026 | Imprimir relatórios (ex.: prestação de contas) com filtros de período, cliente e estabelecimento, prontos para compartilhar. |
 | Integração da agenda do Interflow com Google Agenda | Ago/2026 | Sincronização bidirecional de eventos entre a agenda nativa e o Google Agenda, com escolha das agendas a conectar. |
 | Botão de recarregar no módulo de tarefas | Ago/2026 | Atualizar só a lista de tarefas, sem recarregar a página inteira. |
-| Distribuição automática de conversas via rodízio entre equipes | Ago/2026 | Transferir conversas automaticamente entre equipes em rodízio, deixando o atendimento pendente para qualquer membro assumir. |
 | Descrição automática ao selecionar categoria financeira | Ago/2026 | Preencher a descrição do lançamento com o texto padrão da categoria, ainda editável pelo usuário. |
 | Exclusão e edição de permissões de operadores no caixa | Ago/2026 | Remover operadores do caixa e ajustar as permissões de quem já está vinculado. |
 | Membros de grupos externos em ordem alfabética | Ago/2026 | Exibir os participantes de grupos externos em ordem alfabética pelo nome. |

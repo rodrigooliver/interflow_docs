@@ -20,7 +20,6 @@ This roadmap is updated regularly and may change based on product priorities.
 | Print reports filtered by period, customer, and establishment | Aug 2026 | Print reports (e.g. account statements) filtered by period, customer, and establishment, ready to share. |
 | Sync Interflow calendar with Google Calendar | Aug 2026 | Two-way event sync between the native calendar and Google Calendar, with a choice of which calendars to connect. |
 | Reload button in the Tasks module | Aug 2026 | Refresh only the task list, without reloading the whole page. |
-| Automatic conversation distribution via team rotation | Aug 2026 | Automatically transfer conversations across teams in rotation, leaving the chat pending for any team member to pick up. |
 | Auto-fill description when selecting a finance category | Aug 2026 | Fill the entry description with the category’s default text, still editable by the user. |
 | Delete and edit cash register operator permissions | Aug 2026 | Remove operators from a cash register and edit permissions for those already assigned. |
 | Alphabetical order for external group members | Aug 2026 | Display external group participants in alphabetical order by name. |

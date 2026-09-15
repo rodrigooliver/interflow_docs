@@ -6,6 +6,7 @@ Atualizações do mês de setembro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.9.9](/changelog/2026/09/2026.9.9) | 15/09 | **Rodízio entre equipes** — o canal sorteia o time; transferir ou sair pode mandar para a fila |
 | [2026.9.8](/changelog/2026/09/2026.9.8) | 14/09 | **Excluir tags no disparo** — não enviar para quem tem tags como parar mensagens ou sair |
 | [2026.9.7](/changelog/2026/09/2026.9.7) | 10/09 | **Centros de custo** — despesas por área, filtro nos lançamentos e relatório com CSV |
 | [2026.9.6](/changelog/2026/09/2026.9.6) | 10/09 | **Relatórios financeiros** — fluxo de caixa, categorias e aging nos caixas com acesso |
@@ -19,7 +20,8 @@ Atualizações do mês de setembro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (11)
+### Novas Funcionalidades (12)
+- **Rodízio automático entre equipes** (v2026.9.9) — fila de times no canal, no webhook e ao transferir ou sair
 - **Excluir tags no disparo em massa** (v2026.9.8) — suprimir destinatários com tags de descadastramento, mesmo que estejam na inclusão
 - **Centros de custo** (v2026.9.7) — cadastro, associação opcional às despesas, filtro e relatório dedicado com CSV
 - **Relatórios financeiros** (v2026.9.6) — fluxo de caixa, categorias, a receber/pagar e comparativo por caixa, só nos caixas com acesso

@@ -189,6 +189,23 @@ Passe o mouse para ver horário limite e modo (expediente/folga).
 
 ---
 
+## Rodízio entre equipes {#rodizio-entre-equipes}
+
+O rodízio de **pessoas** (acima) distribui dentro de uma equipe. O rodízio **entre equipes** é configurado no **canal**:
+
+1. Ative **Rodízio entre equipes** nas configurações do canal
+2. Adicione pelo menos duas equipes e defina a ordem da fila
+3. Novos chats inbound entram na próxima equipe
+4. Em transferir/sair, use **Enviar ao rodízio de equipes** para não manter o chat na equipe atual
+
+A equipe destino decide o restante: se o auto-assign de pessoas estiver ligado, um membro é escolhido; senão o chat fica pendente para qualquer membro.
+
+Em **Configurações da organização**, você define se o atendente pode escolher uma equipe específica quando o canal tem rodízio, ou se só pode enviar à fila.
+
+> Changelog: [v2026.9.9](/changelog/2026/09/2026.9.9)
+
+---
+
 ## Boas práticas
 
 1. **Ordene a fila** colocando agentes mais experientes no início ou use ordem alfabética/rotativa conforme a operação

@@ -10,6 +10,7 @@ Las **10 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.9.9](/es/changelog/2026/09/2026.9.9) | 15/09 | **Rotación entre equipos** — el canal sortea el equipo; transferir o salir puede enviar a la cola | [Equipos](/es/guide/teams/#rotacion-entre-equipos) |
 | [v2026.9.8](/es/changelog/2026/09/2026.9.8) | 14/09 | **Excluir etiquetas en el disparo** — no enviar a quien pidió parar | [Disparos masivos](/es/guide/chat/bulk-messages#excluir-etiquetas) |
 | [v2026.9.7](/es/changelog/2026/09/2026.9.7) | 10/09 | **Centros de coste** — gastos por área, filtro de movimientos e informe con CSV | [Financiero](/es/guide/financial/#centros-de-coste) |
 | [v2026.9.6](/es/changelog/2026/09/2026.9.6) | 10/09 | **Informes financieros** — flujo de caja, categorías y aging en las cajas con acceso | [Financiero](/es/guide/financial/#informes) |
@@ -19,7 +20,6 @@ Las **10 releases más recientes** (la más nueva primero):
 | [v2026.9.2](/es/changelog/2026/09/2026.9.2) | 10/09 | **Menú por módulo y búsqueda** — workspaces en la barra y ⌘K / Ctrl+K | [Configuración](/es/guide/settings/#menu-y-busqueda) |
 | [v2026.9.1](/es/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner y admins con el nombre y el número | [WAHA](/es/guide/channels/whatsapp-waha#reconexion) |
 | [v2026.8.25](/es/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipo** — hasta 12 números en los filtros rápidos, visibles solo para quien los necesita | [Filtros](/es/guide/chat/filters#contadores-en-los-filtros-rapidos) |
-| [v2026.8.24](/es/changelog/2026/08/2026.8.24) | 27/08 | **Voces del sistema** — generar audio a partir del texto en la atención | [Voces del sistema](/es/guide/chat/system-voices) |
 
 [Ver todas las releases de septiembre →](/es/changelog/2026/09/)
 

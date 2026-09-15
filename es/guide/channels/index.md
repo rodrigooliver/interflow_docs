@@ -88,6 +88,21 @@ Los canales pueden convertir audios en texto automáticamente, con controles sep
 
 ---
 
+## Rotación entre equipos
+
+En el panel del canal, active **Rotación entre equipos** y arme una lista ordenada (mínimo dos equipos).
+
+- Los contactos nuevos que llegan por webhook reciben el siguiente equipo de la cola
+- El **equipo predeterminado** del canal sigue como respaldo si la cola queda inválida
+- Después del sorteo, vale la configuración del equipo destino: si tiene rotación de personas, asigna o reserva un miembro; si no, el chat queda pendiente para que cualquiera lo asuma
+- En **Transferir** y **Salir de la atención** hay la opción de enviar a la rotación del canal (en vez de elegir un equipo)
+
+La organización puede restringir si el agente elige equipo o solo envía a la rotación en **Configuraciones**.
+
+> Changelog: [v2026.9.9](/es/changelog/2026/09/2026.9.9)
+
+---
+
 ## Visibilidad al iniciar conversación
 
 Define **quién puede usar cada canal** al iniciar una nueva conversación con un cliente (todos, por perfil, por usuarios o por equipo). Los canales auxiliares no entran en esa lista.

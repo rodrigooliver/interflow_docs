@@ -72,6 +72,20 @@ Quando um atendente clica em "Atender" um chat com fluxo ativo:
 "Continuar Fluxo" = Cliente recebe mensagens do atendente E do fluxo!
 :::
 
+### Atendente pode escolher equipe no rodízio
+
+Quando o **canal** tem rodízio entre equipes, o atendente vê a opção **Enviar ao rodízio** ao transferir ou sair. Com este toggle ligado (padrão), ele também pode escolher uma equipe específica. Desligado, só envia ao rodízio. Admins e owners sempre escolhem.
+
+**Como configurar:**
+
+1. Em **Configurações** → **Atendimento**, localize **Atendente pode escolher equipe no rodízio**
+2. Ajuste o toggle
+3. Salve
+
+O canal precisa ter o rodízio ativo. Veja [Rodízio entre equipes](/guide/teams/#rodizio-entre-equipes).
+
+> Changelog: [v2026.9.9](/changelog/2026/09/2026.9.9)
+
 ### Permitir mensagem sem atender
 
 Em chats **pendentes**, o rodapé mostra só **Atender**. Com esta opção ligada, aparece também **Enviar mensagem avulsa**: o atendente libera o campo, envia e o ticket **continua na fila**.

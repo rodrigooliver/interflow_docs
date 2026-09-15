@@ -189,6 +189,23 @@ Hover for expiry time and mode (working/off hours).
 
 ---
 
+## Team-to-team rotation {#team-to-team-rotation}
+
+**People** rotation (above) distributes inside a team. **Team-to-team** rotation is configured on the **channel**:
+
+1. Enable **Team rotation** in the channel settings
+2. Add at least two teams and set the queue order
+3. New inbound chats go to the next team
+4. On transfer/leave, use **Send to team rotation** instead of keeping the chat on the current team
+
+The destination team decides the rest: if people auto-assign is on, a member is picked; otherwise the chat stays pending for any member.
+
+Under **Organization settings**, you choose whether agents can pick a specific team when the channel has rotation, or can only send to the queue.
+
+> Changelog: [v2026.9.9](/en/changelog/2026/09/2026.9.9)
+
+---
+
 ## Best practices
 
 1. **Order the queue** based on your operation (experience, rotation, etc.)

@@ -10,6 +10,7 @@ The **10 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.9.9](/en/changelog/2026/09/2026.9.9) | Sep 15 | **Team-to-team rotation** — the channel picks the team; transfer or leave can send to the queue | [Teams](/en/guide/teams/#team-to-team-rotation) |
 | [v2026.9.8](/en/changelog/2026/09/2026.9.8) | Sep 14 | **Exclude tags in bulk send** — skip people who asked to stop | [Bulk messages](/en/guide/chat/bulk-messages#exclude-tags) |
 | [v2026.9.7](/en/changelog/2026/09/2026.9.7) | Sep 10 | **Cost centers** — expenses by area, entry filtering, and CSV reporting | [Financial](/en/guide/financial/#cost-centers) |
 | [v2026.9.6](/en/changelog/2026/09/2026.9.6) | Sep 10 | **Financial reports** — cash flow, categories, and aging on cash registers you can access | [Financial](/en/guide/financial/#reports) |
@@ -19,7 +20,6 @@ The **10 most recent releases** (newest first):
 | [v2026.9.2](/en/changelog/2026/09/2026.9.2) | Sep 10 | **Menu by module and search** — workspaces in the sidebar and ⌘K / Ctrl+K | [Settings](/en/guide/settings/#menu-and-search) |
 | [v2026.9.1](/en/changelog/2026/09/2026.9.1) | Sep 9 | **WAHA channel disconnected** — push to owner and admins with the name and number | [WAHA](/en/guide/channels/whatsapp-waha#reconnection) |
 | [v2026.8.25](/en/changelog/2026/08/2026.8.25) | Sep 8 | **Counters per team** — up to 12 numbers on quick filters, visible only to who needs them | [Filters](/en/guide/chat/filters#counters-on-quick-filters) |
-| [v2026.8.24](/en/changelog/2026/08/2026.8.24) | Aug 27 | **System voices** — generate audio from text in the conversation | [System voices](/en/guide/chat/system-voices) |
 
 [See all September releases →](/en/changelog/2026/09/)
 
