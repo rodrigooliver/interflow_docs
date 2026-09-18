@@ -12,6 +12,27 @@ The Interflow Schedule module allows you to manage appointments, consultations, 
 2. Choose the desired view (day, week, month)
 3. Navigate between dates using arrows or the calendar
 
+## Managing schedules
+
+### Duplicate a schedule
+
+Use a configured schedule as a template. The copy gets services, professionals, locations, hours, holidays, and notifications. Appointments are **not** copied.
+
+1. Open **Schedule** → **Schedules**
+2. On the card, click **Duplicate schedule** — or, inside the schedule, use the button next to edit and delete
+3. Confirm or change the name (the default is `{name} (copy)`)
+4. The copy opens on the management screen
+
+Organization flows stay the same: the new schedule only reuses the status and template links. Recurring series, reminders already sent, and agent actions tied only to the original schedule are left out.
+
+> Changelog: [v2026.9.12](/en/changelog/2026/09/2026.9.12)
+
+### Locations on the list card
+
+When the schedule uses locations, the card in **Schedule** → **Schedules** shows how many locations are registered, next to the professional and service counts.
+
+> Changelog: [v2026.9.12](/en/changelog/2026/09/2026.9.12)
+
 ## Schedule Interface
 
 ### Available Views

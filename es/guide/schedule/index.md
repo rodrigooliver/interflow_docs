@@ -12,6 +12,27 @@ El módulo de Agenda de Interflow permite gestionar citas, consultas y reuniones
 2. Elige la visualización deseada (día, semana, mes)
 3. Navega entre las fechas usando las flechas o el calendario
 
+## Gestionar agendas
+
+### Duplicar agenda
+
+Usa una agenda ya configurada como modelo. La copia recibe servicios, profesionales, locales, horarios, feriados y notificaciones. Las citas **no** se copian.
+
+1. Abre **Agenda** → **Agendas**
+2. En la tarjeta, haz clic en **Duplicar agenda** — o, dentro de la agenda, usa el botón junto a editar y eliminar
+3. Confirma o cambia el nombre (el valor predeterminado es `{nombre} (copia)`)
+4. La copia se abre en la pantalla de gestión
+
+Los flujos de la organización siguen iguales: la nueva agenda solo reutiliza los vínculos de estado y de las plantillas. Quedan fuera las series recurrentes, los recordatorios ya enviados y las acciones de agente ligadas solo a la agenda original.
+
+> Changelog: [v2026.9.12](/es/changelog/2026/09/2026.9.12)
+
+### Locales en la tarjeta de la lista
+
+Cuando la agenda usa locales, la tarjeta en **Agenda** → **Agendas** muestra cuántos locales están registrados, junto a los recuentos de profesionales y servicios.
+
+> Changelog: [v2026.9.12](/es/changelog/2026/09/2026.9.12)
+
 ## Interfaz de la Agenda
 
 ### Visualizaciones Disponibles

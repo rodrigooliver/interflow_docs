@@ -6,6 +6,7 @@ Atualizações do mês de setembro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.9.12](/changelog/2026/09/2026.9.12) | 18/09 | **Duplicar agenda** — clona a configuração sem levar agendamentos; o card mostra locais quando a agenda usa salas |
 | [2026.9.11](/changelog/2026/09/2026.9.11) | 15/09 | **Transferência entre caixas e aviso de vencimento** — move saldo sem entrar no DRE e avisa no celular o que vence hoje |
 | [2026.9.10](/changelog/2026/09/2026.9.10) | 15/09 | **A receber, a pagar e lançamentos** — obrigações em aberto, extrato e lançar pagamento ou recebimento |
 | [2026.9.9](/changelog/2026/09/2026.9.9) | 15/09 | **Rodízio entre equipes** — o canal sorteia o time; transferir ou sair pode mandar para a fila |
@@ -22,7 +23,9 @@ Atualizações do mês de setembro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (17)
+### Novas Funcionalidades (19)
+- **Duplicar agenda** (v2026.9.12) — clona serviços, profissionais, locais, horários, feriados e notificações, sem histórico
+- **Quantidade de locais no card** (v2026.9.12) — o card da lista mostra quantos locais a agenda tem, se usar locais
 - **Transferência entre caixas** (v2026.9.11) — move saldo de um caixa para outro sem contar como receita ou despesa
 - **Aviso no celular das contas que vencem hoje** (v2026.9.11) — push matinal para os operadores do caixa
 - **A receber, a pagar e lançamentos** (v2026.9.10) — obrigações em aberto separadas do extrato, com vencidos, a vencer e filtros rápidos

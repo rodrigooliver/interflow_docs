@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.9.12](/changelog/2026/09/2026.9.12) | 18/09 | **Duplicar agenda** — clona a configuração sem levar agendamentos | [Agenda](/guide/schedule/#duplicar-agenda) |
 | [v2026.9.11](/changelog/2026/09/2026.9.11) | 15/09 | **Transferência entre caixas e aviso de vencimento** — move saldo sem entrar no DRE e avisa o que vence hoje | [Financeiro](/guide/financial/#transferencia-entre-caixas) |
 | [v2026.9.10](/changelog/2026/09/2026.9.10) | 15/09 | **A receber, a pagar e lançamentos** — obrigações em aberto, extrato e lançar pagamento | [Financeiro](/guide/financial/#a-receber-e-a-pagar) |
 | [v2026.9.9](/changelog/2026/09/2026.9.9) | 15/09 | **Rodízio entre equipes** — o canal sorteia o time; transferir ou sair pode mandar para a fila | [Equipes](/guide/teams/#rodizio-entre-equipes) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.8.20](/changelog/2026/08/2026.8.20) | 26/08 | **Criar chat pelo Agente IA** — recolhe dados e abre (ou continua) o atendimento no canal | [Agentes IA](/guide/ai-agents/tools/create-chat) |
 | [v2026.8.19](/changelog/2026/08/2026.8.19) | 26/08 | **Campo de contato na criação de chat** — abrir atendimento só com o contato; o tipo vem do canal | [Changelog](/changelog/2026/08/2026.8.19) |
 | [v2026.8.18](/changelog/2026/08/2026.8.18) | 26/08 | **Recibo em dinheiro** — baixa da parcela com comprovante para imprimir ou baixar | [Changelog](/changelog/2026/08/2026.8.18) |
-| [v2026.8.17](/changelog/2026/08/2026.8.17) | 26/08 | **Não lidas nos filtros rápidos** — gravar o critério no atalho da equipe | [Filtros](/guide/chat/filters#mensagens-nao-lidas) |
 [Ver todas as releases de setembro →](/changelog/2026/09/)
 
 ## Onde navegar
