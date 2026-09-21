@@ -13,7 +13,7 @@ Gestiona calendarios, disponibilidad, recordatorios automáticos y agendamiento 
 
 - Visualizar la agenda en día, semana o mes, con drag-and-drop y estados con colores
 - Crear citas manuales, recurrentes o vía flujo/agente de IA
-- Configurar horarios de atención, días libres e indisponibilidades por profesional
+- Configurar horarios de atención, días libres e indisponibilidades por profesional o por [local/sala](/es/guide/schedule/locations)
 - Enviar [recordatorios automáticos al cliente](/es/guide/schedule/) (48 h, 24 h, 2 h) con plantillas y variables
 - Recibir [recordatorios push para el equipo](/es/guide/schedule/push-reminders) en la app o web
 - Ofrecer [agendamiento público](/es/guide/schedule/booking) vía enlace (`/booking/<orgId>/<scheduleId>`)
@@ -30,6 +30,7 @@ Gestiona calendarios, disponibilidad, recordatorios automáticos y agendamiento 
 ## Guías
 
 - [Visión general de la agenda](/es/guide/schedule/)
+- [Locales y salas](/es/guide/schedule/locations)
 - [Recordatorios push](/es/guide/schedule/push-reminders)
 - [Flujos silenciosos](/es/guide/schedule/silent-flows)
 - [Agendamiento público (booking)](/es/guide/schedule/booking)

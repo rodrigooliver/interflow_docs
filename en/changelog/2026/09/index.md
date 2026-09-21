@@ -6,7 +6,7 @@ Updates for September 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| [2026.9.12](/en/changelog/2026/09/2026.9.12) | 09/18 | **Duplicate a schedule** — clones the setup without appointments; the card shows locations when the schedule uses rooms |
+| [2026.9.12](/en/changelog/2026/09/2026.9.12) | 09/18 | **Locations and duplicate schedule** — rooms with their own hours, and a setup copy without appointments |
 | [2026.9.11](/en/changelog/2026/09/2026.9.11) | 09/15 | **Cashier transfer and due-today notice** — move balance without hitting P&L, and get a morning push for today’s dues |
 | [2026.9.10](/en/changelog/2026/09/2026.9.10) | 09/15 | **Receivables, payables, and posted entries** — open obligations, statement, and posting a payment or receipt |
 | [2026.9.9](/en/changelog/2026/09/2026.9.9) | 09/15 | **Team-to-team rotation** — the channel picks the team; transfer or leave can send to the queue |
@@ -24,8 +24,8 @@ Updates for September 2026.
 ## Month summary
 
 ### New Features (19)
+- **Locations and rooms on the schedule** (v2026.9.12) — rooms with hours, overlap, filter, columns, and AI Agent
 - **Duplicate a schedule** (v2026.9.12) — clones services, professionals, locations, hours, holidays, and notifications, with no history
-- **Location count on the card** (v2026.9.12) — the list card shows how many locations the schedule has, when locations are in use
 - **Transfer between cashiers** (v2026.9.11) — move balance from one register to another without counting as income or expense
 - **Push for accounts due today** (v2026.9.11) — morning notice for the register’s operators
 - **Receivables, payables, and posted entries** (v2026.9.10) — open obligations separate from the statement, with overdue, upcoming, and quick filters

@@ -27,11 +27,11 @@ Organization flows stay the same: the new schedule only reuses the status and te
 
 > Changelog: [v2026.9.12](/en/changelog/2026/09/2026.9.12)
 
-### Locations on the list card
+### Locations and rooms
 
-When the schedule uses locations, the card in **Schedule** → **Schedules** shows how many locations are registered, next to the professional and service counts.
+Turn on **Use locations** to register rooms, booths, or units. The location becomes the control center: hours, overlap, and the appointment depend on the room. The list card shows how many locations that schedule has.
 
-> Changelog: [v2026.9.12](/en/changelog/2026/09/2026.9.12)
+> Full guide: [Locations and rooms](/en/guide/schedule/locations)
 
 ## Schedule Interface
 
@@ -46,11 +46,11 @@ When the schedule uses locations, the card in **Schedule** → **Schedules** sho
 
 ### Column split
 
-In **List** and **Day** views, you can split the screen into columns by **professional** or by **schedule**.
+In **List** and **Day** views, you can split the screen into columns by **professional**, by **schedule**, or by **location**.
 
 1. Open the view menu in the header
-2. Choose **By professional** or **By schedule**
-3. Check who (or which schedules) should appear and confirm
+2. Choose **By professional**, **By schedule**, or **By location**
+3. Check who (or which schedules/locations) should appear and confirm
 
 The choice is saved in the browser. In the list, times line up on the same row across columns. With more than one column, cards become compact; on desktop, hover to see details and actions (confirm, start, cancel).
 
@@ -76,6 +76,7 @@ When status is **Scheduled**, you can also **Start** the appointment without con
    - **Customer**: Search or create new
    - **Service**: Select service type
    - **Professional**: Who will attend
+   - **Location**: Room or unit (required if the schedule uses locations)
    - **Date and Time**: When the appointment will be
    - **Duration**: Estimated time
    - **Notes**: Internal notes
@@ -265,6 +266,7 @@ Automatic alerts in the **app** and **web** for the provider and selected users 
 
 ## Next Steps
 
+- [Locations and rooms](/en/guide/schedule/locations) — rooms and units with their own hours and occupancy
 - [Push reminders](/en/guide/schedule/push-reminders) — internal alerts before appointments
 - [Silent flows by status](/en/guide/schedule/silent-flows) — internal automations on each status change
 - [AI Agents](/en/guide/ai-agents/) — Configure AI for scheduling

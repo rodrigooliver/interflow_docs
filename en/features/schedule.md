@@ -13,7 +13,7 @@ Manage calendars, availability, automatic reminders, and public booking — with
 
 - View the schedule by day, week, or month, with drag-and-drop and color-coded statuses
 - Create manual, recurring, or flow/AI agent appointments
-- Configure business hours, time off, and unavailability per professional
+- Configure business hours, time off, and unavailability per professional or per [location/room](/en/guide/schedule/locations)
 - Send [automatic customer reminders](/en/guide/schedule/) (48h, 24h, 2h) with templates and variables
 - Receive [push reminders for the team](/en/guide/schedule/push-reminders) in the app or web
 - Offer [public booking](/en/guide/schedule/booking) via link (`/booking/<orgId>/<scheduleId>`)
@@ -30,6 +30,7 @@ Manage calendars, availability, automatic reminders, and public booking — with
 ## Guides
 
 - [Schedule overview](/en/guide/schedule/)
+- [Locations and rooms](/en/guide/schedule/locations)
 - [Push reminders](/en/guide/schedule/push-reminders)
 - [Silent flows](/en/guide/schedule/silent-flows)
 - [Public booking](/en/guide/schedule/booking)

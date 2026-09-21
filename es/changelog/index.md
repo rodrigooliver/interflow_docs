@@ -10,7 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
-| [v2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Duplicar agenda** — clona la configuración sin llevar citas | [Agenda](/es/guide/schedule/#duplicar-agenda) |
+| [v2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Locales y duplicar agenda** — salas con horario propio y copia sin citas | [Locales](/es/guide/schedule/locations) |
 | [v2026.9.11](/es/changelog/2026/09/2026.9.11) | 15/09 | **Transferencia entre cajas y aviso de vencimiento** — mueve saldo sin entrar en el DRE y avisa lo que vence hoy | [Financiero](/es/guide/financial/#transferencia-entre-cajas) |
 | [v2026.9.10](/es/changelog/2026/09/2026.9.10) | 15/09 | **Por cobrar, por pagar y movimientos** — obligaciones abiertas, extracto y registro de pago | [Financiero](/es/guide/financial/#por-cobrar-y-por-pagar) |
 | [v2026.9.9](/es/changelog/2026/09/2026.9.9) | 15/09 | **Rotación entre equipos** — el canal sortea el equipo; transferir o salir puede enviar a la cola | [Equipos](/es/guide/teams/#rotacion-entre-equipos) |

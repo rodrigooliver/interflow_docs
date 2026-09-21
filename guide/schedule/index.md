@@ -27,11 +27,11 @@ Os fluxos da organização continuam os mesmos: a nova agenda só reaproveita os
 
 > Changelog: [v2026.9.12](/changelog/2026/09/2026.9.12)
 
-### Locais no card da lista
+### Locais e salas
 
-Quando a agenda usa locais, o card em **Agenda** → **Agendas** mostra quantos locais estão cadastrados, ao lado das contagens de profissionais e serviços.
+Ative **Usar locais** na agenda para cadastrar salas, boxes ou unidades. O local vira o centro de controle: horários, sobreposição e o compromisso passam a depender da sala. O card da lista mostra quantos locais aquela agenda tem.
 
-> Changelog: [v2026.9.12](/changelog/2026/09/2026.9.12)
+> Guia completo: [Locais e salas](/guide/schedule/locations)
 
 ## Interface da Agenda
 
@@ -46,11 +46,11 @@ Quando a agenda usa locais, o card em **Agenda** → **Agendas** mostra quantos 
 
 ### Divisão em colunas
 
-Nas visualizações **Lista** e **Dia**, é possível separar a tela em colunas por **profissional** ou por **agenda**.
+Nas visualizações **Lista** e **Dia**, é possível separar a tela em colunas por **profissional**, por **agenda** ou por **local**.
 
 1. Abra o menu de visualização no cabeçalho
-2. Escolha **Por profissional** ou **Por agenda**
-3. Marque quem (ou quais agendas) deve aparecer e confirme
+2. Escolha **Por profissional**, **Por agenda** ou **Por local**
+3. Marque quem (ou quais agendas/locais) deve aparecer e confirme
 
 A escolha fica salva no navegador. Na lista, os horários alinham-se na mesma linha entre as colunas. Com mais de uma coluna, os cards ficam compactos; no computador, passe o mouse para ver detalhes e ações (confirmar, iniciar, cancelar).
 
@@ -76,6 +76,7 @@ Com status **Agendado**, também é possível **Iniciar** o compromisso sem conf
    - **Cliente**: Busque ou crie um novo
    - **Serviço**: Selecione o tipo de serviço
    - **Profissional**: Quem irá atender
+   - **Local**: Sala ou unidade (obrigatório se a agenda usa locais)
    - **Data e Hora**: Quando será o compromisso
    - **Duração**: Tempo estimado
    - **Observações**: Notas internas
@@ -334,6 +335,7 @@ Alertas automáticos no **app** e **web** para o profissional e usuários seleci
 
 ## Próximos Passos
 
+- [Locais e salas](/guide/schedule/locations) — salas e unidades com horário e ocupação próprios
 - [Lembretes push](/guide/schedule/push-reminders) — alertas internos antes do compromisso
 - [Fluxos silenciosos por status](/guide/schedule/silent-flows) — automações internas em cada mudança de status
 - [Agentes IA](/guide/ai-agents/) — Configure IA para agendamentos

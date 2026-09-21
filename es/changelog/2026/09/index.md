@@ -6,7 +6,7 @@ Actualizaciones del mes de septiembre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
-| [2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Duplicar agenda** — clona la configuración sin llevar citas; la tarjeta muestra locales cuando la agenda usa salas |
+| [2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Locales y duplicar agenda** — salas con horario propio y copia de la configuración sin citas |
 | [2026.9.11](/es/changelog/2026/09/2026.9.11) | 15/09 | **Transferencia entre cajas y aviso de vencimiento** — mueve saldo sin entrar en el DRE y avisa en el móvil lo que vence hoy |
 | [2026.9.10](/es/changelog/2026/09/2026.9.10) | 15/09 | **Por cobrar, por pagar y movimientos** — obligaciones abiertas, extracto y registro de pago o cobro |
 | [2026.9.9](/es/changelog/2026/09/2026.9.9) | 15/09 | **Rotación entre equipos** — el canal sortea el equipo; transferir o salir puede enviar a la cola |
@@ -24,8 +24,8 @@ Actualizaciones del mes de septiembre de 2026.
 ## Resumen del Mes
 
 ### Nuevas Funcionalidades (19)
+- **Locales y salas en la agenda** (v2026.9.12) — salas con horario, solapamiento, filtro, columnas y Agente IA
 - **Duplicar agenda** (v2026.9.12) — clona servicios, profesionales, locales, horarios, feriados y notificaciones, sin historial
-- **Cantidad de locales en la tarjeta** (v2026.9.12) — la tarjeta de la lista muestra cuántos locales tiene la agenda, si usa locales
 - **Transferencia entre cajas** (v2026.9.11) — mueve saldo de una caja a otra sin contar como ingreso o gasto
 - **Aviso en el móvil de las cuentas que vencen hoy** (v2026.9.11) — push matutino para los operadores de la caja
 - **Por cobrar, por pagar y movimientos** (v2026.9.10) — obligaciones abiertas separadas del extracto, con vencidos, por vencer y filtros rápidos

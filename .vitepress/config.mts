@@ -144,6 +144,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/schedule/` },
+          { text: lang === 'en' ? 'Locations and rooms' : lang === 'es' ? 'Locales y salas' : 'Locais e salas', link: `${prefix}/guide/schedule/locations` },
           { text: lang === 'en' ? 'Push reminders' : lang === 'es' ? 'Recordatorios push' : 'Lembretes push', link: `${prefix}/guide/schedule/push-reminders` },
           { text: lang === 'en' ? 'Silent flows by status' : lang === 'es' ? 'Flujos silenciosos por estado' : 'Fluxos silenciosos por status', link: `${prefix}/guide/schedule/silent-flows` },
           { text: lang === 'en' ? 'Public booking' : lang === 'es' ? 'Reserva pública' : 'Agendamento público', link: `${prefix}/guide/schedule/booking` }

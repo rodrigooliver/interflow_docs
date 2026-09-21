@@ -27,11 +27,11 @@ Los flujos de la organización siguen iguales: la nueva agenda solo reutiliza lo
 
 > Changelog: [v2026.9.12](/es/changelog/2026/09/2026.9.12)
 
-### Locales en la tarjeta de la lista
+### Locales y salas
 
-Cuando la agenda usa locales, la tarjeta en **Agenda** → **Agendas** muestra cuántos locales están registrados, junto a los recuentos de profesionales y servicios.
+Activa **Usar locales** para dar de alta salas, boxes o unidades. El local se convierte en el centro de control: horarios, solapamiento y la cita dependen de la sala. La tarjeta de la lista muestra cuántos locales tiene esa agenda.
 
-> Changelog: [v2026.9.12](/es/changelog/2026/09/2026.9.12)
+> Guía completa: [Locales y salas](/es/guide/schedule/locations)
 
 ## Interfaz de la Agenda
 
@@ -46,11 +46,11 @@ Cuando la agenda usa locales, la tarjeta en **Agenda** → **Agendas** muestra c
 
 ### División en columnas
 
-En las vistas **Lista** y **Día**, se puede separar la pantalla en columnas por **profesional** o por **agenda**.
+En las vistas **Lista** y **Día**, se puede separar la pantalla en columnas por **profesional**, por **agenda** o por **local**.
 
 1. Abre el menú de visualización en el encabezado
-2. Elige **Por profesional** o **Por agenda**
-3. Marca quién (o qué agendas) debe aparecer y confirma
+2. Elige **Por profesional**, **Por agenda** o **Por local**
+3. Marca quién (o qué agendas/locales) debe aparecer y confirma
 
 La elección se guarda en el navegador. En la lista, los horarios se alinean en la misma fila entre las columnas. Con más de una columna, las tarjetas quedan compactas; en el ordenador, pasa el cursor para ver detalles y acciones (confirmar, iniciar, cancelar).
 
@@ -76,6 +76,7 @@ Con estado **Agendado**, también se puede **Iniciar** la cita sin confirmar ant
    - **Cliente**: Busca o crea uno nuevo
    - **Servicio**: Selecciona el tipo de servicio
    - **Profesional**: Quién atenderá
+   - **Local**: Sala o unidad (obligatorio si la agenda usa locales)
    - **Fecha y Hora**: Cuándo será la cita
    - **Duración**: Tiempo estimado
    - **Observaciones**: Notas internas
@@ -265,6 +266,7 @@ Alertas automáticas en la **app** y **web** para el profesional y usuarios sele
 
 ## Próximos Pasos
 
+- [Locales y salas](/es/guide/schedule/locations) — salas y unidades con horario y ocupación propios
 - [Recordatorios push](/es/guide/schedule/push-reminders) — alertas internas antes de la cita
 - [Flujos silenciosos por estado](/es/guide/schedule/silent-flows) — automatizaciones internas en cada cambio de estado
 - [Agentes IA](/es/guide/ai-agents/) — Configura IA para agendamientos

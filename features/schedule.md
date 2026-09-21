@@ -13,7 +13,7 @@ Gerencie calendários, disponibilidade, lembretes automáticos e agendamento pú
 
 - Visualizar agenda em dia, semana ou mês, com drag-and-drop e status coloridos
 - Criar agendamentos manuais, recorrentes ou via fluxo/agente de IA
-- Configurar horários de funcionamento, folgas e indisponibilidades por profissional
+- Configurar horários de funcionamento, folgas e indisponibilidades por profissional ou por [local/sala](/guide/schedule/locations)
 - Enviar [lembretes automáticos ao cliente](/guide/schedule/) (48h, 24h, 2h) com templates e variáveis
 - Receber [lembretes push para a equipe](/guide/schedule/push-reminders) no app ou web
 - Disponibilizar [agendamento público](/guide/schedule/booking) via link (`/booking/<orgId>/<scheduleId>`)
@@ -30,6 +30,7 @@ Gerencie calendários, disponibilidade, lembretes automáticos e agendamento pú
 ## Guias
 
 - [Visão geral da agenda](/guide/schedule/)
+- [Locais e salas](/guide/schedule/locations)
 - [Lembretes push](/guide/schedule/push-reminders)
 - [Fluxos silenciosos](/guide/schedule/silent-flows)
 - [Agendamento público (booking)](/guide/schedule/booking)

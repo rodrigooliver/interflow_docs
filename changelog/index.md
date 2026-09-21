@@ -10,7 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
-| [v2026.9.12](/changelog/2026/09/2026.9.12) | 18/09 | **Duplicar agenda** — clona a configuração sem levar agendamentos | [Agenda](/guide/schedule/#duplicar-agenda) |
+| [v2026.9.12](/changelog/2026/09/2026.9.12) | 18/09 | **Locais e duplicar agenda** — salas com horário próprio e cópia sem agendamentos | [Locais](/guide/schedule/locations) |
 | [v2026.9.11](/changelog/2026/09/2026.9.11) | 15/09 | **Transferência entre caixas e aviso de vencimento** — move saldo sem entrar no DRE e avisa o que vence hoje | [Financeiro](/guide/financial/#transferencia-entre-caixas) |
 | [v2026.9.10](/changelog/2026/09/2026.9.10) | 15/09 | **A receber, a pagar e lançamentos** — obrigações em aberto, extrato e lançar pagamento | [Financeiro](/guide/financial/#a-receber-e-a-pagar) |
 | [v2026.9.9](/changelog/2026/09/2026.9.9) | 15/09 | **Rodízio entre equipes** — o canal sorteia o time; transferir ou sair pode mandar para a fila | [Equipes](/guide/teams/#rodizio-entre-equipes) |
