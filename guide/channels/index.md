@@ -1,10 +1,16 @@
+---
+title: Canais de Atendimento
+description: Como conectar e configurar canais de WhatsApp, Instagram, Facebook e e-mail.
+app: /app/settings/channels
+---
+
 # Canais de Atendimento
 
 Configure e gerencie seus canais de comunicação na Interflow.
 
 ## Visão Geral
 
-A Interflow suporta múltiplos canais de comunicação, permitindo que você centralize todo o atendimento em uma única plataforma.
+A Interflow suporta múltiplos canais de comunicação, permitindo que você centralize todo o atendimento em uma única plataforma. Para conectar um canal, abra Canais nas configurações da organização.
 
 ## Canais Disponíveis
 

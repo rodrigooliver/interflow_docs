@@ -1,3 +1,9 @@
+---
+title: Canales de Atención
+description: Cómo conectar y configurar canales de WhatsApp, Instagram, Facebook y correo.
+app: /app/settings/channels
+---
+
 # Canales de Atención
 
 Configura y gestiona tus canales de comunicación en Interflow.

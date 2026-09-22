@@ -1,3 +1,9 @@
+---
+title: Support Channels
+description: How to connect and configure WhatsApp, Instagram, Facebook, and email channels.
+app: /app/settings/channels
+---
+
 # Support Channels
 
 Configure and manage your communication channels in Interflow.

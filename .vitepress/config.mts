@@ -783,6 +783,13 @@ export default defineConfig({
     search: {
       provider: 'local',
       options: {
+        miniSearch: {
+          searchOptions: {
+            prefix: true,
+            fuzzy: 0.2,
+            boost: { title: 4, text: 1 },
+          },
+        },
         locales: {
           root: {
             translations: {
