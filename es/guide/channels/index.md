@@ -1,6 +1,6 @@
 ---
 title: Canales de Atención
-description: Cómo conectar y configurar canales de WhatsApp, Instagram, Facebook y correo.
+description: Cómo conectar canales. El botón Nuevo Canal abre la elección de WhatsApp, Instagram, Facebook o correo.
 app: /app/settings/channels
 ---
 
@@ -61,8 +61,8 @@ Interflow soporta múltiples canales de comunicación, permitiendo que centralic
 ### Paso a Paso General
 
 1. En el menú lateral izquierdo, haz clic en **Canales**
-2. Haz clic en **"Agregar canal"**
-3. Selecciona el tipo de canal deseado
+2. Haz clic en **Nuevo Canal**, arriba de la lista. Abre la pantalla para elegir el tipo (`/app/settings/channels/new`). Solo el propietario y los administradores ven ese botón. Si el plan ya llegó al límite de canales, el botón queda deshabilitado y la pantalla pide cambiar de plan.
+3. Elige WhatsApp (Business API o WAHA), Instagram, Facebook o correo
 4. Sigue las instrucciones específicas de cada tipo
 5. Prueba la conexión
 

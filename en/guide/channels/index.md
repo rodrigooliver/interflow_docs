@@ -1,6 +1,6 @@
 ---
 title: Support Channels
-description: How to connect and configure WhatsApp, Instagram, Facebook, and email channels.
+description: How to connect channels. The New Channel button opens the WhatsApp, Instagram, Facebook, or email picker.
 app: /app/settings/channels
 ---
 
@@ -60,9 +60,9 @@ Interflow supports multiple communication channels, allowing you to centralize a
 
 ### General Step by Step
 
-1. In the left sidebar, click on **Channels**
-2. Click on **"Add channel"**
-3. Select the desired channel type
+1. In the left sidebar, click **Channels**
+2. Click **New Channel** at the top of the list. It opens the type picker (`/app/settings/channels/new`). Only the owner and admins see this button. If the plan channel limit is reached, the button is disabled and the page asks to change the plan.
+3. Choose WhatsApp (Business API or WAHA), Instagram, Facebook, or email
 4. Follow the specific instructions for each type
 5. Test the connection
 
