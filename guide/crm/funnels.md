@@ -71,6 +71,7 @@ Fluxos de mudança de estágio **não devem** usar nós de input/interativos nem
 
 ## Relacionados
 
+- [Varredura de funil](/guide/crm/funnel-scan)
 - [Gerenciamento de clientes](/guide/crm/customers)
 - [Fluxos silenciosos da agenda](/guide/schedule/silent-flows)
 - [UTM / campanhas](/guide/utm/)

@@ -6,6 +6,7 @@ Actualizaciones del mes de septiembre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.9.13](/es/changelog/2026/09/2026.9.13) | 23/09 | **Barrido del embudo** — lee la conversación, sugiere la etapa y recorre la cola una organización a la vez |
 | [2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Locales y duplicar agenda** — salas con horario propio y copia de la configuración sin citas |
 | [2026.9.11](/es/changelog/2026/09/2026.9.11) | 15/09 | **Transferencia entre cajas y aviso de vencimiento** — mueve saldo sin entrar en el DRE y avisa en el móvil lo que vence hoy |
 | [2026.9.10](/es/changelog/2026/09/2026.9.10) | 15/09 | **Por cobrar, por pagar y movimientos** — obligaciones abiertas, extracto y registro de pago o cobro |
@@ -23,7 +24,9 @@ Actualizaciones del mes de septiembre de 2026.
 
 ## Resumen del Mes
 
-### Nuevas Funcionalidades (19)
+### Nuevas Funcionalidades (21)
+- **Barrido automático del embudo** (v2026.9.13) — lee la conversación a la hora marcada y solo mueve a las etapas de destino si la probabilidad supera el mínimo
+- **Cola del barrido** (v2026.9.13) — una organización a la vez, con pausa, continuar, repetir fallos y transferir la etapa sugerida
 - **Locales y salas en la agenda** (v2026.9.12) — salas con horario, solapamiento, filtro, columnas y Agente IA
 - **Duplicar agenda** (v2026.9.12) — clona servicios, profesionales, locales, horarios, feriados y notificaciones, sin historial
 - **Transferencia entre cajas** (v2026.9.11) — mueve saldo de una caja a otra sin contar como ingreso o gasto

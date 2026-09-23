@@ -46,5 +46,6 @@ Los flujos de cambio de etapa no deben usar nodos interactivos ni actualizar el 
 
 ## Relacionados
 
+- [Barrido del embudo](/es/guide/crm/funnel-scan)
 - [Clientes](/es/guide/crm/customers)
 - [UTM](/es/guide/utm/)

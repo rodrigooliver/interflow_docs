@@ -6,6 +6,7 @@ Atualizações do mês de setembro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.9.13](/changelog/2026/09/2026.9.13) | 23/09 | **Varredura de funil** — lê a conversa, sugere o estágio e percorre a fila uma organização por vez |
 | [2026.9.12](/changelog/2026/09/2026.9.12) | 18/09 | **Locais e duplicar agenda** — salas com horário próprio e cópia da configuração sem agendamentos |
 | [2026.9.11](/changelog/2026/09/2026.9.11) | 15/09 | **Transferência entre caixas e aviso de vencimento** — move saldo sem entrar no DRE e avisa no celular o que vence hoje |
 | [2026.9.10](/changelog/2026/09/2026.9.10) | 15/09 | **A receber, a pagar e lançamentos** — obrigações em aberto, extrato e lançar pagamento ou recebimento |
@@ -23,7 +24,9 @@ Atualizações do mês de setembro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (19)
+### Novas Funcionalidades (21)
+- **Varredura automática de funil** (v2026.9.13) — lê a conversa no horário marcado e só move para os estágios de destino se a probabilidade passar do mínimo
+- **Fila da varredura** (v2026.9.13) — uma organização por vez, com pausa, continuar, repetir falhas e transferir o estágio sugerido
 - **Locais e salas na agenda** (v2026.9.12) — salas com horário, sobreposição, filtro, colunas e Agente IA
 - **Duplicar agenda** (v2026.9.12) — clona serviços, profissionais, locais, horários, feriados e notificações, sem histórico
 - **Transferência entre caixas** (v2026.9.11) — move saldo de um caixa para outro sem contar como receita ou despesa

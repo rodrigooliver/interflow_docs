@@ -6,6 +6,7 @@ Updates for September 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.9.13](/en/changelog/2026/09/2026.9.13) | 09/23 | **Funnel scan** — reads the conversation, suggests the stage, and walks the queue one organization at a time |
 | [2026.9.12](/en/changelog/2026/09/2026.9.12) | 09/18 | **Locations and duplicate schedule** — rooms with their own hours, and a setup copy without appointments |
 | [2026.9.11](/en/changelog/2026/09/2026.9.11) | 09/15 | **Cashier transfer and due-today notice** — move balance without hitting P&L, and get a morning push for today’s dues |
 | [2026.9.10](/en/changelog/2026/09/2026.9.10) | 09/15 | **Receivables, payables, and posted entries** — open obligations, statement, and posting a payment or receipt |
@@ -23,7 +24,9 @@ Updates for September 2026.
 
 ## Month summary
 
-### New Features (19)
+### New Features (21)
+- **Automatic funnel scan** (v2026.9.13) — reads the conversation at the set hour and moves only to destination stages when the probability clears the minimum
+- **Scan queue** (v2026.9.13) — one organization at a time, with pause, continue, retry failures, and transfer of the suggested stage
 - **Locations and rooms on the schedule** (v2026.9.12) — rooms with hours, overlap, filter, columns, and AI Agent
 - **Duplicate a schedule** (v2026.9.12) — clones services, professionals, locations, hours, holidays, and notifications, with no history
 - **Transfer between cashiers** (v2026.9.11) — move balance from one register to another without counting as income or expense

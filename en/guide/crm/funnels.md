@@ -53,5 +53,6 @@ Stage-change flows must not use interactive input nodes or update the funnel in 
 
 ## Related
 
+- [Funnel scan](/en/guide/crm/funnel-scan)
 - [Customers](/en/guide/crm/customers)
 - [UTM](/en/guide/utm/)

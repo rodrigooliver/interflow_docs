@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.9.13](/es/changelog/2026/09/2026.9.13) | 23/09 | **Barrido del embudo** — lee la conversación, sugiere la etapa y recorre una organización a la vez | [Barrido](/es/guide/crm/funnel-scan) |
 | [v2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Locales y duplicar agenda** — salas con horario propio y copia sin citas | [Locales](/es/guide/schedule/locations) |
 | [v2026.9.11](/es/changelog/2026/09/2026.9.11) | 15/09 | **Transferencia entre cajas y aviso de vencimiento** — mueve saldo sin entrar en el DRE y avisa lo que vence hoy | [Financiero](/es/guide/financial/#transferencia-entre-cajas) |
 | [v2026.9.10](/es/changelog/2026/09/2026.9.10) | 15/09 | **Por cobrar, por pagar y movimientos** — obligaciones abiertas, extracto y registro de pago | [Financiero](/es/guide/financial/#por-cobrar-y-por-pagar) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.8.21](/es/changelog/2026/08/2026.8.21) | 27/08 | **Mensajes y datos del cliente** — límite de historial y máscara de la ficha en el Agente IA | [Agentes IA](/es/guide/ai-agents/#mensajes-y-datos-del-cliente) |
 | [v2026.8.20](/es/changelog/2026/08/2026.8.20) | 26/08 | **Crear chat desde el Agente IA** — recolecta datos y abre (o continúa) la atención en el canal | [Agentes IA](/es/guide/ai-agents/tools/create-chat) |
 | [v2026.8.19](/es/changelog/2026/08/2026.8.19) | 26/08 | **Campo de contacto al crear chat** — abrir atención solo con el contacto; el tipo viene del canal | [Changelog](/es/changelog/2026/08/2026.8.19) |
-| [v2026.8.18](/es/changelog/2026/08/2026.8.18) | 26/08 | **Recibo en efectivo** — baja de la cuota con comprobante para imprimir o descargar | [Changelog](/es/changelog/2026/08/2026.8.18) |
 
 [Ver todas las releases de septiembre →](/es/changelog/2026/09/)
 
