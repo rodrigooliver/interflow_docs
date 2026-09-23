@@ -6,6 +6,7 @@ Atualizações do mês de setembro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.9.14](/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — assistente no app para consultar a tela e agir com a sua permissão |
 | [2026.9.13](/changelog/2026/09/2026.9.13) | 23/09 | **Varredura de funil** — lê a conversa, sugere o estágio e percorre a fila uma organização por vez |
 | [2026.9.12](/changelog/2026/09/2026.9.12) | 18/09 | **Locais e duplicar agenda** — salas com horário próprio e cópia da configuração sem agendamentos |
 | [2026.9.11](/changelog/2026/09/2026.9.11) | 15/09 | **Transferência entre caixas e aviso de vencimento** — move saldo sem entrar no DRE e avisa no celular o que vence hoje |
@@ -24,7 +25,8 @@ Atualizações do mês de setembro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (21)
+### Novas Funcionalidades (22)
+- **Copiloto** (v2026.9.14) — assistente no app, com modos pergunta, agente e agente direto
 - **Varredura automática de funil** (v2026.9.13) — lê a conversa no horário marcado e só move para os estágios de destino se a probabilidade passar do mínimo
 - **Fila da varredura** (v2026.9.13) — uma organização por vez, com pausa, continuar, repetir falhas e transferir o estágio sugerido
 - **Locais e salas na agenda** (v2026.9.12) — salas com horário, sobreposição, filtro, colunas e Agente IA

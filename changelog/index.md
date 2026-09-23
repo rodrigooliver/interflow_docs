@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.9.14](/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — assistente no app para consultar a tela e agir com a sua permissão | [Copiloto](/guide/copilot) |
 | [v2026.9.13](/changelog/2026/09/2026.9.13) | 23/09 | **Varredura de funil** — lê a conversa, sugere o estágio e percorre uma organização por vez | [Varredura](/guide/crm/funnel-scan) |
 | [v2026.9.12](/changelog/2026/09/2026.9.12) | 18/09 | **Locais e duplicar agenda** — salas com horário próprio e cópia sem agendamentos | [Locais](/guide/schedule/locations) |
 | [v2026.9.11](/changelog/2026/09/2026.9.11) | 15/09 | **Transferência entre caixas e aviso de vencimento** — move saldo sem entrar no DRE e avisa o que vence hoje | [Financeiro](/guide/financial/#transferencia-entre-caixas) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento | [Configurações](/guide/settings/#permitir-mensagem-sem-atender) |
 | [v2026.8.21](/changelog/2026/08/2026.8.21) | 27/08 | **Mensagens e dados do cliente** — limite de histórico e máscara de cadastro no Agente IA | [Agentes IA](/guide/ai-agents/#mensagens-e-dados-do-cliente) |
 | [v2026.8.20](/changelog/2026/08/2026.8.20) | 26/08 | **Criar chat pelo Agente IA** — recolhe dados e abre (ou continua) o atendimento no canal | [Agentes IA](/guide/ai-agents/tools/create-chat) |
-| [v2026.8.19](/changelog/2026/08/2026.8.19) | 26/08 | **Campo de contato na criação de chat** — abrir atendimento só com o contato; o tipo vem do canal | [Changelog](/changelog/2026/08/2026.8.19) |
 [Ver todas as releases de setembro →](/changelog/2026/09/)
 
 ## Onde navegar

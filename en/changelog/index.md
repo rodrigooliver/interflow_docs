@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.9.14](/en/changelog/2026/09/2026.9.14) | Sep 23 | **Copilot** — in-app assistant to read the screen and act with your permission | [Copilot](/en/guide/copilot) |
 | [v2026.9.13](/en/changelog/2026/09/2026.9.13) | Sep 23 | **Funnel scan** — reads the conversation, suggests the stage, and walks one organization at a time | [Scan](/en/guide/crm/funnel-scan) |
 | [v2026.9.12](/en/changelog/2026/09/2026.9.12) | Sep 18 | **Locations and duplicate schedule** — rooms with their own hours, and a setup copy | [Locations](/en/guide/schedule/locations) |
 | [v2026.9.11](/en/changelog/2026/09/2026.9.11) | Sep 15 | **Cashier transfer and due-today notice** — move balance without hitting P&L, and get a morning push | [Financial](/en/guide/financial/#transfer-between-cashiers) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.8.22](/en/changelog/2026/08/2026.8.22) | Aug 27 | **One-off message on pending** — reply without taking over the conversation | [Settings](/en/guide/settings/#allow-message-without-attending) |
 | [v2026.8.21](/en/changelog/2026/08/2026.8.21) | Aug 27 | **Messages and customer data** — history limit and profile masking on the AI Agent | [AI Agents](/en/guide/ai-agents/#messages-and-customer-data) |
 | [v2026.8.20](/en/changelog/2026/08/2026.8.20) | Aug 26 | **Create chat from the AI Agent** — collect data and open (or continue) the conversation on the channel | [AI Agents](/en/guide/ai-agents/tools/create-chat) |
-| [v2026.8.19](/en/changelog/2026/08/2026.8.19) | Aug 26 | **Contact field when creating a chat** — open a conversation with just the contact; type comes from the channel | [Changelog](/en/changelog/2026/08/2026.8.19) |
 
 [See all September releases →](/en/changelog/2026/09/)
 

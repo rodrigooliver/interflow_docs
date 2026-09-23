@@ -110,6 +110,13 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
+        text: lang === 'en' ? 'Copilot' : lang === 'es' ? 'Copiloto' : 'Copiloto',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/copilot` }
+        ]
+      },
+      {
         text: lang === 'en' ? 'AI Agents' : lang === 'es' ? 'Agentes IA' : 'Agentes IA',
         collapsed: false,
         items: [
@@ -364,6 +371,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/09/` },
+              { text: 'v2026.9.14', link: `${prefix}/changelog/2026/09/2026.9.14` },
               { text: 'v2026.9.13', link: `${prefix}/changelog/2026/09/2026.9.13` },
               { text: 'v2026.9.12', link: `${prefix}/changelog/2026/09/2026.9.12` },
               { text: 'v2026.9.11', link: `${prefix}/changelog/2026/09/2026.9.11` },
