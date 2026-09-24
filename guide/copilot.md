@@ -54,6 +54,7 @@ Só nos modos **Agente** e **Agente direto**, e só se a sua conta tiver essa pe
 - Incluir ou remover tag. Ele lista as tags antes de gravar
 - Mover o cliente de estágio no funil, depois de comparar o nome que você disse com os funis e estágios
 - Enviar ou agendar uma mensagem no atendimento anexado
+- Criar uma [solicitação](/guide/deployments): confere se o produto já faz aquilo, orça as quatro urgências e grava o pedido com a urgência que você escolher
 - Clicar e preencher campos da tela atual. Senha não é preenchida
 
 Nome, e-mail ou WhatsApp da organização só mudam para superadmin.

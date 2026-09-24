@@ -117,6 +117,13 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
+        text: lang === 'en' ? 'Requests' : lang === 'es' ? 'Solicitudes' : 'Solicitações',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/deployments` }
+        ]
+      },
+      {
         text: lang === 'en' ? 'AI Agents' : lang === 'es' ? 'Agentes IA' : 'Agentes IA',
         collapsed: false,
         items: [

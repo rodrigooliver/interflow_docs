@@ -54,6 +54,7 @@ Solo en **Agente** y **Agente directo**, y solo si tu cuenta tiene ese permiso:
 - Añadir o quitar una etiqueta. Lista las etiquetas antes de guardar
 - Mover al cliente de etapa en el embudo, después de comparar lo que dijiste con embudos y etapas
 - Enviar o programar un mensaje en la atención adjunta
+- Crear una [solicitud](/es/guide/deployments): comprueba si el producto ya lo hace, presupuesta las cuatro urgencias y guarda el pedido con la urgencia que elijas
 - Hacer clic y rellenar campos de la pantalla actual. La contraseña no se rellena
 
 El nombre, el correo o el WhatsApp de la organización solo cambian para un superadmin.

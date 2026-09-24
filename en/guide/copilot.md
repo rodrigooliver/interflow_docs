@@ -54,6 +54,7 @@ Only in **Agent** and **Direct agent**, and only if your account has that permis
 - Add or remove a tag. It lists tags before saving
 - Move the customer to a funnel stage, after matching what you said to funnel and stage names
 - Send or schedule a message on the attached attendance
+- Create a [request](/en/guide/deployments): checks whether the product already does it, quotes the four urgency options, and saves the request with the urgency you pick
 - Click and fill fields on the current screen. Passwords are not filled
 
 Organization name, email, or WhatsApp change only for a superadmin.
