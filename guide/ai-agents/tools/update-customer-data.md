@@ -13,7 +13,7 @@ Atualiza campos personalizados do cadastro do cliente.
 
 **Exemplo de uso:**
 ```text
-👤 Cliente: Meu email é joao@email.com
-🤖 IA: Perfeito! Já salvei seu email. Posso enviar confirmações por lá agora.
+Cliente: Meu email é joao@email.com
+IA: Perfeito! Já salvei seu email. Posso enviar confirmações por lá agora.
 ```
 

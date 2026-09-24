@@ -1,8 +1,8 @@
-# 🔀 Conditionals in Templates
+# Conditionals in Templates
 
 Use conditional logic to display content intelligently and dynamically in your documents.
 
-## 📖 Introduction
+## Introduction
 
 Conditionals allow you to:
 - Display text only when a variable has a value
@@ -10,7 +10,7 @@ Conditionals allow you to:
 - Automatically hide empty sections
 - Compare numeric values
 
-## 🎯 Conditional Helpers
+## Conditional Helpers
 
 ### `if` - Basic Conditional
 
@@ -75,8 +75,8 @@ Useful for displaying suffixes or prefixes only when there's a value:
 ```
 
 </div>
-- ✅ If `custom.discount = 10` → "Discount: 10%"
-- ✅ If `custom.discount` is empty → "Discount: "
+- If `custom.discount = 10` → "Discount: 10%"
+- If `custom.discount` is empty → "Discount: "
 
 ### `ifEquals` - Equality Comparison
 
@@ -97,9 +97,9 @@ Compares if two values are equal:
 
 ```handlebars
 {{#ifEquals custom.status "active"}}
-  <span style="color: green;">✓ Active</span>
+  <span style="color: green;"> Active</span>
 {{else}}
-  <span style="color: red;">✗ Inactive</span>
+  <span style="color: red;"> Inactive</span>
 {{/ifEquals}}
 ```
 
@@ -127,7 +127,7 @@ Compares if a value is greater than another:
 
 ```handlebars
 {{#ifGreaterThan custom.value 1000}}
-  <p style="color: red;">⚠️ Value above standard limit</p>
+  <p style="color: red;"> Value above standard limit</p>
 {{/ifGreaterThan}}
 ```
 
@@ -160,7 +160,7 @@ Compares if a value is less than another:
 
 </div>
 
-## 💡 Practical Examples
+## Practical Examples
 
 ### 1. Display Discount Only if Present
 
@@ -202,18 +202,18 @@ Compares if a value is less than another:
 ```html
 {{#ifGreaterThan custom.contract_value 50000}}
   <div style="background: gold; padding: 10px;">
-    <h3>🌟 VIP CUSTOMER</h3>
+    <h3> VIP CUSTOMER</h3>
     <p>Priority service and exclusive benefits</p>
   </div>
 {{else}}
   {{#ifGreaterThan custom.contract_value 10000}}
     <div style="background: silver; padding: 10px;">
-      <h3>⭐ PREMIUM CUSTOMER</h3>
+      <h3> PREMIUM CUSTOMER</h3>
       <p>Benefits and special discounts</p>
     </div>
   {{else}}
     <div style="background: lightblue; padding: 10px;">
-      <h3>✓ STANDARD CUSTOMER</h3>
+      <h3> STANDARD CUSTOMER</h3>
       <p>Quality service guaranteed</p>
     </div>
   {{/ifGreaterThan}}
@@ -230,14 +230,14 @@ Compares if a value is less than another:
 <h2>Payment Status</h2>
 
 {{#ifEquals custom.payment_status "paid"}}
-  <p style="color: green; font-weight: bold;">✓ PAID</p>
+  <p style="color: green; font-weight: bold;"> PAID</p>
   <p>Payment Date: {{formatDateShortEN custom.payment_date}}</p>
 {{else}}
   {{#ifEquals custom.payment_status "pending"}}
-    <p style="color: orange; font-weight: bold;">⏳ PENDING</p>
+    <p style="color: orange; font-weight: bold;"> PENDING</p>
     <p>Due Date: {{formatDateShortEN custom.due_date}}</p>
   {{else}}
-    <p style="color: red; font-weight: bold;">✗ OVERDUE</p>
+    <p style="color: red; font-weight: bold;"> OVERDUE</p>
     <p>Was due on: {{formatDateShortEN custom.due_date}}</p>
   {{/ifEquals}}
 {{/ifEquals}}
@@ -278,17 +278,17 @@ Compares if a value is less than another:
 <h2>SPECIAL CLAUSES</h2>
 
 {{#ifGreaterThan custom.term_months 12}}
-<p><strong>Clause 1:</strong> Due to the extended term of {{custom.term_months}} months, 
+<p><strong>Clause 1:</strong> Due to the extended term of {{custom.term_months}} months,
 special automatic renewal conditions apply.</p>
 {{/ifGreaterThan}}
 
 {{#ifNotEmpty custom.warranty}}
-<p><strong>Clause 2:</strong> The CONTRACTOR offers a {{custom.warranty}} warranty 
+<p><strong>Clause 2:</strong> The CONTRACTOR offers a {{custom.warranty}} warranty
 against manufacturing and workmanship defects.</p>
 {{/ifNotEmpty}}
 
 {{#ifEquals custom.payment_type "installment"}}
-<p><strong>Clause 3:</strong> Payment will be made in {{custom.num_installments}} 
+<p><strong>Clause 3:</strong> Payment will be made in {{custom.num_installments}}
 monthly installments of $ {{custom.installment_value}}.</p>
 {{/ifEquals}}
 ```
@@ -302,7 +302,7 @@ monthly installments of $ {{custom.installment_value}}.</p>
 ```html
 {{#if custom.notes}}
 <div style="border: 1px solid #ccc; padding: 15px; margin-top: 20px;">
-  <h3>📝 Notes</h3>
+  <h3> Notes</h3>
   <p>{{custom.notes}}</p>
 </div>
 {{/if}}
@@ -310,7 +310,7 @@ monthly installments of $ {{custom.installment_value}}.</p>
 
 </div>
 
-## 🎨 Conditionals with Style
+## Conditionals with Style
 
 ### Apply CSS Classes Conditionally
 
@@ -330,17 +330,17 @@ monthly installments of $ {{custom.installment_value}}.</p>
 
 ```html
 <p>
-  Status: 
-  {{#ifEquals custom.status "completed"}}✅{{/ifEquals}}
-  {{#ifEquals custom.status "in_progress"}}🔄{{/ifEquals}}
-  {{#ifEquals custom.status "pending"}}⏳{{/ifEquals}}
+  Status:
+  {{#ifEquals custom.status "completed"}}{{/ifEquals}}
+  {{#ifEquals custom.status "in_progress"}}{{/ifEquals}}
+  {{#ifEquals custom.status "pending"}}{{/ifEquals}}
   {{uppercase custom.status}}
 </p>
 ```
 
 </div>
 
-## 🚨 Advanced Use Cases
+## Advanced Use Cases
 
 ### Age Validation for Contract
 
@@ -349,7 +349,7 @@ monthly installments of $ {{custom.installment_value}}.</p>
 ```html
 {{#ifLessThan customer.age 18}}
 <div style="background: #fff3cd; border: 2px solid #856404; padding: 15px; margin: 20px 0;">
-  <h3>⚠️ WARNING</h3>
+  <h3> WARNING</h3>
   <p>Minor customer. Legal guardian signature required.</p>
   <p><strong>Guardian:</strong> {{custom.guardian_name}}</p>
   <p><strong>Guardian SSN:</strong> {{custom.guardian_ssn}}</p>
@@ -367,7 +367,7 @@ monthly installments of $ {{custom.installment_value}}.</p>
 <h2>Investment Category</h2>
 
 {{#ifGreaterThan custom.investment 100000}}
-  <p style="font-size: 20px; color: gold;">💎 DIAMOND INVESTOR</p>
+  <p style="font-size: 20px; color: gold;"> DIAMOND INVESTOR</p>
   <ul>
     <li>24/7 personalized advisory</li>
     <li>Preferential returns</li>
@@ -375,13 +375,13 @@ monthly installments of $ {{custom.installment_value}}.</p>
   </ul>
 {{else}}
   {{#ifGreaterThan custom.investment 50000}}
-    <p style="font-size: 18px; color: silver;">🌟 PLATINUM INVESTOR</p>
+    <p style="font-size: 18px; color: silver;"> PLATINUM INVESTOR</p>
     <ul>
       <li>Dedicated advisory</li>
       <li>Monthly reports</li>
     </ul>
   {{else}}
-    <p style="font-size: 16px; color: bronze;">⭐ GOLD INVESTOR</p>
+    <p style="font-size: 16px; color: bronze;"> GOLD INVESTOR</p>
     <ul>
       <li>Priority support</li>
       <li>Quarterly reports</li>
@@ -392,20 +392,20 @@ monthly installments of $ {{custom.installment_value}}.</p>
 
 </div>
 
-## ✅ Best Practices
+## Best Practices
 
-### ✅ Do
+### Do
 - Use conditionals to **hide empty sections**
 - Combine with formatting helpers: <code v-pre>{{#if custom.name}}{{uppercase custom.name}}{{/if}}</code>
 - Provide **alternatives with `else`** when appropriate
 - Use `ifNotEmpty` for **suffixes/prefixes** (%, $, etc)
 
-### ❌ Avoid
+### Avoid
 - Very complex and nested conditionals (makes maintenance difficult)
 - Repeating code in each condition (use CSS classes when possible)
 - Forgetting to close tags <code v-pre>{{/if}}</code>, <code v-pre>{{/ifEquals}}</code>, etc
 
-## 🎯 Helper Summary
+## Helper Summary
 
 | Helper | Use | Example |
 |--------|-----|---------|
@@ -417,10 +417,10 @@ monthly installments of $ {{custom.installment_value}}.</p>
 | `ifGreaterThan` | Greater than | <code v-pre>{{#ifGreaterThan var 100}}...{{/ifGreaterThan}}</code> |
 | `ifLessThan` | Less than | <code v-pre>{{#ifLessThan var 100}}...{{/ifLessThan}}</code> |
 
-::: tip 💡 Remember
+::: tip Remember
 All conditional helpers can use <code v-pre>{{else}}</code> to specify alternative content when the condition is false.
 :::
 
-## 🎬 Conclusion
+## Conclusion
 
 With conditionals, your documents become truly dynamic and intelligent, automatically adapting to available data and specific business rules for each situation!

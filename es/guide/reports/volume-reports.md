@@ -12,7 +12,7 @@ El acceso al módulo de Reportes es exclusivo para **Dueños**, **Administradore
 
 ## Cómo Acceder
 
-1. En el menú lateral, haz clic en **Reportes** (📊)
+1. En el menú lateral, haz clic en **Reportes** ()
 2. En la página de reportes, elige:
    - **Volumen por Agente** – mensajes individuales de cada miembro del equipo
    - **Volumen por Equipo** – mensajes agrupados por equipo
@@ -61,7 +61,7 @@ Pasa el mouse sobre el gráfico para ver los valores exactos en cada punto.
 
 ## Impresión
 
-Haz clic en el botón **Imprimir** (🖨️) al lado del selector de período para generar una versión limpia para imprimir.
+Haz clic en el botón **Imprimir** () al lado del selector de período para generar una versión limpia para imprimir.
 
 La versión impresa incluye:
 - Título y subtítulo del reporte
@@ -71,9 +71,7 @@ La versión impresa incluye:
 - Tarjetas de resumen con totales
 - Gráfico
 
-::: tip 💡 Consejo
 La barra lateral, los botones y el selector de período se ocultan automáticamente al imprimir. No es necesario configurar nada.
-:::
 
 ## Ejemplos de Uso
 

@@ -109,7 +109,7 @@ Enable the toggle and add customer fields:
 1. Click **Add** to add a new mapping row
 2. Select the **customer field** (Name, Email, Document, WhatsApp, etc.)
 3. Enter the **body path** (e.g. `body.customer.email`)
-4. Click the **search icon** 🔍 on fields used to **find** the customer
+4. Click the **search icon** on fields used to **find** the customer
 
 **Search logic (OR):** the system looks for any customer matching *at least one* of the fields with the search icon active. Enable the search icon on at least one field.
 
@@ -164,9 +164,9 @@ Each case generates an **orange output handle** on the node. A **gray (else) han
 **Routing example:**
 
 ```
-body.event = "purchase.approved"  →  handle "Purchase approved"
-body.event = "purchase.refunded"  →  handle "Refund"
-body.event = (anything else)      →  handle "else"
+body.event = "purchase.approved" → handle "Purchase approved"
+body.event = "purchase.refunded" → handle "Refund"
+body.event = (anything else) → handle "else"
 ```
 
 ---
@@ -224,22 +224,22 @@ Parameter: signature
 Event path: body.event
 
 Cases:
-  "order_approved"  →  Start onboarding
-  "order_refunded"  →  Cancel access
-  else              →  Log unknown event
+  "order_approved" → Start onboarding
+  "order_refunded" → Cancel access
+  else → Log unknown event
 ```
 
 ### New lead from a form
 
 ```
 Mappings:
-  body.name   → name
-  body.email  → email
-  body.phone  → phone
+  body.name → name
+  body.email → email
+  body.phone → phone
 
 Customer Binding:
-  Email ← body.email  [🔍 search]
-  Name  ← body.name
+  Email ← body.email [ search]
+  Name ← body.name
   WhatsApp ← body.phone
 
 Chat Binding:

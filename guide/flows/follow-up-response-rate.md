@@ -6,7 +6,7 @@ Meça volume de passagem e taxa de resposta em pontos específicos do seu fluxo.
 
 O **Ponto de Controle** (checkpoint) é um nó não bloqueante que você coloca explicitamente no fluxo para registrar eventos de analytics. Diferente do modelo anterior (que tentava inferir follow-ups automaticamente via timeout da sessão), o Ponto de Controle dá controle total sobre **onde** e **o que** medir.
 
-O nó fica na categoria **📊 Estatísticas** do painel lateral do Construtor de Fluxos. Quando a conversa passa por ele, o fluxo **continua imediatamente** para o próximo nó — o registro acontece em segundo plano, sem travar o atendimento.
+O nó fica na categoria ** Estatísticas** do painel lateral do Construtor de Fluxos. Quando a conversa passa por ele, o fluxo **continua imediatamente** para o próximo nó — o registro acontece em segundo plano, sem travar o atendimento.
 
 ## Para que serve?
 
@@ -18,7 +18,7 @@ O nó fica na categoria **📊 Estatísticas** do painel lateral do Construtor d
 
 ## Configurando o nó
 
-1. No **Construtor de Fluxos**, abra a categoria **📊 Estatísticas**
+1. No **Construtor de Fluxos**, abra a categoria ** Estatísticas**
 2. Arraste o nó **Ponto de Controle** para o canvas
 3. Conecte a entrada (esquerda) e a saída (direita) no fluxo
 4. Clique no corpo do nó para abrir as configurações:
@@ -30,7 +30,7 @@ O nó fica na categoria **📊 Estatísticas** do painel lateral do Construtor d
 | **Janela de resposta** | Tempo em minutos (valor fixo) ou variável numérica do fluxo | 2880 min (48h) |
 | **Salvar variáveis do fluxo** | Grava snapshot das variáveis no momento da passagem | Desativado |
 
-::: tip 💡 Onde colocar?
+::: tip Onde colocar?
 Coloque o Ponto de Controle **depois** do nó que envia a mensagem de follow-up (ou reengajamento) e **antes** do próximo ramo do fluxo. Assim você mede exatamente o impacto daquela mensagem.
 :::
 

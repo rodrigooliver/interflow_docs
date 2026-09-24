@@ -8,7 +8,7 @@ The Interflow Reports module offers detailed analysis of service, customers, tea
 
 ## Accessing Reports
 
-1. In the main menu, click **Reports** (📊)
+1. In the main menu, click **Reports** ()
 2. Select the desired report type
 3. Configure period and criteria filters
 4. View or export data
@@ -37,10 +37,10 @@ Analysis of customer service performance.
 
 ### Visualizations
 
-- 📊 **Line charts**: Evolution over time
-- 📈 **Bar charts**: Comparison between periods/teams
-- 🥧 **Pie charts**: Distribution by category
-- 📋 **Tables**: Detailed exportable data
+- **Line charts**: Evolution over time
+- **Bar charts**: Comparison between periods/teams
+- **Pie charts**: Distribution by category
+- **Tables**: Detailed exportable data
 
 ## Advanced Customer Reports
 
@@ -48,7 +48,7 @@ Report generator with custom groupings and subdivisions.
 
 ### How to Create
 
-1. In **Customers** → click **"Advanced Reports"** 📊
+1. In **Customers** → click **"Advanced Reports"**
 2. Click **"New Configuration"**
 3. Follow the 5-step wizard:
 
@@ -115,9 +115,9 @@ Analyze individual and collective team performance.
 
 View top performers:
 
-- 🥇 **Top agents** by volume
-- ⚡ **Fastest** response
-- ⭐ **Best rated** by customers
+- **Top agents** by volume
+- **Fastest** response
+- **Best rated** by customers
 
 ## Appointment Reports
 
@@ -158,9 +158,7 @@ Metrics from the schedule module.
 3. Select format
 4. Wait for download
 
-::: tip 💡 Tip
 For large reports, system generates file in background and sends by email when ready.
-:::
 
 ## Report Scheduling
 
@@ -183,12 +181,12 @@ Receive reports automatically by email.
 
 | Profile | Access |
 |---------|--------|
-| Owner | ✅ All reports |
-| Admin | ✅ All reports |
-| Manager | ✅ Their team's reports |
-| Agent | ⚠️ Personal metrics only |
+| Owner | All reports |
+| Admin | All reports |
+| Manager | Their team's reports |
+| Agent | Personal metrics only |
 
-::: warning ⚠️ Attention
+::: warning Attention
 Agents with visibility restrictions see only filtered data from their teams.
 :::
 
@@ -197,7 +195,4 @@ Agents with visibility restrictions see only filtered data from their teams.
 - [Schedule](/en/guide/schedule/) - Appointment metrics
 - [CRM & Customers](/en/guide/crm/customers) - Customer reports
 - [Settings](/en/guide/settings/) - Report permissions
-
-
-
 

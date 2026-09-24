@@ -19,7 +19,7 @@ Define el comportamiento de la IA cuando no encuentra la respuesta en el context
 2. Vea todas las preguntas no respondidas
 3. Use para mejorar el contexto del agente
 
-::: info ⚠️ Única
+::: info Única
 Esta acción solo puede ser agregada una vez por agente.
 :::
 

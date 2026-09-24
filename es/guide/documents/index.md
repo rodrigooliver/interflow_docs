@@ -1,21 +1,21 @@
-# 📄 Plantillas de Documentos
+# Plantillas de Documentos
 
 Interflow cuenta con un potente sistema de generación de documentos que permite crear plantillas personalizadas en PDF y DOCX con datos dinámicos de clientes y variables personalizadas.
 
-## 🎯 Características Principales
+## Características Principales
 
-### ✨ Editor Visual
+### Editor Visual
 - **Editor HTML WYSIWYG** con Jodit Editor
 - Formateo enriquecido de texto (negrita, cursiva, colores, tamaños)
 - Soporte para tablas, listas e imágenes
 - Estilos CSS en línea para garantizar fidelidad en la exportación
 
-### 📊 Variables Dinámicas
+### Variables Dinámicas
 - **Datos del Cliente**: Nombre, email, teléfono, dirección, documentos
 - **Datos del Sistema**: Fecha actual, organización, usuario
 - **Variables Personalizadas**: Cree campos específicos para sus plantillas
 
-### 🔧 Helpers Handlebars
+### Helpers Handlebars
 Sistema completo de transformación de datos:
 
 - **Texto**: `uppercase`, `lowercase`, `capitalize`, `titleCase`
@@ -26,7 +26,7 @@ Sistema completo de transformación de datos:
 - **Hora**: `formatTime`, `formatTimeWithSeconds` (con soporte GMT)
 - **Condicionales**: Mostrar contenido basado en condiciones
 
-### 🎨 Configuraciones Avanzadas
+### Configuraciones Avanzadas
 
 #### PDF
 - Márgenes personalizados (superior, inferior, izquierda, derecha)
@@ -40,10 +40,10 @@ Sistema completo de transformación de datos:
 - Posicionamiento centrado o página completa
 - Generación nativa con biblioteca `docx`
 
-## 📚 Próximos Pasos
+## Próximos Pasos
 
 <div class="tip custom-block">
-  <p class="custom-block-title">💡 Comience Ahora</p>
+  <p class="custom-block-title"> Comience Ahora</p>
   <p>Explore las secciones a continuación para aprender a crear plantillas potentes:</p>
   <ul>
     <li><a href="./templates">Crear Plantillas</a> - Aprenda a crear y configurar plantillas</li>
@@ -52,7 +52,7 @@ Sistema completo de transformación de datos:
   </ul>
 </div>
 
-## 🚀 Casos de Uso
+## Casos de Uso
 
 ### Contratos y Propuestas
 Genere contratos personalizados con datos del cliente, montos en letras y cláusulas condicionales.

@@ -24,3 +24,4 @@ Atualizações do mês de janeiro de 2026.
 ::: info Total
 **2 releases** com **4 funcionalidades** neste mês!
 :::
+

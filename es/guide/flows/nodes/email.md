@@ -24,10 +24,10 @@ O nó **Enviar Email** permite enviar emails programáticos através de configur
 |-------|-----------|-------------------|
 | **De (Email)** | Email do remetente | Não |
 | **De (Nome)** | Nome do remetente | Não |
-| **Para** | Email do destinatário | ✅ Sim |
-| **Assunto** | Assunto do email | ✅ Sim |
+| **Para** | Email do destinatário | Sim |
+| **Assunto** | Assunto do email | Sim |
 | **Tipo de Corpo** | Texto simples ou HTML | - |
-| **Corpo** | Conteúdo do email | ✅ Sim |
+| **Corpo** | Conteúdo do email | Sim |
 
 ## Uso de Variáveis
 
@@ -67,11 +67,11 @@ Use o botão **"Testar"** no modal de configuração para enviar um email de tes
 ### Confirmação de Pedido
 
 ```html
-<h2>Pedido Confirmado! ✅</h2>
+<h2>Pedido Confirmado! </h2>
 
 <p>Olá, {{customer_name}}!</p>
 
-<p>Seu pedido <strong>#{{order_number}}</strong> foi confirmado 
+<p>Seu pedido <strong>#{{order_number}}</strong> foi confirmado
 e está sendo processado.</p>
 
 <table>

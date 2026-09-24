@@ -56,8 +56,8 @@ El **mensaje de contexto** describe la nueva atención. No depende del canal ni 
 **Indicación de un número**
 
 ```text
-👤 Cliente: Pueden llamar a Juan al 11 98888-7777, él decide
-🤖 IA: Listo — abrí la atención de Juan en WhatsApp
+Cliente: Pueden llamar a Juan al 11 98888-7777, él decide
+IA: Listo — abrí la atención de Juan en WhatsApp
        con el contexto de la indicación.
 
 [Sistema: chat en WhatsApp, contexto: "Indicado por el cliente actual
@@ -67,8 +67,8 @@ El **mensaje de contexto** describe la nueva atención. No depende del canal ni 
 **Correo con datos del cliente**
 
 ```text
-📧 Asunto: Presupuesto — María Silva, 11 99999-9999
-🤖 IA: Registré a María e inicié la atención en WhatsApp
+Asunto: Presupuesto — María Silva, 11 99999-9999
+IA: Registré a María e inicié la atención en WhatsApp
        con los datos del correo.
 
 [Sistema: chat en WhatsApp, embudo "Calificado",

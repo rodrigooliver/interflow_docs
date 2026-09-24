@@ -3,7 +3,7 @@
 Gerencie templates oficiais do Meta para iniciar conversas fora da janela de 24h, disparos e novos chats.
 
 ::: tip Acesso
-**Canais →** selecione um canal **WhatsApp Business (Official)** → **Templates** 
+**Canais →** selecione um canal **WhatsApp Business (Official)** → **Templates**
 :::
 
 ## Visão geral

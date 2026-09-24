@@ -41,7 +41,7 @@ For each operational status, optionally choose a flow in the select:
 | **Canceled** | Cancellation |
 | **No-show** | Marked as no-show |
 
-With a flow selected, use the **Edit** (✏️) button next to the select to open the editor.
+With a flow selected, use the **Edit** () button next to the select to open the editor.
 
 Click **Save** to persist the schedule associations.
 
@@ -50,10 +50,10 @@ Click **Save** to persist the schedule associations.
 When triggered, the flow receives context variables:
 
 ```
-appointment_id              → Appointment ID
-appointment_status          → New status
+appointment_id → Appointment ID
+appointment_status → New status
 appointment_previous_status → Previous status (empty on creation)
-schedule_id                 → Schedule ID
+schedule_id → Schedule ID
 ```
 
 ## Flow type restrictions
@@ -71,9 +71,7 @@ Every status change made through the UI (confirm, start, complete, cancel, queue
 - Configured notification templates
 - Silent flow for the destination status (if configured)
 
-::: tip 💡 Tip
 Configure a silent flow on **Completed** to create an internal follow-up task, and a notification template on **Completed** to thank the customer — each with its own purpose.
-:::
 
 ## Next steps
 

@@ -14,9 +14,9 @@ Reprograma el seguimiento automático del cliente.
 
 **Ejemplo de uso:**
 ```text
-👤 Cliente: Ahora no puedo, llámame el jueves
-🤖 IA: ¡Sin problema! Me comunico contigo el jueves. 
-       ¡Que tengas un excelente día! 👋
+Cliente: Ahora no puedo, llámame el jueves
+IA: ¡Sin problema! Me comunico contigo el jueves.
+       ¡Que tengas un excelente día!
 
 [Sistema: Seguimiento reprogramado para el jueves]
 ```

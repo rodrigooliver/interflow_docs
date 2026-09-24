@@ -32,7 +32,7 @@ A tela de chat é dividida em três áreas principais:
 
 Crie filtros customizados para organizar suas conversas:
 
-1. Clique em ⚙️ na barra de filtros
+1. Clique em na barra de filtros
 2. Clique em **"Novo Filtro"** ou duplique um existente
 3. Configure os critérios:
    - **Equipes**: Selecione uma ou múltiplas equipes
@@ -45,18 +45,16 @@ Crie filtros customizados para organizar suas conversas:
 6. Clique no ícone de **contador** nos filtros que devem mostrar o número (até 12 na organização)
 7. Salve
 
-::: tip Dica
 Você pode filtrar por **múltiplas equipes** e **múltiplos canais** ao mesmo tempo — útil para supervisores e times que operam vários números de WhatsApp. Os campos personalizados do cliente (lista, data e data/hora) e os **contadores por equipe** estão detalhados em [Filtros de conversas](/guide/chat/filters).
-:::
 
 ### Busca de Conversas
 
 Busque conversas pelo **número de telefone** do cliente:
 
-- ✅ `5511999999999` (completo com DDI)
-- ✅ `11999999999` (com DDD)
-- ✅ `999999999` (apenas número)
-- ✅ `+55 11 99999-9999` (formatado)
+- `5511999999999` (completo com DDI)
+- `11999999999` (com DDD)
+- `999999999` (apenas número)
+- `+55 11 99999-9999` (formatado)
 
 ### Ações em massa
 
@@ -85,16 +83,16 @@ Navegue diretamente para uma página específica:
 
 | Ícone | Status |
 |-------|--------|
-| 🟢 | Ativa - aguardando atendimento |
-| 🟡 | Em espera - aguardando cliente |
-| 🔵 | Em atendimento |
-| ⚪ | Finalizada |
+| | Ativa - aguardando atendimento |
+| | Em espera - aguardando cliente |
+| | Em atendimento |
+| | Finalizada |
 
 ### Indicador de Múltiplos Atendimentos
 
 Quando um cliente tem várias conversas ativas simultaneamente:
 
-- 🔴 Badge aparece ao lado do nome do cliente
+- Badge aparece ao lado do nome do cliente
 - Mostra o número de chats em paralelo
 - Clique para ver a lista de conversas ativas
 - Navegue rapidamente entre os chats
@@ -129,11 +127,11 @@ Destaque informações importantes fixando mensagens no topo do chat:
 3. Selecione **"Fixar mensagem"**
 
 **Recursos:**
-- 📌 Mensagens aparecem no topo do chat
-- 🔢 Contador de mensagens fixadas
-- 🟡 Fundo amarelo para notas privadas fixadas
-- ➜ Botão "Ir para mensagem" (navega ao original)
-- 🔄 Atualizações em tempo real
+- Mensagens aparecem no topo do chat
+- Contador de mensagens fixadas
+- Fundo amarelo para notas privadas fixadas
+- Botão "Ir para mensagem" (navega ao original)
+- Atualizações em tempo real
 
 **Como desafixar:**
 - Clique no **X** na lista de fixados, ou
@@ -143,11 +141,11 @@ Destaque informações importantes fixando mensagens no topo do chat:
 
 | Indicador | Significado |
 |-----------|-------------|
-| ✓ | Enviada |
-| ✓✓ | Entregue |
-| ✓✓ (azul) | Lida |
-| ⏳ | Enviando |
-| ❌ | Erro no envio |
+| | Enviada |
+| | Entregue |
+| (azul) | Lida |
+| | Enviando |
+| | Erro no envio |
 
 ### Tipos de Mensagem
 
@@ -175,9 +173,9 @@ Destaque informações importantes fixando mensagens no topo do chat:
 
 Visual que mostra o status de preenchimento dos campos:
 
-- ✅ Ícone verde = Campo preenchido
-- ⚠️ Ícone amarelo = Campo faltante
-- 🔴 Ícone vermelho = Obrigatório e faltante
+- Ícone verde = Campo preenchido
+- Ícone amarelo = Campo faltante
+- Ícone vermelho = Obrigatório e faltante
 
 **Benefícios:**
 - Veja rapidamente quais dados faltam
@@ -199,14 +197,14 @@ Visual que mostra o status de preenchimento dos campos:
 Execute ações em vários chats de uma só vez diretamente da lista de atendimentos:
 
 1. Aplique os filtros desejados (status, tag, canal, atendente, equipe, não lidos, etc.)
-2. Clique no ícone de **seleção em massa** (☑) no topo da lista
+2. Clique no ícone de **seleção em massa** () no topo da lista
 3. Selecione chats individualmente **ou** use **"Selecionar todos os filtrados"** para incluir todas as páginas
 4. Na barra inferior, escolha:
    - **Marcar como lido** — zera mensagens não lidas nos chats elegíveis
    - **Marcar como resolvido** — encerra apenas chats com status **aguardando**; chats em andamento são ignorados
 5. Confirme a ação quando solicitado (acima de 10 chats)
 
-::: tip 💡 Uso comum
+::: tip Uso comum
 Ideal para limpar filas após disparos em massa ou picos de volume, marcando centenas de conversas em poucos cliques.
 :::
 
@@ -214,18 +212,18 @@ Ideal para limpar filas após disparos em massa ou picos de volume, marcando cen
 
 Dá para criar uma tarefa ligada ao atendimento do cliente de duas formas — com ajuda da IA, se quiser:
 
-**Pela conversa (campo de mensagem)**  
-1. Clique no ícone de lista (**Criar tarefa relacionada a este chat**)  
-2. Use **Gerar com IA** para montar título, descrição, prioridade e subtarefas com base nas mensagens da conversa  
-3. (Opcional) Informe um **contexto adicional** para a IA (foco ou comando)  
-4. Revise, complete responsáveis/prazo e salve  
+**Pela conversa (campo de mensagem)**
+1. Clique no ícone de lista (**Criar tarefa relacionada a este chat**)
+2. Use **Gerar com IA** para montar título, descrição, prioridade e subtarefas com base nas mensagens da conversa
+3. (Opcional) Informe um **contexto adicional** para a IA (foco ou comando)
+4. Revise, complete responsáveis/prazo e salve
 
-**Por mensagens selecionadas**  
-1. No menu do atendimento, escolha **Selecionar Mensagens** (ou pelo menu da mensagem)  
-2. Marque as desejadas — ou **Selecionar todas**  
-3. Na barra de seleção, clique em **Criar Tarefa**  
-4. A IA pode gerar o conteúdo **só com as mensagens escolhidas** (com contexto adicional opcional)  
-5. Revise e salve — as mensagens ficam vinculadas à tarefa  
+**Por mensagens selecionadas**
+1. No menu do atendimento, escolha **Selecionar Mensagens** (ou pelo menu da mensagem)
+2. Marque as desejadas — ou **Selecionar todas**
+3. Na barra de seleção, clique em **Criar Tarefa**
+4. A IA pode gerar o conteúdo **só com as mensagens escolhidas** (com contexto adicional opcional)
+5. Revise e salve — as mensagens ficam vinculadas à tarefa
 
 Guia completo: [Tarefas — a partir do atendimento](/guide/tasks/#tarefas-a-partir-do-atendimento).
 
@@ -237,11 +235,11 @@ Para atender uma conversa não atribuída:
 3. A conversa será atribuída a você
 
 **Se houver fluxo ativo**, você pode escolher:
-- 🟡 **Pausar Fluxo e Atender** - Pausa o fluxo, você assume
-- 🔵 **Continuar Fluxo e Atender** - Mantém fluxo ativo (mensagens duplicadas!)
-- ⚪ **Cancelar** - Não atende
+- **Pausar Fluxo e Atender** - Pausa o fluxo, você assume
+- **Continuar Fluxo e Atender** - Mantém fluxo ativo (mensagens duplicadas!)
+- **Cancelar** - Não atende
 
-::: tip 💡 Configuração
+::: tip Configuração
 Em **Configurações > Atendimento**, você pode definir para sempre pausar automaticamente.
 :::
 
@@ -318,7 +316,7 @@ Atalhos com **várias mensagens** exibem um badge na listagem e abrem um **modal
 
 ### Enviando Arquivos
 
-1. Clique no ícone de anexo 📎
+1. Clique no ícone de anexo
 2. Selecione o arquivo
 3. Adicione uma legenda (opcional)
 4. Envie
@@ -365,10 +363,10 @@ Você pode excluir notas enviadas por engano:
 4. Confirme
 
 **Regras:**
-- ✅ Apenas o autor pode excluir
-- ✅ Admins podem excluir qualquer nota
-- ❌ Mensagens do cliente não podem ser excluídas
-- 🕐 Log preservado para auditoria
+- Apenas o autor pode excluir
+- Admins podem excluir qualquer nota
+- Mensagens do cliente não podem ser excluídas
+- Log preservado para auditoria
 
 ## Atalhos de Teclado
 
@@ -399,7 +397,7 @@ Aprimore suas mensagens com IA diretamente do campo de texto:
 - **Simplificar** - Simplifica textos complexos
 - **Traduzir** - Traduz para outro idioma
 
-::: tip 💡 Comandos Personalizados
+::: tip Comandos Personalizados
 Crie seus próprios comandos de IA! Veja a documentação completa em [Melhorador de Texto](/guide/chat/text-enhancer).
 :::
 
@@ -419,7 +417,7 @@ Abra o WhatsApp do cliente diretamente do chat com ações automáticas:
 2. Nova aba abre com mensagem pré-configurada
 3. Ações automáticas são executadas (campo, funil, tag)
 
-::: warning ⚠️ Importante
+::: warning Importante
 O botão só aparece em chats de canais WhatsApp (WAHA, W-API, WhatsApp Oficial).
 :::
 
@@ -436,7 +434,7 @@ Comunique-se diretamente com outros membros da equipe sem criar grupos, pela pá
 3. Escolha o agente com quem deseja conversar
 4. A conversa abre no painel ou no **widget flutuante**
 
-::: info ℹ️ Comportamento
+::: info ℹ Comportamento
 Se já existir uma conversa com o usuário selecionado, o sistema abre a existente em vez de criar uma nova. Os chats internos aparecem automaticamente no widget flutuante para ambos os participantes.
 :::
 
@@ -447,9 +445,7 @@ Se já existir uma conversa com o usuário selecionado, o sistema abre a existen
 - **Ao abrir o chat** — mensagens pendentes são marcadas como lidas automaticamente
 - **Status visualizada (DM)** — em chats diretos, ao abrir a conversa o remetente vê as mensagens como lidas (ticks azuis)
 
-::: tip 💡 Dica
 Se marcar uma conversa como **não lida** com ela aberta, o status permanece até você fechar e reabrir ou marcar como lida de novo.
-:::
 
 ### Widget Flutuante
 

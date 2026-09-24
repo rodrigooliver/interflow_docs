@@ -17,7 +17,7 @@ Equipes agrupam usuários da organização para:
 2. Clique na aba **Equipes**
 3. Crie, edite ou gerencie membros de cada equipe
 
-::: tip 💡 Permissão
+::: tip Permissão
 A gestão de equipes exige perfil **Owner** ou **Admin**.
 :::
 
@@ -62,7 +62,7 @@ Configure um ou mais **gatilhos**:
 | **Saída do atendimento** | Agente encerra/sai e o chat volta para pending |
 | **Nó de fluxo (rodízio)** | Fluxo de automação aciona a distribuição |
 
-::: info ℹ️ Elegibilidade
+::: info ℹ Elegibilidade
 O rodízio só atua em chats **pendentes**, **sem agente atribuído**, de clientes **não spam** e que **não sejam grupos externos**.
 :::
 
@@ -106,9 +106,7 @@ Configure prazos em minutos para restringir quem pode atender:
 
 - A reserva indica o agente, mas **não bloqueia** outros membros
 
-::: tip 💡 Dica
 Use prazo menor em expediente (ex.: 5 min) e maior em folga (ex.: 15 min) quando o fallback atribuir fora do horário.
-:::
 
 ### Fallback — quando ninguém está disponível
 

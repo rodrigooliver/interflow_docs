@@ -14,9 +14,9 @@ Reschedules the customer's automatic follow-up.
 
 **Usage example:**
 ```text
-👤 Customer: Not now, call me Thursday
-🤖 AI: No problem! I'll get in touch on Thursday. 
-       Have a great day! 👋
+Customer: Not now, call me Thursday
+AI: No problem! I'll get in touch on Thursday.
+       Have a great day!
 
 [System: Follow-up rescheduled for Thursday]
 ```

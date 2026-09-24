@@ -33,7 +33,7 @@ Atualizações do mês de abril de 2026.
 - **Fluxo automático em disparos em massa** (v2026.4.3) — ao criar campanha de texto ou mídia, configura fluxo que aguarda a resposta do cliente para ser ativado automaticamente
 - **Fluxo ao recusar ligação WAHA** (v2026.4.3) — dois modos (imediato ou aguardar resposta), mensagem de rejeição passa a ser opcional, suporte a instrução de contexto para agente IA no modo imediato
 - **Nó "Chamar outro fluxo"** (v2026.4.4) — novo nó no construtor de chatbots para invocar outro fluxo existente, com mapeamento de variáveis entre fluxos (`{{variavel}}`), escolha do nó de entrada e transição automática de sessão
-- **Campo multiselect em campos customizados** (v2026.4.6) — novo tipo de campo que permite selecionar múltiplas opções; armazenamento normalizado em tabela dedicada para alta performance; filtros de clientes com suporte ao tipo multiselect via RPC 
+- **Campo multiselect em campos customizados** (v2026.4.6) — novo tipo de campo que permite selecionar múltiplas opções; armazenamento normalizado em tabela dedicada para alta performance; filtros de clientes com suporte ao tipo multiselect via RPC
 - **Select com busca integrada em campos customizados** (v2026.4.6) — dropdowns de seleção única e múltipla substituídos por componente pesquisável com tags visuais nas telas de clientes e editor de fluxo
 - **Suporte a multiselect no nó "Atualizar Cliente"** (v2026.4.6) — editor visual do fluxo reconhece campos multiselect e exibe dropdown com busca e seleção múltipla
 - **Suporte a multiselect na ferramenta do Agente IA** (v2026.4.6) — modelo de IA consegue ler e atualizar campos multiselect; opções válidas são passadas como enum no schema da ferramenta
@@ -42,9 +42,9 @@ Atualizações do mês de abril de 2026.
 - **Notificações de agendamento para profissionais** (v2026.4.7) — templates com campo destinatário (cliente / profissional / ambos); customer de notificação vinculado ao membro criado automaticamente; WhatsApp e e-mail sincronizados a cada execução do cron caso o profissional troque de contato
 - **Divisão de receita em parcelas já pagas** (v2026.4.8) — configurar ou corrigir splits mesmo após pagamentos baixados; 3 modos de aplicação retroativa (todos os pagos, pagos sem split, somente em aberto); carregar splits de modelo; modal de edição dedicado
 
-
 ---
 
 ::: info Total
 **10 releases** neste mês!
 :::
+

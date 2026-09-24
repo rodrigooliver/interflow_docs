@@ -17,7 +17,7 @@ The Text Enhancer is an AI tool integrated into chat that helps agents write bet
 
 ### Via Menu
 
-1. In text field, click AI icon (✨)
+1. In text field, click AI icon ()
 2. Select enhancement option
 3. Wait for processing
 
@@ -71,21 +71,21 @@ Create your own AI commands for frequent actions.
 ```
 Name: Price response
 Trigger: /price
-Prompt: Generate a polite response explaining that I'll 
+Prompt: Generate a polite response explaining that I'll
         send the price list shortly.
 ```
 
 ```
 Name: Positive closing
 Trigger: /bye
-Prompt: Create a friendly farewell message 
+Prompt: Create a friendly farewell message
         thanking for the contact.
 ```
 
 ```
 Name: Request data
 Trigger: /data
-Prompt: Politely request customer's full name, 
+Prompt: Politely request customer's full name,
         email and phone.
 ```
 
@@ -108,7 +108,7 @@ Use variables to personalize:
 
 **Example:**
 ```
-Prompt: Thank {{customer_name}} for contacting and 
+Prompt: Thank {{customer_name}} for contacting and
         let them know I'm available to help.
 ```
 
@@ -126,8 +126,8 @@ Choose which model to use for enhancements:
 
 | Model | Speed | Quality |
 |-------|-------|---------|
-| GPT-3.5 | ⚡ Fast | ✅ Good |
-| GPT-4 | 🐢 Slower | ✨ Excellent |
+| GPT-3.5 | Fast | Good |
+| GPT-4 | Slower | Excellent |
 
 ### Default Language
 
@@ -135,14 +135,14 @@ Configure default language for enhancements and translations.
 
 ## Usage Tips
 
-### ✅ Best Practices
+### Best Practices
 
 - Use **Formalize** for initial messages
 - Use **Simplify** for technical explanations
 - Create commands for frequent responses
 - Always review before sending
 
-### ⚡ Quick Shortcuts
+### Quick Shortcuts
 
 | Shortcut | Action |
 |----------|--------|
@@ -162,7 +162,7 @@ hey can u send me the invoice i didnt get it yet
 
 **After "Formalize":**
 ```
-Hello! Could you please send me the invoice? 
+Hello! Could you please send me the invoice?
 I haven't received it yet.
 ```
 
@@ -170,13 +170,13 @@ I haven't received it yet.
 
 **Original message:**
 ```
-The system uses HTTPS protocol with AES-256 encryption 
+The system uses HTTPS protocol with AES-256 encryption
 and OAuth 2.0 authentication with JWT tokens.
 ```
 
 **After "Simplify":**
 ```
-The system uses a secure and protected connection. 
+The system uses a secure and protected connection.
 Your data stays encrypted and safe.
 ```
 
@@ -191,7 +191,4 @@ Your data stays encrypted and safe.
 - [Chat Interface](/en/guide/chat/interface) - Back to interface
 - [AI Agents](/en/guide/ai-agents/) - Autonomous AI for service
 - [Settings](/en/guide/settings/) - More settings
-
-
-
 

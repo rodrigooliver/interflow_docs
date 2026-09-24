@@ -102,7 +102,6 @@ Exemplo — rota não pública:
 }
 ```
 
-
 ### 404 Not Found
 
 Recurso não encontrado.

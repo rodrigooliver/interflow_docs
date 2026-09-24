@@ -19,7 +19,7 @@ Defines AI behavior when the answer isn't found in context.
 2. See all unanswered questions
 3. Use to improve agent context
 
-::: info ⚠️ Unique
+::: info Unique
 This action can only be added once per agent.
 :::
 

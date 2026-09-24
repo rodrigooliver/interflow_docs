@@ -32,7 +32,7 @@ The chat screen is divided into three main areas:
 
 Create custom filters to organize your conversations:
 
-1. Click ⚙️ in the filter bar
+1. Click in the filter bar
 2. Click **"New Filter"** or duplicate an existing one
 3. Configure criteria:
    - **Teams**: Select one or multiple teams
@@ -45,18 +45,16 @@ Create custom filters to organize your conversations:
 6. Click the **counter** icon on the filters that should show a number (up to 12 for the organization)
 7. Save
 
-::: tip Tip
 You can filter by **multiple teams** and **multiple channels** at once — useful for supervisors and teams that operate several WhatsApp numbers. Customer custom fields (select, date, and date/time) and **per-team counters** are covered in [Conversation filters](/en/guide/chat/filters).
-:::
 
 ### Conversation Search
 
 Search conversations by customer's **phone number**:
 
-- ✅ `5511999999999` (complete with country code)
-- ✅ `11999999999` (with area code)
-- ✅ `999999999` (number only)
-- ✅ `+55 11 99999-9999` (formatted)
+- `5511999999999` (complete with country code)
+- `11999999999` (with area code)
+- `999999999` (number only)
+- `+55 11 99999-9999` (formatted)
 
 ### Bulk actions
 
@@ -85,16 +83,16 @@ Navigate directly to a specific page:
 
 | Icon | Status |
 |------|--------|
-| 🟢 | Active - waiting for service |
-| 🟡 | On hold - waiting for customer |
-| 🔵 | In service |
-| ⚪ | Finished |
+| | Active - waiting for service |
+| | On hold - waiting for customer |
+| | In service |
+| | Finished |
 
 ### Multiple Chats Indicator
 
 When a customer has multiple active conversations:
 
-- 🔴 Badge appears next to customer name
+- Badge appears next to customer name
 - Shows number of parallel chats
 - Click to see list of active conversations
 - Quick navigation between chats
@@ -129,11 +127,11 @@ Highlight important information by pinning messages at the top of the chat:
 3. Select **"Pin message"**
 
 **Features:**
-- 📌 Messages appear at the top of the chat
-- 🔢 Pinned message counter
-- 🟡 Yellow background for pinned private notes
-- ➜ "Go to message" button (navigates to original)
-- 🔄 Real-time updates
+- Messages appear at the top of the chat
+- Pinned message counter
+- Yellow background for pinned private notes
+- "Go to message" button (navigates to original)
+- Real-time updates
 
 **How to unpin:**
 - Click **X** in the pinned list, or
@@ -143,11 +141,11 @@ Highlight important information by pinning messages at the top of the chat:
 
 | Indicator | Meaning |
 |-----------|---------|
-| ✓ | Sent |
-| ✓✓ | Delivered |
-| ✓✓ (blue) | Read |
-| ⏳ | Sending |
-| ❌ | Send error |
+| | Sent |
+| | Delivered |
+| (blue) | Read |
+| | Sending |
+| | Send error |
 
 ## Customer Panel
 
@@ -165,9 +163,9 @@ Highlight important information by pinning messages at the top of the chat:
 
 Visual showing field fill status:
 
-- ✅ Green icon = Filled field
-- ⚠️ Yellow icon = Missing field
-- 🔴 Red icon = Required and missing
+- Green icon = Filled field
+- Yellow icon = Missing field
+- Red icon = Required and missing
 
 ### Available Actions
 
@@ -184,14 +182,14 @@ Visual showing field fill status:
 Execute actions on multiple chats at once directly from the attendance list:
 
 1. Apply desired filters (status, tag, channel, agent, team, unread, etc.)
-2. Click the **bulk selection** icon (☑) at the top of the list
+2. Click the **bulk selection** icon () at the top of the list
 3. Select chats individually **or** use **"Select all filtered"** to include all pages
 4. In the bottom bar, choose:
    - **Mark as read** — clears unread messages in eligible chats
    - **Mark as resolved** — closes only chats with **pending** status; in-progress chats are ignored
 5. Confirm the action when prompted (above 10 chats)
 
-::: tip 💡 Common use
+::: tip Common use
 Ideal for clearing queues after bulk campaigns or volume spikes, marking hundreds of conversations in a few clicks.
 :::
 
@@ -212,9 +210,9 @@ To serve an unassigned conversation:
 3. Conversation will be assigned to you
 
 **If there's an active flow**, you can choose:
-- 🟡 **Pause Flow and Attend** - Pauses flow, you take over
-- 🔵 **Continue Flow and Attend** - Keeps flow active (duplicate messages!)
-- ⚪ **Cancel** - Don't attend
+- **Pause Flow and Attend** - Pauses flow, you take over
+- **Continue Flow and Attend** - Keeps flow active (duplicate messages!)
+- **Cancel** - Don't attend
 
 ### Assignment by Administrator
 
@@ -272,10 +270,10 @@ You can delete notes sent by mistake:
 4. Confirm
 
 **Rules:**
-- ✅ Only author can delete
-- ✅ Admins can delete any note
-- ❌ Customer messages cannot be deleted
-- 🕐 Log preserved for audit
+- Only author can delete
+- Admins can delete any note
+- Customer messages cannot be deleted
+- Log preserved for audit
 
 ## Message Shortcuts
 
@@ -314,7 +312,7 @@ Improve your messages with AI directly from text field:
 - **Simplify** - Simplifies complex texts
 - **Translate** - Translates to another language
 
-::: tip 💡 Custom Commands
+::: tip Custom Commands
 Create your own AI commands! See full documentation at [Text Enhancer](/en/guide/chat/text-enhancer).
 :::
 
@@ -326,7 +324,7 @@ Open customer's WhatsApp directly from chat with automatic actions:
 2. New tab opens with pre-configured message
 3. Automatic actions are executed (field, funnel, tag)
 
-::: warning ⚠️ Important
+::: warning Important
 Button only appears in WhatsApp channel chats (WAHA, W-API, Official WhatsApp).
 :::
 
@@ -343,7 +341,7 @@ Communicate directly with other team members without creating groups, via the **
 3. Choose the agent you want to chat with
 4. The conversation opens in the panel or the **floating widget**
 
-::: info ℹ️ Behavior
+::: info ℹ Behavior
 If a conversation with the selected user already exists, the system opens the existing one instead of creating a new one. Internal chats automatically appear in the floating widget for both participants.
 :::
 
@@ -354,9 +352,7 @@ If a conversation with the selected user already exists, the system opens the ex
 - **When opening the chat** — pending messages are marked as read automatically
 - **Seen status (DM)** — in direct chats, opening the conversation shows messages as read for the sender (blue ticks)
 
-::: tip 💡 Tip
 If you mark a conversation as **unread** while it is open, the status stays until you close and reopen it or mark it as read again.
-:::
 
 ### Floating Widget
 

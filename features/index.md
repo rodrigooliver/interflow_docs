@@ -28,3 +28,4 @@ Use o **menu à esquerda** para navegar por área ou a tabela abaixo para ir dir
 ::: tip Por onde começar?
 Se você está configurando a plataforma pela primeira vez, comece pelo [Guia de início rápido](/guide/quick-start). Cada página de recurso abaixo traz links para os **Guias** com o passo a passo detalhado de configuração e uso.
 :::
+

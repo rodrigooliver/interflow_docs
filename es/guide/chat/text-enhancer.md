@@ -17,7 +17,7 @@ El Mejorador de Texto es una herramienta de IA integrada al chat que ayuda a los
 
 ### Vía Menú
 
-1. En el campo de texto, haz clic en el ícono de IA (✨)
+1. En el campo de texto, haz clic en el ícono de IA ()
 2. Selecciona la opción de mejora
 3. Espera el procesamiento
 
@@ -71,21 +71,21 @@ Crea tus propios comandos de IA para acciones frecuentes.
 ```
 Nombre: Respuesta de precio
 Gatillo: /precio
-Prompt: Genera una respuesta educada explicando que 
+Prompt: Genera una respuesta educada explicando que
         enviaré la lista de precios en seguida.
 ```
 
 ```
 Nombre: Cierre positivo
 Gatillo: /chao
-Prompt: Crea un mensaje de despedida amigable 
+Prompt: Crea un mensaje de despedida amigable
         agradeciendo el contacto.
 ```
 
 ```
 Nombre: Pedir datos
 Gatillo: /datos
-Prompt: Solicita educadamente nombre completo, email 
+Prompt: Solicita educadamente nombre completo, email
         y teléfono del cliente.
 ```
 
@@ -108,7 +108,7 @@ Usa variables para personalizar:
 
 **Ejemplo:**
 ```
-Prompt: Agradece a {{customer_name}} por el contacto e 
+Prompt: Agradece a {{customer_name}} por el contacto e
         informa que estoy a disposición.
 ```
 
@@ -126,8 +126,8 @@ Elige qué modelo usar para las mejoras:
 
 | Modelo | Velocidad | Calidad |
 |--------|-----------|---------|
-| GPT-3.5 | ⚡ Rápido | ✅ Buena |
-| GPT-4 | 🐢 Más lento | ✨ Excelente |
+| GPT-3.5 | Rápido | Buena |
+| GPT-4 | Más lento | Excelente |
 
 ### Idioma Predeterminado
 
@@ -135,14 +135,14 @@ Configura el idioma predeterminado para las mejoras y traducciones.
 
 ## Consejos de Uso
 
-### ✅ Buenas Prácticas
+### Buenas Prácticas
 
 - Usa **Formalizar** para mensajes iniciales
 - Usa **Simplificar** para explicaciones técnicas
 - Crea comandos para respuestas frecuentes
 - Revisa siempre antes de enviar
 
-### ⚡ Atajos Rápidos
+### Atajos Rápidos
 
 | Atajo | Acción |
 |-------|--------|
@@ -162,7 +162,7 @@ hola me puedes enviar la factura q no la recibi
 
 **Después de "Formalizar":**
 ```
-¡Hola! ¿Podrías enviarme la factura, por favor? 
+¡Hola! ¿Podrías enviarme la factura, por favor?
 Aún no la he recibido.
 ```
 
@@ -170,13 +170,13 @@ Aún no la he recibido.
 
 **Mensaje original:**
 ```
-El sistema utiliza protocolo HTTPS con criptografía AES-256 
+El sistema utiliza protocolo HTTPS con criptografía AES-256
 y autenticación vía OAuth 2.0 con tokens JWT.
 ```
 
 **Después de "Simplificar":**
 ```
-El sistema usa una conexión segura y protegida. 
+El sistema usa una conexión segura y protegida.
 Tus datos quedan encriptados y seguros.
 ```
 
@@ -191,7 +191,4 @@ Tus datos quedan encriptados y seguros.
 - [Interfaz de Chat](/es/guide/chat/interface) - Volver a la interfaz
 - [Agentes IA](/es/guide/ai-agents/) - IA autónoma para atención
 - [Configuraciones](/es/guide/settings/) - Más configuraciones
-
-
-
 

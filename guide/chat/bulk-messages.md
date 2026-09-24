@@ -64,7 +64,7 @@ No modo **mensagem** com canal WAHA:
 - Prefira templates aprovados no WhatsApp Official
 - Não abuse de disparos não solicitados (risco de bloqueio)
 - Segmente com tags e estágios do funil; use **Tags excluídas** para quem pediu para parar
-- Monitore a campanha em 
+- Monitore a campanha em
 
 ## Relacionados
 

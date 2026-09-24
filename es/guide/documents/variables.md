@@ -1,38 +1,38 @@
-# 🔧 Variables y Helpers
+# Variables y Helpers
 
 Aprenda a usar variables dinámicas y helpers Handlebars para crear documentos potentes y flexibles.
 
-## 📦 Variables Disponibles
+## Variables Disponibles
 
-### 👤 Datos del Cliente
+### Datos del Cliente
 
 <div v-pre>
 
 ```handlebars
-{{customer.name}}          // Nombre completo
-{{customer.document}}      // Documento (formateado)
-{{customer.email}}         // Email
-{{customer.phone}}         // Teléfono
-{{customer.whatsapp}}      // WhatsApp
-{{customer.created_at}}    // Fecha de alta
-{{customer.stage_name}}    // Etapa del embudo
-{{customer.tags}}          // Tags (separadas por coma)
+{{customer.name}} // Nombre completo
+{{customer.document}} // Documento (formateado)
+{{customer.email}} // Email
+{{customer.phone}} // Teléfono
+{{customer.whatsapp}} // WhatsApp
+{{customer.created_at}} // Fecha de alta
+{{customer.stage_name}} // Etapa del embudo
+{{customer.tags}} // Tags (separadas por coma)
 ```
 
 </div>
 
-#### 📍 Dirección (dirección predeterminada del cliente)
+#### Dirección (dirección predeterminada del cliente)
 <div v-pre>
 
 ```handlebars
-{{customer.address}}             // Dirección completa (texto)
-{{customer.formatted_address}}   // Dirección formateada (Maps, si hay)
-{{customer.address_line_1}}      // Calle / línea 1
-{{customer.address_line_2}}      // Complemento
-{{customer.city}}                // Ciudad
-{{customer.state}}               // Estado/Provincia
-{{customer.postal_code}}         // Código postal
-{{customer.country}}             // País
+{{customer.address}} // Dirección completa (texto)
+{{customer.formatted_address}} // Dirección formateada (Maps, si hay)
+{{customer.address_line_1}} // Calle / línea 1
+{{customer.address_line_2}} // Complemento
+{{customer.city}} // Ciudad
+{{customer.state}} // Estado/Provincia
+{{customer.postal_code}} // Código postal
+{{customer.country}} // País
 ```
 
 </div>
@@ -41,27 +41,27 @@ Aprenda a usar variables dinámicas y helpers Handlebars para crear documentos p
 El sistema usa la dirección marcada como **predeterminada** (`is_default`). Si no hay predeterminada, usa la más reciente.
 :::
 
-### 📅 Datos del Sistema
+### Datos del Sistema
 
 <div v-pre>
 
 ```handlebars
-{{date.current_date}}      // Fecha actual (2026-02-24)
-{{date.current_time}}      // Hora actual (14:30:00)
-{{organization.name}}      // Nombre de la organización
-{{user.name}}              // Nombre del usuario que generó
+{{date.current_date}} // Fecha actual (2026-02-24)
+{{date.current_time}} // Hora actual (14:30:00)
+{{organization.name}} // Nombre de la organización
+{{user.name}} // Nombre del usuario que generó
 ```
 
 </div>
 
-### 🎯 Variables Personalizadas
+### Variables Personalizadas
 
 Cree variables específicas para su plantilla:
 
 <div v-pre>
 
 ```handlebars
-{{custom.nombre_variable}}   // Valor personalizado
+{{custom.nombre_variable}} // Valor personalizado
 ```
 
 </div>
@@ -77,11 +77,11 @@ Descuento: {{custom.descuento}}%
 
 </div>
 
-## 🛠️ Helpers Handlebars
+## Helpers Handlebars
 
 Los helpers son funciones que transforman datos. Use la sintaxis: <code v-pre>{{helper valor}}</code>
 
-### 🔤 Transformación de Texto
+### Transformación de Texto
 
 #### Mayúsculas
 <div v-pre>
@@ -127,7 +127,7 @@ Los helpers son funciones que transforman datos. Use la sintaxis: <code v-pre>{{
 
 **Resultado:** Juan Silva
 
-### 🔢 Números en Letras (Generales)
+### Números en Letras (Generales)
 
 #### Portugués
 <div v-pre>
@@ -162,18 +162,18 @@ Los helpers son funciones que transforman datos. Use la sintaxis: <code v-pre>{{
 
 **Ejemplo:** `250` → "doscientos cincuenta"
 
-### 🔢 Operaciones Matemáticas
+### Operaciones Matemáticas
 
 Aplique operaciones matemáticas a variables numéricas. Acepta variables o números literales en cualquier argumento.
 
 <div v-pre>
 
 ```handlebars
-{{divide valor divisor}}              // valor ÷ divisor
-{{multiply valor factor}}             // valor × factor
-{{add valor sumando}}                 // valor + sumando
-{{subtract valor sustraendo}}         // valor − sustraendo
-{{sum v1 v2 v3}}                      // suma varios valores
+{{divide valor divisor}} // valor ÷ divisor
+{{multiply valor factor}} // valor × factor
+{{add valor sumando}} // valor + sumando
+{{subtract valor sustraendo}} // valor − sustraendo
+{{sum v1 v2 v3}} // suma varios valores
 ```
 
 </div>
@@ -182,20 +182,18 @@ Aplique operaciones matemáticas a variables numéricas. Acepta variables o núm
 <div v-pre>
 
 ```handlebars
-{{divide custom.valorTotal 4}}                    // Divide por 4 (ej: 1000 → 250)
-{{divide custom.valorTotal custom.numCuotas}}    // Divide variable por otra variable
-{{multiply custom.cantidad 2}}                   // Multiplica por 2
-{{formatCurrencyBRL (divide custom.valorTotal 4)}}  // Valor ÷ 4 formateado en R$
-{{sum custom.item1 custom.item2 custom.item3}}   // Suma varias variables
+{{divide custom.valorTotal 4}} // Divide por 4 (ej: 1000 → 250)
+{{divide custom.valorTotal custom.numCuotas}} // Divide variable por otra variable
+{{multiply custom.cantidad 2}} // Multiplica por 2
+{{formatCurrencyBRL (divide custom.valorTotal 4)}} // Valor ÷ 4 formateado en R$
+{{sum custom.item1 custom.item2 custom.item3}} // Suma varias variables
 ```
 
 </div>
 
-### 💰 Monedas (Número + Nombre de la Moneda)
+### Monedas (Número + Nombre de la Moneda)
 
-::: tip 💡 Consejo
 Los helpers de moneda convierten el número y agregan el nombre de la moneda en letras.
-:::
 
 #### Real Brasileño (BRL)
 <div v-pre>
@@ -252,36 +250,36 @@ Los helpers de moneda convierten el número y agregan el nombre de la moneda en 
 
 **Ejemplo:** `1350` → "mil trescientos cincuenta guaraníes"
 
-::: warning ⚠️ Atención
+::: warning Atención
 Los helpers monetarios incluyen el número Y el nombre de la moneda. No agregue "reais", "dólares", etc. manualmente, ya que quedará duplicado.
 :::
 
-### 💵 Formato de Moneda (Símbolo)
+### Formato de Moneda (Símbolo)
 
 Formatea el valor numérico con símbolo de moneda. Use el helper del país:
 
 <div v-pre>
 
 ```handlebars
-{{formatCurrencyBRL custom.valor}}     // R$ 1.350,50
-{{formatCurrencyUSD custom.valor}}     // $1,350.50
-{{formatCurrencyEUR custom.valor}}     // 1.350,50 €
-{{formatCurrencyARS custom.valor}}     // $ 1.350,50
+{{formatCurrencyBRL custom.valor}} // R$ 1.350,50
+{{formatCurrencyUSD custom.valor}} // $1,350.50
+{{formatCurrencyEUR custom.valor}} // 1.350,50 €
+{{formatCurrencyARS custom.valor}} // $ 1.350,50
 ```
 
 </div>
 
 `formatCurrency` (sin sufijo) retorna solo el número formateado (1.350,50), sin símbolo.
 
-### 📅 Fechas
+### Fechas
 
 #### Formato completo (PT, EN, ES)
 <div v-pre>
 
 ```handlebars
-{{formatDatePT date.current_date}}     // 24 de fevereiro de 2026
-{{formatDateEN date.current_date}}     // February 24, 2026
-{{formatDateES date.current_date}}     // 24 de febrero de 2026
+{{formatDatePT date.current_date}} // 24 de fevereiro de 2026
+{{formatDateEN date.current_date}} // February 24, 2026
+{{formatDateES date.current_date}} // 24 de febrero de 2026
 ```
 
 </div>
@@ -290,9 +288,9 @@ Formatea el valor numérico con símbolo de moneda. Use el helper del país:
 <div v-pre>
 
 ```handlebars
-{{formatDateShortPT date.current_date}}  // 24/02/2026
-{{formatDateShortEN date.current_date}}  // 02/24/2026
-{{formatDateShortES date.current_date}}  // 24/02/2026
+{{formatDateShortPT date.current_date}} // 24/02/2026
+{{formatDateShortEN date.current_date}} // 02/24/2026
+{{formatDateShortES date.current_date}} // 24/02/2026
 ```
 
 </div>
@@ -301,11 +299,11 @@ Formatea el valor numérico con símbolo de moneda. Use el helper del país:
 <div v-pre>
 
 ```handlebars
-{{formatDay date.current_date}}        // 24
-{{formatMonthPT date.current_date}}    // fevereiro
-{{formatMonthEN date.current_date}}    // February
-{{formatMonthES date.current_date}}    // febrero
-{{formatYear date.current_date}}       // 2026
+{{formatDay date.current_date}} // 24
+{{formatMonthPT date.current_date}} // fevereiro
+{{formatMonthEN date.current_date}} // February
+{{formatMonthES date.current_date}} // febrero
+{{formatYear date.current_date}} // 2026
 ```
 
 </div>
@@ -314,10 +312,10 @@ Formatea el valor numérico con símbolo de moneda. Use el helper del país:
 <div v-pre>
 
 ```handlebars
-{{formatDateTimePT date.current_date}}           // 24/02/2026 às 14:30
-{{formatDateTimePT "now" -3}}                    // Fecha/hora actual en GMT-3
-{{formatDateTimeEN custom.fecha_hora}}           // Feb 24, 2026 at 14:30
-{{formatDateTimeES custom.fecha_hora -4}}        // Con offset GMT-4
+{{formatDateTimePT date.current_date}} // 24/02/2026 às 14:30
+{{formatDateTimePT "now" -3}} // Fecha/hora actual en GMT-3
+{{formatDateTimeEN custom.fecha_hora}} // Feb 24, 2026 at 14:30
+{{formatDateTimeES custom.fecha_hora -4}} // Con offset GMT-4
 ```
 
 </div>
@@ -326,9 +324,9 @@ Formatea el valor numérico con símbolo de moneda. Use el helper del país:
 <div v-pre>
 
 ```handlebars
-{{formatTime custom.horario}}          // 14:30
-{{formatTimeWithSeconds custom.horario}}  // 14:30:00
-{{formatTime "now" -3}}                // Hora actual en GMT-3
+{{formatTime custom.horario}} // 14:30
+{{formatTimeWithSeconds custom.horario}} // 14:30:00
+{{formatTime "now" -3}} // Hora actual en GMT-3
 ```
 
 </div>
@@ -343,7 +341,7 @@ Fecha de Vencimiento: {{formatDateES custom.fecha_vencimiento}}
 
 </div>
 
-::: tip 💡 Fecha y hora actuales
+::: tip Fecha y hora actuales
 Use `"today"` para la fecha actual y `"now"` para fecha/hora actual:
 <div v-pre>
 
@@ -355,7 +353,7 @@ Use `"today"` para la fecha actual y `"now"` para fecha/hora actual:
 </div>
 :::
 
-## 🔗 Combinar Helpers
+## Combinar Helpers
 
 Puede combinar múltiples helpers usando paréntesis:
 
@@ -403,7 +401,7 @@ Puede combinar múltiples helpers usando paréntesis:
 
 **Resultado:** valor total ÷ 4 formateado en $ (ej: $ 250,00)
 
-## 💡 Ejemplos Prácticos
+## Ejemplos Prácticos
 
 ### Contrato de Prestación de Servicios
 <div v-pre>
@@ -459,15 +457,15 @@ Puede combinar múltiples helpers usando paréntesis:
 
 </div>
 
-## 🎯 Consejos Avanzados
+## Consejos Avanzados
 
 ### 1. Formato Consistente
 Use siempre el mismo helper para tipos de datos similares:
 <div v-pre>
 
 ```handlebars
-{{titleCase customer.name}}     // ✅ Consistente
-{{uppercase customer.name}}     // ❌ Diferente del estándar
+{{titleCase customer.name}} // Consistente
+{{uppercase customer.name}} // Diferente del estándar
 ```
 
 </div>
@@ -477,8 +475,8 @@ Agregue contexto alrededor de las variables:
 <div v-pre>
 
 ```handlebars
-DNI: {{customer.document}}                    // ✅ Con contexto
-{{customer.document}}                          // ❌ Sin contexto
+DNI: {{customer.document}} // Con contexto
+{{customer.document}} // Sin contexto
 ```
 
 </div>
@@ -495,6 +493,6 @@ Para variables opcionales, considere usar condicionales (vea [Condicionales](./c
 
 </div>
 
-## 🎬 Próximo Paso
+## Próximo Paso
 
 Aprenda a usar [Condicionales](./conditionals) para crear documentos aún más inteligentes y dinámicos!

@@ -81,7 +81,7 @@ Click the **JSON** button to see the tool in OpenAI format:
 
 ## Best Practices
 
-### ✅ Do
+### Do
 
 - Use clear and specific descriptions
 - Define parameters with correct types
@@ -89,7 +89,7 @@ Click the **JSON** button to see the tool in OpenAI format:
 - Limit allowed values when possible
 - Configure fallback actions
 
-### ❌ Avoid
+### Avoid
 
 - Vague descriptions that confuse the AI
 - Too many similar tools

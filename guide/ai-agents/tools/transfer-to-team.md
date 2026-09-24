@@ -21,8 +21,8 @@ Quando ativado, o resumo inclui:
 
 **Exemplo de uso:**
 ```text
-👤 Cliente: Preciso falar com um humano sobre um problema técnico
-🤖 IA: Entendi! Vou transferir você para nossa equipe de suporte técnico. 
+Cliente: Preciso falar com um humano sobre um problema técnico
+IA: Entendi! Vou transferir você para nossa equipe de suporte técnico.
        Um momento, por favor...
 
 [Sistema: Chat transferido para "Suporte Técnico" com resumo]

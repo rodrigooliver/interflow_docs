@@ -2,7 +2,7 @@
 
 El módulo de Facturación es el sistema financiero integrado de Interflow. Permite gestionar contratos, cuotas, distribución de ingresos entre beneficiarios, integración con pasarelas de pago y emisión/registro de cobros, todo dentro de la misma plataforma.
 
-::: tip 💡 Acceso
+::: tip Acceso
 El módulo está disponible en **Menú lateral → Facturación** (ícono de billetera).
 :::
 

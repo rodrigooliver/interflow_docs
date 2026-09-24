@@ -41,7 +41,7 @@ Para cada status operacional, escolha um fluxo opcional no select:
 | **Cancelado** | Cancelamento |
 | **Não compareceu** | Marcação de no-show |
 
-Com um fluxo selecionado, use o botão **Editar** (✏️) ao lado do select para abrir o editor.
+Com um fluxo selecionado, use o botão **Editar** () ao lado do select para abrir o editor.
 
 Clique em **Salvar** para persistir as associações da agenda.
 
@@ -50,10 +50,10 @@ Clique em **Salvar** para persistir as associações da agenda.
 Ao disparar, o fluxo recebe variáveis de contexto:
 
 ```
-appointment_id              → ID do agendamento
-appointment_status          → Novo status
+appointment_id → ID do agendamento
+appointment_status → Novo status
 appointment_previous_status → Status anterior (vazio na criação)
-schedule_id                 → ID da agenda
+schedule_id → ID da agenda
 ```
 
 ## Restrições do tipo de fluxo
@@ -71,9 +71,7 @@ Toda mudança de status feita pela interface (confirmar, iniciar, concluir, canc
 - Templates de notificação configurados
 - Fluxo silencioso do status de destino (se houver)
 
-::: tip 💡 Dica
 Configure um fluxo silencioso em **Concluído** para criar tarefa de follow-up interno, e um template de notificação em **Concluído** para agradecer o cliente — cada um com seu propósito.
-:::
 
 ## Próximos passos
 

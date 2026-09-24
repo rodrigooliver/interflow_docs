@@ -57,9 +57,7 @@ Se for necessário entregar a mensagem:
 2. Peça que o cliente **envie uma mensagem** pelo WhatsApp para a sua empresa
 3. Com a janela de 24 horas aberta, **reenvie** o template (ou continue a conversa normalmente)
 
-::: tip DICA
 Não fique reenviando o mesmo template em loop: enquanto o número estiver no experimento e não houver janela elegível, o erro 130472 se repetirá.
-:::
 
 ### Referências oficiais da Meta
 
@@ -113,9 +111,7 @@ Recomendações:
 4. Peça que o cliente **inicie a conversa** (ou responda) para abrir a janela de 24h e continuar o atendimento
 5. Segmente campanhas para contatos engajados e evite disparos frios em excesso
 
-::: tip DICA
 Um `200` na chamada de envio **não** garante entrega. Confirme sempre o status no webhook (`failed` + `131049`).
-:::
 
 ### Como prevenir
 

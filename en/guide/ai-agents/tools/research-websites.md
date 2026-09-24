@@ -21,18 +21,18 @@ Lets the AI **read web page content** during support and use the text (as markdo
 - It can open **subpages** under the same path as the configured site
 - If the page is only an index, the result may include `followUpLinks` for a second call
 
-::: warning ⚠️ HTML engine
+::: warning HTML engine
 Sites built only with React/Next may return empty or incomplete results with Plain HTML. Prefer **Firecrawl**.
 :::
 
-::: tip 💡 Security
+::: tip Security
 With free search **off**, the server only accepts URLs from configured sites (and subpages under the same path).
 :::
 
 **Example:**
 ```text
-👤 Customer: Do you have a 2022 Corolla in stock?
-🤖 AI: [scrapes the site with ?search=Corolla] Yes — I found 3 units…
+Customer: Do you have a 2022 Corolla in stock?
+AI: [scrapes the site with ?search=Corolla] Yes — I found 3 units…
 ```
 
 > Changelog: [v2026.7.13](/en/changelog/2026/07/2026.7.13) · Integration: [Firecrawl](/en/guide/integrations/firecrawl)

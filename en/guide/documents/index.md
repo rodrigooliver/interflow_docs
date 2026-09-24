@@ -1,21 +1,21 @@
-# 📄 Document Templates
+# Document Templates
 
 Interflow features a powerful document generation system that allows you to create custom PDF and DOCX templates with dynamic customer data and custom variables.
 
-## 🎯 Key Features
+## Key Features
 
-### ✨ Visual Editor
+### Visual Editor
 - **WYSIWYG HTML Editor** with Jodit Editor
 - Rich text formatting (bold, italic, colors, sizes)
 - Support for tables, lists, and images
 - Inline CSS styles to ensure export fidelity
 
-### 📊 Dynamic Variables
+### Dynamic Variables
 - **Customer Data**: Name, email, phone, address, documents
 - **System Data**: Current date, organization, user
 - **Custom Variables**: Create specific fields for your templates
 
-### 🔧 Handlebars Helpers
+### Handlebars Helpers
 Complete data transformation system:
 
 - **Text**: `uppercase`, `lowercase`, `capitalize`, `titleCase`
@@ -26,7 +26,7 @@ Complete data transformation system:
 - **Time**: `formatTime`, `formatTimeWithSeconds` (with GMT support)
 - **Conditionals**: Display content based on conditions
 
-### 🎨 Advanced Settings
+### Advanced Settings
 
 #### PDF
 - Custom margins (top, bottom, left, right)
@@ -40,10 +40,10 @@ Complete data transformation system:
 - Centered or full-page positioning
 - Native generation with `docx` library
 
-## 📚 Next Steps
+## Next Steps
 
 <div class="tip custom-block">
-  <p class="custom-block-title">💡 Get Started Now</p>
+  <p class="custom-block-title"> Get Started Now</p>
   <p>Explore the sections below to learn how to create powerful templates:</p>
   <ul>
     <li><a href="./templates">Creating Templates</a> - Learn to create and configure templates</li>
@@ -52,7 +52,7 @@ Complete data transformation system:
   </ul>
 </div>
 
-## 🚀 Use Cases
+## Use Cases
 
 ### Contracts and Proposals
 Generate personalized contracts with customer data, amounts in words, and conditional clauses.

@@ -25,10 +25,10 @@ O nó **Grupo** é um elemento visual que permite agrupar múltiplos nós. Serve
 
 ```
 ┌─────────────────────────────────────┐
-│         📋 QUALIFICAÇÃO             │
-│  ┌───────┐  ┌───────┐  ┌───────┐    │
-│  │Texto  │→ │Input  │→ │Condição│   │
-│  └───────┘  └───────┘  └───────┘    │
+│ QUALIFICAÇÃO │
+│ ┌───────┐ ┌───────┐ ┌───────┐ │
+│ │Texto │→ │Input │→ │Condição│ │
+│ └───────┘ └───────┘ └───────┘ │
 └─────────────────────────────────────┘
 ```
 
@@ -36,12 +36,12 @@ O nó **Grupo** é um elemento visual que permite agrupar múltiplos nós. Serve
 
 ```
 ┌─────────────────────────────────────┐
-│         💰 FLUXO DE VENDAS          │
-│                                     │
-│  [Apresentação] → [Oferta]          │
-│        ↓                            │
-│  [Objeções] → [Fechamento]          │
-│                                     │
+│ FLUXO DE VENDAS │
+│ │
+│ [Apresentação] → [Oferta] │
+│ ↓ │
+│ [Objeções] → [Fechamento] │
+│ │
 └─────────────────────────────────────┘
 ```
 
@@ -49,12 +49,12 @@ O nó **Grupo** é um elemento visual que permite agrupar múltiplos nós. Serve
 
 ```
 ┌─────────────────────────────────────┐
-│         🔌 INTEGRAÇÕES              │
-│                                     │
-│  [API CRM] → [API Pagamento]        │
-│        ↓                            │
-│  [Webhook Notificação]              │
-│                                     │
+│ INTEGRAÇÕES │
+│ │
+│ [API CRM] → [API Pagamento] │
+│ ↓ │
+│ [Webhook Notificação] │
+│ │
 └─────────────────────────────────────┘
 ```
 
@@ -78,13 +78,13 @@ Grupos ajudam a documentar visualmente a estrutura do fluxo.
 
 ## Quando Usar
 
-✅ **Use grupos para:**
+**Use grupos para:**
 - Separar seções lógicas do fluxo
 - Identificar áreas de responsabilidade
 - Documentar visualmente
 - Facilitar navegação em fluxos grandes
 
-❌ **Evite grupos para:**
+**Evite grupos para:**
 - Fluxos simples (poucos nós)
 - Agrupar nós não relacionados
 - Substituir boa organização de nós

@@ -99,10 +99,10 @@ Campos de texto (título, descrição e checklist) suportam variáveis do fluxo:
 ### Variáveis do Cliente
 
 ```
-{{customer.name}}       - Nome do cliente
-{{customer.phone}}      - Telefone
-{{customer.email}}      - Email
-{{customer.cpf}}        - CPF (se cadastrado)
+{{customer.name}} - Nome do cliente
+{{customer.phone}} - Telefone
+{{customer.email}} - Email
+{{customer.cpf}} - CPF (se cadastrado)
 ```
 
 ### Variáveis de Input
@@ -114,7 +114,7 @@ Campos de texto (título, descrição e checklist) suportam variáveis do fluxo:
 ### Variáveis Personalizadas
 
 ```
-{{variavel_definida}}   - Variável definida no fluxo
+{{variavel_definida}} - Variável definida no fluxo
 ```
 
 ## Conexões

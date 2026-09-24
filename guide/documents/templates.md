@@ -1,8 +1,8 @@
-# 🎨 Criar Modelos de Documentos
+# Criar Modelos de Documentos
 
 Aprenda a criar modelos de documentos profissionais com o editor visual do Interflow.
 
-## 📝 Criando um Novo Modelo
+## Criando um Novo Modelo
 
 ### Passo 1: Acessar Modelos
 1. No menu lateral, acesse **Modelos de Documentos**
@@ -36,7 +36,7 @@ O editor oferece ferramentas completas de formatação:
 - Direita
 - Justificado
 
-## 🔤 Inserindo Variáveis
+## Inserindo Variáveis
 
 ### Variáveis do Sistema
 Use a sintaxe <code v-pre>{{variavel}}</code> para inserir dados dinâmicos:
@@ -55,45 +55,45 @@ Data: {{date.current_date}}
 ### Painel de Variáveis
 O painel lateral direito exibe todas as variáveis disponíveis:
 
-#### 👤 Dados do Cliente
+#### Dados do Cliente
 
 <div v-pre>
 
 ```handlebars
-{{customer.name}}          // João Silva
-{{customer.email}}         // joao@email.com
-{{customer.phone}}         // (11) 98765-4321
-{{customer.document}}      // CPF/CNPJ
-{{customer.address.street}}    // Rua das Flores
-{{customer.address.city}}      // São Paulo
-{{customer.address.state}}     // SP
-{{customer.address.zip_code}}  // 01234-567
+{{customer.name}} // João Silva
+{{customer.email}} // joao@email.com
+{{customer.phone}} // (11) 98765-4321
+{{customer.document}} // CPF/CNPJ
+{{customer.address.street}} // Rua das Flores
+{{customer.address.city}} // São Paulo
+{{customer.address.state}} // SP
+{{customer.address.zip_code}} // 01234-567
 ```
 
 </div>
 
-#### 📅 Dados do Sistema
+#### Dados do Sistema
 
 <div v-pre>
 
 ```handlebars
-{{date.current_date}}      // 2026-02-24
-{{date.current_time}}      // 14:30:00
-{{organization.name}}      // Nome da Empresa
-{{user.name}}              // Nome do Usuário
+{{date.current_date}} // 2026-02-24
+{{date.current_time}} // 14:30:00
+{{organization.name}} // Nome da Empresa
+{{user.name}} // Nome do Usuário
 ```
 
 </div>
 
-#### 🎯 Variáveis Customizadas
+#### Variáveis Customizadas
 Clique em **"Configurar Variáveis Customizadas"** para criar campos específicos:
 
 <div v-pre>
 
 ```handlebars
-{{custom.valor}}           // Valor personalizado
-{{custom.prazo}}           // Prazo em dias
-{{custom.desconto}}        // Percentual de desconto
+{{custom.valor}} // Valor personalizado
+{{custom.prazo}} // Prazo em dias
+{{custom.desconto}} // Percentual de desconto
 ```
 
 </div>
@@ -104,7 +104,7 @@ Clique em **"Configurar Variáveis Customizadas"** para criar campos específico
 - `date` - Datas
 - `boolean` - Verdadeiro/Falso
 
-## 🎨 Configurações Avançadas
+## Configurações Avançadas
 
 ### Marca d'Água
 
@@ -155,44 +155,42 @@ Direita: 20mm
 - **Documento Formal**: 25mm superior/inferior, 30mm laterais
 - **Sem Margens**: 0mm (para designs customizados)
 
-::: tip 💡 Dica
 Margens menores aproveitam melhor o espaço, mas podem dificultar a impressão. Use no mínimo 10mm para documentos que serão impressos.
-:::
 
-## 💾 Salvando o Modelo
+## Salvando o Modelo
 
 1. Revise todo o conteúdo no editor
 2. Verifique as variáveis e helpers
 3. Teste as configurações de marca d'água e margens
 4. Clique em **"Salvar Modelo"**
 
-## ✅ Boas Práticas
+## Boas Práticas
 
 ### Design
-- ✅ Use **títulos claros** para organizar o conteúdo
-- ✅ Mantenha **espaçamento consistente** entre seções
-- ✅ Escolha **fontes legíveis** (Helvetica, Arial, Times New Roman)
-- ✅ Use **tabelas** para organizar dados estruturados
+- Use **títulos claros** para organizar o conteúdo
+- Mantenha **espaçamento consistente** entre seções
+- Escolha **fontes legíveis** (Helvetica, Arial, Times New Roman)
+- Use **tabelas** para organizar dados estruturados
 
 ### Variáveis
-- ✅ Teste com **dados reais** antes de finalizar
-- ✅ Use **valores padrão** para variáveis opcionais
-- ✅ Adicione **contexto** ao redor das variáveis (ex: "CPF: <span v-pre>{{customer.document}}</span>")
+- Teste com **dados reais** antes de finalizar
+- Use **valores padrão** para variáveis opcionais
+- Adicione **contexto** ao redor das variáveis (ex: "CPF: <span v-pre>{{customer.document}}</span>")
 
 ### Formatação
-- ✅ Use **estilos inline** para garantir que a formatação seja preservada
-- ✅ Evite **fontes externas** que possam não estar disponíveis na exportação
-- ✅ Teste em **ambos os formatos** (PDF e DOCX) para garantir compatibilidade
+- Use **estilos inline** para garantir que a formatação seja preservada
+- Evite **fontes externas** que possam não estar disponíveis na exportação
+- Teste em **ambos os formatos** (PDF e DOCX) para garantir compatibilidade
 
 ### Performance
-- ✅ **Otimize imagens** antes de usar como marca d'água (max 2MB)
-- ✅ Evite **templates muito complexos** (>5000 linhas de HTML)
-- ✅ Use **condicionais** para exibir apenas dados relevantes
+- **Otimize imagens** antes de usar como marca d'água (max 2MB)
+- Evite **templates muito complexos** (>5000 linhas de HTML)
+- Use **condicionais** para exibir apenas dados relevantes
 
-::: warning ⚠️ Atenção
+::: warning Atenção
 Alguns estilos CSS podem não ser suportados igualmente em PDF e DOCX. Sempre teste a geração em ambos os formatos.
 :::
 
-## 🎬 Próximo Passo
+## Próximo Passo
 
 Agora que você sabe criar modelos, aprenda a usar [Variáveis e Helpers](./variables) para tornar seus documentos ainda mais dinâmicos e poderosos!

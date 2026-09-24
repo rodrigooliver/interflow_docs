@@ -41,7 +41,7 @@ Para cada estado operacional, elija opcionalmente un flujo en el selector:
 | **Cancelado** | Cancelación |
 | **No se presentó** | Marcado como no-show |
 
-Con un flujo seleccionado, use el botón **Editar** (✏️) junto al selector para abrir el editor.
+Con un flujo seleccionado, use el botón **Editar** () junto al selector para abrir el editor.
 
 Haga clic en **Guardar** para persistir las asociaciones de la agenda.
 
@@ -50,10 +50,10 @@ Haga clic en **Guardar** para persistir las asociaciones de la agenda.
 Al dispararse, el flujo recibe variables de contexto:
 
 ```
-appointment_id              → ID de la cita
-appointment_status          → Nuevo estado
+appointment_id → ID de la cita
+appointment_status → Nuevo estado
 appointment_previous_status → Estado anterior (vacío en la creación)
-schedule_id                 → ID de la agenda
+schedule_id → ID de la agenda
 ```
 
 ## Restricciones del tipo de flujo
@@ -71,9 +71,7 @@ Cada cambio de estado hecho por la interfaz (confirmar, iniciar, concluir, cance
 - Plantillas de notificación configuradas
 - Flujo silencioso del estado de destino (si existe)
 
-::: tip 💡 Consejo
 Configure un flujo silencioso en **Completado** para crear una tarea de seguimiento interno, y una plantilla de notificación en **Completado** para agradecer al cliente — cada uno con su propósito.
-:::
 
 ## Próximos pasos
 

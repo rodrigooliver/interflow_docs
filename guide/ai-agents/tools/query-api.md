@@ -34,7 +34,7 @@ curl -X GET "https://api.asaas.com/v3/customers?cpfCnpj=12345678900" \
   -H "access_token: $ASAAS_API_KEY"
 ```
 
-::: tip 💡 Assistente com web search
+::: tip Assistente com web search
 O botão **Gerar com IA** usa busca na web **somente na configuração**. No atendimento, o agente só chama as rotas que você permitiu.
 :::
 
@@ -42,18 +42,18 @@ O botão **Gerar com IA** usa busca na web **somente na configuração**. No ate
 
 Em cada rota, use **Testar rota**, preencha parâmetros de exemplo e execute. O teste roda no **servidor** (a chave não vai para o navegador). O status do último teste aparece como OK, Erro ou Não testado.
 
-::: warning ⚠️ POST / PUT
+::: warning POST / PUT
 Testes de criação ou atualização podem **gerar dados reais** no sistema externo. Não é necessário testar todas as rotas.
 :::
 
-::: info ⚠️ Chaves
+::: info Chaves
 A chave nunca entra no schema da tool nem na resposta ao modelo. Na UI aparece mascarada (`••••`).
 :::
 
 **Exemplo:**
 ```text
-👤 Cliente: Qual o status do pedido 12345?
-🤖 IA: [chama get_order] Seu pedido 12345 está em transporte.
+Cliente: Qual o status do pedido 12345?
+IA: [chama get_order] Seu pedido 12345 está em transporte.
 ```
 
 > Changelog: [v2026.7.10](/changelog/2026/07/2026.7.10)

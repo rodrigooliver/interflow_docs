@@ -22,20 +22,20 @@ Allows the AI to **save or update the customer address** in the record when they
 
 **Usage example:**
 ```text
-👤 Customer: My address is 120 Flower St, apt 3, São Paulo - SP, ZIP 01310-100
-🤖 AI: Done! I've saved that address to your record. Anything else you need?
+Customer: My address is 120 Flower St, apt 3, São Paulo - SP, ZIP 01310-100
+AI: Done! I've saved that address to your record. Anything else you need?
 ```
 
 ```text
-👤 Customer: [sends map location]
-🤖 AI: Got your location — I've updated the address on your record.
+Customer: [sends map location]
+AI: Got your location — I've updated the address on your record.
 ```
 
-::: tip 💡 Automatic context
+::: tip Automatic context
 Saved addresses are also included in the agent’s first **Customer info** context message, so the AI does not need to ask again.
 :::
 
-::: info ⚠️ Unique
+::: info Unique
 This action can be added only once per agent.
 :::
 

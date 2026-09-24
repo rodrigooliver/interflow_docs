@@ -22,20 +22,20 @@ Permite que a IA **salve ou atualize o endereço** do cliente no cadastro quando
 
 **Exemplo de uso:**
 ```text
-👤 Cliente: Meu endereço é Rua das Flores, 120, apto 3, São Paulo - SP, CEP 01310-100
-🤖 IA: Pronto! Já salvei esse endereço no seu cadastro. Precisa de mais alguma coisa?
+Cliente: Meu endereço é Rua das Flores, 120, apto 3, São Paulo - SP, CEP 01310-100
+IA: Pronto! Já salvei esse endereço no seu cadastro. Precisa de mais alguma coisa?
 ```
 
 ```text
-👤 Cliente: [envia localização no mapa]
-🤖 IA: Recebi sua localização e já atualizei o endereço no cadastro.
+Cliente: [envia localização no mapa]
+IA: Recebi sua localização e já atualizei o endereço no cadastro.
 ```
 
-::: tip 💡 Contexto automático
+::: tip Contexto automático
 Os endereços já cadastrados também entram no **Customer info** da primeira mensagem de contexto do agente, para a IA não precisar perguntar de novo.
 :::
 
-::: info ⚠️ Única
+::: info Única
 Esta ação pode ser adicionada apenas uma vez por agente.
 :::
 

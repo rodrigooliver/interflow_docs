@@ -15,10 +15,5 @@ Todas las actualizaciones de la plataforma Interflow en 2025.
 
 ---
 
-::: tip Consejo
 Usa la navegación lateral para acceder rápidamente a las versiones específicas.
-:::
-
-
-
 

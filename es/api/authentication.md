@@ -194,7 +194,7 @@ Recomendamos rotacionar suas API Keys periodicamente:
 
 ## Boas Práticas de Segurança
 
-### ✅ Faça
+### Faça
 
 - Guarde a API Key em variáveis de ambiente
 - Use chaves diferentes para cada ambiente
@@ -202,7 +202,7 @@ Recomendamos rotacionar suas API Keys periodicamente:
 - Rotacione as chaves periodicamente
 - Revogue chaves não utilizadas
 
-### ❌ Evite
+### Evite
 
 - Commitar API Keys em repositórios
 - Expor chaves em código frontend

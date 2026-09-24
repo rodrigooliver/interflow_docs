@@ -36,3 +36,4 @@ Atualizações do mês de março de 2026.
 ::: info Total
 **9 releases** com **9 funcionalidades** neste mês!
 :::
+

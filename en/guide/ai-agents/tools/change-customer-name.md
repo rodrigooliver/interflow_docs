@@ -9,11 +9,11 @@ Allows the AI to update the customer's name in the record during conversation.
 
 **Usage example:**
 ```text
-👤 Customer: My name is John Smith, not John Santos
-🤖 AI: Done, John! I've updated your record. How can I help you?
+Customer: My name is John Smith, not John Santos
+AI: Done, John! I've updated your record. How can I help you?
 ```
 
-::: info ⚠️ Unique
+::: info Unique
 This action can only be added once per agent.
 :::
 

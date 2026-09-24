@@ -34,7 +34,7 @@ curl -X GET "https://api.stripe.com/v1/customers?email=user@email.com" \
   -H "Authorization: Bearer $STRIPE_API_KEY"
 ```
 
-::: tip 💡 Assistant with web search
+::: tip Assistant with web search
 **Generate with AI** uses web search **only while configuring**. In live chats the agent only calls the routes you allowed.
 :::
 
@@ -42,18 +42,18 @@ curl -X GET "https://api.stripe.com/v1/customers?email=user@email.com" \
 
 On each route, use **Test route**, fill sample parameters, and run. The test runs on the **server** (the key never goes to the browser). Last-test status shows as OK, Error, or Untested.
 
-::: warning ⚠️ POST / PUT
+::: warning POST / PUT
 Create or update tests may **create real data** in the external system. Testing every route is not required.
 :::
 
-::: info ⚠️ Secrets
+::: info Secrets
 The key never enters the tool schema or the model’s tool result. In the UI it appears masked (`••••`).
 :::
 
 **Example:**
 ```text
-👤 Customer: What's the status of order 12345?
-🤖 AI: [calls get_order] Your order 12345 is in transit.
+Customer: What's the status of order 12345?
+AI: [calls get_order] Your order 12345 is in transit.
 ```
 
 > Changelog: [v2026.7.10](/en/changelog/2026/07/2026.7.10)

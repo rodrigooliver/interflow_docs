@@ -8,7 +8,7 @@ The Interflow Schedule module allows you to manage appointments, consultations, 
 
 ## Accessing the Schedule
 
-1. In the main menu, click on **Schedule** (📅)
+1. In the main menu, click on **Schedule** ()
 2. Choose the desired view (day, week, month)
 3. Navigate between dates using arrows or the calendar
 
@@ -90,9 +90,7 @@ Configure automated flows to allow customers to schedule directly via WhatsApp o
 - Confirm date and time
 - Send automatic confirmation
 
-::: tip 💡 Tip
 Use the **AI Agent** node with the scheduling tool to offer a complete conversational experience.
-:::
 
 ## Recurring Appointments
 
@@ -137,9 +135,9 @@ Configure automatic messages to remind customers of their appointments.
 1. Go to **Settings** → **Schedule**
 2. Locate **"Automatic Reminders"** section
 3. Enable desired reminders:
-   - ✅ **48 hours before**
-   - ✅ **24 hours before**
-   - ✅ **2 hours before** (optional)
+   - **48 hours before**
+   - **24 hours before**
+   - **2 hours before** (optional)
 4. Customize message template
 5. Save settings
 
@@ -184,10 +182,10 @@ Reply "RESCHEDULE" to change the time.
 
 ### Behavior
 
-- ✅ Sent only for **confirmed** appointments
-- ❌ Does not send if **cancelled**
-- 🔄 Respects configured business hours
-- 📊 Events logged for reports
+- Sent only for **confirmed** appointments
+- Does not send if **cancelled**
+- Respects configured business hours
+- Events logged for reports
 
 ## AI Integration
 
@@ -203,10 +201,10 @@ AI can manage appointments naturally:
 ### AI Respects Time-offs
 
 AI automatically:
-- ❌ **Does not offer** times during time-off periods
-- ❌ **Does not allow** creating appointments on blocked days
-- ✅ **Explains to customer** reason for unavailability
-- ✅ **Automatically suggests** available alternative dates
+- **Does not offer** times during time-off periods
+- **Does not allow** creating appointments on blocked days
+- **Explains to customer** reason for unavailability
+- **Automatically suggests** available alternative dates
 
 ## Import Events
 
@@ -225,22 +223,22 @@ AI automatically:
 
 | Status | Color | Description |
 |--------|-------|-------------|
-| **Pending** | 🟡 Yellow | Awaiting confirmation |
-| **Confirmed** | 🟢 Green | Customer confirmed |
-| **In progress** | 🔵 Blue | Service started |
-| **Completed** | ⚪ Gray | Service finished |
-| **Cancelled** | 🔴 Red | Cancelled |
-| **No-show** | ⚫ Black | Customer didn't show |
+| **Pending** | Yellow | Awaiting confirmation |
+| **Confirmed** | Green | Customer confirmed |
+| **In progress** | Blue | Service started |
+| **Completed** | Gray | Service finished |
+| **Cancelled** | Red | Cancelled |
+| **No-show** | Black | Customer didn't show |
 
 ## Mobile App
 
 ### Android Features
 
-- ✅ 6-7 day week view
-- ✅ Week starting on Sunday
-- ✅ Create and edit events
-- ✅ Protection against accidental gestures
-- ✅ Reminder notifications
+- 6-7 day week view
+- Week starting on Sunday
+- Create and edit events
+- Protection against accidental gestures
+- Reminder notifications
 
 ## Status automations
 
@@ -272,7 +270,4 @@ Automatic alerts in the **app** and **web** for the provider and selected users 
 - [AI Agents](/en/guide/ai-agents/) — Configure AI for scheduling
 - [Flow Builder](/en/guide/flows/builder) — Automate scheduling process
 - [Reports](/en/guide/reports/) — Scheduling metrics
-
-
-
 

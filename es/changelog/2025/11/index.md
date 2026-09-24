@@ -60,6 +60,3 @@ Actualizaciones del mes de noviembre de 2025.
 **14 releases** con **25 mejoras** este mes!
 :::
 
-
-
-

@@ -41,8 +41,8 @@ Volte para pedir informação novamente se inválida:
 [Texto] → "Informe seu email:"
 [Input] → Captura email
 [Condição] → Email válido?
-  ✅ Sim → Continua
-  ❌ Não → [Texto] "Email inválido. Tente novamente."
+  Sim → Continua
+  Não → [Texto] "Email inválido. Tente novamente."
            [Ir Para] → Volta ao Input
 ```
 
@@ -78,10 +78,10 @@ Vá para uma seção comum de diferentes pontos:
   [Input] → Captura resposta
   [Definir Variável] → tentativas = tentativas + 1
   [Condição] → resposta == 7?
-    ✅ Sim → "Acertou! 🎉"
-    ❌ Não → [Condição] → tentativas < 3?
-               ✅ Sim → [Ir Para: Loop]
-               ❌ Não → "Suas tentativas acabaram!"
+    Sim → "Acertou! "
+    Não → [Condição] → tentativas < 3?
+               Sim → [Ir Para: Loop]
+               Não → "Suas tentativas acabaram!"
 ```
 
 ## Boas Práticas

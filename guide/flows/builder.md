@@ -34,13 +34,13 @@ A barra superior contém:
 - **Variáveis** (ícone `{ }`): Abre o modal para gerenciar variáveis do fluxo
 - **Publicar**: Publica as alterações para produção
 - **Resetar**: Descarta alterações não publicadas
-- **Configurações** (⚙️): Abre as configurações do fluxo
+- **Configurações** (): Abre as configurações do fluxo
 
 ## Tipos de Fluxo
 
 A Interflow possui **4 tipos de fluxo**, cada um com comportamento e propósito específico:
 
-### 1. 💬 Geral (General)
+### 1. Geral (General)
 
 Fluxos de atendimento que podem ser iniciados manualmente ou por gatilhos automáticos.
 
@@ -62,7 +62,7 @@ Fluxos de atendimento que podem ser iniciados manualmente ou por gatilhos autom�
 - FAQ automatizado
 - Qualificação de leads
 
-### 2. 🔴 Fechamento de Atendimento (Attendance Closure)
+### 2. Fechamento de Atendimento (Attendance Closure)
 
 Fluxos silenciosos executados automaticamente ao encerrar um atendimento.
 
@@ -83,7 +83,7 @@ Fluxos silenciosos executados automaticamente ao encerrar um atendimento.
 - Envio de resumo por email
 - Atualização de dados no CRM
 
-### 3. 📈 Mudança de Estágio CRM (CRM Stage Change)
+### 3. Mudança de Estágio CRM (CRM Stage Change)
 
 Fluxos silenciosos executados quando um cliente muda de estágio no funil.
 
@@ -104,7 +104,7 @@ Fluxos silenciosos executados quando um cliente muda de estágio no funil.
 - Atualização de campos personalizados
 - Integração com sistemas externos
 
-### 4. 🔄 Transferência de Equipe (Team Transfer)
+### 4. Transferência de Equipe (Team Transfer)
 
 Fluxos silenciosos executados quando um chat é transferido para uma equipe.
 
@@ -130,15 +130,15 @@ Fluxos silenciosos executados quando um chat é transferido para uma equipe.
 
 | Característica | Geral | Fechamento | Estágio CRM | Transferência |
 |----------------|-------|------------|-------------|---------------|
-| Início manual | ✅ | ❌ | ❌ | ❌ |
-| Gatilhos | ✅ | ❌ | ❌ | ❌ |
-| Silencioso | ❌ | ✅ | ✅ | ✅ |
-| Nó Input | ✅ | ✅ | ❌ | ❌ |
-| Nó Encerrar | ✅ | ❌ | ✅ | ✅ |
+| Início manual | | | | |
+| Gatilhos | | | | |
+| Silencioso | | | | |
+| Nó Input | | | | |
+| Nó Encerrar | | | | |
 
 ## Configurações do Fluxo
 
-Acesse as configurações clicando no ícone de **engrenagem** (⚙️) no header do editor.
+Acesse as configurações clicando no ícone de **engrenagem** () no header do editor.
 
 ### Nome e Descrição
 
@@ -147,7 +147,7 @@ Acesse as configurações clicando no ícone de **engrenagem** (⚙️) no heade
 
 ### Tipo de Fluxo
 
-Selecione um dos 4 tipos descritos acima. 
+Selecione um dos 4 tipos descritos acima.
 
 ::: warning Atenção
 Ao alterar o tipo de fluxo, o sistema valida se os nós existentes são compatíveis. Nós incompatíveis devem ser removidos antes de salvar.
@@ -169,9 +169,9 @@ Quando o cliente envia várias mensagens curtas em sequência (ex: "Oi", "Tudo b
 
 **Exemplo:**
 ```
-Cliente: "Oi"           → Aguarda 20s
-Cliente: "Tudo bem?"    → Renova o timer, aguarda mais 20s
-Cliente: "Preciso..."   → Renova o timer, aguarda mais 20s
+Cliente: "Oi" → Aguarda 20s
+Cliente: "Tudo bem?" → Renova o timer, aguarda mais 20s
+Cliente: "Preciso..." → Renova o timer, aguarda mais 20s
 [20 segundos sem mensagem]
 → Processa todas as mensagens juntas
 ```
@@ -180,7 +180,7 @@ Cliente: "Preciso..."   → Renova o timer, aguarda mais 20s
 
 Nó não bloqueante para medir volume de passagem e/ou taxa de resposta em pontos específicos do fluxo. A janela de resposta é configurada **no próprio nó** (padrão: 48h). O rastreamento automático via timeout de "Aguardar Resposta" foi removido na v2026.7.3.
 
-👉 **[Ver guia completo: Ponto de Controle](/guide/flows/follow-up-response-rate)**
+**[Ver guia completo: Ponto de Controle](/guide/flows/follow-up-response-rate)**
 
 ### Ocultar da Lista de Início Rápido
 
@@ -217,7 +217,7 @@ Todo fluxo começa com um **nó Start**. Este nó é criado automaticamente e ma
 
 **Exemplo:**
 ```
-Olá, {{customer_name}}! 👋
+Olá, {{customer_name}}!
 
 Bem-vindo ao atendimento da Empresa XYZ.
 
@@ -231,10 +231,10 @@ Como posso ajudá-lo hoje?
 3. Configure as opções:
 
 ```
-1️⃣ Suporte Técnico
-2️⃣ Financeiro
-3️⃣ Vendas
-4️⃣ Falar com Atendente
+1⃣ Suporte Técnico
+2⃣ Financeiro
+3⃣ Vendas
+4⃣ Falar com Atendente
 ```
 
 ### Passo 4: Conectar Respostas
@@ -258,11 +258,11 @@ Condição ─┼─ Opção 2 → Fluxo Financeiro
 
 O Construtor de Fluxos oferece diversos tipos de nós organizados por categoria. Confira a documentação detalhada de cada um:
 
-👉 **[Ver todos os tipos de nós](/guide/flows/nodes/)**
+**[Ver todos os tipos de nós](/guide/flows/nodes/)**
 
 ### Resumo por Categoria
 
-#### 📤 Nós de Envio
+#### Nós de Envio
 
 | Nó | Descrição |
 |----|-----------|
@@ -273,13 +273,13 @@ O Construtor de Fluxos oferece diversos tipos de nós organizados por categoria.
 | [Enviar Documento](/guide/flows/nodes/document) | Envia PDFs e documentos |
 | [Enviar Email](/guide/flows/nodes/email) | Envia emails via SMTP |
 
-#### 📥 Nós de Recebimento
+#### Nós de Recebimento
 
 | Nó | Descrição |
 |----|-----------|
 | [Aguardar Resposta](/guide/flows/nodes/input) | Captura texto ou opções do cliente |
 
-#### 🔀 Nós de Controle
+#### Nós de Controle
 
 | Nó | Descrição |
 |----|-----------|
@@ -288,7 +288,7 @@ O Construtor de Fluxos oferece diversos tipos de nós organizados por categoria.
 | [Aleatório](/guide/flows/nodes/random) | Distribui aleatoriamente |
 | [Pular Para](/guide/flows/nodes/jump-to) | Redireciona para outro nó |
 
-#### 📊 Nós de Dados
+#### Nós de Dados
 
 | Nó | Descrição |
 |----|-----------|
@@ -296,7 +296,7 @@ O Construtor de Fluxos oferece diversos tipos de nós organizados por categoria.
 | [Atualizar Cliente](/guide/flows/nodes/update-customer) | Atualiza dados do cliente |
 | [Requisição HTTP](/guide/flows/nodes/request) | Chama APIs externas |
 
-#### 🤖 Nós de IA
+#### Nós de IA
 
 | Nó | Descrição |
 |----|-----------|
@@ -305,7 +305,7 @@ O Construtor de Fluxos oferece diversos tipos de nós organizados por categoria.
 | [ElevenLabs TTS](/guide/flows/nodes/elevenlabs) | Síntese de voz ElevenLabs |
 | [Minimax TTS](/guide/flows/nodes/minimax) | Síntese de voz Minimax |
 
-#### ⚙️ Nós de Sistema
+#### Nós de Sistema
 
 | Nó | Descrição |
 |----|-----------|
@@ -341,7 +341,7 @@ As variáveis criadas ficam disponíveis nos nós [Definir Variável](/guide/flo
 
 ## Boas Práticas
 
-### ✅ Faça
+### Faça
 
 - Mantenha fluxos simples e objetivos
 - Use mensagens curtas e claras
@@ -351,7 +351,7 @@ As variáveis criadas ficam disponíveis nos nós [Definir Variável](/guide/flo
 - Organize fluxos complexos com [Grupos](/guide/flows/nodes/group)
 - Configure debounce adequado para evitar respostas duplicadas
 
-### ❌ Evite
+### Evite
 
 - Fluxos muito longos e complexos
 - Muitas opções no menu (máx. 5-6)

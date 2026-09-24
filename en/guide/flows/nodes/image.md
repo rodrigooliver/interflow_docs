@@ -42,8 +42,8 @@ Texto que acompanha a imagem. Suporta:
 
 **Exemplo:**
 ```
-📦 Produto: {{product_name}}
-💰 Preço: R$ {{product_price}}
+Produto: {{product_name}}
+Preço: R$ {{product_price}}
 ```
 
 ### Fixar Mensagem
@@ -65,9 +65,9 @@ Envie imagens de produtos com informações:
 
 ```
 Legenda:
-🛍️ {{product_name}}
-💵 De R$ {{old_price}} por R$ {{new_price}}
-📦 Frete grátis!
+{{product_name}}
+De R$ {{old_price}} por R$ {{new_price}}
+Frete grátis!
 ```
 
 ### Comprovantes

@@ -9,11 +9,11 @@ Permite que la IA actualice el nombre del cliente en el registro durante la conv
 
 **Ejemplo de uso:**
 ```text
-👤 Cliente: Mi nombre es Juan García, no Juan Santos
-🤖 IA: ¡Listo, Juan! Ya actualicé tu registro. ¿Cómo puedo ayudarte?
+Cliente: Mi nombre es Juan García, no Juan Santos
+IA: ¡Listo, Juan! Ya actualicé tu registro. ¿Cómo puedo ayudarte?
 ```
 
-::: info ⚠️ Única
+::: info Única
 Esta acción solo puede ser agregada una vez por agente.
 :::
 

@@ -2,10 +2,6 @@
 
 Esta guía te ayudará a configurar Interflow en pocos minutos.
 
-::: tip TIEMPO ESTIMADO
-⏱️ **5-10 minutos** para configuración básica
-:::
-
 ## Paso 1: Crear tu Cuenta
 
 Accede a [app.interflow.chat/signup](https://app.interflow.chat/signup) para iniciar el registro.
@@ -142,7 +138,7 @@ Usa variables para personalizar tus mensajes automáticamente:
 **Ejemplo:**
 ```txt
 Atajo: hola
-Contenido: {{greeting}}, {{customer.firstName}}! 👋 
+Contenido: {{greeting}}, {{customer.firstName}}!
 ¿Cómo puedo ayudarte hoy?
 ```
 
@@ -180,7 +176,7 @@ Antes de comenzar a atender, verifica:
 
 <a href="/es/guide/channels/" style="text-decoration: none;">
   <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">📱</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Canales de Atención</h4>
     <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Conecta WhatsApp, Instagram y más</p>
   </div>
@@ -188,7 +184,7 @@ Antes de comenzar a atender, verifica:
 
 <a href="/es/guide/chat/interface" style="text-decoration: none;">
   <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">💬</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Interfaz de Chat</h4>
     <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Aprende a usar la interfaz de atención</p>
   </div>
@@ -196,7 +192,7 @@ Antes de comenzar a atender, verifica:
 
 <a href="/es/guide/flows/builder" style="text-decoration: none;">
   <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">🤖</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Constructor de Flujos</h4>
     <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Domina la automatización de atención</p>
   </div>
@@ -208,6 +204,6 @@ Antes de comenzar a atender, verifica:
 
 Si tienes dudas durante la configuración:
 
-- 📧 **Email**: suporte@interflow.chat
-- 💬 **Chat**: Disponible en la plataforma
-- 📖 **FAQ**: [Preguntas frecuentes](/es/faq)
+- **Email**: suporte@interflow.chat
+- **Chat**: Disponible en la plataforma
+- **FAQ**: [Preguntas frecuentes](/es/faq)

@@ -88,9 +88,7 @@ To receive push:
 - The user must have logged in to the app or web at least once (the device is registered to receive push notifications)
 - Browser or app notifications must be allowed on the device
 
-::: tip 💡 Tip
 Combine a **1 h** push reminder for the team to prepare and a **24 h** WhatsApp template for the customer to confirm — each channel with its purpose.
-:::
 
 ## Next steps
 

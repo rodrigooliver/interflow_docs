@@ -55,18 +55,18 @@ The system automatically detects and blocks duplicate customer creation.
 
 | Field | Detection |
 |-------|-----------|
-| Phone | ✅ Exact (ignores formatting) |
-| Email | ✅ Exact (case insensitive) |
-| WhatsApp | ✅ Exact (normalized) |
+| Phone | Exact (ignores formatting) |
+| Email | Exact (case insensitive) |
+| WhatsApp | Exact (normalized) |
 
 **Options when duplicate found:**
 
-- 🚫 New creation is blocked
-- 🔗 Link to existing record shown
-- 🔄 Option to merge data
-- ✏️ Option to update existing
+- New creation is blocked
+- Link to existing record shown
+- Option to merge data
+- Option to update existing
 
-::: tip 💡 Configuration
+::: tip Configuration
 Automatic merge can be disabled in **Settings → Customers → "Allow duplicates"**.
 :::
 
@@ -98,7 +98,7 @@ In customer edit, the **Addresses** section lets you manage one or more delivery
 3. Fill in the fields and, optionally, the coordinates
 4. Save
 
-::: tip 💡 AI Agent
+::: tip AI Agent
 Addresses can also be written automatically by the **Update Customer Address** tool — see [AI Tools](/en/guide/ai-agents/tools/change-customer-address).
 :::
 
@@ -151,12 +151,12 @@ Type in search field to find customers by:
 Agents see only customers from teams they're assigned to.
 
 **Affected areas:**
-- 📋 Customer list
-- 🔍 Customer search
-- 📊 Reports (filtered data)
-- 📤 Exports (respects visibility)
+- Customer list
+- Customer search
+- Reports (filtered data)
+- Exports (respects visibility)
 
-::: warning ⚠️ Security
+::: warning Security
 Administrators continue seeing all customers. This setting protects sensitive data between teams.
 :::
 
@@ -178,7 +178,7 @@ Administrators continue seeing all customers. This setting protects sensitive da
 3. Select format (CSV, Excel, JSON)
 4. Download file
 
-::: warning ⚠️ Sensitive Data
+::: warning Sensitive Data
 If "Hide Contact Data from Agents" option is active, agents won't see email, phone and WhatsApp in exports.
 :::
 
@@ -186,7 +186,7 @@ If "Hide Contact Data from Agents" option is active, agents won't see email, pho
 
 Generate reports with custom groupings and subdivisions:
 
-1. In **Customers** → click **"Advanced Reports"** 📊
+1. In **Customers** → click **"Advanced Reports"**
 2. Click **"New Configuration"**
 3. Follow the 5-step wizard:
    - **Step 1**: Upload JSON (export from customer list)
@@ -214,7 +214,7 @@ Administrators and owners can delete multiple customers simultaneously, with the
 3. In the confirmation modal, check **"Also delete all linked chats"** (visible only to admin and owner)
 4. Confirm the deletion
 
-::: warning ⚠️ Irreversible
+::: warning Irreversible
 Messages, files, and flow sessions of all chats for the selected customers will be permanently deleted. POS orders are kept.
 :::
 
@@ -226,7 +226,6 @@ Choose how many customers to display per page in the listing:
 - The list automatically reloads when you change the value
 
 ---
-
 
 ## Sales Funnel
 
@@ -241,7 +240,7 @@ Use the search field at the top of the funnel to find a customer in any stage:
 3. Click a result to open the customer **edit modal**
 4. If the card is already loaded in the column, it is also highlighted on the board
 
-::: tip 💡
+::: tip
 Search covers the entire current funnel (not only loaded cards) and respects **Only mine** and **Hide closed**.
 :::
 
@@ -256,7 +255,7 @@ Use **Hide closed** at the top of the funnel to hide customers whose **last conv
 3. Columns show only pending, in-progress, or no-conversation customers
 4. Turn it off to see everyone again
 
-::: tip 💡
+::: tip
 This option does not delete data — it only filters the view. It works with **Only mine**.
 :::
 
@@ -270,12 +269,12 @@ Granular control over who can see and access each customer in the CRM.
 
 Agents see only customers from teams they are assigned to:
 
-- 📋 Customer list
-- 🔍 Customer search
-- 📊 Reports (filtered data)
-- 📤 Exports (respects visibility)
+- Customer list
+- Customer search
+- Reports (filtered data)
+- Exports (respects visibility)
 
-::: info ℹ️ Administrators
+::: info ℹ Administrators
 Administrators continue to see all customers. This setting protects sensitive data between teams.
 :::
 
@@ -305,9 +304,7 @@ When identifying duplicates:
 3. Choose which record to keep as primary
 4. Confirm merge
 
-::: tip TIP
 Merge keeps complete history from both records.
-:::
 
 ## Custom Fields
 
@@ -318,20 +315,20 @@ When renaming a custom field option of select type, all records are automaticall
 **How it works:**
 
 1. Access a customer → **Custom Fields**
-2. Click ✏️ next to the field
-3. Click ✏️ next to the option you want to rename
+2. Click next to the field
+3. Click next to the option you want to rename
 4. Type new value
 5. Click **"Update"**
 
 **What gets updated:**
-- ✅ Field definition
-- ✅ All customers using that option
-- ✅ Shows how many records were affected
+- Field definition
+- All customers using that option
+- Shows how many records were affected
 
 **Protections:**
-- 🔒 Detects concurrent edits
-- 🚫 Blocks duplicates
-- ⚠️ Warns about conflicts
+- Detects concurrent edits
+- Blocks duplicates
+- Warns about conflicts
 
 ## Notes and Tasks
 

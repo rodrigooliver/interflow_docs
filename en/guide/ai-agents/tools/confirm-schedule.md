@@ -12,10 +12,10 @@ Confirms existing customer appointments.
 
 **Usage example:**
 ```text
-🤖 AI: Hello! I see you have an appointment tomorrow at 10am.
+AI: Hello! I see you have an appointment tomorrow at 10am.
        Can I confirm your attendance?
 
-👤 Customer: Yes, confirmed
-🤖 AI: Perfect! Your appointment is confirmed. See you tomorrow! ✅
+Customer: Yes, confirmed
+AI: Perfect! Your appointment is confirmed. See you tomorrow!
 ```
 

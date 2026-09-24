@@ -8,7 +8,7 @@ El módulo de Informes de Interflow ofrece análisis detallados sobre atención,
 
 ## Accediendo a Informes
 
-1. En el menú principal, haz clic en **Informes** (📊)
+1. En el menú principal, haz clic en **Informes** ()
 2. Selecciona el tipo de informe deseado
 3. Configura los filtros de período y criterios
 4. Visualiza o exporta los datos
@@ -37,10 +37,10 @@ Análisis de rendimiento de atención al cliente.
 
 ### Visualizaciones
 
-- 📊 **Gráficos de línea**: Evolución a lo largo del tiempo
-- 📈 **Gráficos de barra**: Comparativo entre períodos/equipos
-- 🥧 **Gráficos de pizza**: Distribución por categoría
-- 📋 **Tablas**: Datos detallados exportables
+- **Gráficos de línea**: Evolución a lo largo del tiempo
+- **Gráficos de barra**: Comparativo entre períodos/equipos
+- **Gráficos de pizza**: Distribución por categoría
+- **Tablas**: Datos detallados exportables
 
 ## Informes Avanzados de Clientes
 
@@ -48,7 +48,7 @@ Generador de informes con agrupaciones y subdivisiones personalizadas.
 
 ### Cómo Crear
 
-1. En **Clientes** → haz clic en **"Informes Avanzados"** 📊
+1. En **Clientes** → haz clic en **"Informes Avanzados"**
 2. Haz clic en **"Nueva Configuración"**
 3. Sigue el asistente de 5 pasos:
 
@@ -115,9 +115,9 @@ Analiza el rendimiento individual y colectivo del equipo.
 
 Visualiza los mejores rendimientos:
 
-- 🥇 **Top agentes** por volumen
-- ⚡ **Más rápidos** en respuesta
-- ⭐ **Mejor evaluados** por clientes
+- **Top agentes** por volumen
+- **Más rápidos** en respuesta
+- **Mejor evaluados** por clientes
 
 ## Informes de Citas
 
@@ -158,9 +158,7 @@ Métricas del módulo de agenda.
 3. Selecciona el formato
 4. Espera la descarga
 
-::: tip 💡 Consejo
 Para informes grandes, el sistema genera el archivo en background y envía por email cuando esté listo.
-:::
 
 ## Programación de Informes
 
@@ -183,12 +181,12 @@ Recibe informes automáticamente por email.
 
 | Perfil | Acceso |
 |--------|--------|
-| Owner | ✅ Todos los informes |
-| Admin | ✅ Todos los informes |
-| Manager | ✅ Informes de su equipo |
-| Agent | ⚠️ Solo métricas personales |
+| Owner | Todos los informes |
+| Admin | Todos los informes |
+| Manager | Informes de su equipo |
+| Agent | Solo métricas personales |
 
-::: warning ⚠️ Atención
+::: warning Atención
 Agentes con restricción de visibilidad ven solo datos filtrados de sus equipos.
 :::
 
@@ -197,7 +195,4 @@ Agentes con restricción de visibilidad ven solo datos filtrados de sus equipos.
 - [Agenda](/es/guide/schedule/) - Métricas de citas
 - [CRM y Clientes](/es/guide/crm/customers) - Informes de clientes
 - [Configuraciones](/es/guide/settings/) - Permisos de informes
-
-
-
 

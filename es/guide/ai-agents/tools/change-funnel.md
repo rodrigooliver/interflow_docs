@@ -16,8 +16,8 @@ Mueve al cliente entre etapas del embudo de ventas/atención.
 
 **Ejemplo de uso:**
 ```text
-👤 Cliente: Quiero cerrar el plan Pro
-🤖 IA: ¡Excelente elección! Voy a registrar tu decisión y un consultor 
+Cliente: Quiero cerrar el plan Pro
+IA: ¡Excelente elección! Voy a registrar tu decisión y un consultor
        se pondrá en contacto para finalizar.
 
 [Sistema: Cliente movido a etapa "Cierre"]

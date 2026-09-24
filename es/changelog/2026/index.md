@@ -33,6 +33,5 @@ Todas las actualizaciones de la plataforma Interflow en 2026.
 
 ---
 
-::: tip Consejo
 Use la navegación lateral para acceder rápidamente a versiones específicas.
-:::
+

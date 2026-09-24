@@ -21,8 +21,8 @@ When enabled, the summary includes:
 
 **Usage example:**
 ```text
-👤 Customer: I need to speak to a human about a technical issue
-🤖 AI: Got it! I'll transfer you to our technical support team. 
+Customer: I need to speak to a human about a technical issue
+AI: Got it! I'll transfer you to our technical support team.
        One moment, please...
 
 [System: Chat transferred to "Technical Support" with summary]

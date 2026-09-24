@@ -2,7 +2,7 @@
 
 O módulo de Cobrança é o sistema financeiro integrado do Interflow. Ele permite gerenciar contratos, parcelas, divisão de receita entre recebedores, integração com gateways de pagamento e emissão/baixa de cobranças, tudo dentro da mesma plataforma.
 
-::: tip 💡 Acesso
+::: tip Acesso
 O módulo está disponível em **Menu lateral → Cobrança** (ícone de carteira).
 :::
 

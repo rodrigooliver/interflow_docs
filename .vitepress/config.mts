@@ -1,4 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { dirname, resolve } from 'node:path'
+import { fileURLToPath } from 'node:url'
+
+const docsRoot = resolve(dirname(fileURLToPath(import.meta.url)), '..')
 
 // URL base do site (usado para sitemap e meta tags)
 const SITE_URL = 'https://docs.interflow.chat'
@@ -613,6 +617,20 @@ function getSidebar(lang: string = '') {
 export default defineConfig({
   title: "Interflow Docs",
   description: "Documentação oficial da plataforma Interflow - Atendimento multicanal e CRM",
+  
+  vite: {
+  resolve: {
+  alias: {
+  '@fontsource-variable/geist': resolve(docsRoot, 'node_modules/@fontsource-variable/geist/index.css'),
+  '@fontsource-variable/geist-mono': resolve(docsRoot, 'node_modules/@fontsource-variable/geist-mono/index.css'),
+  },
+  },
+  server: {
+  fs: {
+  allow: [docsRoot],
+  },
+  },
+  },
   
   // Configuração do Sitemap
   sitemap: {

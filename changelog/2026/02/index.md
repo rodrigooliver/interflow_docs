@@ -36,3 +36,4 @@ Atualizações do mês de fevereiro de 2026.
 ::: info Total
 **8 releases** com **10 funcionalidades** neste mês!
 :::
+

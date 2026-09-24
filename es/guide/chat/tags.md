@@ -11,3 +11,4 @@ Cree etiquetas con **nombre** y **color**. Úselas en filtros y [disparos masivo
 ::: warning
 Borrar una tag **no elimina** el historial de uso en mensajes/prompts.
 :::
+

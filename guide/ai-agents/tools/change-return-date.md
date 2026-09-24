@@ -14,9 +14,9 @@ Reprograma o follow-up automático do cliente.
 
 **Exemplo de uso:**
 ```text
-👤 Cliente: Agora não posso, me liga quinta-feira
-🤖 IA: Sem problemas! Entro em contato na quinta-feira. 
-       Tenha um ótimo dia! 👋
+Cliente: Agora não posso, me liga quinta-feira
+IA: Sem problemas! Entro em contato na quinta-feira.
+       Tenha um ótimo dia!
 
 [Sistema: Follow-up reagendado para quinta-feira]
 ```

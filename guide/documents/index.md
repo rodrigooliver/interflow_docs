@@ -1,21 +1,21 @@
-# 📄 Modelos de Documentos
+# Modelos de Documentos
 
 O Interflow possui um poderoso sistema de geração de documentos que permite criar modelos personalizados em PDF e DOCX com dados dinâmicos de clientes e variáveis customizadas.
 
-## 🎯 Características Principais
+## Características Principais
 
-### ✨ Editor Visual
+### Editor Visual
 - **Editor HTML WYSIWYG** com Jodit Editor
 - Formatação rica de texto (negrito, itálico, cores, tamanhos)
 - Suporte a tabelas, listas e imagens
 - Estilos CSS inline para garantir fidelidade na exportação
 
-### 📊 Variáveis Dinâmicas
+### Variáveis Dinâmicas
 - **Dados do Cliente**: Nome, email, telefone, endereço, documentos
 - **Dados do Sistema**: Data atual, organização, usuário
 - **Variáveis Customizadas**: Crie campos específicos para seus modelos
 
-### 🔧 Helpers Handlebars
+### Helpers Handlebars
 Sistema completo de transformação de dados:
 
 - **Texto**: `uppercase`, `lowercase`, `capitalize`, `titleCase`
@@ -26,7 +26,7 @@ Sistema completo de transformação de dados:
 - **Hora**: `formatTime`, `formatTimeWithSeconds` (com suporte a GMT)
 - **Condicionais**: Exibir conteúdo baseado em condições
 
-### 🎨 Configurações Avançadas
+### Configurações Avançadas
 
 #### PDF
 - Margens personalizadas (superior, inferior, esquerda, direita)
@@ -40,10 +40,10 @@ Sistema completo de transformação de dados:
 - Posicionamento centralizado ou página completa
 - Geração nativa com biblioteca `docx`
 
-## 📚 Próximos Passos
+## Próximos Passos
 
 <div class="tip custom-block">
-  <p class="custom-block-title">💡 Comece Agora</p>
+  <p class="custom-block-title"> Comece Agora</p>
   <p>Explore as seções abaixo para aprender a criar modelos poderosos:</p>
   <ul>
     <li><a href="./templates">Criar Modelos</a> - Aprenda a criar e configurar templates</li>
@@ -52,7 +52,7 @@ Sistema completo de transformação de dados:
   </ul>
 </div>
 
-## 🚀 Casos de Uso
+## Casos de Uso
 
 ### Contratos e Propostas
 Gere contratos personalizados com dados do cliente, valores por extenso e cláusulas condicionais.

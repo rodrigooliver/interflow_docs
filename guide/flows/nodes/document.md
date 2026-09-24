@@ -55,7 +55,7 @@ Envie contratos para assinatura:
 
 ```
 Legenda:
-📄 Contrato de Prestação de Serviços
+Contrato de Prestação de Serviços
 Por favor, leia atentamente e nos avise se tiver dúvidas.
 ```
 
@@ -65,7 +65,7 @@ Envie boletos ou faturas em PDF:
 
 ```
 Legenda:
-💳 Boleto - Vencimento: {{due_date}}
+Boleto - Vencimento: {{due_date}}
 Valor: R$ {{amount}}
 ```
 

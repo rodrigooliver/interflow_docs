@@ -37,7 +37,7 @@ Atalhos com **apenas uma mensagem** continuam funcionando exatamente como antes.
 
 Na listagem, atalhos com mais de uma mensagem exibem um badge (ex.: `3 msgs`).
 
-::: tip 💡 Compatibilidade
+::: tip Compatibilidade
 Atalhos criados antes desta versão são convertidos automaticamente para o formato de passos. Não é necessário recriá-los.
 :::
 
@@ -68,7 +68,7 @@ Se o cliente não tiver CPF/CNPJ no cadastro, <code v-pre>{{customer.document}}<
 
 Para cancelar, use **Cancelar sequência**, **ESC** ou clique fora do modal.
 
-::: info 📌 Campo de mensagem
+::: info Campo de mensagem
 O campo de digitação normal **permanece visível** enquanto o modal está aberto, para você manter o contexto da conversa.
 :::
 

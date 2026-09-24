@@ -33,6 +33,5 @@ All Interflow platform updates in 2026.
 
 ---
 
-::: tip Tip
 Use the side navigation to quickly access specific versions.
-:::
+

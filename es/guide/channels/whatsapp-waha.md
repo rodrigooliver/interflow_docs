@@ -73,9 +73,7 @@ La verificación usa una extensión del navegador (necesaria porque la confirmac
 3. En algunos casos WhatsApp muestra un código de **4 dígitos** en el teléfono: compruebe que coincida con la pantalla y haga clic en **El código coincide**
 4. Espere a que el estado cambie a **Conectado**
 
-::: tip Consejo
 No todas las cuentas piden clave de acceso. Si el canal se conecta solo con el código QR o el de emparejamiento, no hace falta ningún paso extra.
-:::
 
 ### Paso 3: Confirmar Conexión
 
@@ -85,10 +83,10 @@ Después de escanear (y completar la clave de acceso, si se solicita), el estado
 
 Para evitar desconexiones:
 
-- ✅ Mantén el celular conectado a internet
-- ✅ No desconectes manualmente el dispositivo
-- ✅ Evita usar el mismo número en otros servicios
-- ❌ No hagas logout del WhatsApp en el celular
+- Mantén el celular conectado a internet
+- No desconectes manualmente el dispositivo
+- Evita usar el mismo número en otros servicios
+- No hagas logout del WhatsApp en el celular
 
 ## Sincronización de Mensajes
 
@@ -105,12 +103,12 @@ Recupera mensajes históricos del WhatsApp que no entraron automáticamente.
 
 ### Qué sucede
 
-- ✅ Busca mensajes del período seleccionado
-- ✅ Sincroniza con timestamp original
-- ⏭️ Ignora mensajes ya existentes
-- ✅ Actualiza estado correcto (enviado, entregado, leído)
+- Busca mensajes del período seleccionado
+- Sincroniza con timestamp original
+- ⏭ Ignora mensajes ya existentes
+- Actualiza estado correcto (enviado, entregado, leído)
 
-::: tip 💡 Cuándo usar
+::: tip Cuándo usar
 Útil cuando reconectaste el canal y quieres recuperar conversaciones que ocurrieron mientras estaba desconectado.
 :::
 
@@ -120,10 +118,10 @@ Recibe y responde mensajes de grupos de WhatsApp.
 
 ### Cómo funciona
 
-- 💬 Grupos aparecen en la lista de conversaciones
-- 👤 Identifica quién envió en el grupo
-- ↩️ Responde directamente al grupo
-- 📊 Historial completo preservado
+- Grupos aparecen en la lista de conversaciones
+- Identifica quién envió en el grupo
+- ↩ Responde directamente al grupo
+- Historial completo preservado
 
 ### Funciones Avanzadas de Grupos
 
@@ -152,7 +150,7 @@ La foto del grupo se muestra automáticamente en el encabezado del chat.
 2. Visualiza todos los miembros
 3. Usa **"Agregar como cliente"** para quienes tengan número disponible
 
-::: info ℹ️ Privacidad (Meta)
+::: info ℹ Privacidad (Meta)
 Algunos participantes aparecen solo con identificador (@lid por políticas de Meta). En esos casos, usa el menú del mensaje cuando el participante envíe algo en el grupo.
 :::
 
@@ -219,7 +217,7 @@ Si usas WhatsApp Official (API Meta), configura un canal WAHA auxiliar para supe
 3. El input completo de mensajes aparece (texto, archivos, audio, emoji)
 4. El mensaje se envía por WAHA y se registra normalmente en el historial
 
-::: tip 💡 Nota
+::: tip Nota
 El canal auxiliar **no aparece en el listado general** de canales — solo es visible dentro de la configuración del canal official.
 :::
 
@@ -254,14 +252,14 @@ WhatsApp puede bloquear el **primer contacto** (un número con el que ese canal 
 
 Para evitar bloqueos del WhatsApp:
 
-### ✅ Haz
+### Haz
 
 - Envía mensajes solo a quienes autorizaron
 - Responde rápidamente a los clientes
 - Usa lenguaje profesional
 - Ten un horario de atención
 
-### ❌ Evita
+### Evita
 
 - Enviar mensajes en masa no solicitados
 - Usar lenguaje promocional agresivo
@@ -285,9 +283,7 @@ Si el canal se desconecta:
 3. Escanea el nuevo QR Code
 4. Espera la reconexión
 
-::: tip CONSEJO
 Si hay desconexiones frecuentes, verifica la conexión de internet del celular y considera migrar para WhatsApp Business API.
-:::
 
 ## Solución de Problemas
 

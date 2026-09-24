@@ -28,7 +28,7 @@ Selecione o fluxo que deseja acionar. Use o campo de busca para filtrar por nome
 
 Escolha em qual nó o fluxo de destino deve começar. Se não selecionar, o fluxo iniciará pelo nó padrão (`start`).
 
-::: tip 💡 Flexibilidade
+::: tip Flexibilidade
 Você pode iniciar o fluxo de destino em qualquer nó, não necessariamente no início. Isso permite criar pontos de entrada diferentes para o mesmo fluxo conforme o contexto.
 :::
 
@@ -44,9 +44,9 @@ Mapeie as variáveis que deseja passar para o fluxo de destino:
 **Exemplos de mapeamento:**
 
 ```
-nome_cliente  ←  {{customer_name}}      (passa variável do fluxo atual)
-origem        ←  whatsapp               (valor fixo)
-descricao     ←  Pedido #{{pedido_id}}  (interpola múltiplas variáveis)
+nome_cliente ← {{customer_name}} (passa variável do fluxo atual)
+origem ← whatsapp (valor fixo)
+descricao ← Pedido #{{pedido_id}} (interpola múltiplas variáveis)
 ```
 
 ## Comportamento
@@ -57,7 +57,7 @@ Ao chegar neste nó durante uma conversa:
 2. O fluxo de destino é **iniciado** com as variáveis mapeadas já disponíveis
 3. A conversa continua sem interrupção para o cliente
 
-::: warning ⚠️ Atenção
+::: warning Atenção
 Este nó não tem saída — ele é sempre um nó terminal. Após ele, o fluxo de destino assume completamente.
 :::
 
@@ -67,10 +67,10 @@ Este nó não tem saída — ele é sempre um nó terminal. Após ele, o fluxo d
 Fluxo Principal (Atendimento Geral)
 ├── Saudação → Triagem
 ├── Cliente quer suporte técnico?
-│   └── Nó "Chamar outro Fluxo"
-│       └── Fluxo: "Suporte Técnico"
-│           └── Nó inicial: "Coletar dados do problema"
-│           └── Variáveis: motivo = "{{motivo_contato}}"
+│ └── Nó "Chamar outro Fluxo"
+│ └── Fluxo: "Suporte Técnico"
+│ └── Nó inicial: "Coletar dados do problema"
+│ └── Variáveis: motivo = "{{motivo_contato}}"
 └── Cliente quer vendas?
     └── Nó "Chamar outro Fluxo"
         └── Fluxo: "Qualificação de Vendas"
@@ -78,10 +78,10 @@ Fluxo Principal (Atendimento Geral)
 
 ## Boas Práticas
 
-- ✅ Crie fluxos modulares para saudação, triagem e encerramento
-- ✅ Use mapeamento de variáveis para manter o contexto entre fluxos
-- ✅ Escolha o nó de entrada correto para evitar repetir etapas
-- ❌ Evite criar loops (fluxo A chama B, que chama A novamente)
+- Crie fluxos modulares para saudação, triagem e encerramento
+- Use mapeamento de variáveis para manter o contexto entre fluxos
+- Escolha o nó de entrada correto para evitar repetir etapas
+- Evite criar loops (fluxo A chama B, que chama A novamente)
 
 ## Próximos Passos
 

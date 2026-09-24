@@ -16,8 +16,8 @@ Move o cliente entre etapas do funil de vendas/atendimento.
 
 **Exemplo de uso:**
 ```text
-👤 Cliente: Quero fechar o plano Pro
-🤖 IA: Excelente escolha! Vou registrar sua decisão e um consultor 
+Cliente: Quero fechar o plano Pro
+IA: Excelente escolha! Vou registrar sua decisão e um consultor
        entrará em contato para finalizar.
 
 [Sistema: Cliente movido para etapa "Fechamento"]

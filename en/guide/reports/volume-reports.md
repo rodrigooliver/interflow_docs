@@ -12,7 +12,7 @@ Access to the Reports module is exclusive to **Owners**, **Administrators**, and
 
 ## How to Access
 
-1. In the sidebar, click **Reports** (📊)
+1. In the sidebar, click **Reports** ()
 2. On the reports page, choose:
    - **Volume by Agent** – individual messages from each team member
    - **Volume by Team** – messages grouped by team
@@ -61,7 +61,7 @@ Hover over the chart to see the exact values at each point.
 
 ## Printing
 
-Click the **Print** button (🖨️) next to the period selector to generate a clean print version.
+Click the **Print** button () next to the period selector to generate a clean print version.
 
 The printed version includes:
 - Report title and subtitle
@@ -71,9 +71,7 @@ The printed version includes:
 - Summary cards with totals
 - Chart
 
-::: tip 💡 Tip
 The sidebar, buttons, and period selector are automatically hidden on print. No configuration needed.
-:::
 
 ## Usage Examples
 

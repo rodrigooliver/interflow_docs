@@ -1,8 +1,8 @@
 # Interflow Docs
 
-📚 Documentação oficial da plataforma Interflow.
+Documentação oficial da plataforma Interflow.
 
-🌐 **Site**: [docs.interflow.chat](https://docs.interflow.chat)
+**Site**: [docs.interflow.chat](https://docs.interflow.chat)
 
 ## Sobre
 
@@ -10,9 +10,9 @@ Este é o projeto de documentação pública da Interflow, uma plataforma de ate
 
 ## Idiomas Suportados
 
-- 🇧🇷 **Português (Brasil)** - Idioma principal
-- 🇺🇸 **English** - English version
-- 🇪🇸 **Español** - Versión en español
+- **Português (Brasil)** - Idioma principal
+- **English** - English version
+- **Español** - Versión en español
 
 ## Desenvolvimento
 
@@ -54,31 +54,31 @@ O servidor será iniciado em `http://localhost:3031`.
 ```
 interflow_docs/
 ├── .vitepress/
-│   └── config.mts          # Configuração do VitePress
+│ └── config.mts # Configuração do VitePress
 ├── public/
-│   ├── logo.svg            # Logo do site
-│   ├── hero-image.svg      # Imagem da home
-│   └── images/             # Imagens da documentação
-├── guia/                   # Guias em português
-│   ├── introducao.md
-│   ├── inicio-rapido.md
-│   ├── canais/
-│   ├── chat/
-│   ├── fluxos/
-│   ├── crm/
-│   └── ...
-├── api/                    # Documentação da API (PT)
-├── recursos/               # Recursos (PT)
-├── en/                     # Versão em inglês
-│   ├── guide/
-│   ├── api/
-│   └── ...
-├── es/                     # Versão em espanhol
-│   ├── guia/
-│   ├── api/
-│   └── ...
-├── index.md                # Página inicial (PT)
-├── changelog.md            # Histórico de versões
+│ ├── logo.svg # Logo do site
+│ ├── hero-image.svg # Imagem da home
+│ └── images/ # Imagens da documentação
+├── guia/ # Guias em português
+│ ├── introducao.md
+│ ├── inicio-rapido.md
+│ ├── canais/
+│ ├── chat/
+│ ├── fluxos/
+│ ├── crm/
+│ └── ...
+├── api/ # Documentação da API (PT)
+├── recursos/ # Recursos (PT)
+├── en/ # Versão em inglês
+│ ├── guide/
+│ ├── api/
+│ └── ...
+├── es/ # Versão em espanhol
+│ ├── guia/
+│ ├── api/
+│ └── ...
+├── index.md # Página inicial (PT)
+├── changelog.md # Histórico de versões
 ├── package.json
 └── README.md
 ```
@@ -105,7 +105,7 @@ interflow_docs/
 ```markdown
 <!-- Placeholder para screenshot -->
 <div style="background: #f5f5f5; border: 2px dashed #ccc; ...">
-  <span>📸</span>
+  <span></span>
   <p>Screenshot: Descrição</p>
 </div>
 ```
@@ -116,6 +116,7 @@ interflow_docs/
 ::: warning EM ATUALIZAÇÃO
 Esta documentação está em fase de atualização contínua.
 :::
+
 ```
 
 ## Deploy
@@ -147,7 +148,7 @@ Copyright © 2024-presente Interflow. Todos os direitos reservados.
 
 ---
 
-🔗 **Links Úteis**
+**Links Úteis**
 
 - [Plataforma Interflow](https://app.interflow.chat)
 - [Site Institucional](https://interflow.chat)

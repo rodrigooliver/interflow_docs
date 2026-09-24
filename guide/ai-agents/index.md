@@ -6,7 +6,7 @@ Configure agentes de inteligência artificial para automatizar atendimentos na I
 
 Os Agentes IA da Interflow são assistentes virtuais inteligentes que podem atender clientes de forma autônoma, responder perguntas, agendar compromissos, transferir para equipes e muito mais.
 
-::: info 🔄 Fluxo Automático
+::: info Fluxo Automático
 Ao criar um Agente IA, o sistema **gera automaticamente um fluxo** vinculado a ele. No atendimento automático, o agente opera nesse fluxo. Também dá para [executar o mesmo agente em uma mensagem](/guide/ai-agents/run-on-message), sem iniciar fluxo.
 :::
 
@@ -26,15 +26,15 @@ Modelos com raciocínio avançado (nível de esforço e verbosidade configuráve
 
 | Modelo | Descrição | Custo |
 |--------|-----------|-------|
-| GPT-5.5 | Raciocínio premium | 💲💲💲💲 |
-| GPT-5.4 | Raciocínio mais recente | 💲💲💲 |
-| GPT-5.4 Mini | Raciocínio econômico | 💲 |
-| GPT-5.4 Nano | Raciocínio super econômico | 💲 |
-| GPT-5.2 | Raciocínio avançado | 💲💲💲 |
-| GPT-5.1 | Raciocínio avançado | 💲💲💲 |
-| GPT-5 | Raciocínio | 💲💲💲 |
-| GPT-5 Mini | Raciocínio econômico | 💲 |
-| GPT-5 Nano | Raciocínio super econômico | 💲 |
+| GPT-5.5 | Raciocínio premium | |
+| GPT-5.4 | Raciocínio mais recente | |
+| GPT-5.4 Mini | Raciocínio econômico | |
+| GPT-5.4 Nano | Raciocínio super econômico | |
+| GPT-5.2 | Raciocínio avançado | |
+| GPT-5.1 | Raciocínio avançado | |
+| GPT-5 | Raciocínio | |
+| GPT-5 Mini | Raciocínio econômico | |
+| GPT-5 Nano | Raciocínio super econômico | |
 
 ### OpenAI — Conversação (Chat)
 
@@ -42,10 +42,10 @@ Especializados em conversação; os modelos `gpt-5.X-chat-latest` também suport
 
 | Modelo | Descrição | Custo |
 |--------|-----------|-------|
-| GPT-5.3 Chat Latest | Conversação | 💲💲💲 |
-| GPT-5.2 Chat Latest | Conversação | 💲💲💲 |
-| GPT-5.1 Chat Latest | Conversação | 💲💲💲 |
-| GPT-5 Chat Latest | Conversação (legado) | 💲💲💲 |
+| GPT-5.3 Chat Latest | Conversação | |
+| GPT-5.2 Chat Latest | Conversação | |
+| GPT-5.1 Chat Latest | Conversação | |
+| GPT-5 Chat Latest | Conversação (legado) | |
 
 ### OpenAI — Sem Raciocínio
 
@@ -53,9 +53,9 @@ Modelos mais simples e rápidos, com temperatura e máximo de tokens.
 
 | Modelo | Descrição | Custo |
 |--------|-----------|-------|
-| GPT-4.1 | Inteligente e versátil | 💲💲💲 |
-| GPT-4.1 Mini | Baixo custo com bom desempenho | 💲 |
-| GPT-4.1 Nano | Mais econômico, tarefas leves | 💲 |
+| GPT-4.1 | Inteligente e versátil | |
+| GPT-4.1 Mini | Baixo custo com bom desempenho | |
+| GPT-4.1 Nano | Mais econômico, tarefas leves | |
 
 ### DeepSeek (chave própria)
 
@@ -63,22 +63,18 @@ Disponíveis ao cadastrar a integração DeepSeek. Não consomem créditos Inter
 
 | Modelo | Descrição | Custo (referência) |
 |--------|-----------|--------------------|
-| DeepSeek V4 Flash | Rápido e econômico | 💲 |
-| DeepSeek V4 Pro | Mais capaz, tarefas complexas | 💲💲 |
+| DeepSeek V4 Flash | Rápido e econômico | |
+| DeepSeek V4 Pro | Mais capaz, tarefas complexas | |
 
 Ambos suportam **Thinking Mode** (raciocínio em cadeia) com esforço Alto ou Máximo. Com Thinking Mode ativo, a temperatura é ignorada pela API da DeepSeek.
 
-::: tip 💡 Dica
 Para a maioria dos atendimentos com créditos Interflow, **GPT-5 Nano** ou **GPT-5 Mini** (ou **GPT-5.4 Nano** / **Mini**) oferecem bom custo-benefício. Com chave própria, veja também [OpenAI](/guide/integrations/openai) e [DeepSeek](/guide/integrations/deepseek).
-:::
 
-::: info 🚀 Em Breve
 Outros provedores poderão ser adicionados no futuro (ex.: Claude, Gemini).
-:::
 
 ## Acessando Agentes IA
 
-1. No menu principal, clique em **Agentes IA** (🤖)
+1. No menu principal, clique em **Agentes IA** ()
 2. Você verá a lista de todos os agentes configurados
 3. Use a **busca** para encontrar agentes por nome
 4. Clique no botão **A → Z** para ordenar alfabeticamente
@@ -142,11 +138,11 @@ A aba de testes permite conversar diretamente com o Agente IA antes de colocá-l
 4. Verifique se o comportamento está adequado
 
 **O que Testar:**
-- ✅ Tom de voz e personalidade
-- ✅ Respostas a perguntas frequentes
-- ✅ Limites do que a IA pode/não pode fazer
-- ✅ Cenários de transferência para humano
-- ✅ Regras por canal, estágio e tags — use **Simular contexto**
+- Tom de voz e personalidade
+- Respostas a perguntas frequentes
+- Limites do que a IA pode/não pode fazer
+- Cenários de transferência para humano
+- Regras por canal, estágio e tags — use **Simular contexto**
 
 ::: tip Canal e condições
 O mesmo agente pode atender em vários canais. Na aba **Teste**, abra **Simular contexto** para escolher canal, estágio e tags e validar o recorte. Detalhes: [Canal e condições](/guide/ai-agents/channel-conditions).
@@ -157,10 +153,10 @@ O mesmo agente pode atender em vários canais. Na aba **Teste**, abra **Simular 
 Adicione mídia que o agente pode enviar durante a conversa. Organize os arquivos em **pastas (categorias)** para facilitar a localização e o contexto da IA.
 
 **Tipos de arquivo suportados:**
-- 🖼️ **Imagens**: JPG, PNG, GIF, WebP
-- 🎵 **Áudios**: MP3, WAV, OGG
-- 🎬 **Vídeos**: MP4, WebM
-- 📄 **Documentos**: PDF, DOCX, XLSX
+- **Imagens**: JPG, PNG, GIF, WebP
+- **Áudios**: MP3, WAV, OGG
+- **Vídeos**: MP4, WebM
+- **Documentos**: PDF, DOCX, XLSX
 
 **Pastas:**
 - Crie pastas para agrupar documentos (ex.: Produtos, Políticas, Fotos)
@@ -177,7 +173,7 @@ Configure as ações que o agente pode executar durante a conversa. Há dois tip
 - **Ações prontas** — cadastro do cliente, contato, endereço, consultar API, pesquisar em sites, transferir, agenda, funil, follow-up e outras. Em cada uma, **Disponível quando** restringe a ferramenta a canal, estágio e/ou tags.
 - **Ações personalizadas** — ferramentas que você cria (parâmetros + o que executar ao acionar)
 
-::: tip 📖 Ver mais
+::: tip Ver mais
 Lista completa, descrição de cada ação e passo a passo: [Ferramentas da IA](/guide/ai-agents/tools/). Condições por canal: [Canal e condições](/guide/ai-agents/channel-conditions).
 :::
 
@@ -204,19 +200,17 @@ A busca usa tecnologia **híbrida** combinando embeddings vetoriais com busca po
    - **Conteúdo** – Texto completo, com suporte a Markdown
 3. Clique em **"Salvar"**
 
-::: tip 💡 Dica
 A **descrição** é o campo mais importante. Use palavras que o cliente usaria ao perguntar: em vez de "Informações gerais", escreva "Contém endereço, horários, planos aceitos e valores de consulta".
-:::
 
-::: info 📂 Organização por assunto
+::: info Organização por assunto
 Prefira **um documento por assunto** (ex: Horários, Endereço, Política de Cancelamento) em vez de um único documento com tudo. Documentos focados geram respostas mais precisas.
 :::
 
 **Benefícios:**
-- ✅ Respostas mais rápidas e precisas com dados internos da empresa
-- ✅ Redução no consumo de tokens
-- ✅ Configuração zero — documentos viram ferramentas automaticamente
-- ✅ Editor Markdown para formatação de conteúdo
+- Respostas mais rápidas e precisas com dados internos da empresa
+- Redução no consumo de tokens
+- Configuração zero — documentos viram ferramentas automaticamente
+- Editor Markdown para formatação de conteúdo
 
 ---
 
@@ -269,7 +263,7 @@ Configure um agente IA secundário que assume automaticamente quando o agente pr
 4. Defina os **casos de uso** para acionamento automático
 5. Salve
 
-::: tip 💡 Caso de uso comum
+::: tip Caso de uso comum
 Configure o agente principal para atendimento geral e um agente especializado (ex: suporte técnico) como fallback para perguntas técnicas específicas.
 :::
 
@@ -305,7 +299,7 @@ O uso dos Agentes IA é medido em **créditos baseados em USD**, proporcionando 
 
 Preços DeepSeek (cobrança na conta DeepSeek): veja [Integração DeepSeek](/guide/integrations/deepseek).
 
-::: tip 💡 Economia
+::: tip Economia
 Tokens em cache custam até **10x menos**. Modelos Mini e Nano são significativamente mais baratos para casos de uso de alto volume.
 :::
 
@@ -343,7 +337,7 @@ Quando o cliente menciona uma data futura ou indica que não é o momento:
 Ao transferir uma conversa para equipe humana, a IA pode gerar automaticamente um resumo:
 
 1. Edite a ação **"Transferir para Equipe"**
-2. Marque: ✅ **"Gerar resumo do atendimento ao transferir"**
+2. Marque: **"Gerar resumo do atendimento ao transferir"**
 3. Salve
 
 **O resumo inclui:**
@@ -402,29 +396,29 @@ A IA pode gerenciar agendamentos de forma conversacional:
 ### Exemplo de Conversa
 
 ```text
-👤 Cliente: Quero marcar uma consulta
-🤖 IA: Claro! Para qual dia você prefere? Temos horários disponíveis de segunda a sexta.
+Cliente: Quero marcar uma consulta
+IA: Claro! Para qual dia você prefere? Temos horários disponíveis de segunda a sexta.
 
-👤 Cliente: Quinta às 14h
-🤖 IA: Perfeito! Temos disponibilidade quinta-feira às 14h com Dr. João. 
+Cliente: Quinta às 14h
+IA: Perfeito! Temos disponibilidade quinta-feira às 14h com Dr. João.
        Confirmo o agendamento?
 
-👤 Cliente: Sim, por favor
-🤖 IA: ✅ Agendamento confirmado!
-       📅 Data: Quinta-feira, 26/12/2025
-       ⏰ Horário: 14:00
-       👨‍⚕️ Profissional: Dr. João
+Cliente: Sim, por favor
+IA: Agendamento confirmado!
+       Data: Quinta-feira, 26/12/2025
+       Horário: 14:00
+       Profissional: Dr. João
        
-       Enviarei um lembrete 24h antes. Até lá! 😊
+       Enviarei um lembrete 24h antes. Até lá!
 ```
 
 ### Respeitando Folgas
 
 A IA automaticamente:
-- ❌ **Não oferece** horários em períodos de folga
-- ❌ **Não permite** criar agendamentos em dias bloqueados
-- ✅ **Explica ao cliente** o motivo da indisponibilidade
-- ✅ **Sugere automaticamente** datas alternativas
+- **Não oferece** horários em períodos de folga
+- **Não permite** criar agendamentos em dias bloqueados
+- **Explica ao cliente** o motivo da indisponibilidade
+- **Sugere automaticamente** datas alternativas
 
 ## Mensagens e dados do cliente
 
@@ -473,7 +467,7 @@ As skills que passam na condição são concatenadas em um único texto. Sem fil
 
 ## Boas Práticas
 
-### ✅ Faça
+### Faça
 
 - Seja específico no prompt sobre o comportamento esperado
 - Forneça exemplos de respostas ideais
@@ -482,7 +476,7 @@ As skills que passam na condição são concatenadas em um único texto. Sem fil
 - Monitore as conversas e ajuste o prompt
 - Use **Fora de contexto** para ver perguntas de clientes que o agente não encontrou no contexto
 
-### ❌ Evite
+### Evite
 
 - Prompts vagos ou genéricos
 - Permitir que a IA invente informações

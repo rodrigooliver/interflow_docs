@@ -37,7 +37,7 @@ Shortcuts with **only one message** still work exactly as before.
 
 In the list, shortcuts with more than one message show a badge (e.g. `3 msgs`).
 
-::: tip 💡 Compatibility
+::: tip Compatibility
 Shortcuts created before this version are automatically converted to the step format. No need to recreate them.
 :::
 
@@ -68,7 +68,7 @@ If the customer has no tax ID on file, <code v-pre>{{customer.document}}</code> 
 
 To cancel, use **Cancel sequence**, **ESC**, or click outside the modal.
 
-::: info 📌 Message field
+::: info Message field
 The normal typing field **stays visible** while the modal is open, so you keep conversation context.
 :::
 

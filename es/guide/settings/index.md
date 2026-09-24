@@ -46,7 +46,7 @@ Controles para funcionalidades de inteligencia artificial:
 | **Desactivar Resumen por IA en Resolución** | No genera resumen automático al finalizar |
 | **Desactivar Resumen por IA en Transferencia** | No genera resumen automático al transferir |
 
-::: tip 💡 Ahorro
+::: tip Ahorro
 Desactivar resúmenes automáticos ahorra tokens de API. El campo de resumen permanece disponible para llenado manual.
 :::
 
@@ -57,18 +57,18 @@ Desactivar resúmenes automáticos ahorra tokens de API. El campo de resumen per
 Cuando un agente hace clic en "Atender" un chat con flujo activo:
 
 **Opciones:**
-- **Activado** ✅ = Siempre pausa automáticamente (sin preguntar)
-- **Desactivado** ❌ = Pregunta qué hacer cuando hay flujo activo
+- **Activado** = Siempre pausa automáticamente (sin preguntar)
+- **Desactivado** = Pregunta qué hacer cuando hay flujo activo
 
 **Modal de opciones (cuando desactivado):**
 
 | Opción | Qué sucede |
 |--------|------------|
-| 🟡 **Pausar Flujo y Atender** | Pausa el flujo, agente asume |
-| 🔵 **Continuar Flujo y Atender** | Mantiene flujo activo |
-| ⚪ **Cancelar** | No atiende |
+| **Pausar Flujo y Atender** | Pausa el flujo, agente asume |
+| **Continuar Flujo y Atender** | Mantiene flujo activo |
+| **Cancelar** | No atiende |
 
-::: warning ⚠️ Atención
+::: warning Atención
 "Continuar Flujo" = ¡El cliente recibe mensajes del agente Y del flujo!
 :::
 
@@ -192,37 +192,37 @@ Configuración global para ocultar información de contacto de los clientes para
 
 | Perfil | Acceso |
 |--------|--------|
-| Superadmin | ✅ Acceso completo |
-| Propietario | ✅ Acceso completo |
-| Admin | ✅ Acceso completo |
-| **Agente** | ❌ Datos ocultos |
+| Superadmin | Acceso completo |
+| Propietario | Acceso completo |
+| Admin | Acceso completo |
+| **Agente** | Datos ocultos |
 
 **Qué queda oculto para agentes:**
 
-- ❌ Email, Teléfono, WhatsApp
-- ❌ Contactos en exportación (CSV, Excel, JSON)
-- ❌ Contactos en resultados de búsqueda
-- ❌ Contactos al iniciar chat
-- ❌ IDs externos del chat y mensajes
-- ❌ Sección de contactos al editar cliente
+- Email, Teléfono, WhatsApp
+- Contactos en exportación (CSV, Excel, JSON)
+- Contactos en resultados de búsqueda
+- Contactos al iniciar chat
+- IDs externos del chat y mensajes
+- Sección de contactos al editar cliente
 
 **Qué agentes PUEDEN hacer:**
 
-- ✅ Ver y editar nombre del cliente
-- ✅ Ver y gestionar tags
-- ✅ Ver y editar campos personalizados
-- ✅ Atender chats normalmente
-- ✅ Enviar y recibir mensajes
+- Ver y editar nombre del cliente
+- Ver y gestionar tags
+- Ver y editar campos personalizados
+- Atender chats normalmente
+- Enviar y recibir mensajes
 
 ### Visibilidad Restringida de Clientes
 
 Agentes ven solo clientes de equipos a los que están asignados.
 
 **Áreas afectadas:**
-- 📋 Lista de clientes
-- 🔍 Búsqueda de clientes
-- 📊 Informes (datos filtrados)
-- 📤 Exportaciones (respeta visibilidad)
+- Lista de clientes
+- Búsqueda de clientes
+- Informes (datos filtrados)
+- Exportaciones (respeta visibilidad)
 
 ### Menú Financiero Restringido
 
@@ -232,10 +232,10 @@ El menú financiero está oculto para perfiles no administrativos.
 
 | Perfil | Acceso |
 |--------|--------|
-| `owner` | ✅ Acceso total |
-| `admin` | ✅ Acceso total |
-| `manager` | ✅ Solo lectura |
-| `financial` | ✅ Acceso total |
+| `owner` | Acceso total |
+| `admin` | Acceso total |
+| `manager` | Solo lectura |
+| `financial` | Acceso total |
 
 ## Configuraciones de Equipos
 
@@ -248,10 +248,10 @@ Guía completa: [Equipos — Rodizio automático](/es/guide/teams/#distribucion-
 Admins y owners pueden gestionar la asignación de agentes en conversaciones sin entrar en cada una.
 
 **Qué puedes hacer:**
-- ✅ Transferir conversación a otro **equipo**
-- ✅ Asignar un **agente específico**
-- ✅ Remover agente y dejar conversación **pendiente** en cola
-- ✅ Gestionar atenciones directamente de la lista
+- Transferir conversación a otro **equipo**
+- Asignar un **agente específico**
+- Remover agente y dejar conversación **pendiente** en cola
+- Gestionar atenciones directamente de la lista
 
 **Dónde acceder:**
 
@@ -268,15 +268,13 @@ Elige qué pestaña abre primero al entrar en el sistema.
 1. Accede a **Configuraciones** → **Preferencias**
 2. Localiza **"Pestaña Predeterminada"**
 3. Selecciona la opción preferida:
-   - 💬 Chats
-   - 👥 Clientes
-   - 📅 Citas
-   - 📊 Dashboard
+   - Chats
+   - Clientes
+   - Citas
+   - Dashboard
 4. Guarda
 
-::: tip 💡 Consejo
 Esta es una configuración por usuario. Cada miembro del equipo puede configurar la suya.
-:::
 
 ## Próximos Pasos
 
@@ -284,7 +282,4 @@ Esta es una configuración por usuario. Cada miembro del equipo puede configurar
 - [Agentes IA](/es/guide/ai-agents/) - Configura IA
 - [Canales](/es/guide/channels/) - Configura canales de atención
 - [Informes](/es/guide/reports/) - Ver métricas
-
-
-
 

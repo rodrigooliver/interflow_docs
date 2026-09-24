@@ -99,10 +99,10 @@ Los campos de texto (título, descripción y checklist) soportan variables del f
 ### Variables del Cliente
 
 ```
-{{customer.name}}       - Nombre del cliente
-{{customer.phone}}      - Teléfono
-{{customer.email}}      - Email
-{{customer.cpf}}        - CPF (si está registrado)
+{{customer.name}} - Nombre del cliente
+{{customer.phone}} - Teléfono
+{{customer.email}} - Email
+{{customer.cpf}} - CPF (si está registrado)
 ```
 
 ### Variables de Input
@@ -114,7 +114,7 @@ Los campos de texto (título, descripción y checklist) soportan variables del f
 ### Variables Personalizadas
 
 ```
-{{variable_definida}}   - Variable definida en el flujo
+{{variable_definida}} - Variable definida en el flujo
 ```
 
 ## Conexiones

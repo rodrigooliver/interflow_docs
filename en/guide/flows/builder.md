@@ -50,7 +50,7 @@ Todo fluxo começa com um **nó de início**. Este nó define quando o fluxo ser
 
 **Exemplo:**
 ```
-Olá, {{customer_name}}! 👋
+Olá, {{customer_name}}!
 
 Bem-vindo ao atendimento da Empresa XYZ.
 
@@ -64,10 +64,10 @@ Como posso ajudá-lo hoje?
 3. Configure as opções:
 
 ```
-1️⃣ Suporte Técnico
-2️⃣ Financeiro
-3️⃣ Vendas
-4️⃣ Falar com Atendente
+1⃣ Suporte Técnico
+2⃣ Financeiro
+3⃣ Vendas
+4⃣ Falar com Atendente
 ```
 
 ### Passo 4: Conectar Respostas
@@ -89,13 +89,13 @@ Menu ──┼─ Opção 2 → Fluxo Financeiro
 
 <!-- Placeholder para vídeo -->
 <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 48px;">▶️</span>
+  <span style="color: white; font-size: 48px;">▶</span>
   <p style="color: white; margin-top: 8px; font-size: 18px;">Vídeo: Criando seu primeiro fluxo (em breve)</p>
 </div>
 
 ## Tipos de Nós
 
-### 💬 Mensagem
+### Mensagem
 
 Envia uma mensagem para o cliente.
 
@@ -108,7 +108,7 @@ Envia uma mensagem para o cliente.
 - Documento
 - Localização
 
-### 📋 Menu
+### Menu
 
 Apresenta opções para o cliente escolher.
 
@@ -117,7 +117,7 @@ Apresenta opções para o cliente escolher.
 - Timeout (tempo para responder)
 - Mensagem de timeout
 
-### ❓ Pergunta
+### Pergunta
 
 Coleta informações do cliente.
 
@@ -129,7 +129,7 @@ Coleta informações do cliente.
 - Data
 - Sim/Não
 
-### 🔀 Condição
+### Condição
 
 Cria ramificações baseadas em lógica.
 
@@ -141,7 +141,7 @@ Cria ramificações baseadas em lógica.
 - Está vazio
 - Regex
 
-### ⏱️ Delay
+### Delay
 
 Aguarda um tempo antes de continuar.
 
@@ -151,7 +151,7 @@ Aguarda um tempo antes de continuar.
 - Horas
 - Até horário específico
 
-### 👤 Transferir
+### Transferir
 
 Encaminha para atendimento humano.
 
@@ -160,15 +160,15 @@ Encaminha para atendimento humano.
 - Atendente específico
 - Distribuição automática
 
-### 🏷️ Tag
+### Tag
 
 Adiciona ou remove tags do cliente.
 
-### 📝 Atualizar Cliente
+### Atualizar Cliente
 
 Atualiza campos do cadastro do cliente.
 
-### 🔗 Webhook
+### Webhook
 
 Faz chamadas para APIs externas.
 
@@ -179,7 +179,7 @@ Faz chamadas para APIs externas.
 - Body
 - Variável de resposta
 
-### 🤖 IA
+### IA
 
 Usa inteligência artificial para responder.
 
@@ -214,7 +214,7 @@ Variável: {{user_input_name}}
 
 ## Boas Práticas
 
-### ✅ Faça
+### Faça
 
 - Mantenha fluxos simples e objetivos
 - Use mensagens curtas e claras
@@ -222,7 +222,7 @@ Variável: {{user_input_name}}
 - Teste antes de ativar
 - Use variáveis para personalização
 
-### ❌ Evite
+### Evite
 
 - Fluxos muito longos e complexos
 - Muitas opções no menu (máx. 5-6)

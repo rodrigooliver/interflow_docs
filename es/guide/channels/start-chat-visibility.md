@@ -41,7 +41,7 @@ Los **canales auxiliares** (vinculados a un canal principal) **nunca** aparecen 
 4. Si eliges perfil, usuarios o equipos, marca las opciones deseadas
 5. Guarda
 
-::: tip 💡 Predeterminado
+::: tip Predeterminado
 Los canales sin configuración específica siguen liberados para **todos**. Nada cambia hasta que restrinjas.
 :::
 

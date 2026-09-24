@@ -19,13 +19,13 @@ Cria novos agendamentos diretamente pela conversa.
 
 **Exemplo de uso:**
 ```text
-👤 Cliente: Quero agendar uma consulta
-🤖 IA: Claro! Temos horários disponíveis de segunda a sexta.
+Cliente: Quero agendar uma consulta
+IA: Claro! Temos horários disponíveis de segunda a sexta.
        Qual dia e horário você prefere?
 
-👤 Cliente: Quinta às 14h
-🤖 IA: ✅ Agendamento confirmado!
-       📅 Quinta-feira, 26/12/2025 às 14:00
+Cliente: Quinta às 14h
+IA: Agendamento confirmado!
+       Quinta-feira, 26/12/2025 às 14:00
        Enviarei um lembrete 24h antes!
 ```
 

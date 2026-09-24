@@ -20,13 +20,13 @@ Integre sua conta do Instagram Business ou Creator para receber mensagens direta
 
 | Recurso | Suporte |
 |---------|---------|
-| Mensagens de texto | ✅ |
-| Imagens | ✅ |
-| Vídeos | ✅ |
-| Stories (respostas) | ✅ |
-| Reactions | ✅ |
-| Stickers | ⚠️ Parcial |
-| Áudio | ❌ |
+| Mensagens de texto | |
+| Imagens | |
+| Vídeos | |
+| Stories (respostas) | |
+| Reactions | |
+| Stickers | Parcial |
+| Áudio | |
 
 ## Configuração
 
@@ -55,7 +55,7 @@ Se sua conta é pessoal, converta para Business:
 
 <!-- Placeholder para vídeo -->
 <div style="background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #F77737 100%); border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 48px;">▶️</span>
+  <span style="color: white; font-size: 48px;">▶</span>
   <p style="color: white; margin-top: 8px; font-size: 18px;">Vídeo: Conectando Instagram (em breve)</p>
 </div>
 

@@ -55,9 +55,7 @@ Both models support an optional chain-of-thought reasoning mode called **Thinkin
 - **Enable/disable** Thinking Mode
 - **Reasoning effort**: High or Maximum
 
-::: tip TIP
 With Thinking Mode enabled, **temperature is ignored** — this is a limitation of the DeepSeek API itself, which doesn't allow combining chain-of-thought reasoning with temperature control.
-:::
 
 ## Where the DeepSeek model can be used
 
@@ -71,5 +69,5 @@ Once you've configured the integration and selected a DeepSeek model in your pro
 
 If you have questions about the integration:
 
-- 📧 **Email**: suporte@interflow.chat
-- 💬 **Chat**: Available on the platform
+- **Email**: suporte@interflow.chat
+- **Chat**: Available on the platform

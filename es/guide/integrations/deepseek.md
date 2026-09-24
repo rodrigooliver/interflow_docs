@@ -55,9 +55,7 @@ Ambos modelos soportan un modo opcional de razonamiento en cadena llamado **Thin
 - **Activar/desactivar** el Thinking Mode
 - **Esfuerzo de razonamiento**: Alto o Máximo
 
-::: tip CONSEJO
 Con el Thinking Mode activado, la **temperatura es ignorada** — esta es una limitación de la propia API de DeepSeek, que no permite combinar razonamiento en cadena con control de temperatura.
-:::
 
 ## Dónde se puede usar el modelo DeepSeek
 
@@ -71,5 +69,5 @@ Una vez configurada la integración y seleccionado un modelo DeepSeek en tu prom
 
 Si tienes dudas sobre la integración:
 
-- 📧 **Email**: suporte@interflow.chat
-- 💬 **Chat**: Disponible en la plataforma
+- **Email**: suporte@interflow.chat
+- **Chat**: Disponible en la plataforma

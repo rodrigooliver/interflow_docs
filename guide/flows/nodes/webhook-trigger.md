@@ -109,7 +109,7 @@ Ative o toggle e adicione os campos do cliente:
 1. Clique em **Adicionar** para incluir uma nova linha de mapeamento
 2. Selecione o **campo do cliente** (Nome, E-mail, Documento, WhatsApp, etc.)
 3. Informe o **caminho no body** (ex.: `body.customer.email`)
-4. Clique no ícone de **lupa** 🔍 nos campos que devem ser usados para **localizar** o cliente
+4. Clique no ícone de **lupa** nos campos que devem ser usados para **localizar** o cliente
 
 **Lógica de busca (OR):** o sistema busca qualquer cliente que corresponda a *ao menos um* dos campos com lupa ativa. Ative a lupa em pelo menos um campo.
 
@@ -164,9 +164,9 @@ Cada caso gera um **handle de saída laranja** no nó. Um handle **cinza (else)*
 **Exemplo de roteamento:**
 
 ```
-body.event = "purchase.approved"  →  handle "Compra aprovada"
-body.event = "purchase.refunded"  →  handle "Reembolso"
-body.event = (qualquer outro)     →  handle "else"
+body.event = "purchase.approved" → handle "Compra aprovada"
+body.event = "purchase.refunded" → handle "Reembolso"
+body.event = (qualquer outro) → handle "else"
 ```
 
 ---
@@ -224,22 +224,22 @@ Parâmetro: signature
 Caminho do evento: body.event
 
 Casos:
-  "order_approved"  →  Iniciar onboarding
-  "order_refunded"  →  Cancelar acesso
-  else              →  Registrar evento desconhecido
+  "order_approved" → Iniciar onboarding
+  "order_refunded" → Cancelar acesso
+  else → Registrar evento desconhecido
 ```
 
 ### Novo lead de formulário
 
 ```
 Mapeamentos:
-  body.name   → nome
-  body.email  → email
-  body.phone  → telefone
+  body.name → nome
+  body.email → email
+  body.phone → telefone
 
 Vínculo com Cliente:
-  E-mail ← body.email  [🔍 busca]
-  Nome   ← body.name
+  E-mail ← body.email [ busca]
+  Nome ← body.name
   WhatsApp ← body.phone
 
 Vínculo com Chat:

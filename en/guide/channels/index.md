@@ -14,26 +14,26 @@ Interflow supports multiple communication channels, allowing you to centralize a
 
 ## Available Channels
 
-### 📱 WhatsApp
+### WhatsApp
 
 | Integration | Description | Recommended for |
 |------------|-----------|---------------|
 | [WhatsApp Business API](/en/guide/channels/whatsapp-business) | Official Meta integration | High volume companies |
 | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha) | Via QR Code session | Small businesses |
 
-### 📷 Instagram
+### Instagram
 
 | Integration | Description |
 |------------|-----------|
 | [Instagram Direct](/en/guide/channels/instagram) | Instagram direct messages |
 
-### 💬 Facebook
+### Facebook
 
 | Integration | Description |
 |------------|-----------|
 | [Facebook Messenger](/en/guide/channels/facebook) | Facebook page messages |
 
-### 📧 Email
+### Email
 
 | Integration | Description |
 |------------|-----------|
@@ -45,14 +45,14 @@ Interflow supports multiple communication channels, allowing you to centralize a
 
 | Feature | WhatsApp API | WhatsApp WAHA | Instagram | Facebook | Email |
 |---------|--------------|---------------|-----------|----------|-------|
-| Text messages | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Images | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Videos | ✅ | ✅ | ✅ | ✅ | ✅ |
-| Audio | ✅ | ✅ | ❌ | ✅ | ❌ |
-| Documents | ✅ | ✅ | ❌ | ✅ | ✅ |
-| Location | ✅ | ✅ | ❌ | ❌ | ❌ |
-| Templates | ✅ | ❌ | ❌ | ❌ | ❌ |
-| Groups | ❌ | ✅ | ❌ | ❌ | ❌ |
+| Text messages | | | | | |
+| Images | | | | | |
+| Videos | | | | | |
+| Audio | | | | | |
+| Documents | | | | | |
+| Location | | | | | |
+| Templates | | | | | |
+| Groups | | | | | |
 
 ---
 
@@ -76,9 +76,9 @@ Each channel has status indicators:
 
 | Status | Meaning |
 |--------|-------------|
-| 🟢 **Connected** | Channel working normally |
-| 🟡 **Reconnecting** | Trying to reestablish connection |
-| 🔴 **Disconnected** | Channel offline, needs action |
+| **Connected** | Channel working normally |
+| **Reconnecting** | Trying to reestablish connection |
+| **Disconnected** | Channel offline, needs action |
 
 On **WhatsApp WAHA**, the channel can stay **connected** (green) and show an amber badge if WhatsApp restricted *new* contacts. Existing chats keep working. Details: [New-contact restriction](/en/guide/channels/whatsapp-waha#new-contact-restriction).
 
@@ -125,35 +125,35 @@ Choose the channel you want to configure:
 
 <a href="/en/guide/channels/whatsapp-business" style="text-decoration: none;">
   <div style="background: #25D366; border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">📱</span>
+    <span style="color: white; font-size: 32px;"></span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">WhatsApp Business</p>
   </div>
 </a>
 
 <a href="/en/guide/channels/whatsapp-waha" style="text-decoration: none;">
   <div style="background: #128C7E; border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">📲</span>
+    <span style="color: white; font-size: 32px;"></span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">WhatsApp WAHA</p>
   </div>
 </a>
 
 <a href="/en/guide/channels/instagram" style="text-decoration: none;">
   <div style="background: linear-gradient(135deg, #833AB4 0%, #FD1D1D 50%, #F77737 100%); border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">📷</span>
+    <span style="color: white; font-size: 32px;"></span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Instagram</p>
   </div>
 </a>
 
 <a href="/en/guide/channels/facebook" style="text-decoration: none;">
   <div style="background: #1877F2; border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">💬</span>
+    <span style="color: white; font-size: 32px;"></span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Facebook</p>
   </div>
 </a>
 
 <a href="/en/guide/channels/email" style="text-decoration: none;">
   <div style="background: #EA4335; border-radius: 12px; padding: 20px; text-align: center;">
-    <span style="color: white; font-size: 32px;">📧</span>
+    <span style="color: white; font-size: 32px;"></span>
     <p style="color: white; margin-top: 8px; font-weight: bold;">Email</p>
   </div>
 </a>

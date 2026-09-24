@@ -20,12 +20,12 @@ Integre qualquer conta de email via IMAP/SMTP para receber e enviar emails diret
 
 | Recurso | Suporte |
 |---------|---------|
-| Recebimento de emails | ✅ |
-| Envio de emails | ✅ |
-| Anexos | ✅ |
-| HTML formatado | ✅ |
-| Threading (conversas) | ✅ |
-| Múltiplas contas | ✅ |
+| Recebimento de emails | |
+| Envio de emails | |
+| Anexos | |
+| HTML formatado | |
+| Threading (conversas) | |
+| Múltiplas contas | |
 
 ## Provedores Suportados
 

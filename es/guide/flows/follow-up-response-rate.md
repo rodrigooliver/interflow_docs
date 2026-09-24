@@ -6,7 +6,7 @@ Mide el volumen de paso y la tasa de respuesta en puntos específicos de tu fluj
 
 El **Punto de Control** (checkpoint) es un nodo no bloqueante que colocas explícitamente en el flujo para registrar eventos de analytics. A diferencia del modelo anterior (que intentaba inferir follow-ups automáticamente a partir del timeout de la sesión), el Punto de Control te da control total sobre **dónde** y **qué** medir.
 
-El nodo está en la categoría **📊 Estadísticas** del panel lateral del Constructor de Flujos. Cuando la conversación pasa por él, el flujo **continúa inmediatamente** al siguiente nodo — el registro ocurre en segundo plano, sin bloquear la atención.
+El nodo está en la categoría ** Estadísticas** del panel lateral del Constructor de Flujos. Cuando la conversación pasa por él, el flujo **continúa inmediatamente** al siguiente nodo — el registro ocurre en segundo plano, sin bloquear la atención.
 
 ## ¿Para qué sirve?
 
@@ -18,7 +18,7 @@ El nodo está en la categoría **📊 Estadísticas** del panel lateral del Cons
 
 ## Configurando el nodo
 
-1. En el **Constructor de Flujos**, abre la categoría **📊 Estadísticas**
+1. En el **Constructor de Flujos**, abre la categoría ** Estadísticas**
 2. Arrastra el nodo **Punto de Control** al canvas
 3. Conecta la entrada (izquierda) y la salida (derecha) en el flujo
 4. Haz clic en el cuerpo del nodo para abrir la configuración:
@@ -30,7 +30,7 @@ El nodo está en la categoría **📊 Estadísticas** del panel lateral del Cons
 | **Ventana de respuesta** | Tiempo en minutos (valor fijo) o variable numérica del flujo | 2880 min (48h) |
 | **Guardar variables del flujo** | Guarda snapshot de las variables en el momento del paso | Desactivado |
 
-::: tip 💡 ¿Dónde colocarlo?
+::: tip ¿Dónde colocarlo?
 Coloca el Punto de Control **después** del nodo que envía el mensaje de follow-up (o reengagement) y **antes** de la siguiente rama del flujo. Así mides exactamente el impacto de ese mensaje.
 :::
 

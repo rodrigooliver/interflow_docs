@@ -85,8 +85,8 @@ Opção 3: Financeiro
 
 ```
 [Nó Input] → Timeout: 300 segundos (5 minutos)
-              Saída Timeout → "Parece que você está ocupado. 
-                               Me chame quando precisar! 👋"
+              Saída Timeout → "Parece que você está ocupado.
+                               Me chame quando precisar! "
 ```
 
 ## Validação de Respostas
@@ -96,8 +96,8 @@ Para validar respostas (email, telefone, etc.), combine com o nó **Condição**
 ```
 [Nó Input] → Captura email
 [Nó Condição] → email contém "@" ?
-  ✅ Sim → Continua
-  ❌ Não → "Por favor, informe um email válido"
+  Sim → Continua
+  Não → "Por favor, informe um email válido"
            → [Volta para Input]
 ```
 

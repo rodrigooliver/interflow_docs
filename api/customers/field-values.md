@@ -57,3 +57,4 @@ curl -X POST "https://v1.api.interflow.chat/api/{organizationId}/customers/{cust
 ::: tip
 Nesta versão a API permite definir **valores** de campos no cliente. A gestão das definições dos campos não está disponível por API.
 :::
+

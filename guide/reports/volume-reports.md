@@ -12,7 +12,7 @@ O acesso ao módulo de Relatórios é exclusivo para **Donos**, **Administradore
 
 ## Como Acessar
 
-1. No menu lateral, clique em **Relatórios** (📊)
+1. No menu lateral, clique em **Relatórios** ()
 2. Na página de relatórios, escolha:
    - **Volume por Atendente** – mensagens individuais de cada membro da equipe
    - **Volume por Equipe** – mensagens agrupadas por equipe
@@ -61,7 +61,7 @@ Passe o mouse sobre o gráfico para ver os valores exatos de cada ponto.
 
 ## Impressão
 
-Clique no botão **Imprimir** (🖨️) ao lado do seletor de período para gerar uma versão limpa para impressão.
+Clique no botão **Imprimir** () ao lado do seletor de período para gerar uma versão limpa para impressão.
 
 A versão impressa inclui:
 - Título e subtítulo do relatório
@@ -71,9 +71,7 @@ A versão impressa inclui:
 - Cards de resumo com totais
 - Gráfico
 
-::: tip 💡 Dica
 A sidebar, botões e seletor de período são ocultados automaticamente na impressão. Não é necessário configurar nada.
-:::
 
 ## Exemplos de Uso
 

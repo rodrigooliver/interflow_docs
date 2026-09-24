@@ -13,7 +13,7 @@ Actualiza campos personalizados del registro del cliente.
 
 **Ejemplo de uso:**
 ```text
-👤 Cliente: Mi email es juan@email.com
-🤖 IA: ¡Perfecto! Ya guardé tu email. Ahora puedo enviar confirmaciones por ahí.
+Cliente: Mi email es juan@email.com
+IA: ¡Perfecto! Ya guardé tu email. Ahora puedo enviar confirmaciones por ahí.
 ```
 

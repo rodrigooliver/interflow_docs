@@ -41,7 +41,7 @@ Each channel can have a **visibility rule when starting a conversation**:
 4. If you choose role, users, or teams, select the desired options
 5. Save
 
-::: tip 💡 Default
+::: tip Default
 Channels without a specific configuration stay open to **everyone**. Nothing changes until you restrict them.
 :::
 

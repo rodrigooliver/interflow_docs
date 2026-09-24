@@ -99,10 +99,10 @@ Text fields (title, description, and checklist) support flow variables:
 ### Customer Variables
 
 ```
-{{customer.name}}       - Customer name
-{{customer.phone}}      - Phone
-{{customer.email}}      - Email
-{{customer.cpf}}        - CPF (if registered)
+{{customer.name}} - Customer name
+{{customer.phone}} - Phone
+{{customer.email}} - Email
+{{customer.cpf}} - CPF (if registered)
 ```
 
 ### Input Variables
@@ -114,7 +114,7 @@ Text fields (title, description, and checklist) support flow variables:
 ### Custom Variables
 
 ```
-{{defined_variable}}    - Variable defined in the flow
+{{defined_variable}} - Variable defined in the flow
 ```
 
 ## Connections

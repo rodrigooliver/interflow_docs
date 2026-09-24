@@ -88,9 +88,7 @@ Para recibir push:
 - El usuario debe haber iniciado sesión en la app o la web al menos una vez (el dispositivo queda registrado para recibir push)
 - Las notificaciones del navegador o de la app deben estar permitidas en el dispositivo
 
-::: tip 💡 Consejo
 Combine un recordatorio push de **1 h** para que el equipo se prepare y una plantilla WhatsApp de **24 h** para que el cliente confirme — cada canal con su propósito.
-:::
 
 ## Próximos pasos
 

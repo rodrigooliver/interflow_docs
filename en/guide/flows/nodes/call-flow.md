@@ -28,7 +28,7 @@ Select the flow you want to trigger. Use the search field to filter by name.
 
 Choose which node the destination flow should start from. If not selected, the flow will start from the default node (`start`).
 
-::: tip 💡 Flexibility
+::: tip Flexibility
 You can start the destination flow at any node, not necessarily the beginning. This allows creating different entry points for the same flow based on context.
 :::
 
@@ -44,9 +44,9 @@ Map variables you want to pass to the destination flow:
 **Mapping examples:**
 
 ```
-customer_name  ←  {{customer_name}}      (passes current flow variable)
-origin         ←  whatsapp               (fixed value)
-description    ←  Order #{{order_id}}    (interpolates multiple variables)
+customer_name ← {{customer_name}} (passes current flow variable)
+origin ← whatsapp (fixed value)
+description ← Order #{{order_id}} (interpolates multiple variables)
 ```
 
 ## Behavior
@@ -57,7 +57,7 @@ When this node is reached during a conversation:
 2. The destination flow is **started** with the mapped variables already available
 3. The conversation continues seamlessly for the customer
 
-::: warning ⚠️ Note
+::: warning Note
 This node has no output — it is always a terminal node. After it, the destination flow takes over completely.
 :::
 
@@ -67,10 +67,10 @@ This node has no output — it is always a terminal node. After it, the destinat
 Main Flow (General Service)
 ├── Greeting → Triage
 ├── Customer wants technical support?
-│   └── "Call Another Flow" node
-│       └── Flow: "Technical Support"
-│           └── Start node: "Collect problem data"
-│           └── Variables: reason = "{{contact_reason}}"
+│ └── "Call Another Flow" node
+│ └── Flow: "Technical Support"
+│ └── Start node: "Collect problem data"
+│ └── Variables: reason = "{{contact_reason}}"
 └── Customer wants sales?
     └── "Call Another Flow" node
         └── Flow: "Sales Qualification"
@@ -78,10 +78,10 @@ Main Flow (General Service)
 
 ## Best Practices
 
-- ✅ Create modular flows for greeting, triage, and closing
-- ✅ Use variable mapping to maintain context between flows
-- ✅ Choose the correct entry node to avoid repeating steps
-- ❌ Avoid creating loops (flow A calls B, which calls A again)
+- Create modular flows for greeting, triage, and closing
+- Use variable mapping to maintain context between flows
+- Choose the correct entry node to avoid repeating steps
+- Avoid creating loops (flow A calls B, which calls A again)
 
 ## Next Steps
 

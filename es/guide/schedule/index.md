@@ -8,7 +8,7 @@ El módulo de Agenda de Interflow permite gestionar citas, consultas y reuniones
 
 ## Accediendo a la Agenda
 
-1. En el menú principal, haz clic en **Agenda** (📅)
+1. En el menú principal, haz clic en **Agenda** ()
 2. Elige la visualización deseada (día, semana, mes)
 3. Navega entre las fechas usando las flechas o el calendario
 
@@ -90,9 +90,7 @@ Configura flujos automatizados para permitir que los clientes agenden directamen
 - Confirmar fecha y hora
 - Enviar confirmación automática
 
-::: tip 💡 Consejo
 Usa el nodo de **Agente IA** con la herramienta de agendamiento para ofrecer una experiencia conversacional completa.
-:::
 
 ## Citas Recurrentes
 
@@ -137,9 +135,9 @@ Configura mensajes automáticos para recordar a los clientes sus citas.
 1. Accede a **Configuraciones** → **Agenda**
 2. Localiza la sección **"Recordatorios Automáticos"**
 3. Activa los recordatorios deseados:
-   - ✅ **48 horas antes**
-   - ✅ **24 horas antes**
-   - ✅ **2 horas antes** (opcional)
+   - **48 horas antes**
+   - **24 horas antes**
+   - **2 horas antes** (opcional)
 4. Personaliza el modelo de mensaje
 5. Guarda las configuraciones
 
@@ -184,10 +182,10 @@ Responde "REAGENDAR" para cambiar el horario.
 
 ### Comportamiento
 
-- ✅ Enviado solo para citas **confirmadas**
-- ❌ No envía si está **cancelada**
-- 🔄 Respeta horario comercial configurado
-- 📊 Eventos logados para informes
+- Enviado solo para citas **confirmadas**
+- No envía si está **cancelada**
+- Respeta horario comercial configurado
+- Eventos logados para informes
 
 ## Integración con IA
 
@@ -203,10 +201,10 @@ La IA puede gestionar citas de forma natural:
 ### IA Respeta Descansos
 
 La IA automáticamente:
-- ❌ **No ofrece** horarios en períodos de descanso
-- ❌ **No permite** crear citas en días bloqueados
-- ✅ **Explica al cliente** el motivo de la indisponibilidad
-- ✅ **Sugiere automáticamente** fechas alternativas
+- **No ofrece** horarios en períodos de descanso
+- **No permite** crear citas en días bloqueados
+- **Explica al cliente** el motivo de la indisponibilidad
+- **Sugiere automáticamente** fechas alternativas
 
 ## Importar Eventos
 
@@ -225,22 +223,22 @@ La IA automáticamente:
 
 | Estado | Color | Descripción |
 |--------|-------|-------------|
-| **Pendiente** | 🟡 Amarillo | Aguardando confirmación |
-| **Confirmada** | 🟢 Verde | Cliente confirmó |
-| **En progreso** | 🔵 Azul | Servicio iniciado |
-| **Completada** | ⚪ Gris | Servicio finalizado |
-| **Cancelada** | 🔴 Rojo | Cancelada |
-| **No asistió** | ⚫ Negro | Cliente faltó |
+| **Pendiente** | Amarillo | Aguardando confirmación |
+| **Confirmada** | Verde | Cliente confirmó |
+| **En progreso** | Azul | Servicio iniciado |
+| **Completada** | Gris | Servicio finalizado |
+| **Cancelada** | Rojo | Cancelada |
+| **No asistió** | Negro | Cliente faltó |
 
 ## App Mobile
 
 ### Recursos en Android
 
-- ✅ Vista semanal de 6-7 días
-- ✅ Semana iniciando en domingo
-- ✅ Crear y editar eventos
-- ✅ Protección contra gestos accidentales
-- ✅ Notificaciones de recordatorios
+- Vista semanal de 6-7 días
+- Semana iniciando en domingo
+- Crear y editar eventos
+- Protección contra gestos accidentales
+- Notificaciones de recordatorios
 
 ## Automatizaciones por estado
 
@@ -272,7 +270,4 @@ Alertas automáticas en la **app** y **web** para el profesional y usuarios sele
 - [Agentes IA](/es/guide/ai-agents/) — Configura IA para agendamientos
 - [Constructor de Flujos](/es/guide/flows/builder) — Automatiza el proceso de agendamiento
 - [Informes](/es/guide/reports/) — Métricas de citas
-
-
-
 

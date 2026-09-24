@@ -12,10 +12,10 @@ Confirma citas existentes del cliente.
 
 **Ejemplo de uso:**
 ```text
-🤖 IA: ¡Hola! Vi que tienes una cita mañana a las 10am.
+IA: ¡Hola! Vi que tienes una cita mañana a las 10am.
        ¿Puedo confirmar tu asistencia?
 
-👤 Cliente: Sí, confirmo
-🤖 IA: ¡Perfecto! Tu cita está confirmada. ¡Hasta mañana! ✅
+Cliente: Sí, confirmo
+IA: ¡Perfecto! Tu cita está confirmada. ¡Hasta mañana!
 ```
 

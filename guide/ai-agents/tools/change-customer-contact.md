@@ -12,17 +12,17 @@ Permite que a IA **salve ou atualize telefone, WhatsApp ou e-mail** do cliente q
 2. Selecione os tipos permitidos: telefone, WhatsApp e/ou e-mail
 3. Salve o prompt
 
-::: tip 💡 E-mail
+::: tip E-mail
 Quando o tipo for e-mail, o valor também atualiza o campo principal de e-mail do cliente.
 :::
 
 **Exemplo de uso:**
 ```text
-👤 Cliente: Meu WhatsApp é (11) 98888-7777
-🤖 IA: Perfeito! Já salvei esse WhatsApp no seu cadastro.
+Cliente: Meu WhatsApp é (11) 98888-7777
+IA: Perfeito! Já salvei esse WhatsApp no seu cadastro.
 ```
 
-::: info ⚠️ Única
+::: info Única
 Esta ação pode ser adicionada apenas uma vez por agente.
 :::
 

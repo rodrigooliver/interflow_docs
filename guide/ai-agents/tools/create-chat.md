@@ -56,8 +56,8 @@ A **mensagem de contexto** descreve o novo atendimento. Ela não depende do cana
 **Indicação de número**
 
 ```text
-👤 Cliente: Pode chamar o João no 11 98888-7777, ele que decide
-🤖 IA: Combinado — abri o atendimento do João no WhatsApp
+Cliente: Pode chamar o João no 11 98888-7777, ele que decide
+IA: Combinado — abri o atendimento do João no WhatsApp
        com o contexto da indicação.
 
 [Sistema: chat no WhatsApp, contexto: "Indicado pelo cliente atual
@@ -67,8 +67,8 @@ A **mensagem de contexto** descreve o novo atendimento. Ela não depende do cana
 **E-mail com dados do cliente**
 
 ```text
-📧 Assunto: Orçamento — Maria Silva, 11 99999-9999
-🤖 IA: Cadastrei a Maria e iniciei o atendimento no WhatsApp
+Assunto: Orçamento — Maria Silva, 11 99999-9999
+IA: Cadastrei a Maria e iniciei o atendimento no WhatsApp
        com os dados do e-mail.
 
 [Sistema: chat no WhatsApp, funil "Qualificado",

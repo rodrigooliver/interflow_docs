@@ -2,7 +2,7 @@
 
 The Billing module is Interflow's integrated financial system. It allows you to manage contracts, installments, revenue splits among payees, payment gateway integration, and charge issuance/recording — all within the same platform.
 
-::: tip 💡 Access
+::: tip Access
 The module is available at **Left sidebar → Billing** (wallet icon).
 :::
 

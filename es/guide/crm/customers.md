@@ -55,18 +55,18 @@ El sistema detecta automáticamente y bloquea la creación de clientes duplicado
 
 | Campo | Detección |
 |-------|-----------|
-| Teléfono | ✅ Exacto (ignora formato) |
-| Email | ✅ Exacto (ignora mayúsculas) |
-| WhatsApp | ✅ Exacto (normalizado) |
+| Teléfono | Exacto (ignora formato) |
+| Email | Exacto (ignora mayúsculas) |
+| WhatsApp | Exacto (normalizado) |
 
 **Opciones cuando encuentra duplicado:**
 
-- 🚫 Nueva creación es bloqueada
-- 🔗 Link al registro existente mostrado
-- 🔄 Opción de combinar datos
-- ✏️ Opción de actualizar existente
+- Nueva creación es bloqueada
+- Link al registro existente mostrado
+- Opción de combinar datos
+- Opción de actualizar existente
 
-::: tip 💡 Configuración
+::: tip Configuración
 La combinación automática puede ser desactivada en **Configuraciones → Clientes → "Permitir duplicados"**.
 :::
 
@@ -98,7 +98,7 @@ En la edición del cliente, la sección **Direcciones** permite gestionar una o 
 3. Complete los campos y, si quiere, las coordenadas
 4. Guarde
 
-::: tip 💡 Agente de IA
+::: tip Agente de IA
 Las direcciones también pueden grabarse automáticamente con la herramienta **Cambiar Dirección del Cliente** — vea [Herramientas de IA](/es/guide/ai-agents/tools/change-customer-address).
 :::
 
@@ -151,12 +151,12 @@ Escribe en el campo de búsqueda para encontrar clientes por:
 Agentes ven solo clientes de equipos a los que están asignados.
 
 **Áreas afectadas:**
-- 📋 Lista de clientes
-- 🔍 Búsqueda de clientes
-- 📊 Informes (datos filtrados)
-- 📤 Exportaciones (respeta visibilidad)
+- Lista de clientes
+- Búsqueda de clientes
+- Informes (datos filtrados)
+- Exportaciones (respeta visibilidad)
 
-::: warning ⚠️ Seguridad
+::: warning Seguridad
 Administradores continúan viendo todos los clientes. Esta configuración protege datos sensibles entre equipos.
 :::
 
@@ -178,7 +178,7 @@ Administradores continúan viendo todos los clientes. Esta configuración proteg
 3. Selecciona el formato (CSV, Excel, JSON)
 4. Descarga el archivo
 
-::: warning ⚠️ Datos Sensibles
+::: warning Datos Sensibles
 Si la opción "Ocultar Datos de Contacto de los Agentes" está activa, agentes no verán email, teléfono y WhatsApp en las exportaciones.
 :::
 
@@ -186,7 +186,7 @@ Si la opción "Ocultar Datos de Contacto de los Agentes" está activa, agentes n
 
 Genera informes con agrupaciones y subdivisiones personalizadas:
 
-1. En **Clientes** → haz clic en **"Informes Avanzados"** 📊
+1. En **Clientes** → haz clic en **"Informes Avanzados"**
 2. Haz clic en **"Nueva Configuración"**
 3. Sigue el asistente de 5 pasos:
    - **Paso 1**: Upload del JSON (exportar de la lista de clientes)
@@ -214,7 +214,7 @@ Los administradores y propietarios pueden eliminar varios clientes simultáneame
 3. En el modal de confirmación, marca **"También eliminar todos los chats vinculados"** (visible solo para admin y owner)
 4. Confirma la eliminación
 
-::: warning ⚠️ Irreversible
+::: warning Irreversible
 Los mensajes, archivos y sesiones de flujo de todos los chats de los clientes seleccionados se eliminarán permanentemente. Los pedidos POS se mantienen.
 :::
 
@@ -225,7 +225,6 @@ Elige cuántos clientes mostrar por página en el listado:
 - En la parte inferior de la lista, selecciona **10 por página** (predeterminado) o **50 por página**
 
 ---
-
 
 ## Embudo de Ventas
 
@@ -240,7 +239,7 @@ Use el campo de búsqueda en la parte superior del embudo para localizar un clie
 3. Haga clic en el resultado para abrir el **modal de edición** del cliente
 4. Si el card ya está cargado en la columna, también se destaca en el tablero
 
-::: tip 💡
+::: tip
 La búsqueda cubre todo el embudo actual (no solo los cards ya cargados) y respeta **Solo míos** y **Ocultar finalizados**.
 :::
 
@@ -255,7 +254,7 @@ Use la opción **Ocultar finalizados** en la parte superior del embudo para esco
 3. Las columnas muestran solo clientes pendientes, en atención o sin conversación
 4. Desactívela para ver a todos de nuevo
 
-::: tip 💡
+::: tip
 La opción no borra datos — solo filtra la visualización. Se combina con **Solo míos**.
 :::
 
@@ -269,7 +268,7 @@ Control granular sobre quién puede ver y acceder a cada cliente en el CRM.
 
 Los agentes ven solo los clientes de los equipos a los que están asignados.
 
-::: info ℹ️ Administradores
+::: info ℹ Administradores
 Los administradores continúan viendo todos los clientes. Esta configuración protege datos sensibles entre equipos.
 :::
 
@@ -292,9 +291,7 @@ Cuando identificas duplicados:
 3. Elige qué registro mantener como principal
 4. Confirma la combinación
 
-::: tip CONSEJO
 La combinación mantiene el historial completo de ambos registros.
-:::
 
 ## Campos Personalizados
 
@@ -305,20 +302,20 @@ Al renombrar una opción de campo personalizado del tipo select, todos los regis
 **Cómo funciona:**
 
 1. Accede a un cliente → **Campos Personalizados**
-2. Haz clic en ✏️ al lado del campo
-3. Haz clic en ✏️ al lado de la opción que quieres renombrar
+2. Haz clic en al lado del campo
+3. Haz clic en al lado de la opción que quieres renombrar
 4. Escribe el nuevo valor
 5. Haz clic en **"Actualizar"**
 
 **Qué se actualiza:**
-- ✅ Definición del campo
-- ✅ Todos los clientes que usan esa opción
-- ✅ Muestra cuántos registros fueron afectados
+- Definición del campo
+- Todos los clientes que usan esa opción
+- Muestra cuántos registros fueron afectados
 
 **Protecciones:**
-- 🔒 Detecta ediciones concurrentes
-- 🚫 Bloquea duplicados
-- ⚠️ Avisa sobre conflictos
+- Detecta ediciones concurrentes
+- Bloquea duplicados
+- Avisa sobre conflictos
 
 ## Notas y Tareas
 

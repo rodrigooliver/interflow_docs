@@ -51,3 +51,4 @@ Atualizações do mês de dezembro de 2025.
 ::: info Total
 **11 releases** com **18 melhorias** neste mês!
 :::
+

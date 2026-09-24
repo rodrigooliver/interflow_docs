@@ -32,7 +32,7 @@ La pantalla de chat se divide en tres áreas principales:
 
 Crea filtros personalizados para organizar tus conversaciones:
 
-1. Haz clic en ⚙️ en la barra de filtros
+1. Haz clic en en la barra de filtros
 2. Haz clic en **"Nuevo Filtro"** o duplica uno existente
 3. Configura los criterios:
    - **Equipos**: Selecciona uno o múltiples equipos
@@ -45,18 +45,16 @@ Crea filtros personalizados para organizar tus conversaciones:
 6. Haz clic en el ícono de **contador** en los filtros que deben mostrar el número (hasta 12 en la organización)
 7. Guarda
 
-::: tip Consejo
 Puedes filtrar por **múltiples equipos** y **múltiples canales** a la vez — útil para supervisores y equipos que operan varios números de WhatsApp. Los campos personalizados del cliente (lista, fecha y fecha/hora) y los **contadores por equipo** están en [Filtros de conversaciones](/es/guide/chat/filters).
-:::
 
 ### Búsqueda de Conversaciones
 
 Busca conversaciones por **número de teléfono** del cliente:
 
-- ✅ `5511999999999` (completo con código de país)
-- ✅ `11999999999` (con código de área)
-- ✅ `999999999` (solo número)
-- ✅ `+55 11 99999-9999` (formateado)
+- `5511999999999` (completo con código de país)
+- `11999999999` (con código de área)
+- `999999999` (solo número)
+- `+55 11 99999-9999` (formateado)
 
 ### Acciones en masa
 
@@ -85,16 +83,16 @@ Navega directamente a una página específica:
 
 | Ícono | Estado |
 |-------|--------|
-| 🟢 | Activa - esperando atención |
-| 🟡 | En espera - esperando cliente |
-| 🔵 | En atención |
-| ⚪ | Finalizada |
+| | Activa - esperando atención |
+| | En espera - esperando cliente |
+| | En atención |
+| | Finalizada |
 
 ### Indicador de Múltiples Atenciones
 
 Cuando un cliente tiene múltiples conversaciones activas:
 
-- 🔴 Badge aparece al lado del nombre del cliente
+- Badge aparece al lado del nombre del cliente
 - Muestra el número de chats en paralelo
 - Haz clic para ver lista de conversaciones activas
 - Navegación rápida entre chats
@@ -129,11 +127,11 @@ Destaca información importante fijando mensajes en la parte superior del chat:
 3. Selecciona **"Fijar mensaje"**
 
 **Recursos:**
-- 📌 Mensajes aparecen en la parte superior del chat
-- 🔢 Contador de mensajes fijados
-- 🟡 Fondo amarillo para notas privadas fijadas
-- ➜ Botón "Ir al mensaje" (navega al original)
-- 🔄 Actualizaciones en tiempo real
+- Mensajes aparecen en la parte superior del chat
+- Contador de mensajes fijados
+- Fondo amarillo para notas privadas fijadas
+- Botón "Ir al mensaje" (navega al original)
+- Actualizaciones en tiempo real
 
 **Cómo desfijar:**
 - Haz clic en **X** en la lista de fijados, o
@@ -143,11 +141,11 @@ Destaca información importante fijando mensajes en la parte superior del chat:
 
 | Indicador | Significado |
 |-----------|-------------|
-| ✓ | Enviado |
-| ✓✓ | Entregado |
-| ✓✓ (azul) | Leído |
-| ⏳ | Enviando |
-| ❌ | Error de envío |
+| | Enviado |
+| | Entregado |
+| (azul) | Leído |
+| | Enviando |
+| | Error de envío |
 
 ## Panel del Cliente
 
@@ -165,9 +163,9 @@ Destaca información importante fijando mensajes en la parte superior del chat:
 
 Visual que muestra el estado de llenado de los campos:
 
-- ✅ Ícono verde = Campo lleno
-- ⚠️ Ícono amarillo = Campo faltante
-- 🔴 Ícono rojo = Obligatorio y faltante
+- Ícono verde = Campo lleno
+- Ícono amarillo = Campo faltante
+- Ícono rojo = Obligatorio y faltante
 
 ### Acciones Disponibles
 
@@ -184,7 +182,7 @@ Visual que muestra el estado de llenado de los campos:
 Ejecuta acciones en varios chats a la vez directamente desde la lista de atenciones:
 
 1. Aplica los filtros deseados (estado, etiqueta, canal, agente, equipo, no leídos, etc.)
-2. Haz clic en el ícono de **selección en masa** (☑) en la parte superior de la lista
+2. Haz clic en el ícono de **selección en masa** () en la parte superior de la lista
 3. Selecciona chats individualmente **o** usa **"Seleccionar todos los filtrados"**
 4. En la barra inferior, elige:
    - **Marcar como leído** — borra mensajes no leídos en chats elegibles
@@ -208,9 +206,9 @@ Para atender una conversación no asignada:
 3. La conversación será asignada a ti
 
 **Si hay un flujo activo**, puedes elegir:
-- 🟡 **Pausar Flujo y Atender** - Pausa el flujo, tú asumes
-- 🔵 **Continuar Flujo y Atender** - Mantiene flujo activo (¡mensajes duplicados!)
-- ⚪ **Cancelar** - No atiende
+- **Pausar Flujo y Atender** - Pausa el flujo, tú asumes
+- **Continuar Flujo y Atender** - Mantiene flujo activo (¡mensajes duplicados!)
+- **Cancelar** - No atiende
 
 ### Asignación por Administrador
 
@@ -268,10 +266,10 @@ Puedes eliminar notas enviadas por error:
 4. Confirma
 
 **Reglas:**
-- ✅ Solo el autor puede eliminar
-- ✅ Admins pueden eliminar cualquier nota
-- ❌ Mensajes del cliente no pueden ser eliminados
-- 🕐 Log preservado para auditoría
+- Solo el autor puede eliminar
+- Admins pueden eliminar cualquier nota
+- Mensajes del cliente no pueden ser eliminados
+- Log preservado para auditoría
 
 ## Atajos de Mensaje
 
@@ -310,7 +308,7 @@ Mejora tus mensajes con IA directamente del campo de texto:
 - **Simplificar** - Simplifica textos complejos
 - **Traducir** - Traduce a otro idioma
 
-::: tip 💡 Comandos Personalizados
+::: tip Comandos Personalizados
 ¡Crea tus propios comandos de IA! Ve la documentación completa en [Mejorador de Texto](/es/guide/chat/text-enhancer).
 :::
 
@@ -322,7 +320,7 @@ Abre el WhatsApp del cliente directamente del chat con acciones automáticas:
 2. Nueva pestaña abre con mensaje preconfigurado
 3. Acciones automáticas son ejecutadas (campo, embudo, tag)
 
-::: warning ⚠️ Importante
+::: warning Importante
 El botón solo aparece en chats de canales WhatsApp (WAHA, W-API, WhatsApp Oficial).
 :::
 
@@ -339,7 +337,7 @@ Comunícate directamente con otros miembros del equipo sin crear grupos, desde l
 3. Elige el agente con quien deseas conversar
 4. La conversación se abre en el panel o en el **widget flotante**
 
-::: info ℹ️ Comportamiento
+::: info ℹ Comportamiento
 Si ya existe una conversación con el usuario seleccionado, el sistema abre la existente en lugar de crear una nueva. Los chats internos aparecen automáticamente en el widget flotante para ambos participantes.
 :::
 
@@ -350,9 +348,7 @@ Si ya existe una conversación con el usuario seleccionado, el sistema abre la e
 - **Al abrir el chat** — los mensajes pendientes se marcan como leídos automáticamente
 - **Estado visto (DM)** — en chats directos, al abrir la conversación el remitente ve los mensajes como leídos (ticks azules)
 
-::: tip 💡 Consejo
 Si marcas una conversación como **no leída** con ella abierta, el estado se mantiene hasta que la cierres y vuelvas a abrir o la marques como leída de nuevo.
-:::
 
 ### Widget Flotante
 

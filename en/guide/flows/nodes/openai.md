@@ -75,7 +75,7 @@ Selecione uma variável para armazenar a resposta do modelo.
 
 ```
 Prompt do Sistema:
-Você é um assistente amigável. Responda de forma 
+Você é um assistente amigável. Responda de forma
 concisa e útil. Máximo 2 parágrafos.
 
 Mensagem: {{last_message}}
@@ -88,7 +88,7 @@ Variável: resposta_ia
 
 ```
 Prompt do Sistema:
-Classifique a intenção do cliente em uma das 
+Classifique a intenção do cliente em uma das
 categorias: SUPORTE, VENDAS, FINANCEIRO, OUTRO.
 Responda apenas com a categoria, sem explicação.
 
@@ -106,7 +106,7 @@ Variável: intencao
 
 ```
 Prompt do Sistema:
-Faça um resumo conciso da conversa abaixo em 
+Faça um resumo conciso da conversa abaixo em
 no máximo 3 bullets points.
 
 Mensagem: {{historico_conversa}}
@@ -131,7 +131,7 @@ Variável: sentimento
 
 ```
 Prompt do Sistema:
-Traduza o texto para inglês. 
+Traduza o texto para inglês.
 Responda apenas com a tradução.
 
 Mensagem: {{texto_original}}

@@ -1,8 +1,8 @@
-# 🎨 Creating Document Templates
+# Creating Document Templates
 
 Learn how to create professional document templates with Interflow's visual editor.
 
-## 📝 Creating a New Template
+## Creating a New Template
 
 ### Step 1: Access Templates
 1. In the sidebar menu, go to **Document Templates**
@@ -36,7 +36,7 @@ The editor offers complete formatting tools:
 - Right
 - Justified
 
-## 🔤 Inserting Variables
+## Inserting Variables
 
 ### System Variables
 Use the <code v-pre>{{variable}}</code> syntax to insert dynamic data:
@@ -55,43 +55,43 @@ Date: {{date.current_date}}
 ### Variables Panel
 The right sidebar displays all available variables:
 
-#### 👤 Customer Data
+#### Customer Data
 <div v-pre>
 
 ```handlebars
-{{customer.name}}          // John Smith
-{{customer.email}}         // john@email.com
-{{customer.phone}}         // (11) 98765-4321
-{{customer.document}}      // CPF/SSN
-{{customer.address.street}}    // Main Street
-{{customer.address.city}}      // New York
-{{customer.address.state}}     // NY
-{{customer.address.zip_code}}  // 10001
+{{customer.name}} // John Smith
+{{customer.email}} // john@email.com
+{{customer.phone}} // (11) 98765-4321
+{{customer.document}} // CPF/SSN
+{{customer.address.street}} // Main Street
+{{customer.address.city}} // New York
+{{customer.address.state}} // NY
+{{customer.address.zip_code}} // 10001
 ```
 
 </div>
 
-#### 📅 System Data
+#### System Data
 <div v-pre>
 
 ```handlebars
-{{date.current_date}}      // 2026-02-24
-{{date.current_time}}      // 14:30:00
-{{organization.name}}      // Company Name
-{{user.name}}              // User Name
+{{date.current_date}} // 2026-02-24
+{{date.current_time}} // 14:30:00
+{{organization.name}} // Company Name
+{{user.name}} // User Name
 ```
 
 </div>
 
-#### 🎯 Custom Variables
+#### Custom Variables
 Click **"Configure Custom Variables"** to create specific fields:
 
 <div v-pre>
 
 ```handlebars
-{{custom.value}}           // Custom value
-{{custom.term}}            // Term in days
-{{custom.discount}}        // Discount percentage
+{{custom.value}} // Custom value
+{{custom.term}} // Term in days
+{{custom.discount}} // Discount percentage
 ```
 
 </div>
@@ -102,7 +102,7 @@ Click **"Configure Custom Variables"** to create specific fields:
 - `date` - Dates
 - `boolean` - True/False
 
-## 🎨 Advanced Settings
+## Advanced Settings
 
 ### Watermark
 
@@ -153,44 +153,42 @@ Right: 20mm
 - **Formal Document**: 25mm top/bottom, 30mm sides
 - **No Margins**: 0mm (for custom designs)
 
-::: tip 💡 Tip
 Smaller margins make better use of space but can make printing difficult. Use at least 10mm for documents that will be printed.
-:::
 
-## 💾 Saving the Template
+## Saving the Template
 
 1. Review all content in the editor
 2. Check variables and helpers
 3. Test watermark and margin settings
 4. Click **"Save Template"**
 
-## ✅ Best Practices
+## Best Practices
 
 ### Design
-- ✅ Use **clear headings** to organize content
-- ✅ Maintain **consistent spacing** between sections
-- ✅ Choose **readable fonts** (Helvetica, Arial, Times New Roman)
-- ✅ Use **tables** to organize structured data
+- Use **clear headings** to organize content
+- Maintain **consistent spacing** between sections
+- Choose **readable fonts** (Helvetica, Arial, Times New Roman)
+- Use **tables** to organize structured data
 
 ### Variables
-- ✅ Test with **real data** before finalizing
-- ✅ Use **default values** for optional variables
-- ✅ Add **context** around variables (e.g., "SSN: <span v-pre>{{customer.document}}</span>")
+- Test with **real data** before finalizing
+- Use **default values** for optional variables
+- Add **context** around variables (e.g., "SSN: <span v-pre>{{customer.document}}</span>")
 
 ### Formatting
-- ✅ Use **inline styles** to ensure formatting is preserved
-- ✅ Avoid **external fonts** that may not be available in export
-- ✅ Test in **both formats** (PDF and DOCX) to ensure compatibility
+- Use **inline styles** to ensure formatting is preserved
+- Avoid **external fonts** that may not be available in export
+- Test in **both formats** (PDF and DOCX) to ensure compatibility
 
 ### Performance
-- ✅ **Optimize images** before using as watermark (max 2MB)
-- ✅ Avoid **very complex templates** (>5000 lines of HTML)
-- ✅ Use **conditionals** to display only relevant data
+- **Optimize images** before using as watermark (max 2MB)
+- Avoid **very complex templates** (>5000 lines of HTML)
+- Use **conditionals** to display only relevant data
 
-::: warning ⚠️ Warning
+::: warning Warning
 Some CSS styles may not be supported equally in PDF and DOCX. Always test generation in both formats.
 :::
 
-## 🎬 Next Step
+## Next Step
 
 Now that you know how to create templates, learn to use [Variables & Helpers](./variables) to make your documents even more dynamic and powerful!

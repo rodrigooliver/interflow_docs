@@ -28,7 +28,7 @@ Selecciona el flujo que deseas activar. Usa el campo de búsqueda para filtrar p
 
 Elige en qué nodo debe comenzar el flujo de destino. Si no seleccionas, el flujo comenzará desde el nodo predeterminado (`start`).
 
-::: tip 💡 Flexibilidad
+::: tip Flexibilidad
 Puedes iniciar el flujo de destino en cualquier nodo, no necesariamente el inicio. Esto permite crear puntos de entrada diferentes para el mismo flujo según el contexto.
 :::
 
@@ -44,9 +44,9 @@ Mapea las variables que deseas pasar al flujo de destino:
 **Ejemplos de mapeo:**
 
 ```
-nombre_cliente  ←  {{customer_name}}      (pasa variable del flujo actual)
-origen          ←  whatsapp               (valor fijo)
-descripcion     ←  Pedido #{{pedido_id}}  (interpola múltiples variables)
+nombre_cliente ← {{customer_name}} (pasa variable del flujo actual)
+origen ← whatsapp (valor fijo)
+descripcion ← Pedido #{{pedido_id}} (interpola múltiples variables)
 ```
 
 ## Comportamiento

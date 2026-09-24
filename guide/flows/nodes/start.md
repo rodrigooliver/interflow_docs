@@ -51,8 +51,8 @@ Veja mais detalhes em [Tipos de Fluxo](/guide/flows/builder#tipos-de-fluxo).
 [Start] → [Condição: horário]
             ↓
    ┌────────┼────────┐
-   6h      12h      18h
-   ↓        ↓        ↓
+   6h 12h 18h
+   ↓ ↓ ↓
 [Bom dia] [Boa tarde] [Boa noite]
 ```
 

@@ -8,7 +8,7 @@ O módulo de Agenda da Interflow permite gerenciar compromissos, consultas e reu
 
 ## Acessando a Agenda
 
-1. No menu principal, clique em **Agenda** (📅)
+1. No menu principal, clique em **Agenda** ()
 2. Escolha a visualização desejada (dia, semana, mês)
 3. Navegue entre as datas usando as setas ou o calendário
 
@@ -90,9 +90,7 @@ Configure fluxos automatizados para permitir que clientes agendem diretamente pe
 - Confirmar data e hora
 - Enviar confirmação automática
 
-::: tip 💡 Dica
 Use o nó de **Agente IA** com a ferramenta de agendamento para oferecer uma experiência conversacional completa.
-:::
 
 ## Agendamentos Recorrentes
 
@@ -131,7 +129,7 @@ Histórico, chat e demais vínculos do agendamento permanecem intactos.
 ### Exemplo de Uso
 
 ```
-📅 Fisioterapia - João Silva
+Fisioterapia - João Silva
    Recorrência: Semanal (Segunda e Quarta)
    Término: Após 12 sessões
    
@@ -147,9 +145,9 @@ Configure mensagens automáticas para lembrar clientes de seus compromissos.
 1. Acesse **Configurações** → **Agenda**
 2. Localize a seção **"Lembretes Automáticos"**
 3. Ative os lembretes desejados:
-   - ✅ **48 horas antes**
-   - ✅ **24 horas antes**
-   - ✅ **2 horas antes** (opcional)
+   - **48 horas antes**
+   - **24 horas antes**
+   - **2 horas antes** (opcional)
 4. Personalize o modelo de mensagem
 5. Salve as configurações
 
@@ -196,10 +194,10 @@ Para reagendar, responda "REAGENDAR".
 
 ### Comportamento
 
-- ✅ Enviado apenas para agendamentos **confirmados**
-- ❌ Não envia se o agendamento foi **cancelado**
-- 🔄 Respeita horário comercial configurado
-- 📊 Eventos são logados para relatórios
+- Enviado apenas para agendamentos **confirmados**
+- Não envia se o agendamento foi **cancelado**
+- Respeita horário comercial configurado
+- Eventos são logados para relatórios
 
 ## Configuração de Horários
 
@@ -221,7 +219,7 @@ Para reagendar, responda "REAGENDAR".
 | **Por profissional** | Aplica folga apenas a um profissional |
 | **Todos** | Aplica para toda a equipe |
 
-::: warning ⚠️ Importante
+::: warning Importante
 A IA respeita automaticamente as folgas configuradas. Ao tentar agendar em um período bloqueado, ela informa a indisponibilidade e sugere alternativas.
 :::
 
@@ -241,10 +239,10 @@ A IA pode gerenciar agendamentos de forma natural:
 1. Acesse **Agentes IA** → Edite o agente
 2. Vá em **Ferramentas**
 3. Ative as ações de agendamento:
-   - ✅ Listar horários disponíveis
-   - ✅ Criar agendamento
-   - ✅ Reagendar
-   - ✅ Cancelar
+   - Listar horários disponíveis
+   - Criar agendamento
+   - Reagendar
+   - Cancelar
 
 ### IA Mostra Apenas Horários Futuros
 
@@ -267,20 +265,20 @@ A IA automaticamente filtra horários passados ao listar disponibilidades, mostr
 
 ### Filtros de Importação
 
-- ✅ Período personalizado (data inicial e final)
-- ✅ Eventos cancelados são ignorados automaticamente
-- ✅ Duplicatas são detectadas e ignoradas
+- Período personalizado (data inicial e final)
+- Eventos cancelados são ignorados automaticamente
+- Duplicatas são detectadas e ignoradas
 
 ## Status dos Agendamentos
 
 | Status | Cor | Descrição |
 |--------|-----|-----------|
-| **Pendente** | 🟡 Amarelo | Aguardando confirmação |
-| **Confirmado** | 🟢 Verde | Cliente confirmou presença |
-| **Em andamento** | 🔵 Azul | Atendimento iniciado |
-| **Concluído** | ⚪ Cinza | Atendimento finalizado |
-| **Cancelado** | 🔴 Vermelho | Cancelado pelo cliente ou equipe |
-| **Não compareceu** | ⚫ Preto | Cliente faltou |
+| **Pendente** | Amarelo | Aguardando confirmação |
+| **Confirmado** | Verde | Cliente confirmou presença |
+| **Em andamento** | Azul | Atendimento iniciado |
+| **Concluído** | Cinza | Atendimento finalizado |
+| **Cancelado** | Vermelho | Cancelado pelo cliente ou equipe |
+| **Não compareceu** | Preto | Cliente faltou |
 
 ## Recursos Avançados
 
@@ -305,11 +303,11 @@ Os agendamentos são coloridos automaticamente conforme seu status, facilitando 
 
 ### Recursos no Android
 
-- ✅ Visualização de 6-7 dias na semana
-- ✅ Semana iniciando no domingo
-- ✅ Criação e edição de eventos
-- ✅ Proteção contra gestos acidentais
-- ✅ Notificações de lembretes
+- Visualização de 6-7 dias na semana
+- Semana iniciando no domingo
+- Criação e edição de eventos
+- Proteção contra gestos acidentais
+- Notificações de lembretes
 
 ## Automações por status
 
@@ -341,7 +339,4 @@ Alertas automáticos no **app** e **web** para o profissional e usuários seleci
 - [Agentes IA](/guide/ai-agents/) — Configure IA para agendamentos
 - [Fluxos de Atendimento](/guide/flows/builder) — Automatize o processo de agendamento
 - [Relatórios](/guide/reports/) — Métricas de agendamentos
-
-
-
 

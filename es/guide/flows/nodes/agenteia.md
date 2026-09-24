@@ -71,8 +71,8 @@ Selecione uma variável para armazenar a resposta do agente.
 [Agente IA] → Agente: "Qualificador de Leads"
               Variável: qualificacao
 [Condição] → qualificacao contém "QUALIFICADO"
-  ✅ → [Atualizar Cliente] Funil: Leads Qualificados
-  ❌ → [Texto] "Obrigado pelo interesse!"
+  → [Atualizar Cliente] Funil: Leads Qualificados
+  → [Texto] "Obrigado pelo interesse!"
 ```
 
 ### Suporte Técnico
@@ -83,8 +83,8 @@ Selecione uma variável para armazenar a resposta do agente.
               Variável: solucao
 [Texto] → {{solucao}}
 [Condição] → solucao contém "ESCALAR"
-  ✅ → [Transferir para atendente]
-  ❌ → [Texto] "Problema resolvido?"
+  → [Transferir para atendente]
+  → [Texto] "Problema resolvido?"
 ```
 
 ### FAQ Inteligente

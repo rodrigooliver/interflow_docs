@@ -19,13 +19,13 @@ Creates new appointments directly through conversation.
 
 **Usage example:**
 ```text
-👤 Customer: I want to schedule an appointment
-🤖 AI: Sure! We have availability Monday through Friday.
+Customer: I want to schedule an appointment
+AI: Sure! We have availability Monday through Friday.
        What day and time do you prefer?
 
-👤 Customer: Thursday at 2pm
-🤖 AI: ✅ Appointment confirmed!
-       📅 Thursday, December 26, 2025 at 2:00 PM
+Customer: Thursday at 2pm
+AI: Appointment confirmed!
+       Thursday, December 26, 2025 at 2:00 PM
        I'll send a reminder 24h before!
 ```
 

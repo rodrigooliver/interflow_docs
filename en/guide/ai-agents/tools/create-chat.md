@@ -56,8 +56,8 @@ The **context message** describes the new attendance. It does not depend on the 
 **Someone shares a number**
 
 ```text
-👤 Customer: Please call John at +1 555 888 7777 — he decides
-🤖 AI: Done — I opened John's WhatsApp conversation
+Customer: Please call John at +1 555 888 7777 — he decides
+AI: Done — I opened John's WhatsApp conversation
        with the referral context.
 
 [System: WhatsApp chat, context: "Referred by the current customer
@@ -67,8 +67,8 @@ The **context message** describes the new attendance. It does not depend on the 
 **Email with customer details**
 
 ```text
-📧 Subject: Quote — Maria Silva, +1 555 999 9999
-🤖 AI: I registered Maria and started the WhatsApp conversation
+Subject: Quote — Maria Silva, +1 555 999 9999
+AI: I registered Maria and started the WhatsApp conversation
        with the details from the email.
 
 [System: WhatsApp chat, funnel "Qualified",

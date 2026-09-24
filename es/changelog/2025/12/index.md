@@ -52,6 +52,3 @@ Actualizaciones del mes de diciembre de 2025.
 **11 releases** con **18 mejoras** este mes!
 :::
 
-
-
-

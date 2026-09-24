@@ -8,7 +8,7 @@ O módulo de Relatórios da Interflow oferece análises detalhadas sobre atendim
 
 ## Acessando Relatórios
 
-1. No menu principal, clique em **Relatórios** (📊)
+1. No menu principal, clique em **Relatórios** ()
 2. Selecione o tipo de relatório desejado
 3. Configure os filtros de período e critérios
 4. Visualize ou exporte os dados
@@ -37,10 +37,10 @@ Análise de desempenho do atendimento ao cliente.
 
 ### Visualizações
 
-- 📊 **Gráficos de linha**: Evolução ao longo do tempo
-- 📈 **Gráficos de barra**: Comparativo entre períodos/equipes
-- 🥧 **Gráficos de pizza**: Distribuição por categoria
-- 📋 **Tabelas**: Dados detalhados exportáveis
+- **Gráficos de linha**: Evolução ao longo do tempo
+- **Gráficos de barra**: Comparativo entre períodos/equipes
+- **Gráficos de pizza**: Distribuição por categoria
+- **Tabelas**: Dados detalhados exportáveis
 
 ## Relatórios Avançados de Clientes
 
@@ -48,7 +48,7 @@ Gerador de relatórios com agrupamentos e subdivisões personalizadas.
 
 ### Como Criar
 
-1. Em **Clientes** → clique em **"Relatórios Avançados"** 📊
+1. Em **Clientes** → clique em **"Relatórios Avançados"**
 2. Clique em **"Nova Configuração"**
 3. Siga o assistente de 5 etapas:
 
@@ -86,16 +86,16 @@ Gerador de relatórios com agrupamentos e subdivisões personalizadas.
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│ Clientes por Origem e Status                            │
+│ Clientes por Origem e Status │
 ├──────────────┬───────┬───────────┬──────────┬───────────┤
-│ Origem       │ Total │ Convertido│ Perdido  │ Em negoc. │
+│ Origem │ Total │ Convertido│ Perdido │ Em negoc. │
 ├──────────────┼───────┼───────────┼──────────┼───────────┤
-│ Google Ads   │ 150   │ 45 (30%)  │ 80 (53%) │ 25 (17%)  │
-│ Facebook     │ 120   │ 36 (30%)  │ 60 (50%) │ 24 (20%)  │
-│ Indicação    │ 80    │ 48 (60%)  │ 20 (25%) │ 12 (15%)  │
-│ Orgânico     │ 50    │ 20 (40%)  │ 20 (40%) │ 10 (20%)  │
+│ Google Ads │ 150 │ 45 (30%) │ 80 (53%) │ 25 (17%) │
+│ Facebook │ 120 │ 36 (30%) │ 60 (50%) │ 24 (20%) │
+│ Indicação │ 80 │ 48 (60%) │ 20 (25%) │ 12 (15%) │
+│ Orgânico │ 50 │ 20 (40%) │ 20 (40%) │ 10 (20%) │
 ├──────────────┼───────┼───────────┼──────────┼───────────┤
-│ TOTAL        │ 400   │ 149 (37%) │ 180 (45%)│ 71 (18%)  │
+│ TOTAL │ 400 │ 149 (37%) │ 180 (45%)│ 71 (18%) │
 └──────────────┴───────┴───────────┴──────────┴───────────┘
 ```
 
@@ -132,9 +132,9 @@ Analise o desempenho individual e coletivo da equipe.
 
 Visualize os melhores desempenhos:
 
-- 🥇 **Top atendentes** por volume
-- ⚡ **Mais rápidos** em resposta
-- ⭐ **Melhor avaliados** pelos clientes
+- **Top atendentes** por volume
+- **Mais rápidos** em resposta
+- **Melhor avaliados** pelos clientes
 
 ## Relatórios de Agendamentos
 
@@ -192,9 +192,7 @@ Compare performance entre canais para identificar onde investir mais.
 3. Selecione o formato
 4. Aguarde o download
 
-::: tip 💡 Dica
 Para relatórios grandes, o sistema gera o arquivo em background e envia por email quando pronto.
-:::
 
 ## Agendamento de Relatórios
 
@@ -231,12 +229,12 @@ Receba relatórios automaticamente por email.
 
 ### Widgets Disponíveis
 
-- 📈 **Gráfico de linha**
-- 📊 **Gráfico de barras**
-- 🥧 **Gráfico de pizza**
-- 🔢 **Contador/KPI**
-- 📋 **Tabela resumida**
-- 🗓️ **Calendário de eventos**
+- **Gráfico de linha**
+- **Gráfico de barras**
+- **Gráfico de pizza**
+- **Contador/KPI**
+- **Tabela resumida**
+- **Calendário de eventos**
 
 ## Permissões
 
@@ -244,12 +242,12 @@ Receba relatórios automaticamente por email.
 
 | Perfil | Acesso |
 |--------|--------|
-| Owner | ✅ Todos os relatórios |
-| Admin | ✅ Todos os relatórios |
-| Manager | ✅ Relatórios da sua equipe |
-| Agent | ⚠️ Métricas pessoais apenas |
+| Owner | Todos os relatórios |
+| Admin | Todos os relatórios |
+| Manager | Relatórios da sua equipe |
+| Agent | Métricas pessoais apenas |
 
-::: warning ⚠️ Atenção
+::: warning Atenção
 Agentes com restrição de visibilidade veem apenas dados filtrados das suas equipes.
 :::
 
@@ -258,7 +256,4 @@ Agentes com restrição de visibilidade veem apenas dados filtrados das suas equ
 - [Agenda](/guide/schedule/) - Métricas de agendamentos
 - [CRM e Clientes](/guide/crm/customers) - Relatórios de clientes
 - [Configurações](/guide/settings/) - Permissões de relatórios
-
-
-
 

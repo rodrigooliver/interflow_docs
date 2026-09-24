@@ -2,10 +2,6 @@
 
 This guide will help you set up Interflow in just a few minutes.
 
-::: tip ESTIMATED TIME
-⏱️ **5-10 minutes** for basic setup
-:::
-
 ## Step 1: Create Your Account
 
 Go to [app.interflow.chat/signup](https://app.interflow.chat/signup) to start registration.
@@ -142,7 +138,7 @@ Use variables to automatically personalize your messages:
 **Example:**
 ```txt
 Shortcut: hello
-Content: {{greeting}}, {{customer.firstName}}! 👋 
+Content: {{greeting}}, {{customer.firstName}}!
 How can I help you today?
 ```
 
@@ -180,7 +176,7 @@ Before you start serving customers, verify:
 
 <a href="/en/guide/channels/" style="text-decoration: none;">
   <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">📱</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Communication Channels</h4>
     <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Connect WhatsApp, Instagram and more</p>
   </div>
@@ -188,7 +184,7 @@ Before you start serving customers, verify:
 
 <a href="/en/guide/chat/interface" style="text-decoration: none;">
   <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">💬</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Chat Interface</h4>
     <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Learn how to use the service interface</p>
   </div>
@@ -196,7 +192,7 @@ Before you start serving customers, verify:
 
 <a href="/en/guide/flows/builder" style="text-decoration: none;">
   <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">🤖</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Flow Builder</h4>
     <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Master customer service automation</p>
   </div>
@@ -208,6 +204,6 @@ Before you start serving customers, verify:
 
 If you have questions during setup:
 
-- 📧 **Email**: suporte@interflow.chat
-- 💬 **Chat**: Available on the platform
-- 📖 **FAQ**: [Frequently asked questions](/en/faq)
+- **Email**: suporte@interflow.chat
+- **Chat**: Available on the platform
+- **FAQ**: [Frequently asked questions](/en/faq)

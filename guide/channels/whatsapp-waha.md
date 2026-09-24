@@ -73,9 +73,7 @@ A verificação usa uma extensão do navegador (necessária porque a confirmaç�
 3. Em alguns casos, o WhatsApp mostra um código de **4 dígitos** no celular: confira se é o mesmo da tela e clique em **O código confere**
 4. Aguarde o status mudar para **Conectado**
 
-::: tip Dica
 Nem todas as contas pedem chave de acesso. Se o canal conectar só com o QR Code ou o código de pareamento, nenhuma etapa extra é necessária.
-:::
 
 ### Passo 3: Confirmar Conexão
 
@@ -83,7 +81,7 @@ Após escanear (e concluir a chave de acesso, se solicitada), o status mudará p
 
 <!-- Placeholder para vídeo -->
 <div style="background: linear-gradient(135deg, #128C7E 0%, #075E54 100%); border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 48px;">▶️</span>
+  <span style="color: white; font-size: 48px;">▶</span>
   <p style="color: white; margin-top: 8px; font-size: 18px;">Vídeo: Conectando via QR Code (em breve)</p>
 </div>
 
@@ -91,10 +89,10 @@ Após escanear (e concluir a chave de acesso, se solicitada), o status mudará p
 
 Para evitar desconexões:
 
-- ✅ Mantenha o celular conectado à internet
-- ✅ Não desconecte manualmente o aparelho
-- ✅ Evite usar o mesmo número em outros serviços
-- ❌ Não faça logout do WhatsApp no celular
+- Mantenha o celular conectado à internet
+- Não desconecte manualmente o aparelho
+- Evite usar o mesmo número em outros serviços
+- Não faça logout do WhatsApp no celular
 
 ## Sincronização de Mensagens
 
@@ -111,12 +109,12 @@ Recupere mensagens históricas do WhatsApp que não entraram automaticamente.
 
 ### O que acontece
 
-- ✅ Busca mensagens do período selecionado
-- ✅ Sincroniza com timestamp original
-- ⏭️ Ignora mensagens já existentes
-- ✅ Atualiza status correto (enviado, entregue, lido)
+- Busca mensagens do período selecionado
+- Sincroniza com timestamp original
+- ⏭ Ignora mensagens já existentes
+- Atualiza status correto (enviado, entregue, lido)
 
-::: tip 💡 Quando usar
+::: tip Quando usar
 Útil quando você reconectou o canal e quer recuperar conversas que aconteceram enquanto estava desconectado.
 :::
 
@@ -126,10 +124,10 @@ Receba e responda mensagens de grupos do WhatsApp.
 
 ### Como funciona
 
-- 💬 Grupos aparecem na lista de conversas
-- 👤 Identifica quem enviou no grupo
-- ↩️ Responda diretamente ao grupo
-- 📊 Histórico completo preservado
+- Grupos aparecem na lista de conversas
+- Identifica quem enviou no grupo
+- ↩ Responda diretamente ao grupo
+- Histórico completo preservado
 
 ### Funcionalidades Avançadas de Grupos
 
@@ -158,7 +156,7 @@ A foto do grupo é exibida automaticamente no cabeçalho do chat.
 2. Visualize todos os membros
 3. Use **"Adicionar como cliente"** para quem tiver número disponível
 
-::: info ℹ️ Privacidade (Meta)
+::: info ℹ Privacidade (Meta)
 Alguns participantes aparecem apenas com identificador (@lid por políticas do Meta). Nesses casos, use o menu da mensagem quando o participante enviar algo no grupo.
 :::
 
@@ -229,7 +227,7 @@ Se você usa o WhatsApp Oficial (API Meta), configure um canal WAHA auxiliar par
 3. O input completo de mensagens aparece (texto, arquivos, áudio, emoji)
 4. A mensagem é enviada pelo WAHA e registrada no histórico normalmente
 
-::: tip 💡 Recomendação
+::: tip Recomendação
 O canal auxiliar **não aparece na listagem geral** de canais — fica visível apenas dentro das configurações do canal official.
 :::
 
@@ -264,14 +262,14 @@ O WhatsApp pode bloquear **primeiro contato** (número com quem aquele canal ain
 
 Para evitar bloqueios do WhatsApp:
 
-### ✅ Faça
+### Faça
 
 - Envie mensagens apenas para quem autorizou
 - Responda rapidamente aos clientes
 - Use linguagem profissional
 - Tenha um horário de atendimento
 
-### ❌ Evite
+### Evite
 
 - Enviar mensagens em massa não solicitadas
 - Usar linguagem promocional agressiva
@@ -295,9 +293,7 @@ Se o canal desconectar:
 3. Escaneie o novo QR Code
 4. Aguarde a reconexão
 
-::: tip DICA
 Se houver desconexões frequentes, verifique a conexão de internet do celular e considere migrar para WhatsApp Business API.
-:::
 
 ## Solução de Problemas
 

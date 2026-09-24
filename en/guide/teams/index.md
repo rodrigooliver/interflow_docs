@@ -17,7 +17,7 @@ Teams group organization users to:
 2. Click the **Teams** tab
 3. Create, edit, or manage members for each team
 
-::: tip 💡 Permission
+::: tip Permission
 Team management requires **Owner** or **Admin** profile.
 :::
 
@@ -62,7 +62,7 @@ Configure one or more **triggers**:
 | **Agent leave** | Agent closes/leaves and chat returns to pending |
 | **Flow node (round-robin)** | Automation flow triggers distribution |
 
-::: info ℹ️ Eligibility
+::: info ℹ Eligibility
 Round-robin only acts on **pending**, **unassigned** chats from **non-spam** customers that are **not external groups**.
 :::
 
@@ -106,9 +106,7 @@ Set minutes to restrict who can attend:
 
 - Reservation indicates the agent but **does not block** other members
 
-::: tip 💡 Tip
 Use a shorter working-hours period (e.g. 5 min) and longer off-hours period (e.g. 15 min) when fallback assigns outside schedule.
-:::
 
 ### Fallback — when no one is available
 

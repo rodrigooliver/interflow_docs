@@ -1,8 +1,8 @@
-# 🎨 Crear Plantillas de Documentos
+# Crear Plantillas de Documentos
 
 Aprenda a crear plantillas de documentos profesionales con el editor visual de Interflow.
 
-## 📝 Creando una Nueva Plantilla
+## Creando una Nueva Plantilla
 
 ### Paso 1: Acceder a Plantillas
 1. En el menú lateral, vaya a **Plantillas de Documentos**
@@ -36,7 +36,7 @@ El editor ofrece herramientas completas de formato:
 - Derecha
 - Justificado
 
-## 🔤 Insertar Variables
+## Insertar Variables
 
 ### Variables del Sistema
 Use la sintaxis <code v-pre>{{variable}}</code> para insertar datos dinámicos:
@@ -55,43 +55,43 @@ Fecha: {{date.current_date}}
 ### Panel de Variables
 El panel lateral derecho muestra todas las variables disponibles:
 
-#### 👤 Datos del Cliente
+#### Datos del Cliente
 <div v-pre>
 
 ```handlebars
-{{customer.name}}          // Juan Silva
-{{customer.email}}         // juan@email.com
-{{customer.phone}}         // (11) 98765-4321
-{{customer.document}}      // DNI/CUIT
-{{customer.address.street}}    // Calle de las Flores
-{{customer.address.city}}      // Buenos Aires
-{{customer.address.state}}     // BA
-{{customer.address.zip_code}}  // C1234ABC
+{{customer.name}} // Juan Silva
+{{customer.email}} // juan@email.com
+{{customer.phone}} // (11) 98765-4321
+{{customer.document}} // DNI/CUIT
+{{customer.address.street}} // Calle de las Flores
+{{customer.address.city}} // Buenos Aires
+{{customer.address.state}} // BA
+{{customer.address.zip_code}} // C1234ABC
 ```
 
 </div>
 
-#### 📅 Datos del Sistema
+#### Datos del Sistema
 <div v-pre>
 
 ```handlebars
-{{date.current_date}}      // 2026-02-24
-{{date.current_time}}      // 14:30:00
-{{organization.name}}      // Nombre de la Empresa
-{{user.name}}              // Nombre del Usuario
+{{date.current_date}} // 2026-02-24
+{{date.current_time}} // 14:30:00
+{{organization.name}} // Nombre de la Empresa
+{{user.name}} // Nombre del Usuario
 ```
 
 </div>
 
-#### 🎯 Variables Personalizadas
+#### Variables Personalizadas
 Haga clic en **"Configurar Variables Personalizadas"** para crear campos específicos:
 
 <div v-pre>
 
 ```handlebars
-{{custom.valor}}           // Valor personalizado
-{{custom.plazo}}           // Plazo en días
-{{custom.descuento}}       // Porcentaje de descuento
+{{custom.valor}} // Valor personalizado
+{{custom.plazo}} // Plazo en días
+{{custom.descuento}} // Porcentaje de descuento
 ```
 
 </div>
@@ -102,7 +102,7 @@ Haga clic en **"Configurar Variables Personalizadas"** para crear campos especí
 - `date` - Fechas
 - `boolean` - Verdadero/Falso
 
-## 🎨 Configuraciones Avanzadas
+## Configuraciones Avanzadas
 
 ### Marca de Agua
 
@@ -153,44 +153,42 @@ Derecha: 20mm
 - **Documento Formal**: 25mm superior/inferior, 30mm laterales
 - **Sin Márgenes**: 0mm (para diseños personalizados)
 
-::: tip 💡 Consejo
 Márgenes más pequeños aprovechan mejor el espacio, pero pueden dificultar la impresión. Use al menos 10mm para documentos que se imprimirán.
-:::
 
-## 💾 Guardar la Plantilla
+## Guardar la Plantilla
 
 1. Revise todo el contenido en el editor
 2. Verifique las variables y helpers
 3. Pruebe las configuraciones de marca de agua y márgenes
 4. Haga clic en **"Guardar Plantilla"**
 
-## ✅ Buenas Prácticas
+## Buenas Prácticas
 
 ### Diseño
-- ✅ Use **encabezados claros** para organizar el contenido
-- ✅ Mantenga **espaciado consistente** entre secciones
-- ✅ Elija **fuentes legibles** (Helvetica, Arial, Times New Roman)
-- ✅ Use **tablas** para organizar datos estructurados
+- Use **encabezados claros** para organizar el contenido
+- Mantenga **espaciado consistente** entre secciones
+- Elija **fuentes legibles** (Helvetica, Arial, Times New Roman)
+- Use **tablas** para organizar datos estructurados
 
 ### Variables
-- ✅ Pruebe con **datos reales** antes de finalizar
-- ✅ Use **valores predeterminados** para variables opcionales
-- ✅ Agregue **contexto** alrededor de las variables (ej: "DNI: <span v-pre>{{customer.document}}</span>")
+- Pruebe con **datos reales** antes de finalizar
+- Use **valores predeterminados** para variables opcionales
+- Agregue **contexto** alrededor de las variables (ej: "DNI: <span v-pre>{{customer.document}}</span>")
 
 ### Formato
-- ✅ Use **estilos en línea** para garantizar que el formato se preserve
-- ✅ Evite **fuentes externas** que puedan no estar disponibles en la exportación
-- ✅ Pruebe en **ambos formatos** (PDF y DOCX) para garantizar compatibilidad
+- Use **estilos en línea** para garantizar que el formato se preserve
+- Evite **fuentes externas** que puedan no estar disponibles en la exportación
+- Pruebe en **ambos formatos** (PDF y DOCX) para garantizar compatibilidad
 
 ### Rendimiento
-- ✅ **Optimice imágenes** antes de usar como marca de agua (máx 2MB)
-- ✅ Evite **plantillas muy complejas** (>5000 líneas de HTML)
-- ✅ Use **condicionales** para mostrar solo datos relevantes
+- **Optimice imágenes** antes de usar como marca de agua (máx 2MB)
+- Evite **plantillas muy complejas** (>5000 líneas de HTML)
+- Use **condicionales** para mostrar solo datos relevantes
 
-::: warning ⚠️ Atención
+::: warning Atención
 Algunos estilos CSS pueden no ser compatibles por igual en PDF y DOCX. Siempre pruebe la generación en ambos formatos.
 :::
 
-## 🎬 Próximo Paso
+## Próximo Paso
 
 Ahora que sabe cómo crear plantillas, aprenda a usar [Variables y Helpers](./variables) para hacer sus documentos aún más dinámicos y potentes!

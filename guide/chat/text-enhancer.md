@@ -17,7 +17,7 @@ O Melhorador de Texto é uma ferramenta de IA integrada ao chat que ajuda os ate
 
 ### Via Menu
 
-1. No campo de texto, clique no ícone de IA (✨)
+1. No campo de texto, clique no ícone de IA ()
 2. Selecione a opção de melhoria
 3. Aguarde o processamento
 
@@ -71,21 +71,21 @@ Crie seus próprios comandos de IA para ações frequentes.
 ```
 Nome: Resposta de preço
 Gatilho: /preco
-Prompt: Gere uma resposta educada explicando que enviarei 
+Prompt: Gere uma resposta educada explicando que enviarei
         a tabela de preços em seguida.
 ```
 
 ```
 Nome: Encerramento positivo
 Gatilho: /tchau
-Prompt: Crie uma mensagem de despedida amigável 
+Prompt: Crie uma mensagem de despedida amigável
         agradecendo o contato.
 ```
 
 ```
 Nome: Pedir dados
 Gatilho: /dados
-Prompt: Solicite educadamente nome completo, email 
+Prompt: Solicite educadamente nome completo, email
         e telefone do cliente.
 ```
 
@@ -108,7 +108,7 @@ Use variáveis para personalizar:
 
 **Exemplo:**
 ```
-Prompt: Agradeça {{customer_name}} pelo contato e 
+Prompt: Agradeça {{customer_name}} pelo contato e
         informe que estou à disposição.
 ```
 
@@ -126,8 +126,8 @@ Escolha qual modelo usar para as melhorias:
 
 | Modelo | Velocidade | Qualidade |
 |--------|------------|-----------|
-| GPT-3.5 | ⚡ Rápido | ✅ Boa |
-| GPT-4 | 🐢 Mais lento | ✨ Excelente |
+| GPT-3.5 | Rápido | Boa |
+| GPT-4 | Mais lento | Excelente |
 
 ### Idioma Padrão
 
@@ -135,14 +135,14 @@ Configure o idioma padrão para as melhorias e traduções.
 
 ## Dicas de Uso
 
-### ✅ Boas Práticas
+### Boas Práticas
 
 - Use **Formalizar** para mensagens iniciais
 - Use **Simplificar** para explicações técnicas
 - Crie comandos para respostas frequentes
 - Revise sempre antes de enviar
 
-### ⚡ Atalhos Rápidos
+### Atalhos Rápidos
 
 | Atalho | Ação |
 |--------|------|
@@ -162,7 +162,7 @@ oi vc pode me mandar o boleto pq n recebi ainda
 
 **Após "Formalizar":**
 ```
-Olá! Você poderia me enviar o boleto, por favor? 
+Olá! Você poderia me enviar o boleto, por favor?
 Ainda não o recebi.
 ```
 
@@ -170,13 +170,13 @@ Ainda não o recebi.
 
 **Mensagem original:**
 ```
-O sistema utiliza protocolo HTTPS com criptografia AES-256 
+O sistema utiliza protocolo HTTPS com criptografia AES-256
 e autenticação via OAuth 2.0 com tokens JWT.
 ```
 
 **Após "Simplificar":**
 ```
-O sistema usa uma conexão segura e protegida. 
+O sistema usa uma conexão segura e protegida.
 Seus dados ficam criptografados e seguros.
 ```
 
@@ -191,7 +191,4 @@ Seus dados ficam criptografados e seguros.
 - [Interface de Chat](/guide/chat/interface) - Voltar para interface
 - [Agentes IA](/guide/ai-agents/) - IA autônoma para atendimento
 - [Configurações](/guide/settings/) - Mais configurações
-
-
-
 

@@ -26,7 +26,7 @@ Campo para escrever a mensagem do sistema. Suporta:
 Personalize as mensagens com variáveis:
 
 ```
-📋 Cliente qualificado
+Cliente qualificado
 Nome: {{customer_name}}
 Interesse: {{interesse}}
 Lead Score: {{lead_score}}
@@ -46,7 +46,7 @@ Lead Score: {{lead_score}}
 Registre quando o cliente passa por uma etapa importante:
 
 ```
-✅ Cliente passou pela qualificação inicial
+Cliente passou pela qualificação inicial
 Horário: {{current_time}}
 Respostas:
 - Interesse: {{interesse}}
@@ -58,7 +58,7 @@ Respostas:
 Quando transferir para atendente humano:
 
 ```
-📞 Transferindo para atendimento humano
+Transferindo para atendimento humano
 
 Resumo do atendimento:
 - Cliente: {{customer_name}}
@@ -72,7 +72,7 @@ Resumo do atendimento:
 Documente decisões tomadas pelo fluxo:
 
 ```
-🔀 Decisão: Cliente direcionado para {{equipe}}
+Decisão: Cliente direcionado para {{equipe}}
 Motivo: {{motivo_direcionamento}}
 ```
 
@@ -81,7 +81,7 @@ Motivo: {{motivo_direcionamento}}
 Durante o desenvolvimento, adicione mensagens de debug:
 
 ```
-🐛 DEBUG
+DEBUG
 variavel_teste: {{variavel_teste}}
 condicao_avaliada: {{resultado_condicao}}
 ```
@@ -90,19 +90,19 @@ condicao_avaliada: {{resultado_condicao}}
 
 As mensagens do sistema aparecem:
 
-- ✅ Na timeline do atendimento (para atendentes)
-- ✅ Nos logs do fluxo
-- ❌ **NÃO** são enviadas ao cliente
-- ❌ **NÃO** aparecem no chat do cliente
+- Na timeline do atendimento (para atendentes)
+- Nos logs do fluxo
+- **NÃO** são enviadas ao cliente
+- **NÃO** aparecem no chat do cliente
 
 ## Diferença: Mensagem do Sistema vs Nota Privada
 
 | Característica | Mensagem do Sistema | Nota Privada |
 |----------------|---------------------|--------------|
-| Visível para atendentes | ✅ Sim | ✅ Sim |
-| Enviada ao cliente | ❌ Não | ❌ Não |
-| Aparece como nota | ❌ Não | ✅ Sim |
-| Pode ser fixada | ❌ Não | ✅ Sim |
+| Visível para atendentes | Sim | Sim |
+| Enviada ao cliente | Não | Não |
+| Aparece como nota | Não | Sim |
+| Pode ser fixada | Não | Sim |
 | Uso principal | Logs e documentação | Anotações importantes |
 
 ## Boas Práticas
@@ -112,7 +112,7 @@ Adicione contexto suficiente para que outros atendentes entendam o que aconteceu
 :::
 
 ::: tip Use Emojis
-Emojis ajudam a identificar rapidamente o tipo de mensagem (✅ sucesso, ❌ erro, 📋 info).
+Emojis ajudam a identificar rapidamente o tipo de mensagem ( sucesso, erro, info).
 :::
 
 ::: tip Inclua Variáveis

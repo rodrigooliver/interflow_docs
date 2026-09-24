@@ -81,7 +81,7 @@ Clique no botão **JSON** para ver a ferramenta em formato OpenAI:
 
 ## Boas Práticas
 
-### ✅ Faça
+### Faça
 
 - Use descrições claras e específicas
 - Defina parâmetros com tipos corretos
@@ -89,7 +89,7 @@ Clique no botão **JSON** para ver a ferramenta em formato OpenAI:
 - Limite os valores permitidos quando possível
 - Configure ações de fallback
 
-### ❌ Evite
+### Evite
 
 - Descrições vagas que confundem a IA
 - Muitas ferramentas similares

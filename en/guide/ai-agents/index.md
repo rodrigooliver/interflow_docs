@@ -6,7 +6,7 @@ Configure artificial intelligence agents to automate customer service in Interfl
 
 Interflow's AI Agents are intelligent virtual assistants that can handle customers autonomously, answer questions, schedule appointments, transfer to teams, and much more.
 
-::: info 🔄 Automatic Flow
+::: info Automatic Flow
 When you create an AI Agent, the system **automatically generates a linked flow**. In automatic attendance, the agent runs in that flow. You can also [run the same agent on a message](/en/guide/ai-agents/run-on-message), without starting a flow.
 :::
 
@@ -26,15 +26,15 @@ Models with advanced reasoning (effort level and verbosity configurable).
 
 | Model | Description | Cost |
 |-------|-------------|------|
-| GPT-5.5 | Premium reasoning | 💲💲💲💲 |
-| GPT-5.4 | Latest reasoning | 💲💲💲 |
-| GPT-5.4 Mini | Economical reasoning | 💲 |
-| GPT-5.4 Nano | Super economical reasoning | 💲 |
-| GPT-5.2 | Advanced reasoning | 💲💲💲 |
-| GPT-5.1 | Advanced reasoning | 💲💲💲 |
-| GPT-5 | Reasoning | 💲💲💲 |
-| GPT-5 Mini | Economical reasoning | 💲 |
-| GPT-5 Nano | Super economical reasoning | 💲 |
+| GPT-5.5 | Premium reasoning | |
+| GPT-5.4 | Latest reasoning | |
+| GPT-5.4 Mini | Economical reasoning | |
+| GPT-5.4 Nano | Super economical reasoning | |
+| GPT-5.2 | Advanced reasoning | |
+| GPT-5.1 | Advanced reasoning | |
+| GPT-5 | Reasoning | |
+| GPT-5 Mini | Economical reasoning | |
+| GPT-5 Nano | Super economical reasoning | |
 
 ### OpenAI — Conversation (Chat)
 
@@ -42,10 +42,10 @@ Specialized in conversation; `gpt-5.X-chat-latest` models also support reasoning
 
 | Model | Description | Cost |
 |-------|-------------|------|
-| GPT-5.3 Chat Latest | Conversation | 💲💲💲 |
-| GPT-5.2 Chat Latest | Conversation | 💲💲💲 |
-| GPT-5.1 Chat Latest | Conversation | 💲💲💲 |
-| GPT-5 Chat Latest | Conversation (legacy) | 💲💲💲 |
+| GPT-5.3 Chat Latest | Conversation | |
+| GPT-5.2 Chat Latest | Conversation | |
+| GPT-5.1 Chat Latest | Conversation | |
+| GPT-5 Chat Latest | Conversation (legacy) | |
 
 ### OpenAI — Without Reasoning
 
@@ -53,9 +53,9 @@ Simpler and faster models, with temperature and max tokens.
 
 | Model | Description | Cost |
 |-------|-------------|------|
-| GPT-4.1 | Intelligent and versatile | 💲💲💲 |
-| GPT-4.1 Mini | Low cost with good performance | 💲 |
-| GPT-4.1 Nano | Most economical, light tasks | 💲 |
+| GPT-4.1 | Intelligent and versatile | |
+| GPT-4.1 Mini | Low cost with good performance | |
+| GPT-4.1 Nano | Most economical, light tasks | |
 
 ### DeepSeek (your own key)
 
@@ -63,22 +63,18 @@ Available after you register the DeepSeek integration. Does not consume Interflo
 
 | Model | Description | Cost (reference) |
 |-------|-------------|------------------|
-| DeepSeek V4 Flash | Fast and economical | 💲 |
-| DeepSeek V4 Pro | More capable, complex tasks | 💲💲 |
+| DeepSeek V4 Flash | Fast and economical | |
+| DeepSeek V4 Pro | More capable, complex tasks | |
 
 Both support **Thinking Mode** (chain-of-thought) with High or Maximum effort. With Thinking Mode on, temperature is ignored by the DeepSeek API.
 
-::: tip 💡 Tip
 For most support cases with Interflow credits, **GPT-5 Nano** or **GPT-5 Mini** (or **GPT-5.4 Nano** / **Mini**) offer a good cost-benefit. With your own key, see also [OpenAI](/en/guide/integrations/openai) and [DeepSeek](/en/guide/integrations/deepseek).
-:::
 
-::: info 🚀 Coming Soon
 Other providers may be added in the future (e.g. Claude, Gemini).
-:::
 
 ## Accessing AI Agents
 
-1. In the main menu, click **AI Agents** (🤖)
+1. In the main menu, click **AI Agents** ()
 2. You'll see a list of all configured agents
 3. Use the **search** to find agents by name
 4. Click the **A → Z** button to sort alphabetically
@@ -129,10 +125,10 @@ The same agent can serve several channels. On the **Test** tab, open **Simulate 
 Add media the agent can send during conversations. Organize files into **folders (categories)** to make them easier to find and give better context to the AI.
 
 **Supported file types:**
-- 🖼️ **Images**: JPG, PNG, GIF, WebP
-- 🎵 **Audio**: MP3, WAV, OGG
-- 🎬 **Videos**: MP4, WebM
-- 📄 **Documents**: PDF, DOCX, XLSX
+- **Images**: JPG, PNG, GIF, WebP
+- **Audio**: MP3, WAV, OGG
+- **Videos**: MP4, WebM
+- **Documents**: PDF, DOCX, XLSX
 
 **Folders:**
 - Create folders to group documents (e.g. Products, Policies, Photos)
@@ -146,7 +142,7 @@ Configure the actions the agent can run during the conversation. There are two t
 - **Ready-made actions** — customer profile, contact, address, query API, research websites, transfer, schedule, funnel, follow-up, and more. On each one, **Available when** restricts the tool to channel, stage, and/or tags.
 - **Custom actions** — tools you create (parameters + what to run when triggered)
 
-::: tip 📖 See more
+::: tip See more
 Full list, description of each action, and setup steps: [AI Tools](/en/guide/ai-agents/tools/). Conditions by channel: [Channel and conditions](/en/guide/ai-agents/channel-conditions).
 :::
 
@@ -173,11 +169,9 @@ The search uses **hybrid** technology combining vector embeddings with keyword s
    - **Content** – Full text, with Markdown support
 3. Click **"Save"**
 
-::: tip 💡 Tip
 The **description** is the most important field. Use words the customer would use when asking: instead of "General information", write "Contains address, hours, accepted plans and consultation fees".
-:::
 
-::: info 📂 Organization by subject
+::: info Organization by subject
 Prefer **one document per subject** (e.g., Hours, Address, Cancellation Policy) instead of one big document with everything. Focused documents generate more accurate answers.
 :::
 
@@ -260,7 +254,7 @@ AI Agent usage is measured in **USD-based credits**, providing transparency in c
 
 DeepSeek pricing (billed on your DeepSeek account): see [DeepSeek Integration](/en/guide/integrations/deepseek).
 
-::: tip 💡 Savings
+::: tip Savings
 Cached tokens cost up to **10x less**. Mini and Nano models are significantly cheaper for high-volume use cases.
 :::
 
@@ -341,7 +335,7 @@ When the customer mentions a future date or indicates this isn't the right time:
 When transferring a conversation to a human team, the AI can automatically generate a summary:
 
 1. Edit the **"Transfer to Team"** action
-2. Check: ✅ **"Generate attendance summary on transfer"**
+2. Check: **"Generate attendance summary on transfer"**
 3. Save
 
 **The summary includes:**
@@ -367,7 +361,7 @@ The signature is configured in the **linked flow**, specifically in the **Send T
 {{ai_response}}
 
 ---
-🤖 Message sent by AI
+Message sent by AI
 ```
 
 ## Scheduling Integration
@@ -377,20 +371,20 @@ The AI can manage appointments conversationally:
 ### Example Conversation
 
 ```text
-👤 Customer: I'd like to schedule an appointment
-🤖 AI: Sure! What day works for you? We have slots Monday through Friday.
+Customer: I'd like to schedule an appointment
+AI: Sure! What day works for you? We have slots Monday through Friday.
 
-👤 Customer: Thursday at 2pm
-🤖 AI: We have availability Thursday at 2pm with Dr. John. 
+Customer: Thursday at 2pm
+AI: We have availability Thursday at 2pm with Dr. John.
        Shall I confirm the appointment?
 
-👤 Customer: Yes, please
-🤖 AI: ✅ Appointment confirmed!
-       📅 Date: Thursday, 12/26/2025
-       ⏰ Time: 2:00 PM
-       👨‍⚕️ Professional: Dr. John
+Customer: Yes, please
+AI: Appointment confirmed!
+       Date: Thursday, 12/26/2025
+       Time: 2:00 PM
+       Professional: Dr. John
        
-       I'll send a reminder 24h before. See you then! 😊
+       I'll send a reminder 24h before. See you then!
 ```
 
 ## Messages and customer data
@@ -440,7 +434,7 @@ Matching skills are concatenated into a single text. With no filter, the block i
 
 ## Best Practices
 
-### ✅ Do
+### Do
 
 - Be specific in the prompt about expected behavior
 - Provide examples of ideal responses
@@ -449,7 +443,7 @@ Matching skills are concatenated into a single text. With no filter, the block i
 - Monitor conversations and adjust the prompt
 - Use **Out of context** to review customer questions the agent did not find in the context
 
-### ❌ Avoid
+### Avoid
 
 - Vague or generic prompts
 - Allowing the AI to invent information

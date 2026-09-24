@@ -88,9 +88,7 @@ Para receber push:
 - O usuário deve ter feito login no app ou na web pelo menos uma vez (o dispositivo é registrado para receber push)
 - Notificações do navegador ou do app devem estar permitidas no dispositivo
 
-::: tip 💡 Dica
 Combine lembrete push de **1 h** para a equipe se preparar e template WhatsApp de **24 h** para o cliente confirmar presença — cada canal com seu propósito.
-:::
 
 ## Próximos passos
 

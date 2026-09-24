@@ -9,11 +9,11 @@ Permite que a IA atualize o nome do cliente no cadastro durante a conversa.
 
 **Exemplo de uso:**
 ```text
-👤 Cliente: Meu nome é João Silva, não João Santos
-🤖 IA: Pronto, João! Já atualizei seu cadastro. Como posso ajudá-lo?
+Cliente: Meu nome é João Silva, não João Santos
+IA: Pronto, João! Já atualizei seu cadastro. Como posso ajudá-lo?
 ```
 
-::: info ⚠️ Única
+::: info Única
 Esta ação pode ser adicionada apenas uma vez por agente.
 :::
 

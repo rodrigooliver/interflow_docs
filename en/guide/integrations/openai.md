@@ -46,14 +46,14 @@ You will only be able to see the key **once** after creation. Save it in a secur
 
 <a href="https://platform.openai.com" target="_blank" style="text-decoration: none;">
   <div style="background: #10a37f; color: white; border-radius: 8px; padding: 12px 20px; display: flex; align-items: center; gap: 8px;">
-    <span>🔗</span>
+    <span></span>
     <span>Visit OpenAI website</span>
   </div>
 </a>
 
 <a href="https://platform.openai.com/account/billing" target="_blank" style="text-decoration: none;">
   <div style="background: #1a1a1a; color: white; border-radius: 8px; padding: 12px 20px; display: flex; align-items: center; gap: 8px;">
-    <span>💳</span>
+    <span></span>
     <span>Add payment method</span>
   </div>
 </a>
@@ -96,14 +96,12 @@ Below are the **main models**, but you can choose any other model available on O
 | GPT-4.1 Mini | $0.40 / 1M tokens | $1.60 / 1M tokens | Low cost with good performance |
 | GPT-4.1 Nano | $0.10 / 1M tokens | $0.40 / 1M tokens | Most economical, ideal for light tasks |
 
-::: tip TIP
 For most customer service use cases, **GPT-5 Nano**, **GPT-5 Mini**, or **GPT-5.4 Nano** offer excellent value. Use **GPT-4.1** when you don't need advanced reasoning. Full list in [AI Agents](/en/guide/ai-agents/).
-:::
 
 ## Need help?
 
 If you have questions about the integration:
 
-- 📧 **Email**: suporte@interflow.chat
-- 💬 **Chat**: Available on the platform
+- **Email**: suporte@interflow.chat
+- **Chat**: Available on the platform
 

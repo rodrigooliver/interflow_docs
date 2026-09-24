@@ -114,7 +114,7 @@ Inventário completo: [Inventário da API](/api/status).
 
 <a href="/api/chats/create" style="text-decoration: none;">
   <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">💬</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0;">Criar Chat</h4>
     <p style="color: #666; font-size: 14px; margin: 0;">Principal: atendimento + mensagem/template em uma chamada</p>
   </div>
@@ -122,7 +122,7 @@ Inventário completo: [Inventário da API](/api/status).
 
 <a href="/api/messages/send" style="text-decoration: none;">
   <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">✉️</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0;">Mensagens</h4>
     <p style="color: #666; font-size: 14px; margin: 0;">Enviar texto, mídia e sequências</p>
   </div>
@@ -130,7 +130,7 @@ Inventário completo: [Inventário da API](/api/status).
 
 <a href="/api/customers/create" style="text-decoration: none;">
   <div style="background: #f5f5f5; border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">👤</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0;">Clientes</h4>
     <p style="color: #666; font-size: 14px; margin: 0;">CRM via API Key</p>
   </div>

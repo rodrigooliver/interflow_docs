@@ -11,3 +11,4 @@ Create tags with **name** and **color**. Use them in inbox filters and [bulk cam
 ::: warning
 Deleting a tag does **not** strip historical associations from messages/prompts.
 :::
+

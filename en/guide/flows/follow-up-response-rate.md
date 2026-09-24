@@ -6,7 +6,7 @@ Measure passage volume and response rate at specific points in your flow.
 
 The **Checkpoint** node is a non-blocking node you explicitly place in the flow to record analytics events. Unlike the previous model (which tried to infer follow-ups automatically from the session timeout), the Checkpoint gives you full control over **where** and **what** to measure.
 
-The node lives in the **📊 Statistics** category of the Flow Builder's side panel. When a conversation passes through it, the flow **continues immediately** to the next node — registration happens in the background without blocking the conversation.
+The node lives in the ** Statistics** category of the Flow Builder's side panel. When a conversation passes through it, the flow **continues immediately** to the next node — registration happens in the background without blocking the conversation.
 
 ## What is it for?
 
@@ -18,7 +18,7 @@ The node lives in the **📊 Statistics** category of the Flow Builder's side pa
 
 ## Configuring the node
 
-1. In the **Flow Builder**, open the **📊 Statistics** category
+1. In the **Flow Builder**, open the ** Statistics** category
 2. Drag the **Checkpoint** node onto the canvas
 3. Connect the input (left) and output (right) in the flow
 4. Click the node body to open settings:
@@ -30,7 +30,7 @@ The node lives in the **📊 Statistics** category of the Flow Builder's side pa
 | **Response window** | Time in minutes (fixed value) or numeric flow variable | 2880 min (48h) |
 | **Save flow variables** | Stores a snapshot of variables at the moment of passage | Disabled |
 
-::: tip 💡 Where to place it?
+::: tip Where to place it?
 Place the Checkpoint **after** the node that sends the follow-up (or re-engagement) message and **before** the next branch in the flow. That way you measure exactly the impact of that message.
 :::
 

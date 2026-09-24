@@ -37,7 +37,7 @@ Los atajos con **solo un mensaje** siguen funcionando exactamente como antes.
 
 En el listado, los atajos con más de un mensaje muestran un badge (ej.: `3 msgs`).
 
-::: tip 💡 Compatibilidad
+::: tip Compatibilidad
 Los atajos creados antes de esta versión se convierten automáticamente al formato de pasos. No es necesario recrearlos.
 :::
 
@@ -68,7 +68,7 @@ Si el cliente no tiene CPF/CNPJ en el registro, <code v-pre>{{customer.document}
 
 Para cancelar, usa **Cancelar secuencia**, **ESC** o haz clic fuera del modal.
 
-::: info 📌 Campo de mensaje
+::: info Campo de mensaje
 El campo de escritura normal **permanece visible** mientras el modal está abierto, para mantener el contexto de la conversación.
 :::
 

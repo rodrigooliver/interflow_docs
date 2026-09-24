@@ -13,7 +13,7 @@ Updates custom fields in the customer record.
 
 **Usage example:**
 ```text
-👤 Customer: My email is john@email.com
-🤖 AI: Perfect! I've saved your email. I can send confirmations there now.
+Customer: My email is john@email.com
+AI: Perfect! I've saved your email. I can send confirmations there now.
 ```
 

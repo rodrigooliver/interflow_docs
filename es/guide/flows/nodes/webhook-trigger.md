@@ -109,7 +109,7 @@ Activa el toggle y añade los campos del cliente:
 1. Haz clic en **Añadir** para agregar una nueva fila de mapeo
 2. Selecciona el **campo del cliente** (Nombre, Email, Documento, WhatsApp, etc.)
 3. Introduce el **camino en el body** (ej.: `body.customer.email`)
-4. Haz clic en el **icono de lupa** 🔍 en los campos que se usarán para **localizar** al cliente
+4. Haz clic en el **icono de lupa** en los campos que se usarán para **localizar** al cliente
 
 **Lógica de búsqueda (OR):** el sistema busca cualquier cliente que coincida con *al menos uno* de los campos con la lupa activa. Activa la lupa en al menos un campo.
 
@@ -164,9 +164,9 @@ Cada caso genera un **handle de salida naranja** en el nodo. Un **handle gris (e
 **Ejemplo de enrutamiento:**
 
 ```
-body.event = "purchase.approved"  →  handle "Compra aprobada"
-body.event = "purchase.refunded"  →  handle "Reembolso"
-body.event = (cualquier otro)     →  handle "else"
+body.event = "purchase.approved" → handle "Compra aprobada"
+body.event = "purchase.refunded" → handle "Reembolso"
+body.event = (cualquier otro) → handle "else"
 ```
 
 ---
@@ -224,21 +224,21 @@ Parámetro: signature
 Camino del evento: body.event
 
 Casos:
-  "order_approved"  →  Iniciar onboarding
-  "order_refunded"  →  Cancelar acceso
-  else              →  Registrar evento desconocido
+  "order_approved" → Iniciar onboarding
+  "order_refunded" → Cancelar acceso
+  else → Registrar evento desconocido
 ```
 
 ### Nuevo lead de formulario
 
 ```
 Mapeos:
-  body.name   → nombre
-  body.email  → email
-  body.phone  → telefono
+  body.name → nombre
+  body.email → email
+  body.phone → telefono
 
 Vinculación con Cliente:
-  Email ← body.email  [🔍 búsqueda]
+  Email ← body.email [ búsqueda]
   Nombre ← body.name
   WhatsApp ← body.phone
 

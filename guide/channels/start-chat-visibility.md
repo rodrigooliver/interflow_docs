@@ -41,7 +41,7 @@ Cada canal pode ter uma regra de **visibilidade ao iniciar conversa**:
 4. Se escolher perfil, usuários ou equipes, marque as opções desejadas
 5. Salve
 
-::: tip 💡 Padrão
+::: tip Padrão
 Canais sem configuração específica continuam liberados para **todos**. Nada muda até você restringir.
 :::
 

@@ -57,9 +57,7 @@ If you must deliver the message:
 2. Ask them to **send a WhatsApp message** to your business
 3. Once the 24-hour window is open, **resend** the template (or continue the conversation normally)
 
-::: tip TIP
 Do not keep retrying the same template in a loop: while the number remains in the experiment and no eligible window is open, error 130472 will repeat.
-:::
 
 ### Official Meta references
 
@@ -113,9 +111,7 @@ Recommendations:
 4. Ask the customer to **start the chat** (or reply) to open the 24-hour window
 5. Segment campaigns toward engaged contacts and avoid excessive cold blasts
 
-::: tip TIP
 A `200` on the send call does **not** guarantee delivery. Always check the webhook status (`failed` + `131049`).
-:::
 
 ### How to prevent it
 

@@ -73,9 +73,7 @@ Verification uses a browser extension (required because confirmation must happen
 3. In some cases WhatsApp shows a **4-digit** code on the phone: check that it matches the screen and click **The code matches**
 4. Wait until the status changes to **Connected**
 
-::: tip Tip
 Not every account asks for a passkey. If the channel connects with only the QR Code or pairing code, no extra step is needed.
-:::
 
 ### Step 3: Confirm Connection
 
@@ -85,10 +83,10 @@ After scanning (and completing the passkey step, if requested), status will chan
 
 To avoid disconnections:
 
-- ✅ Keep phone connected to internet
-- ✅ Don't manually disconnect the device
-- ✅ Avoid using same number on other services
-- ❌ Don't logout from WhatsApp on phone
+- Keep phone connected to internet
+- Don't manually disconnect the device
+- Avoid using same number on other services
+- Don't logout from WhatsApp on phone
 
 ## Message Sync
 
@@ -105,12 +103,12 @@ Recover historical WhatsApp messages that didn't enter automatically.
 
 ### What happens
 
-- ✅ Fetches messages from selected period
-- ✅ Syncs with original timestamp
-- ⏭️ Ignores existing messages
-- ✅ Updates correct status (sent, delivered, read)
+- Fetches messages from selected period
+- Syncs with original timestamp
+- ⏭ Ignores existing messages
+- Updates correct status (sent, delivered, read)
 
-::: tip 💡 When to use
+::: tip When to use
 Useful when you reconnected the channel and want to recover conversations that happened while disconnected.
 :::
 
@@ -120,10 +118,10 @@ Receive and respond to messages from WhatsApp groups.
 
 ### How it works
 
-- 💬 Groups appear in conversation list
-- 👤 Identifies who sent in the group
-- ↩️ Respond directly to group
-- 📊 Complete history preserved
+- Groups appear in conversation list
+- Identifies who sent in the group
+- ↩ Respond directly to group
+- Complete history preserved
 
 ### Advanced Group Features
 
@@ -152,7 +150,7 @@ The group photo is automatically displayed in the chat header.
 2. View all members
 3. Use **"Add as customer"** for those with available numbers
 
-::: info ℹ️ Privacy (Meta)
+::: info ℹ Privacy (Meta)
 Some participants appear only with an identifier (@lid due to Meta policies). In those cases, use the message menu when the participant sends something in the group.
 :::
 
@@ -223,7 +221,7 @@ If you use WhatsApp Official (Meta API), configure a WAHA auxiliary channel to o
 3. The full message input appears (text, files, audio, emoji)
 4. The message is sent via WAHA and recorded normally in the chat history
 
-::: tip 💡 Note
+::: tip Note
 The auxiliary channel **doesn't appear in the general channel listing** — it's only visible inside the official channel settings.
 :::
 
@@ -258,14 +256,14 @@ Useful when several people share the same number and it is hard to count first c
 
 To avoid WhatsApp blocks:
 
-### ✅ Do
+### Do
 
 - Send messages only to those who authorized
 - Respond quickly to customers
 - Use professional language
 - Have a service schedule
 
-### ❌ Avoid
+### Avoid
 
 - Sending unsolicited mass messages
 - Using aggressive promotional language
@@ -289,9 +287,7 @@ If the channel disconnects:
 3. Scan new QR Code
 4. Wait for reconnection
 
-::: tip TIP
 If disconnections are frequent, check phone's internet connection and consider migrating to WhatsApp Business API.
-:::
 
 ## Troubleshooting
 

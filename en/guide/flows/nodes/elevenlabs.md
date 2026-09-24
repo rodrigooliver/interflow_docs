@@ -60,7 +60,7 @@ Selecione uma variável para armazenar a URL do áudio gerado.
 
 ```
 [ElevenLabs TTS]
-  Texto: "Olá! Seja bem-vindo ao nosso atendimento. 
+  Texto: "Olá! Seja bem-vindo ao nosso atendimento.
           Como posso ajudá-lo hoje?"
   Voz: Rachel (português)
   Variável: audio_bemvindo
@@ -72,8 +72,8 @@ Selecione uma variável para armazenar a URL do áudio gerado.
 
 ```
 [ElevenLabs TTS]
-  Texto: "{{customer_name}}, seu pedido número 
-          {{order_number}} foi confirmado e 
+  Texto: "{{customer_name}}, seu pedido número
+          {{order_number}} foi confirmado e
           será entregue em {{delivery_date}}."
   Variável: audio_confirmacao
 
@@ -84,7 +84,7 @@ Selecione uma variável para armazenar a URL do áudio gerado.
 
 ```
 [ElevenLabs TTS]
-  Texto: "Para acessar sua conta, digite seu CPF 
+  Texto: "Para acessar sua conta, digite seu CPF
           seguido da tecla cerquilha."
   Variável: audio_instrucao
 

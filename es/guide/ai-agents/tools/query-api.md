@@ -34,7 +34,7 @@ curl -X GET "https://api.mercadopago.com/v1/customers/search?email=user@email.co
   -H "Authorization: Bearer $MP_ACCESS_TOKEN"
 ```
 
-::: tip 💡 Asistente con web search
+::: tip Asistente con web search
 **Generar con IA** usa búsqueda en la web **solo en la configuración**. En la atención, el agente solo llama las rutas que usted permitió.
 :::
 
@@ -42,18 +42,18 @@ curl -X GET "https://api.mercadopago.com/v1/customers/search?email=user@email.co
 
 En cada ruta, use **Probar ruta**, complete parámetros de ejemplo y ejecute. La prueba corre en el **servidor** (la clave no va al navegador). El estado de la última prueba aparece como OK, Error o Sin probar.
 
-::: warning ⚠️ POST / PUT
+::: warning POST / PUT
 Las pruebas de creación o actualización pueden **generar datos reales** en el sistema externo. No es necesario probar todas las rutas.
 :::
 
-::: info ⚠️ Claves
+::: info Claves
 La clave nunca entra en el schema de la tool ni en la respuesta al modelo. En la UI aparece enmascarada (`••••`).
 :::
 
 **Ejemplo:**
 ```text
-👤 Cliente: ¿Cuál es el estado del pedido 12345?
-🤖 IA: [llama get_order] Tu pedido 12345 está en tránsito.
+Cliente: ¿Cuál es el estado del pedido 12345?
+IA: [llama get_order] Tu pedido 12345 está en tránsito.
 ```
 
 > Changelog: [v2026.7.10](/es/changelog/2026/07/2026.7.10)

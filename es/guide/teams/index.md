@@ -17,7 +17,7 @@ Los equipos agrupan usuarios de la organización para:
 2. Haz clic en la pestaña **Equipos**
 3. Crea, edita o gestiona miembros de cada equipo
 
-::: tip 💡 Permiso
+::: tip Permiso
 La gestión de equipos requiere perfil **Owner** o **Admin**.
 :::
 
@@ -62,7 +62,7 @@ Configura uno o más **disparadores**:
 | **Salida del agente** | El agente cierra/sale y el chat vuelve a pending |
 | **Nodo de flujo (rodizio)** | Flujo de automatización activa la distribución |
 
-::: info ℹ️ Elegibilidad
+::: info ℹ Elegibilidad
 El rodizio solo actúa en chats **pendientes**, **sin agente asignado**, de clientes **no spam** que **no sean grupos externos**.
 :::
 
@@ -106,9 +106,7 @@ Configura minutos para restringir quién puede atender:
 
 - La reserva indica al agente, pero **no bloquea** a otros miembros
 
-::: tip 💡 Consejo
 Usa un plazo menor en horario laboral (ej.: 5 min) y mayor fuera de horario (ej.: 15 min) cuando el fallback asigne fuera del horario.
-:::
 
 ### Fallback — cuando nadie está disponible
 

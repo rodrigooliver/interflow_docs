@@ -19,13 +19,13 @@ Crea nuevas citas directamente a través de la conversación.
 
 **Ejemplo de uso:**
 ```text
-👤 Cliente: Quiero agendar una consulta
-🤖 IA: ¡Claro! Tenemos disponibilidad de lunes a viernes.
+Cliente: Quiero agendar una consulta
+IA: ¡Claro! Tenemos disponibilidad de lunes a viernes.
        ¿Qué día y horario prefieres?
 
-👤 Cliente: Jueves a las 2pm
-🤖 IA: ✅ ¡Cita confirmada!
-       📅 Jueves, 26 de diciembre de 2025 a las 14:00
+Cliente: Jueves a las 2pm
+IA: ¡Cita confirmada!
+       Jueves, 26 de diciembre de 2025 a las 14:00
        ¡Te enviaré un recordatorio 24h antes!
 ```
 

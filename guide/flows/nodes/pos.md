@@ -70,8 +70,8 @@ Dependem da ação selecionada:
   Resultado: info_produto
 
 [Condição] → info_produto existe?
-  ✅ → [POS: Adicionar Item]
-  ❌ → [Texto] "Produto não encontrado"
+  → [POS: Adicionar Item]
+  → [Texto] "Produto não encontrado"
 ```
 
 ### Criar e Finalizar Pedido

@@ -12,10 +12,10 @@ Confirma agendamentos existentes do cliente.
 
 **Exemplo de uso:**
 ```text
-🤖 IA: Olá! Vi que você tem um agendamento para amanhã às 10h.
+IA: Olá! Vi que você tem um agendamento para amanhã às 10h.
        Posso confirmar sua presença?
 
-👤 Cliente: Sim, confirmo
-🤖 IA: Perfeito! Seu agendamento está confirmado. Até amanhã! ✅
+Cliente: Sim, confirmo
+IA: Perfeito! Seu agendamento está confirmado. Até amanhã!
 ```
 

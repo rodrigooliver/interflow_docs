@@ -87,3 +87,4 @@ Atualizações do mês de junho de 2026.
 ::: info Total
 **15 releases** neste mês!
 :::
+

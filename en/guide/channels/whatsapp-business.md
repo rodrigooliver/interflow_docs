@@ -51,7 +51,7 @@ Before you begin, you need:
 
 <!-- Placeholder for video -->
 <div style="background: linear-gradient(135deg, #25D366 0%, #128C7E 100%); border-radius: 12px; padding: 60px 20px; text-align: center; margin: 20px 0;">
-  <span style="color: white; font-size: 48px;">▶️</span>
+  <span style="color: white; font-size: 48px;">▶</span>
   <p style="color: white; margin-top: 8px; font-size: 18px;">Video: Configuring WhatsApp Business API (coming soon)</p>
 </div>
 
@@ -99,13 +99,11 @@ Thank you for shopping with us!
 
 | Status | Meaning |
 |--------|-------------|
-| 🟡 **Pending** | Under review by Meta |
-| 🟢 **Approved** | Ready to use |
-| 🔴 **Rejected** | Needs adjustments |
+| **Pending** | Under review by Meta |
+| **Approved** | Ready to use |
+| **Rejected** | Needs adjustments |
 
-::: tip TIP
 Templates are approved faster when they follow Meta's policies. Avoid excessive promotional language.
-:::
 
 ## 24-Hour Window
 

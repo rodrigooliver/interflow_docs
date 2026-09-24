@@ -46,7 +46,7 @@ Controls for artificial intelligence features:
 | **Disable AI Summary on Resolution** | Doesn't generate automatic summary when closing |
 | **Disable AI Summary on Transfer** | Doesn't generate automatic summary when transferring |
 
-::: tip 💡 Savings
+::: tip Savings
 Disabling automatic summaries saves API tokens. Summary field remains available for manual filling.
 :::
 
@@ -57,18 +57,18 @@ Disabling automatic summaries saves API tokens. Summary field remains available 
 When an agent clicks "Attend" on a chat with active flow:
 
 **Options:**
-- **Enabled** ✅ = Always pauses automatically (no prompt)
-- **Disabled** ❌ = Asks what to do when there's active flow
+- **Enabled** = Always pauses automatically (no prompt)
+- **Disabled** = Asks what to do when there's active flow
 
 **Options modal (when disabled):**
 
 | Option | What happens |
 |--------|--------------|
-| 🟡 **Pause Flow and Attend** | Pauses flow, agent takes over |
-| 🔵 **Continue Flow and Attend** | Keeps flow active |
-| ⚪ **Cancel** | Doesn't attend |
+| **Pause Flow and Attend** | Pauses flow, agent takes over |
+| **Continue Flow and Attend** | Keeps flow active |
+| **Cancel** | Doesn't attend |
 
-::: warning ⚠️ Attention
+::: warning Attention
 "Continue Flow" = Customer receives messages from agent AND flow!
 :::
 
@@ -192,37 +192,37 @@ Global setting to hide customer contact information from agents.
 
 | Profile | Access |
 |---------|--------|
-| Superadmin | ✅ Full access |
-| Owner | ✅ Full access |
-| Admin | ✅ Full access |
-| **Agent** | ❌ Data hidden |
+| Superadmin | Full access |
+| Owner | Full access |
+| Admin | Full access |
+| **Agent** | Data hidden |
 
 **What's hidden from agents:**
 
-- ❌ Email, Phone, WhatsApp
-- ❌ Contacts in export (CSV, Excel, JSON)
-- ❌ Contacts in search results
-- ❌ Contacts when starting chat
-- ❌ External IDs from chat and messages
-- ❌ Contacts section when editing customer
+- Email, Phone, WhatsApp
+- Contacts in export (CSV, Excel, JSON)
+- Contacts in search results
+- Contacts when starting chat
+- External IDs from chat and messages
+- Contacts section when editing customer
 
 **What agents CAN do:**
 
-- ✅ View and edit customer name
-- ✅ View and manage tags
-- ✅ View and edit custom fields
-- ✅ Attend chats normally
-- ✅ Send and receive messages
+- View and edit customer name
+- View and manage tags
+- View and edit custom fields
+- Attend chats normally
+- Send and receive messages
 
 ### Restricted Customer Visibility
 
 Agents see only customers from teams they're assigned to.
 
 **Affected areas:**
-- 📋 Customer list
-- 🔍 Customer search
-- 📊 Reports (filtered data)
-- 📤 Exports (respects visibility)
+- Customer list
+- Customer search
+- Reports (filtered data)
+- Exports (respects visibility)
 
 ### Restricted Financial Menu
 
@@ -232,10 +232,10 @@ Financial menu is hidden for non-administrative profiles.
 
 | Profile | Access |
 |---------|--------|
-| `owner` | ✅ Full access |
-| `admin` | ✅ Full access |
-| `manager` | ✅ Read-only |
-| `financial` | ✅ Full access |
+| `owner` | Full access |
+| `admin` | Full access |
+| `manager` | Read-only |
+| `financial` | Full access |
 
 ## Team Settings
 
@@ -248,10 +248,10 @@ Full guide: [Teams — Round-robin](/en/guide/teams/#automatic-round-robin-distr
 Admins and owners can manage agent assignment in conversations without entering each one.
 
 **What you can do:**
-- ✅ Transfer conversation to another **team**
-- ✅ Assign a **specific agent**
-- ✅ Remove agent and leave conversation **pending** in queue
-- ✅ Manage service directly from list
+- Transfer conversation to another **team**
+- Assign a **specific agent**
+- Remove agent and leave conversation **pending** in queue
+- Manage service directly from list
 
 **Where to access:**
 
@@ -268,15 +268,13 @@ Choose which tab opens first when entering the system.
 1. Access **Settings** → **Preferences**
 2. Locate **"Default Tab"**
 3. Select preferred option:
-   - 💬 Chats
-   - 👥 Customers
-   - 📅 Appointments
-   - 📊 Dashboard
+   - Chats
+   - Customers
+   - Appointments
+   - Dashboard
 4. Save
 
-::: tip 💡 Tip
 This is a per-user setting. Each team member can configure their own.
-:::
 
 ## Next Steps
 
@@ -284,7 +282,4 @@ This is a per-user setting. Each team member can configure their own.
 - [AI Agents](/en/guide/ai-agents/) - Configure AI
 - [Channels](/en/guide/channels/) - Configure service channels
 - [Reports](/en/guide/reports/) - View metrics
-
-
-
 

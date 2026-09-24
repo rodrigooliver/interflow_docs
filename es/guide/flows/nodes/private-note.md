@@ -30,7 +30,7 @@ Quando ativado, a nota é fixada no topo do chat para fácil acesso.
 Personalize as notas com variáveis:
 
 ```
-⚠️ ATENÇÃO: Cliente VIP
+ATENÇÃO: Cliente VIP
 
 Dados coletados:
 - Produto de interesse: {{produto_interesse}}
@@ -52,16 +52,16 @@ Dados coletados:
 Quando transferir para atendimento humano:
 
 ```
-📋 RESUMO DO ATENDIMENTO
+RESUMO DO ATENDIMENTO
 
 Cliente: {{customer_name}}
 Assunto: {{assunto}}
 Problema: {{descricao_problema}}
 
 Tentativas já realizadas:
-- Reiniciar aplicativo ❌
-- Limpar cache ❌
-- Atualizar versão ✅ (aguardando)
+- Reiniciar aplicativo
+- Limpar cache
+- Atualizar versão (aguardando)
 
 Próximos passos sugeridos:
 Verificar logs do servidor
@@ -70,7 +70,7 @@ Verificar logs do servidor
 ### Alerta Importante
 
 ```
-🚨 CLIENTE COM RECLAMAÇÃO
+CLIENTE COM RECLAMAÇÃO
 
 Este cliente já entrou em contato 3x sobre o mesmo problema.
 Tratar com prioridade!
@@ -84,7 +84,7 @@ Histórico:
 Para informações que o atendente precisa ver:
 
 ```
-🔐 DADOS DE VERIFICAÇÃO
+DADOS DE VERIFICAÇÃO
 
 CPF informado: {{cpf}}
 Último pedido: {{ultimo_pedido}}
@@ -94,9 +94,9 @@ Valor pendente: R$ {{valor_pendente}}
 ### Instrução para Equipe
 
 ```
-📌 INSTRUÇÕES
+INSTRUÇÕES
 
-Oferecer 10% de desconto se cliente demonstrar 
+Oferecer 10% de desconto se cliente demonstrar
 interesse em cancelar.
 
 Código do cupom: FIDELIDADE10
@@ -106,20 +106,20 @@ Código do cupom: FIDELIDADE10
 
 | Característica | Nota Privada | Mensagem do Sistema |
 |----------------|--------------|---------------------|
-| Aparece como nota | ✅ Sim | ❌ Não |
-| Pode ser fixada | ✅ Sim | ❌ Não |
-| Destaque visual | ✅ Amarelo | Neutro |
+| Aparece como nota | Sim | Não |
+| Pode ser fixada | Sim | Não |
+| Destaque visual | Amarelo | Neutro |
 | Uso principal | Anotações importantes | Logs e documentação |
 
 ## Visualização
 
 A nota privada aparece:
 
-- ✅ Na timeline do atendimento (para atendentes)
-- ✅ Com destaque visual (fundo amarelo)
-- ✅ Fixada no topo (se configurado)
-- ❌ **NÃO** é enviada ao cliente
-- ❌ **NÃO** aparece no chat do cliente
+- Na timeline do atendimento (para atendentes)
+- Com destaque visual (fundo amarelo)
+- Fixada no topo (se configurado)
+- **NÃO** é enviada ao cliente
+- **NÃO** aparece no chat do cliente
 
 ## Boas Práticas
 

@@ -95,8 +95,8 @@ Extraia campos específicos da resposta:
 
 **Para arrays:**
 ```
-data.pedidos[0].numero  → Primeiro item
-data.pedidos[1].valor   → Segundo item
+data.pedidos[0].numero → Primeiro item
+data.pedidos[1].valor → Segundo item
 ```
 
 ## Testar Requisição

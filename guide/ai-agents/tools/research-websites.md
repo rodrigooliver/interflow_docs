@@ -21,18 +21,18 @@ Permite que a IA **leia conteúdo de páginas web** durante o atendimento e use 
 - Pode abrir **subpáginas** sob o mesmo path do site configurado
 - Se a página for só um índice, o resultado pode trazer `followUpLinks` para uma segunda chamada
 
-::: warning ⚠️ Motor HTML
+::: warning Motor HTML
 Sites feitos só com React/Next podem voltar vazios ou incompletos no HTML puro. Prefira **Firecrawl**.
 :::
 
-::: tip 💡 Segurança
+::: tip Segurança
 Com a busca livre **desligada**, o servidor só aceita URLs dos sites configurados (e subpáginas do mesmo path).
 :::
 
 **Exemplo:**
 ```text
-👤 Cliente: Vocês têm Corolla 2022 no estoque?
-🤖 IA: [scrape do site com ?search=Corolla] Sim — encontrei 3 unidades…
+Cliente: Vocês têm Corolla 2022 no estoque?
+IA: [scrape do site com ?search=Corolla] Sim — encontrei 3 unidades…
 ```
 
 > Changelog: [v2026.7.13](/changelog/2026/07/2026.7.13) · Integração: [Firecrawl](/guide/integrations/firecrawl)

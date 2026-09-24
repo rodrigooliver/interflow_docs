@@ -6,7 +6,7 @@ Configure agentes de inteligencia artificial para automatizar la atención al cl
 
 Los Agentes IA de Interflow son asistentes virtuales inteligentes que pueden atender clientes de forma autónoma, responder preguntas, agendar citas, transferir a equipos y mucho más.
 
-::: info 🔄 Flujo Automático
+::: info Flujo Automático
 Al crear un Agente IA, el sistema **genera automáticamente un flujo** vinculado a él. En la atención automática, el agente opera en ese flujo. También se puede [ejecutar el mismo agente en un mensaje](/es/guide/ai-agents/run-on-message), sin iniciar un flujo.
 :::
 
@@ -26,15 +26,15 @@ Modelos con razonamiento avanzado (nivel de esfuerzo y verbosidad configurables)
 
 | Modelo | Descripción | Costo |
 |--------|-------------|-------|
-| GPT-5.5 | Razonamiento premium | 💲💲💲💲 |
-| GPT-5.4 | Razonamiento más reciente | 💲💲💲 |
-| GPT-5.4 Mini | Razonamiento económico | 💲 |
-| GPT-5.4 Nano | Razonamiento súper económico | 💲 |
-| GPT-5.2 | Razonamiento avanzado | 💲💲💲 |
-| GPT-5.1 | Razonamiento avanzado | 💲💲💲 |
-| GPT-5 | Razonamiento | 💲💲💲 |
-| GPT-5 Mini | Razonamiento económico | 💲 |
-| GPT-5 Nano | Razonamiento súper económico | 💲 |
+| GPT-5.5 | Razonamiento premium | |
+| GPT-5.4 | Razonamiento más reciente | |
+| GPT-5.4 Mini | Razonamiento económico | |
+| GPT-5.4 Nano | Razonamiento súper económico | |
+| GPT-5.2 | Razonamiento avanzado | |
+| GPT-5.1 | Razonamiento avanzado | |
+| GPT-5 | Razonamiento | |
+| GPT-5 Mini | Razonamiento económico | |
+| GPT-5 Nano | Razonamiento súper económico | |
 
 ### OpenAI — Conversación (Chat)
 
@@ -42,10 +42,10 @@ Especializados en conversación; los modelos `gpt-5.X-chat-latest` también sopo
 
 | Modelo | Descripción | Costo |
 |--------|-------------|-------|
-| GPT-5.3 Chat Latest | Conversación | 💲💲💲 |
-| GPT-5.2 Chat Latest | Conversación | 💲💲💲 |
-| GPT-5.1 Chat Latest | Conversación | 💲💲💲 |
-| GPT-5 Chat Latest | Conversación (legado) | 💲💲💲 |
+| GPT-5.3 Chat Latest | Conversación | |
+| GPT-5.2 Chat Latest | Conversación | |
+| GPT-5.1 Chat Latest | Conversación | |
+| GPT-5 Chat Latest | Conversación (legado) | |
 
 ### OpenAI — Sin Razonamiento
 
@@ -53,9 +53,9 @@ Modelos más simples y rápidos, con temperatura y máximo de tokens.
 
 | Modelo | Descripción | Costo |
 |--------|-------------|-------|
-| GPT-4.1 | Inteligente y versátil | 💲💲💲 |
-| GPT-4.1 Mini | Bajo costo con buen rendimiento | 💲 |
-| GPT-4.1 Nano | Más económico, tareas ligeras | 💲 |
+| GPT-4.1 | Inteligente y versátil | |
+| GPT-4.1 Mini | Bajo costo con buen rendimiento | |
+| GPT-4.1 Nano | Más económico, tareas ligeras | |
 
 ### DeepSeek (clave propia)
 
@@ -63,22 +63,18 @@ Disponibles al registrar la integración DeepSeek. No consumen créditos Interfl
 
 | Modelo | Descripción | Costo (referencia) |
 |--------|-------------|--------------------|
-| DeepSeek V4 Flash | Rápido y económico | 💲 |
-| DeepSeek V4 Pro | Más capaz, tareas complejas | 💲💲 |
+| DeepSeek V4 Flash | Rápido y económico | |
+| DeepSeek V4 Pro | Más capaz, tareas complejas | |
 
 Ambos soportan **Thinking Mode** (razonamiento en cadena) con esfuerzo Alto o Máximo. Con Thinking Mode activo, la temperatura es ignorada por la API de DeepSeek.
 
-::: tip 💡 Consejo
 Para la mayoría de la atención con créditos Interflow, **GPT-5 Nano** o **GPT-5 Mini** (o **GPT-5.4 Nano** / **Mini**) ofrecen buena relación costo-beneficio. Con clave propia, vea también [OpenAI](/es/guide/integrations/openai) y [DeepSeek](/es/guide/integrations/deepseek).
-:::
 
-::: info 🚀 Próximamente
 Otros proveedores podrán agregarse en el futuro (p. ej. Claude, Gemini).
-:::
 
 ## Accediendo a Agentes IA
 
-1. En el menú principal, haga clic en **Agentes IA** (🤖)
+1. En el menú principal, haga clic en **Agentes IA** ()
 2. Verá la lista de todos los agentes configurados
 3. Use la **búsqueda** para encontrar agentes por nombre
 4. Haga clic en **A → Z** para ordenar alfabéticamente
@@ -119,7 +115,7 @@ Configure las acciones que el agente puede ejecutar durante la conversación. Ha
 - **Acciones listas** — ficha del cliente, contacto, dirección, consultar API, investigar sitios, transferir, agenda, embudo, follow-up y más. En cada una, **Disponible cuando** restringe la herramienta a canal, etapa y/o etiquetas.
 - **Acciones personalizadas** — herramientas que usted crea (parámetros + qué ejecutar al activarlas)
 
-::: tip 📖 Ver más
+::: tip Ver más
 Lista completa, descripción de cada acción y paso a paso: [Herramientas de IA](/es/guide/ai-agents/tools/). Condiciones por canal: [Canal y condiciones](/es/guide/ai-agents/channel-conditions).
 :::
 
@@ -146,11 +142,9 @@ La búsqueda usa tecnología **híbrida** combinando embeddings vectoriales con 
    - **Contenido** – Texto completo, con soporte Markdown
 3. Haga clic en **"Guardar"**
 
-::: tip 💡 Consejo
 La **descripción** es el campo más importante. Use palabras que el cliente usaría al preguntar.
-:::
 
-::: info 📂 Organización por tema
+::: info Organización por tema
 Prefiera **un documento por tema** en lugar de uno grande con todo. Documentos enfocados generan respuestas más precisas.
 :::
 
@@ -274,7 +268,7 @@ La IA puede ajustar automáticamente el follow-up según el contexto de la conve
 Al transferir a equipo humano, la IA puede generar automáticamente un resumen:
 
 1. Edite la acción **"Transferir a Equipo"**
-2. Marque: ✅ **"Generar resumen al transferir"**
+2. Marque: **"Generar resumen al transferir"**
 3. Guarde
 
 ## Mensajes y datos del cliente
@@ -324,7 +318,7 @@ Las skills que cumplen la condición se concatenan en un solo texto. Sin filtro,
 
 ## Buenas Prácticas
 
-### ✅ Haga
+### Haga
 
 - Sea específico en el prompt sobre el comportamiento esperado
 - Proporcione ejemplos de respuestas ideales
@@ -332,7 +326,7 @@ Las skills que cumplen la condición se concatenan en un solo texto. Sin filtro,
 - Pruebe exhaustivamente antes de publicar
 - Use **Fuera de contexto** para ver preguntas de clientes que el agente no encontró en el contexto
 
-### ❌ Evite
+### Evite
 
 - Prompts vagos o genéricos
 - Permitir que la IA invente información

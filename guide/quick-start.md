@@ -2,10 +2,6 @@
 
 Este guia vai te ajudar a configurar a Interflow em poucos minutos.
 
-::: tip TEMPO ESTIMADO
-⏱️ **5-10 minutos** para configuração básica
-:::
-
 ## Passo 1: Criar sua Conta
 
 Acesse [app.interflow.chat/signup](https://app.interflow.chat/signup) para iniciar o cadastro.
@@ -142,7 +138,7 @@ Use variáveis para personalizar suas mensagens automaticamente:
 **Exemplo:**
 ```txt
 Atalho: ola
-Conteúdo: {{greeting}}, {{customer.firstName}}! 👋 
+Conteúdo: {{greeting}}, {{customer.firstName}}!
 Como posso ajudá-lo hoje?
 ```
 
@@ -180,7 +176,7 @@ Antes de começar a atender, verifique:
 
 <a href="/guide/channels/" style="text-decoration: none;">
   <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">📱</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Canais de Atendimento</h4>
     <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Conecte WhatsApp, Instagram e mais</p>
   </div>
@@ -188,7 +184,7 @@ Antes de começar a atender, verifique:
 
 <a href="/guide/chat/interface" style="text-decoration: none;">
   <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">💬</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Interface de Chat</h4>
     <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Aprenda a usar a interface de atendimento</p>
   </div>
@@ -196,7 +192,7 @@ Antes de começar a atender, verifique:
 
 <a href="/guide/flows/builder" style="text-decoration: none;">
   <div style="background: var(--vp-c-bg-soft); border-radius: 12px; padding: 20px;">
-    <span style="font-size: 24px;">🤖</span>
+    <span style="font-size: 24px;"></span>
     <h4 style="margin: 8px 0 4px 0; color: var(--vp-c-text-1);">Construtor de Fluxos</h4>
     <p style="color: var(--vp-c-text-2); font-size: 14px; margin: 0;">Domine a automação de atendimento</p>
   </div>
@@ -208,7 +204,7 @@ Antes de começar a atender, verifique:
 
 Se tiver dúvidas durante a configuração:
 
-- 📧 **Email**: suporte@interflow.chat
-- 💬 **Chat**: Disponível na plataforma
-- 📖 **FAQ**: [Perguntas frequentes](/faq)
+- **Email**: suporte@interflow.chat
+- **Chat**: Disponível na plataforma
+- **FAQ**: [Perguntas frequentes](/faq)
 

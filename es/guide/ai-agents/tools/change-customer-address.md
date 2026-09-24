@@ -22,20 +22,20 @@ Permite que la IA **guarde o actualice la dirección** del cliente en el registr
 
 **Ejemplo de uso:**
 ```text
-👤 Cliente: Mi dirección es Calle de las Flores, 120, apto 3, São Paulo - SP, CP 01310-100
-🤖 IA: ¡Listo! Ya guardé esa dirección en tu registro. ¿Necesitas algo más?
+Cliente: Mi dirección es Calle de las Flores, 120, apto 3, São Paulo - SP, CP 01310-100
+IA: ¡Listo! Ya guardé esa dirección en tu registro. ¿Necesitas algo más?
 ```
 
 ```text
-👤 Cliente: [envía ubicación en el mapa]
-🤖 IA: Recibí tu ubicación y ya actualicé la dirección en el registro.
+Cliente: [envía ubicación en el mapa]
+IA: Recibí tu ubicación y ya actualicé la dirección en el registro.
 ```
 
-::: tip 💡 Contexto automático
+::: tip Contexto automático
 Las direcciones ya registradas también entran en el **Customer info** del primer mensaje de contexto del agente, para que la IA no tenga que preguntar de nuevo.
 :::
 
-::: info ⚠️ Única
+::: info Única
 Esta acción puede agregarse solo una vez por agente.
 :::
 

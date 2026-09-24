@@ -16,8 +16,8 @@ Moves the customer between sales/service funnel stages.
 
 **Usage example:**
 ```text
-👤 Customer: I want to close the Pro plan
-🤖 AI: Excellent choice! I'll record your decision and a consultant 
+Customer: I want to close the Pro plan
+AI: Excellent choice! I'll record your decision and a consultant
        will contact you to finalize.
 
 [System: Customer moved to "Closing" stage]

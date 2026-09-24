@@ -21,7 +21,7 @@ Campo principal onde você escreve a mensagem que será enviada ao cliente.
 
 **Exemplo:**
 ```
-Olá, {{customer_name}}! 👋
+Olá, {{customer_name}}!
 
 Obrigado por entrar em contato com a Interflow.
 Como posso ajudá-lo hoje?
@@ -96,7 +96,7 @@ Além das variáveis do sistema, você pode usar qualquer variável personalizad
 ### Boas-vindas Personalizada
 
 ```
-Olá, {{customer_name}}! 👋
+Olá, {{customer_name}}!
 
 Seja bem-vindo(a) ao atendimento da {{company_name}}.
 
@@ -108,20 +108,20 @@ Sou a assistente virtual e estou aqui para ajudar!
 ```
 Como posso ajudá-lo hoje?
 
-1️⃣ Suporte Técnico
-2️⃣ Informações sobre Produtos
-3️⃣ Status do Pedido
-4️⃣ Falar com um Atendente
+1⃣ Suporte Técnico
+2⃣ Informações sobre Produtos
+3⃣ Status do Pedido
+4⃣ Falar com um Atendente
 ```
 
 ### Confirmação com Dados
 
 ```
-✅ Pedido confirmado!
+Pedido confirmado!
 
-📦 Número do pedido: {{order_number}}
-📅 Data: {{current_date}}
-💰 Valor: R$ {{order_value}}
+Número do pedido: {{order_number}}
+Data: {{current_date}}
+Valor: R$ {{order_value}}
 
 Obrigado pela preferência!
 ```

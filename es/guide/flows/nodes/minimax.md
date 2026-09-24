@@ -44,7 +44,7 @@ Selecione uma variável para armazenar a URL do áudio gerado.
 
 ```
 [Minimax TTS]
-  Texto: "Bom dia, {{customer_name}}! 
+  Texto: "Bom dia, {{customer_name}}!
           Temos novidades especiais para você."
   Variável: audio_mensagem
 

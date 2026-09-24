@@ -50,9 +50,9 @@ Exemplos de tipos:
 ### Encerramento Simples
 
 ```
-[Texto] → "Obrigado pelo contato! Até breve! 👋"
+[Texto] → "Obrigado pelo contato! Até breve! "
 [Encerrar Atendimento]
-  - Resumo: ❌ Desativado
+  - Resumo: Desativado
   - Tipo: Atendimento Concluído
 ```
 
@@ -61,7 +61,7 @@ Exemplos de tipos:
 ```
 [Texto] → "Atendimento finalizado. Obrigado!"
 [Encerrar Atendimento]
-  - Resumo: ✅ Ativado
+  - Resumo: Ativado
   - Tipo: Problema Resolvido
 ```
 
@@ -69,9 +69,9 @@ Exemplos de tipos:
 
 ```
 [Delay] → 30 minutos
-[Texto] → "Parece que você está ocupado. 
-           Vou encerrar por aqui, mas pode 
-           me chamar quando precisar! 👋"
+[Texto] → "Parece que você está ocupado.
+           Vou encerrar por aqui, mas pode
+           me chamar quando precisar! "
 [Encerrar Atendimento]
   - Tipo: Inatividade
 ```
@@ -79,10 +79,10 @@ Exemplos de tipos:
 ### Após Venda
 
 ```
-[Texto] → "Parabéns pela compra! 🎉
+[Texto] → "Parabéns pela compra!
            Seu pedido já está sendo processado."
 [Encerrar Atendimento]
-  - Resumo: ✅ Ativado
+  - Resumo: Ativado
   - Tipo: Venda Realizada
 ```
 

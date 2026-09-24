@@ -46,7 +46,7 @@ Controles para funcionalidades de inteligência artificial:
 | **Desativar Resumo por IA em Resolução** | Não gera resumo automático ao finalizar atendimento |
 | **Desativar Resumo por IA em Transferência** | Não gera resumo automático ao transferir |
 
-::: tip 💡 Economia
+::: tip Economia
 Desativar resumos automáticos economiza tokens de API. O campo de resumo permanece disponível para preenchimento manual.
 :::
 
@@ -57,18 +57,18 @@ Desativar resumos automáticos economiza tokens de API. O campo de resumo perman
 Quando um atendente clica em "Atender" um chat com fluxo ativo:
 
 **Opções:**
-- **Ativado** ✅ = Sempre pausa automaticamente (sem perguntar)
-- **Desativado** ❌ = Pergunta o que fazer quando há fluxo ativo
+- **Ativado** = Sempre pausa automaticamente (sem perguntar)
+- **Desativado** = Pergunta o que fazer quando há fluxo ativo
 
 **Modal de opções (quando desativado):**
 
 | Opção | O que acontece |
 |-------|----------------|
-| 🟡 **Pausar Fluxo e Atender** | Pausa o fluxo, atendente assume |
-| 🔵 **Continuar Fluxo e Atender** | Mantém fluxo ativo |
-| ⚪ **Cancelar** | Não atende |
+| **Pausar Fluxo e Atender** | Pausa o fluxo, atendente assume |
+| **Continuar Fluxo e Atender** | Mantém fluxo ativo |
+| **Cancelar** | Não atende |
 
-::: warning ⚠️ Atenção
+::: warning Atenção
 "Continuar Fluxo" = Cliente recebe mensagens do atendente E do fluxo!
 :::
 
@@ -156,7 +156,7 @@ Botão para abrir WhatsApp do cliente diretamente do chat, com ações automáti
 3. Nova aba abre com mensagem pronta
 4. Ações configuradas são executadas automaticamente
 
-::: warning ⚠️ Importante
+::: warning Importante
 O botão só aparece em chats de canais WhatsApp (WAHA, W-API, WhatsApp Oficial).
 :::
 
@@ -173,10 +173,10 @@ Quando o atendente finaliza o atendimento, o sistema sugere campos não preenchi
 5. Salve
 
 **Campos sugeridos:**
-- 📝 Campos de texto (nome, observações)
-- 📋 Campos select (status, origem)
-- 🏷️ Tags
-- 📊 Funil (etapa atual)
+- Campos de texto (nome, observações)
+- Campos select (status, origem)
+- Tags
+- Funil (etapa atual)
 
 ### Etapa do Funil ao Sair
 
@@ -218,37 +218,37 @@ Configuração global para ocultar informações de contato dos clientes para ag
 
 | Perfil | Acesso |
 |--------|--------|
-| Superadmin | ✅ Acesso completo |
-| Owner | ✅ Acesso completo |
-| Admin | ✅ Acesso completo |
-| **Agent** | ❌ Dados ocultos |
+| Superadmin | Acesso completo |
+| Owner | Acesso completo |
+| Admin | Acesso completo |
+| **Agent** | Dados ocultos |
 
 **O que fica oculto para agentes:**
 
-- ❌ Email, Telefone, WhatsApp
-- ❌ Contatos em exportação (CSV, Excel, JSON)
-- ❌ Contatos em resultados de busca
-- ❌ Contatos ao iniciar chat
-- ❌ IDs externos do chat e mensagens
-- ❌ Seção de contatos ao editar cliente
+- Email, Telefone, WhatsApp
+- Contatos em exportação (CSV, Excel, JSON)
+- Contatos em resultados de busca
+- Contatos ao iniciar chat
+- IDs externos do chat e mensagens
+- Seção de contatos ao editar cliente
 
 **O que agentes PODEM fazer:**
 
-- ✅ Ver e editar nome do cliente
-- ✅ Ver e gerenciar tags
-- ✅ Ver e editar campos personalizados
-- ✅ Atender chats normalmente
-- ✅ Enviar e receber mensagens
+- Ver e editar nome do cliente
+- Ver e gerenciar tags
+- Ver e editar campos personalizados
+- Atender chats normalmente
+- Enviar e receber mensagens
 
 ### Visibilidade de Clientes Restrita
 
 Agentes veem apenas clientes das equipes às quais estão atribuídos.
 
 **Áreas afetadas:**
-- 📋 Lista de clientes
-- 🔍 Busca de clientes
-- 📊 Relatórios (dados filtrados)
-- 📤 Exportações (respeita visibilidade)
+- Lista de clientes
+- Busca de clientes
+- Relatórios (dados filtrados)
+- Exportações (respeita visibilidade)
 
 ### Configuração Rápida Restrita
 
@@ -256,9 +256,9 @@ O assistente de Configuração Rápida é visível apenas para perfis administra
 
 | Perfil | Acesso |
 |--------|--------|
-| Owner | ✅ Sim |
-| Admin | ✅ Sim |
-| Agent | ❌ Não |
+| Owner | Sim |
+| Admin | Sim |
+| Agent | Não |
 
 ### Menu Financeiro Restrito
 
@@ -268,10 +268,10 @@ O menu financeiro é oculto para perfis não administrativos.
 
 | Perfil | Acesso |
 |--------|--------|
-| `owner` | ✅ Acesso total |
-| `admin` | ✅ Acesso total |
-| `manager` | ✅ Somente leitura |
-| `financial` | ✅ Acesso total |
+| `owner` | Acesso total |
+| `admin` | Acesso total |
+| `manager` | Somente leitura |
+| `financial` | Acesso total |
 
 **Quem NÃO tem mais acesso:**
 
@@ -296,10 +296,10 @@ Consulte o guia completo: [Equipes — Rodízio automático](/guide/teams/#distr
 Administradores e owners podem gerenciar a atribuição de agentes em conversas sem precisar entrar em cada conversa.
 
 **O que você pode fazer:**
-- ✅ Transferir conversa para outra **equipe**
-- ✅ Atribuir um **agente específico**
-- ✅ Remover agente e deixar conversa **pendente** na fila
-- ✅ Gerenciar atendimentos diretamente da lista
+- Transferir conversa para outra **equipe**
+- Atribuir um **agente específico**
+- Remover agente e deixar conversa **pendente** na fila
+- Gerenciar atendimentos diretamente da lista
 
 **Onde acessar:**
 
@@ -323,22 +323,17 @@ Escolha qual aba abre primeiro ao entrar no sistema.
 1. Acesse **Configurações** → **Preferências**
 2. Localize **"Aba Padrão"**
 3. Selecione a opção preferida:
-   - 💬 Chats
-   - 👥 Clientes
-   - 📅 Agendamentos
-   - 📊 Dashboard
+   - Chats
+   - Clientes
+   - Agendamentos
+   - Dashboard
 4. Salve
 
-::: tip 💡 Dica
 Esta é uma configuração por usuário. Cada membro da equipe pode configurar a sua.
-:::
 
 ## Próximos Passos
 
 - [Equipes](/guide/teams/) - Rodízio automático e gestão de membros
 - [Agentes IA](/guide/ai-agents/) - Configurar IA
 - [Canais](/guide/channels/) - Configurar canais de atendimento
-
-
-
 

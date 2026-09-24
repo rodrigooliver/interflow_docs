@@ -20,14 +20,14 @@ Integre o Messenger da sua Página do Facebook para receber e responder mensagen
 
 | Recurso | Suporte |
 |---------|---------|
-| Mensagens de texto | ✅ |
-| Imagens | ✅ |
-| Vídeos | ✅ |
-| Áudios | ✅ |
-| Documentos | ✅ |
-| Botões e cards | ✅ |
-| Quick replies | ✅ |
-| Templates | ✅ |
+| Mensagens de texto | |
+| Imagens | |
+| Vídeos | |
+| Áudios | |
+| Documentos | |
+| Botões e cards | |
+| Quick replies | |
+| Templates | |
 
 ## Configuração
 
