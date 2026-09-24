@@ -231,7 +231,10 @@ function getSidebar(lang: string = '') {
         text: lang === 'en' ? 'Financial' : lang === 'es' ? 'Financiero' : 'Financeiro',
         collapsed: false,
         items: [
-          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/financial/` }
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/financial/` },
+          { text: lang === 'en' ? 'Import a statement' : lang === 'es' ? 'Importar extracto' : 'Importar extrato', link: `${prefix}/guide/financial/import` },
+          { text: lang === 'en' ? 'Reconciliation' : lang === 'es' ? 'Conciliación' : 'Conciliação', link: `${prefix}/guide/financial/reconciliation` },
+          { text: lang === 'en' ? 'Post multiple' : lang === 'es' ? 'Registrar múltiples' : 'Lançar múltiplos', link: `${prefix}/guide/financial/grouping` }
         ]
       },
       {

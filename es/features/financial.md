@@ -15,18 +15,22 @@ Este módulo gestiona las finanzas **internas** de la organización. Para contra
 
 ## Qué puedes hacer
 
-- Visualizar dashboard con saldo, ingresos y gastos consolidados
-- Controlar **por cobrar** y **por pagar** en pantallas distintas del extracto de **movimientos**
+- Ver el resumen de por cobrar, por pagar y el saldo de las cajas con acceso
+- Controlar **por cobrar** y **por pagar** en pantallas distintas del extracto de **lanzamientos**
 - Registrar ingresos y gastos con estado: pendiente, pagado, vencido o cancelado
-- Registrar pago o cobro con el valor pagado, datos (PIX, boleto, cuenta) y quién registró
-- Generar cuentas recurrentes y ajustar las próximas aún no registradas
+- Registrar pago o cobro con el importe pagado, datos (PIX, boleto, cuenta) y quién registró
+- Adjuntar archivos a la obligación (hasta 50 MB) y duplicar un lanzamiento
+- Generar cuentas recurrentes de forma indefinida o con cantidad exacta, y ajustar las próximas aún no registradas
+- Registrar varias cuentas juntas y bajar pendientes en un lanzamiento que ya está en el extracto
+- Importar extracto CSV u OFX y conciliar lo que ya se cotejó con el banco
+- Transferir saldo entre cajas sin entrar en el resultado
 - Gestionar cajas con operadores y permisos específicos por caja
-- Organizar categorías de ingreso y gasto, con subcategorías
+- Organizar categorías de ingreso y gasto, con subcategorías y sugerencia por IA
+- Seguir gastos por centro de coste
 - Configurar métodos de pago (crédito, tasas, cuotas)
 - Vincular transacciones opcionalmente a un cliente del CRM
-- Usar sugerencias con IA para categorización de movimientos
-- Ver informes de flujo de caja, categorías, por cobrar/pagar y por caja (solo cajas con acceso)
-- Exportar informes según permiso del perfil
+- Ver informes de flujo de caja, categorías, centros de coste, por cobrar/pagar y por caja
+- Exportar la pestaña actual del informe en CSV, según permiso del perfil
 
 ## Cómo se conecta
 
@@ -38,3 +42,6 @@ Este módulo gestiona las finanzas **internas** de la organización. Para contra
 ## Guías
 
 - [Financiero — visión general](/es/guide/financial/)
+- [Importar extracto](/es/guide/financial/import)
+- [Conciliación](/es/guide/financial/reconciliation)
+- [Registrar múltiples y bajar pendientes](/es/guide/financial/grouping)

@@ -15,18 +15,22 @@ Este módulo gerencia o financeiro **interno** da organização. Para contratos,
 
 ## O que você pode fazer
 
-- Visualizar dashboard com saldo, receitas e despesas consolidadas
+- Visualizar o resumo com a receber, a pagar e saldo dos caixas com acesso
 - Controlar **a receber** e **a pagar** em telas distintas do extrato de **lançamentos**
 - Registrar receitas e despesas com status: pendente, pago, vencido ou cancelado
 - Lançar pagamento ou recebimento com valor pago, dados (PIX, boleto, conta) e quem lançou
-- Gerar contas recorrentes e ajustar as próximas ainda não lançadas
+- Anexar arquivos na obrigação (até 50 MB) e duplicar um lançamento
+- Gerar contas recorrentes de forma indefinida ou com quantidade exata, e ajustar as próximas ainda não lançadas
+- Lançar várias contas juntas e baixar pendentes em um lançamento que já está no extrato
+- Importar extrato CSV ou OFX e conciliar o que já foi conferido com o banco
+- Transferir saldo entre caixas sem entrar no resultado
 - Gerenciar caixas com operadores e permissões específicas por caixa
-- Organizar categorias de receita e despesa, com subcategorias
-- Configurar métodos de pagamento (crédito, taxas, parcelas)
+- Organizar categorias de receita e despesa, com subcategorias e sugestão por IA
+- Acompanhar despesas por centro de custo
+- Configurar formas de pagamento (crédito, taxas, parcelas)
 - Vincular transações opcionalmente a um cliente do CRM
-- Usar sugestões com IA para categorização de lançamentos
-- Ver relatórios de fluxo de caixa, categorias, a receber/pagar e por caixa (somente caixas com acesso)
-- Exportar relatórios conforme permissão do perfil
+- Ver relatórios de fluxo de caixa, categorias, centros de custo, a receber/pagar e por caixa
+- Exportar a aba atual do relatório em CSV, conforme permissão do perfil
 
 ## Como se conecta
 
@@ -38,3 +42,6 @@ Este módulo gerencia o financeiro **interno** da organização. Para contratos,
 ## Guias
 
 - [Financeiro — visão geral](/guide/financial/)
+- [Importar extrato](/guide/financial/import)
+- [Conciliação](/guide/financial/reconciliation)
+- [Lançar múltiplos e baixar pendentes](/guide/financial/grouping)

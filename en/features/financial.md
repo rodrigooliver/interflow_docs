@@ -15,18 +15,22 @@ This module manages the organization's **internal** finances. For contracts, ins
 
 ## What you can do
 
-- View a dashboard with consolidated balance, revenue, and expenses
-- Track **receivables** and **payables** on screens separate from **posted entries**
+- View a summary of receivables, payables, and the balance of registers you can access
+- Track **to receive** and **to pay** on screens separate from **entries**
 - Record income and expenses with status: pending, paid, overdue, or cancelled
 - Post a payment or receipt with the paid amount, payment details (PIX, boleto, account), and who posted
-- Generate recurring items and adjust upcoming ones not yet posted
+- Attach files to an obligation (up to 50 MB) and duplicate an entry
+- Generate recurring items as open-ended or an exact quantity, and adjust upcoming ones not yet posted
+- Post several accounts together and settle pending items on an entry already on the statement
+- Import a CSV or OFX statement and reconcile what was already matched to the bank
+- Transfer balance between registers without hitting results
 - Manage cash registers with operators and per-register permissions
-- Organize revenue and expense categories, with subcategories
+- Organize income and expense categories, with subcategories and AI suggestions
+- Track expenses by cost center
 - Configure payment methods (credit, fees, installments)
 - Optionally link transactions to a CRM customer
-- Use AI suggestions for transaction categorization
-- View cash flow, category, receivable/payable, and per-register reports (only cash registers you can access)
-- Export reports according to profile permissions
+- View cash flow, category, cost center, receivable/payable, and per-register reports
+- Export the current report tab as CSV, according to profile permissions
 
 ## How it connects
 
@@ -38,3 +42,6 @@ This module manages the organization's **internal** finances. For contracts, ins
 ## Guides
 
 - [Financial — overview](/en/guide/financial/)
+- [Import a statement](/en/guide/financial/import)
+- [Reconciliation](/en/guide/financial/reconciliation)
+- [Post multiple and settle pending items](/en/guide/financial/grouping)
