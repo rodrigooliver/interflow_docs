@@ -89,6 +89,18 @@ Use our AI-assisted generation tool to create the agent's context automatically.
 ### Option 2: Create Manually
 Create the agent from scratch, configuring each detail manually.
 
+### Create with copilot {#create-with-copilot}
+
+In the [Copilot](/en/guide/copilot), **Agent** or **Direct agent** mode, describe the business and what the agent should do in conversations. An internal assistant handles the rest:
+
+1. Asks only what is still missing (in blocks below the chat)
+2. Generates the agent text
+3. Shows a summary and asks you to confirm before saving
+4. Creates the agent and its automatic flow
+5. Gives you the link to edit the agent
+
+You can start with a short message; you do not need a long form in the first line.
+
 ## Editor Tabs
 
 The AI Agent editor has **6 main tabs**:

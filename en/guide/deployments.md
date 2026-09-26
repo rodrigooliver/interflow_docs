@@ -17,7 +17,7 @@ Ask for a new feature, an improvement, or a fix for a system error, and follow t
 
 Each request becomes a card with status, deadline, and credits. The organization balance appears at the top of the page. Unused credits accumulate.
 
-## How to create one
+## How to create one {#how-to-create}
 
 1. On **Requests**, click **New request**
 2. Describe what you need in plain language
@@ -25,15 +25,20 @@ Each request becomes a card with status, deadline, and credits. The organization
 
 The copilot must be in **Agent** or **Direct agent** mode to save. In **Ask** mode it only explains the path.
 
-In the chat, the flow is:
+In the chat, an internal assistant handles the request. The flow is:
 
 1. It checks the documentation to see whether the product already does that
-2. It looks for a similar request, finished or in progress. If it finds one, it tells you and continues only if you want
-3. It checks the balance
-4. It classifies the request and shows four urgency options, each with credits and a deadline
-5. You pick the urgency in the chat
-6. If the open screen shows the problem or the interface that will change, it takes a screenshot. A request that does not depend on the screen continues without one
-7. It saves the request and returns the **See your request** link
+2. It looks for a similar request waiting or in progress. If it finds one, it shows the **title** and a **link** to open it. In the block below the chat you choose:
+   - **Follow** the existing request (vote and get updates)
+   - **Add a comment** with more context
+   - **Open a new request** if your case is different
+   - **Not now**
+3. It checks available balance
+4. It classifies the request and shows four urgency options, each with credits and a deadline. If urgency is unclear from your message, it asks in the panel
+5. If the open screen shows the problem or the screen that will change, it takes a screenshot. Otherwise it continues without one
+6. It saves and returns the **See your request** link
+
+You can attach files in the chat when the assistant asks (images, PDF, and more, up to 50 MB each).
 
 You can also start from the copilot on any screen, without the button. The open page is stored on the request so the team knows where it came from.
 

@@ -89,6 +89,18 @@ Use nuestra herramienta de generación asistida por IA para crear el contexto au
 ### Opción 2: Crear Manualmente
 Cree el agente desde cero, configurando cada detalle manualmente.
 
+### Crear con el copiloto {#crear-con-el-copiloto}
+
+En el [Copiloto](/es/guide/copilot), modo **Agente** o **Agente directo**, describe el negocio y qué debe hacer el agente en la atención. Un asistente interno se encarga del resto:
+
+1. Pregunta solo lo que falta (en bloques debajo del chat)
+2. Genera el texto del agente
+3. Muestra un resumen y pide confirmación para guardar
+4. Crea el agente y el flujo automático
+5. Entrega el enlace para editar el agente
+
+Puedes empezar con pocas palabras; no hace falta un formulario largo en el primer mensaje.
+
 ## Pestañas del Editor
 
 El editor de Agentes IA tiene **6 pestañas principales**:

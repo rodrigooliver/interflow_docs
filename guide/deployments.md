@@ -17,7 +17,7 @@ Menu **Solicitações**.
 
 Cada pedido vira um card com status, prazo e créditos. O saldo da organização aparece no topo da página. O que não for usado acumula.
 
-## Como criar
+## Como criar {#como-criar}
 
 1. Em **Solicitações**, clique em **Nova Solicitação**
 2. Descreva o que você precisa, em linguagem comum
@@ -25,15 +25,20 @@ Cada pedido vira um card com status, prazo e créditos. O saldo da organização
 
 O copiloto precisa estar no modo **Agente** ou **Agente direto** para gravar. No modo **Pergunta** ele só explica o caminho.
 
-No chat, o fluxo é este:
+No chat, um assistente interno cuida do pedido. O fluxo é este:
 
-1. Ele confere na documentação se o produto já faz aquilo
-2. Procura um pedido parecido, concluído ou em andamento. Se achar, conta no chat e só segue se você quiser
-3. Consulta o saldo
-4. Classifica o pedido e mostra quatro urgências, cada uma com crédito e prazo
-5. Você escolhe a urgência no chat
-6. Se a tela aberta mostra o problema ou a interface que vai mudar, ele tira um print. Pedido que não depende da tela segue sem print
-7. Grava a solicitação e devolve o link **Veja sua solicitação**
+1. Confere na documentação se o produto já faz aquilo
+2. Procura pedido parecido em andamento ou aguardando análise. Se encontrar, mostra o **título** e um **link** para abrir. No painel embaixo do chat você escolhe:
+   - **Acompanhar** o pedido existente (vota e recebe avisos de novidades)
+   - **Comentar** para acrescentar contexto
+   - **Abrir nova solicitação** se o seu caso for diferente
+   - **Não solicitar agora**
+3. Consulta o saldo disponível
+4. Define o tipo de pedido e as quatro urgências, cada uma com crédito e prazo. Se a urgência não estiver clara no que você escreveu, pergunta no painel
+5. Se a tela aberta mostra o problema ou a tela que vai mudar, tira um print. Pedido que não depende da tela segue sem print
+6. Grava e devolve o link **Veja sua solicitação**
+
+Dá para anexar arquivos no chat quando o assistente pedir (imagens, PDF e outros, até 50 MB cada).
 
 Dá para começar pelo copiloto em qualquer tela, sem passar pelo botão. A página aberta fica registrada no pedido, para o time saber de onde ele partiu.
 

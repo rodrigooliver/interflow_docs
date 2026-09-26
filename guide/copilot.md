@@ -54,7 +54,8 @@ Só nos modos **Agente** e **Agente direto**, e só se a sua conta tiver essa pe
 - Incluir ou remover tag. Ele lista as tags antes de gravar
 - Mover o cliente de estágio no funil, depois de comparar o nome que você disse com os funis e estágios
 - Enviar ou agendar uma mensagem no atendimento anexado
-- Criar uma [solicitação](/guide/deployments): confere se o produto já faz aquilo, orça as quatro urgências e grava o pedido com a urgência que você escolher
+- Montar e gravar um [agente de atendimento](/guide/ai-agents/#criar-pelo-copiloto), com perguntas guiadas no painel
+- Abrir uma [solicitação](/guide/deployments), com assistente dedicado que busca pedidos parecidos, orça urgências e grava o pedido
 - Clicar e preencher campos da tela atual. Senha não é preenchida
 
 Nome, e-mail ou WhatsApp da organização só mudam para superadmin.
@@ -70,6 +71,32 @@ No menu ao lado do modo dá para escolher:
 - Quem paga a chamada: **Saldo Interflow** ou uma integração sua
 
 Com saldo Interflow, a conversa para quando os créditos de IA acabam. O uso aparece em **Configurações** → créditos de IA, como **Copiloto**.
+
+## Perguntas no painel
+
+Quando falta uma escolha sua, o copiloto mostra as opções **embaixo do chat**, em um bloco simples. Você toca na opção ou escreve a resposta. Uma opção pode vir com o selo **Recomendado**; você pode seguir a sugestão ou escolher outra.
+
+Ele faz **uma pergunta por vez**. O texto acima do formulário só orienta; a pergunta e os botões ficam no bloco.
+
+## Criar agente de atendimento
+
+No modo **Agente** ou **Agente direto**, diga que quer um agente novo ou descreva o negócio e o que ele deve fazer. Um assistente interno cuida só disso:
+
+1. Usa o que você já disse e pergunta só o que falta (negócio, público, tom, o que o agente pode fazer sozinho)
+2. Monta o texto do agente
+3. Resume o plano e pede confirmação para gravar
+4. Cria o agente e o fluxo ligado a ele
+5. Devolve o link **Ver o agente**
+
+Você responde pelas perguntas do painel ou digitando no chat. Passo a passo em [Agentes IA — Criar pelo copiloto](/guide/ai-agents/#criar-pelo-copiloto).
+
+## Criar solicitação de mudança
+
+Função nova, melhoria ou correção no produto seguem outro assistente interno. O fluxo completo está em [Solicitações](/guide/deployments#como-criar). Em resumo: ele confere a documentação, avisa se já existe pedido parecido e deixa você acompanhar, comentar ou abrir outro pedido antes de gravar.
+
+## Conversas salvas
+
+No topo do painel dá para ver conversas recentes, abrir uma antiga ou apagar. Ao apagar, a confirmação aparece **dentro do próprio painel** do copiloto.
 
 ## Limites
 

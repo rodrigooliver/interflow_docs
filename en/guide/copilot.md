@@ -54,7 +54,8 @@ Only in **Agent** and **Direct agent**, and only if your account has that permis
 - Add or remove a tag. It lists tags before saving
 - Move the customer to a funnel stage, after matching what you said to funnel and stage names
 - Send or schedule a message on the attached attendance
-- Create a [request](/en/guide/deployments): checks whether the product already does it, quotes the four urgency options, and saves the request with the urgency you pick
+- Build and save an [AI agent](/en/guide/ai-agents/#create-with-copilot) with guided questions in the panel
+- Open a [request](/en/guide/deployments) with a dedicated assistant that checks similar requests, quotes urgency, and saves the request
 - Click and fill fields on the current screen. Passwords are not filled
 
 Organization name, email, or WhatsApp change only for a superadmin.
@@ -70,6 +71,32 @@ In the menu next to the mode you can choose:
 - Who pays the call: **Interflow balance** or one of your integrations
 
 On the Interflow balance, the conversation stops when AI credits run out. Usage shows in **Settings** → AI credits, as **Copilot**.
+
+## Questions in the panel
+
+When it needs a choice from you, the copilot shows options **below the chat** in a simple block. Tap an option or type your answer. One option may show a **Recommended** badge; you can follow it or pick another.
+
+It asks **one question at a time**. Short text above the form only guides you; the question and buttons stay in the block.
+
+## Create an AI agent
+
+In **Agent** or **Direct agent** mode, say you want a new agent or describe the business and what it should do. An internal assistant handles only that:
+
+1. Uses what you already said and asks only what is missing (business, audience, tone, what the agent may do on its own)
+2. Builds the agent text
+3. Summarizes the plan and asks you to confirm before saving
+4. Creates the agent and its linked flow
+5. Returns the **View agent** link
+
+Answer from the panel questions or by typing in the chat. Step by step: [AI Agents — Create with copilot](/en/guide/ai-agents/#create-with-copilot).
+
+## Create a change request
+
+New features, improvements, or product fixes use another internal assistant. Full flow: [Requests](/en/guide/deployments#how-to-create). In short: it checks the docs, tells you if a similar request exists, and lets you follow, comment, or open a new request before saving.
+
+## Saved conversations
+
+At the top of the panel you can open recent chats, resume an old one, or delete. Deleting asks for confirmation **inside the copilot panel**.
 
 ## Limits
 

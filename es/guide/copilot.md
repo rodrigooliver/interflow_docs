@@ -54,7 +54,8 @@ Solo en **Agente** y **Agente directo**, y solo si tu cuenta tiene ese permiso:
 - Añadir o quitar una etiqueta. Lista las etiquetas antes de guardar
 - Mover al cliente de etapa en el embudo, después de comparar lo que dijiste con embudos y etapas
 - Enviar o programar un mensaje en la atención adjunta
-- Crear una [solicitud](/es/guide/deployments): comprueba si el producto ya lo hace, presupuesta las cuatro urgencias y guarda el pedido con la urgencia que elijas
+- Montar y guardar un [agente de atención](/es/guide/ai-agents/#crear-con-el-copiloto) con preguntas guiadas en el panel
+- Abrir una [solicitud](/es/guide/deployments) con un asistente dedicado que busca pedidos parecidos, presupuesta urgencias y guarda el pedido
 - Hacer clic y rellenar campos de la pantalla actual. La contraseña no se rellena
 
 El nombre, el correo o el WhatsApp de la organización solo cambian para un superadmin.
@@ -70,6 +71,32 @@ En el menú junto al modo puedes elegir:
 - Quién paga la llamada: **Saldo Interflow** o una integración tuya
 
 Con saldo Interflow, la conversación se detiene cuando se acaban los créditos de IA. El uso aparece en **Configuración** → créditos de IA, como **Copiloto**.
+
+## Preguntas en el panel
+
+Cuando falta una elección tuya, el copiloto muestra las opciones **debajo del chat**, en un bloque simple. Toca la opción o escribe la respuesta. Una opción puede llevar el sello **Recomendado**; puedes seguirla o elegir otra.
+
+Hace **una pregunta a la vez**. El texto de arriba solo orienta; la pregunta y los botones están en el bloque.
+
+## Crear agente de atención
+
+En modo **Agente** o **Agente directo**, di que quieres un agente nuevo o describe el negocio y qué debe hacer. Un asistente interno se encarga solo de eso:
+
+1. Usa lo que ya dijiste y pregunta solo lo que falta (negocio, público, tono, qué puede hacer solo el agente)
+2. Arma el texto del agente
+3. Resume el plan y pide confirmación para guardar
+4. Crea el agente y el flujo vinculado
+5. Devuelve el enlace **Ver el agente**
+
+Respondes en el panel o escribiendo en el chat. Paso a paso: [Agentes IA — Crear con el copiloto](/es/guide/ai-agents/#crear-con-el-copiloto).
+
+## Crear solicitud de cambio
+
+Funciones nuevas, mejoras o correcciones del producto usan otro asistente interno. Flujo completo en [Solicitudes](/es/guide/deployments#como-crear). En resumen: revisa la documentación, avisa si ya hay un pedido parecido y te deja seguir, comentar o abrir otro pedido antes de guardar.
+
+## Conversaciones guardadas
+
+Arriba del panel puedes ver chats recientes, abrir uno antiguo o borrar. Al borrar, la confirmación aparece **dentro del panel** del copiloto.
 
 ## Límites
 

@@ -17,7 +17,7 @@ Menú **Solicitudes**.
 
 Cada pedido se convierte en una tarjeta con estado, plazo y créditos. El saldo de la organización aparece en la parte superior de la página. Lo que no se usa se acumula.
 
-## Cómo crear una
+## Cómo crear una {#como-crear}
 
 1. En **Solicitudes**, haz clic en **Nueva solicitud**
 2. Describe lo que necesitas, en lenguaje común
@@ -25,15 +25,20 @@ Cada pedido se convierte en una tarjeta con estado, plazo y créditos. El saldo 
 
 El copiloto tiene que estar en modo **Agente** o **Agente directo** para guardar. En modo **Pregunta** solo explica el camino.
 
-En el chat, el flujo es este:
+En el chat, un asistente interno se encarga del pedido. El flujo es este:
 
 1. Revisa la documentación para ver si el producto ya hace eso
-2. Busca un pedido parecido, terminado o en curso. Si lo encuentra, lo cuenta en el chat y solo sigue si tú quieres
-3. Consulta el saldo
-4. Clasifica el pedido y muestra cuatro urgencias, cada una con crédito y plazo
-5. Tú eliges la urgencia en el chat
-6. Si la pantalla abierta muestra el problema o la interfaz que va a cambiar, toma una captura. Un pedido que no depende de la pantalla sigue sin captura
-7. Guarda la solicitud y devuelve el enlace **Ver tu solicitud**
+2. Busca un pedido parecido en curso o en espera. Si lo encuentra, muestra el **título** y un **enlace** para abrirlo. En el bloque debajo del chat eliges:
+   - **Seguir** el pedido existente (votar y recibir avisos)
+   - **Comentar** para añadir contexto
+   - **Abrir nueva solicitud** si tu caso es distinto
+   - **No solicitar ahora**
+3. Consulta el saldo disponible
+4. Define el tipo de pedido y cuatro urgencias, cada una con crédito y plazo. Si la urgencia no queda clara en tu mensaje, pregunta en el panel
+5. Si la pantalla abierta muestra el problema o la pantalla que cambiará, toma una captura. Si no hace falta, sigue sin captura
+6. Guarda y devuelve el enlace **Ver tu solicitud**
+
+Puedes adjuntar archivos en el chat cuando el asistente lo pida (imágenes, PDF y más, hasta 50 MB cada uno).
 
 También puedes empezar desde el copiloto en cualquier pantalla, sin el botón. La página abierta queda registrada en el pedido, para que el equipo sepa de dónde partió.
 
