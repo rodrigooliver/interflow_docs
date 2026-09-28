@@ -134,6 +134,7 @@ function getSidebar(lang: string = '') {
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/ai-agents/` },
           { text: lang === 'en' ? 'Run on a message' : lang === 'es' ? 'Ejecutar en un mensaje' : 'Executar em uma mensagem', link: `${prefix}/guide/ai-agents/run-on-message` },
           { text: lang === 'en' ? 'Channel and conditions' : lang === 'es' ? 'Canal y condiciones' : 'Canal e condições', link: `${prefix}/guide/ai-agents/channel-conditions` },
+          { text: lang === 'en' ? 'Decision before the agent' : lang === 'es' ? 'Decisión antes del agente' : 'Decisão antes do agente', link: `${prefix}/guide/ai-agents/decision-gate` },
           {
             text: lang === 'en' ? 'AI Tools' : lang === 'es' ? 'Herramientas de IA' : 'Ferramentas da IA',
             collapsed: true,
@@ -385,6 +386,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/09/` },
+              { text: 'v2026.9.15', link: `${prefix}/changelog/2026/09/2026.9.15` },
               { text: 'v2026.9.14', link: `${prefix}/changelog/2026/09/2026.9.14` },
               { text: 'v2026.9.13', link: `${prefix}/changelog/2026/09/2026.9.13` },
               { text: 'v2026.9.12', link: `${prefix}/changelog/2026/09/2026.9.12` },

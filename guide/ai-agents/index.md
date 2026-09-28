@@ -7,7 +7,7 @@ Configure agentes de inteligência artificial para automatizar atendimentos na I
 Os Agentes IA da Interflow são assistentes virtuais inteligentes que podem atender clientes de forma autônoma, responder perguntas, agendar compromissos, transferir para equipes e muito mais.
 
 ::: info Fluxo Automático
-Ao criar um Agente IA, o sistema **gera automaticamente um fluxo** vinculado a ele. No atendimento automático, o agente opera nesse fluxo. Também dá para [executar o mesmo agente em uma mensagem](/guide/ai-agents/run-on-message), sem iniciar fluxo.
+Ao criar um Agente IA, o sistema **gera automaticamente um fluxo** vinculado a ele. No atendimento automático, o agente opera nesse fluxo. Também dá para [executar o mesmo agente em uma mensagem](/guide/ai-agents/run-on-message), sem iniciar fluxo. Antes da resposta, dá para [decidir se o agente deve agir](/guide/ai-agents/decision-gate).
 :::
 
 ## Modelos Disponíveis
@@ -509,6 +509,7 @@ Acompanhe o desempenho dos seus Agentes IA:
 ## Próximos Passos
 
 - [Executar em uma mensagem](/guide/ai-agents/run-on-message) - Disparar o agente sem fluxo
+- [Decisão antes do agente](/guide/ai-agents/decision-gate) - Escolher se o agente age no automático
 - [Canal e condições](/guide/ai-agents/channel-conditions) - Um agente em vários canais
 - [Ferramentas da IA](/guide/ai-agents/tools/) - Configure ações do agente
 - [Melhorador de Texto](/guide/chat/text-enhancer) - Comandos de IA para atendentes

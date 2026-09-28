@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.9.15](/changelog/2026/09/2026.9.15) | 28/09 | **Decisão antes do Agente IA** — o JEV escolhe se o agente age, sem escrever a resposta | [Decisão](/guide/ai-agents/decision-gate) |
 | [v2026.9.14](/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — assistente no app para consultar a tela e agir com a sua permissão | [Copiloto](/guide/copilot) |
 | [v2026.9.13](/changelog/2026/09/2026.9.13) | 23/09 | **Varredura de funil** — lê a conversa, sugere o estágio e percorre uma organização por vez | [Varredura](/guide/crm/funnel-scan) |
 | [v2026.9.12](/changelog/2026/09/2026.9.12) | 18/09 | **Locais e duplicar agenda** — salas com horário próprio e cópia sem agendamentos | [Locais](/guide/schedule/locations) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.8.23](/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA na mensagem** — executar o prompt sem iniciar fluxo | [Agentes IA](/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento | [Configurações](/guide/settings/#permitir-mensagem-sem-atender) |
 | [v2026.8.21](/changelog/2026/08/2026.8.21) | 27/08 | **Mensagens e dados do cliente** — limite de histórico e máscara de cadastro no Agente IA | [Agentes IA](/guide/ai-agents/#mensagens-e-dados-do-cliente) |
-| [v2026.8.20](/changelog/2026/08/2026.8.20) | 26/08 | **Criar chat pelo Agente IA** — recolhe dados e abre (ou continua) o atendimento no canal | [Agentes IA](/guide/ai-agents/tools/create-chat) |
 [Ver todas as releases de setembro →](/changelog/2026/09/)
 
 ## Onde navegar

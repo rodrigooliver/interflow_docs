@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.9.15](/es/changelog/2026/09/2026.9.15) | 28/09 | **Decisión antes del Agente IA** — JEV elige si el agente actúa, sin escribir la respuesta | [Decisión](/es/guide/ai-agents/decision-gate) |
 | [v2026.9.14](/es/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — asistente en la app para consultar la pantalla y actuar con tu permiso | [Copiloto](/es/guide/copilot) |
 | [v2026.9.13](/es/changelog/2026/09/2026.9.13) | 23/09 | **Barrido del embudo** — lee la conversación, sugiere la etapa y recorre una organización a la vez | [Barrido](/es/guide/crm/funnel-scan) |
 | [v2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Locales y duplicar agenda** — salas con horario propio y copia sin citas | [Locales](/es/guide/schedule/locations) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.8.23](/es/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA en el mensaje** — ejecutar el prompt sin iniciar un flujo | [Agentes IA](/es/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/es/changelog/2026/08/2026.8.22) | 27/08 | **Mensaje suelto en pendiente** — responder sin asumir la atención | [Configuración](/es/guide/settings/#permitir-mensaje-sin-atender) |
 | [v2026.8.21](/es/changelog/2026/08/2026.8.21) | 27/08 | **Mensajes y datos del cliente** — límite de historial y máscara de la ficha en el Agente IA | [Agentes IA](/es/guide/ai-agents/#mensajes-y-datos-del-cliente) |
-| [v2026.8.20](/es/changelog/2026/08/2026.8.20) | 26/08 | **Crear chat desde el Agente IA** — recolecta datos y abre (o continúa) la atención en el canal | [Agentes IA](/es/guide/ai-agents/tools/create-chat) |
 
 [Ver todas las releases de septiembre →](/es/changelog/2026/09/)
 

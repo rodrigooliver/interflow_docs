@@ -7,7 +7,7 @@ Configure artificial intelligence agents to automate customer service in Interfl
 Interflow's AI Agents are intelligent virtual assistants that can handle customers autonomously, answer questions, schedule appointments, transfer to teams, and much more.
 
 ::: info Automatic Flow
-When you create an AI Agent, the system **automatically generates a linked flow**. In automatic attendance, the agent runs in that flow. You can also [run the same agent on a message](/en/guide/ai-agents/run-on-message), without starting a flow.
+When you create an AI Agent, the system **automatically generates a linked flow**. In automatic attendance, the agent runs in that flow. You can also [run the same agent on a message](/en/guide/ai-agents/run-on-message), without starting a flow. Before the reply, you can [decide whether the agent should act](/en/guide/ai-agents/decision-gate).
 :::
 
 ## Available Models
@@ -476,6 +476,7 @@ Track your AI Agents' performance:
 ## Next Steps
 
 - [Run on a message](/en/guide/ai-agents/run-on-message) - Run the agent without a flow
+- [Decision before the agent](/en/guide/ai-agents/decision-gate) - Choose whether the agent acts on automatic attendance
 - [Channel and conditions](/en/guide/ai-agents/channel-conditions) - One agent on several channels
 - [AI Tools](/en/guide/ai-agents/tools/) - Configure agent actions
 - [Text Enhancer](/en/guide/chat/text-enhancer) - AI commands for agents
