@@ -22,6 +22,10 @@ The possible outcomes are **keep** or one of the **destination stages**. An auto
 
 The interest line and the move reason use the organization’s model. Choosing the stage is a separate decision, limited to the configured options.
 
+## Settings in the app
+
+Under **Scan** → **Settings**, configure in order: **Jev decision** (context, rules, how Jev reads), **Where to move** (destinations), **Queue & routine** (schedule and who enters), **After reading** (enrichment and destination triggers on scan moves). Manual queue transfer does not use the scan’s conversion/flow toggles.
+
 ## Who enters the routine
 
 The daily routine includes only customers who:

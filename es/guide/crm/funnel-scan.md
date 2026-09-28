@@ -22,6 +22,10 @@ Los destinos posibles son **mantener** o una de las **etapas de destino**. El ca
 
 La frase de interés y el motivo del cambio usan el modelo de la organización. La elección de la etapa es una decisión aparte, solo entre las opciones configuradas.
 
+## Configuración en la interfaz
+
+En **Barrido** → **Configuración**, sigue el orden: **Decisión del Jev**, **Hacia dónde mover**, **Fila y rutina**, **Después de la lectura**. La transferencia manual en la fila no usa los interruptores de conversión/flujo del barrido.
+
 ## Quién entra en la rutina
 
 La rutina diaria solo incluye clientes que:

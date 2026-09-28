@@ -20,7 +20,21 @@ Cada decisão recebe:
 
 Os destinos possíveis são **manter** ou um dos **estágios de destino**. A mudança automática só ocorre se o estágio sugerido for outro, a probabilidade passar do mínimo e a leitura puder alterar aquele cliente.
 
-A frase de interesse e o motivo da mudança usam o modelo da organização. A escolha do estágio é uma decisão separada, só entre as opções configuradas.
+A **escolha do estágio** usa o Jev (sem texto gerado). Opcionalmente:
+
+- **Interesse (0–100)** — mesma requisição Jev (`score`, 10 faixas → 0–100), checkbox na configuração.
+- **Motivo ao mover** — modelo de texto (Interflow / OpenAI / DeepSeek), só quando o cliente muda de estágio.
+
+## Configuração na interface
+
+Em **Varredura** → **Configuração**, use as abas nesta ordem:
+
+1. **Decisão do Jev** — contexto do negócio, regras e **Como o Jev lê** (probabilidade mínima para mover, quantidade de mensagens e escopo da conversa).
+2. **Para onde mover** — estágios de destino permitidos. Sem nenhum, a varredura não move ninguém.
+3. **Fila e rotina** — ligar a rotina diária (02:00 horário de Brasília, fila sequencial entre organizações) e **Quem entra na rotina** (origem, tipo de cliente, interações).
+4. **Depois da leitura** — **Enriquecer o cliente** (interesse na leitura, motivo ao mover) e **Disparos do estágio de destino** (conversão e fluxo silencioso quando a varredura move). A transferência manual na fila não usa esses interruptores de conversão/fluxo.
+
+A página pode mostrar avisos se faltar destino ou origem com a rotina ligada; você ainda pode salvar.
 
 ## Quem entra na rotina
 
@@ -46,9 +60,7 @@ Ao lado da quantidade de mensagens:
 
 ## Fila
 
-No horário configurado, a rotina monta a fila com o filtro salvo e depois lê **um cliente por vez**. O filtro não é aplicado de novo no meio da fila.
-
-Se várias organizações estão no mesmo horário, elas entram em sequência. A que espera aparece como **Aguardando**. Quando uma termina, pausa ou falha, a próxima começa. Um disparo manual entra na mesma sequência.
+No horário fixo da plataforma (**02:00**, horário de Brasília), a rotina monta a fila de cada organização que ligou a rotina. Várias organizações no mesmo instante entram em **sequência** no worker (uma por vez). A que espera aparece como **Aguardando**. O filtro salvo não é reaplicado no meio da fila.
 
 Na fila você pode:
 
