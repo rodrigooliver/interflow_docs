@@ -22,11 +22,12 @@ Optional. If the customer is already on a tag or stage, the rule applies without
 
 | Type | What happens |
 |------|----------------|
-| Block the agent | No reply on this message. The next automatic message is evaluated again |
+| Block only this interaction | No reply on this message. The next automatic message is evaluated again |
+| Block and pause | No reply, and later messages do not enter the flow. A manual start still works |
 | Call another AI Agent | JEV is not called. The same flow continues with the chosen agent |
 | Skip the decision and run | The conversation agent replies as usual |
 
-If block and call-another-agent both match, block wins.
+If block and pause matches together with the other rules, it wins.
 
 ---
 

@@ -22,11 +22,12 @@ Opcionais. Se o cliente já estiver em uma tag ou estágio, a regra vale sem cha
 
 | Tipo | O que acontece |
 |------|----------------|
-| Bloquear o agente | Não responde nesta mensagem. A próxima mensagem automática avalia de novo |
+| Bloquear somente nessa interação | Não responde nesta mensagem. A próxima mensagem automática avalia de novo |
+| Bloquear e pausar | Não responde e as próximas mensagens não entram no fluxo. O início manual continua disponível |
 | Chamar outro Agente IA | O JEV não é chamado. O mesmo fluxo segue com o agente escolhido |
 | Pular a decisão e executar | O agente de conversa responde normalmente |
 
-Se bloquear e chamar outro agente baterem juntos, bloquear prevalece.
+Se bloquear e pausar bater com as outras regras, ela prevalece.
 
 ---
 

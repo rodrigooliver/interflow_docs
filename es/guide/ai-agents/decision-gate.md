@@ -22,11 +22,12 @@ Opcionales. Si el cliente ya está en una etiqueta o etapa, la regla vale sin ll
 
 | Tipo | Qué ocurre |
 |------|----------------|
-| Bloquear el agente | No responde en este mensaje. El próximo mensaje automático se evalúa de nuevo |
+| Bloquear solo en esta interacción | No responde en este mensaje. El próximo mensaje automático se evalúa de nuevo |
+| Bloquear y pausar | No responde y los próximos mensajes no entran en el flujo. El inicio manual sigue disponible |
 | Llamar a otro Agente IA | JEV no se llama. El mismo flujo sigue con el agente elegido |
 | Saltar la decisión y ejecutar | El agente de conversación responde con normalidad |
 
-Si coinciden bloquear y llamar a otro agente, prevalece bloquear.
+Si bloquear y pausar coincide con las otras reglas, prevalece.
 
 ---
 
