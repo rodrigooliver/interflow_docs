@@ -10,7 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
-| [v2026.9.15](/es/changelog/2026/09/2026.9.15) | 28/09 | **Decisión antes del Agente IA** — JEV elige si el agente actúa, sin escribir la respuesta | [Decisión](/es/guide/ai-agents/decision-gate) |
+| [v2026.9.15](/es/changelog/2026/09/2026.9.15) | 28/09 | **Decisión antes del Agente IA** — JEV elige si el agente actúa, cambia de agente o no responde | [Decisión](/es/guide/ai-agents/decision-gate) |
 | [v2026.9.14](/es/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — asistente en la app para consultar la pantalla y actuar con tu permiso | [Copiloto](/es/guide/copilot) |
 | [v2026.9.13](/es/changelog/2026/09/2026.9.13) | 23/09 | **Barrido del embudo** — lee la conversación, sugiere la etapa y recorre una organización a la vez | [Barrido](/es/guide/crm/funnel-scan) |
 | [v2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Locales y duplicar agenda** — salas con horario propio y copia sin citas | [Locales](/es/guide/schedule/locations) |

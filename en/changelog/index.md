@@ -10,7 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
-| [v2026.9.15](/en/changelog/2026/09/2026.9.15) | Sep 28 | **Decision before the AI Agent** — JEV chooses whether the agent acts, without writing the reply | [Decision](/en/guide/ai-agents/decision-gate) |
+| [v2026.9.15](/en/changelog/2026/09/2026.9.15) | Sep 28 | **Decision before the AI Agent** — JEV chooses whether the agent acts, switches agents, or does not reply | [Decision](/en/guide/ai-agents/decision-gate) |
 | [v2026.9.14](/en/changelog/2026/09/2026.9.14) | Sep 23 | **Copilot** — in-app assistant to read the screen and act with your permission | [Copilot](/en/guide/copilot) |
 | [v2026.9.13](/en/changelog/2026/09/2026.9.13) | Sep 23 | **Funnel scan** — reads the conversation, suggests the stage, and walks one organization at a time | [Scan](/en/guide/crm/funnel-scan) |
 | [v2026.9.12](/en/changelog/2026/09/2026.9.12) | Sep 18 | **Locations and duplicate schedule** — rooms with their own hours, and a setup copy | [Locations](/en/guide/schedule/locations) |

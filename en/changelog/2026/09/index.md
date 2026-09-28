@@ -6,7 +6,7 @@ Updates for September 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| [2026.9.15](/en/changelog/2026/09/2026.9.15) | 09/28 | **Decision before the AI Agent** — JEV chooses whether the agent acts, without writing the reply |
+| [2026.9.15](/en/changelog/2026/09/2026.9.15) | 09/28 | **Decision before the AI Agent** — JEV chooses whether the agent acts, switches agents, or does not reply |
 | [2026.9.14](/en/changelog/2026/09/2026.9.14) | 09/23 | **Copilot** — in-app assistant to read the screen and act with your permission |
 | [2026.9.13](/en/changelog/2026/09/2026.9.13) | 09/23 | **Funnel scan** — reads the conversation, suggests the stage, and walks the queue one organization at a time |
 | [2026.9.12](/en/changelog/2026/09/2026.9.12) | 09/18 | **Locations and duplicate schedule** — rooms with their own hours, and a setup copy without appointments |
@@ -27,7 +27,7 @@ Updates for September 2026.
 ## Month summary
 
 ### New Features (23)
-- **Decision before the AI Agent** (v2026.9.15) — JEV chooses whether the agent acts on automatic attendance, without writing the reply
+- **Decision before the AI Agent** (v2026.9.15) — JEV chooses whether the agent acts, switches agents, or does not reply
 - **Copilot** (v2026.9.14) — in-app assistant, with ask, agent, and direct agent modes
 - **Automatic funnel scan** (v2026.9.13) — reads the conversation at the set hour and moves only to destination stages when the probability clears the minimum
 - **Scan queue** (v2026.9.13) — one organization at a time, with pause, continue, retry failures, and transfer of the suggested stage

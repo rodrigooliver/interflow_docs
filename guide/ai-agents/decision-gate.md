@@ -23,21 +23,23 @@ Opcionais. Se o cliente já estiver em uma tag ou estágio, a regra vale sem cha
 | Tipo | O que acontece |
 |------|----------------|
 | Bloquear o agente | Não responde nesta mensagem. A próxima mensagem automática avalia de novo |
+| Chamar outro Agente IA | O JEV não é chamado. O mesmo fluxo segue com o agente escolhido |
 | Pular a decisão e executar | O agente de conversa responde normalmente |
 
-Se uma regra de bloquear e outra de pular baterem ao mesmo tempo, bloquear prevalece.
+Se bloquear e chamar outro agente baterem juntos, bloquear prevalece.
 
 ---
 
 ## Opções de saída
 
-O JEV escolhe uma opção a partir da instrução e do texto de cada opção.
+O JEV escolhe uma opção a partir do nome do caso e do critério. Só entram as opções cuja tag ou estágio o cliente cumpre. Sem filtro, a opção entra sempre. Com tag e estágio, o cliente precisa dos dois. Se nenhuma opção passar, o JEV não é chamado e este agente executa.
 
 | Efeito | O que acontece |
 |--------|----------------|
-| Continuar | O agente de conversa executa. As mensagens seguintes da mesma sessão não passam de novo pela decisão |
-| Pausar automático | Não responde e o automático deste chat não entra de novo. O início manual continua disponível |
-| Tentar de novo | Não responde agora. A próxima mensagem do cliente passa pela decisão outra vez |
+| Executar o agente | Este agente responde. As mensagens seguintes da mesma sessão não passam de novo pela decisão |
+| Chamar outro Agente IA | O fluxo continua com o agente escolhido. A sessão fica decidida e não reavalia na próxima mensagem |
+| Não responder | Não executa agora. A próxima mensagem do cliente passa pela decisão outra vez |
+| Não responder e pausar | Não responde e o automático deste chat não entra de novo. O início manual continua disponível |
 
 Em qualquer efeito dá para, se quiser, adicionar tags, remover tags ou mover o estágio. Isso é extra em relação à decisão.
 

@@ -6,7 +6,7 @@ Actualizaciones del mes de septiembre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
-| [2026.9.15](/es/changelog/2026/09/2026.9.15) | 28/09 | **Decisión antes del Agente IA** — JEV elige si el agente actúa, sin escribir la respuesta |
+| [2026.9.15](/es/changelog/2026/09/2026.9.15) | 28/09 | **Decisión antes del Agente IA** — JEV elige si el agente actúa, cambia de agente o no responde |
 | [2026.9.14](/es/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — asistente en la app para consultar la pantalla y actuar con tu permiso |
 | [2026.9.13](/es/changelog/2026/09/2026.9.13) | 23/09 | **Barrido del embudo** — lee la conversación, sugiere la etapa y recorre la cola una organización a la vez |
 | [2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Locales y duplicar agenda** — salas con horario propio y copia de la configuración sin citas |
@@ -27,7 +27,7 @@ Actualizaciones del mes de septiembre de 2026.
 ## Resumen del Mes
 
 ### Nuevas Funcionalidades (23)
-- **Decisión antes del Agente IA** (v2026.9.15) — JEV elige si el agente actúa en lo automático, sin escribir la respuesta
+- **Decisión antes del Agente IA** (v2026.9.15) — JEV elige si el agente actúa, cambia de agente o no responde
 - **Copiloto** (v2026.9.14) — asistente en la app, con modos pregunta, agente y agente directo
 - **Barrido automático del embudo** (v2026.9.13) — lee la conversación a la hora marcada y solo mueve a las etapas de destino si la probabilidad supera el mínimo
 - **Cola del barrido** (v2026.9.13) — una organización a la vez, con pausa, continuar, repetir fallos y transferir la etapa sugerida

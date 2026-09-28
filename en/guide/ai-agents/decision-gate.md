@@ -23,21 +23,23 @@ Optional. If the customer is already on a tag or stage, the rule applies without
 | Type | What happens |
 |------|----------------|
 | Block the agent | No reply on this message. The next automatic message is evaluated again |
+| Call another AI Agent | JEV is not called. The same flow continues with the chosen agent |
 | Skip the decision and run | The conversation agent replies as usual |
 
-If a block rule and a skip rule both match, block wins.
+If block and call-another-agent both match, block wins.
 
 ---
 
 ## Outcome options
 
-JEV picks one option from the instruction and each option's text.
+JEV picks one option from the case name and the criteria. Only options whose tag or stage the customer matches are included. With no filter, the option is always included. With both a tag and a stage, the customer must match both. If none match, JEV is not called and this agent runs.
 
 | Effect | What happens |
 |--------|----------------|
-| Continue | The conversation agent runs. Later messages in the same session do not go through the decision again |
-| Pause automatic | No reply, and automatic attendance on this chat does not start again. A manual start still works |
-| Try again | No reply now. The customer's next message goes through the decision again |
+| Run the agent | This agent replies. Later messages in the same session do not go through the decision again |
+| Call another AI Agent | The flow continues with the chosen agent. The session is marked decided and is not evaluated again on the next message |
+| Do not reply | Does not run now. The customer's next message goes through the decision again |
+| Do not reply and pause | No reply, and automatic attendance on this chat does not start again. A manual start still works |
 
 On any effect you can also add tags, remove tags, or move the stage. That is extra to the decision.
 
