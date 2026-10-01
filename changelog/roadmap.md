@@ -26,7 +26,6 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 | Exclusão automática de clientes pela última interação | Ago/2026 | Considerar cadastro antigo e inatividade recente na exclusão por limite de plano, preservando quem ainda conversa com a empresa. |
 | Filtro de status da última conversa na lista de clientes | Ago/2026 | Filtrar clientes por status da última conversa (aguardando, em atendimento) ou sem atendimento. |
 | Desativar fluxo imediato em canais oficiais no formulário Meta | Ago/2026 | Impedir o início de fluxo imediato em canais de API oficial, exigindo template aprovado no primeiro contato. |
-| Exclusão e edição de mensagens no chat interno | Ago/2026 | Editar ou excluir mensagens enviadas no chat interno da equipe. |
 | Ajustes no fluxo de cobranças e sucumbência padrão | Ago/2026 | Evitar criação automática indesejada de cobranças, padronizar o nome (EMPRESA X DEVEDOR) e manter sucumbência zerada por padrão. |
 | Botão de chamadas Meet com notificação ao cliente | Ago/2026 | Iniciar Google Meet no atendimento e enviar automaticamente o link da chamada ao cliente. |
 | Corrigir número de contato em “Ver customers” no UTM Tracking | Ago/2026 | Exibir o número de contato de todos os clientes na listagem de um anúncio. |

@@ -348,6 +348,8 @@ If a conversation with the selected user already exists, the system opens the ex
 ### Audio and read status
 
 - **Record audio** — use the microphone icon in the message field (internal DMs and groups)
+- **Edit** — in your text message menu, change the content. Everyone sees that it was edited
+- **Delete** — in your message menu, the content is removed for everyone and a deleted-message notice remains
 - **Mark as read / unread** — in the Internal Chats list, open the conversation `⋯` menu
 - **When opening the chat** — pending messages are marked as read automatically
 - **Seen status (DM)** — in direct chats, opening the conversation shows messages as read for the sender (blue ticks)

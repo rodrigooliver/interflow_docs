@@ -344,6 +344,8 @@ Si ya existe una conversación con el usuario seleccionado, el sistema abre la e
 ### Audio y lectura
 
 - **Grabar audio** — usa el ícono de micrófono en el campo de mensaje (DMs y grupos internos)
+- **Editar** — en el menú de tu mensaje de texto, ajusta el contenido. Todos ven que fue editado
+- **Eliminar** — en el menú de tu mensaje, el contenido desaparece para todos y queda el aviso de mensaje eliminado
 - **Marcar como leído / no leído** — en el listado de Chats Internos, abre el menú `⋯` de la conversación
 - **Al abrir el chat** — los mensajes pendientes se marcan como leídos automáticamente
 - **Estado visto (DM)** — en chats directos, al abrir la conversación el remitente ve los mensajes como leídos (ticks azules)

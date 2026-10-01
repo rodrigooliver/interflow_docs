@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.4](/changelog/2026/10/2026.10.4) | 01/10 | **Editar e excluir no chat interno** — o autor corrige o texto ou apaga a mensagem para toda a equipe | [Chat interno](/guide/chat/interface#chat-interno-comunicacao-entre-agentes) |
 | [v2026.10.3](/changelog/2026/10/2026.10.3) | 01/10 | **Descrição padrão da categoria** — ao criar o lançamento, a descrição vem da categoria e continua editável | [Financeiro](/guide/financial/#categorias) |
 | [v2026.10.2](/changelog/2026/10/2026.10.2) | 01/10 | **Estágio na importação** — a planilha coloca o cliente no estágio pelo nome, no funil escolhido | [Clientes](/guide/crm/customers#estagio-na-planilha) |
 | [v2026.10.1](/changelog/2026/10/2026.10.1) | 01/10 | **Atribuir estágio em massa** — coloca no funil clientes sem estágio, sem fluxo, pixel ou histórico | [Clientes](/guide/crm/customers#atribuir-estagio-em-massa) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.9.2](/changelog/2026/09/2026.9.2) | 10/09 | **Menu por módulo e busca** — workspaces no sidebar e ⌘K / Ctrl+K | [Configurações](/guide/settings/#menu-e-busca) |
 | [v2026.9.1](/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner e admins com o nome e o número | [WAHA](/guide/channels/whatsapp-waha#reconexao) |
 | [v2026.8.25](/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipe** — até 12 números nos filtros rápidos, visíveis só para quem precisa | [Filtros](/guide/chat/filters#contadores-nos-filtros-rapidos) |
-| [v2026.8.24](/changelog/2026/08/2026.8.24) | 27/08 | **Vozes do sistema** — gerar áudio a partir do texto no atendimento | [Vozes do sistema](/guide/chat/system-voices) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

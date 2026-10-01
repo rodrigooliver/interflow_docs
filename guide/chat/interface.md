@@ -441,6 +441,8 @@ Se já existir uma conversa com o usuário selecionado, o sistema abre a existen
 ### Áudio e leitura
 
 - **Gravar áudio** — use o ícone de microfone no campo de mensagem (DMs e grupos internos)
+- **Editar** — no menu da sua mensagem de texto, ajuste o conteúdo. Todos veem que ela foi editada
+- **Excluir** — no menu da sua mensagem, o conteúdo some para todos e fica o aviso de mensagem apagada
 - **Marcar como lida / não lida** — na listagem de Chats Internos, abra o menu `⋯` da conversa
 - **Ao abrir o chat** — mensagens pendentes são marcadas como lidas automaticamente
 - **Status visualizada (DM)** — em chats diretos, ao abrir a conversa o remetente vê as mensagens como lidas (ticks azuis)
