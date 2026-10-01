@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.3](/es/changelog/2026/10/2026.10.3) | 01/10 | **Descripción predeterminada de la categoría** — al crear el movimiento, la descripción viene de la categoría y se puede editar | [Financiero](/es/guide/financial/#categorias) |
 | [v2026.10.2](/es/changelog/2026/10/2026.10.2) | 01/10 | **Etapa en la importación** — la planilla coloca al cliente en la etapa por el nombre, en el embudo elegido | [Clientes](/es/guide/crm/customers#etapa-en-la-planilla) |
 | [v2026.10.1](/es/changelog/2026/10/2026.10.1) | 01/10 | **Asignar etapa en masa** — coloca en el embudo a clientes sin etapa, sin flujo, píxel ni historial | [Clientes](/es/guide/crm/customers#asignar-etapa-en-masa) |
 | [v2026.9.15](/es/changelog/2026/09/2026.9.15) | 28/09 | **Decisión antes del Agente IA** — JEV elige si el agente actúa, cambia de agente o no responde | [Decisión](/es/guide/ai-agents/decision-gate) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.9.1](/es/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner y admins con el nombre y el número | [WAHA](/es/guide/channels/whatsapp-waha#reconexion) |
 | [v2026.8.25](/es/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipo** — hasta 12 números en los filtros rápidos, visibles solo para quien los necesita | [Filtros](/es/guide/chat/filters#contadores-en-los-filtros-rapidos) |
 | [v2026.8.24](/es/changelog/2026/08/2026.8.24) | 27/08 | **Voces del sistema** — generar audio a partir del texto en la atención | [Voces del sistema](/es/guide/chat/system-voices) |
-| [v2026.8.23](/es/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA en el mensaje** — ejecutar el prompt sin iniciar un flujo | [Agentes IA](/es/guide/ai-agents/run-on-message) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

@@ -191,9 +191,10 @@ Em **Financeiro → Categorias**:
 - Separe **receita** e **despesa**
 - Use categoria pai para criar subcategorias
 - Defina uma cor
+- Opcionalmente, informe a **descrição padrão do lançamento**: ao criar uma receita ou despesa, escolher a categoria preenche a descrição, que continua editável
 - Não é possível excluir uma categoria que ainda tem subcategorias
 
-**Gerar com IA** pede uma descrição do negócio, sugere categorias de receita e despesa e só grava depois da revisão.
+**Gerar com IA** pede uma descrição do negócio, sugere categorias de receita e despesa (com descrição padrão) e só grava depois da revisão.
 
 ## Formas de pagamento
 

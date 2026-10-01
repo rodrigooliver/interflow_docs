@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.3](/en/changelog/2026/10/2026.10.3) | Oct 1 | **Default category description** — a new entry gets the category text and stays editable | [Financial](/en/guide/financial/#categories) |
 | [v2026.10.2](/en/changelog/2026/10/2026.10.2) | Oct 1 | **Stage on import** — the spreadsheet places the customer on the stage by name, in the chosen funnel | [Customers](/en/guide/crm/customers#stage-in-the-spreadsheet) |
 | [v2026.10.1](/en/changelog/2026/10/2026.10.1) | Oct 1 | **Assign a stage in bulk** — places customers with no stage into the funnel, without flow, pixel, or history | [Customers](/en/guide/crm/customers#assign-stage-in-bulk) |
 | [v2026.9.15](/en/changelog/2026/09/2026.9.15) | Sep 28 | **Decision before the AI Agent** — JEV chooses whether the agent acts, switches agents, or does not reply | [Decision](/en/guide/ai-agents/decision-gate) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.9.1](/en/changelog/2026/09/2026.9.1) | Sep 9 | **WAHA channel disconnected** — push to owner and admins with the name and number | [WAHA](/en/guide/channels/whatsapp-waha#reconnection) |
 | [v2026.8.25](/en/changelog/2026/08/2026.8.25) | Sep 8 | **Counters per team** — up to 12 numbers on quick filters, visible only to who needs them | [Filters](/en/guide/chat/filters#counters-on-quick-filters) |
 | [v2026.8.24](/en/changelog/2026/08/2026.8.24) | Aug 27 | **System voices** — generate audio from text in the conversation | [System voices](/en/guide/chat/system-voices) |
-| [v2026.8.23](/en/changelog/2026/08/2026.8.23) | Aug 27 | **AI Agent on a message** — run the prompt without starting a flow | [AI Agents](/en/guide/ai-agents/run-on-message) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

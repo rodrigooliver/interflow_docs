@@ -191,9 +191,10 @@ En **Financiero → Categorías**:
 - Separe **ingreso** y **gasto**
 - Use una categoría padre para crear subcategorías
 - Defina un color
+- Opcionalmente, informe la **descripción predeterminada del movimiento**: al crear un ingreso o un gasto, elegir la categoría completa la descripción, que se puede editar
 - No se puede eliminar una categoría que todavía tiene subcategorías
 
-**Gerar com IA** pide una descripción del negocio, sugiere categorías de ingreso y gasto y solo guarda después de la revisión.
+**Generar con IA** pide una descripción del negocio, sugiere categorías de ingreso y gasto (con descripción predeterminada) y solo guarda después de la revisión.
 
 ## Métodos de pago
 

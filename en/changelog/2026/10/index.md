@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.3](/en/changelog/2026/10/2026.10.3) | 10/01 | **Default category description** — a new entry gets the category text and stays editable |
 | [2026.10.2](/en/changelog/2026/10/2026.10.2) | 10/01 | **Stage on import** — the spreadsheet places the customer on the stage by name, in the chosen funnel |
 | [2026.10.1](/en/changelog/2026/10/2026.10.1) | 10/01 | **Assign a stage in bulk** — places customers with no stage into the funnel, without flow, pixel, or history |
 
@@ -13,6 +14,7 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (2)
+### New Features (3)
+- **Default category description** (v2026.10.3) — a new entry inherits the category text and stays editable
 - **Stage on import** (v2026.10.2) — the `stage` column uses the stage name in the chosen funnel
 - **Assign a stage in bulk** (v2026.10.1) — owners and admins classify at once people who still have no stage

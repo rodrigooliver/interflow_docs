@@ -191,9 +191,10 @@ In **Financial → Categories**:
 - Split **income** and **expense**
 - Use a parent category to create subcategories
 - Set a color
+- Optionally set a **default transaction description**: when you create income or an expense, picking the category fills the description, which stays editable
 - A category that still has subcategories cannot be deleted
 
-**Generate with AI** asks for a description of the business, suggests income and expense categories, and saves only after you review them.
+**Generate with AI** asks for a description of the business, suggests income and expense categories (with a default description), and saves only after you review them.
 
 ## Payment methods
 
