@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.6](/es/changelog/2026/10/2026.10.6) | 01/10 | **Estado de la última conversación** — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención |
 | [2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Enlace de la reunión en la cita** — menú para Meet, Zoom o Teams, con opción de solo guardar |
 | [2026.10.4](/es/changelog/2026/10/2026.10.4) | 01/10 | **Editar y eliminar en el chat interno** — el autor corrige el texto o borra el mensaje para todo el equipo |
 | [2026.10.3](/es/changelog/2026/10/2026.10.3) | 01/10 | **Descripción predeterminada de la categoría** — al crear el movimiento, la descripción viene de la categoría y se puede editar |
@@ -16,7 +17,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (5)
+### Nuevas Funcionalidades (6)
+- **Estado de la última conversación** (v2026.10.6) — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención
 - **Enlace de la reunión en la cita** (v2026.10.5) — menú para Meet, Zoom o Teams, con opción de solo guardar
 - **Editar y eliminar en el chat interno** (v2026.10.4) — el autor corrige el texto o borra el mensaje para todo el equipo
 - **Descripción predeterminada de la categoría** (v2026.10.3) — el movimiento nuevo hereda el texto de la categoría y se puede editar

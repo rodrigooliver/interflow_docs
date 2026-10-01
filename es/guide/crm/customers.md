@@ -138,6 +138,19 @@ Escribe en el campo de búsqueda para encontrar clientes por:
 | **Fecha** | Por período de registro |
 | **Campos** | Por valores de campos personalizados |
 | **Estado** | Activos, inactivos, etc. |
+| **Última conversación** | Por el estado de la conversación más reciente, o sin atención |
+
+### Estado de la última conversación {#estado-de-la-ultima-conversacion}
+
+En el menú de filtros, en **Última conversación**, elija **Filtrar por estado** y marque uno o más:
+
+- En espera
+- En atención
+- Finalizado
+- Esp. cierre
+- Sin datos o sin atención
+
+La lista muestra solo los clientes de la selección. La exportación usa el mismo filtro.
 
 ### Guardando Filtros
 

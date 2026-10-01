@@ -137,7 +137,20 @@ Type in search field to find customers by:
 | **Channel** | By origin channel |
 | **Date** | By registration period |
 | **Fields** | By custom field values |
+| **Last conversation** | By the latest conversation status, or with no conversation |
 | **Status** | Active, inactive, etc. |
+
+### Last conversation status {#last-conversation-status}
+
+In filters, under **Last conversation**, choose **Filter by status** and select one or more:
+
+- Waiting
+- In progress
+- Finished
+- Waiting to close
+- No data or no conversation
+
+The list shows only matching customers. Export uses the same filter.
 
 ### Saving Filters
 

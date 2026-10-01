@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.6](/changelog/2026/10/2026.10.6) | 01/10 | **Status da última conversa** — filtra a lista por aguardando, em atendimento, finalizado, ag. fechamento ou sem atendimento | [Clientes](/guide/crm/customers#status-da-ultima-conversa) |
 | [v2026.10.5](/changelog/2026/10/2026.10.5) | 01/10 | **Link da reunião no agendamento** — menu para Meet, Zoom ou Teams, com opção de só salvar | [Agenda](/guide/schedule/#link-da-reuniao) |
 | [v2026.10.4](/changelog/2026/10/2026.10.4) | 01/10 | **Editar e excluir no chat interno** — o autor corrige o texto ou apaga a mensagem para toda a equipe | [Chat interno](/guide/chat/interface#chat-interno-comunicacao-entre-agentes) |
 | [v2026.10.3](/changelog/2026/10/2026.10.3) | 01/10 | **Descrição padrão da categoria** — ao criar o lançamento, a descrição vem da categoria e continua editável | [Financeiro](/guide/financial/#categorias) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.9.4](/changelog/2026/09/2026.9.4) | 10/09 | **Lista e dia em colunas** — por profissional ou agenda, com cards compactos | [Agenda](/guide/schedule/#divisao-em-colunas) |
 | [v2026.9.3](/changelog/2026/09/2026.9.3) | 10/09 | **Janela de 24h e templates nos fluxos** — escolha automática entre mensagem direta e modelo aprovado | [Guia](/guide/flows/nodes/whatsapp-template) |
 | [v2026.9.2](/changelog/2026/09/2026.9.2) | 10/09 | **Menu por módulo e busca** — workspaces no sidebar e ⌘K / Ctrl+K | [Configurações](/guide/settings/#menu-e-busca) |
-| [v2026.9.1](/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner e admins com o nome e o número | [WAHA](/guide/channels/whatsapp-waha#reconexao) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

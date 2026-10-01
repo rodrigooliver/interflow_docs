@@ -24,7 +24,6 @@ This roadmap is updated regularly and may change based on product priorities.
 | Delete and edit cash register operator permissions | Aug 2026 | Remove operators from a cash register and edit permissions for those already assigned. |
 | Alphabetical order for external group members | Aug 2026 | Display external group participants in alphabetical order by name. |
 | Auto-delete customers based on last interaction | Aug 2026 | Consider both old registration and recent inactivity when freeing plan slots, keeping customers who still talk to the company. |
-| Filter customers by last conversation status | Aug 2026 | Filter customers by last conversation status (waiting, in progress) or with no conversation. |
 | Disable immediate flow on official API channels in Meta forms | Aug 2026 | Block immediate flow start on official API channels, requiring an approved template for the first contact. |
 | Billing flow adjustments and default succumbency value | Aug 2026 | Avoid unwanted automatic billing creation, standardize charge names (COMPANY X DEBTOR), and keep succumbency at zero by default. |
 | Fix contact number in “View customers” in UTM Tracking | Aug 2026 | Show the contact number for every customer in an ad’s customer list. |

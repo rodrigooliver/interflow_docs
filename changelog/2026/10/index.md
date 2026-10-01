@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.6](/changelog/2026/10/2026.10.6) | 01/10 | **Status da última conversa** — filtra a lista por aguardando, em atendimento, finalizado, ag. fechamento ou sem atendimento |
 | [2026.10.5](/changelog/2026/10/2026.10.5) | 01/10 | **Link da reunião no agendamento** — menu para Meet, Zoom ou Teams, com opção de só salvar |
 | [2026.10.4](/changelog/2026/10/2026.10.4) | 01/10 | **Editar e excluir no chat interno** — o autor corrige o texto ou apaga a mensagem para toda a equipe |
 | [2026.10.3](/changelog/2026/10/2026.10.3) | 01/10 | **Descrição padrão da categoria** — ao criar o lançamento, a descrição vem da categoria e continua editável |
@@ -16,7 +17,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (5)
+### Novas Funcionalidades (6)
+- **Status da última conversa** (v2026.10.6) — filtra a lista por aguardando, em atendimento, finalizado, ag. fechamento ou sem atendimento
 - **Link da reunião no agendamento** (v2026.10.5) — menu para Meet, Zoom ou Teams, com opção de só salvar
 - **Editar e excluir no chat interno** (v2026.10.4) — o autor corrige o texto ou apaga a mensagem para toda a equipe
 - **Descrição padrão da categoria** (v2026.10.3) — o lançamento novo herda o texto da categoria e continua editável

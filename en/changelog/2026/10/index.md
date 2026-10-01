@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.6](/en/changelog/2026/10/2026.10.6) | 10/01 | **Last conversation status** — filter the list by waiting, in progress, finished, waiting to close, or no conversation |
 | [2026.10.5](/en/changelog/2026/10/2026.10.5) | 10/01 | **Meeting link on the appointment** — menu for Meet, Zoom, or Teams, with save-only |
 | [2026.10.4](/en/changelog/2026/10/2026.10.4) | 10/01 | **Edit and delete in internal chat** — the author fixes the text or deletes the message for the whole team |
 | [2026.10.3](/en/changelog/2026/10/2026.10.3) | 10/01 | **Default category description** — a new entry gets the category text and stays editable |
@@ -16,7 +17,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (5)
+### New Features (6)
+- **Last conversation status** (v2026.10.6) — filter the list by waiting, in progress, finished, waiting to close, or no conversation
 - **Meeting link on the appointment** (v2026.10.5) — menu for Meet, Zoom, or Teams, with save-only
 - **Edit and delete in internal chat** (v2026.10.4) — the author fixes the text or deletes the message for the whole team
 - **Default category description** (v2026.10.3) — a new entry inherits the category text and stays editable

@@ -138,6 +138,19 @@ Digite no campo de busca para encontrar clientes por:
 | **Data** | Por período de cadastro |
 | **Campos** | Por valores de campos personalizados |
 | **Status** | Ativos, inativos, etc. |
+| **Última conversa** | Pelo status da conversa mais recente, ou sem atendimento |
+
+### Status da última conversa {#status-da-ultima-conversa}
+
+No menu de filtros, em **Última conversa**, escolha **Filtrar por status** e marque um ou mais:
+
+- Aguardando
+- Em atendimento
+- Finalizado
+- Ag. fechamento
+- Sem dados ou sem atendimento
+
+A lista mostra só os clientes da seleção. A exportação usa o mesmo filtro.
 
 ### Salvando Filtros
 
