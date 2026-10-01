@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.2](/changelog/2026/10/2026.10.2) | 01/10 | **Estágio na importação** — a planilha coloca o cliente no estágio pelo nome, no funil escolhido | [Clientes](/guide/crm/customers#estagio-na-planilha) |
 | [v2026.10.1](/changelog/2026/10/2026.10.1) | 01/10 | **Atribuir estágio em massa** — coloca no funil clientes sem estágio, sem fluxo, pixel ou histórico | [Clientes](/guide/crm/customers#atribuir-estagio-em-massa) |
 | [v2026.9.15](/changelog/2026/09/2026.9.15) | 28/09 | **Decisão antes do Agente IA** — o JEV escolhe se o agente age, troca de agente ou não responde | [Decisão](/guide/ai-agents/decision-gate) |
 | [v2026.9.14](/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — assistente no app para consultar a tela e agir com a sua permissão | [Copiloto](/guide/copilot) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.8.25](/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipe** — até 12 números nos filtros rápidos, visíveis só para quem precisa | [Filtros](/guide/chat/filters#contadores-nos-filtros-rapidos) |
 | [v2026.8.24](/changelog/2026/08/2026.8.24) | 27/08 | **Vozes do sistema** — gerar áudio a partir do texto no atendimento | [Vozes do sistema](/guide/chat/system-voices) |
 | [v2026.8.23](/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA na mensagem** — executar o prompt sem iniciar fluxo | [Agentes IA](/guide/ai-agents/run-on-message) |
-| [v2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento | [Configurações](/guide/settings/#permitir-mensagem-sem-atender) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

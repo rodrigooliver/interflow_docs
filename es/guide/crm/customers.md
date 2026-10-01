@@ -171,6 +171,17 @@ Administradores continúan viendo todos los clientes. Esta configuración proteg
 5. Mapea los campos
 6. Confirma la importación
 
+**Columnas del modelo:** `name`, `whatsapp`, `email`, `tags` y `stage`, además de los slugs de campos personalizados.
+
+### Etapa en la planilla
+
+1. Elige el embudo en la pantalla de importación. Los nombres aceptados aparecen allí
+2. En la columna `stage`, escribe el nombre de la etapa de ese embudo
+3. Deja la celda vacía para no cambiar la etapa
+4. Si el nombre no existe en el embudo, la importación se detiene e indica la fila para corregir el archivo
+
+Quien ya existe (mismo WhatsApp o correo) se actualiza y pasa a la etapa indicada.
+
 ## Exportación de Clientes
 
 1. Aplica los filtros deseados

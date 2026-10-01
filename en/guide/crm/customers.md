@@ -171,6 +171,17 @@ Administrators continue seeing all customers. This setting protects sensitive da
 5. Map fields
 6. Confirm import
 
+**Template columns** include `name`, `whatsapp`, `email`, `tags`, and `stage`, plus custom field slugs.
+
+### Stage in the spreadsheet
+
+1. Choose the funnel on the import screen. Accepted names are listed there
+2. In the `stage` column, write the stage name in that funnel
+3. Leave the cell empty to leave the stage unchanged
+4. If the name does not exist in the funnel, the import stops and points to the row so you can fix the file
+
+Someone who already exists (same WhatsApp or email) is updated and moved to the stage in the file.
+
 ## Customer Export
 
 1. Apply desired filters

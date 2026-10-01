@@ -174,9 +174,18 @@ Administradores continuam vendo todos os clientes. Essa configuração protege d
 **Colunas do modelo:**
 
 ```csv
-nome,email,telefone,whatsapp,tag1,tag2,campo_personalizado
-João Silva,joao@email.com,11999999999,11999999999,cliente,vip,Empresa XYZ
+name,whatsapp,email,tags,stage
+João Silva,+5511999999999,joao@email.com,VIP,Proposta enviada
 ```
+
+### Estágio na planilha
+
+1. Escolha o funil na tela de importação. Os nomes aceitos aparecem ali
+2. Na coluna `stage`, escreva o nome do estágio desse funil
+3. Deixe a célula vazia para não alterar o estágio
+4. Se o nome não existir no funil, a importação para e indica a linha para corrigir o arquivo
+
+Quem já existe (mesmo WhatsApp ou e-mail) é atualizado e movido para o estágio informado.
 
 ### Via API
 
