@@ -227,6 +227,20 @@ Choose how many customers to display per page in the listing:
 
 ---
 
+## Assign a stage in bulk {#assign-stage-in-bulk}
+
+Owners and admins can place several customers who still have no stage into the funnel.
+
+1. In **Customers**, select two or more customers
+2. **Assign stage** only appears if at least one selected customer has no stage
+3. Choose the funnel and the stage, then confirm
+
+Customers who already have a stage are not changed. The screen reports how many were selected and how many received the stage.
+
+This action does not trigger a flow, pixel, or message, and it does not record history. Changing one customer's stage still behaves as usual.
+
+---
+
 ## Sales Funnel
 
 In **CRM → Sales Funnel**, track customers by stage on a kanban board.

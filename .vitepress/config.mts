@@ -382,8 +382,16 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
         {
-            text: lang === 'en' ? 'September' : lang === 'es' ? 'Septiembre' : 'Setembro',
+            text: lang === 'en' ? 'October' : lang === 'es' ? 'Octubre' : 'Outubro',
             collapsed: false,
+            items: [
+              { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/10/` },
+              { text: 'v2026.10.1', link: `${prefix}/changelog/2026/10/2026.10.1` }
+            ]
+          },
+        {
+            text: lang === 'en' ? 'September' : lang === 'es' ? 'Septiembre' : 'Setembro',
+            collapsed: true,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/09/` },
               { text: 'v2026.9.15', link: `${prefix}/changelog/2026/09/2026.9.15` },

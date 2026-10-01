@@ -226,6 +226,20 @@ Elige cuántos clientes mostrar por página en el listado:
 
 ---
 
+## Asignar etapa en masa {#asignar-etapa-en-masa}
+
+El propietario y el administrador pueden colocar en el embudo a varios clientes que todavía no tienen etapa.
+
+1. En **Clientes**, seleccione dos o más clientes
+2. **Asignar etapa** solo aparece si al menos uno de los seleccionados todavía no tiene etapa
+3. Elija el embudo y la etapa y confirme
+
+Quien ya tiene etapa no cambia. La pantalla informa cuántos fueron seleccionados y cuántos recibieron la etapa.
+
+Esta acción no dispara flujo, píxel ni mensaje, y no registra historial. Cambiar la etapa de un cliente a la vez sigue con el comportamiento habitual.
+
+---
+
 ## Embudo de Ventas
 
 En **CRM → Embudo de Ventas**, siga a los clientes por etapa en un tablero kanban.

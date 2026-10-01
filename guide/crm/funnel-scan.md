@@ -73,6 +73,14 @@ Na fila você pode:
 
 Criar a fila de um estágio usa aquele estágio, mesmo que ele não esteja na origem da rotina. O botão **Iniciar** em um item lê só aquela pessoa.
 
+### Overrides em filas e varreduras manuais
+
+Ao **criar fila de um estágio**, **varrer o funil inteiro** ou **varrer um cliente** na interface, você pode ajustar contexto do negócio, regras, como o Jev lê, estágios de destino e ações depois da leitura. O formulário vem pré-preenchido da configuração salva e vale **só para aquela fila ou varredura** — a configuração global não muda.
+
+Esses valores são gravados no job como um snapshot (`scanConfig`). O worker usa esse snapshot em vez de reler só a configuração salva. Jobs antigos sem snapshot continuam usando a configuração atual.
+
+**Quem entra na fila** ao criar uma fila manual pode ser filtrado ou não: no modal, **Aplicar filtros de quem entra na fila** (desligado por padrão) inclui **todos os clientes do estágio**; ligado, usa tipo, interações, conversa nova e **Revisar de novo após** da configuração salva em **Fila e rotina**. Isso não entra nos overrides de contexto/leitura/destinos. A rotina diária (02:00) sempre aplica esses filtros.
+
 ## Limitações
 
 - Sem estágio de origem e de destino, a rotina diária não liga

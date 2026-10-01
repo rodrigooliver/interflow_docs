@@ -238,6 +238,20 @@ Escolha quantos clientes exibir por página na listagem:
 
 ---
 
+## Atribuir estágio em massa {#atribuir-estagio-em-massa}
+
+Proprietário e administrador podem colocar no funil vários clientes que ainda não têm estágio.
+
+1. Em **Clientes**, selecione dois ou mais clientes
+2. **Atribuir estágio** só aparece se pelo menos um selecionado ainda não tiver estágio
+3. Escolha o funil e o estágio e confirme
+
+Quem já tem estágio não é alterado. A tela informa quantos foram selecionados e quantos receberam o estágio.
+
+Esta ação não dispara fluxo, pixel nem mensagem, e não registra histórico. Mudar o estágio de um cliente por vez continua com o comportamento habitual.
+
+---
+
 ## Funil de Vendas
 
 No **CRM → Funil de Vendas**, acompanhe clientes por estágio em um quadro kanban.

@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.1](/es/changelog/2026/10/2026.10.1) | 01/10 | **Asignar etapa en masa** — coloca en el embudo a clientes sin etapa, sin flujo, píxel ni historial | [Clientes](/es/guide/crm/customers#asignar-etapa-en-masa) |
 | [v2026.9.15](/es/changelog/2026/09/2026.9.15) | 28/09 | **Decisión antes del Agente IA** — JEV elige si el agente actúa, cambia de agente o no responde | [Decisión](/es/guide/ai-agents/decision-gate) |
 | [v2026.9.14](/es/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — asistente en la app para consultar la pantalla y actuar con tu permiso | [Copiloto](/es/guide/copilot) |
 | [v2026.9.13](/es/changelog/2026/09/2026.9.13) | 23/09 | **Barrido del embudo** — lee la conversación, sugiere la etapa y recorre una organización a la vez | [Barrido](/es/guide/crm/funnel-scan) |
@@ -29,15 +30,13 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.8.24](/es/changelog/2026/08/2026.8.24) | 27/08 | **Voces del sistema** — generar audio a partir del texto en la atención | [Voces del sistema](/es/guide/chat/system-voices) |
 | [v2026.8.23](/es/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA en el mensaje** — ejecutar el prompt sin iniciar un flujo | [Agentes IA](/es/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/es/changelog/2026/08/2026.8.22) | 27/08 | **Mensaje suelto en pendiente** — responder sin asumir la atención | [Configuración](/es/guide/settings/#permitir-mensaje-sin-atender) |
-| [v2026.8.21](/es/changelog/2026/08/2026.8.21) | 27/08 | **Mensajes y datos del cliente** — límite de historial y máscara de la ficha en el Agente IA | [Agentes IA](/es/guide/ai-agents/#mensajes-y-datos-del-cliente) |
-
-[Ver todas las releases de septiembre →](/es/changelog/2026/09/)
+[Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar
 
 | Destino | Contenido |
 |---------|-----------|
-| [Septiembre 2026](/es/changelog/2026/09/) | Mes actual |
+| [Octubre 2026](/es/changelog/2026/10/) | Mes actual |
 | [2026](/es/changelog/2026/) | Todos los meses del año |
 | [2025](/es/changelog/2025/) | Histórico del año anterior |
 | [Roadmap](/es/changelog/roadmap) | Lo que está planificado |

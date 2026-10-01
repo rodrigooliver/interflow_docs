@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.1](/en/changelog/2026/10/2026.10.1) | Oct 1 | **Assign a stage in bulk** — places customers with no stage into the funnel, without flow, pixel, or history | [Customers](/en/guide/crm/customers#assign-stage-in-bulk) |
 | [v2026.9.15](/en/changelog/2026/09/2026.9.15) | Sep 28 | **Decision before the AI Agent** — JEV chooses whether the agent acts, switches agents, or does not reply | [Decision](/en/guide/ai-agents/decision-gate) |
 | [v2026.9.14](/en/changelog/2026/09/2026.9.14) | Sep 23 | **Copilot** — in-app assistant to read the screen and act with your permission | [Copilot](/en/guide/copilot) |
 | [v2026.9.13](/en/changelog/2026/09/2026.9.13) | Sep 23 | **Funnel scan** — reads the conversation, suggests the stage, and walks one organization at a time | [Scan](/en/guide/crm/funnel-scan) |
@@ -29,15 +30,13 @@ The **20 most recent releases** (newest first):
 | [v2026.8.24](/en/changelog/2026/08/2026.8.24) | Aug 27 | **System voices** — generate audio from text in the conversation | [System voices](/en/guide/chat/system-voices) |
 | [v2026.8.23](/en/changelog/2026/08/2026.8.23) | Aug 27 | **AI Agent on a message** — run the prompt without starting a flow | [AI Agents](/en/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/en/changelog/2026/08/2026.8.22) | Aug 27 | **One-off message on pending** — reply without taking over the conversation | [Settings](/en/guide/settings/#allow-message-without-attending) |
-| [v2026.8.21](/en/changelog/2026/08/2026.8.21) | Aug 27 | **Messages and customer data** — history limit and profile masking on the AI Agent | [AI Agents](/en/guide/ai-agents/#messages-and-customer-data) |
-
-[See all September releases →](/en/changelog/2026/09/)
+[See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse
 
 | Destination | Content |
 |-------------|---------|
-| [September 2026](/en/changelog/2026/09/) | Current month |
+| [October 2026](/en/changelog/2026/10/) | Current month |
 | [2026](/en/changelog/2026/) | All months this year |
 | [2025](/en/changelog/2025/) | Previous year |
 | [Roadmap](/en/changelog/roadmap) | What is planned next |

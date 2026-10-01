@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.1](/changelog/2026/10/2026.10.1) | 01/10 | **Atribuir estágio em massa** — coloca no funil clientes sem estágio, sem fluxo, pixel ou histórico | [Clientes](/guide/crm/customers#atribuir-estagio-em-massa) |
 | [v2026.9.15](/changelog/2026/09/2026.9.15) | 28/09 | **Decisão antes do Agente IA** — o JEV escolhe se o agente age, troca de agente ou não responde | [Decisão](/guide/ai-agents/decision-gate) |
 | [v2026.9.14](/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — assistente no app para consultar a tela e agir com a sua permissão | [Copiloto](/guide/copilot) |
 | [v2026.9.13](/changelog/2026/09/2026.9.13) | 23/09 | **Varredura de funil** — lê a conversa, sugere o estágio e percorre uma organização por vez | [Varredura](/guide/crm/funnel-scan) |
@@ -29,14 +30,13 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.8.24](/changelog/2026/08/2026.8.24) | 27/08 | **Vozes do sistema** — gerar áudio a partir do texto no atendimento | [Vozes do sistema](/guide/chat/system-voices) |
 | [v2026.8.23](/changelog/2026/08/2026.8.23) | 27/08 | **Agente IA na mensagem** — executar o prompt sem iniciar fluxo | [Agentes IA](/guide/ai-agents/run-on-message) |
 | [v2026.8.22](/changelog/2026/08/2026.8.22) | 27/08 | **Mensagem avulsa em pendente** — responder sem assumir o atendimento | [Configurações](/guide/settings/#permitir-mensagem-sem-atender) |
-| [v2026.8.21](/changelog/2026/08/2026.8.21) | 27/08 | **Mensagens e dados do cliente** — limite de histórico e máscara de cadastro no Agente IA | [Agentes IA](/guide/ai-agents/#mensagens-e-dados-do-cliente) |
-[Ver todas as releases de setembro →](/changelog/2026/09/)
+[Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar
 
 | Destino | Conteúdo |
 |---------|----------|
-| [Setembro 2026](/changelog/2026/09/) | Mês atual |
+| [Outubro 2026](/changelog/2026/10/) | Mês atual |
 | [2026](/changelog/2026/) | Todos os meses do ano |
 | [2025](/changelog/2025/) | Histórico do ano anterior |
 | [Roadmap](/changelog/roadmap) | O que está planejado |
