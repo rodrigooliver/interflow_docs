@@ -27,7 +27,6 @@ This roadmap is updated regularly and may change based on product priorities.
 | Filter customers by last conversation status | Aug 2026 | Filter customers by last conversation status (waiting, in progress) or with no conversation. |
 | Disable immediate flow on official API channels in Meta forms | Aug 2026 | Block immediate flow start on official API channels, requiring an approved template for the first contact. |
 | Billing flow adjustments and default succumbency value | Aug 2026 | Avoid unwanted automatic billing creation, standardize charge names (COMPANY X DEBTOR), and keep succumbency at zero by default. |
-| Meet call button with customer notifications | Aug 2026 | Start a Google Meet call from the conversation and automatically send the join link to the customer. |
 | Fix contact number in “View customers” in UTM Tracking | Aug 2026 | Show the contact number for every customer in an ad’s customer list. |
 | Fix custom field ordering | Aug 2026 | Keep the user-defined order of custom fields after edits and page reloads. |
 | Custom order for Closure Types | Aug 2026 | Reorder closure types with drag and drop, and keep that order on every screen. |

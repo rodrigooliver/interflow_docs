@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Google Meet en la cita** — genera la reunión, guarda el enlace y lo envía en la conversación del cliente | [Agenda](/es/guide/schedule/#google-meet) |
 | [v2026.10.4](/es/changelog/2026/10/2026.10.4) | 01/10 | **Editar y eliminar en el chat interno** — el autor corrige el texto o borra el mensaje para todo el equipo | [Chat interno](/es/guide/chat/interface#chat-interno-comunicacion-entre-agentes) |
 | [v2026.10.3](/es/changelog/2026/10/2026.10.3) | 01/10 | **Descripción predeterminada de la categoría** — al crear el movimiento, la descripción viene de la categoría y se puede editar | [Financiero](/es/guide/financial/#categorias) |
 | [v2026.10.2](/es/changelog/2026/10/2026.10.2) | 01/10 | **Etapa en la importación** — la planilla coloca al cliente en la etapa por el nombre, en el embudo elegido | [Clientes](/es/guide/crm/customers#etapa-en-la-planilla) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.9.3](/es/changelog/2026/09/2026.9.3) | 10/09 | **Ventana de 24h y plantillas en los flujos** — elección automática entre mensaje directo y plantilla aprobada | [Guía](/es/guide/flows/nodes/whatsapp-template) |
 | [v2026.9.2](/es/changelog/2026/09/2026.9.2) | 10/09 | **Menú por módulo y búsqueda** — workspaces en la barra y ⌘K / Ctrl+K | [Configuración](/es/guide/settings/#menu-y-busqueda) |
 | [v2026.9.1](/es/changelog/2026/09/2026.9.1) | 09/09 | **Canal WAHA desconectado** — push para owner y admins con el nombre y el número | [WAHA](/es/guide/channels/whatsapp-waha#reconexion) |
-| [v2026.8.25](/es/changelog/2026/08/2026.8.25) | 08/09 | **Contadores por equipo** — hasta 12 números en los filtros rápidos, visibles solo para quien los necesita | [Filtros](/es/guide/chat/filters#contadores-en-los-filtros-rapidos) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

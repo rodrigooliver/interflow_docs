@@ -126,6 +126,18 @@ When editing an appointment (one-off or recurring), the **Schedule** field lets 
 
 History, chat, and other appointment links remain intact.
 
+## Google Meet
+
+With Google Calendar connected in Settings, an appointment can have a Meet.
+
+1. On a saved booking, use **Create Meet** on the card or in the form
+2. The link stays on the appointment. The linked conversation receives the join message
+3. If the link already exists, the button resends the message. Without a conversation, the link stays saved so you can copy it
+4. On the schedule, **Create Google Meet when the appointment is created** makes the link for new bookings
+5. In message templates, `{{meet_link}}` inserts the Meet address
+
+Editing or rescheduling does not create another meeting.
+
 ## Automatic Reminders
 
 Configure automatic messages to remind customers of their appointments.

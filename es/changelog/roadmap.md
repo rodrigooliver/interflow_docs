@@ -27,7 +27,6 @@ Este roadmap se actualiza con regularidad y puede cambiar según las prioridades
 | Filtro de estado de la última conversación en la lista de clientes | Ago/2026 | Filtrar clientes por el estado de la última conversación (en espera, en atención) o sin atención. |
 | Desactivar flujo inmediato en canales oficiales del formulario Meta | Ago/2026 | Impedir el inicio de flujo inmediato en canales de API oficial, exigiendo una plantilla aprobada en el primer contacto. |
 | Ajustes en el flujo de cobros y sucumbencia por defecto | Ago/2026 | Evitar la creación automática indeseada de cobros, estandarizar el nombre (EMPRESA X DEUDOR) y mantener la sucumbencia en cero por defecto. |
-| Botón de llamadas Meet con notificación al cliente | Ago/2026 | Iniciar Google Meet desde la atención y enviar automáticamente el enlace de la llamada al cliente. |
 | Corregir el número de contacto en “Ver customers” de UTM Tracking | Ago/2026 | Mostrar el número de contacto de todos los clientes en el listado de un anuncio. |
 | Corregir el orden de los campos personalizados | Ago/2026 | Mantener el orden definido por el usuario después de ediciones y al recargar la página. |
 | Orden personalizado para Tipos de Cierre | Ago/2026 | Organizar los tipos de cierre arrastrando y soltando, con el orden respetado en todas las pantallas. |

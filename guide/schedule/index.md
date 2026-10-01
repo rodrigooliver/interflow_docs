@@ -136,6 +136,18 @@ Fisioterapia - João Silva
    → Sistema cria automaticamente 12 agendamentos
 ```
 
+## Google Meet
+
+Com o Google Calendar conectado em Configurações, o agendamento pode ter uma reunião do Meet.
+
+1. No horário já salvo, use **Gerar Meet** no card ou no formulário
+2. O link fica no agendamento. A conversa ligada ao horário recebe a mensagem com o acesso
+3. Se o link já existir, o botão reenvia a mensagem. Sem conversa, o link continua salvo para copiar
+4. Na agenda, a opção **Gerar Google Meet ao criar o agendamento** cria o link sozinha nos horários novos
+5. Nos modelos de mensagem, `{{meet_link}}` coloca o endereço do Meet
+
+Editar ou reagendar não cria outra reunião.
+
 ## Lembretes Automáticos
 
 Configure mensagens automáticas para lembrar clientes de seus compromissos.

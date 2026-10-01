@@ -126,6 +126,18 @@ Al editar una cita (única o recurrente), el campo **Agenda** permite transferir
 
 Historial, chat y demás vínculos de la cita se mantienen intactos.
 
+## Google Meet
+
+Con Google Calendar conectado en Configuración, la cita puede tener una reunión de Meet.
+
+1. En el horario ya guardado, usa **Generar Meet** en la tarjeta o en el formulario
+2. El enlace queda en la cita. La conversación vinculada recibe el mensaje de acceso
+3. Si el enlace ya existe, el botón reenvía el mensaje. Sin conversación, el enlace sigue guardado para copiarlo
+4. En la agenda, **Generar Google Meet al crear la cita** crea el enlace sola en los horarios nuevos
+5. En las plantillas de mensaje, `{{meet_link}}` coloca la dirección del Meet
+
+Editar o reprogramar no crea otra reunión.
+
 ## Recordatorios Automáticos
 
 Configura mensajes automáticos para recordar a los clientes sus citas.
