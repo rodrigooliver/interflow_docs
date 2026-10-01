@@ -6,7 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| [2026.10.5](/en/changelog/2026/10/2026.10.5) | 10/01 | **Google Meet on the appointment** — creates the meeting, saves the link, and sends it in the customer conversation |
+| [2026.10.5](/en/changelog/2026/10/2026.10.5) | 10/01 | **Meeting link on the appointment** — menu for Meet, Zoom, or Teams, with save-only |
 | [2026.10.4](/en/changelog/2026/10/2026.10.4) | 10/01 | **Edit and delete in internal chat** — the author fixes the text or deletes the message for the whole team |
 | [2026.10.3](/en/changelog/2026/10/2026.10.3) | 10/01 | **Default category description** — a new entry gets the category text and stays editable |
 | [2026.10.2](/en/changelog/2026/10/2026.10.2) | 10/01 | **Stage on import** — the spreadsheet places the customer on the stage by name, in the chosen funnel |
@@ -17,7 +17,7 @@ Updates for October 2026.
 ## Month summary
 
 ### New Features (5)
-- **Google Meet on the appointment** (v2026.10.5) — creates the meeting, saves the link, and sends it in the customer conversation
+- **Meeting link on the appointment** (v2026.10.5) — menu for Meet, Zoom, or Teams, with save-only
 - **Edit and delete in internal chat** (v2026.10.4) — the author fixes the text or deletes the message for the whole team
 - **Default category description** (v2026.10.3) — a new entry inherits the category text and stays editable
 - **Stage on import** (v2026.10.2) — the `stage` column uses the stage name in the chosen funnel

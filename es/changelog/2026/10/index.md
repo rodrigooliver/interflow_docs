@@ -6,7 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
-| [2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Google Meet en la cita** — genera la reunión, guarda el enlace y lo envía en la conversación del cliente |
+| [2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Enlace de la reunión en la cita** — menú para Meet, Zoom o Teams, con opción de solo guardar |
 | [2026.10.4](/es/changelog/2026/10/2026.10.4) | 01/10 | **Editar y eliminar en el chat interno** — el autor corrige el texto o borra el mensaje para todo el equipo |
 | [2026.10.3](/es/changelog/2026/10/2026.10.3) | 01/10 | **Descripción predeterminada de la categoría** — al crear el movimiento, la descripción viene de la categoría y se puede editar |
 | [2026.10.2](/es/changelog/2026/10/2026.10.2) | 01/10 | **Etapa en la importación** — la planilla coloca al cliente en la etapa por el nombre, en el embudo elegido |
@@ -17,7 +17,7 @@ Actualizaciones de octubre de 2026.
 ## Resumen del mes
 
 ### Nuevas Funcionalidades (5)
-- **Google Meet en la cita** (v2026.10.5) — genera la reunión, guarda el enlace y lo envía en la conversación del cliente
+- **Enlace de la reunión en la cita** (v2026.10.5) — menú para Meet, Zoom o Teams, con opción de solo guardar
 - **Editar y eliminar en el chat interno** (v2026.10.4) — el autor corrige el texto o borra el mensaje para todo el equipo
 - **Descripción predeterminada de la categoría** (v2026.10.3) — el movimiento nuevo hereda el texto de la categoría y se puede editar
 - **Etapa en la importación** (v2026.10.2) — la columna `stage` usa el nombre de la etapa del embudo elegido

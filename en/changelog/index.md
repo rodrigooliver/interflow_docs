@@ -10,7 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
-| [v2026.10.5](/en/changelog/2026/10/2026.10.5) | Oct 1 | **Google Meet on the appointment** — creates the meeting, saves the link, and sends it in the customer conversation | [Schedule](/en/guide/schedule/#google-meet) |
+| [v2026.10.5](/en/changelog/2026/10/2026.10.5) | Oct 1 | **Meeting link on the appointment** — menu for Meet, Zoom, or Teams, with save-only | [Schedule](/en/guide/schedule/#meeting-link) |
 | [v2026.10.4](/en/changelog/2026/10/2026.10.4) | Oct 1 | **Edit and delete in internal chat** — the author fixes the text or deletes the message for the whole team | [Internal chat](/en/guide/chat/interface#internal-chat-communication-between-agents) |
 | [v2026.10.3](/en/changelog/2026/10/2026.10.3) | Oct 1 | **Default category description** — a new entry gets the category text and stays editable | [Financial](/en/guide/financial/#categories) |
 | [v2026.10.2](/en/changelog/2026/10/2026.10.2) | Oct 1 | **Stage on import** — the spreadsheet places the customer on the stage by name, in the chosen funnel | [Customers](/en/guide/crm/customers#stage-in-the-spreadsheet) |

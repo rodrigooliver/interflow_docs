@@ -136,15 +136,16 @@ Fisioterapia - João Silva
    → Sistema cria automaticamente 12 agendamentos
 ```
 
-## Google Meet
+## Link da reunião
 
-Com o Google Calendar conectado em Configurações, o agendamento pode ter uma reunião do Meet.
+No agendamento salvo, **Gerar link da reunião** abre um menu.
 
-1. No horário já salvo, use **Gerar Meet** no card ou no formulário
-2. O link fica no agendamento. A conversa ligada ao horário recebe a mensagem com o acesso
-3. Se o link já existir, o botão reenvia a mensagem. Sem conversa, o link continua salvo para copiar
-4. Na agenda, a opção **Gerar Google Meet ao criar o agendamento** cria o link sozinha nos horários novos
-5. Nos modelos de mensagem, `{{meet_link}}` coloca o endereço do Meet
+1. Se a agenda tiver um Google Calendar escolhido em **Google Calendar desta agenda**, o item **Gerar Meet** cria a reunião nessa conta, grava o link e envia na conversa ligada ao horário
+2. Sem essa conta, o menu oferece Google Meet, Zoom, Teams ou outro. A ferramenta abre numa aba e o campo recebe a URL
+3. Depois de colar, escolha **Salvar e enviar** ou **Só salvar**
+4. Sem conversa ligada, o link continua salvo para copiar
+5. A opção **Gerar Google Meet ao criar o agendamento** só aparece com o Google Calendar da agenda selecionado
+6. Nos modelos de mensagem, `{{meet_link}}` coloca o endereço
 
 Editar ou reagendar não cria outra reunião.
 

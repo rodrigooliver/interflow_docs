@@ -10,7 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
-| [v2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Google Meet en la cita** — genera la reunión, guarda el enlace y lo envía en la conversación del cliente | [Agenda](/es/guide/schedule/#google-meet) |
+| [v2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Enlace de la reunión en la cita** — menú para Meet, Zoom o Teams, con opción de solo guardar | [Agenda](/es/guide/schedule/#enlace-de-la-reunion) |
 | [v2026.10.4](/es/changelog/2026/10/2026.10.4) | 01/10 | **Editar y eliminar en el chat interno** — el autor corrige el texto o borra el mensaje para todo el equipo | [Chat interno](/es/guide/chat/interface#chat-interno-comunicacion-entre-agentes) |
 | [v2026.10.3](/es/changelog/2026/10/2026.10.3) | 01/10 | **Descripción predeterminada de la categoría** — al crear el movimiento, la descripción viene de la categoría y se puede editar | [Financiero](/es/guide/financial/#categorias) |
 | [v2026.10.2](/es/changelog/2026/10/2026.10.2) | 01/10 | **Etapa en la importación** — la planilla coloca al cliente en la etapa por el nombre, en el embudo elegido | [Clientes](/es/guide/crm/customers#etapa-en-la-planilla) |

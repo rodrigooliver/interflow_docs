@@ -10,7 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
-| [v2026.10.5](/changelog/2026/10/2026.10.5) | 01/10 | **Google Meet no agendamento** — gera a reunião, salva o link e envia na conversa do cliente | [Agenda](/guide/schedule/#google-meet) |
+| [v2026.10.5](/changelog/2026/10/2026.10.5) | 01/10 | **Link da reunião no agendamento** — menu para Meet, Zoom ou Teams, com opção de só salvar | [Agenda](/guide/schedule/#link-da-reuniao) |
 | [v2026.10.4](/changelog/2026/10/2026.10.4) | 01/10 | **Editar e excluir no chat interno** — o autor corrige o texto ou apaga a mensagem para toda a equipe | [Chat interno](/guide/chat/interface#chat-interno-comunicacao-entre-agentes) |
 | [v2026.10.3](/changelog/2026/10/2026.10.3) | 01/10 | **Descrição padrão da categoria** — ao criar o lançamento, a descrição vem da categoria e continua editável | [Financeiro](/guide/financial/#categorias) |
 | [v2026.10.2](/changelog/2026/10/2026.10.2) | 01/10 | **Estágio na importação** — a planilha coloca o cliente no estágio pelo nome, no funil escolhido | [Clientes](/guide/crm/customers#estagio-na-planilha) |
