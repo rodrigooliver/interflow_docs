@@ -10,7 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
-| [v2026.10.8](/es/changelog/2026/10/2026.10.8) | 06/10 | **Mensajes de ausencia** — texto individual de la empresa y reglas por canal, estado, flujo y horario del día | [Ausencia](/es/guide/settings/away-messages) |
+| [v2026.10.8](/es/changelog/2026/10/2026.10.8) | 06/10 | **Mensajes de ausencia** — reglas por canal y horario; la eliminación por límite conserva a quien conversó hace poco | [Ausencia](/es/guide/settings/away-messages) |
 | [v2026.10.7](/es/changelog/2026/10/2026.10.7) | 06/10 | **Orden de los tipos de cierre** — arrastrar y soltar; la secuencia vale al cerrar, en el chat y en el flujo | [Tipos de cierre](/es/guide/chat/closure-types#orden) |
 | [v2026.10.6](/es/changelog/2026/10/2026.10.6) | 01/10 | **Estado de la última conversación** — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención | [Clientes](/es/guide/crm/customers#estado-de-la-ultima-conversacion) |
 | [v2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Enlace de la reunión en la cita** — menú para Meet, Zoom o Teams, con opción de solo guardar | [Agenda](/es/guide/schedule/#enlace-de-la-reunion) |

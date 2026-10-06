@@ -6,7 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
-| [2026.10.8](/es/changelog/2026/10/2026.10.8) | 06/10 | **Mensajes de ausencia** — texto individual de la empresa y reglas por canal, estado, flujo y horario del día |
+| [2026.10.8](/es/changelog/2026/10/2026.10.8) | 06/10 | **Mensajes de ausencia** — texto individual de la empresa y reglas por canal, estado, flujo y horario del día. La eliminación por límite conserva a quien conversó hace poco |
 | [2026.10.7](/es/changelog/2026/10/2026.10.7) | 06/10 | **Orden de los tipos de cierre** — arrastrar y soltar; la secuencia vale al cerrar, en el chat y en el flujo |
 | [2026.10.6](/es/changelog/2026/10/2026.10.6) | 01/10 | **Estado de la última conversación** — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención |
 | [2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Enlace de la reunión en la cita** — menú para Meet, Zoom o Teams, con opción de solo guardar |
@@ -28,3 +28,6 @@ Actualizaciones de octubre de 2026.
 - **Descripción predeterminada de la categoría** (v2026.10.3) — el movimiento nuevo hereda el texto de la categoría y se puede editar
 - **Etapa en la importación** (v2026.10.2) — la columna `stage` usa el nombre de la etapa del embudo elegido
 - **Asignar etapa en masa** (v2026.10.1) — el propietario y el administrador clasifican de una vez a quien todavía no tiene etapa
+
+### Mejoras (1)
+- **Eliminación automática de clientes** (v2026.10.8) — registro antiguo y sin conversación reciente; quien conversó hace poco permanece

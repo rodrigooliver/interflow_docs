@@ -10,7 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
-| [v2026.10.8](/en/changelog/2026/10/2026.10.8) | Oct 6 | **Away messages** — company default for agents and rules by channel, status, flow, and weekday hours | [Away messages](/en/guide/settings/away-messages) |
+| [v2026.10.8](/en/changelog/2026/10/2026.10.8) | Oct 6 | **Away messages** — rules by channel and hours; plan-limit deletion keeps anyone who chatted recently | [Away messages](/en/guide/settings/away-messages) |
 | [v2026.10.7](/en/changelog/2026/10/2026.10.7) | Oct 6 | **Closure type order** — drag and drop; the sequence applies when closing, in chat, and in the flow | [Closure types](/en/guide/chat/closure-types#order) |
 | [v2026.10.6](/en/changelog/2026/10/2026.10.6) | Oct 1 | **Last conversation status** — filter the list by waiting, in progress, finished, waiting to close, or no conversation | [Customers](/en/guide/crm/customers#last-conversation-status) |
 | [v2026.10.5](/en/changelog/2026/10/2026.10.5) | Oct 1 | **Meeting link on the appointment** — menu for Meet, Zoom, or Teams, with save-only | [Schedule](/en/guide/schedule/#meeting-link) |

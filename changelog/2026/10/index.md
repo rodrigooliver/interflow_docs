@@ -6,7 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
-| [2026.10.8](/changelog/2026/10/2026.10.8) | 06/10 | **Mensagens de ausência** — texto individual da empresa e regras por canal, status, fluxo e horário do dia |
+| [2026.10.8](/changelog/2026/10/2026.10.8) | 06/10 | **Mensagens de ausência** — texto individual da empresa e regras por canal, status, fluxo e horário do dia. A exclusão por limite preserva quem conversou há pouco |
 | [2026.10.7](/changelog/2026/10/2026.10.7) | 06/10 | **Ordem dos tipos de encerramento** — arraste e solte; a sequência vale no fechamento, no chat e no fluxo |
 | [2026.10.6](/changelog/2026/10/2026.10.6) | 01/10 | **Status da última conversa** — filtra a lista por aguardando, em atendimento, finalizado, ag. fechamento ou sem atendimento |
 | [2026.10.5](/changelog/2026/10/2026.10.5) | 01/10 | **Link da reunião no agendamento** — menu para Meet, Zoom ou Teams, com opção de só salvar |
@@ -28,3 +28,6 @@ Atualizações do mês de outubro de 2026.
 - **Descrição padrão da categoria** (v2026.10.3) — o lançamento novo herda o texto da categoria e continua editável
 - **Estágio na importação** (v2026.10.2) — a coluna `stage` usa o nome do estágio do funil escolhido
 - **Atribuir estágio em massa** (v2026.10.1) — proprietário e administrador classificam de uma vez quem ainda não tem estágio
+
+### Melhorias (1)
+- **Exclusão automática de clientes** (v2026.10.8) — cadastro antigo e sem conversa recente; quem conversou há pouco permanece

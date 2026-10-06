@@ -6,7 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
-| [2026.10.8](/en/changelog/2026/10/2026.10.8) | 10/06 | **Away messages** — company default for agents and rules by channel, status, flow, and weekday hours |
+| [2026.10.8](/en/changelog/2026/10/2026.10.8) | 10/06 | **Away messages** — company default for agents and rules by channel, status, flow, and weekday hours. Plan-limit deletion keeps anyone who chatted recently |
 | [2026.10.7](/en/changelog/2026/10/2026.10.7) | 10/06 | **Closure type order** — drag and drop; the sequence applies when closing, in chat, and in the flow |
 | [2026.10.6](/en/changelog/2026/10/2026.10.6) | 10/01 | **Last conversation status** — filter the list by waiting, in progress, finished, waiting to close, or no conversation |
 | [2026.10.5](/en/changelog/2026/10/2026.10.5) | 10/01 | **Meeting link on the appointment** — menu for Meet, Zoom, or Teams, with save-only |
@@ -28,3 +28,6 @@ Updates for October 2026.
 - **Default category description** (v2026.10.3) — a new entry inherits the category text and stays editable
 - **Stage on import** (v2026.10.2) — the `stage` column uses the stage name in the chosen funnel
 - **Assign a stage in bulk** (v2026.10.1) — owners and admins classify at once people who still have no stage
+
+### Improvements (1)
+- **Automatic customer deletion** (v2026.10.8) — old registration and no recent conversation; anyone who chatted recently stays

@@ -23,7 +23,6 @@ Este roadmap se actualiza con regularidad y puede cambiar según las prioridades
 | Descripción automática al seleccionar categoría financiera | Ago/2026 | Completar la descripción del asiento con el texto predeterminado de la categoría, aún editable por el usuario. |
 | Eliminación y edición de permisos de operadores en caja | Ago/2026 | Quitar operadores de la caja y ajustar los permisos de quienes ya están vinculados. |
 | Miembros de grupos externos en orden alfabético | Ago/2026 | Mostrar los participantes de grupos externos en orden alfabético por nombre. |
-| Eliminación automática de clientes según la última interacción | Ago/2026 | Considerar registro antiguo e inactividad reciente en la eliminación por límite del plan, preservando a quienes aún conversan con la empresa. |
 | Desactivar flujo inmediato en canales oficiales del formulario Meta | Ago/2026 | Impedir el inicio de flujo inmediato en canales de API oficial, exigiendo una plantilla aprobada en el primer contacto. |
 | Ajustes en el flujo de cobros y sucumbencia por defecto | Ago/2026 | Evitar la creación automática indeseada de cobros, estandarizar el nombre (EMPRESA X DEUDOR) y mantener la sucumbencia en cero por defecto. |
 | Corregir el número de contacto en “Ver customers” de UTM Tracking | Ago/2026 | Mostrar el número de contacto de todos los clientes en el listado de un anuncio. |
