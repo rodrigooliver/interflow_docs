@@ -109,6 +109,19 @@ La organización puede restringir si el agente elige equipo o solo envía a la r
 
 ---
 
+## Precio de venta predeterminado
+
+En el panel del canal, **Precio de venta predeterminado** define el **Precio de venta** de los clientes nuevos creados por ese canal.
+
+- Vale para mensaje recibido, conversación iniciada y leads de Facebook, Instagram y WAHA
+- El cliente que ya existe no cambia
+- El registro manual en el CRM, sin canal, no usa este valor
+- El campo vacío no aplica precio. Después de creado, el precio sigue editable en el cliente
+
+> Changelog: [v2026.10.8](/es/changelog/2026/10/2026.10.8)
+
+---
+
 ## Visibilidad al iniciar conversación
 
 Define **quién puede usar cada canal** al iniciar una nueva conversación con un cliente (todos, por perfil, por usuarios o por equipo). Los canales auxiliares no entran en esa lista.

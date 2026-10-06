@@ -6,7 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
-| [2026.10.8](/es/changelog/2026/10/2026.10.8) | 06/10 | **Mensajes de ausencia** — texto individual de la empresa y reglas por canal, estado, flujo y horario del día. La eliminación por límite conserva a quien conversó hace poco |
+| [2026.10.8](/es/changelog/2026/10/2026.10.8) | 06/10 | **Mensajes de ausencia** — texto individual de la empresa y reglas por canal, estado, flujo y horario del día. Precio de venta predeterminado por canal. La eliminación por límite conserva a quien conversó hace poco |
 | [2026.10.7](/es/changelog/2026/10/2026.10.7) | 06/10 | **Orden de los tipos de cierre** — arrastrar y soltar; la secuencia vale al cerrar, en el chat y en el flujo |
 | [2026.10.6](/es/changelog/2026/10/2026.10.6) | 01/10 | **Estado de la última conversación** — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención |
 | [2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Enlace de la reunión en la cita** — menú para Meet, Zoom o Teams, con opción de solo guardar |
@@ -19,8 +19,9 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (8)
+### Nuevas Funcionalidades (9)
 - **Mensajes de ausencia** (v2026.10.8) — texto individual de la empresa y reglas por canal, estado, flujo y horario del día
+- **Precio de venta predeterminado del canal** (v2026.10.8) — el cliente nuevo creado por el canal nace con el precio definido en él
 - **Orden de los tipos de cierre** (v2026.10.7) — arrastrar y soltar; la secuencia vale al cerrar, en el chat y en el flujo
 - **Estado de la última conversación** (v2026.10.6) — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención
 - **Enlace de la reunión en la cita** (v2026.10.5) — menú para Meet, Zoom o Teams, con opción de solo guardar

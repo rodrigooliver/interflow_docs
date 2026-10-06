@@ -109,6 +109,19 @@ A organização pode restringir se o atendente escolhe equipe ou só envia ao ro
 
 ---
 
+## Preço de venda padrão
+
+No painel do canal, o campo **Preço de venda padrão** define o valor de **Preço de Vendas** dos clientes novos criados por esse canal.
+
+- Vale para mensagem recebida, conversa iniciada e leads de Facebook, Instagram e WAHA
+- Cliente que já existe não muda
+- Cadastro manual no CRM, sem canal, não usa esse valor
+- Campo vazio não aplica preço. Depois de criado, o preço continua editável no cliente
+
+> Changelog: [v2026.10.8](/changelog/2026/10/2026.10.8)
+
+---
+
 ## Visibilidade ao iniciar conversa
 
 Defina **quem pode usar cada canal** ao iniciar uma nova conversa com um cliente (todos, por perfil, por usuários ou por equipe). Canais auxiliares não entram nessa lista.

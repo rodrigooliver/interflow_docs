@@ -27,7 +27,6 @@ Este roadmap se actualiza con regularidad y puede cambiar según las prioridades
 | Ajustes en el flujo de cobros y sucumbencia por defecto | Ago/2026 | Evitar la creación automática indeseada de cobros, estandarizar el nombre (EMPRESA X DEUDOR) y mantener la sucumbencia en cero por defecto. |
 | Corregir el número de contacto en “Ver customers” de UTM Tracking | Ago/2026 | Mostrar el número de contacto de todos los clientes en el listado de un anuncio. |
 | Corregir el orden de los campos personalizados | Ago/2026 | Mantener el orden definido por el usuario después de ediciones y al recargar la página. |
-| Precio de compra predeterminado para nuevos clientes | Sep/2026 | Definir un precio de compra predeterminado aplicado automáticamente al registrar nuevos clientes. |
 | Eliminación masiva de mensajes en una conversación | Sep/2026 | Seleccionar varios mensajes y eliminarlos de una sola vez. |
 | Mapeo de campos personalizados del Pixel a UTM Tracking | Sep/2026 | Vincular datos de UTM del Pixel a campos personalizados del CRM para rastrear el origen de las campañas. |
 | Control y gestión de marcaciones en RR. HH. / Reloj de punto | Sep/2026 | Bloquear marcaciones duplicadas, configurar horarios e intervalos, ajustar el estado del día y dar al empleado una visión clara de su jornada. |

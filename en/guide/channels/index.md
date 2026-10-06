@@ -109,6 +109,19 @@ The organization can decide whether agents may pick a team or can only send to r
 
 ---
 
+## Default sale price
+
+In the channel panel, **Default sale price** sets the **Sale price** of new customers created from that channel.
+
+- It applies to inbound messages, started conversations, and Facebook, Instagram, and WAHA leads
+- An existing customer is not changed
+- Manual CRM registration, with no channel, does not use this value
+- An empty field applies no price. After creation, the price can still be edited on the customer
+
+> Changelog: [v2026.10.8](/en/changelog/2026/10/2026.10.8)
+
+---
+
 ## Visibility when starting a conversation
 
 Define **who can use each channel** when starting a new conversation with a customer (everyone, by role, specific users, or by team). Auxiliary channels are not included in that list.

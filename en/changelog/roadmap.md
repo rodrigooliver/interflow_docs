@@ -27,7 +27,6 @@ This roadmap is updated regularly and may change based on product priorities.
 | Billing flow adjustments and default succumbency value | Aug 2026 | Avoid unwanted automatic billing creation, standardize charge names (COMPANY X DEBTOR), and keep succumbency at zero by default. |
 | Fix contact number in “View customers” in UTM Tracking | Aug 2026 | Show the contact number for every customer in an ad’s customer list. |
 | Fix custom field ordering | Aug 2026 | Keep the user-defined order of custom fields after edits and page reloads. |
-| Default purchase price for new customers | Sep 2026 | Set a default purchase price applied automatically when new customers are created. |
 | Bulk delete messages in a conversation | Sep 2026 | Select multiple messages and delete them at once. |
 | Map Pixel custom fields to UTM Tracking | Sep 2026 | Link Pixel UTM data to CRM custom fields to track campaign origin. |
 | Better time-clock control in HR / Time tracking | Sep 2026 | Block duplicate punches, configure hours and breaks, adjust day status, and show employees a clear view of their workday. |
