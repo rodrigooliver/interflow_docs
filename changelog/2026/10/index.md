@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.8](/changelog/2026/10/2026.10.8) | 06/10 | **Mensagens de ausência** — texto individual da empresa e regras por canal, status, fluxo e horário do dia |
 | [2026.10.7](/changelog/2026/10/2026.10.7) | 06/10 | **Ordem dos tipos de encerramento** — arraste e solte; a sequência vale no fechamento, no chat e no fluxo |
 | [2026.10.6](/changelog/2026/10/2026.10.6) | 01/10 | **Status da última conversa** — filtra a lista por aguardando, em atendimento, finalizado, ag. fechamento ou sem atendimento |
 | [2026.10.5](/changelog/2026/10/2026.10.5) | 01/10 | **Link da reunião no agendamento** — menu para Meet, Zoom ou Teams, com opção de só salvar |
@@ -18,7 +19,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (7)
+### Novas Funcionalidades (8)
+- **Mensagens de ausência** (v2026.10.8) — texto individual da empresa e regras por canal, status, fluxo e horário do dia
 - **Ordem dos tipos de encerramento** (v2026.10.7) — arraste e solte; a sequência vale no fechamento, no chat e no fluxo
 - **Status da última conversa** (v2026.10.6) — filtra a lista por aguardando, em atendimento, finalizado, ag. fechamento ou sem atendimento
 - **Link da reunião no agendamento** (v2026.10.5) — menu para Meet, Zoom ou Teams, com opção de só salvar

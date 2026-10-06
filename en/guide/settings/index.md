@@ -24,6 +24,12 @@ To find a screen or a setting:
 3. In CRM and Customers, if you can see everyone, search offers **mine** and **all**
 4. Items inside pages (e.g. optional agent signature) open the screen and scroll to the block
 
+## Away messages
+
+Under **Away messages**, the company sets the default text for an offline agent and company rules by channel, status, flow, and each day's hours.
+
+> Guide: [Away messages](/en/guide/settings/away-messages)
+
 > Changelog: [v2026.9.2](/en/changelog/2026/09/2026.9.2)
 
 ## General Settings

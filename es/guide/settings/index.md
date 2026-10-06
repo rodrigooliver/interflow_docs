@@ -24,6 +24,12 @@ Para encontrar una pantalla o una opción:
 3. En CRM y Clientes, si puedes ver todos, la búsqueda ofrece **los míos** y **todos**
 4. Ítems dentro de las páginas (ej.: firma opcional del agente) abren la pantalla y van al bloque
 
+## Mensajes de ausencia
+
+En **Mensajes de ausencia**, la empresa define el texto predeterminado del agente offline y las reglas generales por canal, estado, flujo y horario de cada día.
+
+> Guía: [Mensajes de ausencia](/es/guide/settings/away-messages)
+
 > Changelog: [v2026.9.2](/es/changelog/2026/09/2026.9.2)
 
 ## Configuraciones Generales

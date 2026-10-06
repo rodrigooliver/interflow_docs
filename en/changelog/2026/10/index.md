@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.8](/en/changelog/2026/10/2026.10.8) | 10/06 | **Away messages** — company default for agents and rules by channel, status, flow, and weekday hours |
 | [2026.10.7](/en/changelog/2026/10/2026.10.7) | 10/06 | **Closure type order** — drag and drop; the sequence applies when closing, in chat, and in the flow |
 | [2026.10.6](/en/changelog/2026/10/2026.10.6) | 10/01 | **Last conversation status** — filter the list by waiting, in progress, finished, waiting to close, or no conversation |
 | [2026.10.5](/en/changelog/2026/10/2026.10.5) | 10/01 | **Meeting link on the appointment** — menu for Meet, Zoom, or Teams, with save-only |
@@ -18,7 +19,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (7)
+### New Features (8)
+- **Away messages** (v2026.10.8) — company default for agents and rules by channel, status, flow, and weekday hours
 - **Closure type order** (v2026.10.7) — drag and drop; the sequence applies when closing, in chat, and in the flow
 - **Last conversation status** (v2026.10.6) — filter the list by waiting, in progress, finished, waiting to close, or no conversation
 - **Meeting link on the appointment** (v2026.10.5) — menu for Meet, Zoom, or Teams, with save-only

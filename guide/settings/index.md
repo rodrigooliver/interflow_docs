@@ -24,6 +24,12 @@ Para achar uma tela ou uma opção de configuração:
 3. Em CRM e Clientes, se você puder ver todos, a busca oferece **os que atendo** e **todos**
 4. Itens de dentro das páginas (ex.: assinatura opcional do atendente) abrem a tela e rolam até o bloco
 
+## Mensagens de ausência
+
+Em **Mensagens de ausência**, a empresa define o texto padrão do atendente offline e as regras gerais por canal, status, fluxo e horário de cada dia.
+
+> Guia: [Mensagens de ausência](/guide/settings/away-messages)
+
 > Changelog: [v2026.9.2](/changelog/2026/09/2026.9.2)
 
 ## Configurações Gerais
