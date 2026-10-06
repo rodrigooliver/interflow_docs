@@ -2,7 +2,7 @@
 
 Generate audio from text in the conversation, using the organization’s saved voices.
 
-> Changelog: [v2026.8.24](/en/changelog/2026/08/2026.8.24)
+> Changelog: [v2026.10.9](/en/changelog/2026/10/2026.10.9) · [v2026.8.24](/en/changelog/2026/08/2026.8.24)
 
 ## What it is for
 
@@ -20,6 +20,26 @@ Generate audio from text in the conversation, using the organization’s saved v
 | **Use on the AI Agent** | AI Agent → **Sending** tab → **Reply with audio** |
 
 The chat button only appears if there is at least one **active** voice and the channel accepts audio.
+
+## Interflow catalog
+
+**Voices** has two tabs:
+
+| Tab | What it does |
+|-----|----------------|
+| **Catalog** | Browse ElevenLabs voices: search, language, gender, age, and category. The provider sample does not spend credits |
+| **My voices** | Organization presets. Search and **New voice** live on this tab |
+
+**Use this voice** saves the preset under **My voices**, available in chat and on the AI Agent. The starting model is Flash v2.5. The form shows each model’s price per 1K characters.
+
+Generating audio with a catalog voice spends **AI credits**:
+
+| Models | Price |
+|--------|--------|
+| Flash v2.5, v4 Turbo, and v3 Conversational | US$ 0.13 per 1K characters |
+| v4, v3, and Multilingual v2 | US$ 0.26 per 1K characters |
+
+Without balance, audio is not generated. Voices tied to your own integration still use that key and do not spend credits. MiniMax is not in the catalog yet.
 
 ## Prerequisite
 

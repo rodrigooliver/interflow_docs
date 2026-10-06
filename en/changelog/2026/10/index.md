@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.9](/en/changelog/2026/10/2026.10.9) | 10/06 | **Voice catalog** — ElevenLabs on the AI credit balance; Flash, Turbo, and v3 Conversational at US$ 0.13 per 1K characters |
 | [2026.10.8](/en/changelog/2026/10/2026.10.8) | 10/06 | **Away messages** — company default for agents and rules by channel, status, flow, and weekday hours. Default sale price per channel. Plan-limit deletion keeps anyone who chatted recently |
 | [2026.10.7](/en/changelog/2026/10/2026.10.7) | 10/06 | **Closure type order** — drag and drop; the sequence applies when closing, in chat, and in the flow |
 | [2026.10.6](/en/changelog/2026/10/2026.10.6) | 10/01 | **Last conversation status** — filter the list by waiting, in progress, finished, waiting to close, or no conversation |
@@ -19,7 +20,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (9)
+### New Features (10)
+- **Voice catalog** (v2026.10.9) — ElevenLabs on the AI credit balance
 - **Away messages** (v2026.10.8) — company default for agents and rules by channel, status, flow, and weekday hours
 - **Default sale price on the channel** (v2026.10.8) — a new customer created from the channel starts with the price set on it
 - **Closure type order** (v2026.10.7) — drag and drop; the sequence applies when closing, in chat, and in the flow

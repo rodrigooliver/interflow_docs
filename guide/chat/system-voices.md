@@ -2,7 +2,7 @@
 
 Gere áudio a partir do texto no atendimento, com vozes cadastradas da organização.
 
-> Changelog: [v2026.8.24](/changelog/2026/08/2026.8.24)
+> Changelog: [v2026.10.9](/changelog/2026/10/2026.10.9) · [v2026.8.24](/changelog/2026/08/2026.8.24)
 
 ## Para que serve
 
@@ -20,6 +20,26 @@ Gere áudio a partir do texto no atendimento, com vozes cadastradas da organiza�
 | **Usar no Agente IA** | Agente IA → aba **Envio** → **Responder com áudio** |
 
 O botão no chat só aparece se existir pelo menos uma voz **ativa** e o canal aceitar áudio.
+
+## Catálogo Interflow
+
+Em **Vozes** há duas abas:
+
+| Aba | O que faz |
+|-----|-----------|
+| **Catálogo** | Explora vozes da ElevenLabs: busca, idioma, gênero, idade e categoria. A amostra do provedor não debita créditos |
+| **Minhas vozes** | Presets da organização. A busca e **Nova voz** ficam nesta aba |
+
+**Usar esta voz** grava o preset em **Minhas vozes**, já disponível no chat e no Agente IA. O modelo inicial é o Flash v2.5. No formulário, cada modelo mostra o preço por 1K caracteres.
+
+Gerar áudio com voz do catálogo debita os **créditos de IA**:
+
+| Modelos | Preço |
+|---------|--------|
+| Flash v2.5, v4 Turbo e v3 Conversacional | US$ 0,13 por 1K caracteres |
+| v4, v3 e Multilingual v2 | US$ 0,26 por 1K caracteres |
+
+Sem saldo, o áudio não é gerado. Vozes ligadas a uma integração própria continuam na chave dessa integração, sem débito de créditos. O MiniMax do catálogo ainda não está disponível.
 
 ## Pré-requisito
 

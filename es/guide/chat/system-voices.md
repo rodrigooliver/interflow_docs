@@ -2,7 +2,7 @@
 
 Genere audio a partir del texto en la atención, con las voces registradas de la organización.
 
-> Changelog: [v2026.8.24](/es/changelog/2026/08/2026.8.24)
+> Changelog: [v2026.10.9](/es/changelog/2026/10/2026.10.9) · [v2026.8.24](/es/changelog/2026/08/2026.8.24)
 
 ## Para qué sirve
 
@@ -20,6 +20,26 @@ Genere audio a partir del texto en la atención, con las voces registradas de la
 | **Usar en el Agente IA** | Agente IA → pestaña **Envío** → **Responder con audio** |
 
 El botón del chat solo aparece si hay al menos una voz **activa** y el canal acepta audio.
+
+## Catálogo Interflow
+
+En **Voces** hay dos pestañas:
+
+| Pestaña | Qué hace |
+|---------|----------|
+| **Catálogo** | Explora voces de ElevenLabs: búsqueda, idioma, género, edad y categoría. La muestra del proveedor no descuenta créditos |
+| **Mis voces** | Presets de la organización. La búsqueda y **Nueva voz** están en esta pestaña |
+
+**Usar esta voz** guarda el preset en **Mis voces**, disponible en el chat y en el Agente IA. El modelo inicial es Flash v2.5. En el formulario, cada modelo muestra el precio por 1K caracteres.
+
+Generar audio con una voz del catálogo descuenta los **créditos de IA**:
+
+| Modelos | Precio |
+|---------|--------|
+| Flash v2.5, v4 Turbo y v3 Conversacional | US$ 0,13 por 1K caracteres |
+| v4, v3 y Multilingual v2 | US$ 0,26 por 1K caracteres |
+
+Sin saldo, el audio no se genera. Las voces ligadas a una integración propia siguen en esa clave, sin débito. MiniMax todavía no está en el catálogo.
 
 ## Requisito previo
 
