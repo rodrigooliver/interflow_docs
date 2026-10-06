@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.7](/en/changelog/2026/10/2026.10.7) | Oct 6 | **Closure type order** — drag and drop; the sequence applies when closing, in chat, and in the flow | [Closure types](/en/guide/chat/closure-types#order) |
 | [v2026.10.6](/en/changelog/2026/10/2026.10.6) | Oct 1 | **Last conversation status** — filter the list by waiting, in progress, finished, waiting to close, or no conversation | [Customers](/en/guide/crm/customers#last-conversation-status) |
 | [v2026.10.5](/en/changelog/2026/10/2026.10.5) | Oct 1 | **Meeting link on the appointment** — menu for Meet, Zoom, or Teams, with save-only | [Schedule](/en/guide/schedule/#meeting-link) |
 | [v2026.10.4](/en/changelog/2026/10/2026.10.4) | Oct 1 | **Edit and delete in internal chat** — the author fixes the text or deletes the message for the whole team | [Internal chat](/en/guide/chat/interface#internal-chat-communication-between-agents) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.9.5](/en/changelog/2026/09/2026.9.5) | Sep 10 | **Audio on the AI Agent** — reply with a system voice, without TTS nodes | [AI Agents](/en/guide/ai-agents/#audio-replies) |
 | [v2026.9.4](/en/changelog/2026/09/2026.9.4) | Sep 10 | **List and day in columns** — by professional or schedule, with compact cards | [Schedule](/en/guide/schedule/#column-split) |
 | [v2026.9.3](/en/changelog/2026/09/2026.9.3) | Sep 10 | **24-hour window and templates in flows** — automatically choose between direct messages and approved templates | [Guide](/en/guide/flows/nodes/whatsapp-template) |
-| [v2026.9.2](/en/changelog/2026/09/2026.9.2) | Sep 10 | **Menu by module and search** — workspaces in the sidebar and ⌘K / Ctrl+K | [Settings](/en/guide/settings/#menu-and-search) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

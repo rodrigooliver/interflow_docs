@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.7](/es/changelog/2026/10/2026.10.7) | 06/10 | **Orden de los tipos de cierre** — arrastrar y soltar; la secuencia vale al cerrar, en el chat y en el flujo | [Tipos de cierre](/es/guide/chat/closure-types#orden) |
 | [v2026.10.6](/es/changelog/2026/10/2026.10.6) | 01/10 | **Estado de la última conversación** — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención | [Clientes](/es/guide/crm/customers#estado-de-la-ultima-conversacion) |
 | [v2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Enlace de la reunión en la cita** — menú para Meet, Zoom o Teams, con opción de solo guardar | [Agenda](/es/guide/schedule/#enlace-de-la-reunion) |
 | [v2026.10.4](/es/changelog/2026/10/2026.10.4) | 01/10 | **Editar y eliminar en el chat interno** — el autor corrige el texto o borra el mensaje para todo el equipo | [Chat interno](/es/guide/chat/interface#chat-interno-comunicacion-entre-agentes) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.9.5](/es/changelog/2026/09/2026.9.5) | 10/09 | **Audio en el Agente IA** — responder con voz del sistema, sin nodos de TTS | [Agentes IA](/es/guide/ai-agents/#respuesta-en-audio) |
 | [v2026.9.4](/es/changelog/2026/09/2026.9.4) | 10/09 | **Lista y día en columnas** — por profesional o agenda, con tarjetas compactas | [Agenda](/es/guide/schedule/#division-en-columnas) |
 | [v2026.9.3](/es/changelog/2026/09/2026.9.3) | 10/09 | **Ventana de 24h y plantillas en los flujos** — elección automática entre mensaje directo y plantilla aprobada | [Guía](/es/guide/flows/nodes/whatsapp-template) |
-| [v2026.9.2](/es/changelog/2026/09/2026.9.2) | 10/09 | **Menú por módulo y búsqueda** — workspaces en la barra y ⌘K / Ctrl+K | [Configuración](/es/guide/settings/#menu-y-busqueda) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

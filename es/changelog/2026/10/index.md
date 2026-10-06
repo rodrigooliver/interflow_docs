@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.7](/es/changelog/2026/10/2026.10.7) | 06/10 | **Orden de los tipos de cierre** — arrastrar y soltar; la secuencia vale al cerrar, en el chat y en el flujo |
 | [2026.10.6](/es/changelog/2026/10/2026.10.6) | 01/10 | **Estado de la última conversación** — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención |
 | [2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Enlace de la reunión en la cita** — menú para Meet, Zoom o Teams, con opción de solo guardar |
 | [2026.10.4](/es/changelog/2026/10/2026.10.4) | 01/10 | **Editar y eliminar en el chat interno** — el autor corrige el texto o borra el mensaje para todo el equipo |
@@ -17,7 +18,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (6)
+### Nuevas Funcionalidades (7)
+- **Orden de los tipos de cierre** (v2026.10.7) — arrastrar y soltar; la secuencia vale al cerrar, en el chat y en el flujo
 - **Estado de la última conversación** (v2026.10.6) — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención
 - **Enlace de la reunión en la cita** (v2026.10.5) — menú para Meet, Zoom o Teams, con opción de solo guardar
 - **Editar y eliminar en el chat interno** (v2026.10.4) — el autor corrige el texto o borra el mensaje para todo el equipo

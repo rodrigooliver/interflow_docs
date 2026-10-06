@@ -28,7 +28,6 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 | Ajustes no fluxo de cobranças e sucumbência padrão | Ago/2026 | Evitar criação automática indesejada de cobranças, padronizar o nome (EMPRESA X DEVEDOR) e manter sucumbência zerada por padrão. |
 | Corrigir número de contato em “Ver customers” no UTM Tracking | Ago/2026 | Exibir o número de contato de todos os clientes na listagem de um anúncio. |
 | Corrigir ordenação dos campos personalizados | Ago/2026 | Manter a ordem definida pelo usuário após edições e ao recarregar a página. |
-| Ordem personalizada para Tipos de Encerramento | Ago/2026 | Organizar os tipos de encerramento por arrastar e soltar, com a ordem respeitada em todas as telas. |
 | Preço de compra padrão para novos clientes | Set/2026 | Definir um preço de compra padrão aplicado automaticamente no cadastro de novos clientes. |
 | Exclusão em massa de mensagens em uma conversa | Set/2026 | Selecionar várias mensagens e excluí-las de uma só vez. |
 | Mapeamento de campos personalizados do Pixel para UTM Tracking | Set/2026 | Vincular dados de UTM do Pixel a campos personalizados do CRM para rastrear a origem das campanhas. |

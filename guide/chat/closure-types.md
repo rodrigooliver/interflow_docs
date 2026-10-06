@@ -21,6 +21,15 @@ Ao finalizar um chat, o atendente escolhe um **tipo de encerramento**. Isso:
 4. (Opcional) Vincule um fluxo `attendance_closure`
 5. Salve
 
+## Ordem
+
+A lista segue a ordem definida pelo administrador. Essa mesma sequência aparece ao fechar o atendimento, no chat e no nó de encerramento do fluxo.
+
+1. Na lista de tipos, segure a alça à esquerda do nome
+2. Arraste até a posição desejada e solte
+3. A ordem é gravada na hora. Um tipo novo entra no fim
+4. Limpe a pesquisa antes de reordenar: com o filtro ativo, o arraste fica pausado
+
 ::: tip Fluxo de encerramento
 Crie o fluxo antes em **Fluxos**, com tipo adequado a encerramento de atendimento, e depois selecione-o no tipo.
 :::
