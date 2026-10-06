@@ -2,7 +2,7 @@
 
 Workday control with time clock, workplaces (geofence), hour bank, calendar, absences, and managerial payroll.
 
-> Changelog: [v2026.8.3](/en/changelog/2026/08/2026.8.3) · [v2026.7.11](/en/changelog/2026/07/2026.7.11)
+> Changelog: [v2026.10.10](/en/changelog/2026/10/2026.10.10) · [v2026.8.3](/en/changelog/2026/08/2026.8.3) · [v2026.7.11](/en/changelog/2026/07/2026.7.11)
 
 ## Overview
 
@@ -173,6 +173,47 @@ Payroll in Interflow is **managerial** and does not replace official payroll / e
 | Off | No hours on that person’s schedule |
 | Holiday / No work | Organization calendar |
 | Medical certificate / Individual day off | Absence on the employee |
+
+## Punch control {#punch-control}
+
+Each day allows one **clock-in**, one **lunch out**, one **return**, and one **clock-out**. The pause button on the clock screen is **Lunch out**.
+
+The employee sees, for the same day:
+
+- time already worked
+- time left on the daily load
+- a forecast if they stay until the end of the schedule
+- the earliest expected clock-out
+
+### Rules in HR settings
+
+1. Open **HR / Time clock → Settings**
+2. Set the **earliest first punch**, the **minimum lunch break**, and the **latest clock-out**
+3. Enable **Require overtime approval** if a clock-out after the latest time needs an administrator
+4. Save
+
+The break stored on the employee wins over the organization value.
+
+A clock-out after the latest time **is recorded**. Overtime stays pending on the payroll preview until **Approve OT** or **Reject**. Without approval, payroll and the hour bank do not credit that overtime.
+
+### Day status
+
+On the payroll preview, an administrator picks the day status and a note:
+
+| Status | Effect |
+|--------|--------|
+| Justified absence, holiday, day off, time-clock waiver, medical certificate | No debit and no overtime |
+| Unjustified absence | Debits the day’s load |
+
+This status takes priority over the organization calendar and absences already on file.
+
+### Fix a punch
+
+1. Open **HR / Time clock → Punches**
+2. Open **Details**
+3. Enter a reason, change the time or type and save, or **delete** the punch
+
+Deleting it allows a new punch of that type on the same day. The change history stays on the detail.
 
 ## Push notifications
 

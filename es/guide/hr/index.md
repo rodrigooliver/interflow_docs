@@ -2,7 +2,7 @@
 
 Control de jornada con fichaje, locales (geofence), banco de horas, calendario, ausencias y nómina gerencial.
 
-> Changelog: [v2026.8.3](/es/changelog/2026/08/2026.8.3) · [v2026.7.11](/es/changelog/2026/07/2026.7.11)
+> Changelog: [v2026.10.10](/es/changelog/2026/10/2026.10.10) · [v2026.8.3](/es/changelog/2026/08/2026.8.3) · [v2026.7.11](/es/changelog/2026/07/2026.7.11)
 
 ## Visión general
 
@@ -173,6 +173,47 @@ La nómina en Interflow es **gerencial** y no sustituye la nómina oficial / eSo
 | Folga | Sin jornada en la escala de la persona |
 | Festivo / Sin expediente | Calendario de la organización |
 | Certificado / Libranza individual | Ausencia registrada en el colaborador |
+
+## Control de las marcaciones {#control-de-las-marcaciones}
+
+Cada día acepta una **entrada**, una **salida a almuerzo**, un **retorno** y una **salida**. El botón de pausa en la pantalla de fichaje se llama **Salida almuerzo**.
+
+El empleado ve, el mismo día:
+
+- tiempo ya trabajado
+- lo que falta de la carga
+- previsión del total si sigue hasta el fin de la jornada
+- horario mínimo de salida
+
+### Reglas en Ajustes de RRHH
+
+1. Abra **RRHH / Fichaje → Ajustes**
+2. Defina el **horario mínimo de la primera marcación**, el **intervalo mínimo de almuerzo** y el **horario máximo de la salida**
+3. Marque **Exigir autorización de la hora extra** si la salida después del horario máximo necesita un administrador
+4. Guarde
+
+El intervalo del colaborador prevalece sobre el de la organización.
+
+La salida fuera del horario máximo **se registra**. La hora extra queda pendiente en la vista previa de la nómina hasta **Aprobar HE** o **Rechazar**. Sin aprobación, la nómina y el banco de horas no acreditan esa extra.
+
+### Estado del día
+
+En la vista previa de la nómina, el administrador elige el estado del día y una observación:
+
+| Estado | Efecto |
+|--------|--------|
+| Falta justificada, festivo, libranza, dispensa de fichaje, certificado | No genera débito ni hora extra |
+| Falta sin justificativo | Debita la carga del día |
+
+Ese estado tiene prioridad sobre el calendario de la organización y las ausencias ya registradas.
+
+### Corregir una marcación
+
+1. Abra **RRHH / Fichaje → Marcaciones**
+2. Abra **Detalles**
+3. Informe el motivo, ajuste horario o tipo y guarde, o **elimine** la marcación
+
+La eliminación libera una nueva marcación de ese tipo el mismo día. El historial del cambio queda en el detalle.
 
 ## Notificaciones push
 

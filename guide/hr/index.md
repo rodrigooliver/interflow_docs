@@ -2,7 +2,7 @@
 
 Controle de jornada com cartão ponto, locais (geofence), banco de horas, calendário, ausências e folha gerencial.
 
-> Changelog: [v2026.8.3](/changelog/2026/08/2026.8.3) · [v2026.7.11](/changelog/2026/07/2026.7.11)
+> Changelog: [v2026.10.10](/changelog/2026/10/2026.10.10) · [v2026.8.3](/changelog/2026/08/2026.8.3) · [v2026.7.11](/changelog/2026/07/2026.7.11)
 
 ## Visão geral
 
@@ -173,6 +173,47 @@ A folha na Interflow é **gerencial** e não substitui folha oficial / eSocial.
 | Folga | Sem jornada na escala da pessoa |
 | Feriado / Sem expediente | Calendário da organização |
 | Atestado / Folga individual | Ausência cadastrada no colaborador |
+
+## Controle das marcações {#controle-das-marcacoes}
+
+Cada dia aceita uma **entrada**, uma **saída para almoço**, um **retorno** e uma **saída**. O botão de pausa na tela de bater ponto se chama **Saída almoço**.
+
+O funcionário vê, no mesmo dia:
+
+- tempo já trabalhado
+- quanto falta da carga
+- previsão do total se seguir até o fim da jornada
+- horário mínimo de saída
+
+### Regras em Configurações de RH
+
+1. Abra **RH / Ponto → Configurações**
+2. Defina o **horário mínimo da primeira batida**, o **intervalo mínimo de almoço** e o **horário máximo da saída**
+3. Marque **Exigir autorização da hora extra** se a saída depois do horário máximo precisar de um administrador
+4. Salve
+
+O intervalo cadastrado no colaborador prevalece sobre o da organização.
+
+A saída fora do horário máximo **é registrada**. A hora extra fica pendente na prévia da folha até **Aprovar HE** ou **Recusar**. Sem aprovação, folha e banco de horas não creditam esse extra.
+
+### Status do dia
+
+Na prévia da folha, o administrador escolhe o status do dia e uma observação:
+
+| Status | Efeito |
+|--------|--------|
+| Falta justificada, feriado, folga, dispensa de ponto, atestado | Não gera débito nem hora extra |
+| Falta sem justificativa | Debita a carga do dia |
+
+Esse status tem prioridade sobre o calendário da organização e as ausências já cadastradas.
+
+### Corrigir uma batida
+
+1. Abra **RH / Ponto → Batidas**
+2. Abra **Detalhes**
+3. Informe o motivo, ajuste horário ou tipo e salve, ou **exclua** a marcação
+
+A exclusão libera uma nova batida daquele tipo no mesmo dia. O histórico da alteração fica no detalhe.
 
 ## Notificações push
 

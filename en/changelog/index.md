@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.10](/en/changelog/2026/10/2026.10.10) | Oct 6 | **Punch control** — one punch of each type per day, day status, and overtime with approval | [Time clock](/en/guide/hr/#punch-control) |
 | [v2026.10.9](/en/changelog/2026/10/2026.10.9) | Oct 6 | **Voice catalog** — ElevenLabs on the AI credit balance | [Voices](/en/guide/chat/system-voices#interflow-catalog) |
 | [v2026.10.8](/en/changelog/2026/10/2026.10.8) | Oct 6 | **Away messages** — rules by channel and hours; default sale price per channel; plan-limit deletion keeps anyone who chatted recently | [Away messages](/en/guide/settings/away-messages) |
 | [v2026.10.7](/en/changelog/2026/10/2026.10.7) | Oct 6 | **Closure type order** — drag and drop; the sequence applies when closing, in chat, and in the flow | [Closure types](/en/guide/chat/closure-types#order) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.9.8](/en/changelog/2026/09/2026.9.8) | Sep 14 | **Exclude tags in bulk send** — skip people who asked to stop | [Bulk messages](/en/guide/chat/bulk-messages#exclude-tags) |
 | [v2026.9.7](/en/changelog/2026/09/2026.9.7) | Sep 10 | **Cost centers** — expenses by area, entry filtering, and CSV reporting | [Financial](/en/guide/financial/#cost-centers) |
 | [v2026.9.6](/en/changelog/2026/09/2026.9.6) | Sep 10 | **Financial reports** — cash flow, categories, and aging on cash registers you can access | [Financial](/en/guide/financial/#reports) |
-| [v2026.9.5](/en/changelog/2026/09/2026.9.5) | Sep 10 | **Audio on the AI Agent** — reply with a system voice, without TTS nodes | [AI Agents](/en/guide/ai-agents/#audio-replies) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

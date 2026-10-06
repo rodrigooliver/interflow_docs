@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.10](/es/changelog/2026/10/2026.10.10) | 06/10 | **Control de las marcaciones** — una marcación de cada tipo por día, estado del día y hora extra con autorización | [Fichaje](/es/guide/hr/#control-de-las-marcaciones) |
 | [v2026.10.9](/es/changelog/2026/10/2026.10.9) | 06/10 | **Catálogo de voces** — ElevenLabs en el saldo de créditos de IA | [Voces](/es/guide/chat/system-voices#catalogo-interflow) |
 | [v2026.10.8](/es/changelog/2026/10/2026.10.8) | 06/10 | **Mensajes de ausencia** — reglas por canal y horario; precio de venta predeterminado del canal; la eliminación por límite conserva a quien conversó hace poco | [Ausencia](/es/guide/settings/away-messages) |
 | [v2026.10.7](/es/changelog/2026/10/2026.10.7) | 06/10 | **Orden de los tipos de cierre** — arrastrar y soltar; la secuencia vale al cerrar, en el chat y en el flujo | [Tipos de cierre](/es/guide/chat/closure-types#orden) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.9.8](/es/changelog/2026/09/2026.9.8) | 14/09 | **Excluir etiquetas en el disparo** — no enviar a quien pidió parar | [Disparos masivos](/es/guide/chat/bulk-messages#excluir-etiquetas) |
 | [v2026.9.7](/es/changelog/2026/09/2026.9.7) | 10/09 | **Centros de coste** — gastos por área, filtro de movimientos e informe con CSV | [Financiero](/es/guide/financial/#centros-de-coste) |
 | [v2026.9.6](/es/changelog/2026/09/2026.9.6) | 10/09 | **Informes financieros** — flujo de caja, categorías y aging en las cajas con acceso | [Financiero](/es/guide/financial/#informes) |
-| [v2026.9.5](/es/changelog/2026/09/2026.9.5) | 10/09 | **Audio en el Agente IA** — responder con voz del sistema, sin nodos de TTS | [Agentes IA](/es/guide/ai-agents/#respuesta-en-audio) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

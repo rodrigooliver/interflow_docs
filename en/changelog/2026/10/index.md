@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.10](/en/changelog/2026/10/2026.10.10) | 10/06 | **Punch control** — one punch of each type per day, earliest and latest times, day status, and overtime with approval |
 | [2026.10.9](/en/changelog/2026/10/2026.10.9) | 10/06 | **Voice catalog** — ElevenLabs on the AI credit balance; Flash, Turbo, and v3 Conversational at US$ 0.13 per 1K characters |
 | [2026.10.8](/en/changelog/2026/10/2026.10.8) | 10/06 | **Away messages** — company default for agents and rules by channel, status, flow, and weekday hours. Default sale price per channel. Plan-limit deletion keeps anyone who chatted recently |
 | [2026.10.7](/en/changelog/2026/10/2026.10.7) | 10/06 | **Closure type order** — drag and drop; the sequence applies when closing, in chat, and in the flow |
@@ -20,7 +21,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (10)
+### New Features (11)
+- **Time clock punch control** (v2026.10.10) — one punch of each type per day, time rules, day status, and overtime with approval
 - **Voice catalog** (v2026.10.9) — ElevenLabs on the AI credit balance
 - **Away messages** (v2026.10.8) — company default for agents and rules by channel, status, flow, and weekday hours
 - **Default sale price on the channel** (v2026.10.8) — a new customer created from the channel starts with the price set on it

@@ -29,7 +29,6 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 | Corrigir ordenação dos campos personalizados | Ago/2026 | Manter a ordem definida pelo usuário após edições e ao recarregar a página. |
 | Exclusão em massa de mensagens em uma conversa | Set/2026 | Selecionar várias mensagens e excluí-las de uma só vez. |
 | Mapeamento de campos personalizados do Pixel para UTM Tracking | Set/2026 | Vincular dados de UTM do Pixel a campos personalizados do CRM para rastrear a origem das campanhas. |
-| Controle e gestão de marcações no RH/Ponto eletrônico | Set/2026 | Bloquear marcações duplicadas, configurar horários e intervalos, ajustar status do dia e dar ao funcionário visão clara da jornada. |
 | Confirmação ao mover cliente para estágio com evento UTM | Set/2026 | Pedir confirmação antes de mover um cliente para um estágio com evento UTM vinculado ao Facebook. |
 | Exibir tarefas ocultas no calendário do módulo Tarefas | Set/2026 | Mostrar todas as tarefas do dia na visualização de calendário, inclusive as que hoje ficam ocultas. |
 | Exportar dados do módulo Minhas Economias | Set/2026 | Exportar receitas, despesas e transações de Minhas Economias em Excel ou CSV. |

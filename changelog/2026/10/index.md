@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.10](/changelog/2026/10/2026.10.10) | 06/10 | **Controle das marcações** — uma batida de cada tipo por dia, horário mínimo e máximo, status do dia e hora extra com autorização |
 | [2026.10.9](/changelog/2026/10/2026.10.9) | 06/10 | **Catálogo de vozes** — ElevenLabs no saldo de créditos de IA; Flash, Turbo e v3 Conversacional a US$ 0,13 por 1K caracteres |
 | [2026.10.8](/changelog/2026/10/2026.10.8) | 06/10 | **Mensagens de ausência** — texto individual da empresa e regras por canal, status, fluxo e horário do dia. Preço de venda padrão por canal. A exclusão por limite preserva quem conversou há pouco |
 | [2026.10.7](/changelog/2026/10/2026.10.7) | 06/10 | **Ordem dos tipos de encerramento** — arraste e solte; a sequência vale no fechamento, no chat e no fluxo |
@@ -20,7 +21,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (10)
+### Novas Funcionalidades (11)
+- **Controle das marcações no ponto** (v2026.10.10) — uma batida de cada tipo por dia, regras de horário, status do dia e hora extra com autorização
 - **Catálogo de vozes** (v2026.10.9) — ElevenLabs no saldo de créditos de IA
 - **Mensagens de ausência** (v2026.10.8) — texto individual da empresa e regras por canal, status, fluxo e horário do dia
 - **Preço de venda padrão do canal** (v2026.10.8) — cliente novo criado pelo canal nasce com o preço definido nele
