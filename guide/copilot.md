@@ -62,6 +62,10 @@ Nome, e-mail ou WhatsApp da organização só mudam para superadmin.
 
 Se vários clientes tiverem o nome parecido, ele pergunta qual antes de abrir.
 
+## Ditar
+
+Ao lado de enviar, o microfone transforma a fala em texto no campo. O uso entra nos créditos de IA como transcrição e exige a integração ElevenLabs.
+
 ## Modelo e saldo
 
 No menu ao lado do modo dá para escolher:

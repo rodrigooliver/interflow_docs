@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.12](/en/changelog/2026/10/2026.10.12) | Oct 7 | **Dictate** — speech becomes text in chat and in the copilot | [Chat](/en/guide/chat/interface#dictate-turn-into-text) |
 | [v2026.10.11](/en/changelog/2026/10/2026.10.11) | Oct 6 | **Gemini** — conversation, reasoning, and voices, with your own key or AI credits | [Gemini](/en/guide/integrations/gemini) |
 | [v2026.10.10](/en/changelog/2026/10/2026.10.10) | Oct 6 | **Punch control** — one punch of each type per day, day status, and overtime with approval | [Time clock](/en/guide/hr/#punch-control) |
 | [v2026.10.9](/en/changelog/2026/10/2026.10.9) | Oct 6 | **Voice catalog** — ElevenLabs on the AI credit balance | [Voices](/en/guide/chat/system-voices#interflow-catalog) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.9.10](/en/changelog/2026/09/2026.9.10) | Sep 15 | **Receivables, payables, and posted entries** — open obligations, statement, and posting a payment | [Financial](/en/guide/financial/#receivables-and-payables) |
 | [v2026.9.9](/en/changelog/2026/09/2026.9.9) | Sep 15 | **Team-to-team rotation** — the channel picks the team; transfer or leave can send to the queue | [Teams](/en/guide/teams/#team-to-team-rotation) |
 | [v2026.9.8](/en/changelog/2026/09/2026.9.8) | Sep 14 | **Exclude tags in bulk send** — skip people who asked to stop | [Bulk messages](/en/guide/chat/bulk-messages#exclude-tags) |
-| [v2026.9.7](/en/changelog/2026/09/2026.9.7) | Sep 10 | **Cost centers** — expenses by area, entry filtering, and CSV reporting | [Financial](/en/guide/financial/#cost-centers) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

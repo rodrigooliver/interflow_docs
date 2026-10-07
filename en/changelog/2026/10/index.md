@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.12](/en/changelog/2026/10/2026.10.12) | 10/07 | **Dictate** — speech becomes text in chat and in the copilot; the audio recorder stays |
 | [2026.10.11](/en/changelog/2026/10/2026.10.11) | 10/06 | **Gemini** — conversation and voices, with your own key or AI credits; text test in the catalog and in My voices |
 | [2026.10.10](/en/changelog/2026/10/2026.10.10) | 10/06 | **Punch control** — one punch of each type per day, earliest and latest times, day status, and overtime with approval |
 | [2026.10.9](/en/changelog/2026/10/2026.10.9) | 10/06 | **Voice catalog** — ElevenLabs on the AI credit balance; Flash, Turbo, and v3 Conversational at US$ 0.13 per 1K characters |
@@ -22,7 +23,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (12)
+### New Features (13)
+- **Dictate** (v2026.10.12) — speech becomes text in the chat field and in the copilot; the audio recorder stays
 - **Gemini for conversation and voices** (v2026.10.11) — your own key or AI credits; reasoning level on the agent and copilot; text test in the catalog
 - **Time clock punch control** (v2026.10.10) — one punch of each type per day, time rules, day status, and overtime with approval
 - **Voice catalog** (v2026.10.9) — ElevenLabs on the AI credit balance

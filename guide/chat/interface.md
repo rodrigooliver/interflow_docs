@@ -113,6 +113,7 @@ Quando um cliente tem várias conversas ativas simultaneamente:
 - **Campo de texto** - Para digitar mensagens
 - **Anexos** - Enviar arquivos
 - **Gravar baseado em texto** - Transformar o texto digitado em áudio com as [vozes do sistema](/guide/chat/system-voices)
+- **Ditar (transformar em texto)** - A fala vira texto no campo, ao lado de enviar. O gravador de áudio continua separado. Exige ElevenLabs e créditos de IA.
 - **Emojis** - Seletor de emojis
 - **Respostas rápidas** - Atalhos de mensagem
 - **Comandos IA** - Atalhos para IA (Ctrl+J)
@@ -336,6 +337,12 @@ Atalhos com **várias mensagens** exibem um badge na listagem e abrem um **modal
 - Vídeos podem ser reproduzidos
 - Áudios têm player integrado
 - Documentos podem ser baixados
+
+### Ditar (transformar em texto)
+
+Ao lado de enviar, o botão de onda de voz escreve no campo o que você fala. Pare no stop, revise e envie como mensagem normal. O microfone de gravar áudio continua enviando arquivo de áudio.
+
+A organização precisa da integração ElevenLabs e de créditos de IA. O uso é cobrado como transcrição.
 
 ### Gravar baseado em texto
 

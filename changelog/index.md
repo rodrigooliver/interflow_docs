@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.12](/changelog/2026/10/2026.10.12) | 07/10 | **Ditar** — a fala vira texto no chat e no copiloto | [Chat](/guide/chat/interface#ditar-transformar-em-texto) |
 | [v2026.10.11](/changelog/2026/10/2026.10.11) | 06/10 | **Gemini** — conversa, raciocínio e vozes, com chave própria ou créditos de IA | [Gemini](/guide/integrations/gemini) |
 | [v2026.10.10](/changelog/2026/10/2026.10.10) | 06/10 | **Controle das marcações** — uma batida de cada tipo por dia, status do dia e hora extra com autorização | [Ponto](/guide/hr/#controle-das-marcacoes) |
 | [v2026.10.9](/changelog/2026/10/2026.10.9) | 06/10 | **Catálogo de vozes** — ElevenLabs no saldo de créditos de IA | [Vozes](/guide/chat/system-voices#catalogo-interflow) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.9.10](/changelog/2026/09/2026.9.10) | 15/09 | **A receber, a pagar e lançamentos** — obrigações em aberto, extrato e lançar pagamento | [Financeiro](/guide/financial/#a-receber-e-a-pagar) |
 | [v2026.9.9](/changelog/2026/09/2026.9.9) | 15/09 | **Rodízio entre equipes** — o canal sorteia o time; transferir ou sair pode mandar para a fila | [Equipes](/guide/teams/#rodizio-entre-equipes) |
 | [v2026.9.8](/changelog/2026/09/2026.9.8) | 14/09 | **Excluir tags no disparo** — não enviar para quem pediu para parar | [Disparos em massa](/guide/chat/bulk-messages#excluir-tags) |
-| [v2026.9.7](/changelog/2026/09/2026.9.7) | 10/09 | **Centros de custo** — despesas por área, filtro nos lançamentos e relatório com CSV | [Financeiro](/guide/financial/#centros-de-custo) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

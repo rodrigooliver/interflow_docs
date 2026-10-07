@@ -62,6 +62,10 @@ El nombre, el correo o el WhatsApp de la organización solo cambian para un supe
 
 Si varios clientes tienen un nombre parecido, pregunta cuál antes de abrir.
 
+## Dictar
+
+Junto a enviar, el micrófono convierte la voz en texto en el campo. El uso entra en los créditos de IA como transcripción y exige la integración ElevenLabs.
+
 ## Modelo y saldo
 
 En el menú junto al modo puedes elegir:

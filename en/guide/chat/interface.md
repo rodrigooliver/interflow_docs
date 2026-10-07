@@ -113,6 +113,7 @@ When a customer has multiple active conversations:
 - **Text field** - For typing messages
 - **Attachments** - Send files
 - **Record from text** - Turn typed text into audio with [system voices](/en/guide/chat/system-voices)
+- **Dictate (turn into text)** - Speech becomes text in the field, next to send. The audio recorder stays separate. Requires ElevenLabs and AI credits.
 - **Emojis** - Emoji selector
 - **Quick replies** - Message shortcuts
 - **AI Commands** - AI shortcuts (Ctrl+J)
@@ -329,6 +330,12 @@ Button only appears in WhatsApp channel chats (WAHA, W-API, Official WhatsApp).
 :::
 
 Configure in **Settings > Service > Quick WhatsApp Button**.
+
+## Dictate (turn into text)
+
+Next to send, the voice-wave button writes what you say into the field. Stop, review, and send it as a normal message. The microphone that records audio still sends an audio file.
+
+The organization needs the ElevenLabs integration and AI credits. Usage is billed as transcription.
 
 ## Internal Chat (Communication Between Agents)
 

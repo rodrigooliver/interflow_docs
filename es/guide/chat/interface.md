@@ -113,6 +113,7 @@ Cuando un cliente tiene múltiples conversaciones activas:
 - **Campo de texto** - Para escribir mensajes
 - **Adjuntos** - Enviar archivos
 - **Grabar desde texto** - Convertir el texto escrito en audio con las [voces del sistema](/es/guide/chat/system-voices)
+- **Dictar (convertir en texto)** - La voz se vuelve texto en el campo, junto a enviar. El grabador de audio sigue separado. Requiere ElevenLabs y créditos de IA.
 - **Emojis** - Selector de emojis
 - **Respuestas rápidas** - Atajos de mensajes
 - **Comandos IA** - Atajos de IA (Ctrl+J)
@@ -325,6 +326,12 @@ El botón solo aparece en chats de canales WhatsApp (WAHA, W-API, WhatsApp Ofici
 :::
 
 Configura en **Configuraciones > Atención > Botón de WhatsApp Rápido**.
+
+## Dictar (convertir en texto)
+
+Junto a enviar, el botón de onda de voz escribe en el campo lo que dices. Para en stop, revisa y envía como un mensaje normal. El micrófono que graba audio sigue enviando un archivo de audio.
+
+La organización necesita la integración ElevenLabs y créditos de IA. El uso se cobra como transcripción.
 
 ## Chat Interno (Comunicación entre Agentes)
 

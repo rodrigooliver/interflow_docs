@@ -62,6 +62,10 @@ Organization name, email, or WhatsApp change only for a superadmin.
 
 If several customers share a similar name, it asks which one before opening.
 
+## Dictate
+
+Next to send, the microphone turns speech into text in the field. Usage is billed on AI credits as transcription and requires the ElevenLabs integration.
+
 ## Model and balance
 
 In the menu next to the mode you can choose:

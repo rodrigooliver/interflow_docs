@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.12](/es/changelog/2026/10/2026.10.12) | 07/10 | **Dictar** — la voz se vuelve texto en el chat y en el copiloto; el grabador de audio sigue |
 | [2026.10.11](/es/changelog/2026/10/2026.10.11) | 06/10 | **Gemini** — conversación y voces, con clave propia o créditos de IA; prueba de texto en el catálogo y en Mis voces |
 | [2026.10.10](/es/changelog/2026/10/2026.10.10) | 06/10 | **Control de las marcaciones** — una marcación de cada tipo por día, horario mínimo y máximo, estado del día y hora extra con autorización |
 | [2026.10.9](/es/changelog/2026/10/2026.10.9) | 06/10 | **Catálogo de voces** — ElevenLabs en el saldo de créditos de IA; Flash, Turbo y v3 Conversacional a US$ 0,13 por 1K caracteres |
@@ -22,7 +23,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (12)
+### Nuevas Funcionalidades (13)
+- **Dictar** (v2026.10.12) — la voz se vuelve texto en el campo del chat y en el copiloto; el grabador de audio sigue
 - **Gemini en la conversación y en las voces** (v2026.10.11) — clave propia o créditos de IA; nivel de razonamiento en el agente y en el copiloto; prueba de texto en el catálogo
 - **Control de las marcaciones del fichaje** (v2026.10.10) — una marcación de cada tipo por día, reglas de horario, estado del día y hora extra con autorización
 - **Catálogo de voces** (v2026.10.9) — ElevenLabs en el saldo de créditos de IA
