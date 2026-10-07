@@ -36,7 +36,7 @@ A partir de 01/01/2027 o Google dobra o preço dos Flash 3.6, 3.7 e 3.8. Prompts
 
 ## Voz
 
-Em **Vozes** → **Catálogo** → **Gemini**, escolha o modelo (ou **Geral**, que usa o 2.5 Flash TTS) e clique em **Testar texto**. O campo já vem com uma frase; o áudio segue a voz e o modelo escolhidos e sai em MP3.
+Em **Vozes** → **Catálogo** → **Gemini**, clique em **Testar texto**. O campo já vem com uma frase e o modelo padrão (3.8 Flash-Lite TTS). Dá para trocar o modelo dentro do teste. O áudio sai em MP3.
 
 **Usar esta voz** grava o preset. Em **Minhas vozes** e no formulário, **Testar texto** repete o teste com as opções da voz. O mesmo modal existe na ElevenLabs.
 

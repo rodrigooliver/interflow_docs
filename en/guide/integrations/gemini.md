@@ -24,7 +24,7 @@ From January 1, 2027 Google doubles the price of Flash 3.6, 3.7, and 3.8. Pro pr
 
 ## Voice
 
-Under **Voices** → **Catalog** → **Gemini**, pick the model (or **General**, which uses 2.5 Flash TTS) and click **Test text**. The field is already filled in. The audio follows the voice and the chosen model and is saved as MP3.
+Under **Voices** → **Catalog** → **Gemini**, click **Test text**. The field is already filled in, with 3.8 Flash-Lite TTS as the default model. You can change the model inside the test. The audio is saved as MP3.
 
 **Use this voice** saves the preset. Under **My voices** and in the form, **Test text** repeats the test with that voice’s settings. The same dialog exists for ElevenLabs.
 

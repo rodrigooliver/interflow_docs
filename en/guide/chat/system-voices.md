@@ -43,7 +43,7 @@ Without balance, audio is not generated. Voices tied to your own integration sti
 
 ## Gemini
 
-On the **Gemini** tab, pick the model at the top. **General** uses Gemini 2.5 Flash TTS. **Test text** opens a field that is already filled in. The audio follows the card’s voice and the chosen model.
+On the **Gemini** tab, **Test text** opens the filled-in text and the model. You can change the model there before generating. The default is Gemini 3.8 Flash-Lite TTS, including when you add the voice.
 
 Under **My voices** and in the form, **Test text** uses the saved or in-progress model, voice, and other settings. The same test exists for ElevenLabs, OpenAI, and Minimax.
 

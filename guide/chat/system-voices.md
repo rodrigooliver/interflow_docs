@@ -43,7 +43,7 @@ Sem saldo, o áudio não é gerado. Vozes ligadas a uma integração própria co
 
 ## Gemini
 
-Na aba **Gemini**, escolha o modelo no topo. **Geral** usa o Gemini 2.5 Flash TTS. **Testar texto** abre um campo já preenchido; o áudio segue a voz do card e o modelo escolhido.
+Na aba **Gemini**, **Testar texto** abre o texto já preenchido e o modelo. Dá para trocar o modelo ali antes de gerar. O padrão é o Gemini 3.8 Flash-Lite TTS, também ao adicionar a voz.
 
 Em **Minhas vozes** e no formulário, **Testar texto** usa o modelo, a voz e as demais opções já salvas ou em edição. O mesmo teste existe para ElevenLabs, OpenAI e Minimax.
 
