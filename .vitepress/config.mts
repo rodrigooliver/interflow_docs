@@ -219,6 +219,7 @@ function getSidebar(lang: string = '') {
         items: [
           { text: 'OpenAI', link: `${prefix}/guide/integrations/openai` },
           { text: 'DeepSeek', link: `${prefix}/guide/integrations/deepseek` },
+          { text: 'Gemini', link: `${prefix}/guide/integrations/gemini` },
           { text: 'ElevenLabs', link: `${prefix}/guide/integrations/elevenlabs` },
           { text: 'Minimax', link: `${prefix}/guide/integrations/minimax` },
           { text: 'Firecrawl', link: `${prefix}/guide/integrations/firecrawl` },
@@ -387,6 +388,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/10/` },
+              { text: 'v2026.10.11', link: `${prefix}/changelog/2026/10/2026.10.11` },
               { text: 'v2026.10.10', link: `${prefix}/changelog/2026/10/2026.10.10` },
               { text: 'v2026.10.9', link: `${prefix}/changelog/2026/10/2026.10.9` },
               { text: 'v2026.10.8', link: `${prefix}/changelog/2026/10/2026.10.8` },

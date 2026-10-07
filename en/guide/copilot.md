@@ -66,7 +66,7 @@ If several customers share a similar name, it asks which one before opening.
 
 In the menu next to the mode you can choose:
 
-- The **model** (Interflow models, or DeepSeek when the organization has that integration)
+- The **model** (Interflow models, or DeepSeek and Gemini when the organization has that integration)
 - Reasoning effort: **Low**, **Medium**, or **High**
 - Who pays the call: **Interflow balance** or one of your integrations
 

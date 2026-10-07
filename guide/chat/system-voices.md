@@ -2,7 +2,7 @@
 
 Gere áudio a partir do texto no atendimento, com vozes cadastradas da organização.
 
-> Changelog: [v2026.10.9](/changelog/2026/10/2026.10.9) · [v2026.8.24](/changelog/2026/08/2026.8.24)
+> Changelog: [v2026.10.11](/changelog/2026/10/2026.10.11) · [v2026.10.9](/changelog/2026/10/2026.10.9) · [v2026.8.24](/changelog/2026/08/2026.8.24)
 
 ## Para que serve
 
@@ -27,7 +27,7 @@ Em **Vozes** há duas abas:
 
 | Aba | O que faz |
 |-----|-----------|
-| **Catálogo** | Explora vozes da ElevenLabs: busca, idioma, gênero, idade e categoria. A amostra do provedor não debita créditos |
+| **Catálogo** | ElevenLabs (busca, idioma, gênero, idade e categoria) e Gemini (30 vozes prontas e escolha do modelo). A amostra grátis da ElevenLabs não debita créditos. **Testar texto** gera um MP3 com as opções escolhidas e consome créditos |
 | **Minhas vozes** | Presets da organização. A busca e **Nova voz** ficam nesta aba |
 
 **Usar esta voz** grava o preset em **Minhas vozes**, já disponível no chat e no Agente IA. O modelo inicial é o Flash v2.5. No formulário, cada modelo mostra o preço por 1K caracteres.
@@ -41,6 +41,14 @@ Gerar áudio com voz do catálogo debita os **créditos de IA**:
 
 Sem saldo, o áudio não é gerado. Vozes ligadas a uma integração própria continuam na chave dessa integração, sem débito de créditos. O MiniMax do catálogo ainda não está disponível.
 
+## Gemini
+
+Na aba **Gemini**, escolha o modelo no topo. **Geral** usa o Gemini 2.5 Flash TTS. **Testar texto** abre um campo já preenchido; o áudio segue a voz do card e o modelo escolhido.
+
+Em **Minhas vozes** e no formulário, **Testar texto** usa o modelo, a voz e as demais opções já salvas ou em edição. O mesmo teste existe para ElevenLabs, OpenAI e Minimax.
+
+O arquivo sai em MP3. A API do Gemini entrega PCM ou WAV; a Interflow converte antes de guardar.
+
 ## Pré-requisito
 
 Cadastre uma integração de TTS em **Configurações**:
@@ -50,6 +58,7 @@ Cadastre uma integração de TTS em **Configurações**:
 | OpenAI | Vozes e modelos de speech da OpenAI |
 | ElevenLabs | Vozes da conta ElevenLabs |
 | Minimax | Vozes e idioma da conta Minimax |
+| Gemini | Vozes prontas, modelo TTS e estilo em texto. A mesma chave da [integração Gemini](/guide/integrations/gemini) |
 
 São os mesmos provedores dos nós de áudio do fluxo.
 

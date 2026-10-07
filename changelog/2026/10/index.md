@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.11](/changelog/2026/10/2026.10.11) | 06/10 | **Gemini** — conversa e vozes, com chave própria ou créditos de IA; teste de texto no catálogo e em Minhas vozes |
 | [2026.10.10](/changelog/2026/10/2026.10.10) | 06/10 | **Controle das marcações** — uma batida de cada tipo por dia, horário mínimo e máximo, status do dia e hora extra com autorização |
 | [2026.10.9](/changelog/2026/10/2026.10.9) | 06/10 | **Catálogo de vozes** — ElevenLabs no saldo de créditos de IA; Flash, Turbo e v3 Conversacional a US$ 0,13 por 1K caracteres |
 | [2026.10.8](/changelog/2026/10/2026.10.8) | 06/10 | **Mensagens de ausência** — texto individual da empresa e regras por canal, status, fluxo e horário do dia. Preço de venda padrão por canal. A exclusão por limite preserva quem conversou há pouco |
@@ -21,7 +22,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (11)
+### Novas Funcionalidades (12)
+- **Gemini na conversa e nas vozes** (v2026.10.11) — chave própria ou créditos de IA; nível de raciocínio no agente e no copiloto; teste de texto no catálogo
 - **Controle das marcações no ponto** (v2026.10.10) — uma batida de cada tipo por dia, regras de horário, status do dia e hora extra com autorização
 - **Catálogo de vozes** (v2026.10.9) — ElevenLabs no saldo de créditos de IA
 - **Mensagens de ausência** (v2026.10.8) — texto individual da empresa e regras por canal, status, fluxo e horário do dia

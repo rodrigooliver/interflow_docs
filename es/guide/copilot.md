@@ -66,7 +66,7 @@ Si varios clientes tienen un nombre parecido, pregunta cuál antes de abrir.
 
 En el menú junto al modo puedes elegir:
 
-- El **modelo** (modelos de Interflow, o DeepSeek si la organización tiene esa integración)
+- El **modelo** (modelos de Interflow, o DeepSeek y Gemini si la organización tiene esa integración)
 - El esfuerzo de razonamiento: **Bajo**, **Medio** o **Alto**
 - Quién paga la llamada: **Saldo Interflow** o una integración tuya
 
