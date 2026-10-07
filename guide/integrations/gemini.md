@@ -18,11 +18,11 @@ Em **Parâmetros**, o que vale para o Gemini é o **nível de raciocínio** (bai
 
 No copiloto, os mesmos níveis baixo, médio e alto valem para o Gemini. A resposta chega em streaming e o resumo do raciocínio aparece no painel. No Gemini 3 o nível é o da API (`low`, `medium`, `high`). O 3.8 não aceita o nível mínimo. No 2.5 o nível vira um orçamento de tokens. O 2.5 Flash-Lite no baixo não raciocina.
 
-Preços de referência, USD por 1 milhão de tokens (entrada / saída), tarifa Standard até 31/12/2026:
+Preços no saldo Interflow, USD por 1 milhão de tokens (entrada / saída). Flash 3.6, 3.7 e 3.8 e o TTS 3.8 já usam o valor de 2027, sem a promoção do Google:
 
 | Modelo | Entrada | Saída |
 |--------|---------|-------|
-| Gemini 3.8, 3.7 e 3.6 Flash | 0,75 | 3,75 |
+| Gemini 3.8, 3.7 e 3.6 Flash | 1,50 | 7,50 |
 | Gemini 3.5 Flash | 1,50 | 9,00 |
 | Gemini 3.5 Flash-Lite | 0,30 | 2,50 |
 | Gemini 3.1 Flash-Lite | 0,25 | 1,50 |
@@ -32,7 +32,7 @@ Preços de referência, USD por 1 milhão de tokens (entrada / saída), tarifa S
 | Gemini 2.5 Flash | 0,30 | 2,50 |
 | Gemini 2.5 Flash-Lite | 0,10 | 0,40 |
 
-A partir de 01/01/2027 o Google dobra o preço dos Flash 3.6, 3.7 e 3.8. Prompts acima de 200 mil tokens nos modelos Pro usam a faixa mais alta.
+Na chave própria, o Google ainda cobra a promoção até 31/12/2026. No saldo, o TTS 3.8 Flash é 1 / 18 e o 3.8 Flash-Lite é 1 / 12 (texto / áudio). Prompts acima de 200 mil tokens nos modelos Pro usam a faixa mais alta.
 
 ## Voz
 

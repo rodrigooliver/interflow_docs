@@ -27,7 +27,7 @@ En **Voces** hay dos pestañas:
 
 | Pestaña | Qué hace |
 |---------|----------|
-| **Catálogo** | ElevenLabs (búsqueda, idioma, género, edad y categoría) y Gemini (30 voces listas y elección del modelo). La muestra gratis de ElevenLabs no descuenta créditos. **Probar texto** genera un MP3 con las opciones elegidas y consume créditos |
+| **Catálogo** | ElevenLabs (búsqueda, idioma, género, edad y categoría), Gemini (30 voces) y OpenAI (11 voces). La muestra gratis de ElevenLabs no descuenta créditos. **Probar texto** genera un MP3 y permite cambiar el modelo. OpenAI y Gemini usan el saldo Interflow |
 | **Mis voces** | Presets de la organización. La búsqueda y **Nueva voz** están en esta pestaña |
 
 **Usar esta voz** guarda el preset en **Mis voces**, disponible en el chat y en el Agente IA. El modelo inicial es Flash v2.5. En el formulario, cada modelo muestra el precio por 1K caracteres.

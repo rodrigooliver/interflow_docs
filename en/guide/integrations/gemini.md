@@ -18,9 +18,9 @@ Under **Parameters**, Gemini uses the **reasoning level** (low, medium, or high)
 
 In the copilot, the same low, medium, and high levels apply to Gemini. The reply streams in and the reasoning summary shows in the panel. On Gemini 3 the level is the API value (`low`, `medium`, `high`). 3.8 does not accept minimal. On 2.5 the level becomes a token budget. 2.5 Flash-Lite does not think on low.
 
-Reference prices, USD per 1 million tokens (input / output), Standard tier through December 31, 2026: Flash 3.8/3.7/3.6 at 0.75 / 3.75; 3.5 Flash at 1.50 / 9.00; 3.5 Flash-Lite at 0.30 / 2.50; 3.1 Flash-Lite at 0.25 / 1.50; Gemini 3 Flash at 0.50 / 3.00; 3.1 Pro at 2.00 / 12.00; 2.5 Pro at 1.25 / 10.00; 2.5 Flash at 0.30 / 2.50; 2.5 Flash-Lite at 0.10 / 0.40.
+Interflow credit prices, USD per 1 million tokens (input / output). Flash 3.6, 3.7, and 3.8 and 3.8 TTS already use the 2027 rate, without Google’s promotion: Flash 3.8/3.7/3.6 at 1.50 / 7.50; 3.5 Flash at 1.50 / 9.00; 3.5 Flash-Lite at 0.30 / 2.50; 3.1 Flash-Lite at 0.25 / 1.50; Gemini 3 Flash at 0.50 / 3.00; 3.1 Pro at 2.00 / 12.00; 2.5 Pro at 1.25 / 10.00; 2.5 Flash at 0.30 / 2.50; 2.5 Flash-Lite at 0.10 / 0.40.
 
-From January 1, 2027 Google doubles the price of Flash 3.6, 3.7, and 3.8. Pro prompts above 200k tokens use the higher tier.
+On your own key, Google still bills the promotion through December 31, 2026. On the balance, 3.8 Flash TTS is 1 / 18 and 3.8 Flash-Lite TTS is 1 / 12 (text / audio). Pro prompts above 200k tokens use the higher tier.
 
 ## Voice
 

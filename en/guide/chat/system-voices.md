@@ -27,7 +27,7 @@ The chat button only appears if there is at least one **active** voice and the c
 
 | Tab | What it does |
 |-----|----------------|
-| **Catalog** | ElevenLabs (search, language, gender, age, and category) and Gemini (30 built-in voices and a model picker). The free ElevenLabs sample does not spend credits. **Test text** generates an MP3 with the chosen settings and spends credits |
+| **Catalog** | ElevenLabs (search, language, gender, age, and category), Gemini (30 voices), and OpenAI (11 voices). The free ElevenLabs sample does not spend credits. **Test text** generates an MP3 and lets you change the model. OpenAI and Gemini use the Interflow balance |
 | **My voices** | Organization presets. Search and **New voice** live on this tab |
 
 **Use this voice** saves the preset under **My voices**, available in chat and on the AI Agent. The starting model is Flash v2.5. The form shows each model’s price per 1K characters.
