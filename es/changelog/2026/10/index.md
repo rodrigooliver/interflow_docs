@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.14](/es/changelog/2026/10/2026.10.14) | 07/10 | **Eliminar mensajes seleccionados** — administrador y propietario borran varios a la vez, solo en Interflow |
 | [2026.10.13](/es/changelog/2026/10/2026.10.13) | 07/10 | **Transcribir audio** — GPT en el chat, con Scribe de reserva; archivo en la nota del cliente |
 | [2026.10.12](/es/changelog/2026/10/2026.10.12) | 07/10 | **Dictar** — la voz se vuelve texto en el chat y en el copiloto; el grabador de audio sigue |
 | [2026.10.11](/es/changelog/2026/10/2026.10.11) | 06/10 | **Gemini** — conversación y voces, con clave propia o créditos de IA; prueba de texto en el catálogo y en Mis voces |
@@ -24,7 +25,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (15)
+### Nuevas Funcionalidades (16)
+- **Eliminar mensajes seleccionados** (v2026.10.14) — administrador y propietario borran varios a la vez, solo en Interflow; en el canal permanecen
 - **Transcripción de audio en el chat** (v2026.10.13) — GPT Transcribe, con Scribe v2 de reserva; se puede elegir el otro modelo en el mensaje
 - **Transcribir un archivo en la nota** (v2026.10.13) — el texto entra en la nota; un archivo largo se divide; el audio no se almacena
 - **Dictar** (v2026.10.12) — la voz se vuelve texto en el campo del chat y en el copiloto; el grabador de audio sigue

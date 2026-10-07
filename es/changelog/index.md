@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.14](/es/changelog/2026/10/2026.10.14) | 07/10 | **Eliminar mensajes seleccionados** — administrador y propietario borran varios a la vez, solo en Interflow | [Chat](/es/guide/chat/interface#eliminar-mensajes-seleccionados) |
 | [v2026.10.13](/es/changelog/2026/10/2026.10.13) | 07/10 | **Transcribir audio** — GPT en el chat, con Scribe de reserva, y archivo en la nota del cliente | [Notas](/es/guide/crm/customers#transcribir-audio) |
 | [v2026.10.12](/es/changelog/2026/10/2026.10.12) | 07/10 | **Dictar** — la voz se vuelve texto en el chat y en el copiloto | [Chat](/es/guide/chat/interface#dictar-convertir-en-texto) |
 | [v2026.10.11](/es/changelog/2026/10/2026.10.11) | 06/10 | **Gemini** — conversación, razonamiento y voces, con clave propia o créditos de IA | [Gemini](/es/guide/integrations/gemini) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Locales y duplicar agenda** — salas con horario propio y copia sin citas | [Locales](/es/guide/schedule/locations) |
 | [v2026.9.11](/es/changelog/2026/09/2026.9.11) | 15/09 | **Transferencia entre cajas y aviso de vencimiento** — mueve saldo sin entrar en el DRE y avisa lo que vence hoy | [Financiero](/es/guide/financial/#transferencia-entre-cajas) |
 | [v2026.9.10](/es/changelog/2026/09/2026.9.10) | 15/09 | **Por cobrar, por pagar y movimientos** — obligaciones abiertas, extracto y registro de pago | [Financiero](/es/guide/financial/#por-cobrar-y-por-pagar) |
-| [v2026.9.9](/es/changelog/2026/09/2026.9.9) | 15/09 | **Rotación entre equipos** — el canal sortea el equipo; transferir o salir puede enviar a la cola | [Equipos](/es/guide/teams/#rotacion-entre-equipos) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

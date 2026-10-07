@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.14](/en/changelog/2026/10/2026.10.14) | 10/07 | **Delete selected messages** — admins and owners remove several at once, only inside Interflow |
 | [2026.10.13](/en/changelog/2026/10/2026.10.13) | 10/07 | **Transcribe audio** — GPT in chat, with Scribe as backup; a file into the customer note |
 | [2026.10.12](/en/changelog/2026/10/2026.10.12) | 10/07 | **Dictate** — speech becomes text in chat and in the copilot; the audio recorder stays |
 | [2026.10.11](/en/changelog/2026/10/2026.10.11) | 10/06 | **Gemini** — conversation and voices, with your own key or AI credits; text test in the catalog and in My voices |
@@ -24,7 +25,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (15)
+### New Features (16)
+- **Delete selected messages** (v2026.10.14) — admins and owners remove several at once, only inside Interflow; they stay on the channel
 - **Chat audio transcription** (v2026.10.13) — GPT Transcribe, with Scribe v2 as backup; pick the other model on the message
 - **Transcribe a file into a note** (v2026.10.13) — the text goes into the note; a long file is split; the audio is not stored
 - **Dictate** (v2026.10.12) — speech becomes text in the chat field and in the copilot; the audio recorder stays

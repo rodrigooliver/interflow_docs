@@ -350,6 +350,16 @@ Digite o texto e use **Gravar baseado em texto** para gerar um áudio com as voz
 
 Guia: [Vozes do sistema](/guide/chat/system-voices)
 
+## Excluir mensagens selecionadas
+
+Administrador e proprietário podem limpar várias mensagens de uma vez, só no histórico da Interflow.
+
+1. No menu da conversa, escolha **Selecionar mensagens**
+2. Marque as mensagens
+3. Clique em **Excluir selecionadas** e confirme
+
+A mensagem some para a equipe e permanece no canal integrado. Excluir pelo menu de uma mensagem continua podendo tentar o canal. Agentes não veem o botão de lote.
+
 ## Notas Internas
 
 Adicione anotações visíveis apenas para a equipe:

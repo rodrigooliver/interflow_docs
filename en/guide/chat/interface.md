@@ -251,6 +251,16 @@ When completing a service:
 5. Add notes (optional)
 6. Confirm
 
+## Delete selected messages
+
+Admins and owners can remove several messages at once, only from the Interflow history.
+
+1. In the conversation menu, choose **Select messages**
+2. Check the messages
+3. Click **Delete selected** and confirm
+
+The message disappears for the team and stays on the connected channel. Deleting from a single message menu can still try the channel. Agents do not see the bulk button.
+
 ## Internal Notes
 
 Add annotations visible only to the team:

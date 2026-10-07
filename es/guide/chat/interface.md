@@ -247,6 +247,16 @@ Al concluir una atención:
 5. Agrega observaciones (opcional)
 6. Confirma
 
+## Eliminar mensajes seleccionados
+
+El administrador y el propietario pueden borrar varios mensajes a la vez, solo en el historial de Interflow.
+
+1. En el menú de la conversación, elija **Seleccionar mensajes**
+2. Marque los mensajes
+3. Pulse **Eliminar seleccionados** y confirme
+
+El mensaje desaparece para el equipo y permanece en el canal integrado. Eliminar desde el menú de un mensaje puede seguir intentando el canal. Los agentes no ven el botón de lote.
+
 ## Notas Internas
 
 Agrega anotaciones visibles solo para el equipo:
