@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.15](/en/changelog/2026/10/2026.10.15) | 10/07 | **Ad origin in the AI Agent** — the flow already knows when someone came from a Facebook or Instagram ad |
 | [2026.10.14](/en/changelog/2026/10/2026.10.14) | 10/07 | **Delete selected messages** — admins and owners remove several at once, only inside Interflow |
 | [2026.10.13](/en/changelog/2026/10/2026.10.13) | 10/07 | **Transcribe audio** — GPT in chat, with Scribe as backup; a file into the customer note |
 | [2026.10.12](/en/changelog/2026/10/2026.10.12) | 10/07 | **Dictate** — speech becomes text in chat and in the copilot; the audio recorder stays |
@@ -25,7 +26,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (16)
+### New Features (17)
+- **Ad origin in the AI Agent** (v2026.10.15) — the flow already knows when someone came from a Facebook or Instagram ad
 - **Delete selected messages** (v2026.10.14) — admins and owners remove several at once, only inside Interflow; they stay on the channel
 - **Chat audio transcription** (v2026.10.13) — GPT Transcribe, with Scribe v2 as backup; pick the other model on the message
 - **Transcribe a file into a note** (v2026.10.13) — the text goes into the note; a long file is split; the audio is not stored

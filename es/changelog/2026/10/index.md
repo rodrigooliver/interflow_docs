@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.15](/es/changelog/2026/10/2026.10.15) | 07/10 | **Origen del anuncio en el Agente IA** — el flujo ya sabe cuándo la persona vino de un anuncio de Facebook o Instagram |
 | [2026.10.14](/es/changelog/2026/10/2026.10.14) | 07/10 | **Eliminar mensajes seleccionados** — administrador y propietario borran varios a la vez, solo en Interflow |
 | [2026.10.13](/es/changelog/2026/10/2026.10.13) | 07/10 | **Transcribir audio** — GPT en el chat, con Scribe de reserva; archivo en la nota del cliente |
 | [2026.10.12](/es/changelog/2026/10/2026.10.12) | 07/10 | **Dictar** — la voz se vuelve texto en el chat y en el copiloto; el grabador de audio sigue |
@@ -25,7 +26,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (16)
+### Nuevas Funcionalidades (17)
+- **Origen del anuncio en el Agente IA** (v2026.10.15) — el flujo ya sabe cuándo la persona vino de un anuncio de Facebook o Instagram
 - **Eliminar mensajes seleccionados** (v2026.10.14) — administrador y propietario borran varios a la vez, solo en Interflow; en el canal permanecen
 - **Transcripción de audio en el chat** (v2026.10.13) — GPT Transcribe, con Scribe v2 de reserva; se puede elegir el otro modelo en el mensaje
 - **Transcribir un archivo en la nota** (v2026.10.13) — el texto entra en la nota; un archivo largo se divide; el audio no se almacena
