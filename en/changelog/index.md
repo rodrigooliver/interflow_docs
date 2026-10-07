@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.13](/en/changelog/2026/10/2026.10.13) | Oct 7 | **Transcribe audio** — GPT in chat, with Scribe as backup, and a file into the customer note | [Notes](/en/guide/crm/customers#transcribe-audio) |
 | [v2026.10.12](/en/changelog/2026/10/2026.10.12) | Oct 7 | **Dictate** — speech becomes text in chat and in the copilot | [Chat](/en/guide/chat/interface#dictate-turn-into-text) |
 | [v2026.10.11](/en/changelog/2026/10/2026.10.11) | Oct 6 | **Gemini** — conversation, reasoning, and voices, with your own key or AI credits | [Gemini](/en/guide/integrations/gemini) |
 | [v2026.10.10](/en/changelog/2026/10/2026.10.10) | Oct 6 | **Punch control** — one punch of each type per day, day status, and overtime with approval | [Time clock](/en/guide/hr/#punch-control) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.9.11](/en/changelog/2026/09/2026.9.11) | Sep 15 | **Cashier transfer and due-today notice** — move balance without hitting P&L, and get a morning push | [Financial](/en/guide/financial/#transfer-between-cashiers) |
 | [v2026.9.10](/en/changelog/2026/09/2026.9.10) | Sep 15 | **Receivables, payables, and posted entries** — open obligations, statement, and posting a payment | [Financial](/en/guide/financial/#receivables-and-payables) |
 | [v2026.9.9](/en/changelog/2026/09/2026.9.9) | Sep 15 | **Team-to-team rotation** — the channel picks the team; transfer or leave can send to the queue | [Teams](/en/guide/teams/#team-to-team-rotation) |
-| [v2026.9.8](/en/changelog/2026/09/2026.9.8) | Sep 14 | **Exclude tags in bulk send** — skip people who asked to stop | [Bulk messages](/en/guide/chat/bulk-messages#exclude-tags) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

@@ -366,6 +366,18 @@ Al renombrar una opción de campo personalizado del tipo select, todos los regis
 
 Las notas son visibles solo para tu equipo.
 
+### Transcribir audio {#transcribir-audio}
+
+Al editar la nota, **Transcribir audio** envía un archivo y añade el texto al final.
+
+1. Abra la nota en edición
+2. Haga clic en **Transcribir audio**
+3. Elija el archivo y el modelo (GPT Transcribe o Scribe v2)
+4. En Scribe, active **No Verbatim** si quiere un texto más limpio
+5. Guarde la nota
+
+Un archivo largo se divide en partes. El audio no se almacena.
+
 ### Creando Tareas
 
 1. En el perfil del cliente, haz clic en **"Nueva tarea"**

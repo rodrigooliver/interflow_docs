@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.13](/es/changelog/2026/10/2026.10.13) | 07/10 | **Transcribir audio** — GPT en el chat, con Scribe de reserva; archivo en la nota del cliente |
 | [2026.10.12](/es/changelog/2026/10/2026.10.12) | 07/10 | **Dictar** — la voz se vuelve texto en el chat y en el copiloto; el grabador de audio sigue |
 | [2026.10.11](/es/changelog/2026/10/2026.10.11) | 06/10 | **Gemini** — conversación y voces, con clave propia o créditos de IA; prueba de texto en el catálogo y en Mis voces |
 | [2026.10.10](/es/changelog/2026/10/2026.10.10) | 06/10 | **Control de las marcaciones** — una marcación de cada tipo por día, horario mínimo y máximo, estado del día y hora extra con autorización |
@@ -23,7 +24,9 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (13)
+### Nuevas Funcionalidades (15)
+- **Transcripción de audio en el chat** (v2026.10.13) — GPT Transcribe, con Scribe v2 de reserva; se puede elegir el otro modelo en el mensaje
+- **Transcribir un archivo en la nota** (v2026.10.13) — el texto entra en la nota; un archivo largo se divide; el audio no se almacena
 - **Dictar** (v2026.10.12) — la voz se vuelve texto en el campo del chat y en el copiloto; el grabador de audio sigue
 - **Gemini en la conversación y en las voces** (v2026.10.11) — clave propia o créditos de IA; nivel de razonamiento en el agente y en el copiloto; prueba de texto en el catálogo
 - **Control de las marcaciones del fichaje** (v2026.10.10) — una marcación de cada tipo por día, reglas de horario, estado del día y hora extra con autorización

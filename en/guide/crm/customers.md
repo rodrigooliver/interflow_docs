@@ -379,6 +379,18 @@ When renaming a custom field option of select type, all records are automaticall
 
 Notes are visible only to your team.
 
+### Transcribe audio {#transcribe-audio}
+
+While editing a note, **Transcribe audio** uploads a file and appends the text at the end.
+
+1. Open the note for editing
+2. Click **Transcribe audio**
+3. Choose the file and the model (GPT Transcribe or Scribe v2)
+4. On Scribe, turn on **No Verbatim** for a cleaner transcript
+5. Save the note
+
+A long file is split into parts. The audio is not stored.
+
 ### Creating Tasks
 
 1. In customer profile, click **"New task"**
