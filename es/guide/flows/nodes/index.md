@@ -53,6 +53,7 @@ Nodos para integración con inteligencia artificial:
 
 - [Agente IA](/es/guide/flows/nodes/agenteia) - Ejecuta agente preconfigurado
 - [OpenAI](/es/guide/flows/nodes/openai) - Integración directa con GPT
+- [Decisor IA](/es/guide/flows/nodes/ai-decision) - La IA elige una salida a partir del contexto
 - [ElevenLabs TTS](/es/guide/flows/nodes/elevenlabs) - Síntesis de voz ElevenLabs
 - [Minimax TTS](/es/guide/flows/nodes/minimax) - Síntesis de voz Minimax
 
@@ -94,6 +95,7 @@ Nodos específicos para el módulo de ventas:
 | Crear Tarea | Acciones | Crea tareas |
 | Agente IA | IA | Ejecuta agente |
 | OpenAI | IA | Integración GPT |
+| Decisor IA | IA | Elige una salida por el contexto |
 | ElevenLabs | IA | Síntesis de voz |
 | Minimax | IA | Síntesis de voz |
 | Mensaje Sistema | Sistema | Mensaje interno |

@@ -102,6 +102,7 @@ function getSidebar(lang: string = '') {
               { text: lang === 'en' ? 'Close Attendance' : lang === 'es' ? 'Cerrar Atención' : 'Encerrar Atendimento', link: `${prefix}/guide/flows/nodes/close-attendance` },
               { text: lang === 'en' ? 'AI Agent' : lang === 'es' ? 'Agente IA' : 'Agente IA', link: `${prefix}/guide/flows/nodes/agenteia` },
               { text: 'OpenAI', link: `${prefix}/guide/flows/nodes/openai` },
+              { text: lang === 'en' ? 'AI Decider' : 'Decisor IA', link: `${prefix}/guide/flows/nodes/ai-decision` },
               { text: 'ElevenLabs TTS', link: `${prefix}/guide/flows/nodes/elevenlabs` },
               { text: 'Minimax TTS', link: `${prefix}/guide/flows/nodes/minimax` },
               { text: lang === 'en' ? 'HTTP Request' : lang === 'es' ? 'Solicitud HTTP' : 'Requisição HTTP', link: `${prefix}/guide/flows/nodes/request` },
@@ -388,6 +389,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/10/` },
+              { text: 'v2026.10.16', link: `${prefix}/changelog/2026/10/2026.10.16` },
               { text: 'v2026.10.15', link: `${prefix}/changelog/2026/10/2026.10.15` },
               { text: 'v2026.10.14', link: `${prefix}/changelog/2026/10/2026.10.14` },
               { text: 'v2026.10.13', link: `${prefix}/changelog/2026/10/2026.10.13` },

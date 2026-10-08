@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.16](/es/changelog/2026/10/2026.10.16) | 07/10 | **Decisor IA** — la IA elige una salida del flujo a partir del contexto y de la descripción de cada opción | [Decisor IA](/es/guide/flows/nodes/ai-decision) |
 | [v2026.10.15](/es/changelog/2026/10/2026.10.15) | 07/10 | **Origen del anuncio en el Agente IA** — el flujo ya sabe cuándo la persona vino de un anuncio de Facebook o Instagram | [Agentes de IA](/es/guide/ai-agents/) |
 | [v2026.10.14](/es/changelog/2026/10/2026.10.14) | 07/10 | **Eliminar mensajes seleccionados** — administrador y propietario borran varios a la vez, solo en Interflow | [Chat](/es/guide/chat/interface#eliminar-mensajes-seleccionados) |
 | [v2026.10.13](/es/changelog/2026/10/2026.10.13) | 07/10 | **Transcribir audio** — GPT en el chat, con Scribe de reserva, y archivo en la nota del cliente | [Notas](/es/guide/crm/customers#transcribir-audio) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.9.14](/es/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — asistente en la app para consultar la pantalla y actuar con tu permiso | [Copiloto](/es/guide/copilot) |
 | [v2026.9.13](/es/changelog/2026/09/2026.9.13) | 23/09 | **Barrido del embudo** — lee la conversación, sugiere la etapa y recorre una organización a la vez | [Barrido](/es/guide/crm/funnel-scan) |
 | [v2026.9.12](/es/changelog/2026/09/2026.9.12) | 18/09 | **Locales y duplicar agenda** — salas con horario propio y copia sin citas | [Locales](/es/guide/schedule/locations) |
-| [v2026.9.11](/es/changelog/2026/09/2026.9.11) | 15/09 | **Transferencia entre cajas y aviso de vencimiento** — mueve saldo sin entrar en el DRE y avisa lo que vence hoy | [Financiero](/es/guide/financial/#transferencia-entre-cajas) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

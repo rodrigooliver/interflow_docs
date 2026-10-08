@@ -53,6 +53,7 @@ Nodes for artificial intelligence integration:
 
 - [AI Agent](/en/guide/flows/nodes/agenteia) - Executes pre-configured agent
 - [OpenAI](/en/guide/flows/nodes/openai) - Direct GPT integration
+- [AI Decider](/en/guide/flows/nodes/ai-decision) - The AI picks an output from the context
 - [ElevenLabs TTS](/en/guide/flows/nodes/elevenlabs) - ElevenLabs voice synthesis
 - [Minimax TTS](/en/guide/flows/nodes/minimax) - Minimax voice synthesis
 
@@ -94,6 +95,7 @@ Nodes specific to the sales module:
 | Create Task | Actions | Creates tasks |
 | AI Agent | AI | Executes agent |
 | OpenAI | AI | GPT integration |
+| AI Decider | AI | Picks an output from the context |
 | ElevenLabs | AI | Voice synthesis |
 | Minimax | AI | Voice synthesis |
 | System Message | System | Internal message |

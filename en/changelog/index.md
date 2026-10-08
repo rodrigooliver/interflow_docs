@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.16](/en/changelog/2026/10/2026.10.16) | Oct 7 | **AI Decider** — the AI picks a flow output from the context and the description of each option | [AI Decider](/en/guide/flows/nodes/ai-decision) |
 | [v2026.10.15](/en/changelog/2026/10/2026.10.15) | Oct 7 | **Ad origin in the AI Agent** — the flow already knows when someone came from a Facebook or Instagram ad | [AI Agents](/en/guide/ai-agents/) |
 | [v2026.10.14](/en/changelog/2026/10/2026.10.14) | Oct 7 | **Delete selected messages** — admins and owners remove several at once, only inside Interflow | [Chat](/en/guide/chat/interface#delete-selected-messages) |
 | [v2026.10.13](/en/changelog/2026/10/2026.10.13) | Oct 7 | **Transcribe audio** — GPT in chat, with Scribe as backup, and a file into the customer note | [Notes](/en/guide/crm/customers#transcribe-audio) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.9.14](/en/changelog/2026/09/2026.9.14) | Sep 23 | **Copilot** — in-app assistant to read the screen and act with your permission | [Copilot](/en/guide/copilot) |
 | [v2026.9.13](/en/changelog/2026/09/2026.9.13) | Sep 23 | **Funnel scan** — reads the conversation, suggests the stage, and walks one organization at a time | [Scan](/en/guide/crm/funnel-scan) |
 | [v2026.9.12](/en/changelog/2026/09/2026.9.12) | Sep 18 | **Locations and duplicate schedule** — rooms with their own hours, and a setup copy | [Locations](/en/guide/schedule/locations) |
-| [v2026.9.11](/en/changelog/2026/09/2026.9.11) | Sep 15 | **Cashier transfer and due-today notice** — move balance without hitting P&L, and get a morning push | [Financial](/en/guide/financial/#transfer-between-cashiers) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

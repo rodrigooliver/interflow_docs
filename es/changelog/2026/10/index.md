@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.16](/es/changelog/2026/10/2026.10.16) | 07/10 | **Decisor IA** — la IA elige una salida del flujo a partir del contexto y de la descripción de cada opción |
 | [2026.10.15](/es/changelog/2026/10/2026.10.15) | 07/10 | **Origen del anuncio en el Agente IA** — el flujo ya sabe cuándo la persona vino de un anuncio de Facebook o Instagram |
 | [2026.10.14](/es/changelog/2026/10/2026.10.14) | 07/10 | **Eliminar mensajes seleccionados** — administrador y propietario borran varios a la vez, solo en Interflow |
 | [2026.10.13](/es/changelog/2026/10/2026.10.13) | 07/10 | **Transcribir audio** — GPT en el chat, con Scribe de reserva; archivo en la nota del cliente |
@@ -26,7 +27,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (17)
+### Nuevas Funcionalidades (18)
+- **Decisor IA** (v2026.10.16) — la IA elige una salida del flujo a partir del contexto y de la descripción de cada opción; usa el saldo de créditos de IA
 - **Origen del anuncio en el Agente IA** (v2026.10.15) — el flujo ya sabe cuándo la persona vino de un anuncio de Facebook o Instagram
 - **Eliminar mensajes seleccionados** (v2026.10.14) — administrador y propietario borran varios a la vez, solo en Interflow; en el canal permanecen
 - **Transcripción de audio en el chat** (v2026.10.13) — GPT Transcribe, con Scribe v2 de reserva; se puede elegir el otro modelo en el mensaje

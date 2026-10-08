@@ -54,6 +54,7 @@ Nós para integração com inteligência artificial:
 
 - [Agente IA](/guide/flows/nodes/agenteia) - Executa agente pré-configurado
 - [OpenAI](/guide/flows/nodes/openai) - Integração direta com GPT
+- [Decisor IA](/guide/flows/nodes/ai-decision) - A IA escolhe uma saída a partir do contexto
 - [ElevenLabs TTS](/guide/flows/nodes/elevenlabs) - Síntese de voz ElevenLabs
 - [Minimax TTS](/guide/flows/nodes/minimax) - Síntese de voz Minimax
 
@@ -96,6 +97,7 @@ Nós específicos para o módulo de vendas:
 | Criar Tarefa | Ações | Cria tarefas |
 | Agente IA | IA | Executa agente |
 | OpenAI | IA | Integração GPT |
+| Decisor IA | IA | Escolhe uma saída pelo contexto |
 | ElevenLabs | IA | Síntese de voz |
 | Minimax | IA | Síntese de voz |
 | Mensagem Sistema | Sistema | Mensagem interna |
