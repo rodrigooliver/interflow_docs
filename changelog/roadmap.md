@@ -33,7 +33,6 @@ Este roadmap é atualizado regularmente e pode mudar conforme as prioridades do 
 | Exibir tarefas ocultas no calendário do módulo Tarefas | Set/2026 | Mostrar todas as tarefas do dia na visualização de calendário, inclusive as que hoje ficam ocultas. |
 | Exportar dados do módulo Minhas Economias | Set/2026 | Exportar receitas, despesas e transações de Minhas Economias em Excel ou CSV. |
 | Visualização dividida de Conversas, Tarefas e Agendamentos | Set/2026 | Ver conversas, tarefas pendentes e próximos agendamentos na mesma tela. |
-| Observação e status judicial em lançamentos de cobrança | Set/2026 | Registrar observações e indicar se a cobrança está em processo judicial. |
 | Remover usuário de grupos externos do WhatsApp ao sair da equipe | Set/2026 | Remover automaticamente o usuário dos grupos do WhatsApp da equipe quando ele for retirado dela. |
 | Mapeamento de campos personalizados do CRM para o Pixel | Out/2026 | Enviar valores de campos personalizados como nome do produto no evento do Pixel ao mudar o estágio do CRM. |
 | Análise de gargalos e sugestões de melhoria no atendimento | Out/2026 | Identificar lentidão e falhas em funis e conversas, com relatórios de gargalos e sugestões práticas. |

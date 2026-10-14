@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.23](/changelog/2026/10/2026.10.23) | 14/10 | **Observação e cobrança judicializada** — nota interna e seletor de processo judicial no contrato; selo Judicial na lista | |
 | [v2026.10.22](/changelog/2026/10/2026.10.22) | 14/10 | **Conversas no dashboard** — a lista do filtro rápido, na mesma tela das tarefas e dos agendamentos | |
 | [v2026.10.21](/changelog/2026/10/2026.10.21) | 14/10 | **Requisitos do estágio** — o lead só entra se os campos e as tarefas da aba Requisitos estiverem ok | [Funis](/guide/crm/funnels#requisitos-de-entrada) |
 | [v2026.10.20](/changelog/2026/10/2026.10.20) | 14/10 | **Pular clientes com tags** — opção na exclusão automática; ligada, quem tem qualquer tag fica de fora | |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.10.5](/changelog/2026/10/2026.10.5) | 01/10 | **Link da reunião no agendamento** — menu para Meet, Zoom ou Teams, com opção de só salvar | [Agenda](/guide/schedule/#link-da-reuniao) |
 | [v2026.10.4](/changelog/2026/10/2026.10.4) | 01/10 | **Editar e excluir no chat interno** — o autor corrige o texto ou apaga a mensagem para toda a equipe | [Chat interno](/guide/chat/interface#chat-interno-comunicacao-entre-agentes) |
 | [v2026.10.3](/changelog/2026/10/2026.10.3) | 01/10 | **Descrição padrão da categoria** — ao criar o lançamento, a descrição vem da categoria e continua editável | [Financeiro](/guide/financial/#categorias) |
-| [v2026.10.2](/changelog/2026/10/2026.10.2) | 01/10 | **Estágio na importação** — a planilha coloca o cliente no estágio pelo nome, no funil escolhido | [Clientes](/guide/crm/customers#estagio-na-planilha) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

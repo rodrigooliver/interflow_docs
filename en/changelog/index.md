@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.23](/en/changelog/2026/10/2026.10.23) | Oct 14 | **Notes and a charge in legal proceedings** — internal note and legal-proceedings selector on the contract; Legal badge on the list | |
 | [v2026.10.22](/en/changelog/2026/10/2026.10.22) | Oct 14 | **Conversations on the dashboard** — the quick-filter list, on the same screen as tasks and appointments | |
 | [v2026.10.21](/en/changelog/2026/10/2026.10.21) | Oct 14 | **Stage requirements** — the lead enters only when the fields and tasks on the Requirements tab are met | [Funnels](/en/guide/crm/funnels#entry-requirements) |
 | [v2026.10.20](/en/changelog/2026/10/2026.10.20) | Oct 14 | **Skip customers with tags** — option in automatic deletion; on, anyone with any tag stays out | |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.5](/en/changelog/2026/10/2026.10.5) | Oct 1 | **Meeting link on the appointment** — menu for Meet, Zoom, or Teams, with save-only | [Schedule](/en/guide/schedule/#meeting-link) |
 | [v2026.10.4](/en/changelog/2026/10/2026.10.4) | Oct 1 | **Edit and delete in internal chat** — the author fixes the text or deletes the message for the whole team | [Internal chat](/en/guide/chat/interface#internal-chat-communication-between-agents) |
 | [v2026.10.3](/en/changelog/2026/10/2026.10.3) | Oct 1 | **Default category description** — a new entry gets the category text and stays editable | [Financial](/en/guide/financial/#categories) |
-| [v2026.10.2](/en/changelog/2026/10/2026.10.2) | Oct 1 | **Stage on import** — the spreadsheet places the customer on the stage by name, in the chosen funnel | [Customers](/en/guide/crm/customers#stage-in-the-spreadsheet) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

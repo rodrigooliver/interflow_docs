@@ -34,7 +34,6 @@ Este roadmap se actualiza con regularidad y puede cambiar según las prioridades
 | Mostrar tareas ocultas en el calendario del módulo Tareas | Sep/2026 | Mostrar todas las tareas del día en la vista de calendario, incluidas las que hoy quedan ocultas. |
 | Exportar datos del módulo Mis Ahorros | Sep/2026 | Exportar ingresos, gastos y transacciones de Mis Ahorros en Excel o CSV. |
 | Vista dividida de Conversaciones, Tareas y Citas | Sep/2026 | Ver conversaciones, tareas pendientes y próximas citas en la misma pantalla. |
-| Observación y estado judicial en lanzamientos de cobro | Sep/2026 | Registrar observaciones e indicar si el cobro está en proceso judicial. |
 | Quitar al usuario de grupos externos de WhatsApp al salir del equipo | Sep/2026 | Eliminar automáticamente al usuario de los grupos de WhatsApp del equipo cuando se lo retire de él. |
 | Mapeo de campos personalizados del CRM al Pixel | Oct/2026 | Enviar valores de campos personalizados como nombre del producto en el evento del Pixel al cambiar la etapa del CRM. |
 | Análisis de cuellos de botella y sugerencias de mejora en la atención | Oct/2026 | Detectar lentitud y fallos en embudos y conversaciones, con informes de cuellos de botella y sugerencias prácticas. |

@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.23](/en/changelog/2026/10/2026.10.23) | 10/14 | **Notes and a charge in legal proceedings** — internal note and legal-proceedings selector on the contract; Legal badge on the list |
 | [2026.10.22](/en/changelog/2026/10/2026.10.22) | 10/14 | **Conversations on the dashboard** — the quick-filter list, on the same screen as tasks and appointments |
 | [2026.10.21](/en/changelog/2026/10/2026.10.21) | 10/14 | **Stage requirements** — the lead enters only when the fields and tasks on the Requirements tab are met |
 | [2026.10.20](/en/changelog/2026/10/2026.10.20) | 10/14 | **Skip customers with tags** — option in automatic deletion; on, anyone with any tag stays out |
@@ -32,7 +33,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (23)
+### New Features (24)
+- **Notes and a charge in legal proceedings** (v2026.10.23) — internal note and legal-proceedings selector on the contract; Legal badge on the list
 - **Conversations on the dashboard** (v2026.10.22) — the inbox quick-filter list, on the same screen as tasks and appointments
 - **Stage requirements** (v2026.10.21) — the lead enters only when the fields and tasks on the Requirements tab are filled in
 - **Pixel fields** (v2026.10.19) — the Facebook event carries a customer custom field or UTM; Offline and WhatsApp tabs on the same stage

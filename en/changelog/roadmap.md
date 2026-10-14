@@ -34,7 +34,6 @@ This roadmap is updated regularly and may change based on product priorities.
 | Show hidden tasks in the Tasks calendar view | Sep 2026 | Show every task for the day in calendar view, including those that are currently hidden. |
 | Export data from My Savings | Sep 2026 | Export income, expenses, and transactions from My Savings as Excel or CSV. |
 | Split view for Conversations, Tasks, and Appointments | Sep 2026 | See conversations, pending tasks, and upcoming appointments on the same screen. |
-| Notes and legal status on billing entries | Sep 2026 | Add notes and mark whether a charge is in legal proceedings. |
 | Remove users from WhatsApp external groups when they leave a team | Sep 2026 | Automatically remove a user from the team’s WhatsApp groups when they are removed from the team. |
 | Map CRM custom fields to the Facebook Pixel on stage change | Oct 2026 | Send custom field values as the product name in the Pixel event when a CRM stage changes. |
 | Bottleneck analysis and improvement suggestions for support | Oct 2026 | Detect slowdowns and failures across funnels and chats, with bottleneck reports and practical improvement suggestions. |
