@@ -6,7 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
-| [2026.10.18](/changelog/2026/10/2026.10.18) | 14/10 | **Assinatura por condição** — o Agente IA usa uma assinatura diferente conforme canal, funil ou tags |
+| [2026.10.19](/changelog/2026/10/2026.10.19) | 14/10 | **Campos no Pixel** — o evento do Facebook leva campo do cliente ou UTM; abas Offline e WhatsApp |
 | [2026.10.17](/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tabelas da organização em Configurações, com colunas, páginas, views e formulários |
 | [2026.10.16](/changelog/2026/10/2026.10.16) | 07/10 | **Decisor IA** — a IA escolhe uma saída do fluxo a partir do contexto e da descrição de cada opção |
 | [2026.10.15](/changelog/2026/10/2026.10.15) | 07/10 | **Origem do anúncio no Agente IA** — o fluxo já sabe quando a pessoa veio de um anúncio do Facebook ou Instagram |
@@ -29,7 +29,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (20)
+### Novas Funcionalidades (21)
+- **Campos no Pixel** (v2026.10.19) — o evento do Facebook leva um campo personalizado ou UTM do cliente; abas Offline e WhatsApp no mesmo estágio
 - **Assinatura por condição** (v2026.10.18) — o Agente IA usa uma assinatura diferente conforme canal, estágio do funil ou tags
 - **Bases** (v2026.10.17) — tabelas da organização em Configurações, abaixo de Campos personalizados; descrição da coluna vira dica e texto de exemplo
 - **Decisor IA** (v2026.10.16) — a IA escolhe uma saída do fluxo a partir do contexto e da descrição de cada opção; usa o saldo de créditos de IA
