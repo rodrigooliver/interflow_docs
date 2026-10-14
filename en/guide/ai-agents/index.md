@@ -209,7 +209,7 @@ Detailed agent settings:
 On the **Sending** tab:
 - **Send messages from the agent**: the final reply goes straight to the chat (remove the Send Text node from the flow to avoid duplicates)
 - **Split text by paragraph**: each paragraph (blank line) becomes a separate message
-- **Signature**: text at the beginning or end of the message; the model does not read this text
+- **Signature**: text at the beginning or end of the message; the model does not read this text. Rules by channel, stage, or tag replace the default
 - **Reply with audio**: turns the reply into audio with a [system voice](/en/guide/chat/system-voices); on failure, sends the text
 - **Send audio through the auxiliary channel**: on WhatsApp Official with a connected WAHA auxiliary, audio goes out through the auxiliary (OGG, more natural sound)
 
@@ -288,8 +288,9 @@ Add an automatic signature to messages the agent sends, in the same format as th
 
 1. Open the AI Agent on the **Sending** tab
 2. Turn on **Send messages from the agent**
-3. Fill in **Signature** and choose **Beginning (Header)** or **End (Footer)**
-4. If the flow still has a **Send Text** node after the agent, remove it to avoid duplicate messages
+3. Fill in **Signature** and choose **Before the message** or **After the message**
+4. Under **Signatures by condition**, add rules by channel, funnel stage, or tags. The first match replaces the default
+5. If the flow still has a **Send Text** node after the agent, remove it to avoid duplicate messages
 
 Include line breaks in the signature text if you want it separated from the content.
 
@@ -297,7 +298,7 @@ Include line breaks in the signature text if you want it separated from the cont
 With **Send messages from the agent** off, sending still happens in the Send Text node — the signature in that case is still the node's. See [Text Message](/en/guide/flows/nodes/text).
 :::
 
-> Changelog: [v2026.8.9](/en/changelog/2026/08/2026.8.9)
+> Changelog: [v2026.10.18](/en/changelog/2026/10/2026.10.18)
 
 ## Audio replies
 

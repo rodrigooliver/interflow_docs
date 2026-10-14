@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.18](/en/changelog/2026/10/2026.10.18) | 10/14 | **Signature by condition** — the AI Agent uses a different signature by channel, funnel, or tags |
 | [2026.10.17](/en/changelog/2026/10/2026.10.17) | 10/14 | **Bases** — organization tables in Settings, with columns, pages, views, and forms |
 | [2026.10.16](/en/changelog/2026/10/2026.10.16) | 10/07 | **AI Decider** — the AI picks a flow output from the context and the description of each option |
 | [2026.10.15](/en/changelog/2026/10/2026.10.15) | 10/07 | **Ad origin in the AI Agent** — the flow already knows when someone came from a Facebook or Instagram ad |
@@ -28,7 +29,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (19)
+### New Features (20)
+- **Signature by condition** (v2026.10.18) — the AI Agent uses a different signature by channel, funnel stage, or tags
 - **Bases** (v2026.10.17) — organization tables in Settings, under Custom fields; a column description becomes the tooltip and the empty-field placeholder
 - **AI Decider** (v2026.10.16) — the AI picks a flow output from the context and the description of each option; uses the AI credit balance
 - **Ad origin in the AI Agent** (v2026.10.15) — the flow already knows when someone came from a Facebook or Instagram ad

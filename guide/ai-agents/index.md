@@ -248,7 +248,7 @@ Configurações detalhadas do agente:
 Na aba **Envio**:
 - **Enviar mensagens pelo agente**: a resposta final vai direto ao chat (remova o nó Enviar Texto do fluxo para não duplicar)
 - **Quebrar texto por parágrafo**: cada parágrafo (linha em branco) vira uma mensagem
-- **Assinatura**: texto no início ou no fim da mensagem; o modelo não lê esse texto
+- **Assinatura**: texto no início ou no fim da mensagem; o modelo não lê esse texto. Regras por canal, estágio ou tag substituem a padrão
 - **Responder com áudio**: converte a resposta em áudio com uma [voz do sistema](/guide/chat/system-voices); se falhar, envia o texto
 - **Enviar áudio pelo canal auxiliar**: no WhatsApp Oficial com auxiliar WAHA conectado, o áudio sai pelo auxiliar (OGG, som mais natural)
 
@@ -366,8 +366,9 @@ Adicione uma assinatura automática às mensagens enviadas pelo agente, no mesmo
 
 1. Abra o Agente IA na aba **Envio**
 2. Ative **Enviar mensagens pelo agente**
-3. Preencha **Assinatura** e escolha **Início (Header)** ou **Fim (Footer)**
-4. Se o fluxo ainda tiver um nó **Enviar Texto** depois do agente, remova-o para evitar mensagens duplicadas
+3. Preencha **Assinatura** e escolha **Antes da mensagem** ou **Depois da mensagem**
+4. Em **Assinaturas por condição**, adicione regras por canal, estágio do funil ou tags. A primeira que casar substitui a padrão
+5. Se o fluxo ainda tiver um nó **Enviar Texto** depois do agente, remova-o para evitar mensagens duplicadas
 
 Inclua as quebras de linha no próprio texto da assinatura se quiser separar do conteúdo.
 
@@ -375,7 +376,7 @@ Inclua as quebras de linha no próprio texto da assinatura se quiser separar do 
 Com **Enviar mensagens pelo agente** desligado, o envio continua no nó Enviar Texto — a assinatura nesse caso ainda é a do nó. Veja [Mensagem de Texto](/guide/flows/nodes/text).
 :::
 
-> Changelog: [v2026.8.9](/changelog/2026/08/2026.8.9)
+> Changelog: [v2026.10.18](/changelog/2026/10/2026.10.18)
 
 ## Resposta em áudio
 

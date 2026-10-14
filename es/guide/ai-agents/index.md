@@ -170,7 +170,7 @@ En la pestaña **Envío**:
 
 - **Enviar mensajes desde el agente**: la respuesta final va directo al chat (quite el nodo Enviar Texto del flujo para no duplicar)
 - **Dividir texto por párrafo**: cada párrafo (línea en blanco) se convierte en un mensaje
-- **Firma**: texto al inicio o al final del mensaje; el modelo no lee este texto
+- **Firma**: texto al inicio o al final del mensaje; el modelo no lee este texto. Las reglas por canal, etapa o etiqueta sustituyen la predeterminada
 - **Responder con audio**: convierte la respuesta en audio con una [voz del sistema](/es/guide/chat/system-voices); si falla, envía el texto
 - **Enviar audio por el canal auxiliar**: en WhatsApp Oficial con auxiliar WAHA conectado, el audio sale por el auxiliar (OGG, sonido más natural)
 
@@ -182,8 +182,9 @@ Agregue una firma automática a los mensajes que envía el agente, en el mismo f
 
 1. Abra el Agente IA en la pestaña **Envío**
 2. Active **Enviar mensajes desde el agente**
-3. Complete **Firma** y elija **Inicio (Header)** o **Fin (Footer)**
-4. Si el flujo todavía tiene un nodo **Enviar Texto** después del agente, quítelo para evitar mensajes duplicados
+3. Complete **Firma** y elija **Antes del mensaje** o **Después del mensaje**
+4. En **Firmas por condición**, agregue reglas por canal, etapa del embudo o etiquetas. La primera que coincida sustituye la predeterminada
+5. Si el flujo todavía tiene un nodo **Enviar Texto** después del agente, quítelo para evitar mensajes duplicados
 
 Incluya los saltos de línea en el propio texto de la firma si quiere separarla del contenido.
 
@@ -191,7 +192,7 @@ Incluya los saltos de línea en el propio texto de la firma si quiere separarla 
 Con **Enviar mensajes desde el agente** desactivado, el envío sigue en el nodo Enviar Texto — la firma en ese caso sigue siendo la del nodo. Vea [Mensaje de Texto](/es/guide/flows/nodes/text).
 :::
 
-> Changelog: [v2026.8.9](/es/changelog/2026/08/2026.8.9)
+> Changelog: [v2026.10.18](/es/changelog/2026/10/2026.10.18)
 
 ## Respuesta en audio
 

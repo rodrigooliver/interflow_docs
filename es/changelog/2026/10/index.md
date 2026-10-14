@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.18](/es/changelog/2026/10/2026.10.18) | 14/10 | **Firma por condición** — el Agente IA usa una firma distinta según canal, embudo o etiquetas |
 | [2026.10.17](/es/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tablas de la organización en Configuración, con columnas, páginas, vistas y formularios |
 | [2026.10.16](/es/changelog/2026/10/2026.10.16) | 07/10 | **Decisor IA** — la IA elige una salida del flujo a partir del contexto y de la descripción de cada opción |
 | [2026.10.15](/es/changelog/2026/10/2026.10.15) | 07/10 | **Origen del anuncio en el Agente IA** — el flujo ya sabe cuándo la persona vino de un anuncio de Facebook o Instagram |
@@ -28,7 +29,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (19)
+### Nuevas Funcionalidades (20)
+- **Firma por condición** (v2026.10.18) — el Agente IA usa una firma distinta según canal, etapa del embudo o etiquetas
 - **Bases** (v2026.10.17) — tablas de la organización en Configuración, debajo de Campos personalizados; la descripción de la columna es la ayuda y el texto de ejemplo
 - **Decisor IA** (v2026.10.16) — la IA elige una salida del flujo a partir del contexto y de la descripción de cada opción; usa el saldo de créditos de IA
 - **Origen del anuncio en el Agente IA** (v2026.10.15) — el flujo ya sabe cuándo la persona vino de un anuncio de Facebook o Instagram

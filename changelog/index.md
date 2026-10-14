@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.18](/changelog/2026/10/2026.10.18) | 14/10 | **Assinatura por condição** — o Agente IA usa uma assinatura diferente conforme canal, funil ou tags | [Agentes de IA](/guide/ai-agents/#assinatura-em-mensagens) |
 | [v2026.10.17](/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tabelas da organização em Configurações, com colunas, páginas, views e formulários | [Bases](/guide/settings/bases) |
 | [v2026.10.16](/changelog/2026/10/2026.10.16) | 07/10 | **Decisor IA** — a IA escolhe uma saída do fluxo a partir do contexto e da descrição de cada opção | [Decisor IA](/guide/flows/nodes/ai-decision) |
 | [v2026.10.15](/changelog/2026/10/2026.10.15) | 07/10 | **Origem do anúncio no Agente IA** — o fluxo já sabe quando a pessoa veio de um anúncio do Facebook ou Instagram | [Agentes de IA](/guide/ai-agents/) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.10.1](/changelog/2026/10/2026.10.1) | 01/10 | **Atribuir estágio em massa** — coloca no funil clientes sem estágio, sem fluxo, pixel ou histórico | [Clientes](/guide/crm/customers#atribuir-estagio-em-massa) |
 | [v2026.9.15](/changelog/2026/09/2026.9.15) | 28/09 | **Decisão antes do Agente IA** — o JEV escolhe se o agente age, troca de agente ou não responde | [Decisão](/guide/ai-agents/decision-gate) |
 | [v2026.9.14](/changelog/2026/09/2026.9.14) | 23/09 | **Copiloto** — assistente no app para consultar a tela e agir com a sua permissão | [Copiloto](/guide/copilot) |
-| [v2026.9.13](/changelog/2026/09/2026.9.13) | 23/09 | **Varredura de funil** — lê a conversa, sugere o estágio e percorre uma organização por vez | [Varredura](/guide/crm/funnel-scan) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar
