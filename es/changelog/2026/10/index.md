@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.22](/es/changelog/2026/10/2026.10.22) | 14/10 | **Conversaciones en el panel** — la lista del filtro rápido, en la misma pantalla que las tareas y las citas |
 | [2026.10.21](/es/changelog/2026/10/2026.10.21) | 14/10 | **Requisitos de la etapa** — el lead solo entra si los campos y las tareas de la pestaña Requisitos están listos |
 | [2026.10.20](/es/changelog/2026/10/2026.10.20) | 14/10 | **Omitir clientes con etiquetas** — opción en la eliminación automática; activada, quien tenga cualquier etiqueta queda fuera |
 | [2026.10.19](/es/changelog/2026/10/2026.10.19) | 14/10 | **Campos en el Pixel** — el evento de Facebook lleva un campo del cliente o UTM; pestañas Offline y WhatsApp |
@@ -31,7 +32,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (22)
+### Nuevas Funcionalidades (23)
+- **Conversaciones en el panel** (v2026.10.22) — la lista del filtro rápido de la bandeja, en la misma pantalla que las tareas y las citas
 - **Requisitos de la etapa** (v2026.10.21) — el lead solo entra si los campos y las tareas de la pestaña Requisitos están completos
 - **Campos en el Pixel** (v2026.10.19) — el evento de Facebook lleva un campo personalizado o UTM del cliente; pestañas Offline y WhatsApp en la misma etapa
 - **Firma por condición** (v2026.10.18) — el Agente IA usa una firma distinta según canal, etapa del embudo o etiquetas

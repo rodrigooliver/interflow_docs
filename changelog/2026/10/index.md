@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.22](/changelog/2026/10/2026.10.22) | 14/10 | **Conversas no dashboard** — a lista do filtro rápido, na mesma tela das tarefas e dos agendamentos |
 | [2026.10.21](/changelog/2026/10/2026.10.21) | 14/10 | **Requisitos do estágio** — o lead só entra se os campos e as tarefas configurados na aba Requisitos estiverem ok |
 | [2026.10.20](/changelog/2026/10/2026.10.20) | 14/10 | **Pular clientes com tags** — opção na exclusão automática; ligada, quem tem qualquer tag fica de fora |
 | [2026.10.19](/changelog/2026/10/2026.10.19) | 14/10 | **Campos no Pixel** — o evento do Facebook leva campo do cliente ou UTM; abas Offline e WhatsApp |
@@ -31,7 +32,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (22)
+### Novas Funcionalidades (23)
+- **Conversas no dashboard** (v2026.10.22) — a lista do filtro rápido da caixa de entrada, na mesma tela das tarefas e dos agendamentos
 - **Requisitos do estágio** (v2026.10.21) — o lead só entra se os campos e as tarefas da aba Requisitos estiverem preenchidos
 - **Campos no Pixel** (v2026.10.19) — o evento do Facebook leva um campo personalizado ou UTM do cliente; abas Offline e WhatsApp no mesmo estágio
 - **Assinatura por condição** (v2026.10.18) — o Agente IA usa uma assinatura diferente conforme canal, estágio do funil ou tags

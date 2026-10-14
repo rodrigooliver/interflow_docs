@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.22](/en/changelog/2026/10/2026.10.22) | Oct 14 | **Conversations on the dashboard** — the quick-filter list, on the same screen as tasks and appointments | |
 | [v2026.10.21](/en/changelog/2026/10/2026.10.21) | Oct 14 | **Stage requirements** — the lead enters only when the fields and tasks on the Requirements tab are met | [Funnels](/en/guide/crm/funnels#entry-requirements) |
 | [v2026.10.20](/en/changelog/2026/10/2026.10.20) | Oct 14 | **Skip customers with tags** — option in automatic deletion; on, anyone with any tag stays out | |
 | [v2026.10.19](/en/changelog/2026/10/2026.10.19) | Oct 14 | **Pixel fields** — the Facebook event carries a customer field or UTM; Offline and WhatsApp tabs | [Customers](/en/guide/crm/customers) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.4](/en/changelog/2026/10/2026.10.4) | Oct 1 | **Edit and delete in internal chat** — the author fixes the text or deletes the message for the whole team | [Internal chat](/en/guide/chat/interface#internal-chat-communication-between-agents) |
 | [v2026.10.3](/en/changelog/2026/10/2026.10.3) | Oct 1 | **Default category description** — a new entry gets the category text and stays editable | [Financial](/en/guide/financial/#categories) |
 | [v2026.10.2](/en/changelog/2026/10/2026.10.2) | Oct 1 | **Stage on import** — the spreadsheet places the customer on the stage by name, in the chosen funnel | [Customers](/en/guide/crm/customers#stage-in-the-spreadsheet) |
-| [v2026.10.1](/en/changelog/2026/10/2026.10.1) | Oct 1 | **Assign a stage in bulk** — places customers with no stage into the funnel, without flow, pixel, or history | [Customers](/en/guide/crm/customers#assign-stage-in-bulk) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse
