@@ -12,7 +12,7 @@ El uso se descuenta del saldo de créditos de IA de Interflow. No usa la clave d
 
 1. Arrastra **Decisor IA** al flujo
 2. Haz clic en el título de una salida
-3. Completa el contexto. Usa el botón de variable para incluir, por ejemplo, `{{conversation.lastMessages:10}}` o `{{conversation.lastMessages:50}}`
+3. Completa el contexto. Usa el botón de variable para incluir, por ejemplo, <code v-pre>{{conversation.lastMessages:10}}</code> o <code v-pre>{{conversation.lastMessages:50}}</code>
 4. En cada opción, indica el título y la descripción. La descripción es el criterio que la IA compara
 5. Ajusta la confianza mínima (0 a 100). El valor predeterminado es 70
 

@@ -12,7 +12,7 @@ O uso desconta o saldo de créditos de IA da Interflow. Não usa chave de OpenAI
 
 1. Arraste **Decisor IA** para o fluxo
 2. Clique no título de uma saída
-3. Preencha o contexto. Use o botão de variável para incluir, por exemplo, `{{conversation.lastMessages:10}}` ou `{{conversation.lastMessages:50}}`
+3. Preencha o contexto. Use o botão de variável para incluir, por exemplo, <code v-pre>{{conversation.lastMessages:10}}</code> ou <code v-pre>{{conversation.lastMessages:50}}</code>
 4. Em cada opção, informe o título e a descrição. A descrição é o critério que a IA compara
 5. Ajuste a confiança mínima (0 a 100). O padrão é 70
 

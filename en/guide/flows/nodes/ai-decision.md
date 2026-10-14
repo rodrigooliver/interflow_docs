@@ -12,7 +12,7 @@ Usage is charged to the organization's AI credit balance. It does not use the cu
 
 1. Drag **AI Decider** onto the flow
 2. Click an output title
-3. Fill in the context. Use the variable button to include, for example, `{{conversation.lastMessages:10}}` or `{{conversation.lastMessages:50}}`
+3. Fill in the context. Use the variable button to include, for example, <code v-pre>{{conversation.lastMessages:10}}</code> or <code v-pre>{{conversation.lastMessages:50}}</code>
 4. For each option, set the title and the description. The description is the criterion the AI compares
 5. Adjust the minimum confidence (0 to 100). The default is 70
 
