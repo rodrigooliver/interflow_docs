@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.21](/changelog/2026/10/2026.10.21) | 14/10 | **Requisitos do estágio** — o lead só entra se os campos e as tarefas da aba Requisitos estiverem ok | [Funis](/guide/crm/funnels#requisitos-de-entrada) |
 | [v2026.10.20](/changelog/2026/10/2026.10.20) | 14/10 | **Pular clientes com tags** — opção na exclusão automática; ligada, quem tem qualquer tag fica de fora | |
 | [v2026.10.19](/changelog/2026/10/2026.10.19) | 14/10 | **Campos no Pixel** — o evento do Facebook leva campo do cliente ou UTM; abas Offline e WhatsApp | [Clientes](/guide/crm/customers) |
 | [v2026.10.17](/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tabelas da organização em Configurações, com colunas, páginas, views e formulários | [Bases](/guide/settings/bases) |

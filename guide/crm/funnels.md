@@ -28,6 +28,19 @@ Em cada funil você pode:
 - Vincular um **fluxo** (`flow_start_id`) do tipo **mudança de estágio CRM**
 - Definir papel no gráfico (`chart_role`) e evento UTM, quando aplicável
 - Transferir clientes entre estágios/funis
+- Exigir campos e tarefas antes de o lead entrar no estágio
+
+## Requisitos de entrada
+
+Na edição do estágio, a aba **Requisitos** define o que o cliente precisa ter para entrar ali.
+
+- Campos fixos: nome, e-mail, CPF, endereço, valor da venda e fonte de anúncio
+- Campos personalizados da organização
+- Tarefas de um template: criada, iniciada ou em uma coluna do quadro de tarefas
+
+Ao arrastar o card, nome, e-mail, CPF, valor e fonte de anúncio são conferidos antes de enviar. Endereço, campos personalizados e tarefas são conferidos ao salvar. Se faltar campo, a tela pede o preenchimento. Se faltar tarefa, informa o template. Tirar do funil e reordenar na mesma coluna não usam essa regra. Na movimentação em massa, quem não cumprir permanece no estágio de origem.
+
+> Changelog: [v2026.10.21](/changelog/2026/10/2026.10.21)
 
 ::: warning Não é possível excluir
 Funis ou estágios que ainda possuem clientes não podem ser apagados. Mova os clientes antes.

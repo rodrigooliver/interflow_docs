@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.21](/en/changelog/2026/10/2026.10.21) | Oct 14 | **Stage requirements** — the lead enters only when the fields and tasks on the Requirements tab are met | [Funnels](/en/guide/crm/funnels#entry-requirements) |
 | [v2026.10.20](/en/changelog/2026/10/2026.10.20) | Oct 14 | **Skip customers with tags** — option in automatic deletion; on, anyone with any tag stays out | |
 | [v2026.10.19](/en/changelog/2026/10/2026.10.19) | Oct 14 | **Pixel fields** — the Facebook event carries a customer field or UTM; Offline and WhatsApp tabs | [Customers](/en/guide/crm/customers) |
 | [v2026.10.17](/en/changelog/2026/10/2026.10.17) | Oct 14 | **Bases** — organization tables in Settings, with columns, pages, views, and forms | [Bases](/en/guide/settings/bases) |

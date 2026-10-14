@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.21](/es/changelog/2026/10/2026.10.21) | 14/10 | **Requisitos de la etapa** — el lead solo entra si los campos y las tareas de la pestaña Requisitos están listos | [Embudos](/es/guide/crm/funnels#requisitos-de-entrada) |
 | [v2026.10.20](/es/changelog/2026/10/2026.10.20) | 14/10 | **Omitir clientes con etiquetas** — opción en la eliminación automática; activada, quien tenga cualquier etiqueta queda fuera | |
 | [v2026.10.19](/es/changelog/2026/10/2026.10.19) | 14/10 | **Campos en el Pixel** — el evento de Facebook lleva un campo del cliente o UTM; pestañas Offline y WhatsApp | [Clientes](/es/guide/crm/customers) |
 | [v2026.10.17](/es/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tablas de la organización en Configuración, con columnas, páginas, vistas y formularios | [Bases](/es/guide/settings/bases) |

@@ -17,6 +17,19 @@ Menú → **CRM** → **Embudos**.
 - Renombrar, reordenar, agregar
 - Vincular flujo **`crm_stage_change`**
 - Mover clientes entre etapas/embudos
+- Exigir campos y tareas antes de que el lead entre en la etapa
+
+## Requisitos de entrada
+
+Al editar la etapa, la pestaña **Requisitos** define lo que el cliente necesita para entrar.
+
+- Campos fijos: nombre, correo, documento, dirección, valor de la venta y fuente del anuncio
+- Campos personalizados de la organización
+- Tareas de una plantilla: creada, iniciada o en una columna del tablero de tareas
+
+Al arrastrar la tarjeta, nombre, correo, documento, valor y fuente del anuncio se comprueban antes de enviar. Dirección, campos personalizados y tareas se comprueban al guardar. Si falta un campo, la pantalla pide completarlo. Si falta una tarea, indica la plantilla. Quitar del embudo y reordenar en la misma columna no usan esta regla. En el movimiento masivo, quien no cumpla permanece en la etapa de origen.
+
+> Changelog: [v2026.10.21](/es/changelog/2026/10/2026.10.21)
 
 ::: warning
 No se puede eliminar un embudo/etapa con clientes. Muévalos antes.

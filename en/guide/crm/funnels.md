@@ -18,6 +18,19 @@ Sidebar → **CRM** → **Funnels**. .
 - Attach a **`crm_stage_change`** flow via `flow_start_id`
 - Optional chart role / UTM event
 - Move customers between stages/funnels
+- Require fields and tasks before a lead can enter the stage
+
+## Entry requirements
+
+On the stage editor, the **Requirements** tab sets what the customer needs in order to enter.
+
+- Fixed fields: name, email, tax ID, address, sale amount, and ad source
+- Organization custom fields
+- Tasks from a template: created, started, or in a task-board column
+
+When you drag the card, name, email, tax ID, amount, and ad source are checked before the request is sent. Address, custom fields, and tasks are checked when the move is saved. A missing field opens a form. A missing task names the template. Leaving the funnel and reordering in the same column skip this rule. In a bulk move, customers who do not qualify stay in the source stage.
+
+> Changelog: [v2026.10.21](/en/changelog/2026/10/2026.10.21)
 
 ::: warning
 You cannot delete funnels/stages that still have customers. Move them first.
