@@ -58,6 +58,14 @@ When status is **Scheduled**, you can also **Start** the appointment without con
 
 > Changelog: [v2026.9.4](/en/changelog/2026/09/2026.9.4)
 
+### Who sees appointments
+
+Anyone without the **See all appointments** permission sees only the bookings where they are the professional. The filter stays on **My appointments**. Owner, admin, and medical assistant still see the clinic schedule. Manager, agent, limited agent, sales, and doctor see their own.
+
+To open the full schedule for someone in a group, check **See all appointments** on the member’s permissions, on the group tab. The group still applies to everything else.
+
+> Changelog: [v2026.10.24](/en/changelog/2026/10/2026.10.24)
+
 ### Keyboard Shortcuts
 
 | Shortcut | Action |

@@ -58,6 +58,14 @@ Com status **Agendado**, também é possível **Iniciar** o compromisso sem conf
 
 > Changelog: [v2026.9.4](/changelog/2026/09/2026.9.4)
 
+### Quem vê os agendamentos
+
+Quem não tem a permissão **Ver todos os agendamentos** vê só os compromissos em que é o profissional. O filtro fica em **Meus Agendamentos**. Dono, administrador e assistente médico continuam vendo a agenda da clínica. Gerente, agente, atendente limitado, vendas e médico veem os seus.
+
+Para abrir a agenda inteira de alguém que está em um grupo, marque **Ver todos os agendamentos** nas permissões do membro, na aba do grupo. O grupo segue valendo para o resto.
+
+> Changelog: [v2026.10.24](/changelog/2026/10/2026.10.24)
+
 ### Atalhos de Teclado
 
 | Atalho | Ação |

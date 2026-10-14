@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.24](/changelog/2026/10/2026.10.24) | 14/10 | **Agendamentos só do profissional** — quem não vê todos fica só nos próprios compromissos; a exceção não tira a pessoa do grupo |
 | [2026.10.23](/changelog/2026/10/2026.10.23) | 14/10 | **Observação e cobrança judicializada** — nota interna e seletor de processo judicial no contrato; selo Judicial na lista |
 | [2026.10.22](/changelog/2026/10/2026.10.22) | 14/10 | **Conversas no dashboard** — a lista do filtro rápido, na mesma tela das tarefas e dos agendamentos |
 | [2026.10.21](/changelog/2026/10/2026.10.21) | 14/10 | **Requisitos do estágio** — o lead só entra se os campos e as tarefas configurados na aba Requisitos estiverem ok |
@@ -33,7 +34,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (24)
+### Novas Funcionalidades (25)
+- **Agendamentos só do profissional** (v2026.10.24) — quem não vê todos fica só nos próprios compromissos; a exceção não tira a pessoa do grupo
 - **Observação e cobrança judicializada** (v2026.10.23) — nota interna e seletor de processo judicial no contrato; selo Judicial na lista
 - **Conversas no dashboard** (v2026.10.22) — a lista do filtro rápido da caixa de entrada, na mesma tela das tarefas e dos agendamentos
 - **Requisitos do estágio** (v2026.10.21) — o lead só entra se os campos e as tarefas da aba Requisitos estiverem preenchidos

@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.24](/es/changelog/2026/10/2026.10.24) | 14/10 | **Citas solo del profesional** — quien no ve todas se queda en sus propios compromisos | [Agenda](/es/guide/schedule/#quien-ve-las-citas) |
 | [v2026.10.23](/es/changelog/2026/10/2026.10.23) | 14/10 | **Observación y cobro judicializado** — nota interna y selector de proceso judicial en el contrato; etiqueta Judicial en la lista | |
 | [v2026.10.22](/es/changelog/2026/10/2026.10.22) | 14/10 | **Conversaciones en el panel** — la lista del filtro rápido, en la misma pantalla que las tareas y las citas | |
 | [v2026.10.21](/es/changelog/2026/10/2026.10.21) | 14/10 | **Requisitos de la etapa** — el lead solo entra si los campos y las tareas de la pestaña Requisitos están listos | [Embudos](/es/guide/crm/funnels#requisitos-de-entrada) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.10.6](/es/changelog/2026/10/2026.10.6) | 01/10 | **Estado de la última conversación** — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención | [Clientes](/es/guide/crm/customers#estado-de-la-ultima-conversacion) |
 | [v2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Enlace de la reunión en la cita** — menú para Meet, Zoom o Teams, con opción de solo guardar | [Agenda](/es/guide/schedule/#enlace-de-la-reunion) |
 | [v2026.10.4](/es/changelog/2026/10/2026.10.4) | 01/10 | **Editar y eliminar en el chat interno** — el autor corrige el texto o borra el mensaje para todo el equipo | [Chat interno](/es/guide/chat/interface#chat-interno-comunicacion-entre-agentes) |
-| [v2026.10.3](/es/changelog/2026/10/2026.10.3) | 01/10 | **Descripción predeterminada de la categoría** — al crear el movimiento, la descripción viene de la categoría y se puede editar | [Financiero](/es/guide/financial/#categorias) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

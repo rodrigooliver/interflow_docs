@@ -58,6 +58,14 @@ Con estado **Agendado**, también se puede **Iniciar** la cita sin confirmar ant
 
 > Changelog: [v2026.9.4](/es/changelog/2026/09/2026.9.4)
 
+### Quién ve las citas
+
+Quien no tiene el permiso **Ver todas las citas** ve solo los compromisos en los que es el profesional. El filtro queda en **Mis citas**. El propietario, el administrador y el asistente médico siguen viendo la agenda de la clínica. El gerente, el agente, el agente limitado, ventas y el médico ven las suyas.
+
+Para abrir la agenda completa de alguien que está en un grupo, marca **Ver todas las citas** en los permisos del miembro, en la pestaña del grupo. El grupo sigue valiendo para el resto.
+
+> Changelog: [v2026.10.24](/es/changelog/2026/10/2026.10.24)
+
 ### Atajos de Teclado
 
 | Atajo | Acción |
