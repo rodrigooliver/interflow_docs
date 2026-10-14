@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.20](/es/changelog/2026/10/2026.10.20) | 14/10 | **Omitir clientes con etiquetas** — opción en la eliminación automática; activada, quien tenga cualquier etiqueta queda fuera | |
 | [v2026.10.19](/es/changelog/2026/10/2026.10.19) | 14/10 | **Campos en el Pixel** — el evento de Facebook lleva un campo del cliente o UTM; pestañas Offline y WhatsApp | [Clientes](/es/guide/crm/customers) |
 | [v2026.10.17](/es/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tablas de la organización en Configuración, con columnas, páginas, vistas y formularios | [Bases](/es/guide/settings/bases) |
 | [v2026.10.16](/es/changelog/2026/10/2026.10.16) | 07/10 | **Decisor IA** — la IA elige una salida del flujo a partir del contexto y de la descripción de cada opción | [Decisor IA](/es/guide/flows/nodes/ai-decision) |
@@ -28,7 +29,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.10.3](/es/changelog/2026/10/2026.10.3) | 01/10 | **Descripción predeterminada de la categoría** — al crear el movimiento, la descripción viene de la categoría y se puede editar | [Financiero](/es/guide/financial/#categorias) |
 | [v2026.10.2](/es/changelog/2026/10/2026.10.2) | 01/10 | **Etapa en la importación** — la planilla coloca al cliente en la etapa por el nombre, en el embudo elegido | [Clientes](/es/guide/crm/customers#etapa-en-la-planilla) |
 | [v2026.10.1](/es/changelog/2026/10/2026.10.1) | 01/10 | **Asignar etapa en masa** — coloca en el embudo a clientes sin etapa, sin flujo, píxel ni historial | [Clientes](/es/guide/crm/customers#asignar-etapa-en-masa) |
-| [v2026.9.15](/es/changelog/2026/09/2026.9.15) | 28/09 | **Decisión antes del Agente IA** — JEV elige si el agente actúa, cambia de agente o no responde | [Decisión](/es/guide/ai-agents/decision-gate) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

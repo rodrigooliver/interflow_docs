@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.20](/en/changelog/2026/10/2026.10.20) | Oct 14 | **Skip customers with tags** — option in automatic deletion; on, anyone with any tag stays out | |
 | [v2026.10.19](/en/changelog/2026/10/2026.10.19) | Oct 14 | **Pixel fields** — the Facebook event carries a customer field or UTM; Offline and WhatsApp tabs | [Customers](/en/guide/crm/customers) |
 | [v2026.10.17](/en/changelog/2026/10/2026.10.17) | Oct 14 | **Bases** — organization tables in Settings, with columns, pages, views, and forms | [Bases](/en/guide/settings/bases) |
 | [v2026.10.16](/en/changelog/2026/10/2026.10.16) | Oct 7 | **AI Decider** — the AI picks a flow output from the context and the description of each option | [AI Decider](/en/guide/flows/nodes/ai-decision) |
@@ -28,7 +29,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.3](/en/changelog/2026/10/2026.10.3) | Oct 1 | **Default category description** — a new entry gets the category text and stays editable | [Financial](/en/guide/financial/#categories) |
 | [v2026.10.2](/en/changelog/2026/10/2026.10.2) | Oct 1 | **Stage on import** — the spreadsheet places the customer on the stage by name, in the chosen funnel | [Customers](/en/guide/crm/customers#stage-in-the-spreadsheet) |
 | [v2026.10.1](/en/changelog/2026/10/2026.10.1) | Oct 1 | **Assign a stage in bulk** — places customers with no stage into the funnel, without flow, pixel, or history | [Customers](/en/guide/crm/customers#assign-stage-in-bulk) |
-| [v2026.9.15](/en/changelog/2026/09/2026.9.15) | Sep 28 | **Decision before the AI Agent** — JEV chooses whether the agent acts, switches agents, or does not reply | [Decision](/en/guide/ai-agents/decision-gate) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

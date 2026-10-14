@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.20](/changelog/2026/10/2026.10.20) | 14/10 | **Pular clientes com tags** — opção na exclusão automática; ligada, quem tem qualquer tag fica de fora | |
 | [v2026.10.19](/changelog/2026/10/2026.10.19) | 14/10 | **Campos no Pixel** — o evento do Facebook leva campo do cliente ou UTM; abas Offline e WhatsApp | [Clientes](/guide/crm/customers) |
 | [v2026.10.17](/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tabelas da organização em Configurações, com colunas, páginas, views e formulários | [Bases](/guide/settings/bases) |
 | [v2026.10.16](/changelog/2026/10/2026.10.16) | 07/10 | **Decisor IA** — a IA escolhe uma saída do fluxo a partir do contexto e da descrição de cada opção | [Decisor IA](/guide/flows/nodes/ai-decision) |
@@ -28,7 +29,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.10.3](/changelog/2026/10/2026.10.3) | 01/10 | **Descrição padrão da categoria** — ao criar o lançamento, a descrição vem da categoria e continua editável | [Financeiro](/guide/financial/#categorias) |
 | [v2026.10.2](/changelog/2026/10/2026.10.2) | 01/10 | **Estágio na importação** — a planilha coloca o cliente no estágio pelo nome, no funil escolhido | [Clientes](/guide/crm/customers#estagio-na-planilha) |
 | [v2026.10.1](/changelog/2026/10/2026.10.1) | 01/10 | **Atribuir estágio em massa** — coloca no funil clientes sem estágio, sem fluxo, pixel ou histórico | [Clientes](/guide/crm/customers#atribuir-estagio-em-massa) |
-| [v2026.9.15](/changelog/2026/09/2026.9.15) | 28/09 | **Decisão antes do Agente IA** — o JEV escolhe se o agente age, troca de agente ou não responde | [Decisão](/guide/ai-agents/decision-gate) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

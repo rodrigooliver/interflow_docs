@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.20](/changelog/2026/10/2026.10.20) | 14/10 | **Pular clientes com tags** — opção na exclusão automática; ligada, quem tem qualquer tag fica de fora |
 | [2026.10.19](/changelog/2026/10/2026.10.19) | 14/10 | **Campos no Pixel** — o evento do Facebook leva campo do cliente ou UTM; abas Offline e WhatsApp |
 | [2026.10.17](/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tabelas da organização em Configurações, com colunas, páginas, views e formulários |
 | [2026.10.16](/changelog/2026/10/2026.10.16) | 07/10 | **Decisor IA** — a IA escolhe uma saída do fluxo a partir do contexto e da descrição de cada opção |
@@ -52,5 +53,6 @@ Atualizações do mês de outubro de 2026.
 - **Estágio na importação** (v2026.10.2) — a coluna `stage` usa o nome do estágio do funil escolhido
 - **Atribuir estágio em massa** (v2026.10.1) — proprietário e administrador classificam de uma vez quem ainda não tem estágio
 
-### Melhorias (1)
+### Melhorias (2)
+- **Pular clientes com tags** (v2026.10.20) — opção na exclusão automática; ligada, quem tem qualquer tag fica de fora
 - **Exclusão automática de clientes** (v2026.10.8) — cadastro antigo e sem conversa recente; quem conversou há pouco permanece

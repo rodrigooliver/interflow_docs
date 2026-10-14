@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.20](/es/changelog/2026/10/2026.10.20) | 14/10 | **Omitir clientes con etiquetas** — opción en la eliminación automática; activada, quien tenga cualquier etiqueta queda fuera |
 | [2026.10.19](/es/changelog/2026/10/2026.10.19) | 14/10 | **Campos en el Pixel** — el evento de Facebook lleva un campo del cliente o UTM; pestañas Offline y WhatsApp |
 | [2026.10.17](/es/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tablas de la organización en Configuración, con columnas, páginas, vistas y formularios |
 | [2026.10.16](/es/changelog/2026/10/2026.10.16) | 07/10 | **Decisor IA** — la IA elige una salida del flujo a partir del contexto y de la descripción de cada opción |
@@ -52,5 +53,6 @@ Actualizaciones de octubre de 2026.
 - **Etapa en la importación** (v2026.10.2) — la columna `stage` usa el nombre de la etapa del embudo elegido
 - **Asignar etapa en masa** (v2026.10.1) — el propietario y el administrador clasifican de una vez a quien todavía no tiene etapa
 
-### Mejoras (1)
+### Mejoras (2)
+- **Omitir clientes con etiquetas** (v2026.10.20) — opción en la eliminación automática; activada, quien tenga cualquier etiqueta queda fuera
 - **Eliminación automática de clientes** (v2026.10.8) — registro antiguo y sin conversación reciente; quien conversó hace poco permanece

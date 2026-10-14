@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.20](/en/changelog/2026/10/2026.10.20) | 10/14 | **Skip customers with tags** — option in automatic deletion; on, anyone with any tag stays out |
 | [2026.10.19](/en/changelog/2026/10/2026.10.19) | 10/14 | **Pixel fields** — the Facebook event carries a customer field or UTM; Offline and WhatsApp tabs |
 | [2026.10.17](/en/changelog/2026/10/2026.10.17) | 10/14 | **Bases** — organization tables in Settings, with columns, pages, views, and forms |
 | [2026.10.16](/en/changelog/2026/10/2026.10.16) | 10/07 | **AI Decider** — the AI picks a flow output from the context and the description of each option |
@@ -52,5 +53,6 @@ Updates for October 2026.
 - **Stage on import** (v2026.10.2) — the `stage` column uses the stage name in the chosen funnel
 - **Assign a stage in bulk** (v2026.10.1) — owners and admins classify at once people who still have no stage
 
-### Improvements (1)
+### Improvements (2)
+- **Skip customers with tags** (v2026.10.20) — option in automatic deletion; on, anyone with any tag stays out
 - **Automatic customer deletion** (v2026.10.8) — old registration and no recent conversation; anyone who chatted recently stays
