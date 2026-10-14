@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.17](/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tabelas da organização em Configurações, com colunas, páginas, views e formulários |
 | [2026.10.16](/changelog/2026/10/2026.10.16) | 07/10 | **Decisor IA** — a IA escolhe uma saída do fluxo a partir do contexto e da descrição de cada opção |
 | [2026.10.15](/changelog/2026/10/2026.10.15) | 07/10 | **Origem do anúncio no Agente IA** — o fluxo já sabe quando a pessoa veio de um anúncio do Facebook ou Instagram |
 | [2026.10.14](/changelog/2026/10/2026.10.14) | 07/10 | **Excluir mensagens selecionadas** — administrador e proprietário apagam várias de uma vez, só na Interflow |
@@ -27,7 +28,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (18)
+### Novas Funcionalidades (19)
+- **Bases** (v2026.10.17) — tabelas da organização em Configurações, abaixo de Campos personalizados; descrição da coluna vira dica e texto de exemplo
 - **Decisor IA** (v2026.10.16) — a IA escolhe uma saída do fluxo a partir do contexto e da descrição de cada opção; usa o saldo de créditos de IA
 - **Origem do anúncio no Agente IA** (v2026.10.15) — o fluxo já sabe quando a pessoa veio de um anúncio do Facebook ou Instagram
 - **Excluir mensagens selecionadas** (v2026.10.14) — administrador e proprietário apagam várias de uma vez, só na Interflow; no canal elas permanecem

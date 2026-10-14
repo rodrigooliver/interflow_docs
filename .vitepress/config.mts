@@ -211,6 +211,7 @@ function getSidebar(lang: string = '') {
         items: [
           { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión General' : 'Visão Geral', link: `${prefix}/guide/settings/` },
           { text: lang === 'en' ? 'Away messages' : lang === 'es' ? 'Mensajes de ausencia' : 'Mensagens de ausência', link: `${prefix}/guide/settings/away-messages` },
+          { text: 'Bases', link: `${prefix}/guide/settings/bases` },
           { text: lang === 'en' ? 'Teams' : lang === 'es' ? 'Equipos' : 'Equipes', link: `${prefix}/guide/teams/` }
         ]
       },
@@ -389,6 +390,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/10/` },
+              { text: 'v2026.10.17', link: `${prefix}/changelog/2026/10/2026.10.17` },
               { text: 'v2026.10.16', link: `${prefix}/changelog/2026/10/2026.10.16` },
               { text: 'v2026.10.15', link: `${prefix}/changelog/2026/10/2026.10.15` },
               { text: 'v2026.10.14', link: `${prefix}/changelog/2026/10/2026.10.14` },

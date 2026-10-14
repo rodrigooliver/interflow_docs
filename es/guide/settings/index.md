@@ -24,6 +24,14 @@ Para encontrar una pantalla o una opción:
 3. En CRM y Clientes, si puedes ver todos, la búsqueda ofrece **los míos** y **todos**
 4. Ítems dentro de las páginas (ej.: firma opcional del agente) abren la pantalla y van al bloque
 
+## Bases
+
+En **Bases**, la organización arma tablas propias: columnas, páginas, vistas y formularios. El ítem está en el grupo Clientes, debajo de Campos personalizados.
+
+> Guía: [Bases](/es/guide/settings/bases)
+
+> Changelog: [v2026.10.17](/es/changelog/2026/10/2026.10.17)
+
 ## Mensajes de ausencia
 
 En **Mensajes de ausencia**, la empresa define el texto predeterminado del agente offline y las reglas generales por canal, estado, flujo y horario de cada día.

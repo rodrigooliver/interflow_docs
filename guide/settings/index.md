@@ -24,6 +24,14 @@ Para achar uma tela ou uma opção de configuração:
 3. Em CRM e Clientes, se você puder ver todos, a busca oferece **os que atendo** e **todos**
 4. Itens de dentro das páginas (ex.: assinatura opcional do atendente) abrem a tela e rolam até o bloco
 
+## Bases
+
+Em **Bases**, a organização monta tabelas próprias: colunas, páginas, views e formulários. O item fica no grupo Clientes, abaixo de Campos personalizados.
+
+> Guia: [Bases](/guide/settings/bases)
+
+> Changelog: [v2026.10.17](/changelog/2026/10/2026.10.17)
+
 ## Mensagens de ausência
 
 Em **Mensagens de ausência**, a empresa define o texto padrão do atendente offline e as regras gerais por canal, status, fluxo e horário de cada dia.

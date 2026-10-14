@@ -24,6 +24,14 @@ To find a screen or a setting:
 3. In CRM and Customers, if you can see everyone, search offers **mine** and **all**
 4. Items inside pages (e.g. optional agent signature) open the screen and scroll to the block
 
+## Bases
+
+In **Bases**, the organization builds its own tables: columns, pages, views, and forms. The item is in the Customers group, under Custom fields.
+
+> Guide: [Bases](/en/guide/settings/bases)
+
+> Changelog: [v2026.10.17](/en/changelog/2026/10/2026.10.17)
+
 ## Away messages
 
 Under **Away messages**, the company sets the default text for an offline agent and company rules by channel, status, flow, and each day's hours.

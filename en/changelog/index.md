@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.17](/en/changelog/2026/10/2026.10.17) | Oct 14 | **Bases** — organization tables in Settings, with columns, pages, views, and forms | [Bases](/en/guide/settings/bases) |
 | [v2026.10.16](/en/changelog/2026/10/2026.10.16) | Oct 7 | **AI Decider** — the AI picks a flow output from the context and the description of each option | [AI Decider](/en/guide/flows/nodes/ai-decision) |
 | [v2026.10.15](/en/changelog/2026/10/2026.10.15) | Oct 7 | **Ad origin in the AI Agent** — the flow already knows when someone came from a Facebook or Instagram ad | [AI Agents](/en/guide/ai-agents/) |
 | [v2026.10.14](/en/changelog/2026/10/2026.10.14) | Oct 7 | **Delete selected messages** — admins and owners remove several at once, only inside Interflow | [Chat](/en/guide/chat/interface#delete-selected-messages) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.9.15](/en/changelog/2026/09/2026.9.15) | Sep 28 | **Decision before the AI Agent** — JEV chooses whether the agent acts, switches agents, or does not reply | [Decision](/en/guide/ai-agents/decision-gate) |
 | [v2026.9.14](/en/changelog/2026/09/2026.9.14) | Sep 23 | **Copilot** — in-app assistant to read the screen and act with your permission | [Copilot](/en/guide/copilot) |
 | [v2026.9.13](/en/changelog/2026/09/2026.9.13) | Sep 23 | **Funnel scan** — reads the conversation, suggests the stage, and walks one organization at a time | [Scan](/en/guide/crm/funnel-scan) |
-| [v2026.9.12](/en/changelog/2026/09/2026.9.12) | Sep 18 | **Locations and duplicate schedule** — rooms with their own hours, and a setup copy | [Locations](/en/guide/schedule/locations) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse
