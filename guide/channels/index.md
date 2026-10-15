@@ -45,14 +45,14 @@ A Interflow suporta múltiplos canais de comunicação, permitindo que você cen
 
 | Recurso | WhatsApp API | WhatsApp WAHA | Instagram | Facebook | Email |
 |---------|--------------|---------------|-----------|----------|-------|
-| Mensagens de texto | | | | | |
-| Imagens | | | | | |
-| Vídeos | | | | | |
-| Áudios | | | | | |
-| Documentos | | | | | |
-| Localização | | | | | |
-| Templates | | | | | |
-| Grupos | | | | | |
+| Mensagens de texto | Sim | Sim | Sim | Sim | Sim |
+| Imagens | Sim | Sim | Sim | Sim | Anexo |
+| Vídeos | Sim | Sim | Sim | Sim | Não |
+| Áudios | Sim | Sim | Não | Sim | Não |
+| Documentos | Sim | Sim | Não | Sim | Anexo |
+| Localização | Sim | Sim | Não | Não | Não |
+| Templates | Sim | Não | Não | Não | Não |
+| Grupos | Não | Sim | Não | Não | Não |
 
 ---
 
