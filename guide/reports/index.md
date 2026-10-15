@@ -110,6 +110,17 @@ Acompanhe a produtividade da equipe com dados de volume de mensagens por atenden
 
 Ambos os relatórios oferecem seleção de período flexível, gráfico de barras ou linhas, filtro por atendente/equipe e impressão profissional.
 
+## Tempo médio de resposta {#tempo-medio-de-resposta}
+
+A média da equipe continua no dashboard. Este relatório mostra a média de cada atendente.
+
+1. Abra **Relatórios**
+2. Escolha **Tempo médio de resposta**
+3. Selecione hoje, 7 dias, 30 dias ou um intervalo livre
+4. A tabela lista o nome e a média no período
+
+Entram só respostas manuais. Quem não respondeu no período não aparece. O acesso é o mesmo dos outros relatórios: dono, administrador e gerente.
+
 ::: info Permissões
 Acesso exclusivo para **Donos**, **Administradores** e **Gerentes**.
 :::

@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.25](/en/changelog/2026/10/2026.10.25) | 10/14 | **Average response time by agent** — a Reports table with each person's average for the period |
 | [2026.10.24](/en/changelog/2026/10/2026.10.24) | 10/14 | **Appointments for the professional only** — anyone who cannot see all stays on their own bookings; the exception does not remove them from the group |
 | [2026.10.23](/en/changelog/2026/10/2026.10.23) | 10/14 | **Notes and a charge in legal proceedings** — internal note and legal-proceedings selector on the contract; Legal badge on the list |
 | [2026.10.22](/en/changelog/2026/10/2026.10.22) | 10/14 | **Conversations on the dashboard** — the quick-filter list, on the same screen as tasks and appointments |
@@ -34,7 +35,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (25)
+### New Features (26)
+- **Average response time by agent** (v2026.10.25) — a Reports table with each person's average for the period
 - **Appointments for the professional only** (v2026.10.24) — anyone who cannot see all stays on their own bookings; the exception does not remove them from the group
 - **Notes and a charge in legal proceedings** (v2026.10.23) — internal note and legal-proceedings selector on the contract; Legal badge on the list
 - **Conversations on the dashboard** (v2026.10.22) — the inbox quick-filter list, on the same screen as tasks and appointments

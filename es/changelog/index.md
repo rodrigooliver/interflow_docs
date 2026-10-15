@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.25](/es/changelog/2026/10/2026.10.25) | 14/10 | **Tiempo medio de respuesta por agente** — el promedio de cada persona en el período, en Informes | [Informes](/es/guide/reports/#tiempo-medio-de-respuesta) |
 | [v2026.10.24](/es/changelog/2026/10/2026.10.24) | 14/10 | **Citas solo del profesional** — quien no ve todas se queda en sus propios compromisos | [Agenda](/es/guide/schedule/#quien-ve-las-citas) |
 | [v2026.10.23](/es/changelog/2026/10/2026.10.23) | 14/10 | **Observación y cobro judicializado** — nota interna y selector de proceso judicial en el contrato; etiqueta Judicial en la lista | |
 | [v2026.10.22](/es/changelog/2026/10/2026.10.22) | 14/10 | **Conversaciones en el panel** — la lista del filtro rápido, en la misma pantalla que las tareas y las citas | |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.10.7](/es/changelog/2026/10/2026.10.7) | 06/10 | **Orden de los tipos de cierre** — arrastrar y soltar; la secuencia vale al cerrar, en el chat y en el flujo | [Tipos de cierre](/es/guide/chat/closure-types#orden) |
 | [v2026.10.6](/es/changelog/2026/10/2026.10.6) | 01/10 | **Estado de la última conversación** — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención | [Clientes](/es/guide/crm/customers#estado-de-la-ultima-conversacion) |
 | [v2026.10.5](/es/changelog/2026/10/2026.10.5) | 01/10 | **Enlace de la reunión en la cita** — menú para Meet, Zoom o Teams, con opción de solo guardar | [Agenda](/es/guide/schedule/#enlace-de-la-reunion) |
-| [v2026.10.4](/es/changelog/2026/10/2026.10.4) | 01/10 | **Editar y eliminar en el chat interno** — el autor corrige el texto o borra el mensaje para todo el equipo | [Chat interno](/es/guide/chat/interface#chat-interno-comunicacion-entre-agentes) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.25](/en/changelog/2026/10/2026.10.25) | Oct 14 | **Average response time by agent** — each person's average for the period, in Reports | [Reports](/en/guide/reports/#average-response-time) |
 | [v2026.10.24](/en/changelog/2026/10/2026.10.24) | Oct 14 | **Appointments for the professional only** — anyone who cannot see all stays on their own bookings | [Schedule](/en/guide/schedule/#who-sees-appointments) |
 | [v2026.10.23](/en/changelog/2026/10/2026.10.23) | Oct 14 | **Notes and a charge in legal proceedings** — internal note and legal-proceedings selector on the contract; Legal badge on the list | |
 | [v2026.10.22](/en/changelog/2026/10/2026.10.22) | Oct 14 | **Conversations on the dashboard** — the quick-filter list, on the same screen as tasks and appointments | |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.7](/en/changelog/2026/10/2026.10.7) | Oct 6 | **Closure type order** — drag and drop; the sequence applies when closing, in chat, and in the flow | [Closure types](/en/guide/chat/closure-types#order) |
 | [v2026.10.6](/en/changelog/2026/10/2026.10.6) | Oct 1 | **Last conversation status** — filter the list by waiting, in progress, finished, waiting to close, or no conversation | [Customers](/en/guide/crm/customers#last-conversation-status) |
 | [v2026.10.5](/en/changelog/2026/10/2026.10.5) | Oct 1 | **Meeting link on the appointment** — menu for Meet, Zoom, or Teams, with save-only | [Schedule](/en/guide/schedule/#meeting-link) |
-| [v2026.10.4](/en/changelog/2026/10/2026.10.4) | Oct 1 | **Edit and delete in internal chat** — the author fixes the text or deletes the message for the whole team | [Internal chat](/en/guide/chat/interface#internal-chat-communication-between-agents) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

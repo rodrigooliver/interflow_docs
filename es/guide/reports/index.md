@@ -93,6 +93,17 @@ Haz seguimiento a la productividad del equipo con datos de volumen de mensajes p
 
 Ambos reportes ofrecen selección de período flexible, gráfico de barras o líneas, filtro por agente/equipo e impresión profesional.
 
+## Tiempo medio de respuesta {#tiempo-medio-de-respuesta}
+
+El promedio del equipo sigue en el panel. Este informe muestra el promedio de cada agente.
+
+1. Abra **Informes**
+2. Elija **Tiempo medio de respuesta**
+3. Seleccione hoy, 7 días, 30 días o un intervalo libre
+4. La tabla lista el nombre y el promedio del período
+
+Solo cuentan las respuestas manuales. Quien no respondió en el período no aparece. El acceso es el mismo de los demás informes: dueño, administrador y gerente.
+
 ::: info Permisos
 Acceso exclusivo para **Dueños**, **Administradores** y **Gerentes**.
 :::

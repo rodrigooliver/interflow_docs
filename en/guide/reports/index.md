@@ -93,6 +93,17 @@ Track team productivity with message volume data by agent and by team.
 
 Both reports offer flexible period selection, bar or line chart, filter by agent/team, and professional printing.
 
+## Average response time {#average-response-time}
+
+The team average stays on the dashboard. This report shows each agent's average.
+
+1. Open **Reports**
+2. Choose **Average response time**
+3. Select today, 7 days, 30 days, or a custom range
+4. The table lists the name and the average for the period
+
+Only manual replies count. Anyone with no reply in the period is left out. Access matches the other reports: owner, administrator, and manager.
+
 ::: info Permissions
 Access exclusive to **Owners**, **Administrators**, and **Managers**.
 :::

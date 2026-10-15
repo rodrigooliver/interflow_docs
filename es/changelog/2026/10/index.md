@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.25](/es/changelog/2026/10/2026.10.25) | 14/10 | **Tiempo medio de respuesta por agente** — tabla en Informes con el promedio de cada persona en el período |
 | [2026.10.24](/es/changelog/2026/10/2026.10.24) | 14/10 | **Citas solo del profesional** — quien no ve todas se queda en sus propios compromisos; la excepción no lo saca del grupo |
 | [2026.10.23](/es/changelog/2026/10/2026.10.23) | 14/10 | **Observación y cobro judicializado** — nota interna y selector de proceso judicial en el contrato; etiqueta Judicial en la lista |
 | [2026.10.22](/es/changelog/2026/10/2026.10.22) | 14/10 | **Conversaciones en el panel** — la lista del filtro rápido, en la misma pantalla que las tareas y las citas |
@@ -34,7 +35,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (25)
+### Nuevas Funcionalidades (26)
+- **Tiempo medio de respuesta por agente** (v2026.10.25) — tabla en Informes con el promedio de cada persona en el período
 - **Citas solo del profesional** (v2026.10.24) — quien no ve todas se queda en sus propios compromisos; la excepción no lo saca del grupo
 - **Observación y cobro judicializado** (v2026.10.23) — nota interna y selector de proceso judicial en el contrato; etiqueta Judicial en la lista
 - **Conversaciones en el panel** (v2026.10.22) — la lista del filtro rápido de la bandeja, en la misma pantalla que las tareas y las citas
