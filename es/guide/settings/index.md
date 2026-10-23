@@ -125,6 +125,20 @@ La opción empieza desactivada. Solo un admin u owner la cambia en la configurac
 
 > Changelog: [v2026.8.22](/es/changelog/2026/08/2026.8.22)
 
+### Mostrar contenido de mensajes eliminados
+
+Con el interruptor activo, el historial de la conversación muestra el texto original de los mensajes borrados en WhatsApp, desvanecido y con el aviso de eliminado. Desactivado (predeterminado), solo aparece el marcador.
+
+**Cómo configurar:**
+
+1. En **Configuración** → **Preferencias de atención**, busque **Mostrar contenido de mensajes eliminados**
+2. Active el interruptor
+3. Guarde
+
+Los mensajes eliminados por lote en Interflow siguen saliendo de la lista.
+
+> Changelog: [v2026.10.26](/es/changelog/2026/10/2026.10.26)
+
 ### Reabrir atención después del cierre
 
 Si el cliente responde justo después de que el agente cierra el chat, el sistema puede **reabrir el mismo ticket** en lugar de crear una atención nueva.

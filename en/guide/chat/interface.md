@@ -251,6 +251,18 @@ When completing a service:
 5. Add notes (optional)
 6. Confirm
 
+## Deleted messages
+
+By default, a message removed on WhatsApp becomes the **Message deleted** placeholder in the history. The organization can show the original text, faded, with the same label.
+
+1. In **Settings** → **Inbox preferences**, turn on **Show deleted message content**
+2. Save
+3. In the conversation, the message stays on the timeline, lighter, so it is not mixed up with the rest
+
+The conversation list still shows only the placeholder. Messages bulk-deleted in Interflow leave the list.
+
+> Changelog: [v2026.10.26](/en/changelog/2026/10/2026.10.26)
+
 ## Delete selected messages
 
 Admins and owners can remove several messages at once, only from the Interflow history.

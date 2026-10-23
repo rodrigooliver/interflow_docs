@@ -247,6 +247,18 @@ Al concluir una atención:
 5. Agrega observaciones (opcional)
 6. Confirma
 
+## Mensajes eliminados
+
+Por defecto, un mensaje borrado en WhatsApp se convierte en el aviso **Mensaje eliminado** en el historial. La organización puede mostrar el texto original, desvanecido y con la misma etiqueta.
+
+1. En **Configuración** → **Preferencias de atención**, active **Mostrar contenido de mensajes eliminados**
+2. Guarde
+3. En la conversación, el mensaje sigue en la línea de tiempo, más claro, para no confundirse con los demás
+
+La lista de conversaciones sigue mostrando solo el aviso. Los mensajes eliminados por lote en Interflow desaparecen de la lista.
+
+> Changelog: [v2026.10.26](/es/changelog/2026/10/2026.10.26)
+
 ## Eliminar mensajes seleccionados
 
 El administrador y el propietario pueden borrar varios mensajes a la vez, solo en el historial de Interflow.

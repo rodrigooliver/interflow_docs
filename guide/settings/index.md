@@ -125,6 +125,20 @@ A opção começa desligada. Só admin ou owner altera nas configurações da or
 
 > Changelog: [v2026.8.22](/changelog/2026/08/2026.8.22)
 
+### Mostrar conteúdo de mensagens apagadas
+
+Com o toggle ligado, o histórico da conversa mostra o texto original das mensagens removidas no WhatsApp, esmaecido e com o aviso de apagada. Desligado (padrão), aparece só o placeholder.
+
+**Como configurar:**
+
+1. Em **Configurações** → **Preferências de atendimento**, localize **Mostrar conteúdo de mensagens apagadas**
+2. Ative o toggle
+3. Salve
+
+Mensagens apagadas em lote no Interflow continuam saindo da lista.
+
+> Changelog: [v2026.10.26](/changelog/2026/10/2026.10.26)
+
 ### Reabrir atendimento após o encerramento
 
 Se o cliente responder logo depois que o atendente concluiu o chat, o sistema pode **reabrir o mesmo ticket** em vez de criar um atendimento novo.

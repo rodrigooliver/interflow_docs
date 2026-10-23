@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.26](/changelog/2026/10/2026.10.26) | 23/10 | **Conteúdo de mensagens apagadas** — a organização mostra o texto original no histórico, esmaecido, com aviso de que foi removido |
 | [2026.10.25](/changelog/2026/10/2026.10.25) | 14/10 | **Tempo médio de resposta por atendente** — tabela em Relatórios com a média de cada pessoa no período |
 | [2026.10.24](/changelog/2026/10/2026.10.24) | 14/10 | **Agendamentos só do profissional** — quem não vê todos fica só nos próprios compromissos; a exceção não tira a pessoa do grupo |
 | [2026.10.23](/changelog/2026/10/2026.10.23) | 14/10 | **Observação e cobrança judicializada** — nota interna e seletor de processo judicial no contrato; selo Judicial na lista |
@@ -35,8 +36,9 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (26)
-- **Tempo médio de resposta por atendente** (v2026.10.25) — tabela em Relatórios com a média de cada pessoa no período
+### Novas Funcionalidades (27)
+- **Conteúdo de mensagens apagadas** (v2026.10.26) — a organização mostra o texto original no histórico, esmaecido, com aviso de que foi removido
+- **Tempo médio de resposta por atendente** (v2026.10.25) — tabela em Relatórios com a média de cada pessoa no período |
 - **Agendamentos só do profissional** (v2026.10.24) — quem não vê todos fica só nos próprios compromissos; a exceção não tira a pessoa do grupo
 - **Observação e cobrança judicializada** (v2026.10.23) — nota interna e seletor de processo judicial no contrato; selo Judicial na lista
 - **Conversas no dashboard** (v2026.10.22) — a lista do filtro rápido da caixa de entrada, na mesma tela das tarefas e dos agendamentos

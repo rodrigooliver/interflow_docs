@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.26](/en/changelog/2026/10/2026.10.26) | Oct 23 | **Deleted message content** — original text in the history, faded, if the organization turns it on | [Chat](/en/guide/chat/interface#deleted-messages) |
 | [v2026.10.25](/en/changelog/2026/10/2026.10.25) | Oct 14 | **Average response time by agent** — each person's average for the period, in Reports | [Reports](/en/guide/reports/#average-response-time) |
 | [v2026.10.24](/en/changelog/2026/10/2026.10.24) | Oct 14 | **Appointments for the professional only** — anyone who cannot see all stays on their own bookings | [Schedule](/en/guide/schedule/#who-sees-appointments) |
 | [v2026.10.23](/en/changelog/2026/10/2026.10.23) | Oct 14 | **Notes and a charge in legal proceedings** — internal note and legal-proceedings selector on the contract; Legal badge on the list | |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.8](/en/changelog/2026/10/2026.10.8) | Oct 6 | **Away messages** — rules by channel and hours; default sale price per channel; plan-limit deletion keeps anyone who chatted recently | [Away messages](/en/guide/settings/away-messages) |
 | [v2026.10.7](/en/changelog/2026/10/2026.10.7) | Oct 6 | **Closure type order** — drag and drop; the sequence applies when closing, in chat, and in the flow | [Closure types](/en/guide/chat/closure-types#order) |
 | [v2026.10.6](/en/changelog/2026/10/2026.10.6) | Oct 1 | **Last conversation status** — filter the list by waiting, in progress, finished, waiting to close, or no conversation | [Customers](/en/guide/crm/customers#last-conversation-status) |
-| [v2026.10.5](/en/changelog/2026/10/2026.10.5) | Oct 1 | **Meeting link on the appointment** — menu for Meet, Zoom, or Teams, with save-only | [Schedule](/en/guide/schedule/#meeting-link) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

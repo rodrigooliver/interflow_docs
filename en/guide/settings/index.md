@@ -125,6 +125,20 @@ The option starts off. Only an admin or owner can change it in organization sett
 
 > Changelog: [v2026.8.22](/en/changelog/2026/08/2026.8.22)
 
+### Show deleted message content
+
+With the toggle on, the conversation history shows the original text of messages removed on WhatsApp, faded and labeled as deleted. Off (default), only the placeholder appears.
+
+**How to configure:**
+
+1. In **Settings** → **Inbox preferences**, find **Show deleted message content**
+2. Turn the toggle on
+3. Save
+
+Messages bulk-deleted in Interflow still leave the list.
+
+> Changelog: [v2026.10.26](/en/changelog/2026/10/2026.10.26)
+
 ### Reopen the chat after closing
 
 If the customer replies right after the agent closes the chat, the system can **reopen the same ticket** instead of creating a new conversation.

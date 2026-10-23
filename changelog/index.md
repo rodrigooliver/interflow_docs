@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.26](/changelog/2026/10/2026.10.26) | 23/10 | **Conteúdo de mensagens apagadas** — o texto original no histórico, esmaecido, se a organização ligar | [Chat](/guide/chat/interface#mensagens-apagadas) |
 | [v2026.10.25](/changelog/2026/10/2026.10.25) | 14/10 | **Tempo médio de resposta por atendente** — a média de cada pessoa no período, em Relatórios | [Relatórios](/guide/reports/#tempo-medio-de-resposta) |
 | [v2026.10.24](/changelog/2026/10/2026.10.24) | 14/10 | **Agendamentos só do profissional** — quem não vê todos fica só nos próprios compromissos | [Agenda](/guide/schedule/#quem-ve-os-agendamentos) |
 | [v2026.10.23](/changelog/2026/10/2026.10.23) | 14/10 | **Observação e cobrança judicializada** — nota interna e seletor de processo judicial no contrato; selo Judicial na lista | |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.10.8](/changelog/2026/10/2026.10.8) | 06/10 | **Mensagens de ausência** — regras por canal e horário; preço de venda padrão do canal; a exclusão por limite preserva quem conversou há pouco | [Ausência](/guide/settings/away-messages) |
 | [v2026.10.7](/changelog/2026/10/2026.10.7) | 06/10 | **Ordem dos tipos de encerramento** — arraste e solte; a sequência vale no fechamento, no chat e no fluxo | [Tipos de encerramento](/guide/chat/closure-types#ordem) |
 | [v2026.10.6](/changelog/2026/10/2026.10.6) | 01/10 | **Status da última conversa** — filtra a lista por aguardando, em atendimento, finalizado, ag. fechamento ou sem atendimento | [Clientes](/guide/crm/customers#status-da-ultima-conversa) |
-| [v2026.10.5](/changelog/2026/10/2026.10.5) | 01/10 | **Link da reunião no agendamento** — menu para Meet, Zoom ou Teams, com opção de só salvar | [Agenda](/guide/schedule/#link-da-reuniao) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

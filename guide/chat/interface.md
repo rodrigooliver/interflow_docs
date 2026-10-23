@@ -350,6 +350,18 @@ Digite o texto e use **Gravar baseado em texto** para gerar um áudio com as voz
 
 Guia: [Vozes do sistema](/guide/chat/system-voices)
 
+## Mensagens apagadas
+
+Por padrão, uma mensagem removida no WhatsApp vira o aviso **Mensagem apagada** no histórico. A organização pode mostrar o texto original, esmaecido e com o mesmo rótulo.
+
+1. Em **Configurações** → **Preferências de atendimento**, ative **Mostrar conteúdo de mensagens apagadas**
+2. Salve
+3. Na conversa, a mensagem permanece na linha do tempo, mais clara, para não se confundir com as outras
+
+A lista de conversas continua mostrando só o aviso. Mensagens apagadas em lote no Interflow somem da lista.
+
+> Changelog: [v2026.10.26](/changelog/2026/10/2026.10.26)
+
 ## Excluir mensagens selecionadas
 
 Administrador e proprietário podem limpar várias mensagens de uma vez, só no histórico da Interflow.
