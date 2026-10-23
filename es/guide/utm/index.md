@@ -71,6 +71,23 @@ No es necesario (ni posible) vincular el form a una campaña: la atribución vie
 
 Los píxeles viven a nivel de cuenta (no de campaña ni de conjunto).
 
+## Clientes por anuncio
+
+En **UTM → Clientes por anuncio** aparece cada origen (ID externo del anuncio) con la cantidad de clientes.
+
+En la lista:
+
+- Filtre por **etapa**, **tag** y **canal** — los filtros se combinan
+- **Desde** y **Hasta** usan el día en la zona horaria del navegador (el último día incluye hasta las 23:59 en su reloj)
+
+En el detalle de un anuncio:
+
+- Agrupe por **Embudo**, **Tag** o **Canal**
+- La tabla muestra el **canal de llegada** (primer chat individual) y el **precio de venta**
+- La exportación CSV incluye canal y valor
+
+> Changelog: [v2026.10.27](/es/changelog/2026/10/2026.10.27)
+
 ## Integración con CRM
 
 Combine la atribución por anuncio con [embudos](/es/guide/crm/funnels) y [clientes](/es/guide/crm/customers): tags y etapas pueden aplicarse con las acciones del Instant Form al llegar el lead.

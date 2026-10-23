@@ -10,6 +10,8 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.28](/en/changelog/2026/10/2026.10.28) | Oct 23 | **Groups on quick filters** — one-level submenu; the group only opens, the inner item cuts the queue | [Filters](/en/guide/chat/filters#groups-on-quick-filters) |
+| [v2026.10.27](/en/changelog/2026/10/2026.10.27) | Oct 23 | **Channel, filters, and sale price on customers by ad** — group by channel; filter by tag and channel; value on the list | [UTM](/en/guide/utm/#customers-by-ad) |
 | [v2026.10.26](/en/changelog/2026/10/2026.10.26) | Oct 23 | **Deleted message content** — original text in the history, faded, if the organization turns it on | [Chat](/en/guide/chat/interface#deleted-messages) |
 | [v2026.10.25](/en/changelog/2026/10/2026.10.25) | Oct 14 | **Average response time by agent** — each person's average for the period, in Reports | [Reports](/en/guide/reports/#average-response-time) |
 | [v2026.10.24](/en/changelog/2026/10/2026.10.24) | Oct 14 | **Appointments for the professional only** — anyone who cannot see all stays on their own bookings | [Schedule](/en/guide/schedule/#who-sees-appointments) |
@@ -28,8 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.10](/en/changelog/2026/10/2026.10.10) | Oct 6 | **Punch control** — one punch of each type per day, day status, and overtime with approval | [Time clock](/en/guide/hr/#punch-control) |
 | [v2026.10.9](/en/changelog/2026/10/2026.10.9) | Oct 6 | **Voice catalog** — ElevenLabs on the AI credit balance | [Voices](/en/guide/chat/system-voices#interflow-catalog) |
 | [v2026.10.8](/en/changelog/2026/10/2026.10.8) | Oct 6 | **Away messages** — rules by channel and hours; default sale price per channel; plan-limit deletion keeps anyone who chatted recently | [Away messages](/en/guide/settings/away-messages) |
-| [v2026.10.7](/en/changelog/2026/10/2026.10.7) | Oct 6 | **Closure type order** — drag and drop; the sequence applies when closing, in chat, and in the flow | [Closure types](/en/guide/chat/closure-types#order) |
-| [v2026.10.6](/en/changelog/2026/10/2026.10.6) | Oct 1 | **Last conversation status** — filter the list by waiting, in progress, finished, waiting to close, or no conversation | [Customers](/en/guide/crm/customers#last-conversation-status) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

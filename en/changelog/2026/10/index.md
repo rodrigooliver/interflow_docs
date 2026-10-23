@@ -6,6 +6,8 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.28](/en/changelog/2026/10/2026.10.28) | 10/23 | **Groups on quick filters** — one-level submenu; the group only opens, the inner item cuts the queue |
+| [2026.10.27](/en/changelog/2026/10/2026.10.27) | 10/23 | **Channel, filters, and sale price on customers by ad** — group and filter by channel and tag; value column; local-time date range |
 | [2026.10.26](/en/changelog/2026/10/2026.10.26) | 10/23 | **Deleted message content** — the organization shows the original text in the history, faded, labeled as removed |
 | [2026.10.25](/en/changelog/2026/10/2026.10.25) | 10/14 | **Average response time by agent** — a Reports table with each person's average for the period |
 | [2026.10.24](/en/changelog/2026/10/2026.10.24) | 10/14 | **Appointments for the professional only** — anyone who cannot see all stays on their own bookings; the exception does not remove them from the group |
@@ -36,7 +38,9 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (27)
+### New Features (29)
+- **Groups on quick filters** (v2026.10.28) — one-level submenu; the group only opens the menu; the inner item cuts the queue
+- **Channel, filters, and sale price on customers by ad** (v2026.10.27) — group and filter by channel and tag; value column on the detail and export
 - **Deleted message content** (v2026.10.26) — the organization shows the original text in the history, faded, labeled as removed
 - **Average response time by agent** (v2026.10.25) — a Reports table with each person's average for the period |
 - **Appointments for the professional only** (v2026.10.24) — anyone who cannot see all stays on their own bookings; the exception does not remove them from the group
@@ -65,6 +69,7 @@ Updates for October 2026.
 - **Stage on import** (v2026.10.2) — the `stage` column uses the stage name in the chosen funnel
 - **Assign a stage in bulk** (v2026.10.1) — owners and admins classify at once people who still have no stage
 
-### Improvements (2)
+### Improvements (3)
+- **From/To period in local time** (v2026.10.27) — the last day of the ads filter covers until 23:59 in the browser time zone
 - **Skip customers with tags** (v2026.10.20) — option in automatic deletion; on, anyone with any tag stays out
 - **Automatic customer deletion** (v2026.10.8) — old registration and no recent conversation; anyone who chatted recently stays

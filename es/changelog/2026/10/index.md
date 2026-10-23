@@ -6,6 +6,8 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.28](/es/changelog/2026/10/2026.10.28) | 23/10 | **Grupos en los filtros rápidos** — submenú de un nivel; el grupo solo abre, el ítem de dentro recorta la cola |
+| [2026.10.27](/es/changelog/2026/10/2026.10.27) | 23/10 | **Canal, filtros y precio en clientes por anuncio** — agrupar y filtrar por canal y tag; columna de valor; período en horario local |
 | [2026.10.26](/es/changelog/2026/10/2026.10.26) | 23/10 | **Contenido de mensajes eliminados** — la organización muestra el texto original en el historial, desvanecido, con aviso de que fue borrado |
 | [2026.10.25](/es/changelog/2026/10/2026.10.25) | 14/10 | **Tiempo medio de respuesta por agente** — tabla en Informes con el promedio de cada persona en el período |
 | [2026.10.24](/es/changelog/2026/10/2026.10.24) | 14/10 | **Citas solo del profesional** — quien no ve todas se queda en sus propios compromisos; la excepción no lo saca del grupo |
@@ -36,7 +38,9 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (27)
+### Nuevas Funcionalidades (29)
+- **Grupos en los filtros rápidos** (v2026.10.28) — submenú de un nivel; el grupo solo abre el menú; el ítem de dentro recorta la cola
+- **Canal, filtros y precio en clientes por anuncio** (v2026.10.27) — agrupar y filtrar por canal y tag; columna de valor en el detalle y en la exportación
 - **Contenido de mensajes eliminados** (v2026.10.26) — la organización muestra el texto original en el historial, desvanecido, con aviso de que fue borrado
 - **Tiempo medio de respuesta por agente** (v2026.10.25) — tabla en Informes con el promedio de cada persona en el período |
 - **Citas solo del profesional** (v2026.10.24) — quien no ve todas se queda en sus propios compromisos; la excepción no lo saca del grupo
@@ -65,6 +69,7 @@ Actualizaciones de octubre de 2026.
 - **Etapa en la importación** (v2026.10.2) — la columna `stage` usa el nombre de la etapa del embudo elegido
 - **Asignar etapa en masa** (v2026.10.1) — el propietario y el administrador clasifican de una vez a quien todavía no tiene etapa
 
-### Mejoras (2)
+### Mejoras (3)
+- **Período Desde/Hasta en horario local** (v2026.10.27) — el último día del filtro de anuncios cubre hasta las 23:59 en la zona del navegador
 - **Omitir clientes con etiquetas** (v2026.10.20) — opción en la eliminación automática; activada, quien tenga cualquier etiqueta queda fuera
 - **Eliminación automática de clientes** (v2026.10.8) — registro antiguo y sin conversación reciente; quien conversó hace poco permanece

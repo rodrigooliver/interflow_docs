@@ -10,6 +10,8 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.28](/changelog/2026/10/2026.10.28) | 23/10 | **Grupos nos filtros rápidos** — submenu de um nível; o grupo só abre, o item de dentro recorta a fila | [Filtros](/guide/chat/filters#grupos-nos-filtros-rapidos) |
+| [v2026.10.27](/changelog/2026/10/2026.10.27) | 23/10 | **Canal, filtros e preço nos clientes por anúncio** — agrupar por canal; filtrar por tag e canal; valor na lista | [UTM](/guide/utm/#clientes-por-anuncio) |
 | [v2026.10.26](/changelog/2026/10/2026.10.26) | 23/10 | **Conteúdo de mensagens apagadas** — o texto original no histórico, esmaecido, se a organização ligar | [Chat](/guide/chat/interface#mensagens-apagadas) |
 | [v2026.10.25](/changelog/2026/10/2026.10.25) | 14/10 | **Tempo médio de resposta por atendente** — a média de cada pessoa no período, em Relatórios | [Relatórios](/guide/reports/#tempo-medio-de-resposta) |
 | [v2026.10.24](/changelog/2026/10/2026.10.24) | 14/10 | **Agendamentos só do profissional** — quem não vê todos fica só nos próprios compromissos | [Agenda](/guide/schedule/#quem-ve-os-agendamentos) |
@@ -28,8 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.10.10](/changelog/2026/10/2026.10.10) | 06/10 | **Controle das marcações** — uma batida de cada tipo por dia, status do dia e hora extra com autorização | [Ponto](/guide/hr/#controle-das-marcacoes) |
 | [v2026.10.9](/changelog/2026/10/2026.10.9) | 06/10 | **Catálogo de vozes** — ElevenLabs no saldo de créditos de IA | [Vozes](/guide/chat/system-voices#catalogo-interflow) |
 | [v2026.10.8](/changelog/2026/10/2026.10.8) | 06/10 | **Mensagens de ausência** — regras por canal e horário; preço de venda padrão do canal; a exclusão por limite preserva quem conversou há pouco | [Ausência](/guide/settings/away-messages) |
-| [v2026.10.7](/changelog/2026/10/2026.10.7) | 06/10 | **Ordem dos tipos de encerramento** — arraste e solte; a sequência vale no fechamento, no chat e no fluxo | [Tipos de encerramento](/guide/chat/closure-types#ordem) |
-| [v2026.10.6](/changelog/2026/10/2026.10.6) | 01/10 | **Status da última conversa** — filtra a lista por aguardando, em atendimento, finalizado, ag. fechamento ou sem atendimento | [Clientes](/guide/crm/customers#status-da-ultima-conversa) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

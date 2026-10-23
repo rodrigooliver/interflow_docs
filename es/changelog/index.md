@@ -10,6 +10,8 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.28](/es/changelog/2026/10/2026.10.28) | 23/10 | **Grupos en los filtros rápidos** — submenú de un nivel; el grupo solo abre, el ítem de dentro recorta la cola | [Filtros](/es/guide/chat/filters#grupos-en-los-filtros-rapidos) |
+| [v2026.10.27](/es/changelog/2026/10/2026.10.27) | 23/10 | **Canal, filtros y precio en clientes por anuncio** — agrupar por canal; filtrar por tag y canal; valor en la lista | [UTM](/es/guide/utm/#clientes-por-anuncio) |
 | [v2026.10.26](/es/changelog/2026/10/2026.10.26) | 23/10 | **Contenido de mensajes eliminados** — el texto original en el historial, desvanecido, si la organización lo activa | [Chat](/es/guide/chat/interface#mensajes-eliminados) |
 | [v2026.10.25](/es/changelog/2026/10/2026.10.25) | 14/10 | **Tiempo medio de respuesta por agente** — el promedio de cada persona en el período, en Informes | [Informes](/es/guide/reports/#tiempo-medio-de-respuesta) |
 | [v2026.10.24](/es/changelog/2026/10/2026.10.24) | 14/10 | **Citas solo del profesional** — quien no ve todas se queda en sus propios compromisos | [Agenda](/es/guide/schedule/#quien-ve-las-citas) |
@@ -28,8 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.10.10](/es/changelog/2026/10/2026.10.10) | 06/10 | **Control de las marcaciones** — una marcación de cada tipo por día, estado del día y hora extra con autorización | [Fichaje](/es/guide/hr/#control-de-las-marcaciones) |
 | [v2026.10.9](/es/changelog/2026/10/2026.10.9) | 06/10 | **Catálogo de voces** — ElevenLabs en el saldo de créditos de IA | [Voces](/es/guide/chat/system-voices#catalogo-interflow) |
 | [v2026.10.8](/es/changelog/2026/10/2026.10.8) | 06/10 | **Mensajes de ausencia** — reglas por canal y horario; precio de venta predeterminado del canal; la eliminación por límite conserva a quien conversó hace poco | [Ausencia](/es/guide/settings/away-messages) |
-| [v2026.10.7](/es/changelog/2026/10/2026.10.7) | 06/10 | **Orden de los tipos de cierre** — arrastrar y soltar; la secuencia vale al cerrar, en el chat y en el flujo | [Tipos de cierre](/es/guide/chat/closure-types#orden) |
-| [v2026.10.6](/es/changelog/2026/10/2026.10.6) | 01/10 | **Estado de la última conversación** — filtra la lista por en espera, en atención, finalizado, esp. cierre o sin atención | [Clientes](/es/guide/crm/customers#estado-de-la-ultima-conversacion) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

@@ -2,7 +2,7 @@
 
 Além dos filtros rápidos (Minhas, Não atribuídas, Grupos), o painel avançado recorta a fila por equipe, tag, canal, status, funil, **mensagens não lidas** e **campos personalizados do cliente**.
 
-Changelog: [v2026.8.25](/changelog/2026/08/2026.8.25) · [v2026.8.17](/changelog/2026/08/2026.8.17) · [v2026.8.14](/changelog/2026/08/2026.8.14)
+Changelog: [v2026.10.28](/changelog/2026/10/2026.10.28) · [v2026.8.25](/changelog/2026/08/2026.8.25) · [v2026.8.17](/changelog/2026/08/2026.8.17) · [v2026.8.14](/changelog/2026/08/2026.8.14)
 
 ---
 
@@ -69,6 +69,21 @@ O botão do header continua disponível para refinar a lista na hora. Trocar par
 
 ---
 
+## Grupos nos filtros rápidos
+
+Proprietário e administrador podem **juntar atalhos** em um grupo de um nível. O grupo só abre o menu; o recorte da fila é o item de dentro.
+
+1. Em **Chats**, abra **Configurar filtros rápidos**
+2. Arraste um atalho até a zona **Agrupar** de outro — os dois viram filhos de um grupo novo (nome, ícone e cor do destino)
+3. Para só mudar a ordem, solte no card, não em Agrupar
+4. Salve — na caixa de entrada o grupo abre o dropdown; no layout em lista dá para **fixar** o grupo
+
+Filtros já dentro de um grupo não entram em outro (um nível). Se o item ativo não tiver contador ligado, o chip não mostra a soma dos irmãos. Atalhos ocultos aparecem esmaecidos na configuração.
+
+No celular, em modo só ícones, o filtro atual mostra o nome; os outros ícones ficam na largura padrão e rolam se não couberem.
+
+---
+
 ## Contadores nos filtros rápidos
 
 Cada atalho pode mostrar o **número** de conversas ao lado do nome. Antes o teto era 4 para a empresa inteira; agora dá para ligar o contador em **até 12** filtros.
@@ -111,3 +126,4 @@ Os campos saem desmarcados por padrão. Grupo ou conversa sem cliente fica com a
 
 - [Interface de Chat](/guide/chat/interface#filtros-personalizados)
 - [Clientes — Campos personalizados](/guide/crm/customers#campos-personalizados)
+- Changelog: [v2026.10.28 — Grupos nos filtros rápidos](/changelog/2026/10/2026.10.28)

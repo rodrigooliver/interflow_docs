@@ -2,7 +2,7 @@
 
 Además de los filtros rápidos (Mías, Sin asignar, Grupos), el panel avanzado recorta la cola por equipo, tag, canal, estado, embudo, **mensajes no leídos** y **campos personalizados del cliente**.
 
-Changelog: [v2026.8.25](/es/changelog/2026/08/2026.8.25) · [v2026.8.17](/es/changelog/2026/08/2026.8.17) · [v2026.8.14](/es/changelog/2026/08/2026.8.14)
+Changelog: [v2026.10.28](/es/changelog/2026/10/2026.10.28) · [v2026.8.25](/es/changelog/2026/08/2026.8.25) · [v2026.8.17](/es/changelog/2026/08/2026.8.17) · [v2026.8.14](/es/changelog/2026/08/2026.8.14)
 
 ---
 
@@ -69,6 +69,21 @@ El botón del encabezado sigue disponible para refinar la lista en el momento. C
 
 ---
 
+## Grupos en los filtros rápidos
+
+El propietario y el administrador pueden **juntar atajos** en un grupo de un nivel. El grupo solo abre el menú; el recorte de la cola es el ítem de dentro.
+
+1. En **Chats**, abre **Configurar filtros rápidos**
+2. Arrastra un atajo hasta la zona **Agrupar** de otro — los dos pasan a ser hijos de un grupo nuevo (nombre, ícono y color del destino)
+3. Para solo cambiar el orden, suelta en la tarjeta, no en Agrupar
+4. Guarda — en la bandeja el grupo abre el menú; en el diseño de lista se puede **fijar** el grupo
+
+Los filtros que ya están dentro de un grupo no entran en otro (un nivel). Si el ítem activo no tiene contador, el chip no muestra la suma de los hermanos. Los atajos ocultos aparecen atenuados en la configuración.
+
+En el celular, en modo solo íconos, el filtro actual muestra el nombre; los demás íconos quedan en el ancho estándar y se desplazan si no caben.
+
+---
+
 ## Contadores en los filtros rápidos
 
 Cada atajo puede mostrar el **número** de conversaciones junto al nombre. Antes el tope era 4 para toda la empresa; ahora puedes activar el contador en **hasta 12** filtros.
@@ -111,3 +126,4 @@ Los campos salen desmarcados por defecto. Un grupo o conversación sin cliente q
 
 - [Interfaz de Chat](/es/guide/chat/interface#filtros-personalizados)
 - [Clientes — Campos personalizados](/es/guide/crm/customers#campos-personalizados)
+- Changelog: [v2026.10.28 — Grupos en los filtros rápidos](/es/changelog/2026/10/2026.10.28)

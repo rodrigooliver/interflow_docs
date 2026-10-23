@@ -71,6 +71,23 @@ You do not need (and cannot) bind the form to a campaign: attribution comes from
 
 Pixels live at the account level (not campaign or ad set).
 
+## Customers by ad
+
+**UTM → Customers by ad** lists each origin (the ad’s external ID) with the customer count.
+
+On the list:
+
+- Filter by **stage**, **tag**, and **channel** — filters combine
+- **From** and **To** use the calendar day in the browser time zone (the last day includes until 23:59 on your clock)
+
+On an ad’s detail:
+
+- Group by **Funnel**, **Tag**, or **Channel**
+- The table shows the arrival **channel** (first individual chat) and the **sale price**
+- The CSV export includes channel and value
+
+> Changelog: [v2026.10.27](/en/changelog/2026/10/2026.10.27)
+
 ## CRM integration
 
 Combine ad attribution with [funnels](/en/guide/crm/funnels) and [customers](/en/guide/crm/customers): tags and stages can be applied by Instant Form actions when the lead arrives.

@@ -6,6 +6,8 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.28](/changelog/2026/10/2026.10.28) | 23/10 | **Grupos nos filtros rápidos** — submenu de um nível; o grupo só abre, o item de dentro recorta a fila |
+| [2026.10.27](/changelog/2026/10/2026.10.27) | 23/10 | **Canal, filtros e preço nos clientes por anúncio** — agrupar e filtrar por canal e tag; coluna de valor; período no horário local |
 | [2026.10.26](/changelog/2026/10/2026.10.26) | 23/10 | **Conteúdo de mensagens apagadas** — a organização mostra o texto original no histórico, esmaecido, com aviso de que foi removido |
 | [2026.10.25](/changelog/2026/10/2026.10.25) | 14/10 | **Tempo médio de resposta por atendente** — tabela em Relatórios com a média de cada pessoa no período |
 | [2026.10.24](/changelog/2026/10/2026.10.24) | 14/10 | **Agendamentos só do profissional** — quem não vê todos fica só nos próprios compromissos; a exceção não tira a pessoa do grupo |
@@ -36,8 +38,10 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (27)
-- **Conteúdo de mensagens apagadas** (v2026.10.26) — a organização mostra o texto original no histórico, esmaecido, com aviso de que foi removido
+### Novas Funcionalidades (29)
+- **Grupos nos filtros rápidos** (v2026.10.28) — submenu de um nível; o grupo só abre o menu; o item de dentro recorta a fila
+- **Canal, filtros e preço nos clientes por anúncio** (v2026.10.27) — agrupar e filtrar por canal e tag; coluna de valor no detalhe e na exportação
+- **Conteúdo de mensagens apagadas** (v2026.10.26) — a organização mostra o texto original no histórico, esmaecido, com aviso de que foi removido |
 - **Tempo médio de resposta por atendente** (v2026.10.25) — tabela em Relatórios com a média de cada pessoa no período |
 - **Agendamentos só do profissional** (v2026.10.24) — quem não vê todos fica só nos próprios compromissos; a exceção não tira a pessoa do grupo
 - **Observação e cobrança judicializada** (v2026.10.23) — nota interna e seletor de processo judicial no contrato; selo Judicial na lista
@@ -65,6 +69,7 @@ Atualizações do mês de outubro de 2026.
 - **Estágio na importação** (v2026.10.2) — a coluna `stage` usa o nome do estágio do funil escolhido
 - **Atribuir estágio em massa** (v2026.10.1) — proprietário e administrador classificam de uma vez quem ainda não tem estágio
 
-### Melhorias (2)
+### Melhorias (3)
+- **Período De/Até no horário local** (v2026.10.27) — o último dia do filtro de anúncios cobre até 23:59 no fuso do navegador
 - **Pular clientes com tags** (v2026.10.20) — opção na exclusão automática; ligada, quem tem qualquer tag fica de fora
 - **Exclusão automática de clientes** (v2026.10.8) — cadastro antigo e sem conversa recente; quem conversou há pouco permanece

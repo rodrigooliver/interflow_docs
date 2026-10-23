@@ -2,7 +2,7 @@
 
 Besides the quick filters (Mine, Unassigned, Groups), the advanced panel cuts the queue by team, tag, channel, status, funnel, **unread messages**, and **customer custom fields**.
 
-Changelog: [v2026.8.25](/en/changelog/2026/08/2026.8.25) · [v2026.8.17](/en/changelog/2026/08/2026.8.17) · [v2026.8.14](/en/changelog/2026/08/2026.8.14)
+Changelog: [v2026.10.28](/en/changelog/2026/10/2026.10.28) · [v2026.8.25](/en/changelog/2026/08/2026.8.25) · [v2026.8.17](/en/changelog/2026/08/2026.8.17) · [v2026.8.14](/en/changelog/2026/08/2026.8.14)
 
 ---
 
@@ -69,6 +69,21 @@ The header button is still available to refine the list on the spot. Switching t
 
 ---
 
+## Groups on quick filters
+
+Owners and admins can **join shortcuts** into a one-level group. The group only opens the menu; the queue cut is the item inside.
+
+1. In **Chats**, open **Configure quick filters**
+2. Drag a shortcut onto another’s **Group** zone — both become children of a new group (target name, icon, and color)
+3. To change order only, drop on the card, not on Group
+4. Save — in the inbox the group opens the dropdown; in the list layout you can **pin** the group
+
+Filters already inside a group cannot go into another (one level). If the active item has no counter on, the chip does not show the siblings’ total. Hidden shortcuts appear faded in configuration.
+
+On mobile, in icon-only mode, the current filter shows its name; the other icons stay at standard width and scroll if they don’t fit.
+
+---
+
 ## Counters on quick filters
 
 Each shortcut can show the **number** of conversations next to the name. The cap used to be 4 for the whole company; you can now turn the counter on for **up to 12** filters.
@@ -111,3 +126,4 @@ Fields start unchecked. A group or conversation without a customer gets an empty
 
 - [Chat Interface](/en/guide/chat/interface#custom-filters)
 - [Customers — Custom Fields](/en/guide/crm/customers#custom-fields)
+- Changelog: [v2026.10.28 — Groups on quick filters](/en/changelog/2026/10/2026.10.28)

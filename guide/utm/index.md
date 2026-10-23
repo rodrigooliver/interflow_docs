@@ -71,6 +71,23 @@ Não é necessário (nem possível) vincular o form a uma campanha: a atribuiç�
 
 Pixels ficam no nível da conta (não da campanha nem do conjunto).
 
+## Clientes por anúncio
+
+Em **UTM → Clientes por anúncio** aparece cada origem (ID externo do anúncio) com a quantidade de clientes.
+
+Na lista:
+
+- Filtre por **estágio**, **tag** e **canal** — os filtros se combinam
+- **De** e **Até** usam o dia no fuso do navegador (o último dia inclui até 23:59 no seu relógio)
+
+No detalhe de um anúncio:
+
+- Agrupe por **Funil**, **Tag** ou **Canal**
+- A tabela mostra o **canal de chegada** (primeiro chat individual) e o **preço de venda**
+- A exportação CSV inclui canal e valor
+
+> Changelog: [v2026.10.27](/changelog/2026/10/2026.10.27)
+
 ## Integração com CRM
 
 Combine atribuição por anúncio com [funis](/guide/crm/funnels) e [clientes](/guide/crm/customers): tags e estágios podem ser aplicados pelas ações do Instant Form no momento do lead.
