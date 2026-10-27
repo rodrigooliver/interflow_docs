@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.34](/changelog/2026/10/2026.10.34) | 27/10 | **Apelido do template oficial** — nome familiar só na Interflow; o texto enviado ao cliente não muda |
 | [2026.10.33](/changelog/2026/10/2026.10.33) | 27/10 | **Exportar conversa** — o histórico completo em PDF, TXT, CSV ou JSON, no menu da conversa |
 | [2026.10.32](/changelog/2026/10/2026.10.32) | 27/10 | **Foto de perfil** — a pessoa escolhe uma foto; quem não envia continua com a inicial do nome |
 | [2026.10.31](/changelog/2026/10/2026.10.31) | 27/10 | **Natureza da categoria** — fixa ou variável; o relatório soma gastos fixos, variáveis e a margem |
@@ -43,7 +44,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (34)
+### Novas Funcionalidades (35)
+- **Apelido do template oficial** (v2026.10.34) — nome familiar só na Interflow; o texto enviado ao cliente não muda
 - **Exportar conversa** (v2026.10.33) — o histórico completo em PDF, TXT, CSV ou JSON, no menu da conversa
 - **Foto de perfil** (v2026.10.32) — a pessoa escolhe uma foto na própria conta; quem não envia continua com a inicial do nome
 - **Natureza fixa ou variável** (v2026.10.31) — a categoria marca o comportamento; o relatório soma gastos fixos, variáveis e a margem

@@ -58,6 +58,7 @@ Condition: channel = WhatsApp Official
 
 - Available only for WhatsApp Official channels
 - Lists only approved templates
+- If the template has a nickname, the list shows that name and still sends the official name
 - Each template must belong to the conversation channel
 - Not available in bulk silent campaign flows
 

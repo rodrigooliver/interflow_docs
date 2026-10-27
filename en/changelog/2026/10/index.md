@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.34](/en/changelog/2026/10/2026.10.34) | 10/27 | **Official template nickname** — a familiar name only inside Interflow; the text sent to the customer stays the same |
 | [2026.10.33](/en/changelog/2026/10/2026.10.33) | 10/27 | **Export a conversation** — the full history as PDF, TXT, CSV, or JSON, from the conversation menu |
 | [2026.10.32](/en/changelog/2026/10/2026.10.32) | 10/27 | **Profile photo** — each person picks a photo; anyone without one still shows the initial of their name |
 | [2026.10.31](/en/changelog/2026/10/2026.10.31) | 10/27 | **Category behavior** — fixed or variable; the report sums fixed costs, variable costs, and the margin |
@@ -43,7 +44,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (34)
+### New Features (35)
+- **Official template nickname** (v2026.10.34) — a familiar name only inside Interflow; the text sent to the customer stays the same
 - **Export a conversation** (v2026.10.33) — the full history as PDF, TXT, CSV, or JSON, from the conversation menu
 - **Profile photo** (v2026.10.32) — each person picks a photo on their own account; anyone without one still shows the initial of their name
 - **Fixed or variable behavior** (v2026.10.31) — the category marks the behavior; the report sums fixed costs, variable costs, and the margin

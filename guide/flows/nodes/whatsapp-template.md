@@ -58,6 +58,7 @@ Condição: canal = WhatsApp Oficial
 
 - Disponível somente para canais WhatsApp Oficial
 - Lista apenas templates com status aprovado
+- Se o template tiver apelido, a lista mostra esse nome e mantém o nome oficial no envio
 - Cada template deve pertencer ao mesmo canal da conversa
 - Não está disponível em fluxos de campanha silenciosa em massa
 

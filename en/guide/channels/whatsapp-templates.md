@@ -14,6 +14,12 @@ Sync status from Meta. Only **APPROVED** templates can be used in chat and [bulk
 | PENDING | Under review |
 | REJECTED | Fix and resubmit |
 
+## Nickname {#nickname}
+
+On the template form, **Nickname or description** is optional. It shows on cards, in search, and in the lists where the team picks a model — including when someone types `/` in the official-channel chat.
+
+The official Meta name and the text sent to the customer do not change. Saving only the nickname does not send the template back for approval, and syncing does not erase that text.
+
 ## Related
 
 - [WhatsApp Business](/en/guide/channels/whatsapp-business)

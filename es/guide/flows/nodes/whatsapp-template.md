@@ -58,6 +58,7 @@ Condición: canal = WhatsApp Oficial
 
 - Disponible solo para canales de WhatsApp Oficial
 - Lista únicamente plantillas aprobadas
+- Si la plantilla tiene apodo, la lista muestra ese nombre y sigue enviando el nombre oficial
 - Cada plantilla debe pertenecer al mismo canal de la conversación
 - No está disponible en flujos de campaña silenciosa masiva
 
