@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.31](/changelog/2026/10/2026.10.31) | 27/10 | **Natureza da categoria** — fixa ou variável; o relatório soma gastos fixos, variáveis e a margem | [Financeiro](/guide/financial/#categorias) |
 | [v2026.10.30](/changelog/2026/10/2026.10.30) | 27/10 | **Chamar no WhatsApp** — o atalho do agendamento abre o WhatsApp pessoal no número do cliente | [Agenda](/guide/schedule/#chamar-no-whatsapp) |
 | [v2026.10.29](/changelog/2026/10/2026.10.29) | 27/10 | **Importar extrato** — CSV ou OFX no caixa, com revisão linha a linha | [Importar extrato](/guide/financial/import) |
 | [v2026.10.28](/changelog/2026/10/2026.10.28) | 23/10 | **Grupos nos filtros rápidos** — submenu de um nível; o grupo só abre, o item de dentro recorta a fila | [Filtros](/guide/chat/filters#grupos-nos-filtros-rapidos) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.10.13](/changelog/2026/10/2026.10.13) | 07/10 | **Transcrever áudio** — GPT no chat, com reserva no Scribe, e arquivo na nota do cliente | [Notas](/guide/crm/customers#transcrever-audio) |
 | [v2026.10.12](/changelog/2026/10/2026.10.12) | 07/10 | **Ditar** — a fala vira texto no chat e no copiloto | [Chat](/guide/chat/interface#ditar-transformar-em-texto) |
 | [v2026.10.11](/changelog/2026/10/2026.10.11) | 06/10 | **Gemini** — conversa, raciocínio e vozes, com chave própria ou créditos de IA | [Gemini](/guide/integrations/gemini) |
-| [v2026.10.10](/changelog/2026/10/2026.10.10) | 06/10 | **Controle das marcações** — uma batida de cada tipo por dia, status do dia e hora extra com autorização | [Ponto](/guide/hr/#controle-das-marcacoes) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

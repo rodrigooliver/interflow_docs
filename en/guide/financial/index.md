@@ -192,6 +192,7 @@ In **Financial → Categories**:
 - Use a parent category to create subcategories
 - Set a color
 - Optionally set a **default transaction description**: when you create income or an expense, picking the category fills the description, which stays editable
+- Optionally set the **behavior**: **Fixed** (does not change with volume, such as rent) or **Variable** (follows sales or production, such as commission). Unclassified categories stay out of the behavior totals. Split a mixed cost into two categories. Changing the behavior reclassifies that category's history
 - A category that still has subcategories cannot be deleted
 
 **Generate with AI** asks for a description of the business, suggests income and expense categories (with a default description), and saves only after you review them.
@@ -224,9 +225,9 @@ Cost centers are optional and exclusive to expenses. Categories describe **the t
 
 In **Financial → Reports** you only see registers where you are an **admin** or have **Can view reports**:
 
-1. Pick a period and, optionally, a register (or all you can access)
+1. Pick a period, optionally a register (or all you can access), and optionally a cost center
 2. **Cash flow** — settled and open income and expenses over time (transfers between registers are excluded)
-3. **By category** — settled and open, with the parent category
+3. **By category** — settled and open, with the parent category. At the top: **fixed costs**, **variable costs**, and **contribution margin** (period income minus variable expenses). Posted and still-open amounts both count. Unclassified categories stay out of those three totals
 4. **By cost center** — settled, open, and total expenses by area
 5. **Receivable / payable** — aging on the period end date (current, 1–30, 31–60, 61–90, 90+)
 6. **By register** — balance and movement comparison

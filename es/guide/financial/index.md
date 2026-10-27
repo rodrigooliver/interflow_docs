@@ -192,6 +192,7 @@ En **Financiero → Categorías**:
 - Use una categoría padre para crear subcategorías
 - Defina un color
 - Opcionalmente, informe la **descripción predeterminada del movimiento**: al crear un ingreso o un gasto, elegir la categoría completa la descripción, que se puede editar
+- Opcionalmente, marque la **naturaleza**: **Fija** (no cambia con el volumen, como el alquiler) o **Variable** (acompaña ventas o producción, como la comisión). Sin clasificación, la categoría queda fuera de los totales de naturaleza. Un costo mixto se divide en dos categorías. Cambiar la naturaleza reclasifica su historial
 - No se puede eliminar una categoría que todavía tiene subcategorías
 
 **Generar con IA** pide una descripción del negocio, sugiere categorías de ingreso y gasto (con descripción predeterminada) y solo guarda después de la revisión.
@@ -224,9 +225,9 @@ El centro de coste es opcional y exclusivo para gastos. Las categorías describe
 
 En **Financiero → Informes financieros** solo ves las cajas en las que eres **admin** o tienes **Puede ver informes**:
 
-1. Elige el período y, si quieres, una caja (o todas las que puedes acceder)
+1. Elige el período, si quieres una caja (o todas las que puedes acceder) y, si quieres, un centro de coste
 2. **Flujo de caja** — ingresos y gastos realizados y en abierto en el tiempo (las transferencias entre cajas quedan fuera)
-3. **Por categoría** — realizado y en abierto, con la categoría padre
+3. **Por categoría** — realizado y en abierto, con la categoría padre. Arriba: **gastos fijos**, **gastos variables** y **margen de contribución** (ingresos del período menos gastos variables). Entran lo ya lanzado y lo que sigue abierto. Una categoría sin naturaleza queda fuera de esos tres totales
 4. **Por centro de coste** — gastos realizados, pendientes y totales por área
 5. **Por cobrar / pagar** — aging en la fecha final del período (al día, 1–30, 31–60, 61–90, 90+)
 6. **Por caja** — comparativo de saldo y movimiento

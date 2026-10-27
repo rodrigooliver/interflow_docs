@@ -192,6 +192,7 @@ Em **Financeiro → Categorias**:
 - Use categoria pai para criar subcategorias
 - Defina uma cor
 - Opcionalmente, informe a **descrição padrão do lançamento**: ao criar uma receita ou despesa, escolher a categoria preenche a descrição, que continua editável
+- Opcionalmente, marque a **natureza**: **Fixa** (não muda com o volume, como aluguel) ou **Variável** (acompanha vendas ou produção, como comissão). Sem classificação, a categoria fica de fora dos totais de natureza. Conta mista vira duas categorias. Trocar a natureza reclassifica o histórico dela
 - Não é possível excluir uma categoria que ainda tem subcategorias
 
 **Gerar com IA** pede uma descrição do negócio, sugere categorias de receita e despesa (com descrição padrão) e só grava depois da revisão.
@@ -224,9 +225,9 @@ O centro de custo é opcional e exclusivo para despesas. Categorias indicam **o 
 
 Em **Financeiro → Relatórios** você vê só os caixas em que é **admin** ou tem **Pode ver relatórios**:
 
-1. Escolha o período e, se quiser, um caixa (ou todos os que você acessa)
+1. Escolha o período, se quiser um caixa (ou todos os que você acessa) e, se quiser, um centro de custo
 2. **Fluxo de caixa** — receitas e despesas realizadas e em aberto no tempo (transferências entre caixas ficam de fora)
-3. **Por categoria** — realizado e em aberto, com a categoria pai
+3. **Por categoria** — realizado e em aberto, com a categoria pai. No topo: **gastos fixos**, **gastos variáveis** e **margem de contribuição** (receitas do período menos despesas variáveis). Entram o que já foi lançado e o que ainda está em aberto. Categoria sem natureza fica de fora desses três totais
 4. **Por centro de custo** — despesas realizadas, em aberto e totais por área
 5. **A receber / a pagar** — aging na data final do período (em dia, 1–30, 31–60, 61–90, 90+)
 6. **Por caixa** — comparativo de saldo e movimento
