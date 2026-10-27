@@ -110,6 +110,7 @@ When a customer has multiple active conversations:
 - **Header** - Customer name, channel, status, Quick WhatsApp button
 - **Pinned Messages** - Important messages at the top
 - **History** - All exchanged messages
+- **Export conversation** - Downloads the full history as PDF, TXT, CSV, or JSON
 - **Text field** - For typing messages
 - **Attachments** - Send files
 - **Record from text** - Turn typed text into audio with [system voices](/en/guide/chat/system-voices)
@@ -117,6 +118,20 @@ When a customer has multiple active conversations:
 - **Emojis** - Emoji selector
 - **Quick replies** - Message shortcuts
 - **AI Commands** - AI shortcuts (Ctrl+J)
+
+### Export a conversation
+
+In the conversation menu, **Export conversation** builds the full history and starts the download.
+
+1. Open the conversation
+2. Open the conversation menu
+3. Choose **Export conversation** and a format: **PDF**, **TXT**, **CSV**, or **JSON**
+
+PDF, TXT, and CSV are for reading and spreadsheets. JSON includes the same data with the original type name (`user_closed`, `text`) and the translation, the `senderType`, the local date, and the UTC date.
+
+While history pages load, the conversation shows that the export is in progress.
+
+> Changelog: [v2026.10.33](/en/changelog/2026/10/2026.10.33)
 
 ### Pinned Messages
 

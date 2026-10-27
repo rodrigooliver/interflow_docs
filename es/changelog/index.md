@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.33](/es/changelog/2026/10/2026.10.33) | 27/10 | **Exportar conversación** — el historial completo en PDF, TXT, CSV o JSON, en el menú de la conversación | [Chat](/es/guide/chat/interface#exportar-conversacion) |
 | [v2026.10.32](/es/changelog/2026/10/2026.10.32) | 27/10 | **Foto de perfil** — la persona elige una foto; quien no envía sigue con la inicial del nombre | |
 | [v2026.10.31](/es/changelog/2026/10/2026.10.31) | 27/10 | **Naturaleza de la categoría** — fija o variable; el informe suma gastos fijos, variables y el margen | [Financiero](/es/guide/financial/#categorias) |
 | [v2026.10.30](/es/changelog/2026/10/2026.10.30) | 27/10 | **Llamar por WhatsApp** — el atajo de la cita abre el WhatsApp personal en el número del cliente | [Agenda](/es/guide/schedule/#llamar-por-whatsapp) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.10.15](/es/changelog/2026/10/2026.10.15) | 07/10 | **Origen del anuncio en el Agente IA** — el flujo ya sabe cuándo la persona vino de un anuncio de Facebook o Instagram | [Agentes de IA](/es/guide/ai-agents/) |
 | [v2026.10.14](/es/changelog/2026/10/2026.10.14) | 07/10 | **Eliminar mensajes seleccionados** — administrador y propietario borran varios a la vez, solo en Interflow | [Chat](/es/guide/chat/interface#eliminar-mensajes-seleccionados) |
 | [v2026.10.13](/es/changelog/2026/10/2026.10.13) | 07/10 | **Transcribir audio** — GPT en el chat, con Scribe de reserva, y archivo en la nota del cliente | [Notas](/es/guide/crm/customers#transcribir-audio) |
-| [v2026.10.12](/es/changelog/2026/10/2026.10.12) | 07/10 | **Dictar** — la voz se vuelve texto en el chat y en el copiloto | [Chat](/es/guide/chat/interface#dictar-convertir-en-texto) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

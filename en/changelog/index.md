@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.33](/en/changelog/2026/10/2026.10.33) | Oct 27 | **Export a conversation** — the full history as PDF, TXT, CSV, or JSON, from the conversation menu | [Chat](/en/guide/chat/interface#export-a-conversation) |
 | [v2026.10.32](/en/changelog/2026/10/2026.10.32) | Oct 27 | **Profile photo** — each person picks a photo; anyone without one still shows the initial of their name | |
 | [v2026.10.31](/en/changelog/2026/10/2026.10.31) | Oct 27 | **Category behavior** — fixed or variable; the report sums fixed costs, variable costs, and the margin | [Financial](/en/guide/financial/#categories) |
 | [v2026.10.30](/en/changelog/2026/10/2026.10.30) | Oct 27 | **Call on WhatsApp** — the appointment shortcut opens personal WhatsApp on the customer's number | [Schedule](/en/guide/schedule/#call-on-whatsapp) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.15](/en/changelog/2026/10/2026.10.15) | Oct 7 | **Ad origin in the AI Agent** — the flow already knows when someone came from a Facebook or Instagram ad | [AI Agents](/en/guide/ai-agents/) |
 | [v2026.10.14](/en/changelog/2026/10/2026.10.14) | Oct 7 | **Delete selected messages** — admins and owners remove several at once, only inside Interflow | [Chat](/en/guide/chat/interface#delete-selected-messages) |
 | [v2026.10.13](/en/changelog/2026/10/2026.10.13) | Oct 7 | **Transcribe audio** — GPT in chat, with Scribe as backup, and a file into the customer note | [Notes](/en/guide/crm/customers#transcribe-audio) |
-| [v2026.10.12](/en/changelog/2026/10/2026.10.12) | Oct 7 | **Dictate** — speech becomes text in chat and in the copilot | [Chat](/en/guide/chat/interface#dictate-turn-into-text) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

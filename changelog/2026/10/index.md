@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.33](/changelog/2026/10/2026.10.33) | 27/10 | **Exportar conversa** — o histórico completo em PDF, TXT, CSV ou JSON, no menu da conversa |
 | [2026.10.32](/changelog/2026/10/2026.10.32) | 27/10 | **Foto de perfil** — a pessoa escolhe uma foto; quem não envia continua com a inicial do nome |
 | [2026.10.31](/changelog/2026/10/2026.10.31) | 27/10 | **Natureza da categoria** — fixa ou variável; o relatório soma gastos fixos, variáveis e a margem |
 | [2026.10.30](/changelog/2026/10/2026.10.30) | 27/10 | **Chamar no WhatsApp** — atalho no agendamento abre o WhatsApp pessoal no número do cliente |
@@ -42,7 +43,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (33)
+### Novas Funcionalidades (34)
+- **Exportar conversa** (v2026.10.33) — o histórico completo em PDF, TXT, CSV ou JSON, no menu da conversa
 - **Foto de perfil** (v2026.10.32) — a pessoa escolhe uma foto na própria conta; quem não envia continua com a inicial do nome
 - **Natureza fixa ou variável** (v2026.10.31) — a categoria marca o comportamento; o relatório soma gastos fixos, variáveis e a margem
 - **Chamar no WhatsApp** (v2026.10.30) — atalho no agendamento abre o WhatsApp pessoal no número do cliente, com a saudação já preenchida

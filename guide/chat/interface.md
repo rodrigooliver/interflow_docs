@@ -110,6 +110,7 @@ Quando um cliente tem várias conversas ativas simultaneamente:
 - **Header** - Nome do cliente, canal, status, botão WhatsApp Rápido
 - **Mensagens Fixadas** - Mensagens importantes no topo
 - **Histórico** - Todas as mensagens trocadas
+- **Exportar conversa** - Baixa o histórico completo em PDF, TXT, CSV ou JSON
 - **Campo de texto** - Para digitar mensagens
 - **Anexos** - Enviar arquivos
 - **Gravar baseado em texto** - Transformar o texto digitado em áudio com as [vozes do sistema](/guide/chat/system-voices)
@@ -117,6 +118,20 @@ Quando um cliente tem várias conversas ativas simultaneamente:
 - **Emojis** - Seletor de emojis
 - **Respostas rápidas** - Atalhos de mensagem
 - **Comandos IA** - Atalhos para IA (Ctrl+J)
+
+### Exportar conversa
+
+No menu da conversa, **Exportar conversa** gera o histórico completo e inicia o download.
+
+1. Abra a conversa
+2. Abra o menu da conversa
+3. Escolha **Exportar conversa** e o formato: **PDF**, **TXT**, **CSV** ou **JSON**
+
+PDF, TXT e CSV servem para leitura e planilha. O JSON traz os mesmos dados com o nome original do tipo (`user_closed`, `text`) e a tradução, o `senderType`, a data local e a data em UTC.
+
+Enquanto as páginas do histórico são carregadas, a conversa mostra que a exportação está em andamento.
+
+> Changelog: [v2026.10.33](/changelog/2026/10/2026.10.33)
 
 ### Mensagens Fixadas
 
