@@ -41,7 +41,8 @@ function getSidebar(lang: string = '') {
           { text: 'WhatsApp WAHA', link: `${prefix}/guide/channels/whatsapp-waha` },
           { text: 'Instagram', link: `${prefix}/guide/channels/instagram` },
           { text: 'Facebook Messenger', link: `${prefix}/guide/channels/facebook` },
-          { text: 'Email', link: `${prefix}/guide/channels/email` }
+          { text: 'Email', link: `${prefix}/guide/channels/email` },
+          { text: 'Telegram Bot', link: `${prefix}/guide/channels/telegram` }
         ]
       },
       {
@@ -390,6 +391,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/10/` },
+              { text: 'v2026.10.35', link: `${prefix}/changelog/2026/10/2026.10.35` },
               { text: 'v2026.10.34', link: `${prefix}/changelog/2026/10/2026.10.34` },
               { text: 'v2026.10.33', link: `${prefix}/changelog/2026/10/2026.10.33` },
               { text: 'v2026.10.32', link: `${prefix}/changelog/2026/10/2026.10.32` },

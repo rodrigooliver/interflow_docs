@@ -1,6 +1,6 @@
 # Multichannel Support
 
-Centralize WhatsApp, Instagram, Facebook Messenger, and Email in a single inbox, with unified history and real-time connection status.
+Centralize WhatsApp, Instagram, Facebook Messenger, Email, and Telegram Bot in a single inbox, with unified history and real-time connection status.
 
 ## What it's for
 
@@ -13,7 +13,7 @@ Centralize WhatsApp, Instagram, Facebook Messenger, and Email in a single inbox,
 
 - Connect **WhatsApp Business API** (official) with Meta-approved templates, 24-hour window, and payment support
 - Connect **WhatsApp WAHA** via QR Code, with group support, history sync, and use as an auxiliary channel alongside Official
-- Integrate **Instagram Direct**, **Facebook Messenger**, and **Email** (IMAP/SMTP) with threading and attachments
+- Integrate **Instagram Direct**, **Facebook Messenger**, **Email** (IMAP/SMTP), and **Telegram Bot** with attachments
 - Monitor each channel's status: Connected, Reconnecting, or Disconnected
 - Use [WhatsApp templates](/en/guide/channels/whatsapp-templates) for conversations outside the 24-hour window
 - Transcribe audio automatically via [OpenAI Whisper](/en/guide/channels/audio-transcription) — useful for AI and readable history
@@ -36,5 +36,6 @@ Centralize WhatsApp, Instagram, Facebook Messenger, and Email in a single inbox,
 - [Instagram](/en/guide/channels/instagram)
 - [Facebook Messenger](/en/guide/channels/facebook)
 - [Email](/en/guide/channels/email)
+- [Telegram Bot](/en/guide/channels/telegram)
 - [Audio transcription](/en/guide/channels/audio-transcription)
 - [Start-chat visibility](/en/guide/channels/start-chat-visibility)

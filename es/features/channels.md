@@ -1,6 +1,6 @@
 # Atención multicanal
 
-Centraliza WhatsApp, Instagram, Facebook Messenger y Email en una sola bandeja de entrada, con historial unificado y estado de conexión en tiempo real.
+Centraliza WhatsApp, Instagram, Facebook Messenger, Email y Telegram Bot en una sola bandeja de entrada, con historial unificado y estado de conexión en tiempo real.
 
 ## Para qué sirve
 
@@ -13,7 +13,7 @@ Centraliza WhatsApp, Instagram, Facebook Messenger y Email en una sola bandeja d
 
 - Conectar **WhatsApp Business API** (oficial) con plantillas aprobadas por Meta, ventana de 24 h y soporte de pagos
 - Conectar **WhatsApp WAHA** vía código QR, con soporte de grupos, sincronización de historial y uso como canal auxiliar del Official
-- Integrar **Instagram Direct**, **Facebook Messenger** y **Email** (IMAP/SMTP) con threading y archivos adjuntos
+- Integrar **Instagram Direct**, **Facebook Messenger**, **Email** (IMAP/SMTP) y **Telegram Bot** con archivos adjuntos
 - Monitorear el estado de cada canal: Conectado, Reconectando o Desconectado
 - Usar [plantillas de WhatsApp](/es/guide/channels/whatsapp-templates) para conversaciones fuera de la ventana de 24 h
 - Transcribir audios automáticamente con [OpenAI Whisper](/es/guide/channels/audio-transcription) — útil para IA e historial legible
@@ -36,5 +36,6 @@ Centraliza WhatsApp, Instagram, Facebook Messenger y Email en una sola bandeja d
 - [Instagram](/es/guide/channels/instagram)
 - [Facebook Messenger](/es/guide/channels/facebook)
 - [Email](/es/guide/channels/email)
+- [Telegram Bot](/es/guide/channels/telegram)
 - [Transcripción de audio](/es/guide/channels/audio-transcription)
 - [Visibilidad al iniciar conversación](/es/guide/channels/start-chat-visibility)

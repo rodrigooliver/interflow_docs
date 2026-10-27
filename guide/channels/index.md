@@ -1,6 +1,6 @@
 ---
 title: Canais de Atendimento
-description: Como conectar canais. O botão Novo Canal abre a escolha de WhatsApp, Instagram, Facebook ou e-mail.
+description: Como conectar canais. O botão Novo Canal abre a escolha de WhatsApp, Instagram, Facebook, e-mail ou Telegram Bot.
 app: /app/settings/channels
 ---
 
@@ -38,6 +38,12 @@ A Interflow suporta múltiplos canais de comunicação, permitindo que você cen
 | Integração | Descrição |
 |------------|-----------|
 | [Email IMAP/SMTP](/guide/channels/email) | Integração com servidor de email |
+
+### Telegram
+
+| Integração | Descrição |
+|------------|-----------|
+| [Telegram Bot](/guide/channels/telegram) | Mensagens diretas e grupos de um bot |
 
 ---
 

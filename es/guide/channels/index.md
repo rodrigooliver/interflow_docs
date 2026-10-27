@@ -39,6 +39,12 @@ Interflow soporta múltiples canales de comunicación, permitiendo que centralic
 |------------|-----------|
 | [Email IMAP/SMTP](/es/guide/channels/email) | Integración con servidor de email |
 
+### Telegram
+
+| Integración | Descripción |
+|------------|-----------|
+| [Telegram Bot](/es/guide/channels/telegram) | Mensajes directos y grupos de un bot |
+
 ---
 
 ## Comparativo de Canales

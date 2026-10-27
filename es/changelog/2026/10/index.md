@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.35](/es/changelog/2026/10/2026.10.35) | 27/10 | **Telegram Bot** — mensajes directos y grupos de un bot en la misma bandeja |
 | [2026.10.34](/es/changelog/2026/10/2026.10.34) | 27/10 | **Apodo de la plantilla oficial** — nombre familiar solo en Interflow; el texto enviado al cliente no cambia |
 | [2026.10.33](/es/changelog/2026/10/2026.10.33) | 27/10 | **Exportar conversación** — el historial completo en PDF, TXT, CSV o JSON, en el menú de la conversación |
 | [2026.10.32](/es/changelog/2026/10/2026.10.32) | 27/10 | **Foto de perfil** — la persona elige una foto; quien no envía sigue con la inicial del nombre |
@@ -44,7 +45,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (35)
+### Nuevas Funcionalidades (36)
+- **Telegram Bot** (v2026.10.35) — mensajes directos y grupos de un bot en la misma bandeja
 - **Apodo de la plantilla oficial** (v2026.10.34) — nombre familiar solo en Interflow; el texto enviado al cliente no cambia
 - **Exportar conversación** (v2026.10.33) — el historial completo en PDF, TXT, CSV o JSON, en el menú de la conversación
 - **Foto de perfil** (v2026.10.32) — la persona elige una foto en su propia cuenta; quien no envía sigue con la inicial del nombre
