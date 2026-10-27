@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.32](/en/changelog/2026/10/2026.10.32) | Oct 27 | **Profile photo** — each person picks a photo; anyone without one still shows the initial of their name | |
 | [v2026.10.31](/en/changelog/2026/10/2026.10.31) | Oct 27 | **Category behavior** — fixed or variable; the report sums fixed costs, variable costs, and the margin | [Financial](/en/guide/financial/#categories) |
 | [v2026.10.30](/en/changelog/2026/10/2026.10.30) | Oct 27 | **Call on WhatsApp** — the appointment shortcut opens personal WhatsApp on the customer's number | [Schedule](/en/guide/schedule/#call-on-whatsapp) |
 | [v2026.10.29](/en/changelog/2026/10/2026.10.29) | Oct 27 | **Import a statement** — CSV or OFX onto the register, reviewed line by line | [Import a statement](/en/guide/financial/import) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.14](/en/changelog/2026/10/2026.10.14) | Oct 7 | **Delete selected messages** — admins and owners remove several at once, only inside Interflow | [Chat](/en/guide/chat/interface#delete-selected-messages) |
 | [v2026.10.13](/en/changelog/2026/10/2026.10.13) | Oct 7 | **Transcribe audio** — GPT in chat, with Scribe as backup, and a file into the customer note | [Notes](/en/guide/crm/customers#transcribe-audio) |
 | [v2026.10.12](/en/changelog/2026/10/2026.10.12) | Oct 7 | **Dictate** — speech becomes text in chat and in the copilot | [Chat](/en/guide/chat/interface#dictate-turn-into-text) |
-| [v2026.10.11](/en/changelog/2026/10/2026.10.11) | Oct 6 | **Gemini** — conversation, reasoning, and voices, with your own key or AI credits | [Gemini](/en/guide/integrations/gemini) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

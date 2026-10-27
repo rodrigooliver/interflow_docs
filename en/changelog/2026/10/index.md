@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.32](/en/changelog/2026/10/2026.10.32) | 10/27 | **Profile photo** — each person picks a photo; anyone without one still shows the initial of their name |
 | [2026.10.31](/en/changelog/2026/10/2026.10.31) | 10/27 | **Category behavior** — fixed or variable; the report sums fixed costs, variable costs, and the margin |
 | [2026.10.30](/en/changelog/2026/10/2026.10.30) | 10/27 | **Call on WhatsApp** — the appointment shortcut opens personal WhatsApp on the customer's number |
 | [2026.10.29](/en/changelog/2026/10/2026.10.29) | 10/27 | **Import a statement** — CSV or OFX onto the register, line by line; a missing category can be registered on the spot |
@@ -41,7 +42,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (32)
+### New Features (33)
+- **Profile photo** (v2026.10.32) — each person picks a photo on their own account; anyone without one still shows the initial of their name
 - **Fixed or variable behavior** (v2026.10.31) — the category marks the behavior; the report sums fixed costs, variable costs, and the margin
 - **Call on WhatsApp** (v2026.10.30) — the appointment shortcut opens personal WhatsApp on the customer's number, with the greeting already filled in
 - **Import a statement** (v2026.10.29) — CSV or OFX onto the register, with review; a missing category can be registered and applied to matching lines

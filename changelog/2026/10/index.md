@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.32](/changelog/2026/10/2026.10.32) | 27/10 | **Foto de perfil** — a pessoa escolhe uma foto; quem não envia continua com a inicial do nome |
 | [2026.10.31](/changelog/2026/10/2026.10.31) | 27/10 | **Natureza da categoria** — fixa ou variável; o relatório soma gastos fixos, variáveis e a margem |
 | [2026.10.30](/changelog/2026/10/2026.10.30) | 27/10 | **Chamar no WhatsApp** — atalho no agendamento abre o WhatsApp pessoal no número do cliente |
 | [2026.10.29](/changelog/2026/10/2026.10.29) | 27/10 | **Importar extrato** — CSV ou OFX no caixa, linha a linha; categoria nova do arquivo pode ser cadastrada na hora |
@@ -41,7 +42,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (32)
+### Novas Funcionalidades (33)
+- **Foto de perfil** (v2026.10.32) — a pessoa escolhe uma foto na própria conta; quem não envia continua com a inicial do nome
 - **Natureza fixa ou variável** (v2026.10.31) — a categoria marca o comportamento; o relatório soma gastos fixos, variáveis e a margem
 - **Chamar no WhatsApp** (v2026.10.30) — atalho no agendamento abre o WhatsApp pessoal no número do cliente, com a saudação já preenchida
 - **Importar extrato** (v2026.10.29) — CSV ou OFX no caixa, com revisão; categoria ausente pode ser cadastrada e aplicada nas linhas iguais

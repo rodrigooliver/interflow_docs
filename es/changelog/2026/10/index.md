@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.32](/es/changelog/2026/10/2026.10.32) | 27/10 | **Foto de perfil** — la persona elige una foto; quien no envía sigue con la inicial del nombre |
 | [2026.10.31](/es/changelog/2026/10/2026.10.31) | 27/10 | **Naturaleza de la categoría** — fija o variable; el informe suma gastos fijos, variables y el margen |
 | [2026.10.30](/es/changelog/2026/10/2026.10.30) | 27/10 | **Llamar por WhatsApp** — el atajo de la cita abre el WhatsApp personal en el número del cliente |
 | [2026.10.29](/es/changelog/2026/10/2026.10.29) | 27/10 | **Importar extracto** — CSV u OFX en la caja, línea a línea; una categoría que falta se puede registrar en el momento |
@@ -41,7 +42,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (32)
+### Nuevas Funcionalidades (33)
+- **Foto de perfil** (v2026.10.32) — la persona elige una foto en su propia cuenta; quien no envía sigue con la inicial del nombre
 - **Naturaleza fija o variable** (v2026.10.31) — la categoría marca el comportamiento; el informe suma gastos fijos, variables y el margen
 - **Llamar por WhatsApp** (v2026.10.30) — el atajo de la cita abre el WhatsApp personal en el número del cliente, con el saludo ya escrito
 - **Importar extracto** (v2026.10.29) — CSV u OFX en la caja, con revisión; una categoría ausente se registra y se aplica a las líneas iguales
