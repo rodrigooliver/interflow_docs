@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.30](/en/changelog/2026/10/2026.10.30) | Oct 27 | **Call on WhatsApp** — the appointment shortcut opens personal WhatsApp on the customer's number | [Schedule](/en/guide/schedule/#call-on-whatsapp) |
 | [v2026.10.29](/en/changelog/2026/10/2026.10.29) | Oct 27 | **Import a statement** — CSV or OFX onto the register, reviewed line by line | [Import a statement](/en/guide/financial/import) |
 | [v2026.10.28](/en/changelog/2026/10/2026.10.28) | Oct 23 | **Groups on quick filters** — one-level submenu; the group only opens, the inner item cuts the queue | [Filters](/en/guide/chat/filters#groups-on-quick-filters) |
 | [v2026.10.27](/en/changelog/2026/10/2026.10.27) | Oct 23 | **Channel, filters, and sale price on customers by ad** — group by channel; filter by tag and channel; value on the list | [UTM](/en/guide/utm/#customers-by-ad) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.12](/en/changelog/2026/10/2026.10.12) | Oct 7 | **Dictate** — speech becomes text in chat and in the copilot | [Chat](/en/guide/chat/interface#dictate-turn-into-text) |
 | [v2026.10.11](/en/changelog/2026/10/2026.10.11) | Oct 6 | **Gemini** — conversation, reasoning, and voices, with your own key or AI credits | [Gemini](/en/guide/integrations/gemini) |
 | [v2026.10.10](/en/changelog/2026/10/2026.10.10) | Oct 6 | **Punch control** — one punch of each type per day, day status, and overtime with approval | [Time clock](/en/guide/hr/#punch-control) |
-| [v2026.10.9](/en/changelog/2026/10/2026.10.9) | Oct 6 | **Voice catalog** — ElevenLabs on the AI credit balance | [Voices](/en/guide/chat/system-voices#interflow-catalog) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

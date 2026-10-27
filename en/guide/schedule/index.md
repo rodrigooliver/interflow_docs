@@ -90,6 +90,12 @@ To open the full schedule for someone in a group, check **See all appointments**
    - **Notes**: Internal notes
 3. Click **"Save"**
 
+### Call on WhatsApp
+
+When editing the schedule, turn on **Direct customer WhatsApp**. The list, the calendar, and the appointment actions menu then show **Call on WhatsApp**. The click opens personal WhatsApp on the saved number, with **Hello, {name}** already filled in. It does not go through the support channel.
+
+The number must include the country code. Without a valid phone, the button stays hidden.
+
 ### Appointment via Flow
 
 Configure automated flows to allow customers to schedule directly via WhatsApp or other channels. The AI can:

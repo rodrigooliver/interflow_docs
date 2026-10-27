@@ -6,6 +6,7 @@ Atualizações do mês de outubro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.10.30](/changelog/2026/10/2026.10.30) | 27/10 | **Chamar no WhatsApp** — atalho no agendamento abre o WhatsApp pessoal no número do cliente |
 | [2026.10.29](/changelog/2026/10/2026.10.29) | 27/10 | **Importar extrato** — CSV ou OFX no caixa, linha a linha; categoria nova do arquivo pode ser cadastrada na hora |
 | [2026.10.28](/changelog/2026/10/2026.10.28) | 23/10 | **Grupos nos filtros rápidos** — submenu de um nível; o grupo só abre, o item de dentro recorta a fila |
 | [2026.10.27](/changelog/2026/10/2026.10.27) | 23/10 | **Canal, filtros e preço nos clientes por anúncio** — agrupar e filtrar por canal e tag; coluna de valor; período no horário local |
@@ -39,7 +40,8 @@ Atualizações do mês de outubro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (30)
+### Novas Funcionalidades (31)
+- **Chamar no WhatsApp** (v2026.10.30) — atalho no agendamento abre o WhatsApp pessoal no número do cliente, com a saudação já preenchida
 - **Importar extrato** (v2026.10.29) — CSV ou OFX no caixa, com revisão; categoria ausente pode ser cadastrada e aplicada nas linhas iguais
 - **Grupos nos filtros rápidos** (v2026.10.28) — submenu de um nível; o grupo só abre o menu; o item de dentro recorta a fila
 - **Canal, filtros e preço nos clientes por anúncio** (v2026.10.27) — agrupar e filtrar por canal e tag; coluna de valor no detalhe e na exportação
@@ -71,7 +73,8 @@ Atualizações do mês de outubro de 2026.
 - **Estágio na importação** (v2026.10.2) — a coluna `stage` usa o nome do estágio do funil escolhido
 - **Atribuir estágio em massa** (v2026.10.1) — proprietário e administrador classificam de uma vez quem ainda não tem estágio
 
-### Melhorias (3)
+### Melhorias (4)
+- **Meet só com a opção da agenda** (v2026.10.30) — o bloco de reunião some quando a agenda não gera Google Meet ao criar o agendamento
 - **Período De/Até no horário local** (v2026.10.27) — o último dia do filtro de anúncios cobre até 23:59 no fuso do navegador
 - **Pular clientes com tags** (v2026.10.20) — opção na exclusão automática; ligada, quem tem qualquer tag fica de fora
 - **Exclusão automática de clientes** (v2026.10.8) — cadastro antigo e sem conversa recente; quem conversou há pouco permanece

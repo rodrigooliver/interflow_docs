@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.30](/changelog/2026/10/2026.10.30) | 27/10 | **Chamar no WhatsApp** — o atalho do agendamento abre o WhatsApp pessoal no número do cliente | [Agenda](/guide/schedule/#chamar-no-whatsapp) |
 | [v2026.10.29](/changelog/2026/10/2026.10.29) | 27/10 | **Importar extrato** — CSV ou OFX no caixa, com revisão linha a linha | [Importar extrato](/guide/financial/import) |
 | [v2026.10.28](/changelog/2026/10/2026.10.28) | 23/10 | **Grupos nos filtros rápidos** — submenu de um nível; o grupo só abre, o item de dentro recorta a fila | [Filtros](/guide/chat/filters#grupos-nos-filtros-rapidos) |
 | [v2026.10.27](/changelog/2026/10/2026.10.27) | 23/10 | **Canal, filtros e preço nos clientes por anúncio** — agrupar por canal; filtrar por tag e canal; valor na lista | [UTM](/guide/utm/#clientes-por-anuncio) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.10.12](/changelog/2026/10/2026.10.12) | 07/10 | **Ditar** — a fala vira texto no chat e no copiloto | [Chat](/guide/chat/interface#ditar-transformar-em-texto) |
 | [v2026.10.11](/changelog/2026/10/2026.10.11) | 06/10 | **Gemini** — conversa, raciocínio e vozes, com chave própria ou créditos de IA | [Gemini](/guide/integrations/gemini) |
 | [v2026.10.10](/changelog/2026/10/2026.10.10) | 06/10 | **Controle das marcações** — uma batida de cada tipo por dia, status do dia e hora extra com autorização | [Ponto](/guide/hr/#controle-das-marcacoes) |
-| [v2026.10.9](/changelog/2026/10/2026.10.9) | 06/10 | **Catálogo de vozes** — ElevenLabs no saldo de créditos de IA | [Vozes](/guide/chat/system-voices#catalogo-interflow) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

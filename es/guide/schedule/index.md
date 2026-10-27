@@ -90,6 +90,12 @@ Para abrir la agenda completa de alguien que está en un grupo, marca **Ver toda
    - **Observaciones**: Notas internas
 3. Haz clic en **"Guardar"**
 
+### Llamar por WhatsApp
+
+Al editar la agenda, marque **WhatsApp directo del cliente**. La lista, el calendario y el menú de acciones de la cita muestran **Llamar por WhatsApp**. El clic abre el WhatsApp personal en el número registrado, con **Hola, {nombre}** ya escrito. No pasa por el canal de atención.
+
+El número debe incluir el código del país. Sin un teléfono válido, el botón no aparece.
+
 ### Cita vía Flujo
 
 Configura flujos automatizados para permitir que los clientes agenden directamente por WhatsApp u otros canales. La IA puede:

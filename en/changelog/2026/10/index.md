@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.30](/en/changelog/2026/10/2026.10.30) | 10/27 | **Call on WhatsApp** — the appointment shortcut opens personal WhatsApp on the customer's number |
 | [2026.10.29](/en/changelog/2026/10/2026.10.29) | 10/27 | **Import a statement** — CSV or OFX onto the register, line by line; a missing category can be registered on the spot |
 | [2026.10.28](/en/changelog/2026/10/2026.10.28) | 10/23 | **Groups on quick filters** — one-level submenu; the group only opens, the inner item cuts the queue |
 | [2026.10.27](/en/changelog/2026/10/2026.10.27) | 10/23 | **Channel, filters, and sale price on customers by ad** — group and filter by channel and tag; value column; local-time date range |
@@ -39,7 +40,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (30)
+### New Features (31)
+- **Call on WhatsApp** (v2026.10.30) — the appointment shortcut opens personal WhatsApp on the customer's number, with the greeting already filled in
 - **Import a statement** (v2026.10.29) — CSV or OFX onto the register, with review; a missing category can be registered and applied to matching lines
 - **Groups on quick filters** (v2026.10.28) — one-level submenu; the group only opens the menu; the inner item cuts the queue
 - **Channel, filters, and sale price on customers by ad** (v2026.10.27) — group and filter by channel and tag; value column on the detail and export
@@ -71,7 +73,8 @@ Updates for October 2026.
 - **Stage on import** (v2026.10.2) — the `stage` column uses the stage name in the chosen funnel
 - **Assign a stage in bulk** (v2026.10.1) — owners and admins classify at once people who still have no stage
 
-### Improvements (3)
+### Improvements (4)
+- **Meet only when the schedule creates it** (v2026.10.30) — the meeting block stays hidden unless the schedule generates Google Meet when the appointment is created
 - **From/To period in local time** (v2026.10.27) — the last day of the ads filter covers until 23:59 in the browser time zone
 - **Skip customers with tags** (v2026.10.20) — option in automatic deletion; on, anyone with any tag stays out
 - **Automatic customer deletion** (v2026.10.8) — old registration and no recent conversation; anyone who chatted recently stays

@@ -90,6 +90,12 @@ Para abrir a agenda inteira de alguém que está em um grupo, marque **Ver todos
    - **Observações**: Notas internas
 3. Clique em **"Salvar"**
 
+### Chamar no WhatsApp
+
+Na edição da agenda, marque **WhatsApp direto do cliente**. Na lista, no calendário e no menu de ações do compromisso aparece **Chamar no WhatsApp**. O clique abre o WhatsApp pessoal no número cadastrado, com a mensagem **Olá, {nome}** já preenchida. Não passa pelo canal de atendimento.
+
+O número precisa ter o código do país. Sem um telefone válido, o botão não aparece.
+
 ### Agendamento via Fluxo
 
 Configure fluxos automatizados para permitir que clientes agendem diretamente pelo WhatsApp ou outros canais. A IA pode:

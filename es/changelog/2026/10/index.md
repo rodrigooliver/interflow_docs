@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.30](/es/changelog/2026/10/2026.10.30) | 27/10 | **Llamar por WhatsApp** — el atajo de la cita abre el WhatsApp personal en el número del cliente |
 | [2026.10.29](/es/changelog/2026/10/2026.10.29) | 27/10 | **Importar extracto** — CSV u OFX en la caja, línea a línea; una categoría que falta se puede registrar en el momento |
 | [2026.10.28](/es/changelog/2026/10/2026.10.28) | 23/10 | **Grupos en los filtros rápidos** — submenú de un nivel; el grupo solo abre, el ítem de dentro recorta la cola |
 | [2026.10.27](/es/changelog/2026/10/2026.10.27) | 23/10 | **Canal, filtros y precio en clientes por anuncio** — agrupar y filtrar por canal y tag; columna de valor; período en horario local |
@@ -39,7 +40,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (30)
+### Nuevas Funcionalidades (31)
+- **Llamar por WhatsApp** (v2026.10.30) — el atajo de la cita abre el WhatsApp personal en el número del cliente, con el saludo ya escrito
 - **Importar extracto** (v2026.10.29) — CSV u OFX en la caja, con revisión; una categoría ausente se registra y se aplica a las líneas iguales
 - **Grupos en los filtros rápidos** (v2026.10.28) — submenú de un nivel; el grupo solo abre el menú; el ítem de dentro recorta la cola
 - **Canal, filtros y precio en clientes por anuncio** (v2026.10.27) — agrupar y filtrar por canal y tag; columna de valor en el detalle y en la exportación
@@ -71,7 +73,8 @@ Actualizaciones de octubre de 2026.
 - **Etapa en la importación** (v2026.10.2) — la columna `stage` usa el nombre de la etapa del embudo elegido
 - **Asignar etapa en masa** (v2026.10.1) — el propietario y el administrador clasifican de una vez a quien todavía no tiene etapa
 
-### Mejoras (3)
+### Mejoras (4)
+- **Meet solo si la agenda lo crea** (v2026.10.30) — el bloque de reunión queda oculto cuando la agenda no genera Google Meet al crear la cita
 - **Período Desde/Hasta en horario local** (v2026.10.27) — el último día del filtro de anuncios cubre hasta las 23:59 en la zona del navegador
 - **Omitir clientes con etiquetas** (v2026.10.20) — opción en la eliminación automática; activada, quien tenga cualquier etiqueta queda fuera
 - **Eliminación automática de clientes** (v2026.10.8) — registro antiguo y sin conversación reciente; quien conversó hace poco permanece
