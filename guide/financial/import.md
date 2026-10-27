@@ -13,9 +13,10 @@ O extrato do banco chega com datas e valores que podem já existir como conta a 
 ## Como importar
 
 1. Abra **Financeiro → Lançamentos** e clique em **Importar**
-2. Escolha o **caixa** e o arquivo (CSV ou OFX)
-3. Marque **Inverter sinais** só quando as compras vierem positivas, como em fatura de cartão
-4. Continue
+2. Escolha o **caixa**
+3. Baixe o **CSV de exemplo** se precisar do modelo, e só então envie o arquivo (CSV ou OFX)
+4. Marque **Inverter sinais** só quando as compras vierem positivas, como em fatura de cartão
+5. Continue
 
 ### CSV
 
@@ -27,7 +28,7 @@ Obrigatório:
 - **Descrição**
 - **Valor**, ou **débito** e **crédito** juntos
 
-Opcional: **número** do documento (NSU, cheque ou referência).
+Opcional: **número** do documento (NSU, cheque ou referência), **categoria** e **centro de custo**. Quando o nome da categoria já existe no cadastro, a linha chega preenchida.
 
 ### OFX
 
@@ -41,7 +42,11 @@ O OFX já traz data, descrição e valor. A tela pula as colunas e abre direto o
 | **Baixar pendente** | A linha quita uma conta em aberto. É preciso escolher qual |
 | **Pular** | A linha não deve ser gravada |
 
-Linhas novas exigem **categoria**. Dá para definir padrões do caixa (categoria de receita, categoria de despesa, centro de custo nas despesas e forma de pagamento) e **aplicar nas novas**. Cliente continua opcional em cada linha.
+Na revisão, categoria, centro de custo, método de pagamento e cliente ficam em colunas separadas. Se a tabela não couber na tela, role para o lado.
+
+Linhas novas exigem **categoria** (marcada com *). Centro de custo, método de pagamento e cliente são opcionais. Dá para definir padrões no topo (categoria de receita, categoria de despesa, centro de custo nas despesas e forma de pagamento) e **aplicar nas novas**. As categorias de padrão abrem em árvore, com busca: a subcategoria aparece recuada sob a categoria pai.
+
+Se o arquivo trouxer um nome de categoria que ainda não existe, a linha mostra **Não cadastrada** e o nome. **Cadastrar** cria essa categoria (receita ou despesa, conforme a linha) e preenche as outras linhas iguais que ainda estavam vazias.
 
 O sistema sugere a ação:
 
@@ -67,3 +72,4 @@ O que nasce como lançamento entra no extrato do caixa, com a data e o valor da 
 ## Voltar
 
 - [Financeiro — visão geral](/guide/financial/)
+- [Changelog v2026.10.29](/changelog/2026/10/2026.10.29)

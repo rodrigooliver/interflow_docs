@@ -6,6 +6,7 @@ Updates for October 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.10.29](/en/changelog/2026/10/2026.10.29) | 10/27 | **Import a statement** — CSV or OFX onto the register, line by line; a missing category can be registered on the spot |
 | [2026.10.28](/en/changelog/2026/10/2026.10.28) | 10/23 | **Groups on quick filters** — one-level submenu; the group only opens, the inner item cuts the queue |
 | [2026.10.27](/en/changelog/2026/10/2026.10.27) | 10/23 | **Channel, filters, and sale price on customers by ad** — group and filter by channel and tag; value column; local-time date range |
 | [2026.10.26](/en/changelog/2026/10/2026.10.26) | 10/23 | **Deleted message content** — the organization shows the original text in the history, faded, labeled as removed |
@@ -38,7 +39,8 @@ Updates for October 2026.
 
 ## Month summary
 
-### New Features (29)
+### New Features (30)
+- **Import a statement** (v2026.10.29) — CSV or OFX onto the register, with review; a missing category can be registered and applied to matching lines
 - **Groups on quick filters** (v2026.10.28) — one-level submenu; the group only opens the menu; the inner item cuts the queue
 - **Channel, filters, and sale price on customers by ad** (v2026.10.27) — group and filter by channel and tag; value column on the detail and export
 - **Deleted message content** (v2026.10.26) — the organization shows the original text in the history, faded, labeled as removed

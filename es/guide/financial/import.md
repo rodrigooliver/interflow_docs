@@ -13,9 +13,10 @@ El extracto del banco llega con fechas e importes que pueden existir ya como cue
 ## Cómo importar
 
 1. Abra **Financiero → Lanzamientos** y pulse **Importar**
-2. Elija la **caja** y el archivo (CSV u OFX)
-3. Marque **Invertir signos** solo cuando los cargos vengan positivos, como en un extracto de tarjeta
-4. Continúe
+2. Elija la **caja**
+3. Descargue el **CSV de ejemplo** si necesita el modelo y solo entonces envíe el archivo (CSV u OFX)
+4. Marque **Invertir signos** solo cuando los cargos vengan positivos, como en un extracto de tarjeta
+5. Continúe
 
 ### CSV
 
@@ -27,7 +28,7 @@ Obligatorio:
 - **Descripción**
 - **Importe**, o **débito** y **crédito** juntos
 
-Opcional: **número** del documento (NSU, cheque o referencia).
+Opcional: **número** del documento (NSU, cheque o referencia), **categoría** y **centro de coste**. Cuando el nombre de la categoría ya existe, la línea llega rellena.
 
 ### OFX
 
@@ -41,7 +42,11 @@ El OFX ya trae fecha, descripción e importe. La pantalla salta las columnas y a
 | **Liquidar pendiente** | La línea salda una cuenta abierta. Hay que elegir cuál |
 | **Omitir** | La línea no debe guardarse |
 
-Las líneas nuevas exigen **categoría**. Se pueden definir valores por defecto de la caja (categoría de ingreso, categoría de gasto, centro de coste en los gastos y método de pago) y **aplicarlos a las nuevas**. El cliente sigue siendo opcional en cada línea.
+En la revisión, categoría, centro de coste, método de pago y cliente quedan en columnas separadas. Si la tabla no cabe, desplácese hacia el lado.
+
+Las líneas nuevas exigen **categoría** (marcada con *). Centro de coste, método de pago y cliente son opcionales. Se pueden definir valores por defecto arriba (categoría de ingreso, categoría de gasto, centro de coste en los gastos y método de pago) y **aplicarlos a las nuevas**. Esas categorías se abren en árbol, con búsqueda: la subcategoría aparece sangrada bajo la categoría padre.
+
+Si el archivo trae un nombre de categoría que aún no existe, la línea muestra **No registrada** y el nombre. **Registrar** crea esa categoría (ingreso o gasto, según la línea) y completa las otras líneas iguales que seguían vacías.
 
 El sistema sugiere la acción:
 
@@ -67,3 +72,4 @@ Lo que nace como lanzamiento entra en el extracto de la caja, con la fecha y el 
 ## Volver
 
 - [Financiero — visión general](/es/guide/financial/)
+- [Changelog v2026.10.29](/es/changelog/2026/10/2026.10.29)

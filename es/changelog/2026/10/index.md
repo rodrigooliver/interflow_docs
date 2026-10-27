@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.29](/es/changelog/2026/10/2026.10.29) | 27/10 | **Importar extracto** — CSV u OFX en la caja, línea a línea; una categoría que falta se puede registrar en el momento |
 | [2026.10.28](/es/changelog/2026/10/2026.10.28) | 23/10 | **Grupos en los filtros rápidos** — submenú de un nivel; el grupo solo abre, el ítem de dentro recorta la cola |
 | [2026.10.27](/es/changelog/2026/10/2026.10.27) | 23/10 | **Canal, filtros y precio en clientes por anuncio** — agrupar y filtrar por canal y tag; columna de valor; período en horario local |
 | [2026.10.26](/es/changelog/2026/10/2026.10.26) | 23/10 | **Contenido de mensajes eliminados** — la organización muestra el texto original en el historial, desvanecido, con aviso de que fue borrado |
@@ -38,7 +39,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (29)
+### Nuevas Funcionalidades (30)
+- **Importar extracto** (v2026.10.29) — CSV u OFX en la caja, con revisión; una categoría ausente se registra y se aplica a las líneas iguales
 - **Grupos en los filtros rápidos** (v2026.10.28) — submenú de un nivel; el grupo solo abre el menú; el ítem de dentro recorta la cola
 - **Canal, filtros y precio en clientes por anuncio** (v2026.10.27) — agrupar y filtrar por canal y tag; columna de valor en el detalle y en la exportación
 - **Contenido de mensajes eliminados** (v2026.10.26) — la organización muestra el texto original en el historial, desvanecido, con aviso de que fue borrado
