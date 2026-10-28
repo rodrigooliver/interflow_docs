@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.10.36](/changelog/2026/10/2026.10.36) | 28/10 | **Comentários do Instagram** — resposta pública nos posts escolhidos e Direct automático só na primeira vez | [Instagram](/guide/channels/instagram#comentarios) |
 | [v2026.10.35](/changelog/2026/10/2026.10.35) | 27/10 | **Telegram Bot** — mensagens diretas e grupos de um bot na mesma caixa de entrada | [Telegram Bot](/guide/channels/telegram) |
 | [v2026.10.34](/changelog/2026/10/2026.10.34) | 27/10 | **Apelido do template oficial** — nome familiar só na Interflow; o texto enviado ao cliente não muda | [Templates](/guide/channels/whatsapp-templates#apelido) |
 | [v2026.10.33](/changelog/2026/10/2026.10.33) | 27/10 | **Exportar conversa** — o histórico completo em PDF, TXT, CSV ou JSON, no menu da conversa | [Chat](/guide/chat/interface#exportar-conversa) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.10.19](/changelog/2026/10/2026.10.19) | 14/10 | **Campos no Pixel** — o evento do Facebook leva campo do cliente ou UTM; abas Offline e WhatsApp | [Clientes](/guide/crm/customers) |
 | [v2026.10.17](/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tabelas da organização em Configurações, com colunas, páginas, views e formulários | [Bases](/guide/settings/bases) |
 | [v2026.10.15](/changelog/2026/10/2026.10.15) | 07/10 | **Origem do anúncio no Agente IA** — o fluxo já sabe quando a pessoa veio de um anúncio do Facebook ou Instagram | [Agentes de IA](/guide/ai-agents/) |
-| [v2026.10.14](/changelog/2026/10/2026.10.14) | 07/10 | **Excluir mensagens selecionadas** — administrador e proprietário apagam várias de uma vez, só na Interflow | [Chat](/guide/chat/interface#excluir-mensagens-selecionadas) |
 [Ver todas as releases de outubro →](/changelog/2026/10/)
 
 ## Onde navegar

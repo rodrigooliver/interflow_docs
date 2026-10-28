@@ -25,7 +25,7 @@ Interflow soporta múltiples canales de comunicación, permitiendo que centralic
 
 | Integración | Descripción |
 |------------|-----------|
-| [Instagram Direct](/es/guide/channels/instagram) | Mensajes directos de Instagram |
+| [Instagram Direct](/es/guide/channels/instagram) | Mensajes directos y comentarios de las publicaciones elegidas |
 
 ### Facebook
 

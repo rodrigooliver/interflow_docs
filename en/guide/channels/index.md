@@ -25,7 +25,7 @@ Interflow supports multiple communication channels, allowing you to centralize a
 
 | Integration | Description |
 |------------|-----------|
-| [Instagram Direct](/en/guide/channels/instagram) | Instagram direct messages |
+| [Instagram Direct](/en/guide/channels/instagram) | Direct messages and comments on the chosen posts |
 
 ### Facebook
 

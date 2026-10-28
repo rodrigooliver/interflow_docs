@@ -6,6 +6,7 @@ Actualizaciones de octubre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.10.36](/es/changelog/2026/10/2026.10.36) | 28/10 | **Comentarios de Instagram** — respuesta pública en las publicaciones elegidas y Direct automático solo la primera vez |
 | [2026.10.35](/es/changelog/2026/10/2026.10.35) | 27/10 | **Telegram Bot** — mensajes directos y grupos de un bot en la misma bandeja |
 | [2026.10.34](/es/changelog/2026/10/2026.10.34) | 27/10 | **Apodo de la plantilla oficial** — nombre familiar solo en Interflow; el texto enviado al cliente no cambia |
 | [2026.10.33](/es/changelog/2026/10/2026.10.33) | 27/10 | **Exportar conversación** — el historial completo en PDF, TXT, CSV o JSON, en el menú de la conversación |
@@ -45,7 +46,8 @@ Actualizaciones de octubre de 2026.
 
 ## Resumen del mes
 
-### Nuevas Funcionalidades (36)
+### Nuevas Funcionalidades (37)
+- **Comentarios de Instagram** (v2026.10.36) — respuesta pública en las publicaciones elegidas; Direct automático solo la primera vez; la conversación solo abre si la persona responde
 - **Telegram Bot** (v2026.10.35) — mensajes directos y grupos de un bot en la misma bandeja
 - **Apodo de la plantilla oficial** (v2026.10.34) — nombre familiar solo en Interflow; el texto enviado al cliente no cambia
 - **Exportar conversación** (v2026.10.33) — el historial completo en PDF, TXT, CSV o JSON, en el menú de la conversación

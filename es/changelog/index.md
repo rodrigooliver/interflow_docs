@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.10.36](/es/changelog/2026/10/2026.10.36) | 28/10 | **Comentarios de Instagram** — respuesta pública en las publicaciones elegidas y Direct automático solo la primera vez | [Instagram](/es/guide/channels/instagram#comentarios) |
 | [v2026.10.35](/es/changelog/2026/10/2026.10.35) | 27/10 | **Telegram Bot** — mensajes directos y grupos de un bot en la misma bandeja | [Telegram Bot](/es/guide/channels/telegram) |
 | [v2026.10.34](/es/changelog/2026/10/2026.10.34) | 27/10 | **Apodo de la plantilla oficial** — nombre familiar solo en Interflow; el texto enviado al cliente no cambia | [Plantillas](/es/guide/channels/whatsapp-templates#apodo) |
 | [v2026.10.33](/es/changelog/2026/10/2026.10.33) | 27/10 | **Exportar conversación** — el historial completo en PDF, TXT, CSV o JSON, en el menú de la conversación | [Chat](/es/guide/chat/interface#exportar-conversacion) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.10.19](/es/changelog/2026/10/2026.10.19) | 14/10 | **Campos en el Pixel** — el evento de Facebook lleva un campo del cliente o UTM; pestañas Offline y WhatsApp | [Clientes](/es/guide/crm/customers) |
 | [v2026.10.17](/es/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tablas de la organización en Configuración, con columnas, páginas, vistas y formularios | [Bases](/es/guide/settings/bases) |
 | [v2026.10.15](/es/changelog/2026/10/2026.10.15) | 07/10 | **Origen del anuncio en el Agente IA** — el flujo ya sabe cuándo la persona vino de un anuncio de Facebook o Instagram | [Agentes de IA](/es/guide/ai-agents/) |
-| [v2026.10.14](/es/changelog/2026/10/2026.10.14) | 07/10 | **Eliminar mensajes seleccionados** — administrador y propietario borran varios a la vez, solo en Interflow | [Chat](/es/guide/chat/interface#eliminar-mensajes-seleccionados) |
 [Ver todas las releases de octubre →](/es/changelog/2026/10/)
 
 ## Dónde navegar

@@ -90,6 +90,18 @@ Quando um seguidor responde ao seu Story:
 2. O Story é exibido como contexto
 3. Você pode responder normalmente
 
+## Comments {#comments}
+
+The channel can also reply to comments on the posts you choose. A comment does not become a conversation. The inbox opens only if the person replies to the Direct sent the first time.
+
+1. Reconnect the channel and allow comments
+2. In the channel header, open **Posts** and choose the posts
+3. On each post, the keyword and the AI decision are optional and only turn the automation on or off
+4. The public reply and the Direct can be ready text or generated text. In ready text, use `{{comment_text}}` and `{{username}}`
+5. **View comments** opens the thread. **Unanswered** shows only other people's comments with no reply from us
+6. **Reply** sends another public reply and keeps the earlier ones. A manual reply does not send a Direct
+7. The paper-plane icon shows the automatic Direct text, which happens only once
+
 ## Solução de Problemas
 
 ### Canal não conecta

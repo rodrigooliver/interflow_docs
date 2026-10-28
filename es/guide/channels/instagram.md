@@ -90,6 +90,18 @@ Quando um seguidor responde ao seu Story:
 2. O Story é exibido como contexto
 3. Você pode responder normalmente
 
+## Comentarios {#comentarios}
+
+El canal también puede responder comentarios de las publicaciones que elija. El comentario no se vuelve conversación. La bandeja solo abre si la persona responde al Direct enviado la primera vez.
+
+1. Reconecte el canal y autorice comentarios
+2. En el encabezado del canal, abra **Posts** y elija las publicaciones
+3. En cada publicación, la palabra clave y la decisión por IA son opcionales y solo encienden o apagan la automatización
+4. La respuesta pública y el Direct pueden ser texto listo o texto generado. En el texto listo, use `{{comment_text}}` y `{{username}}`
+5. **Ver comentarios** abre el hilo. **No respondidos** muestra solo comentarios de otras personas sin respuesta nuestra
+6. **Responder** envía otra respuesta pública y mantiene las anteriores. La respuesta manual no manda Direct
+7. El icono del avión muestra el texto del Direct automático, que ocurre solo una vez
+
 ## Solução de Problemas
 
 ### Canal não conecta

@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.10.36](/en/changelog/2026/10/2026.10.36) | Oct 28 | **Instagram comments** — a public reply on the chosen posts and an automatic Direct only the first time | [Instagram](/en/guide/channels/instagram#comments) |
 | [v2026.10.35](/en/changelog/2026/10/2026.10.35) | Oct 27 | **Telegram Bot** — direct messages and groups from a bot in the same inbox | [Telegram Bot](/en/guide/channels/telegram) |
 | [v2026.10.34](/en/changelog/2026/10/2026.10.34) | Oct 27 | **Official template nickname** — a familiar name only inside Interflow; the text sent to the customer stays the same | [Templates](/en/guide/channels/whatsapp-templates#nickname) |
 | [v2026.10.33](/en/changelog/2026/10/2026.10.33) | Oct 27 | **Export a conversation** — the full history as PDF, TXT, CSV, or JSON, from the conversation menu | [Chat](/en/guide/chat/interface#export-a-conversation) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.19](/en/changelog/2026/10/2026.10.19) | Oct 14 | **Pixel fields** — the Facebook event carries a customer field or UTM; Offline and WhatsApp tabs | [Customers](/en/guide/crm/customers) |
 | [v2026.10.17](/en/changelog/2026/10/2026.10.17) | Oct 14 | **Bases** — organization tables in Settings, with columns, pages, views, and forms | [Bases](/en/guide/settings/bases) |
 | [v2026.10.15](/en/changelog/2026/10/2026.10.15) | Oct 7 | **Ad origin in the AI Agent** — the flow already knows when someone came from a Facebook or Instagram ad | [AI Agents](/en/guide/ai-agents/) |
-| [v2026.10.14](/en/changelog/2026/10/2026.10.14) | Oct 7 | **Delete selected messages** — admins and owners remove several at once, only inside Interflow | [Chat](/en/guide/chat/interface#delete-selected-messages) |
 [See all October releases →](/en/changelog/2026/10/)
 
 ## Where to browse

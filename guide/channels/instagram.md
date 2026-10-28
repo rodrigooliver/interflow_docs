@@ -90,6 +90,18 @@ Quando um seguidor responde ao seu Story:
 2. O Story é exibido como contexto
 3. Você pode responder normalmente
 
+## Comentários {#comentarios}
+
+O canal também pode responder comentários dos posts que você escolher. O comentário não vira conversa. A caixa de entrada só abre se a pessoa responder o Direct enviado na primeira vez.
+
+1. Reconecte o canal e autorize comentários
+2. No cabeçalho do canal, abra **Posts** e escolha os posts
+3. Em cada post, palavra-chave e decisão por IA são opcionais e só ligam ou desligam a automação
+4. A resposta pública e o Direct podem ser texto pronto ou texto gerado. No texto pronto, use `{{comment_text}}` e `{{username}}`
+5. **Ver comentários** abre a thread. **Não respondidos** mostra só comentários de outras pessoas sem resposta nossa
+6. **Responder** envia outra resposta pública e mantém as anteriores. A resposta manual não manda Direct
+7. O ícone de avião mostra o texto do Direct automático, que só acontece uma vez
+
 ## Solução de Problemas
 
 ### Canal não conecta
