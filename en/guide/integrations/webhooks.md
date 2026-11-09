@@ -44,7 +44,14 @@ Every POST uses the same envelope: `id`, `event`, `created_at`, `organization_id
     "name": "Ana Souza",
     "email": "ana@example.com",
     "phone": "5511999999999",
+    "document": "123.456.789-00",
+    "country": "BR",
+    "person_type": "individual",
+    "customer_kind": "lead",
+    "sale_price": 1500,
     "stage_id": "uuid",
+    "tags": [{ "id": "uuid", "name": "Hot" }],
+    "custom_fields": { "company": "Ana Ltda", "role": "Director" },
     "utm_campaign_id": "uuid",
     "utm_campaign_ad_id": "uuid",
     "ad_source_id": "120210000000000001",
@@ -62,7 +69,7 @@ Every POST uses the same envelope: `id`, `event`, `created_at`, `organization_id
 }
 ```
 
-Leaving the funnel sets `stage.id` and `stage.name` to `null`. The `customer` above is a WhatsApp click-to-ad. `utm_campaign_id` and `utm_campaign_ad_id` are Interflow ids. `ad_source_id` matches `utm_metadata.sourceID`. Without an ad, those fields and `utm_metadata` are `null`. Other events reuse the same `customer` object.
+Leaving the funnel sets `stage.id` and `stage.name` to `null`. The `customer` above is a WhatsApp click-to-ad. `utm_campaign_id` and `utm_campaign_ad_id` are Interflow ids. `ad_source_id` matches `utm_metadata.sourceID`. Without an ad, those fields and `utm_metadata` are `null`. `custom_fields` is `slug: value`. `tags` lists labels. `sale_price` is the sale price. `document` is the tax id. `country` is the country code. Other events reuse the same `customer` object.
 
 ### `customer.created`
 

@@ -36,7 +36,7 @@ Todos los POST usan `id`, `event`, `created_at`, `organization_id` y `data`. `cu
 }
 ```
 
-Al salir del embudo, `stage.id` y `stage.name` vienen `null`. Un clic en anuncio de WhatsApp llena `utm_metadata` con `sourceID`, `sourceType`, `sourceURL`, `adTitle`, `adBody`, `mediaType`, `ctwaClid` y `showAdAttribution`. `ad_source_id` repite `sourceID`. `utm_campaign_id` y `utm_campaign_ad_id` son ids internos. Sin anuncio, esos campos y `utm_metadata` vienen `null`.
+Al salir del embudo, `stage.id` y `stage.name` vienen `null`. Un clic en anuncio de WhatsApp llena `utm_metadata` con `sourceID`, `sourceType`, `sourceURL`, `adTitle`, `adBody`, `mediaType`, `ctwaClid` y `showAdAttribution`. `ad_source_id` repite `sourceID`. `utm_campaign_id` y `utm_campaign_ad_id` son ids internos. Sin anuncio, esos campos y `utm_metadata` vienen `null`. `customer` también trae `document`, `country`, `person_type` (`individual` o `company`), `customer_kind` (`lead` o `client`), `sale_price`, `tags` y `custom_fields` (`slug: valor`).
 
 ### `customer.created`
 
