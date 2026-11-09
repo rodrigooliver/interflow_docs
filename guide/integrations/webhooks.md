@@ -272,4 +272,6 @@ Use o corpo exatamente como chegou, antes de interpretar o JSON.
 
 ## Resposta, retentativas e logs
 
+Lançamento: [v2026.11.1](/changelog/2026/11/2026.11.1).
+
 Responda `2xx` em até 10 segundos. A Interflow tenta até 5 vezes: na hora, e depois de 1 minuto, 10 minutos, 1 hora e 6 horas. HTTP `4xx` (exceto `408` e `429`) encerra na primeira falha. Cada tentativa, com sucesso ou erro, fica registrada por 90 dias. Em **Entregas** você vê o status, o HTTP, a resposta e pode **Reenviar**, o que cria uma entrega nova com o mesmo payload.

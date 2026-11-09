@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.11.1](/changelog/2026/11/2026.11.1) | 09/11 | **Webhooks de saída** — a organização envia eventos para a própria URL, com HMAC opcional e histórico de tentativas | [Webhooks](/guide/integrations/webhooks) |
 | [v2026.10.36](/changelog/2026/10/2026.10.36) | 28/10 | **Comentários do Instagram** — resposta pública nos posts escolhidos e Direct automático só na primeira vez | [Instagram](/guide/channels/instagram#comentarios) |
 | [v2026.10.35](/changelog/2026/10/2026.10.35) | 27/10 | **Telegram Bot** — mensagens diretas e grupos de um bot na mesma caixa de entrada | [Telegram Bot](/guide/channels/telegram) |
 | [v2026.10.34](/changelog/2026/10/2026.10.34) | 27/10 | **Apelido do template oficial** — nome familiar só na Interflow; o texto enviado ao cliente não muda | [Templates](/guide/channels/whatsapp-templates#apelido) |
@@ -29,14 +30,13 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.10.20](/changelog/2026/10/2026.10.20) | 14/10 | **Pular clientes com tags** — opção na exclusão automática; ligada, quem tem qualquer tag fica de fora | |
 | [v2026.10.19](/changelog/2026/10/2026.10.19) | 14/10 | **Campos no Pixel** — o evento do Facebook leva campo do cliente ou UTM; abas Offline e WhatsApp | [Clientes](/guide/crm/customers) |
 | [v2026.10.17](/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tabelas da organização em Configurações, com colunas, páginas, views e formulários | [Bases](/guide/settings/bases) |
-| [v2026.10.15](/changelog/2026/10/2026.10.15) | 07/10 | **Origem do anúncio no Agente IA** — o fluxo já sabe quando a pessoa veio de um anúncio do Facebook ou Instagram | [Agentes de IA](/guide/ai-agents/) |
-[Ver todas as releases de outubro →](/changelog/2026/10/)
+[Ver todas as releases de novembro →](/changelog/2026/11/)
 
 ## Onde navegar
 
 | Destino | Conteúdo |
 |---------|----------|
-| [Outubro 2026](/changelog/2026/10/) | Mês atual |
+| [Novembro 2026](/changelog/2026/11/) | Mês atual |
 | [2026](/changelog/2026/) | Todos os meses do ano |
 | [2025](/changelog/2025/) | Histórico do ano anterior |
 | [Roadmap](/changelog/roadmap) | O que está planejado |
