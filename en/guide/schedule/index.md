@@ -90,6 +90,12 @@ To open the full schedule for someone in a group, check **See all appointments**
    - **Notes**: Internal notes
 3. Click **"Save"**
 
+### Person being served
+
+In the schedule editor, under rules, turn on **Identify the person being served**. The booking stays on the conversation's customer. **Person being served** stores who will attend, for example the child when a parent books the time.
+
+With the option on, the same contact can hold overlapping times for different people. The same name still occupies the slot. The Agent IA scheduling tool asks for that name only on this schedule.
+
 ### Call on WhatsApp
 
 When editing the schedule, turn on **Direct customer WhatsApp**. The list, the calendar, and the appointment actions menu then show **Call on WhatsApp**. The click opens personal WhatsApp on the saved number, with **Hello, {name}** already filled in. It does not go through the support channel.
@@ -224,6 +230,8 @@ AI can manage appointments naturally:
 2. **Create appointment**: "I want to book for Thursday at 2pm"
 3. **Reschedule**: "I need to change my appointment to next week"
 4. **Cancel**: "I need to cancel my appointment"
+
+If the schedule has **Identify the person being served**, the tool also asks for the name of who will attend.
 
 ### AI Respects Time-offs
 

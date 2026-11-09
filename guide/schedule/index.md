@@ -90,6 +90,12 @@ Para abrir a agenda inteira de alguém que está em um grupo, marque **Ver todos
    - **Observações**: Notas internas
 3. Clique em **"Salvar"**
 
+### Pessoa atendida
+
+Na edição da agenda, em regras, marque **Identificar pessoa atendida**. O compromisso continua no cliente da conversa. O campo **Pessoa atendida** guarda quem vai comparecer, por exemplo o filho quando a mãe marca o horário.
+
+Com a opção ligada, o mesmo contato pode ter horários sobrepostos para pessoas diferentes. O mesmo nome continua ocupando o horário. A ferramenta de agendamento do Agente IA só pede esse nome nessa agenda.
+
 ### Chamar no WhatsApp
 
 Na edição da agenda, marque **WhatsApp direto do cliente**. Na lista, no calendário e no menu de ações do compromisso aparece **Chamar no WhatsApp**. O clique abre o WhatsApp pessoal no número cadastrado, com a mensagem **Olá, {nome}** já preenchida. Não passa pelo canal de atendimento.
@@ -260,6 +266,8 @@ A IA pode gerenciar agendamentos de forma natural:
 2. **Criar agendamento**: "Quero marcar para quinta às 14h"
 3. **Reagendar**: "Preciso mudar minha consulta para semana que vem"
 4. **Cancelar**: "Preciso cancelar meu horário"
+
+Se a agenda tiver **Identificar pessoa atendida**, a ferramenta também pede o nome de quem vai comparecer.
 
 ### Configurando a IA para Agendamentos
 

@@ -221,6 +221,15 @@ If you use WhatsApp Official (Meta API), configure a WAHA auxiliary channel to o
 3. The full message input appears (text, files, audio, emoji)
 4. The message is sent via WAHA and recorded normally in the chat history
 
+### Auxiliary channel as the default send
+
+With the auxiliary channel connected, turn on **Use the auxiliary channel by default** in the official channel's **WAHA auxiliary channel** section. The option starts off.
+
+1. Opening the conversation already sets the footer switch to **Auxiliary**, even while the 24-hour window is open
+2. Later messages in that conversation stay on the auxiliary channel
+3. **Official** in that conversation lasts only until you leave it; the next conversation follows the channel default again
+4. The AI, flows, and scheduled messages follow the same option. Templates stay on the official channel
+
 ::: tip Note
 The auxiliary channel **doesn't appear in the general channel listing** — it's only visible inside the official channel settings.
 :::

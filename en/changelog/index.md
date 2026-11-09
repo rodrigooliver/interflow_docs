@@ -10,6 +10,8 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.11.3](/en/changelog/2026/11/2026.11.3) | Nov 9 | **Auxiliary channel as the default** — attendant replies go out on the auxiliary channel even while the 24-hour window is open | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha#auxiliary-channel-for-whatsapp-official) |
+| [v2026.11.2](/en/changelog/2026/11/2026.11.2) | Nov 9 | **Person being served** — name of who will attend, separate from the conversation customer, on the schedule and in the AI tool | [Schedule](/en/guide/schedule/#person-being-served) |
 | [v2026.11.1](/en/changelog/2026/11/2026.11.1) | Nov 9 | **Outbound webhooks** — the organization sends events to its own URL, with optional HMAC and an attempt history | [Webhooks](/en/guide/integrations/webhooks) |
 | [v2026.10.36](/en/changelog/2026/10/2026.10.36) | Oct 28 | **Instagram comments** — a public reply on the chosen posts and an automatic Direct only the first time | [Instagram](/en/guide/channels/instagram#comments) |
 | [v2026.10.35](/en/changelog/2026/10/2026.10.35) | Oct 27 | **Telegram Bot** — direct messages and groups from a bot in the same inbox | [Telegram Bot](/en/guide/channels/telegram) |
@@ -28,8 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.22](/en/changelog/2026/10/2026.10.22) | Oct 14 | **Conversations on the dashboard** — the quick-filter list, on the same screen as tasks and appointments | |
 | [v2026.10.21](/en/changelog/2026/10/2026.10.21) | Oct 14 | **Stage requirements** — the lead enters only when the fields and tasks on the Requirements tab are met | [Funnels](/en/guide/crm/funnels#entry-requirements) |
 | [v2026.10.20](/en/changelog/2026/10/2026.10.20) | Oct 14 | **Skip customers with tags** — option in automatic deletion; on, anyone with any tag stays out | |
-| [v2026.10.19](/en/changelog/2026/10/2026.10.19) | Oct 14 | **Pixel fields** — the Facebook event carries a customer field or UTM; Offline and WhatsApp tabs | [Customers](/en/guide/crm/customers) |
-| [v2026.10.17](/en/changelog/2026/10/2026.10.17) | Oct 14 | **Bases** — organization tables in Settings, with columns, pages, views, and forms | [Bases](/en/guide/settings/bases) |
 [See all November releases →](/en/changelog/2026/11/)
 
 ## Where to browse

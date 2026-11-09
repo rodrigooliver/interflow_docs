@@ -90,6 +90,12 @@ Para abrir la agenda completa de alguien que está en un grupo, marca **Ver toda
    - **Observaciones**: Notas internas
 3. Haz clic en **"Guardar"**
 
+### Persona atendida
+
+En la edición de la agenda, en reglas, marca **Identificar persona atendida**. La cita sigue en el cliente de la conversación. **Persona atendida** guarda quién va a asistir, por ejemplo el hijo cuando la madre reserva el horario.
+
+Con la opción activa, el mismo contacto puede tener horarios superpuestos para personas distintas. El mismo nombre sigue ocupando el horario. La herramienta de citas del Agente IA solo pide ese nombre en esta agenda.
+
 ### Llamar por WhatsApp
 
 Al editar la agenda, marque **WhatsApp directo del cliente**. La lista, el calendario y el menú de acciones de la cita muestran **Llamar por WhatsApp**. El clic abre el WhatsApp personal en el número registrado, con **Hola, {nombre}** ya escrito. No pasa por el canal de atención.
@@ -224,6 +230,8 @@ La IA puede gestionar citas de forma natural:
 2. **Crear cita**: "Quiero marcar para el jueves a las 14h"
 3. **Reagendar**: "Necesito cambiar mi cita para la próxima semana"
 4. **Cancelar**: "Necesito cancelar mi horario"
+
+Si la agenda tiene **Identificar persona atendida**, la herramienta también pide el nombre de quien va a asistir.
 
 ### IA Respeta Descansos
 

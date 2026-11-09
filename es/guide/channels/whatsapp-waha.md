@@ -217,6 +217,15 @@ Si usas WhatsApp Official (API Meta), configura un canal WAHA auxiliar para supe
 3. El input completo de mensajes aparece (texto, archivos, audio, emoji)
 4. El mensaje se envía por WAHA y se registra normalmente en el historial
 
+### Envío por defecto en el auxiliar
+
+Con el auxiliar conectado, marque **Usar el canal auxiliar por defecto** en la sección **Canal auxiliar WAHA** del canal oficial. La opción empieza apagada.
+
+1. Al abrir la conversación, el selector del pie ya queda en **Auxiliar**, aunque la ventana de 24 horas esté abierta
+2. Los mensajes siguientes de esa conversación siguen en el auxiliar
+3. **Oficial** en esa conversación vale solo hasta salir de ella; la siguiente vuelve al valor por defecto del canal
+4. La IA, los flujos y los mensajes programados siguen la misma opción. Las plantillas continúan en el canal oficial
+
 ::: tip Nota
 El canal auxiliar **no aparece en el listado general** de canales — solo es visible dentro de la configuración del canal official.
 :::

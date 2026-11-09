@@ -10,6 +10,8 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.11.3](/es/changelog/2026/11/2026.11.3) | 09/11 | **Canal auxiliar por defecto** — las respuestas del agente salen por el auxiliar aunque la ventana de 24 horas esté abierta | [WhatsApp WAHA](/es/guide/channels/whatsapp-waha#canal-auxiliar-para-whatsapp-official) |
+| [v2026.11.2](/es/changelog/2026/11/2026.11.2) | 09/11 | **Persona atendida** — nombre de quien va a asistir, aparte del cliente de la conversación, en la agenda y en la herramienta de la IA | [Agenda](/es/guide/schedule/#persona-atendida) |
 | [v2026.11.1](/es/changelog/2026/11/2026.11.1) | 09/11 | **Webhooks de salida** — la organización envía eventos a su propia URL, con HMAC opcional e historial de intentos | [Webhooks](/es/guide/integrations/webhooks) |
 | [v2026.10.36](/es/changelog/2026/10/2026.10.36) | 28/10 | **Comentarios de Instagram** — respuesta pública en las publicaciones elegidas y Direct automático solo la primera vez | [Instagram](/es/guide/channels/instagram#comentarios) |
 | [v2026.10.35](/es/changelog/2026/10/2026.10.35) | 27/10 | **Telegram Bot** — mensajes directos y grupos de un bot en la misma bandeja | [Telegram Bot](/es/guide/channels/telegram) |
@@ -28,8 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.10.22](/es/changelog/2026/10/2026.10.22) | 14/10 | **Conversaciones en el panel** — la lista del filtro rápido, en la misma pantalla que las tareas y las citas | |
 | [v2026.10.21](/es/changelog/2026/10/2026.10.21) | 14/10 | **Requisitos de la etapa** — el lead solo entra si los campos y las tareas de la pestaña Requisitos están listos | [Embudos](/es/guide/crm/funnels#requisitos-de-entrada) |
 | [v2026.10.20](/es/changelog/2026/10/2026.10.20) | 14/10 | **Omitir clientes con etiquetas** — opción en la eliminación automática; activada, quien tenga cualquier etiqueta queda fuera | |
-| [v2026.10.19](/es/changelog/2026/10/2026.10.19) | 14/10 | **Campos en el Pixel** — el evento de Facebook lleva un campo del cliente o UTM; pestañas Offline y WhatsApp | [Clientes](/es/guide/crm/customers) |
-| [v2026.10.17](/es/changelog/2026/10/2026.10.17) | 14/10 | **Bases** — tablas de la organización en Configuración, con columnas, páginas, vistas y formularios | [Bases](/es/guide/settings/bases) |
 [Ver todas las releases de noviembre →](/es/changelog/2026/11/)
 
 ## Dónde navegar
