@@ -227,7 +227,8 @@ function getSidebar(lang: string = '') {
           { text: 'Minimax', link: `${prefix}/guide/integrations/minimax` },
           { text: 'Firecrawl', link: `${prefix}/guide/integrations/firecrawl` },
           { text: 'AWS S3', link: `${prefix}/guide/integrations/s3` },
-          { text: lang === 'en' ? 'API Keys' : lang === 'es' ? 'Claves de API' : 'Chaves de API', link: `${prefix}/guide/integrations/api-keys` }
+          { text: lang === 'en' ? 'API Keys' : lang === 'es' ? 'Claves de API' : 'Chaves de API', link: `${prefix}/guide/integrations/api-keys` },
+          { text: 'Webhooks', link: `${prefix}/guide/integrations/webhooks` }
         ]
       },
       {
