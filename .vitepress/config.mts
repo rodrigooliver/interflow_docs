@@ -161,6 +161,13 @@ function getSidebar(lang: string = '') {
         ]
       },
       {
+        text: lang === 'en' ? 'Buses' : lang === 'es' ? 'Autobuses' : 'Ônibus',
+        collapsed: false,
+        items: [
+          { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Visión general' : 'Visão geral', link: `${prefix}/guide/bus/` },
+        ]
+      },
+      {
         text: lang === 'en' ? 'Schedule' : lang === 'es' ? 'Agenda' : 'Agenda',
         collapsed: false,
         items: [
@@ -392,6 +399,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/11/` },
+              { text: 'v2026.11.5', link: `${prefix}/changelog/2026/11/2026.11.5` },
               { text: 'v2026.11.4', link: `${prefix}/changelog/2026/11/2026.11.4` },
               { text: 'v2026.11.3', link: `${prefix}/changelog/2026/11/2026.11.3` },
               { text: 'v2026.11.2', link: `${prefix}/changelog/2026/11/2026.11.2` },

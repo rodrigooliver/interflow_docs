@@ -10,6 +10,7 @@ Las **20 releases más recientes** (la más nueva primero):
 
 | Versión | Fecha | Destacado | Más info |
 |---------|-------|-----------|----------|
+| [v2026.11.5](/es/changelog/2026/11/2026.11.5) | 10/11 | **Mapa de asientos** — dibujo del autobús, viaje y reserva ligada al cliente | [Autobuses](/es/guide/bus/) |
 | [v2026.11.4](/es/changelog/2026/11/2026.11.4) | 10/11 | **Evaluaciones de chats finalizados** — nota, comentario y quién quedó sin evaluar, en Informes | [Informes](/es/guide/reports/#evaluaciones-de-chats-finalizados) |
 | [v2026.11.3](/es/changelog/2026/11/2026.11.3) | 09/11 | **Canal auxiliar por defecto** — las respuestas del agente salen por el auxiliar aunque la ventana de 24 horas esté abierta | [WhatsApp WAHA](/es/guide/channels/whatsapp-waha#canal-auxiliar-para-whatsapp-official) |
 | [v2026.11.2](/es/changelog/2026/11/2026.11.2) | 09/11 | **Persona atendida** — nombre de quien va a asistir, aparte del cliente de la conversación, en la agenda y en la herramienta de la IA | [Agenda](/es/guide/schedule/#persona-atendida) |
@@ -29,7 +30,6 @@ Las **20 releases más recientes** (la más nueva primero):
 | [v2026.10.24](/es/changelog/2026/10/2026.10.24) | 14/10 | **Citas solo del profesional** — quien no ve todas se queda en sus propios compromisos | [Agenda](/es/guide/schedule/#quien-ve-las-citas) |
 | [v2026.10.23](/es/changelog/2026/10/2026.10.23) | 14/10 | **Observación y cobro judicializado** — nota interna y selector de proceso judicial en el contrato; etiqueta Judicial en la lista | |
 | [v2026.10.22](/es/changelog/2026/10/2026.10.22) | 14/10 | **Conversaciones en el panel** — la lista del filtro rápido, en la misma pantalla que las tareas y las citas | |
-| [v2026.10.21](/es/changelog/2026/10/2026.10.21) | 14/10 | **Requisitos de la etapa** — el lead solo entra si los campos y las tareas de la pestaña Requisitos están listos | [Embudos](/es/guide/crm/funnels#requisitos-de-entrada) |
 [Ver todas las releases de noviembre →](/es/changelog/2026/11/)
 
 ## Dónde navegar

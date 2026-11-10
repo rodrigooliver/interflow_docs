@@ -6,6 +6,7 @@ Actualizaciones de noviembre de 2026.
 
 | Versión | Fecha | Destacados |
 |---------|-------|------------|
+| [2026.11.5](/es/changelog/2026/11/2026.11.5) | 10/11 | **Mapa de asientos** — dibujo del autobús, viaje y reserva ligada al cliente |
 | [2026.11.4](/es/changelog/2026/11/2026.11.4) | 10/11 | **Evaluaciones de chats finalizados** — nota, comentario y quién quedó sin evaluar, en Informes |
 | [2026.11.3](/es/changelog/2026/11/2026.11.3) | 09/11 | **Canal auxiliar por defecto** — las respuestas del agente salen por el auxiliar aunque la ventana de 24 horas esté abierta |
 | [2026.11.2](/es/changelog/2026/11/2026.11.2) | 09/11 | **Persona atendida** — nombre de quien va a asistir, aparte del cliente de la conversación, en la agenda y en la herramienta de la IA |
@@ -13,7 +14,8 @@ Actualizaciones de noviembre de 2026.
 
 ## Resumen del mes
 
-### Nuevas funcionalidades (4)
+### Nuevas funcionalidades (5)
+- **Mapa de asientos** (v2026.11.5) — dibujo del autobús, viaje y reserva ligada al cliente
 - **Evaluaciones de chats finalizados** (v2026.11.4) — nota, comentario y cobertura de la evaluación en Informes
 - **Canal auxiliar por defecto** (v2026.11.3) — envío por el auxiliar aunque la ventana de 24 horas esté abierta
 - **Persona atendida** (v2026.11.2) — nombre de quien asiste, aparte del cliente de la conversación |
@@ -21,4 +23,4 @@ Actualizaciones de noviembre de 2026.
 
 ---
 
-**Total**: 4 lanzamientos, 4 funcionalidades
+**Total**: 5 lanzamientos, 5 funcionalidades
