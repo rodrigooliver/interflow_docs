@@ -110,6 +110,19 @@ Acompanhe a produtividade da equipe com dados de volume de mensagens por atenden
 
 Ambos os relatórios oferecem seleção de período flexível, gráfico de barras ou linhas, filtro por atendente/equipe e impressão profissional.
 
+## Avaliações de chats finalizados {#avaliacoes-de-chats-finalizados}
+
+Lista os atendimentos encerrados no período e a nota de 1 a 5 quando o cliente avaliou. Sem avaliação, a nota fica em branco. O comentário aparece na mesma linha.
+
+1. Abra **Relatórios**
+2. Escolha **Avaliações de chats finalizados**
+3. Selecione hoje, 7 dias, 30 dias ou um intervalo
+4. Filtre por equipe, atendente e por todos, só avaliados ou só sem avaliação
+5. O resumo mostra total, com nota, sem nota, média e a distribuição de 1 a 5
+6. Exporte em CSV se precisar da lista fora da tela
+
+Grupos internos não entram. A nota vem do fluxo de avaliação. O acesso é o mesmo dos outros relatórios: dono, administrador e gerente.
+
 ## Tempo médio de resposta {#tempo-medio-de-resposta}
 
 A média da equipe continua no dashboard. Este relatório mostra a média de cada atendente.

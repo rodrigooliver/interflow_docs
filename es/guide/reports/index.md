@@ -93,6 +93,19 @@ Haz seguimiento a la productividad del equipo con datos de volumen de mensajes p
 
 Ambos reportes ofrecen selección de período flexible, gráfico de barras o líneas, filtro por agente/equipo e impresión profesional.
 
+## Evaluaciones de chats finalizados {#evaluaciones-de-chats-finalizados}
+
+Lista las atenciones cerradas en el período y la nota de 1 a 5 cuando el cliente evaluó. Sin evaluación, la nota queda en blanco. El comentario aparece en la misma fila.
+
+1. Abra **Informes**
+2. Elija **Evaluaciones de chats finalizados**
+3. Seleccione hoy, 7 días, 30 días o un intervalo
+4. Filtre por equipo, agente y por todos, solo evaluados o solo sin evaluación
+5. El resumen muestra el total, con nota, sin nota, el promedio y la distribución de 1 a 5
+6. Exporte en CSV si necesita la lista fuera de la pantalla
+
+Los grupos internos no entran. La nota viene del flujo de evaluación. El acceso es el mismo de los demás informes: dueño, administrador y gerente.
+
 ## Tiempo medio de respuesta {#tiempo-medio-de-respuesta}
 
 El promedio del equipo sigue en el panel. Este informe muestra el promedio de cada agente.

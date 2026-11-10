@@ -392,6 +392,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/11/` },
+              { text: 'v2026.11.4', link: `${prefix}/changelog/2026/11/2026.11.4` },
               { text: 'v2026.11.3', link: `${prefix}/changelog/2026/11/2026.11.3` },
               { text: 'v2026.11.2', link: `${prefix}/changelog/2026/11/2026.11.2` },
               { text: 'v2026.11.1', link: `${prefix}/changelog/2026/11/2026.11.1` },

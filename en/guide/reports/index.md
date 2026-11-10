@@ -93,6 +93,19 @@ Track team productivity with message volume data by agent and by team.
 
 Both reports offer flexible period selection, bar or line chart, filter by agent/team, and professional printing.
 
+## Ratings of closed chats {#ratings-of-closed-chats}
+
+Lists conversations closed in the period and the 1-to-5 score when the customer rated them. Without a rating, the score stays blank. The comment appears on the same row.
+
+1. Open **Reports**
+2. Choose **Ratings of closed chats**
+3. Select today, 7 days, 30 days, or a custom range
+4. Filter by team, agent, and by all, rated only, or unrated only
+5. The summary shows the total, rated, unrated, average, and the spread from 1 to 5
+6. Export CSV if you need the list outside the screen
+
+Internal groups are left out. The score comes from the rating flow. Access matches the other reports: owner, administrator, and manager.
+
 ## Average response time {#average-response-time}
 
 The team average stays on the dashboard. This report shows each agent's average.

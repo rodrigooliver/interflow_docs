@@ -10,6 +10,7 @@ As **20 releases mais recentes** (mais nova primeiro):
 
 | Versão | Data | Destaque | Saiba mais |
 |--------|------|----------|------------|
+| [v2026.11.4](/changelog/2026/11/2026.11.4) | 10/11 | **Avaliações de chats finalizados** — nota, comentário e quem ficou sem avaliar, em Relatórios | [Relatórios](/guide/reports/#avaliacoes-de-chats-finalizados) |
 | [v2026.11.3](/changelog/2026/11/2026.11.3) | 09/11 | **Canal auxiliar como padrão** — respostas do atendente saem pelo auxiliar mesmo com a janela de 24 horas aberta | [WhatsApp WAHA](/guide/channels/whatsapp-waha#canal-auxiliar-para-whatsapp-official) |
 | [v2026.11.2](/changelog/2026/11/2026.11.2) | 09/11 | **Pessoa atendida** — nome de quem vai comparecer, separado do cliente da conversa, na agenda e na ferramenta da IA | [Agenda](/guide/schedule/#pessoa-atendida) |
 | [v2026.11.1](/changelog/2026/11/2026.11.1) | 09/11 | **Webhooks de saída** — a organização envia eventos para a própria URL, com HMAC opcional e histórico de tentativas | [Webhooks](/guide/integrations/webhooks) |
@@ -29,7 +30,6 @@ As **20 releases mais recentes** (mais nova primeiro):
 | [v2026.10.23](/changelog/2026/10/2026.10.23) | 14/10 | **Observação e cobrança judicializada** — nota interna e seletor de processo judicial no contrato; selo Judicial na lista | |
 | [v2026.10.22](/changelog/2026/10/2026.10.22) | 14/10 | **Conversas no dashboard** — a lista do filtro rápido, na mesma tela das tarefas e dos agendamentos | |
 | [v2026.10.21](/changelog/2026/10/2026.10.21) | 14/10 | **Requisitos do estágio** — o lead só entra se os campos e as tarefas da aba Requisitos estiverem ok | [Funis](/guide/crm/funnels#requisitos-de-entrada) |
-| [v2026.10.20](/changelog/2026/10/2026.10.20) | 14/10 | **Pular clientes com tags** — opção na exclusão automática; ligada, quem tem qualquer tag fica de fora | |
 [Ver todas as releases de novembro →](/changelog/2026/11/)
 
 ## Onde navegar
