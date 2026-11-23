@@ -10,6 +10,7 @@ The **20 most recent releases** (newest first):
 
 | Version | Date | Highlight | Learn more |
 |---------|------|-----------|------------|
+| [v2026.11.6](/en/changelog/2026/11/2026.11.6) | Nov 23 | **Shared folder** — the team uploads, organizes, and opens support files in one place | [Shared folder](/en/guide/files/shared-folder) |
 | [v2026.11.5](/en/changelog/2026/11/2026.11.5) | Nov 10 | **Bus seat map** — draw the bus, open a trip, and hold a seat for a customer | [Buses](/en/guide/bus/) |
 | [v2026.11.4](/en/changelog/2026/11/2026.11.4) | Nov 10 | **Ratings of closed chats** — score, comment, and who did not rate, in Reports | [Reports](/en/guide/reports/#ratings-of-closed-chats) |
 | [v2026.11.3](/en/changelog/2026/11/2026.11.3) | Nov 9 | **Auxiliary channel as the default** — attendant replies go out on the auxiliary channel even while the 24-hour window is open | [WhatsApp WAHA](/en/guide/channels/whatsapp-waha#auxiliary-channel-for-whatsapp-official) |
@@ -29,7 +30,6 @@ The **20 most recent releases** (newest first):
 | [v2026.10.25](/en/changelog/2026/10/2026.10.25) | Oct 14 | **Average response time by agent** — each person's average for the period, in Reports | [Reports](/en/guide/reports/#average-response-time) |
 | [v2026.10.24](/en/changelog/2026/10/2026.10.24) | Oct 14 | **Appointments for the professional only** — anyone who cannot see all stays on their own bookings | [Schedule](/en/guide/schedule/#who-sees-appointments) |
 | [v2026.10.23](/en/changelog/2026/10/2026.10.23) | Oct 14 | **Notes and a charge in legal proceedings** — internal note and legal-proceedings selector on the contract; Legal badge on the list | |
-| [v2026.10.22](/en/changelog/2026/10/2026.10.22) | Oct 14 | **Conversations on the dashboard** — the quick-filter list, on the same screen as tasks and appointments | |
 [See all November releases →](/en/changelog/2026/11/)
 
 ## Where to browse

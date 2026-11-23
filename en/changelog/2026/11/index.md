@@ -6,6 +6,7 @@ Updates for November 2026.
 
 | Version | Date | Highlights |
 |---------|------|------------|
+| [2026.11.6](/en/changelog/2026/11/2026.11.6) | 11/23 | **Shared folder** — the team uploads, organizes, and opens support files in one place |
 | [2026.11.5](/en/changelog/2026/11/2026.11.5) | 11/10 | **Bus seat map** — draw the bus, open a trip, and hold a seat for a customer |
 | [2026.11.4](/en/changelog/2026/11/2026.11.4) | 11/10 | **Ratings of closed chats** — score, comment, and who did not rate, in Reports |
 | [2026.11.3](/en/changelog/2026/11/2026.11.3) | 11/09 | **Auxiliary channel as the default** — attendant replies go out on the auxiliary channel even while the 24-hour window is open |
@@ -14,7 +15,8 @@ Updates for November 2026.
 
 ## Month summary
 
-### New features (5)
+### New features (6)
+- **Shared folder** (v2026.11.6) — the team uploads, organizes, and opens support files in one place
 - **Bus seat map** (v2026.11.5) — draw the bus, open a trip, and hold a seat for a customer
 - **Ratings of closed chats** (v2026.11.4) — score, comment, and rating coverage in Reports
 - **Auxiliary channel as the default** (v2026.11.3) — send via the auxiliary channel even while the 24-hour window is open
@@ -23,4 +25,4 @@ Updates for November 2026.
 
 ---
 
-**Total**: 5 releases, 5 features
+**Total**: 6 releases, 6 features

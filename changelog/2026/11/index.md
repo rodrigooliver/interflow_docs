@@ -6,6 +6,7 @@ Atualizações do mês de novembro de 2026.
 
 | Versão | Data | Destaques |
 |--------|------|-----------|
+| [2026.11.6](/changelog/2026/11/2026.11.6) | 23/11 | **Pasta compartilhada** — a equipe envia, organiza e abre arquivos do atendimento no mesmo lugar |
 | [2026.11.5](/changelog/2026/11/2026.11.5) | 10/11 | **Mapa de poltronas** — desenho do ônibus, viagem e reserva ligada ao cliente |
 | [2026.11.4](/changelog/2026/11/2026.11.4) | 10/11 | **Avaliações de chats finalizados** — nota, comentário e quem ficou sem avaliar, em Relatórios |
 | [2026.11.3](/changelog/2026/11/2026.11.3) | 09/11 | **Canal auxiliar como padrão** — respostas do atendente saem pelo auxiliar mesmo com a janela de 24 horas aberta |
@@ -14,7 +15,8 @@ Atualizações do mês de novembro de 2026.
 
 ## Resumo do Mês
 
-### Novas Funcionalidades (5)
+### Novas Funcionalidades (6)
+- **Pasta compartilhada** (v2026.11.6) — a equipe envia, organiza e abre arquivos do atendimento no mesmo lugar
 - **Mapa de poltronas** (v2026.11.5) — desenho do ônibus, viagem e reserva ligada ao cliente
 - **Avaliações de chats finalizados** (v2026.11.4) — nota, comentário e cobertura da avaliação em Relatórios
 - **Canal auxiliar como padrão** (v2026.11.3) — envio pelo auxiliar mesmo com a janela de 24 horas aberta
@@ -23,4 +25,4 @@ Atualizações do mês de novembro de 2026.
 
 ---
 
-**Total**: 5 releases, 5 funcionalidades
+**Total**: 6 releases, 6 funcionalidades

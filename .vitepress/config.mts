@@ -50,6 +50,7 @@ function getSidebar(lang: string = '') {
         collapsed: false,
         items: [
           { text: lang === 'en' ? 'Chat Interface' : lang === 'es' ? 'Interfaz de Chat' : 'Interface de Chat', link: `${prefix}/guide/chat/interface` },
+          { text: lang === 'en' ? 'Shared folder' : lang === 'es' ? 'Carpeta compartida' : 'Pasta compartilhada', link: `${prefix}/guide/files/shared-folder` },
           { text: lang === 'en' ? 'Conversation filters' : lang === 'es' ? 'Filtros de conversaciones' : 'Filtros de conversas', link: `${prefix}/guide/chat/filters` },
           { text: lang === 'en' ? 'WhatsApp group notifications' : lang === 'es' ? 'Notificaciones de grupos de WhatsApp' : 'Notificações de grupos do WhatsApp', link: `${prefix}/guide/chat/whatsapp-group-notifications` },
           { text: lang === 'en' ? 'Online / Away status' : lang === 'es' ? 'Estado En línea / Ausente' : 'Status Online / Ausente', link: `${prefix}/guide/chat/agent-away` },
@@ -399,6 +400,7 @@ function getSidebar(lang: string = '') {
             collapsed: false,
             items: [
               { text: lang === 'en' ? 'Overview' : lang === 'es' ? 'Resumen' : 'Resumo', link: `${prefix}/changelog/2026/11/` },
+              { text: 'v2026.11.6', link: `${prefix}/changelog/2026/11/2026.11.6` },
               { text: 'v2026.11.5', link: `${prefix}/changelog/2026/11/2026.11.5` },
               { text: 'v2026.11.4', link: `${prefix}/changelog/2026/11/2026.11.4` },
               { text: 'v2026.11.3', link: `${prefix}/changelog/2026/11/2026.11.3` },
